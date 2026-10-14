@@ -4,7 +4,7 @@
 
 已上传至[lijing666743/LJ](https://github.com/lijing666743/LJ)。固定回溯标签为 **`baseline-c32k-20261014`**，实验基线提交为`0363361458c6aa072b7227403cf90a4dac7d5c37`。
 
-[同标签Release](https://github.com/lijing666743/LJ/releases/tag/baseline-c32k-20261014)已公开保存四个完整恢复包及两份校验清单；六份资产的远端大小与SHA256均已核对。本地源码、训练状态与原Git身份保持不变，未启动训练。
+[同标签Release](https://github.com/lijing666743/LJ/releases/tag/baseline-c32k-20261014)已公开保存四个完整恢复包及两份校验清单；六份资产的远端大小与SHA256均已核对。下载链接已按正式发布后的标签地址复核。本地源码、训练状态与原Git身份保持不变，未启动训练。
 
 本次验证通过79项测试及8项子测试、C 28k零步进完整状态恢复检查、269份归档成员核验，以及512份冻结实验输入核验。[远端保存回执](metadata/audits/baseline_save/20261014_c32k/remote_save_receipt.json)记录实际发布内容；恢复操作见[保存与回溯说明](docs/reproduction/RESTORE_BASELINE.md)。
 
