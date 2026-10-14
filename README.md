@@ -1,5 +1,13 @@
 # 多UAV协同卸载：当前 A/B/C 可复现版本
 
+## 云端保存完成（2026-10-14）
+
+已上传至[lijing666743/LJ](https://github.com/lijing666743/LJ)。固定回溯标签为 **`baseline-c32k-20261014`**，实验基线提交为`0363361458c6aa072b7227403cf90a4dac7d5c37`。
+
+[同标签Release](https://github.com/lijing666743/LJ/releases/tag/baseline-c32k-20261014)已公开保存四个完整恢复包及两份校验清单；六份资产的远端大小与SHA256均已核对。本地源码、训练状态与原Git身份保持不变，未启动训练。
+
+本次验证通过79项测试及8项子测试、C 28k零步进完整状态恢复检查、269份归档成员核验，以及512份冻结实验输入核验。[远端保存回执](metadata/audits/baseline_save/20261014_c32k/remote_save_receipt.json)记录实际发布内容；恢复操作见[保存与回溯说明](docs/reproduction/RESTORE_BASELINE.md)。
+
 本次回溯基线标识为 **`baseline-c32k-20261014`**，目标仓库为[lijing666743/LJ](https://github.com/lijing666743/LJ)。源码/紧凑结果通过Git标签保存，完整模型和原始运行资料通过同标签Release保存。[保存与回溯说明](docs/reproduction/RESTORE_BASELINE.md)解释恢复边界；原实验工作区Git身份保留，继续实验不需切换到发布提交。发布结果以实际提交、标签及Release核验为准。
 
 
@@ -13,7 +21,7 @@
 
 C仍计划继续训练，8k/16k/32k模型、全部中期checkpoint、训练侧日志、配置与两层重放核对记录完整保留。后续预算与恢复命令需另行核验；本轮不启动训练。seeds43/44尚无正式结果，C32k也不能与A/B16k直接用于同预算方法排名。
 
-本次只整理本地项目。用户提供的GitHub仓库仅做只读目录参考，上传目标由用户之后提供；尚未提交或推送。
+**上传前整理阶段记录（历史）：**本次只整理本地项目。用户提供的GitHub仓库仅做只读目录参考，上传目标由用户之后提供；尚未提交或推送。
 
 ## 原8k发布版本摘要（历史记录）
 
