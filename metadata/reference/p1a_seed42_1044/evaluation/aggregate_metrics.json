@@ -1,0 +1,592 @@
+{
+  "evaluation_run_id": "development-service-eval__remote_stress_v2__chk-d303878ed57d__cfg-2e7a1dd6b92d__eval-302b95721c5e",
+  "evaluation_schema_version": "formal_evaluation.v1",
+  "method_suite": [
+    "ca_gat_mappo",
+    "local_only",
+    "heuristic",
+    "random"
+  ],
+  "methods": {
+    "ca_gat_mappo": {
+      "episode_count": 1,
+      "evaluation_seeds": [
+        1044
+      ],
+      "metrics": {
+        "backlog_final_tasks": {
+          "mean": 5.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "backlog_max_tasks": {
+          "mean": 14.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "backlog_mean_tasks": {
+          "mean": 5.004,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "completed": {
+          "mean": 94.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "completed_task_e2e_delay_s": {
+          "mean": 0.36723404255319153,
+          "std": 0.24072321996088913,
+          "valid_sample_count": 94
+        },
+        "completion_component": {
+          "mean": 94.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "completion_ratio": {
+          "mean": 0.8034188034188035,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "cpu_energy_j": {
+          "mean": 46.23699081725263,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "energy_penalty": {
+          "mean": 0.02257528323202021,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "energy_per_completed_task_j": {
+          "mean": 0.5028924698424196,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "executor_downgrade": {
+          "mean": 0.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "executor_rejection": {
+          "mean": 38.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "expiration_penalty": {
+          "mean": 19.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "expiration_ratio": {
+          "mean": 0.1623931623931624,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "expired": {
+          "mean": 19.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "generated": {
+          "mean": 117.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "outage_denominator": {
+          "mean": 173.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "outage_numerator": {
+          "mean": 0.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "outage_rate": {
+          "mean": 0.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "total_energy_j": {
+          "mean": 47.271892165187445,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "total_reward": {
+          "mean": 69.63241863141643,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "truncated": {
+          "mean": 4.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "truncation_ratio": {
+          "mean": 0.03418803418803419,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "tx_energy_j": {
+          "mean": 1.0349013479348128,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "workload_penalty": {
+          "mean": 5.345006085351552,
+          "std": 0.0,
+          "valid_sample_count": 1
+        }
+      },
+      "pooled": {
+        "completed": 94,
+        "completion_ratio": 0.8034188034188035,
+        "expiration_ratio": 0.1623931623931624,
+        "expired": 19,
+        "generated": 117,
+        "outage_denominator": 173,
+        "outage_numerator": 0,
+        "outage_rate": 0.0,
+        "truncated": 4,
+        "truncation_ratio": 0.03418803418803419
+      }
+    },
+    "heuristic": {
+      "episode_count": 1,
+      "evaluation_seeds": [
+        1044
+      ],
+      "metrics": {
+        "backlog_final_tasks": {
+          "mean": 5.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "backlog_max_tasks": {
+          "mean": 15.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "backlog_mean_tasks": {
+          "mean": 6.698,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "completed": {
+          "mean": 92.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "completed_task_e2e_delay_s": {
+          "mean": 0.5395652173913044,
+          "std": 0.35072568570929774,
+          "valid_sample_count": 92
+        },
+        "completion_component": {
+          "mean": 92.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "completion_ratio": {
+          "mean": 0.7863247863247863,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "cpu_energy_j": {
+          "mean": 30.271979603422142,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "energy_penalty": {
+          "mean": 0.01455650732233682,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "energy_per_completed_task_j": {
+          "mean": 0.3313135015132028,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "executor_downgrade": {
+          "mean": 0.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "executor_rejection": {
+          "mean": 1.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "expiration_penalty": {
+          "mean": 20.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "expiration_ratio": {
+          "mean": 0.17094017094017094,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "expired": {
+          "mean": 20.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "generated": {
+          "mean": 117.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "outage_denominator": {
+          "mean": 29.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "outage_numerator": {
+          "mean": 0.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "outage_rate": {
+          "mean": 0.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "total_energy_j": {
+          "mean": 30.480842139214662,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "total_reward": {
+          "mean": 64.87518873227835,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "truncated": {
+          "mean": 5.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "truncation_ratio": {
+          "mean": 0.042735042735042736,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "tx_energy_j": {
+          "mean": 0.20886253579251873,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "workload_penalty": {
+          "mean": 7.110254760399315,
+          "std": 0.0,
+          "valid_sample_count": 1
+        }
+      },
+      "pooled": {
+        "completed": 92,
+        "completion_ratio": 0.7863247863247863,
+        "expiration_ratio": 0.17094017094017094,
+        "expired": 20,
+        "generated": 117,
+        "outage_denominator": 29,
+        "outage_numerator": 0,
+        "outage_rate": 0.0,
+        "truncated": 5,
+        "truncation_ratio": 0.042735042735042736
+      }
+    },
+    "local_only": {
+      "episode_count": 1,
+      "evaluation_seeds": [
+        1044
+      ],
+      "metrics": {
+        "backlog_final_tasks": {
+          "mean": 4.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "backlog_max_tasks": {
+          "mean": 16.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "backlog_mean_tasks": {
+          "mean": 6.604,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "completed": {
+          "mean": 70.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "completed_task_e2e_delay_s": {
+          "mean": 0.3982857142857143,
+          "std": 0.26862066417997293,
+          "valid_sample_count": 70
+        },
+        "completion_component": {
+          "mean": 70.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "completion_ratio": {
+          "mean": 0.5982905982905983,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "cpu_energy_j": {
+          "mean": 22.756094527359735,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "energy_penalty": {
+          "mean": 0.010867457503384961,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "energy_per_completed_task_j": {
+          "mean": 0.32508706467656767,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "executor_downgrade": {
+          "mean": 0.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "executor_rejection": {
+          "mean": 0.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "expiration_penalty": {
+          "mean": 43.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "expiration_ratio": {
+          "mean": 0.36752136752136755,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "expired": {
+          "mean": 43.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "generated": {
+          "mean": 117.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "outage_denominator": {
+          "mean": 0.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "outage_numerator": {
+          "mean": 0.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "outage_rate": {
+          "mean": null,
+          "std": null,
+          "valid_sample_count": 0
+        },
+        "total_energy_j": {
+          "mean": 22.756094527359735,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "total_reward": {
+          "mean": 16.676614335868326,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "truncated": {
+          "mean": 4.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "truncation_ratio": {
+          "mean": 0.03418803418803419,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "tx_energy_j": {
+          "mean": 0.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "workload_penalty": {
+          "mean": 10.312518206628289,
+          "std": 0.0,
+          "valid_sample_count": 1
+        }
+      },
+      "pooled": {
+        "completed": 70,
+        "completion_ratio": 0.5982905982905983,
+        "expiration_ratio": 0.36752136752136755,
+        "expired": 43,
+        "generated": 117,
+        "outage_denominator": 0,
+        "outage_numerator": 0,
+        "outage_rate": null,
+        "truncated": 4,
+        "truncation_ratio": 0.03418803418803419
+      }
+    },
+    "random": {
+      "episode_count": 1,
+      "evaluation_seeds": [
+        1044
+      ],
+      "metrics": {
+        "backlog_final_tasks": {
+          "mean": 8.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "backlog_max_tasks": {
+          "mean": 20.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "backlog_mean_tasks": {
+          "mean": 8.34,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "completed": {
+          "mean": 6.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "completed_task_e2e_delay_s": {
+          "mean": 0.5299999999999999,
+          "std": 0.4404164695679155,
+          "valid_sample_count": 6
+        },
+        "completion_component": {
+          "mean": 6.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "completion_ratio": {
+          "mean": 0.05128205128205128,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "cpu_energy_j": {
+          "mean": 12.522562237548204,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "energy_penalty": {
+          "mean": 0.006420853282377456,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "energy_per_completed_task_j": {
+          "mean": 2.2408421993610803,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "executor_downgrade": {
+          "mean": 0.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "executor_rejection": {
+          "mean": 21.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "expiration_penalty": {
+          "mean": 104.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "expiration_ratio": {
+          "mean": 0.8888888888888888,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "expired": {
+          "mean": 104.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "generated": {
+          "mean": 117.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "outage_denominator": {
+          "mean": 137.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "outage_numerator": {
+          "mean": 2.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "outage_rate": {
+          "mean": 0.014598540145985401,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "total_energy_j": {
+          "mean": 13.445053196166482,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "total_reward": {
+          "mean": -114.47805523769559,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "truncated": {
+          "mean": 7.0,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "truncation_ratio": {
+          "mean": 0.05982905982905983,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "tx_energy_j": {
+          "mean": 0.9224909586182776,
+          "std": 0.0,
+          "valid_sample_count": 1
+        },
+        "workload_penalty": {
+          "mean": 16.4716343844132,
+          "std": 0.0,
+          "valid_sample_count": 1
+        }
+      },
+      "pooled": {
+        "completed": 6,
+        "completion_ratio": 0.05128205128205128,
+        "expiration_ratio": 0.8888888888888888,
+        "expired": 104,
+        "generated": 117,
+        "outage_denominator": 137,
+        "outage_numerator": 2,
+        "outage_rate": 0.014598540145985401,
+        "truncated": 7,
+        "truncation_ratio": 0.05982905982905983
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-13",
+  "task_type": "literature_reading_and_figure_audit",
+  "status": "document_and_source_checks_passed",
+  "not_an_experiment_result": true,
+  "source_records": [
+    {
+      "source_pdf": "C:\\Users\\李静\\Desktop\\文献\\参考文献及说明\\1.pdf",
+      "sha256": "c563a478fa8c6dfcb0ad9c41caaef9ba85e60409e9efb28e0f238fb2da114672",
+      "page_count": 13,
+      "doi_found_in_pdf_and_notes": "10.1109/TC.2024.3483636",
+      "numbered_figures_reviewed": 6
+    },
+    {
+      "source_pdf": "C:\\Users\\李静\\Desktop\\文献\\参考文献及说明\\2.pdf",
+      "sha256": "f832d4318e6f9fe3f7124b17d33bca4d0d2d8d4f52bef441d7c28716cad9a811",
+      "page_count": 13,
+      "doi_found_in_pdf_and_notes": "10.1109/TC.2025.3604463",
+      "numbered_figures_reviewed": 6
+    },
+    {
+      "source_pdf": "C:\\Users\\李静\\Desktop\\文献\\参考文献及说明\\3.pdf",
+      "sha256": "1bba68fcc0b646b7e517f75b38cade298ff0f9500f6ac6c7ef0cacf672ac5987",
+      "page_count": 14,
+      "doi_found_in_pdf_and_notes": "10.1109/TMC.2025.3635085",
+      "numbered_figures_reviewed": 11
+    },
+    {
+      "source_pdf": "C:\\Users\\李静\\Desktop\\文献\\参考文献及说明\\4.pdf",
+      "sha256": "c7be24b39429499289d7cd0bff846f60ce85781ec6a75fdc5640d71d17c56876",
+      "page_count": 18,
+      "doi_found_in_pdf_and_notes": "10.1109/TMC.2026.3726021",
+      "numbered_figures_reviewed": 11
+    },
+    {
+      "source_pdf": "C:\\Users\\李静\\Desktop\\文献\\参考文献及说明\\5.pdf",
+      "sha256": "2f537a0ae695444faf80fe4d1932f9074f4c68941d21bd1a263c94ba3f4f0b88",
+      "page_count": 15,
+      "doi_found_in_pdf_and_notes": "10.1109/TMC.2024.3350078",
+      "numbered_figures_reviewed": 8
+    },
+    {
+      "source_pdf": "C:\\Users\\李静\\Desktop\\文献\\参考文献及说明\\6.pdf",
+      "sha256": "360c19cffcef17be67d573d16a252205875ddc8c8ef051b9dde7d4adf26044c1",
+      "page_count": 13,
+      "doi_found_in_pdf_and_notes": "10.1109/TWC.2023.3277801",
+      "numbered_figures_reviewed": 8
+    },
+    {
+      "source_pdf": "C:\\Users\\李静\\Desktop\\文献\\参考文献及说明\\8.pdf",
+      "sha256": "bb319f9085d0a28e7b8ef597d6a9bafb7ff979fc048eab96a3f46c824a3f4c2c",
+      "page_count": 18,
+      "doi_found_in_pdf_and_notes": "10.1109/TMC.2024.3446819",
+      "numbered_figures_reviewed": 6
+    }
+  ],
+  "rendered_pages": [
+    "plots\\literature_review_20261013\\paper_1_p10.png",
+    "plots\\literature_review_20261013\\paper_1_p11.png",
+    "plots\\literature_review_20261013\\paper_1_p3.png",
+    "plots\\literature_review_20261013\\paper_1_p6.png",
+    "plots\\literature_review_20261013\\paper_2_p10.png",
+    "plots\\literature_review_20261013\\paper_2_p11.png",
+    "plots\\literature_review_20261013\\paper_2_p12.png",
+    "plots\\literature_review_20261013\\paper_2_p4.png",
+    "plots\\literature_review_20261013\\paper_3_p10.png",
+    "plots\\literature_review_20261013\\paper_3_p11.png",
+    "plots\\literature_review_20261013\\paper_3_p12.png",
+    "plots\\literature_review_20261013\\paper_3_p13.png",
+    "plots\\literature_review_20261013\\paper_3_p3.png",
+    "plots\\literature_review_20261013\\paper_3_p5.png",
+    "plots\\literature_review_20261013\\paper_3_p6.png",
+    "plots\\literature_review_20261013\\paper_4_p13.png",
+    "plots\\literature_review_20261013\\paper_4_p14.png",
+    "plots\\literature_review_20261013\\paper_4_p15.png",
+    "plots\\literature_review_20261013\\paper_4_p16.png",
+    "plots\\literature_review_20261013\\paper_4_p17.png",
+    "plots\\literature_review_20261013\\paper_4_p3.png",
+    "plots\\literature_review_20261013\\paper_4_p8.png",
+    "plots\\literature_review_20261013\\paper_5_p10.png",
+    "plots\\literature_review_20261013\\paper_5_p11.png",
+    "plots\\literature_review_20261013\\paper_5_p12.png",
+    "plots\\literature_review_20261013\\paper_5_p13.png",
+    "plots\\literature_review_20261013\\paper_5_p14.png",
+    "plots\\literature_review_20261013\\paper_5_p3.png",
+    "plots\\literature_review_20261013\\paper_6_p10.png",
+    "plots\\literature_review_20261013\\paper_6_p11.png",
+    "plots\\literature_review_20261013\\paper_6_p12.png",
+    "plots\\literature_review_20261013\\paper_6_p4.png",
+    "plots\\literature_review_20261013\\paper_6_p5.png",
+    "plots\\literature_review_20261013\\paper_8_p13.png",
+    "plots\\literature_review_20261013\\paper_8_p14.png",
+    "plots\\literature_review_20261013\\paper_8_p15.png",
+    "plots\\literature_review_20261013\\paper_8_p4.png"
+  ],
+  "rendered_page_count": 37,
+  "numbered_figure_count": 56,
+  "candidate_figure_groups": 10,
+  "notes": "D:\\My_project_li\\sections\\literature_reading_and_figure_notes_20261013.md",
+  "notes_sha256": "91217bd0e13f9cf9e8ea965c485ede8317a613cce44850dfbdf126d725ab02f0",
+  "training_started": false,
+  "evaluation_started": false,
+  "code_or_config_changes_by_this_task": false,
+  "protected_directories_modified_by_this_task": false,
+  "verification_scope": "PDF text/DOI/page sequence, rendered PNG integrity, candidate inventory, README link and existing data-interface paths; no implementation tests or experiment-quality claims"
+}

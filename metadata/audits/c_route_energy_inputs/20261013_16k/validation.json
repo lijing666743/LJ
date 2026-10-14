@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "frozen_inputs_checked": 289,
+  "frozen_input_hashes_unchanged": true,
+  "existing_route_decisions_crosschecked_against_TX_and_outage_records": 604,
+  "attempted_link_gates_checked": 10000,
+  "attempted_links": 511,
+  "reconstructed_public_refresh_records": 511,
+  "matched_selected_decisions": 32,
+  "partial_scalar_extractor_cases": 32,
+  "scalar_fields_checked_per_case": 4,
+  "zero_neighbor_energy_mask_independence_cases": 32,
+  "formal_training_started": false,
+  "environment_steps_executed": 0,
+  "new_evaluation_episodes": 0,
+  "actor_forward_calls": 0,
+  "optimizer_steps": 0,
+  "source_or_config_changed": false,
+  "held_out_used": false,
+  "interpretation": "No production module was added. Original experiment artifacts were read only; reconstruction and pure scalar feature operations do not generate new experimental outcomes.",
+  "export_crosschecks": {
+    "CSV_rows": 32,
+    "unique_matched_decisions": 32,
+    "published_energy_match_count": 30,
+    "negative_full_frequency_margin_count": 32,
+    "below_minimum_frequency_completion_bound_count": 31,
+    "final_input_hash_check": true
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "schema": "task_allocation.step02_validation.v1",
+  "verified_at_utc": "2026-10-12T04:53:27.709682+00:00",
+  "status": "PASS",
+  "claim_boundary": "Step02 identity/probability/visibility interface only; new scorer and learning integration remain pending, efficacy unknown.",
+  "checks": {
+    "new_interface_35_cases_pass": true,
+    "affected_module_plus_interface_retest_pass": true,
+    "sole_broad_regression_failure_resolved_by_explicit_reserved_mode_test": true,
+    "production_source_unchanged_between_broad_and_retest": true,
+    "three_historical_actor_critic_strict_loads": true,
+    "initial_state_and_old_forward_fingerprints_unchanged": true,
+    "loaded_opt_in_readout_fingerprints_unchanged": true,
+    "P1a_canonical_config_hash_unchanged": true,
+    "unified_mode_still_refused": true,
+    "only_four_authorized_existing_paths_changed": true,
+    "other_210_protected_paths_unchanged": true,
+    "own_changes_separated_from_preexisting_dirty_source_by_inverse_checksum": true,
+    "README_and_plan_progress_updated": true
+  },
+  "existing_manifest_file_count": 214,
+  "authorized_changed_existing_paths": [
+    "src/config.py",
+    "src/models/ca_gat_mappo.py",
+    "src/models/ca_gat_mappo_actions.py",
+    "tests/test_candidate_aware_route_decoder_v1.py"
+  ],
+  "unchanged_existing_paths": 210,
+  "new_guarded_source_test_paths": [
+    "src/models/route_candidates.py",
+    "tests/test_route_candidate_interface.py"
+  ],
+  "tests": {
+    "first_focused": "33 passed; prior initial attempt had 3 test-constructor fixture failures corrected",
+    "broad_run": {
+      "reported_summary": "1 failed, 237 passed, 137 subtests passed",
+      "junit_suite": {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "1",
+        "skipped": "0",
+        "tests": "375",
+        "time": "384.379",
+        "timestamp": "2026-10-12T12:42:30.540737+08:00",
+        "hostname": "DESKTOP-4RBUISE"
+      },
+      "sole_failure": [
+        [
+          "tests.test_candidate_aware_route_decoder_v1.CandidateAwareRouteDecoderConfigGates",
+          "test_cli_accepts_both_decoder_modes_without_changing_credit"
+        ]
+      ],
+      "failure_reason": "Old CLI test treated every Route enum as runnable; reserved mode now has explicit rejection assertion."
+    },
+    "final_retest": {
+      "reported_summary": "47 passed, 5 subtests passed",
+      "junit_suite": {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "0",
+        "skipped": "0",
+        "tests": "52",
+        "time": "8.274",
+        "timestamp": "2026-10-12T12:50:50.781919+08:00",
+        "hostname": "DESKTOP-4RBUISE"
+      },
+      "new_interface_case_count": 35
+    },
+    "full_suite_rerun_after_test_only_fix": false,
+    "resolution": "Only test expectation changed after broad run; affected module and all new interface tests rerun successfully. No unresolved test failure."
+  },
+  "historical_compatibility_file": "historical_compatibility_final.json",
+  "runtime": {
+    "interpreter": "D:\\Miniconda\\python.exe",
+    "python": "3.13.11",
+    "torch": "2.7.1+cu118",
+    "numpy": "2.3.5",
+    "requirements_sha256": "7b3db08c598f978af1c819e59a5b933e0b688040b88dbfbb3f646177e0c8c02f",
+    "dependencies_modified": false,
+    "governance": "Repository AGENTS and accepted plan take precedence; referenced external didgm environment-contract file unavailable on this host."
+  },
+  "not_executed": [
+    "new policy experiment training",
+    "pretraining or distillation",
+    "new oracle generation",
+    "historical model episode policy evaluation",
+    "Steps03-10 implementation"
+  ],
+  "artifacts": [
+    {
+      "filename": "before_compatibility.json",
+      "sha256": "1a03290066fcb30b032fcd11a44b8c00cdc91d0d921f7d9f255922016693ab09"
+    },
+    {
+      "filename": "checkpoint_fixture_diagnostic.txt",
+      "sha256": "2c7875d750bbf1519ac4f804a8669986cfa5265e50b4affa3b03a0d1fd276c35"
+    },
+    {
+      "filename": "final_focused_execution.json",
+      "sha256": "9214245e029b5665155cddbfdb5b3516e1fcea69c77b71d022f33e4f8d873232"
+    },
+    {
+      "filename": "final_focused_tests.txt",
+      "sha256": "5943d9f4335d8da61dc9a308c3154e539f9bc50583463ebf3fb90b497135478d"
+    },
+    {
+      "filename": "final_focused_tests.xml",
+      "sha256": "0549b4d6d740f46bc87244d8a1ce03bc5d4fb2a912a333d7e71f2d8f89d8f797"
+    },
+    {
+      "filename": "focused_test_execution.json",
+      "sha256": "35a9c9ea510b46568ba82012bef79f3820f45d5c74e237ab4dbc9a54e13bae15"
+    },
+    {
+      "filename": "focused_tests.txt",
+      "sha256": "9ea522f9268104ca407800d1f9f742a28d330187410e8cad6d8b2be9a06ec55f"
+    },
+    {
+      "filename": "focused_tests.xml",
+      "sha256": "6ab3522a378e2d8c5ebbed194f28738110ae5c8df9627e8d6df6ce6883e81f15"
+    },
+    {
+      "filename": "historical_compatibility.json",
+      "sha256": "6ef6d6ed1711f14b823d0c0337a779ef91dbf3de2fd893f4db9aa92382ca8aed"
+    },
+    {
+      "filename": "historical_compatibility_final.json",
+      "sha256": "72eda4e6d3bcf0ca54ac694e0d1b7bf47944509cbafb3999e4750ea8a23c2c42"
+    },
+    {
+      "filename": "implementation_changes.patch",
+      "sha256": "b61524e8f071fc53a6c2def80f3a5feb91ead02819e0c2e2abdc7ada7fd6fd4a"
+    },
+    {
+      "filename": "legacy_test_expectation.patch",
+      "sha256": "526dbd5ccac54525723b5bbeca7153a8db4282a6c49b05d8942d494e565993b3"
+    },
+    {
+      "filename": "patch_scope_check.json",
+      "sha256": "388227f17841b9b74fc1e1825d65f6fa08b69f8c7669cdf5e7caaf62e830c994"
+    },
+    {
+      "filename": "protected_files_after.json",
+      "sha256": "5e3640fcdd78402a584366f61ed54b0751faaf52c9f77fda2a3b955bdca03a64"
+    },
+    {
+      "filename": "regression_execution.json",
+      "sha256": "732d31cd53d7325713d41fc307055c725eaf81417349b8778626aaf5446face4"
+    },
+    {
+      "filename": "regression_interrupted_tempdir.txt",
+      "sha256": "ac21abcebab591d7eebc690a02cd6a97e54e4f410654d0419e797907a7f11557"
+    },
+    {
+      "filename": "regression_tests.txt",
+      "sha256": "2e2cb0f6ac26cbfa6e82dcdcebbae72fdba7a3960a8f3828dc78194bb9d99082"
+    },
+    {
+      "filename": "regression_tests.xml",
+      "sha256": "b4edbe01ee7d9e77f89bab0fe7238dbab2c12d457309b3e179b9534860c9d95a"
+    }
+  ]
+}

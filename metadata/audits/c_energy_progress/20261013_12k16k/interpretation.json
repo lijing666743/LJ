@@ -1,0 +1,56 @@
+{
+  "scope": "C seed42 only, same five development scenes, existing12k/16k checkpoints; descriptive progress and energy-risk diagnosis.",
+  "result": "Task completion improves, while the measured energy-aware routing and energy-blockage metrics do not improve together.",
+  "delta_16k_minus_12k": {
+    "completed": 35,
+    "completion_percentage_points": 5.785123966942145,
+    "total_energy_j": 17.141377014103398,
+    "total_energy_relative_pct": 10.569976967081818,
+    "energy_per_DONE_relative_pct": 0.5958811066491654,
+    "published_energy_infeasible_remote_assignments": 6,
+    "published_risk_fraction_percentage_points": 1.2175779063258068,
+    "blocked_CPU_UAV_slots": 68,
+    "post_blockage_assignments": 7
+  },
+  "observations": [
+    "Completion rises353->388 out of605 generated tasks,58.35%->64.13%; expired falls208->175 and truncated44->42.",
+    "There are62 newly completed tasks and27 previously completed tasks no longer completed; net improvement35 does not imply a nested success set.",
+    "Published-energy-infeasible Remote choices rise25/460->31/466,5.43%->6.65%. Each checkpoint has15 missing-public-message Remote choices, counted separately.",
+    "CPU energy-blocked backlog slots rise229->297 out of10000 UAV-slots. The two affected node-scenes remain UAV2 in1042 and1044.",
+    "In1042 persistent blockage starts331->332 and completion stays100. In1044 blockage starts440->371,69 slots earlier, while completion changes79->80.",
+    "Three unblocked scenes1043/1045/1046 contribute net7/10/17 more completions,34 of the35 total net gain.",
+    "Post-persistent-blockage new assignments rise25->32 and all remain CPU_WAIT. Their outcomes are16 expired/9 truncated at12k and24 expired/8 truncated at16k.",
+    "Total energy rises162.17->179.31 J; energy per completed task rises0.4594->0.4621 J. Full-frequency fractions among positive CPU service slots are99.78% and99.81%, approximately unchanged."
+  ],
+  "interpretation_limits": [
+    "This does not prove convergence or stable method superiority.",
+    "The individual-task energy bound is optimistic and does not predict every queueing or energy outcome. Missing messages are not measured zero energy.",
+    "The routing/publication values are reconstructed from causal recorded traces, not directly saved full input tensors.",
+    "Exposure to blocked slots is descriptive; no alternate routing or CPU policy was simulated to estimate recoverable task counts.",
+    "An earlier energy-blockage time does not by itself establish a reward or source-code fault.",
+    "No claim is made that32k will correct energy-aware behavior."
+  ],
+  "recommendation": "Keep the current C scientific configuration frozen and use a bounded training-length diagnostic as the next experiment, with completion and these energy-risk metrics evaluated together. Do not promote current C16k to a mature final model or change reward/masks on this evidence alone.",
+  "next_step_plan": {
+    "action": "Prepare C seed42 continuation to a predeclared32k observation cap; audit and commands only, no automatic training start.",
+    "resume_requirement": "Audit the full12k periodic checkpoint and original16k final. Restore12k, replay to16k, compare actor/critic/Adam/policy RNG/counters/saved diagnostics exactly, retain the regenerated128 pending transitions, then continue. Do not load final weights into a fresh optimizer.",
+    "fixed_science": [
+      "reward",
+      "environment",
+      "route features and masks",
+      "public PPO hyperparameters",
+      "seed42",
+      "same evaluation scenes"
+    ],
+    "observation_points": [
+      20000,
+      24000,
+      28000,
+      32000
+    ],
+    "evaluation": "Save checkpoints in one continuous run and later evaluate them with the same frozen development protocol; training checkpoint interval does not itself execute frozen evaluation.",
+    "purpose": "Check whether more updates improve completion and energy sustainability together, or only improve completion while energy risks persist.",
+    "claim_limit": "C-only training-length exploration; method rankings require matched budgets and independent training seeds.",
+    "permission_boundary": "This task has not created continuation configs or launched training; user starts training after the subsequent preparation and exact audit pass."
+  }
+}

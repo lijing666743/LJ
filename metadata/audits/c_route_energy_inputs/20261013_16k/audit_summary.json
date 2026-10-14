@@ -1,0 +1,140 @@
+{
+  "scope": "Read-only C16k route energy-input and legality audit; no training, inference rollout, oracle or new evaluation.",
+  "checkpoint_sha256": "dc8754d7871161233d65ee488e2125dbc4258b555b0a3efb7d579c264800c087",
+  "evaluation_run_id": "development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e",
+  "feature_contract": {
+    "continuous_count": 23,
+    "flag_count": 12,
+    "total_count": 35,
+    "all_feature_names": [
+      "task_bits",
+      "task_cycles",
+      "slack_s",
+      "frequency_hz",
+      "queued_cycles",
+      "cpu_task_count",
+      "task_cpu_s",
+      "queue_cpu_s",
+      "tx_backlog_bits",
+      "rate_bps",
+      "task_tx_s",
+      "queue_tx_s",
+      "service_s",
+      "slack_margin_s",
+      "destination_energy_j",
+      "cpu_energy_j",
+      "source_energy_j",
+      "tx_energy_j",
+      "destination_energy_margin_j",
+      "source_tx_energy_margin_j",
+      "message_aoi_slots",
+      "csi_aoi_slots",
+      "outage_rate",
+      "task_valid",
+      "destination_valid",
+      "cpu_valid",
+      "needs_u2u",
+      "rate_observed",
+      "rate_positive",
+      "service_valid",
+      "message_aoi_valid",
+      "csi_valid",
+      "history_rate_valid",
+      "interference_all_valid",
+      "outage_valid"
+    ],
+    "energy_fields": [
+      "destination_energy_j",
+      "cpu_energy_j",
+      "source_energy_j",
+      "tx_energy_j",
+      "destination_energy_margin_j",
+      "source_tx_energy_margin_j"
+    ],
+    "message_fields": [
+      "message_aoi_slots",
+      "message_aoi_valid"
+    ],
+    "cpu_energy_proxy": "kappa * published_max_frequency**2 * current_task_cycles; full-frequency per-current-task proxy only, no queued or future CPU jobs energy reserved.",
+    "energy_margin_transform": "Signed log1p(margin/reference_initial_energy_j); negative signs preserved.",
+    "cpu_valid": "Destination public state valid and published hardware maximum frequency positive; does not mean sufficient energy.",
+    "service_valid": "Task present, CPU proxy defined, remote rate estimate positive; does not certify energy or future scheduling feasibility.",
+    "production_wiring": "Physical projection35->32->204 added before existing fusion LayerNorm and shared scorer; unified route consumes raw actor-visible public features.",
+    "legality": "Remote route legality follows current geometric candidate_neighbors while a task is routable. Public validity, negative energy margin, neighbor energy and age do not add masks. Existing C design explicitly preserves A/B environment legality."
+  },
+  "publication_contract": {
+    "initial_state": "All public messages unavailable at reset.",
+    "refresh_trigger": "A node refreshes only when it is the receiver of an actually attempted accepted positive-power RU/data link, as identified by receiver interference measurement mask.",
+    "record_time": "Post-service and post-settlement residual energy and aggregate CPU load from completed slot t.",
+    "first_visible_time": "Actor slot t+1.",
+    "no_refresh": "Previous public payload and source timestamp persist; AoI grows. CPU energy consumption by itself does not refresh the public message.",
+    "visibility": "Candidate-neighbor mask AND public valid mask; selected remote was legal and its receiver history existed for all32 cases.",
+    "age_vs_energy": "An old message can still have the correct energy scalar if no energy has changed since publication. This does not establish that its queue/position fields remain current."
+  },
+  "selected32": {
+    "count": 32,
+    "legal_and_argmax": 32,
+    "reconstructed_energy_matches_actual": 30,
+    "reconstructed_energy_overestimates_actual": 2,
+    "negative_full_frequency_energy_margin": 32,
+    "published_energy_below_minimum_frequency_completion_bound": 31,
+    "message_age_range_slots": [
+      1,
+      22
+    ],
+    "age_one_decisions": 2,
+    "per_seed": {
+      "1042": {
+        "count": 20,
+        "energy_matches_actual": 19
+      },
+      "1044": {
+        "count": 12,
+        "energy_matches_actual": 11
+      }
+    }
+  },
+  "evidence_limits": [
+    "Original route logs preserve actions, logits, masks and task IDs but no full actor input tensors or GRU hidden states.",
+    "Publication timestamps and partial energy/age/CPU scalar inputs are deterministic reconstructions from recorded TX and CPU traces plus verified unchanged source; not directly logged input snapshots.",
+    "The extractor checks use zero placeholders for unrelated fields. They verify the scalar equations and mask independence, not a reconstruction of all35 actual features or a policy forward.",
+    "A negative full-frequency task-energy proxy does not prove impossibility at lower frequency. The minimum-frequency bound is reported separately.",
+    "These observations do not establish why learned weights prefer the destination or whether continued training will resolve it."
+  ],
+  "source_evidence": [
+    {
+      "file": "src/models/route_physical_relations.py",
+      "symbols": [
+        "RoutePhysicalRelationExtractor.extract",
+        "PhysicalOptionAwareRouteDecoderV1.augment_option_features"
+      ]
+    },
+    {
+      "file": "src/env/public_history.py",
+      "symbols": [
+        "PublicMessageHistory.record_from_completed_slot",
+        "PublicMessageHistory.snapshot"
+      ]
+    },
+    {
+      "file": "src/env/service.py",
+      "symbols": [
+        "PhysicalService._measurement_matrices"
+      ]
+    },
+    {
+      "file": "src/env/observation.py",
+      "symbols": [
+        "ObservationBuilder._neighbor_public",
+        "ObservationBuilder._action_masks"
+      ]
+    },
+    {
+      "file": "src/models/route_candidates.py",
+      "symbols": [
+        "build_route_candidates"
+      ]
+    }
+  ],
+  "next_step_plan": "Use existing C12k and C16k service/route traces under the same five scenes to compare low-energy destination selections, time without any positive energy-feasible CPU head, and affected task completions. This closes the bounded diagnosis and informs the next training-budget decision without changing reward, masks or training settings."
+}

@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "historical_actors": [
+    {
+      "id": "P1a_seed42_8k",
+      "fingerprints_match_before_edit": true,
+      "loaded_opt_in_readout_logits_and_hidden_match_exactly": true,
+      "actor_critic_strict_load": true,
+      "details": {
+        "id": "P1a_seed42_8k",
+        "canonical_hash": "2f143a85c0e37f605bbf38b59b3a31267a305464179593d9828c7c0a1518e3fa",
+        "initial_state_sha256": "3d6c961c830832d9d323ec95b42ab739923d9d74ace590977fce38ef515bfdf9",
+        "initial_forward_sha256": "021e8c9be2c98bbbe24319d45f020cf5b5320878c8a08a66b843ce1ea7dab37f",
+        "checkpoint_sha256": "d303878ed57dcfca0ee9d04354ab678046fbf22b3546aef38a853b53bae7a062",
+        "loaded_forward_sha256": "3dcb673f4e7b9b44df3d9d0944a3eab3d6f538ea5503e07fed476d5fba838a83"
+      }
+    },
+    {
+      "id": "E13_seed42_32k",
+      "fingerprints_match_before_edit": true,
+      "loaded_opt_in_readout_logits_and_hidden_match_exactly": true,
+      "actor_critic_strict_load": true,
+      "details": {
+        "id": "E13_seed42_32k",
+        "canonical_hash": "16ed37e1f161f7bdadf44fef120e3cfe26f4142c001e0e3b0dee7e4dd99d5d27",
+        "initial_state_sha256": "3d6c961c830832d9d323ec95b42ab739923d9d74ace590977fce38ef515bfdf9",
+        "initial_forward_sha256": "021e8c9be2c98bbbe24319d45f020cf5b5320878c8a08a66b843ce1ea7dab37f",
+        "checkpoint_sha256": "8d0f66bfbf46949f7c5236383b9d76d93502c6c3fe9b438a717db972fd22e7ea",
+        "loaded_forward_sha256": "15caae09060ea1f9d2d58d04ad1dd04a3cd3821ce08481281fa64e2849584e00"
+      }
+    },
+    {
+      "id": "E13_seed43_32k",
+      "fingerprints_match_before_edit": true,
+      "loaded_opt_in_readout_logits_and_hidden_match_exactly": true,
+      "actor_critic_strict_load": true,
+      "details": {
+        "id": "E13_seed43_32k",
+        "canonical_hash": "411dcce4948d9b9bb599a61f49f86207494ee7cb633b4809765c17b6af03eb10",
+        "initial_state_sha256": "292d82efd1dfe8d20b3963a8ee98b972e394ac5ec0b1a81172d45889c16a7a76",
+        "initial_forward_sha256": "3260790670d9fa396dd9953ee66275ad4e5aeef97135a2ca948f21c25ec1b336",
+        "checkpoint_sha256": "25c576fe6974b4e3c3a7a518cbe5e1eff738322411dd3daaa16e645ffe41d679",
+        "loaded_forward_sha256": "0729cdb425d4c59db9d764bd4fa75c94e338a0cf13086386cea765411afcbe76"
+      }
+    }
+  ],
+  "scope": "CPU float32 persisted engineering fixture, exact tensor byte fingerprints; no policy episode evaluation"
+}

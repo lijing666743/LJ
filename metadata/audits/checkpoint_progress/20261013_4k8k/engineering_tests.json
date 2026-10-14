@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "test_files": [
+    "tests/test_formal_evaluation.py",
+    "tests/test_evaluation_service_telemetry.py"
+  ],
+  "pytest_output": "26 passed, 8 subtests passed in 17.52s",
+  "junit_xml": "D:\\My_project_li\\logs\\A\\seed42\\8k\\checkpoint_progress\\20261013_4k8k\\evaluation_tests.xml",
+  "xml_suites": [
+    {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "34",
+      "time": "17.526",
+      "timestamp": "2026-10-13T10:13:13.810424+08:00",
+      "hostname": "DESKTOP-4RBUISE"
+    }
+  ]
+}

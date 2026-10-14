@@ -1,0 +1,14 @@
+{
+  "files": [
+    {
+      "path": "tmp/cleanup_20261014_checks/matplotlib/fontlist-v390.json",
+      "bytes": 87980,
+      "sha256": "68e18a4eacb55c811ca2a0804eae3efd2a08132d3fa2c995c2109410daa3bfe5"
+    },
+    {
+      "path": "tmp/cleanup_20261014_checks/pytest_verified/test_c_checkpoint_nonempty_ada0/synthetic_c_fixture.pt",
+      "bytes": 17208577,
+      "sha256": "74503a9259117ec700a84de0632baf6a5830716691dca0bf9570f7878734fc6b"
+    }
+  ]
+}

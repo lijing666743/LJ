@@ -1,0 +1,373 @@
+ M README.md
+ D docs/design/remote_stress_design.md
+ D docs/e13/E13_PAIRED_SHADOW_RELIABILITY_PILOT_REPORT.md
+ D docs/e13/E13_V1_PAIRED_SHADOW_IMPLEMENTATION_REPORT.md
+ D docs/release/E13_BASELINE_RELEASE_FREEZE_REPORT.md
+ D docs/release/E13_GIT_BASELINE_PLAN.md
+ D docs/release/E13_REPRODUCIBILITY_AND_HANDOFF_AUDIT.md
+ D docs/release/FINAL_REPOSITORY_TREE.md
+ D docs/release/FUTURE_EXPERIMENT_PROTOCOL.md
+ D docs/release/PORTABILITY_AUDIT.md
+ D docs/release/PROJECT_STRUCTURE.md
+ D docs/reproduction/REPRODUCE_E13.md
+ D environment/E13_TESTED_ENVIRONMENT.md
+ D environment/requirements-e13-tested.txt
+ M experiments/README.md
+ D experiments/cooperative-load/configs/e13-v1-tx-paired-shadow-seed42-32k.json
+ D experiments/cooperative-load/configs/e13-v1-tx-paired-shadow-seed43-32k.json
+ D experiments/cooperative-load/templates/e13-v1-future-seed-template.json
+ D experiments/figures/.gitkeep
+ D "knowledge/papers/1.9 Secrecy_Sum_Rate_Maximization_in_UAV-IRS_Assisted_Networks_with_Credit-Aware_Cooperative_Multi-Agent_Reinforcement_Learning.pdf"
+ D knowledge/papers/A_Multi-agent_Reinforcement_Learning_based_Offloading_and_Resource_Allocation_for_Vehicle_Edge_Computing.pdf
+ D knowledge/papers/An_MARL-based_Task_Scheduling_Algorithm_for_Cooperative_Computation_in_a_multi-UAV_Edge_Computing_System.pdf
+ D knowledge/papers/Decentralized_Navigation_With_Heterogeneous_Federated_Reinforcement_Learning_for_UAV-Enabled_Mobile_Edge_Computing.pdf
+ D knowledge/papers/Energy-Efficient_UAVIRS_Coordination_in_Vehicular_Networks_Using_GNN-Enhanced_MADRL.pdf
+ D knowledge/papers/Graph_Attention-Based_MARL_for_AoI_and_Reliability-Aware_Resource_Allocation_in_RIS-Assisted_V2X_Networks.pdf
+ D knowledge/papers/Heterogeneous_UAVs_Trajectory_Optimization_for_Post-Disaster_Target_Search_Based_on_MARL_With_Graph_Attention_Network.pdf
+ D knowledge/papers/Hierarchical_Task_Offloading_and_Trajectory_Optimization_in_Low-Altitude_Intelligent_Networks_via_Auction_and_Diffusion-Based_MARL.pdf
+ D knowledge/papers/Joint_Trajectory_RIS_and_Computation_Offloading_Optimization_Via_Decentralized_Model-Based_PPO_in_Urban_Multi-UAV_Mobile_Edge_Computing.pdf
+ D knowledge/papers/Multi-Agent_Resource_Orchestration_Based_on_D3QN_for_Network_Slicing_in_5G_Edge-Cloud_Networks.pdf
+ D knowledge/papers/Secure_Offloading_With_Adversarial_Multi-Agent_Reinforcement_Learning_Against_Intelligent_Eavesdroppers_in_UAV-Enabled_Mobile_Edge_Computing.pdf
+ D logs/.gitkeep
+ D metadata/E13_BASELINE_IDENTITY.json
+ D metadata/E13_REPRODUCIBILITY_READINESS.json
+ D metadata/E13_VERSIONED_SOURCE_MANIFEST.json
+ M sections/README.md
+ M src/artifacts.py
+ M src/cli.py
+ M src/config.py
+ M src/env/channel.py
+ M src/env/mobility.py
+ M src/env/observation.py
+ M src/env/service.py
+ M src/env/traffic.py
+ M src/evaluation/actor_loader.py
+ M src/evaluation/route_telemetry.py
+ M src/evaluation/runner.py
+ M src/execution.py
+ M src/models/ca_gat_mappo.py
+ M src/models/ca_gat_mappo_actions.py
+ M src/models/ca_gat_mappo_checkpoint.py
+ M src/models/ca_gat_mappo_ppo.py
+ M src/models/ca_gat_mappo_rollout.py
+ M src/models/ca_gat_mappo_trainer.py
+ M src/models/ca_gat_mappo_update.py
+ M src/models/integrated_scheduler.py
+ M src/registry.py
+ M src/runner.py
+ D tests/.gitkeep
+ M tests/test_artifact_nonoverwrite.py
+ M tests/test_route_slot_workload_timing.py
+?? docs/DIRECTORY_GUIDE.md
+?? docs/results/seed42/historical_p1a_vs_current_a_1044.csv
+?? docs/results/seed42/seed42_abc_comparison_report.md
+?? docs/results/seed42/seed42_abc_deltas.csv
+?? docs/results/seed42/seed42_abc_evaluation_summary.csv
+?? docs/results/seed42/seed42_abc_per_eval_seed.csv
+?? docs/results/seed42/seed42_abc_remote_destinations.csv
+?? docs/results/seed42/seed42_abc_route_behavior.csv
+?? docs/results/seed42/seed42_abc_training_summary.csv
+?? environment/requirements-abc-tested.txt
+?? experiments/task-allocation/configs/a-seed42-16k-resume.json
+?? experiments/task-allocation/configs/a-seed42-8k.json
+?? experiments/task-allocation/configs/a-seed43-8k.json
+?? experiments/task-allocation/configs/a-seed44-8k.json
+?? experiments/task-allocation/configs/b-seed42-16k-resume.json
+?? experiments/task-allocation/configs/b-seed42-8k.json
+?? experiments/task-allocation/configs/b-seed43-8k.json
+?? experiments/task-allocation/configs/b-seed44-8k.json
+?? experiments/task-allocation/configs/c-seed42-16k-resume.json
+?? experiments/task-allocation/configs/c-seed42-32k-resume.json
+?? experiments/task-allocation/configs/c-seed42-8k.json
+?? experiments/task-allocation/configs/c-seed43-8k.json
+?? experiments/task-allocation/configs/c-seed44-8k.json
+?? experiments/task-allocation/configuration_manifest.json
+?? metadata/ABC_FILE_MANIFEST.json
+?? metadata/ABC_RELEASE_MANIFEST.json
+?? metadata/DIRECTORY_RELOCATION.json
+?? metadata/README.md
+?? metadata/audits/c32k_progress/20261014_16k32k/CPU_energy_blockage_trace.csv
+?? metadata/audits/c32k_progress/20261014_16k32k/CPU_node_energy_statistics.json
+?? metadata/audits/c32k_progress/20261014_16k32k/C_20k_energy_interim.json
+?? metadata/audits/c32k_progress/20261014_16k32k/C_20k_evaluation_config.json
+?? metadata/audits/c32k_progress/20261014_16k32k/C_20k_run.json
+?? metadata/audits/c32k_progress/20261014_16k32k/C_24k_evaluation_config.json
+?? metadata/audits/c32k_progress/20261014_16k32k/C_24k_run.json
+?? metadata/audits/c32k_progress/20261014_16k32k/C_28k_evaluation_config.json
+?? metadata/audits/c32k_progress/20261014_16k32k/C_28k_run.json
+?? metadata/audits/c32k_progress/20261014_16k32k/C_32k_evaluation_config.json
+?? metadata/audits/c32k_progress/20261014_16k32k/C_32k_run.json
+?? metadata/audits/c32k_progress/20261014_16k32k/analysis_source_identity.json
+?? metadata/audits/c32k_progress/20261014_16k32k/artifact_manifest.json
+?? metadata/audits/c32k_progress/20261014_16k32k/checkpoint_inventory.json
+?? metadata/audits/c32k_progress/20261014_16k32k/comparison_summary.json
+?? metadata/audits/c32k_progress/20261014_16k32k/core_comparison_table.csv
+?? metadata/audits/c32k_progress/20261014_16k32k/energy_audit_tests.xml
+?? metadata/audits/c32k_progress/20261014_16k32k/energy_protocol_regression.json
+?? metadata/audits/c32k_progress/20261014_16k32k/evaluation_execution.json
+?? metadata/audits/c32k_progress/20261014_16k32k/evaluation_protocol.json
+?? metadata/audits/c32k_progress/20261014_16k32k/evaluation_tests.xml
+?? metadata/audits/c32k_progress/20261014_16k32k/inputs_after.json
+?? metadata/audits/c32k_progress/20261014_16k32k/inputs_before.json
+?? metadata/audits/c32k_progress/20261014_16k32k/interpretation.json
+?? metadata/audits/c32k_progress/20261014_16k32k/paired_task_changes.json
+?? metadata/audits/c32k_progress/20261014_16k32k/per_seed_metrics.json
+?? metadata/audits/c32k_progress/20261014_16k32k/post_persistent_blockage_tasks.csv
+?? metadata/audits/c32k_progress/20261014_16k32k/remote_assignment_energy.csv
+?? metadata/audits/c32k_progress/20261014_16k32k/source_evaluation_runs.json
+?? metadata/audits/c32k_progress/20261014_16k32k/training_integrity.json
+?? metadata/audits/c32k_progress/20261014_16k32k/training_reward_windows.json
+?? metadata/audits/c32k_progress/20261014_16k32k/validation.json
+?? metadata/audits/c_energy_progress/20261013_12k16k/CPU_energy_blockage_trace.csv
+?? metadata/audits/c_energy_progress/20261013_12k16k/CPU_node_energy_statistics.json
+?? metadata/audits/c_energy_progress/20261013_12k16k/artifact_manifest.json
+?? metadata/audits/c_energy_progress/20261013_12k16k/comparison_summary.json
+?? metadata/audits/c_energy_progress/20261013_12k16k/inputs_after.json
+?? metadata/audits/c_energy_progress/20261013_12k16k/inputs_before.json
+?? metadata/audits/c_energy_progress/20261013_12k16k/interpretation.json
+?? metadata/audits/c_energy_progress/20261013_12k16k/per_seed_comparison.csv
+?? metadata/audits/c_energy_progress/20261013_12k16k/post_persistent_blockage_tasks.csv
+?? metadata/audits/c_energy_progress/20261013_12k16k/remote_assignment_energy.csv
+?? metadata/audits/c_energy_progress/20261013_12k16k/validation.json
+?? metadata/audits/c_heuristic_gap/20261013_16k/C_only_done_tasks.csv
+?? metadata/audits/c_heuristic_gap/20261013_16k/artifact_manifest.json
+?? metadata/audits/c_heuristic_gap/20261013_16k/comparison_summary.json
+?? metadata/audits/c_heuristic_gap/20261013_16k/heuristic_only_done_tasks.csv
+?? metadata/audits/c_heuristic_gap/20261013_16k/inputs_after.json
+?? metadata/audits/c_heuristic_gap/20261013_16k/inputs_before.json
+?? metadata/audits/c_heuristic_gap/20261013_16k/interpretation.json
+?? metadata/audits/c_heuristic_gap/20261013_16k/paired_task_comparison.csv
+?? metadata/audits/c_heuristic_gap/20261013_16k/per_seed_comparison.csv
+?? metadata/audits/c_heuristic_gap/20261013_16k/validation.json
+?? metadata/audits/c_heuristic_timeline/20261013_16k/CPU_waiting_slot_trace.jsonl
+?? metadata/audits/c_heuristic_timeline/20261013_16k/artifact_manifest.json
+?? metadata/audits/c_heuristic_timeline/20261013_16k/inputs_after.json
+?? metadata/audits/c_heuristic_timeline/20261013_16k/inputs_before.json
+?? metadata/audits/c_heuristic_timeline/20261013_16k/interpretation.json
+?? metadata/audits/c_heuristic_timeline/20261013_16k/post_depletion_assignments.json
+?? metadata/audits/c_heuristic_timeline/20261013_16k/task_timeline_comparison.csv
+?? metadata/audits/c_heuristic_timeline/20261013_16k/task_timelines.json
+?? metadata/audits/c_heuristic_timeline/20261013_16k/timeline_summary.json
+?? metadata/audits/c_heuristic_timeline/20261013_16k/validation.json
+?? metadata/audits/c_route_energy_inputs/20261013_16k/artifact_manifest.json
+?? metadata/audits/c_route_energy_inputs/20261013_16k/audit_summary.json
+?? metadata/audits/c_route_energy_inputs/20261013_16k/inputs_after.json
+?? metadata/audits/c_route_energy_inputs/20261013_16k/inputs_before.json
+?? metadata/audits/c_route_energy_inputs/20261013_16k/interpretation.json
+?? metadata/audits/c_route_energy_inputs/20261013_16k/public_energy_refreshes_reconstructed.json
+?? metadata/audits/c_route_energy_inputs/20261013_16k/selected32_decisions.csv
+?? metadata/audits/c_route_energy_inputs/20261013_16k/selected32_decisions.json
+?? metadata/audits/c_route_energy_inputs/20261013_16k/validation.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k/A_evaluation_config.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k/A_run.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k/B_evaluation_config.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k/B_run.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k/C_evaluation_config.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k/C_run.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k/comparison_summary.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k/engineering_tests.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k/execution_protocol.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k/inputs_after.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k/inputs_before.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k/validation.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/A_12k_evaluation_config.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/A_12k_run.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/A_16k_evaluation_config.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/A_16k_run.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/B_12k_evaluation_config.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/B_12k_run.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/B_16k_evaluation_config.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/B_16k_run.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/C_12k_evaluation_config.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/C_12k_run.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/C_16k_evaluation_config.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/C_16k_run.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/README.md
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/analysis_checks.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/artifact_manifest.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/checkpoint_inventory.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/comparison_summary.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/core_comparison_table.csv
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/evaluation_execution.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/evaluation_protocol.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/evaluation_tests.xml
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/figure_artifacts.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/inputs_after.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/inputs_before.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/interpretation.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/per_checkpoint_seed_metrics.csv
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/per_seed_DONE_and_deltas.csv
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/per_seed_comparison.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/platform_evidence.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/route_behavior_summary.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/training_rollout_context.json
+?? metadata/audits/checkpoint_progress/20261013_4k8k12k16k/validation.json
+?? metadata/audits/continuation_implementation/20261013/continuation_tests.xml
+?? metadata/audits/continuation_implementation/20261013/final_cli_resume_checks.json
+?? metadata/audits/continuation_implementation/20261013/implementation_summary.json
+?? metadata/audits/continuation_implementation/20261013/real_checkpoint_resume_checks.json
+?? metadata/audits/continuation_implementation/20261013/regression_tests.xml
+?? metadata/audits/continuation_launch/20261013_c32k_ready/artifact_manifest.json
+?? metadata/audits/continuation_launch/20261013_c32k_ready/checkpoint_audit.json
+?? metadata/audits/continuation_launch/20261013_c32k_ready/config_changes.json
+?? metadata/audits/continuation_launch/20261013_c32k_ready/expected_checkpoint_accounting.json
+?? metadata/audits/continuation_launch/20261013_c32k_ready/inputs_after.json
+?? metadata/audits/continuation_launch/20261013_c32k_ready/inputs_before.json
+?? metadata/audits/continuation_launch/20261013_c32k_ready/launch_and_evaluation_plan.json
+?? metadata/audits/continuation_launch/20261013_c32k_ready/launch_command.json
+?? metadata/audits/continuation_launch/20261013_c32k_ready/preflight_summary.json
+?? metadata/audits/continuation_launch/20261013_c32k_ready/restore_check.json
+?? metadata/audits/continuation_launch/20261013_c32k_ready/runtime.json
+?? metadata/audits/continuation_launch/20261013_c32k_ready/target_identity.json
+?? metadata/audits/continuation_launch/20261013_c32k_ready/tests.xml
+?? metadata/audits/continuation_launch/20261013_c32k_ready/validation.json
+?? metadata/audits/continuation_launch/20261013_ready/preflight.json
+?? metadata/audits/group_meeting_summary/20261014/artifact_manifest.json
+?? metadata/audits/group_meeting_summary/20261014/data_validation.json
+?? metadata/audits/group_meeting_summary/20261014/validation.json
+?? metadata/audits/group_meeting_summary/20261014_scene_fix/artifact_manifest.json
+?? metadata/audits/group_meeting_summary/20261014_scene_fix/data_validation.json
+?? metadata/audits/group_meeting_summary/20261014_scene_fix/validation.json
+?? metadata/audits/implementation/step01_baseline_protocol/baseline_identity.json
+?? metadata/audits/implementation/step01_baseline_protocol/experiment_protocol.json
+?? metadata/audits/implementation/step01_baseline_protocol/protected_files_sha256.json
+?? metadata/audits/implementation/step01_baseline_protocol/seed_usage_audit.json
+?? metadata/audits/implementation/step01_baseline_protocol/step01_report.md
+?? metadata/audits/implementation/step01_baseline_protocol/validation.json
+?? metadata/audits/implementation/step02_candidate_interface/historical_compatibility.json
+?? metadata/audits/implementation/step02_candidate_interface/historical_compatibility_final.json
+?? metadata/audits/implementation/step02_candidate_interface/protected_files_after.json
+?? metadata/audits/implementation/step02_candidate_interface/step02_report.md
+?? metadata/audits/implementation/step02_candidate_interface/validation.json
+?? metadata/audits/implementation/step03_unified_scorer/historical_compatibility.json
+?? metadata/audits/implementation/step03_unified_scorer/initialization_audit.json
+?? metadata/audits/implementation/step03_unified_scorer/protected_files_after.json
+?? metadata/audits/implementation/step03_unified_scorer/step03_report.md
+?? metadata/audits/implementation/step03_unified_scorer/validation.json
+?? metadata/audits/implementation/step04_learning_chain/formal_configuration_and_initialization.json
+?? metadata/audits/implementation/step04_learning_chain/historical_compatibility.json
+?? metadata/audits/implementation/step04_learning_chain/protected_files_after.json
+?? metadata/audits/implementation/step04_learning_chain/step04_report.md
+?? metadata/audits/implementation/step04_learning_chain/validation.json
+?? metadata/audits/implementation/step05_physical_relations/configuration_and_initialization.json
+?? metadata/audits/implementation/step05_physical_relations/historical_compatibility.json
+?? metadata/audits/implementation/step05_physical_relations/physical_feature_contract.json
+?? metadata/audits/implementation/step05_physical_relations/protected_files_after.json
+?? metadata/audits/implementation/step05_physical_relations/step05_report.md
+?? metadata/audits/implementation/step05_physical_relations/validation.json
+?? metadata/audits/implementation/step06_engineering_gate/config_diff_and_identity.json
+?? metadata/audits/implementation/step06_engineering_gate/integration_summary.json
+?? metadata/audits/implementation/step06_engineering_gate/protected_files_after.json
+?? metadata/audits/implementation/step06_engineering_gate/step06_report.md
+?? metadata/audits/implementation/step06_engineering_gate/validation.json
+?? metadata/audits/literature_review/20261013/reading_validation.json
+?? metadata/audits/resume_readiness/20261013_final8k_to16k/A_fresh16k_proposed_config.json
+?? metadata/audits/resume_readiness/20261013_final8k_to16k/B_fresh16k_proposed_config.json
+?? metadata/audits/resume_readiness/20261013_final8k_to16k/C_fresh16k_proposed_config.json
+?? metadata/audits/resume_readiness/20261013_final8k_to16k/audit.json
+?? metadata/audits/resume_readiness/20261013_final8k_to16k/inputs_before_after.json
+?? metadata/audits/seed42/analysis_data.json
+?? metadata/audits/seed42/checkpoint_identity_audit.json
+?? metadata/audits/seed42/source_manifest.json
+?? metadata/audits/seed42/summary_tables.json
+?? metadata/audits/seed42/validation.json
+?? metadata/cleanup/20261013/EMPTY_DIRECTORY_CLEANUP.json
+?? metadata/cleanup/20261013/FROZEN_INPUT_VALIDATION.json
+?? metadata/cleanup/20261013/RELOCATION_VALIDATION.json
+?? metadata/cleanup/20261013/archive_validation.json
+?? metadata/cleanup/20261013/cleanup_plan.json
+?? metadata/cleanup/20261013/cleanup_report.md
+?? metadata/cleanup/20261013/deletion_receipt.json
+?? metadata/cleanup/20261013/engineering_fixtures.json
+?? metadata/cleanup/20261013/final_validation.json
+?? metadata/cleanup/20261013/full_regression.txt
+?? metadata/cleanup/20261013/full_regression.xml
+?? metadata/cleanup/20261013/full_regression_result.json
+?? metadata/cleanup/20261013/launcher_sandbox_probe.txt
+?? metadata/cleanup/20261013/long_path_archive_validation.json
+?? metadata/cleanup/20261013/portable_validation.json
+?? metadata/cleanup/20261013/test_path_migration.json
+?? metadata/cleanup/20261014/inventory_before.json
+?? metadata/cleanup/20261014/retained_inputs_before.json
+?? metadata/cleanup/20261014/source_dependency_audit.json
+?? metadata/reference/p1a_seed42_1044/diagnostics/route_decision_trace.jsonl
+?? metadata/reference/p1a_seed42_1044/diagnostics/summary.json
+?? metadata/reference/p1a_seed42_1044/evaluation/aggregate_metrics.json
+?? metadata/reference/p1a_seed42_1044/evaluation/episode_metrics.jsonl
+?? metadata/reference/p1a_seed42_1044/evaluation/evaluation_manifest.json
+?? metadata/reference/p1a_seed42_1044/original_config.json
+?? metadata/reference/p1a_seed42_1044/training/aggregate_metrics.json
+?? metadata/reference/p1a_seed42_1044/training/config_snapshot.yaml
+?? sections/cooperative_task_allocation_implementation_plan.md
+?? sections/e14c_route_task_credit.md
+?? sections/e14d_p0_input_repair.md
+?? sections/e14d_route_counterfactual_q.md
+?? sections/e14e_p1a_task_event_credit.md
+?? sections/literature_reading_and_figure_notes_20261013.md
+?? sections/literature_review_high_relevance_20261013.md
+?? sections/route_candidate_interface_cpu_audit.md
+?? sections/task_allocation_experiment_handoff_step06.md
+?? sections/unified_route_learning_step04.md
+?? sections/unified_route_physical_relations_step05.md
+?? sections/unified_route_scoring_step03.md
+?? src/evaluation/checkpoint_energy_audit.py
+?? src/evaluation/destination_calibration.py
+?? src/evaluation/destination_gradient_probe.py
+?? src/evaluation/destination_oracle_dataset.py
+?? src/evaluation/destination_system_oracle.py
+?? src/evaluation/group_meeting_figures.py
+?? src/evaluation/learnability_sanity.py
+?? src/evaluation/route_counterfactual_analysis.py
+?? src/evaluation/route_counterfactual_oracle.py
+?? src/evaluation/route_credit_probe.py
+?? src/evaluation/route_q_probe.py
+?? src/evaluation/service_diagnostics.py
+?? src/evaluation/service_telemetry.py
+?? src/models/ca_gat_mappo_continuation.py
+?? src/models/destination_pretraining.py
+?? src/models/destination_ranking.py
+?? src/models/route_candidates.py
+?? src/models/route_decision.py
+?? src/models/route_exploration.py
+?? src/models/route_option_q.py
+?? src/models/route_physical_relations.py
+?? src/models/route_q_inputs.py
+?? src/models/route_task_credit.py
+?? src/models/unified_route.py
+?? src/training/__init__.py
+?? src/training/destination_distillation.py
+?? tests/fixtures/README.md
+?? tests/fixtures/configs/e13-v1-tx-paired-shadow-seed42-32k.json
+?? tests/fixtures/configs/e14a-v1-cpu-feasibility-seed42-8k-dev.json
+?? tests/fixtures/configs/e14b-v1-route-log-barrier-seed42-8k-dev.json
+?? tests/fixtures/configs/e14c-v1-route-task-credit-seed42-8k-dev.json
+?? tests/fixtures/configs/e14d-p0-dual-branch-seed42-8k-dev.json
+?? tests/fixtures/configs/e14d-p0-legacy-seed42-8k-dev.json
+?? tests/fixtures/configs/e14d-p0-normalized-seed42-8k-dev.json
+?? tests/fixtures/configs/e14d-v1-route-counterfactual-q-seed42-8k-dev.json
+?? tests/fixtures/configs/e14e-p1a-task-event-credit-seed42-8k-dev.json
+?? tests/test_artifact_evaluation_paths.py
+?? tests/test_ca_gat_mappo_continuation.py
+?? tests/test_ca_gat_mappo_second_continuation.py
+?? tests/test_checkpoint_energy_audit.py
+?? tests/test_cpu_anti_starvation.py
+?? tests/test_evaluation_service_telemetry.py
+?? tests/test_group_meeting_figures.py
+?? tests/test_route_actor_credit_source.py
+?? tests/test_route_candidate_interface.py
+?? tests/test_route_counterfactual_oracle.py
+?? tests/test_route_exploration.py
+?? tests/test_route_option_q.py
+?? tests/test_route_physical_relations.py
+?? tests/test_route_q_inputs.py
+?? tests/test_route_task_credit.py
+?? tests/test_task_allocation_engineering_gate.py
+?? tests/test_unified_route.py
+?? tests/test_unified_route_learning.py
+?? tmp/pdfs/literature_20261013/1.txt
+?? tmp/pdfs/literature_20261013/2.txt
+?? tmp/pdfs/literature_20261013/3.txt
+?? tmp/pdfs/literature_20261013/4.txt
+?? tmp/pdfs/literature_20261013/5.txt
+?? tmp/pdfs/literature_20261013/6.txt
+?? tmp/pdfs/literature_20261013/8.txt

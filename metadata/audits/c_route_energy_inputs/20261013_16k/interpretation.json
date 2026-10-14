@@ -1,0 +1,35 @@
+{
+  "completed_step": "Read-only audit of C35-dimensional route energy features, public energy refresh semantics, route legality and the32 post-depletion assignments.",
+  "findings": [
+    "C contains destination energy, full-frequency current-task CPU energy, source energy, TX energy and signed destination/source margins. The energy features are connected to the actual candidate scorer; no energy-unit mismatch or negative-sign loss was found in the audited scalar path.",
+    "Neighbor energy is a causal public payload, refreshed when that node receives a physically attempted link. CPU consumption alone does not refresh it. Actor AoI is available and valid old payloads remain available until refreshed.",
+    "Route legality is geometric candidate availability; it does not certify future destination CPU energy or deadline feasibility. The existing C design explicitly preserved A/B legality, so this audit does not identify an implementation deviation in that contract.",
+    "All32 assignments were legal argmax choices. Thirty reconstructed published-energy values equal the actual low remaining energy; two overestimate it. Message ages range1-22 slots. Energy equality does not imply all message fields are fresh.",
+    "All32 reconstructed full-frequency task-energy margins are negative;31 published energies are even below the quarter-frequency completion-energy lower bound. These are separate tests, because a negative full-frequency margin alone does not prove that a lower frequency is impossible.",
+    "The actual extractor preserved low energy and signed negative margins, while cpu_valid and candidate legality remained true as designed. These valid flags describe defined hardware/estimates, not a guarantee of enough energy."
+  ],
+  "evidence_boundary": "Original route logs do not contain full actor input tensors or recurrent hidden states. Energy/time components were deterministically reconstructed from immutable passive records and checked through the production scalar extractor; unrelated inputs were engineering placeholders. No actual actor forward, gradient update, environment replay or alternate policy outcome was generated.",
+  "conclusion": "Stale information is insufficient as the sole explanation for the32 assignments. The current learned route scorer does not consistently avoid low-energy destinations that remain legal. The audit does not establish that reward must change, that masks should change, or that longer training cannot help.",
+  "next_step_plan": {
+    "scope": "One bounded read-only comparison of existing C12k and C16k on seeds1042-1046; no new training or evaluation.",
+    "predeclared_metrics": [
+      {
+        "name": "Selected-remote assignments with published energy below minimum-frequency task completion lower bound",
+        "denominator": "Report raw count, fraction of all remote assignments, and public-message-missing count separately; never treat missing zero placeholders as measured depleted energy."
+      },
+      {
+        "name": "CPU backlog slots with no energy-feasible positive-frequency queue head",
+        "denominator": "Per UAV and scene, then sum over identical10000 UAV-slot observations at each checkpoint."
+      },
+      {
+        "name": "New assignments to destinations after persistent energy blockage",
+        "denominator": "Count assignments and report subsequent DONE/EXPIRED/TRUNCATED separately."
+      },
+      {
+        "name": "Completion and energy outcomes",
+        "denominator": "Same605 generated tasks and five fixed scenes; compare paired scene changes and total completion ratio."
+      }
+    ],
+    "purpose": "Determine whether C12k->16k task completion improvement also improves energy-aware routing, or coexists with worsening energy exhaustion. Use the result to choose the next training-length/repeatability step without altering the scientific configuration."
+  }
+}

@@ -1,0 +1,423 @@
+{
+  "status": "PASS",
+  "reference_config_hash": "2f143a85c0e37f605bbf38b59b3a31267a305464179593d9828c7c0a1518e3fa",
+  "records": [
+    {
+      "path": "experiments\\task-allocation\\configs\\a-seed42-8k.json",
+      "group": "A",
+      "seed": 42,
+      "config_hash": "81cb1ad596cb6dcd6f212e2d08a7edc50e9b210b0a5cf226ba4a7a2cb1651ae5",
+      "sha256": "6e1b96dc204ffa8c42e79db9dba56fc5fcec674c25bc048677beea256893f5f6",
+      "changes_from_P1a": [
+        {
+          "field": "output.dashboard_logs_dir",
+          "before": "D:/My_project_li/dashboard_logs/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "dashboard_logs/development/task_allocation/experiments/A/seed42/8k"
+        },
+        {
+          "field": "output.logs_dir",
+          "before": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "logs/development/task_allocation/experiments/A/seed42/8k"
+        },
+        {
+          "field": "output.plots_dir",
+          "before": "D:/My_project_li/plots/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "plots/development/task_allocation/experiments/A/seed42/8k"
+        }
+      ],
+      "route_identity": {
+        "decoder_mode": "hierarchical_option_aware_v1"
+      },
+      "collected": 8000,
+      "optimized": 7936,
+      "unused_tail": 64,
+      "ppo_updates": 31,
+      "fresh_random_initialization_required": true,
+      "formal_run_started": false
+    },
+    {
+      "path": "experiments\\task-allocation\\configs\\a-seed43-8k.json",
+      "group": "A",
+      "seed": 43,
+      "config_hash": "99959a2ccf1b58858e0ee00fab239540562ef593f21ccf9e8fe27dc3bfd9f91d",
+      "sha256": "13acb3fbc1670f7462b7bbbb29981b3e71b235aec81842284b2a5e8ab293b78d",
+      "changes_from_P1a": [
+        {
+          "field": "output.dashboard_logs_dir",
+          "before": "D:/My_project_li/dashboard_logs/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "dashboard_logs/development/task_allocation/experiments/A/seed43/8k"
+        },
+        {
+          "field": "output.logs_dir",
+          "before": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "logs/development/task_allocation/experiments/A/seed43/8k"
+        },
+        {
+          "field": "output.plots_dir",
+          "before": "D:/My_project_li/plots/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "plots/development/task_allocation/experiments/A/seed43/8k"
+        },
+        {
+          "field": "seed",
+          "before": 42,
+          "after": 43
+        }
+      ],
+      "route_identity": {
+        "decoder_mode": "hierarchical_option_aware_v1"
+      },
+      "collected": 8000,
+      "optimized": 7936,
+      "unused_tail": 64,
+      "ppo_updates": 31,
+      "fresh_random_initialization_required": true,
+      "formal_run_started": false
+    },
+    {
+      "path": "experiments\\task-allocation\\configs\\a-seed44-8k.json",
+      "group": "A",
+      "seed": 44,
+      "config_hash": "5355c2bc052071ed7d32ab9af947976efff1a5bbf390433e77cdf41378775083",
+      "sha256": "f1383d7d611480e6f268b7c8de1238317b7e9de66032fda1438a0cb99b1313d1",
+      "changes_from_P1a": [
+        {
+          "field": "output.dashboard_logs_dir",
+          "before": "D:/My_project_li/dashboard_logs/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "dashboard_logs/development/task_allocation/experiments/A/seed44/8k"
+        },
+        {
+          "field": "output.logs_dir",
+          "before": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "logs/development/task_allocation/experiments/A/seed44/8k"
+        },
+        {
+          "field": "output.plots_dir",
+          "before": "D:/My_project_li/plots/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "plots/development/task_allocation/experiments/A/seed44/8k"
+        },
+        {
+          "field": "seed",
+          "before": 42,
+          "after": 44
+        }
+      ],
+      "route_identity": {
+        "decoder_mode": "hierarchical_option_aware_v1"
+      },
+      "collected": 8000,
+      "optimized": 7936,
+      "unused_tail": 64,
+      "ppo_updates": 31,
+      "fresh_random_initialization_required": true,
+      "formal_run_started": false
+    },
+    {
+      "path": "experiments\\task-allocation\\configs\\b-seed42-8k.json",
+      "group": "B",
+      "seed": 42,
+      "config_hash": "1bd1c1aa959695e150ef3734a625f5d87de87e4f4325d470f6ea3845e8cdfda4",
+      "sha256": "23379d3f9c6976055f15d9425d8aea4997c1f8aa52d8e770ae2ea93b1590c9ae",
+      "changes_from_P1a": [
+        {
+          "field": "output.dashboard_logs_dir",
+          "before": "D:/My_project_li/dashboard_logs/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "dashboard_logs/development/task_allocation/experiments/B/seed42/8k"
+        },
+        {
+          "field": "output.logs_dir",
+          "before": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "logs/development/task_allocation/experiments/B/seed42/8k"
+        },
+        {
+          "field": "output.plots_dir",
+          "before": "D:/My_project_li/plots/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "plots/development/task_allocation/experiments/B/seed42/8k"
+        },
+        {
+          "field": "training.mappo.route_decoder_mode",
+          "before": "hierarchical_option_aware_v1",
+          "after": "unified_node_v1"
+        }
+      ],
+      "route_identity": {
+        "schema": "unified_route_identity.v1",
+        "decoder_mode": "unified_node_v1",
+        "decision_mode": "flat_leaf_v1",
+        "feature_mode": "original_option_features_v1",
+        "q_candidate_mode": "candidate_remote_context_type_411_v1",
+        "initialization_domain": 17001,
+        "initialization_seed": 3399495094973554999
+      },
+      "collected": 8000,
+      "optimized": 7936,
+      "unused_tail": 64,
+      "ppo_updates": 31,
+      "fresh_random_initialization_required": true,
+      "formal_run_started": false
+    },
+    {
+      "path": "experiments\\task-allocation\\configs\\b-seed43-8k.json",
+      "group": "B",
+      "seed": 43,
+      "config_hash": "73e98e7f163770aa8c1de1936878840fe649759a30e3be862a4a397fbf6393bf",
+      "sha256": "ae10238cda19fcf35c74ea7d74b2ccc6dc9f032b67ac70a9295bc0d0fdbbe5cb",
+      "changes_from_P1a": [
+        {
+          "field": "output.dashboard_logs_dir",
+          "before": "D:/My_project_li/dashboard_logs/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "dashboard_logs/development/task_allocation/experiments/B/seed43/8k"
+        },
+        {
+          "field": "output.logs_dir",
+          "before": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "logs/development/task_allocation/experiments/B/seed43/8k"
+        },
+        {
+          "field": "output.plots_dir",
+          "before": "D:/My_project_li/plots/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "plots/development/task_allocation/experiments/B/seed43/8k"
+        },
+        {
+          "field": "seed",
+          "before": 42,
+          "after": 43
+        },
+        {
+          "field": "training.mappo.route_decoder_mode",
+          "before": "hierarchical_option_aware_v1",
+          "after": "unified_node_v1"
+        }
+      ],
+      "route_identity": {
+        "schema": "unified_route_identity.v1",
+        "decoder_mode": "unified_node_v1",
+        "decision_mode": "flat_leaf_v1",
+        "feature_mode": "original_option_features_v1",
+        "q_candidate_mode": "candidate_remote_context_type_411_v1",
+        "initialization_domain": 17001,
+        "initialization_seed": 4760288170161496701
+      },
+      "collected": 8000,
+      "optimized": 7936,
+      "unused_tail": 64,
+      "ppo_updates": 31,
+      "fresh_random_initialization_required": true,
+      "formal_run_started": false
+    },
+    {
+      "path": "experiments\\task-allocation\\configs\\b-seed44-8k.json",
+      "group": "B",
+      "seed": 44,
+      "config_hash": "d77c196ba23690fb5e01d0bee72b60b44e2c21bbfd60f8147ecaea5fff882895",
+      "sha256": "ecc415191d83cb7c4ef3053c86d54166fadb8eee740b5afb25477d686e532aa3",
+      "changes_from_P1a": [
+        {
+          "field": "output.dashboard_logs_dir",
+          "before": "D:/My_project_li/dashboard_logs/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "dashboard_logs/development/task_allocation/experiments/B/seed44/8k"
+        },
+        {
+          "field": "output.logs_dir",
+          "before": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "logs/development/task_allocation/experiments/B/seed44/8k"
+        },
+        {
+          "field": "output.plots_dir",
+          "before": "D:/My_project_li/plots/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "plots/development/task_allocation/experiments/B/seed44/8k"
+        },
+        {
+          "field": "seed",
+          "before": 42,
+          "after": 44
+        },
+        {
+          "field": "training.mappo.route_decoder_mode",
+          "before": "hierarchical_option_aware_v1",
+          "after": "unified_node_v1"
+        }
+      ],
+      "route_identity": {
+        "schema": "unified_route_identity.v1",
+        "decoder_mode": "unified_node_v1",
+        "decision_mode": "flat_leaf_v1",
+        "feature_mode": "original_option_features_v1",
+        "q_candidate_mode": "candidate_remote_context_type_411_v1",
+        "initialization_domain": 17001,
+        "initialization_seed": 4853198679874376696
+      },
+      "collected": 8000,
+      "optimized": 7936,
+      "unused_tail": 64,
+      "ppo_updates": 31,
+      "fresh_random_initialization_required": true,
+      "formal_run_started": false
+    },
+    {
+      "path": "experiments\\task-allocation\\configs\\c-seed42-8k.json",
+      "group": "C",
+      "seed": 42,
+      "config_hash": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15",
+      "sha256": "ed0abc153552ea10dcc7a3099ce0f623c53c9e0d22324974a9bde876d31e9ff5",
+      "changes_from_P1a": [
+        {
+          "field": "output.dashboard_logs_dir",
+          "before": "D:/My_project_li/dashboard_logs/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "dashboard_logs/development/task_allocation/experiments/C/seed42/8k"
+        },
+        {
+          "field": "output.logs_dir",
+          "before": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "logs/development/task_allocation/experiments/C/seed42/8k"
+        },
+        {
+          "field": "output.plots_dir",
+          "before": "D:/My_project_li/plots/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "plots/development/task_allocation/experiments/C/seed42/8k"
+        },
+        {
+          "field": "training.mappo.route_decoder_mode",
+          "before": "hierarchical_option_aware_v1",
+          "after": "unified_node_v1"
+        },
+        {
+          "field": "training.mappo.route_feature_mode",
+          "before": "OMITTED",
+          "after": "physical_relations_v1"
+        }
+      ],
+      "route_identity": {
+        "schema": "unified_route_identity.v2",
+        "decoder_mode": "unified_node_v1",
+        "decision_mode": "flat_leaf_v1",
+        "feature_mode": "physical_relations_v1",
+        "q_candidate_mode": "physical_candidate_remote_context_type_411_v1",
+        "initialization_domain": 17001,
+        "initialization_seed": 3399495094973554999,
+        "physical_initialization_domain": 17002,
+        "physical_initialization_seed": 8109250931685342088,
+        "physical_transform": "signed_log1p_config_scales_v1"
+      },
+      "collected": 8000,
+      "optimized": 7936,
+      "unused_tail": 64,
+      "ppo_updates": 31,
+      "fresh_random_initialization_required": true,
+      "formal_run_started": false
+    },
+    {
+      "path": "experiments\\task-allocation\\configs\\c-seed43-8k.json",
+      "group": "C",
+      "seed": 43,
+      "config_hash": "277148336eaa2429a74dea4052b985fb311c4b6383b5f3dba27e0873abf5df61",
+      "sha256": "30120075b3d1089f864525ffb4134d80524f81ade9bc8cc1a8702530fa8d3f98",
+      "changes_from_P1a": [
+        {
+          "field": "output.dashboard_logs_dir",
+          "before": "D:/My_project_li/dashboard_logs/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "dashboard_logs/development/task_allocation/experiments/C/seed43/8k"
+        },
+        {
+          "field": "output.logs_dir",
+          "before": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "logs/development/task_allocation/experiments/C/seed43/8k"
+        },
+        {
+          "field": "output.plots_dir",
+          "before": "D:/My_project_li/plots/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "plots/development/task_allocation/experiments/C/seed43/8k"
+        },
+        {
+          "field": "seed",
+          "before": 42,
+          "after": 43
+        },
+        {
+          "field": "training.mappo.route_decoder_mode",
+          "before": "hierarchical_option_aware_v1",
+          "after": "unified_node_v1"
+        },
+        {
+          "field": "training.mappo.route_feature_mode",
+          "before": "OMITTED",
+          "after": "physical_relations_v1"
+        }
+      ],
+      "route_identity": {
+        "schema": "unified_route_identity.v2",
+        "decoder_mode": "unified_node_v1",
+        "decision_mode": "flat_leaf_v1",
+        "feature_mode": "physical_relations_v1",
+        "q_candidate_mode": "physical_candidate_remote_context_type_411_v1",
+        "initialization_domain": 17001,
+        "initialization_seed": 4760288170161496701,
+        "physical_initialization_domain": 17002,
+        "physical_initialization_seed": 4223353171784418688,
+        "physical_transform": "signed_log1p_config_scales_v1"
+      },
+      "collected": 8000,
+      "optimized": 7936,
+      "unused_tail": 64,
+      "ppo_updates": 31,
+      "fresh_random_initialization_required": true,
+      "formal_run_started": false
+    },
+    {
+      "path": "experiments\\task-allocation\\configs\\c-seed44-8k.json",
+      "group": "C",
+      "seed": 44,
+      "config_hash": "438fcaa33e6465c0f56d90a93ef1ef688bf1fa1fd60c7a2bc22b646aa2e7278a",
+      "sha256": "aacd8ff8bba0e09ace36d12294bf9042e5ef6fb7f5d0131e05464cfdf36c49de",
+      "changes_from_P1a": [
+        {
+          "field": "output.dashboard_logs_dir",
+          "before": "D:/My_project_li/dashboard_logs/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "dashboard_logs/development/task_allocation/experiments/C/seed44/8k"
+        },
+        {
+          "field": "output.logs_dir",
+          "before": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "logs/development/task_allocation/experiments/C/seed44/8k"
+        },
+        {
+          "field": "output.plots_dir",
+          "before": "D:/My_project_li/plots/development/e14e_p1a_task_event_credit_seed42_8k",
+          "after": "plots/development/task_allocation/experiments/C/seed44/8k"
+        },
+        {
+          "field": "seed",
+          "before": 42,
+          "after": 44
+        },
+        {
+          "field": "training.mappo.route_decoder_mode",
+          "before": "hierarchical_option_aware_v1",
+          "after": "unified_node_v1"
+        },
+        {
+          "field": "training.mappo.route_feature_mode",
+          "before": "OMITTED",
+          "after": "physical_relations_v1"
+        }
+      ],
+      "route_identity": {
+        "schema": "unified_route_identity.v2",
+        "decoder_mode": "unified_node_v1",
+        "decision_mode": "flat_leaf_v1",
+        "feature_mode": "physical_relations_v1",
+        "q_candidate_mode": "physical_candidate_remote_context_type_411_v1",
+        "initialization_domain": 17001,
+        "initialization_seed": 4853198679874376696,
+        "physical_initialization_domain": 17002,
+        "physical_initialization_seed": 2432202374158157285,
+        "physical_transform": "signed_log1p_config_scales_v1"
+      },
+      "collected": 8000,
+      "optimized": 7936,
+      "unused_tail": 64,
+      "ppo_updates": 31,
+      "fresh_random_initialization_required": true,
+      "formal_run_started": false
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "purpose": "development_checkpoint_progress_diagnostic",
+  "paper_formal_result": false,
+  "training_started": false,
+  "source_implementation_changed": false,
+  "training_seed": 42,
+  "methods": [
+    "A",
+    "B",
+    "C"
+  ],
+  "evaluated_checkpoint": "step_4000.pt",
+  "reference_checkpoint": "final.pt",
+  "evaluation_seeds": [
+    1042,
+    1043,
+    1044,
+    1045,
+    1046
+  ],
+  "horizon_slots": 500,
+  "policy_action_rule": "deterministic masked_argmax",
+  "device": "cpu",
+  "dtype": "torch.float32",
+  "torch_num_threads": 1,
+  "torch_num_interop_threads": 1,
+  "runtime": {
+    "python": "3.13.11 | packaged by Anaconda, Inc. | (main, Dec 10 2025, 21:21:58) [MSC v.1929 64 bit (AMD64)]",
+    "executable": "D:\\Miniconda\\python.exe",
+    "torch": "2.7.1+cu118",
+    "numpy": "2.3.5"
+  },
+  "evaluation_api": "src.evaluation.runner.FormalEvaluationRunner",
+  "evaluation_options": {
+    "collect_route_telemetry": true,
+    "collect_service_telemetry": true,
+    "development_checkpoint": true
+  },
+  "reference_policy": "Reuse immutable existing 8k evaluations; verify identical config hash, external traces, baseline metrics/actions and checkpoint digests. No checkpoint selected as best.",
+  "checkpoint_training_states": [
+    {
+      "method": "A",
+      "path": "D:\\My_project_li\\logs\\A\\seed42\\8k\\training\\checkpoints\\step_4000.pt",
+      "checkpoint_kind": "PERIODIC_RESUME",
+      "config_hash": "81cb1ad596cb6dcd6f212e2d08a7edc50e9b210b0a5cf226ba4a7a2cb1651ae5",
+      "training_state": {
+        "policy_version": 15,
+        "started_episodes": 8,
+        "completed_episodes": 8,
+        "next_episode_index": 8,
+        "collected_environment_transitions": 4000,
+        "optimized_transitions": 3840,
+        "ppo_update_count": 15,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 160,
+        "active_rollout_policy_version": 15
+      },
+      "pending_rollout_length": 160
+    },
+    {
+      "method": "A",
+      "path": "D:\\My_project_li\\logs\\A\\seed42\\8k\\training\\checkpoints\\final.pt",
+      "checkpoint_kind": "FINAL_COMPLETED",
+      "config_hash": "81cb1ad596cb6dcd6f212e2d08a7edc50e9b210b0a5cf226ba4a7a2cb1651ae5",
+      "training_state": {
+        "policy_version": 31,
+        "started_episodes": 16,
+        "completed_episodes": 16,
+        "next_episode_index": 16,
+        "collected_environment_transitions": 8000,
+        "optimized_transitions": 7936,
+        "ppo_update_count": 31,
+        "unused_final_tail_transitions": 64,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "pending_rollout_length": 0
+    },
+    {
+      "method": "B",
+      "path": "D:\\My_project_li\\logs\\B\\seed42\\8k\\training\\checkpoints\\step_4000.pt",
+      "checkpoint_kind": "PERIODIC_RESUME",
+      "config_hash": "1bd1c1aa959695e150ef3734a625f5d87de87e4f4325d470f6ea3845e8cdfda4",
+      "training_state": {
+        "policy_version": 15,
+        "started_episodes": 8,
+        "completed_episodes": 8,
+        "next_episode_index": 8,
+        "collected_environment_transitions": 4000,
+        "optimized_transitions": 3840,
+        "ppo_update_count": 15,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 160,
+        "active_rollout_policy_version": 15
+      },
+      "pending_rollout_length": 160
+    },
+    {
+      "method": "B",
+      "path": "D:\\My_project_li\\logs\\B\\seed42\\8k\\training\\checkpoints\\final.pt",
+      "checkpoint_kind": "FINAL_COMPLETED",
+      "config_hash": "1bd1c1aa959695e150ef3734a625f5d87de87e4f4325d470f6ea3845e8cdfda4",
+      "training_state": {
+        "policy_version": 31,
+        "started_episodes": 16,
+        "completed_episodes": 16,
+        "next_episode_index": 16,
+        "collected_environment_transitions": 8000,
+        "optimized_transitions": 7936,
+        "ppo_update_count": 31,
+        "unused_final_tail_transitions": 64,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "pending_rollout_length": 0
+    },
+    {
+      "method": "C",
+      "path": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\step_4000.pt",
+      "checkpoint_kind": "PERIODIC_RESUME",
+      "config_hash": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15",
+      "training_state": {
+        "policy_version": 15,
+        "started_episodes": 8,
+        "completed_episodes": 8,
+        "next_episode_index": 8,
+        "collected_environment_transitions": 4000,
+        "optimized_transitions": 3840,
+        "ppo_update_count": 15,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 160,
+        "active_rollout_policy_version": 15
+      },
+      "pending_rollout_length": 160
+    },
+    {
+      "method": "C",
+      "path": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\final.pt",
+      "checkpoint_kind": "FINAL_COMPLETED",
+      "config_hash": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15",
+      "training_state": {
+        "policy_version": 31,
+        "started_episodes": 16,
+        "completed_episodes": 16,
+        "next_episode_index": 16,
+        "collected_environment_transitions": 8000,
+        "optimized_transitions": 7936,
+        "ppo_update_count": 31,
+        "unused_final_tail_transitions": 64,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "pending_rollout_length": 0
+    }
+  ]
+}

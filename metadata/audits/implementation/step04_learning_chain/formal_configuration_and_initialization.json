@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "baseline_hash": "2f143a85c0e37f605bbf38b59b3a31267a305464179593d9828c7c0a1518e3fa",
+  "unified_engineering_hash": "6391c65cc07d15a39bbaf621a2224d5f0a9fc39f395d9e806a3240e4596e54e3",
+  "resolved_difference_paths": [
+    "training.mappo.route_decoder_mode"
+  ],
+  "experiment_config_files_released": false,
+  "effective_actor_task_coefficient": 1.0,
+  "effective_actor_counterfactual_coefficient": 0.0,
+  "q_auxiliary_coefficient": 0.5,
+  "records": [
+    {
+      "seed": 42,
+      "common_actor_tensor_count": 123,
+      "common_critic_tensor_count": 21,
+      "all_bitwise_equal": true,
+      "identity": {
+        "schema": "unified_route_identity.v1",
+        "decoder_mode": "unified_node_v1",
+        "decision_mode": "flat_leaf_v1",
+        "feature_mode": "original_option_features_v1",
+        "q_candidate_mode": "candidate_remote_context_type_411_v1",
+        "initialization_domain": 17001,
+        "initialization_seed": 3399495094973554999
+      }
+    },
+    {
+      "seed": 43,
+      "common_actor_tensor_count": 123,
+      "common_critic_tensor_count": 21,
+      "all_bitwise_equal": true,
+      "identity": {
+        "schema": "unified_route_identity.v1",
+        "decoder_mode": "unified_node_v1",
+        "decision_mode": "flat_leaf_v1",
+        "feature_mode": "original_option_features_v1",
+        "q_candidate_mode": "candidate_remote_context_type_411_v1",
+        "initialization_domain": 17001,
+        "initialization_seed": 4760288170161496701
+      }
+    },
+    {
+      "seed": 44,
+      "common_actor_tensor_count": 123,
+      "common_critic_tensor_count": 21,
+      "all_bitwise_equal": true,
+      "identity": {
+        "schema": "unified_route_identity.v1",
+        "decoder_mode": "unified_node_v1",
+        "decision_mode": "flat_leaf_v1",
+        "feature_mode": "original_option_features_v1",
+        "q_candidate_mode": "candidate_remote_context_type_411_v1",
+        "initialization_domain": 17001,
+        "initialization_seed": 4853198679874376696
+      }
+    }
+  ]
+}

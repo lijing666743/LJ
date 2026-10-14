@@ -1,0 +1,680 @@
+{
+  "schema": "task_allocation.baseline_identity.v1",
+  "created_at_utc": "2026-10-12T04:13:33.583861+00:00",
+  "completed_step": 1,
+  "git_head": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+  "git_dirty": true,
+  "git_status_file": "git_status_before.txt",
+  "dirty_source_caveat": "HEAD does not reproduce uncommitted source; current SHA256 inventory identifies this workspace. Current source is not claimed identical to historical training source.",
+  "baseline_config": {
+    "path": "D:/My_project_li/experiments/cooperative-load/configs/e14e-p1a-task-event-credit-seed42-8k-dev.json",
+    "relative_path": "experiments/cooperative-load/configs/e14e-p1a-task-event-credit-seed42-8k-dev.json",
+    "role": "P1a_method_reference",
+    "bytes": 11035,
+    "sha256": "d4442ef7284c2894f37fff518fbe9fba0b2501b6eeebb4e3e852976eae4f378d"
+  },
+  "canonical_config_hash": "2f143a85c0e37f605bbf38b59b3a31267a305464179593d9828c7c0a1518e3fa",
+  "canonical_resolved_config": {
+    "config_version": "section4.v1",
+    "mode": "rl",
+    "method_id": "ca_gat_mappo",
+    "launch_profile": "rl-formal",
+    "scenario_id": "remote_stress_v2",
+    "seed": 42,
+    "environment": {
+      "episode_horizon": 500,
+      "slot_duration_s": 0.02,
+      "height_m": 80.0,
+      "bounds": {
+        "x_min_m": 0.0,
+        "x_max_m": 1000.0,
+        "y_min_m": 0.0,
+        "y_max_m": 1000.0
+      },
+      "boundary_rule": "coordinate-wise specular reflection",
+      "reset_safe_distance_m": 50.0,
+      "velocity_mean_mps": [
+        0.0,
+        0.0
+      ],
+      "velocity_std_mps": [
+        1.0,
+        1.0
+      ],
+      "gauss_markov_alpha": 0.85,
+      "candidate_neighbor_radius_m": 525.0,
+      "total_bandwidth_hz": 20000000.0,
+      "ru_count": 20,
+      "resource_group_count": 5,
+      "carrier_frequency_hz": 3500000000.0,
+      "reference_transmit_power_w": 1.0,
+      "reference_cpu_frequency_hz": 2000000000.0,
+      "reference_cpu_coefficient": 1e-28,
+      "reference_initial_energy_j": 30.0,
+      "reference_rate_bps": 20000000.0,
+      "antenna_gain_dbi": 2.0,
+      "noise_psd_dbm_hz": -174.0,
+      "receiver_noise_figure_db": 7.0,
+      "building_loss_db": 15.0,
+      "los_rician_k_db": 6.0,
+      "shadowing_std_db": 4.0,
+      "shadowing_correlation_distance_m": 50.0,
+      "fixed_csi_aoi_slots": 3,
+      "csi_error_std_db": 2.0,
+      "interference_ema_beta": 0.8,
+      "initial_interference_w": 0.0,
+      "outage_threshold_db": -3.0,
+      "energy_tolerance_j": 1e-12,
+      "minimum_task_slack_slots": 10,
+      "maximum_task_slack_slots": 150,
+      "task_data_bits_min": 250000.0,
+      "task_data_bits_max": 1500000.0,
+      "task_cycles_per_bit_min": 300.0,
+      "task_cycles_per_bit_max": 1000.0,
+      "task_deadline_factor_min": 1.5,
+      "task_deadline_factor_max": 3.0,
+      "arrival_history_window_slots": 500,
+      "reward_workload_reference_s": 1.0,
+      "reward_task_count_reference": 1.0,
+      "reward_completion_weight": 1.0,
+      "reward_expiration_weight": 1.0,
+      "reward_workload_weight": 0.2,
+      "reward_energy_weight": 0.05,
+      "uav_count": 4,
+      "arrival_probabilities": [
+        0.0467,
+        0.11,
+        0.02,
+        0.0633
+      ],
+      "profile_assignment": [
+        "Balanced",
+        "Resource-poor",
+        "Compute-rich",
+        "Energy-limited"
+      ],
+      "profile_perturbations": [
+        [
+          -0.013814309988,
+          0.044593840641,
+          0.044559189965,
+          0.033901094602
+        ],
+        [
+          0.024305247334,
+          -0.014446956216,
+          0.005750819819,
+          -0.029482012276
+        ],
+        [
+          -0.000601140633,
+          -0.015719950799,
+          0.049877636039,
+          0.034480593142
+        ],
+        [
+          -0.000524427719,
+          0.006763643213,
+          -0.028161367743,
+          -0.001054193533
+        ]
+      ],
+      "building_layout": [
+        {
+          "name": "B1",
+          "x_min_m": 150.0,
+          "x_max_m": 250.0,
+          "y_min_m": 150.0,
+          "y_max_m": 350.0,
+          "height_m": 120.0
+        },
+        {
+          "name": "B2",
+          "x_min_m": 400.0,
+          "x_max_m": 500.0,
+          "y_min_m": 150.0,
+          "y_max_m": 350.0,
+          "height_m": 120.0
+        },
+        {
+          "name": "B3",
+          "x_min_m": 550.0,
+          "x_max_m": 650.0,
+          "y_min_m": 650.0,
+          "y_max_m": 850.0,
+          "height_m": 120.0
+        },
+        {
+          "name": "B4",
+          "x_min_m": 750.0,
+          "x_max_m": 850.0,
+          "y_min_m": 650.0,
+          "y_max_m": 850.0,
+          "height_m": 120.0
+        }
+      ],
+      "profile_ratios": {
+        "Resource-poor": [
+          0.7,
+          0.8,
+          0.8,
+          1.2
+        ],
+        "Balanced": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Compute-rich": [
+          2.0,
+          1.0,
+          1.1,
+          0.9
+        ],
+        "Energy-limited": [
+          1.0,
+          0.8,
+          0.5,
+          1.1
+        ],
+        "Communication-rich": [
+          1.0,
+          1.5,
+          1.1,
+          1.0
+        ]
+      }
+    },
+    "action": {
+      "route_fixed_actions": [
+        "idle",
+        "local",
+        "defer"
+      ],
+      "tx_select_idle_action": "idle",
+      "resource_group_count": 5,
+      "resource_width_options": [
+        1,
+        2
+      ],
+      "power_levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "cpu_queue_idle_action": "idle",
+      "cpu_frequency_levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "resource_group_numbering": "one_based_contiguous",
+      "sampling_order": [
+        "route",
+        "tx_select",
+        "resource_group",
+        "resource_width",
+        "power_level",
+        "cpu_queue",
+        "cpu_frequency"
+      ],
+      "canonical_inactive_values": {
+        "route": "idle",
+        "tx_select": "idle",
+        "resource_group": "idle",
+        "resource_width": 1,
+        "power_level": 0.0,
+        "cpu_queue": "idle",
+        "cpu_frequency": 0.0
+      }
+    },
+    "reproducibility": {
+      "seed_policy": "single_seed_default_42",
+      "stream_ids": {
+        "reset_mobility": 10,
+        "task_arrival": 20,
+        "task_workload": 30,
+        "channel_fading": 40,
+        "csi_error": 50,
+        "interference_measurement": 60,
+        "python_utility": 70,
+        "torch_initialization": 100,
+        "torch_policy_sampling": 110,
+        "qmix_epsilon": 120
+      },
+      "snapshot_enabled": true,
+      "backend_schema_version": "section4.v1",
+      "python_version": "3.13.11",
+      "numpy_version": "2.3.5",
+      "torch_version": "2.7.1+cu118",
+      "cuda_version": "11.8",
+      "miniconda_version": "25.11.1"
+    },
+    "training": {
+      "mappo": {
+        "encoder_hidden_dimension": 128,
+        "gat_layer_count": 1,
+        "attention_head_count": 4,
+        "gru_hidden_dimension": 128,
+        "actor_learning_rate": 0.0003,
+        "route_head_lr_scale": 0.1,
+        "route_private_backbone": true,
+        "tx_upper_decoder_mode": "private_candidate_binary_v1",
+        "cpu_scheduler_mode": "deadline_joint_v1",
+        "cpu_anti_starvation_mode": "deadline_feasibility_v1",
+        "route_exploration_mode": "annealed_top_level_log_barrier_v1",
+        "route_exploration_initial_coefficient": 0.05,
+        "route_exploration_anneal_steps": 6000,
+        "route_training_telemetry_enabled": true,
+        "route_task_credit_coefficient": 1.0,
+        "route_task_value_coefficient": 0.5,
+        "route_value_mode": "candidate_counterfactual_q_v1",
+        "route_counterfactual_credit_coefficient": 1.0,
+        "route_q_value_loss_coefficient": 0.5,
+        "route_q_input_mode": "normalized",
+        "route_actor_credit_source": "task_event",
+        "tx_upper_credit_mode": "paired_shadow_v1",
+        "tx_shadow_max_pairs_per_rollout": 2,
+        "tx_shadow_step_budget_per_rollout": 2000,
+        "tx_shadow_selector": "cyclic_source_first_active_v1",
+        "tx_shadow_rng_mode": "slot_addressed_v1",
+        "tx_shadow_rng_seed": 130043,
+        "tx_shadow_max_conditional_draws": 128,
+        "tx_shadow_advantage_normalization": "paired_rms_v1",
+        "critic_learning_rate": 0.0003,
+        "optimizer": "Adam",
+        "optimizer_topology": "separate_actor_critic",
+        "adam_beta1": 0.9,
+        "adam_beta2": 0.999,
+        "adam_eps": 1e-08,
+        "weight_decay": 0.0,
+        "zero_grad_set_to_none": true,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "ppo_clip_epsilon": 0.2,
+        "actor_ratio_mode": "branch_specific",
+        "policy_loss_aggregation_mode": "branchwise_active_mean_v1",
+        "agent_credit_mode": "role_decomposed",
+        "route_decoder_mode": "hierarchical_option_aware_v1",
+        "tx_decoder_mode": "hierarchical_candidate_aware_v1",
+        "route_credit_mode": "task_event_value_v1",
+        "entropy_coefficient": 0.01,
+        "value_coefficient": 0.5,
+        "rollout_length_slots": 256,
+        "recurrent_chunk_length_slots": 32,
+        "sequence_minibatch_size": 8,
+        "update_epochs": 4,
+        "gradient_clip_norm": 0.5,
+        "gradient_clip_scope": "separate_actor_critic_global_norm",
+        "require_full_rollout": true,
+        "chunk_shuffle": false,
+        "timestep_shuffle": false,
+        "allow_incomplete_minibatch": false,
+        "sequence_padding": false,
+        "padded_actor_forward": false,
+        "advantage_normalization": false,
+        "value_clipping": false,
+        "target_kl_enabled": false,
+        "kl_early_stopping": false,
+        "learning_rate_schedule_enabled": false,
+        "entropy_coefficient_schedule_enabled": false,
+        "gradient_accumulation": false,
+        "mixed_precision": false,
+        "training_device": "cuda",
+        "carry_hidden_across_update_boundary": true,
+        "policy_sampling_reset_each_episode": false,
+        "discard_final_partial_rollout": true,
+        "max_training_episodes": 16,
+        "max_training_environment_steps": 8000,
+        "evaluation_interval_steps": 4000,
+        "checkpoint_interval_steps": 4000,
+        "checkpoint_schema_version": 1,
+        "conditional_credit_telemetry_enabled": true,
+        "conditional_credit_telemetry_max_bytes": 2147483648,
+        "route_diagnostic_samples_enabled": true
+      },
+      "qmix": {
+        "encoder_hidden_dimension": 128,
+        "gat_layer_count": 1,
+        "attention_head_count": 4,
+        "gru_hidden_dimension": 128,
+        "learning_rate": 0.0005,
+        "gamma": 0.99,
+        "optimizer": "Adam",
+        "replay_capacity_sequences": 10000,
+        "recurrent_sequence_length_slots": 32,
+        "sequence_batch_size": 32,
+        "epsilon_start": 1.0,
+        "epsilon_end": 0.05,
+        "epsilon_decay_steps": 100000,
+        "target_update_interval_updates": 2000,
+        "max_training_episodes": 1000,
+        "max_training_environment_steps": 500000,
+        "checkpoint_interval_steps": 50000
+      },
+      "formal_rl_enabled": true
+    },
+    "evaluation": {
+      "train_seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "evaluation_seeds": [
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ],
+      "inference_rule_mappo": "masked_argmax",
+      "inference_rule_qmix": "masked_greedy",
+      "update_network": false,
+      "metric_statistics": [
+        "mean",
+        "std",
+        "valid_sample_count"
+      ]
+    },
+    "output": {
+      "logs_dir": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k",
+      "plots_dir": "D:/My_project_li/plots/development/e14e_p1a_task_event_credit_seed42_8k",
+      "dashboard_logs_dir": "D:/My_project_li/dashboard_logs/development/e14e_p1a_task_event_credit_seed42_8k",
+      "snapshot_filename": "config_snapshot.yaml",
+      "raw_metrics_filename": "raw_metrics.jsonl",
+      "aggregate_metrics_filename": "aggregate_metrics.json"
+    },
+    "reward": {
+      "credit_assignment_mode": "responsibility_terminal",
+      "beta_completion_credit": 0.5,
+      "mu_expiration_credit": 0.5
+    }
+  },
+  "mappo_all_resolved_defaults": {
+    "encoder_hidden_dimension": 128,
+    "gat_layer_count": 1,
+    "attention_head_count": 4,
+    "gru_hidden_dimension": 128,
+    "actor_learning_rate": 0.0003,
+    "route_head_lr_scale": 0.1,
+    "route_private_backbone": true,
+    "tx_upper_decoder_mode": "private_candidate_binary_v1",
+    "cpu_scheduler_mode": "deadline_joint_v1",
+    "cpu_anti_starvation_mode": "deadline_feasibility_v1",
+    "route_exploration_mode": "annealed_top_level_log_barrier_v1",
+    "route_exploration_initial_coefficient": 0.05,
+    "route_exploration_anneal_steps": 6000,
+    "route_training_telemetry_enabled": true,
+    "route_task_credit_coefficient": 1.0,
+    "route_task_value_coefficient": 0.5,
+    "route_value_mode": "candidate_counterfactual_q_v1",
+    "route_counterfactual_credit_coefficient": 1.0,
+    "route_q_value_loss_coefficient": 0.5,
+    "route_q_input_mode": "normalized",
+    "route_actor_credit_source": "task_event",
+    "destination_decoder_mode": "legacy",
+    "destination_oracle_rank_coefficient": 0.0,
+    "destination_supervision_mode": "legacy",
+    "tx_upper_optimization_mode": "ppo_standard",
+    "tx_upper_credit_mode": "paired_shadow_v1",
+    "tx_shadow_max_pairs_per_rollout": 2,
+    "tx_shadow_step_budget_per_rollout": 2000,
+    "tx_shadow_selector": "cyclic_source_first_active_v1",
+    "tx_shadow_rng_mode": "slot_addressed_v1",
+    "tx_shadow_rng_seed": 130043,
+    "tx_shadow_max_conditional_draws": 128,
+    "tx_shadow_advantage_normalization": "paired_rms_v1",
+    "tx_q_target_normalization": "none",
+    "critic_learning_rate": 0.0003,
+    "optimizer": "Adam",
+    "optimizer_topology": "separate_actor_critic",
+    "adam_beta1": 0.9,
+    "adam_beta2": 0.999,
+    "adam_eps": 1e-08,
+    "weight_decay": 0.0,
+    "zero_grad_set_to_none": true,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "ppo_clip_epsilon": 0.2,
+    "actor_ratio_mode": "branch_specific",
+    "policy_loss_aggregation_mode": "branchwise_active_mean_v1",
+    "agent_credit_mode": "role_decomposed",
+    "route_decoder_mode": "hierarchical_option_aware_v1",
+    "tx_decoder_mode": "hierarchical_candidate_aware_v1",
+    "cpu_frequency_decoder_mode": "legacy",
+    "route_credit_mode": "task_event_value_v1",
+    "route_gae_lambda": 1.0,
+    "entropy_coefficient": 0.01,
+    "value_coefficient": 0.5,
+    "rollout_length_slots": 256,
+    "recurrent_chunk_length_slots": 32,
+    "sequence_minibatch_size": 8,
+    "update_epochs": 4,
+    "gradient_clip_norm": 0.5,
+    "gradient_clip_scope": "separate_actor_critic_global_norm",
+    "require_full_rollout": true,
+    "chunk_shuffle": false,
+    "timestep_shuffle": false,
+    "allow_incomplete_minibatch": false,
+    "sequence_padding": false,
+    "padded_actor_forward": false,
+    "advantage_normalization": false,
+    "value_clipping": false,
+    "target_kl_enabled": false,
+    "kl_early_stopping": false,
+    "learning_rate_schedule_enabled": false,
+    "entropy_coefficient_schedule_enabled": false,
+    "route_entropy_start_coefficient": 0.03,
+    "route_entropy_schedule_start_step": 3072,
+    "route_entropy_schedule_end_step": 32768,
+    "route_only_entropy_initial_coefficient": 0.0,
+    "route_only_entropy_final_coefficient": 0.0,
+    "route_only_entropy_anneal_steps": 0,
+    "gradient_accumulation": false,
+    "mixed_precision": false,
+    "training_device": "cuda",
+    "carry_hidden_across_update_boundary": true,
+    "policy_sampling_reset_each_episode": false,
+    "discard_final_partial_rollout": true,
+    "max_training_episodes": 16,
+    "max_training_environment_steps": 8000,
+    "evaluation_interval_steps": 4000,
+    "checkpoint_interval_steps": 4000,
+    "checkpoint_schema_version": 1,
+    "trajectory_credit_telemetry_enabled": false,
+    "conditional_credit_telemetry_enabled": true,
+    "conditional_credit_telemetry_max_bytes": 2147483648,
+    "route_diagnostic_samples_enabled": true
+  },
+  "effective_route_credit": {
+    "actor_credit_source": "task_event",
+    "task_coefficient": 1.0,
+    "counterfactual_actor_coefficient": 0.0,
+    "configured_counterfactual_coefficient": 1.0,
+    "task_value_loss_coefficient": 0.5,
+    "q_auxiliary_loss_coefficient": 0.5,
+    "source_evidence": [
+      "src/models/route_task_credit.py:347",
+      "src/models/ca_gat_mappo_update.py:1676",
+      "src/models/route_option_q.py:270"
+    ]
+  },
+  "historical_runs": [
+    {
+      "id": "P1a_seed42_8k",
+      "config": {
+        "path": "D:/My_project_li/experiments/cooperative-load/configs/e14e-p1a-task-event-credit-seed42-8k-dev.json",
+        "relative_path": "experiments/cooperative-load/configs/e14e-p1a-task-event-credit-seed42-8k-dev.json",
+        "role": "historical_config",
+        "bytes": 11035,
+        "sha256": "d4442ef7284c2894f37fff518fbe9fba0b2501b6eeebb4e3e852976eae4f378d"
+      },
+      "canonical_config_hash": "2f143a85c0e37f605bbf38b59b3a31267a305464179593d9828c7c0a1518e3fa",
+      "config_snapshot": {
+        "path": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2f143a85c0e3__git-eb1140cefc4a/config_snapshot.yaml",
+        "relative_path": "logs/development/e14e_p1a_task_event_credit_seed42_8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2f143a85c0e3__git-eb1140cefc4a/config_snapshot.yaml",
+        "role": "historical_config_snapshot",
+        "bytes": 11555,
+        "sha256": "b1a1e052638d46f5eb8d7ec623071fddd5c9feb52b30fb8542cff3bc116a7dbd"
+      },
+      "checkpoint": {
+        "path": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2f143a85c0e3__git-eb1140cefc4a/checkpoints/final.pt",
+        "relative_path": "logs/development/e14e_p1a_task_event_credit_seed42_8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2f143a85c0e3__git-eb1140cefc4a/checkpoints/final.pt",
+        "role": "historical_final_checkpoint",
+        "bytes": 18588279,
+        "sha256": "d303878ed57dcfca0ee9d04354ab678046fbf22b3546aef38a853b53bae7a062"
+      },
+      "checkpoint_kind": "FINAL_COMPLETED",
+      "training_state": {
+        "policy_version": 31,
+        "started_episodes": 16,
+        "completed_episodes": 16,
+        "next_episode_index": 16,
+        "collected_environment_transitions": 8000,
+        "optimized_transitions": 7936,
+        "ppo_update_count": 31,
+        "unused_final_tail_transitions": 64,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "checkpoint_git_commit": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+      "runtime_provenance": {
+        "python_version": "3.13.11",
+        "torch_version": "2.7.1+cu118",
+        "cuda_runtime_version": "11.8",
+        "device_type": "cuda",
+        "device_name": "NVIDIA GeForce MX450",
+        "dtype": "torch.float32"
+      },
+      "role": "historical_reference_only_not_initialization"
+    },
+    {
+      "id": "E13_seed42_32k",
+      "config": {
+        "path": "D:/My_project_li/experiments/cooperative-load/configs/e13-v1-tx-paired-shadow-seed42-32k.json",
+        "relative_path": "experiments/cooperative-load/configs/e13-v1-tx-paired-shadow-seed42-32k.json",
+        "role": "historical_config",
+        "bytes": 9862,
+        "sha256": "ef38feebd065fadad0d7dac70db5acf8d0f4590cb7ab9b96688642f893333c6d"
+      },
+      "canonical_config_hash": "16ed37e1f161f7bdadf44fef120e3cfe26f4142c001e0e3b0dee7e4dd99d5d27",
+      "config_snapshot": {
+        "path": "D:/My_project_li/logs/gate_m/ca_gat_mappo__remote_stress_v2__seed-42__cfg-16ed37e1f161__git-21624c6cd274/config_snapshot.yaml",
+        "relative_path": "logs/gate_m/ca_gat_mappo__remote_stress_v2__seed-42__cfg-16ed37e1f161__git-21624c6cd274/config_snapshot.yaml",
+        "role": "historical_config_snapshot",
+        "bytes": 10718,
+        "sha256": "a1bb9eed5dfe1d84a72173f9c12a9cad6f3868c543a3bd8ad074502777823fb2"
+      },
+      "checkpoint": {
+        "path": "D:/My_project_li/logs/gate_m/ca_gat_mappo__remote_stress_v2__seed-42__cfg-16ed37e1f161__git-21624c6cd274/checkpoints/final.pt",
+        "relative_path": "logs/gate_m/ca_gat_mappo__remote_stress_v2__seed-42__cfg-16ed37e1f161__git-21624c6cd274/checkpoints/final.pt",
+        "role": "historical_final_checkpoint",
+        "bytes": 10384221,
+        "sha256": "8d0f66bfbf46949f7c5236383b9d76d93502c6c3fe9b438a717db972fd22e7ea"
+      },
+      "checkpoint_kind": "FINAL_COMPLETED",
+      "training_state": {
+        "policy_version": 125,
+        "started_episodes": 64,
+        "completed_episodes": 64,
+        "next_episode_index": 64,
+        "collected_environment_transitions": 32000,
+        "optimized_transitions": 32000,
+        "ppo_update_count": 125,
+        "unused_final_tail_transitions": 0,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "checkpoint_git_commit": "21624c6cd274806a1f38c75e0f68094caf8a81a7",
+      "runtime_provenance": {
+        "python_version": "3.13.11",
+        "torch_version": "2.7.1+cu118",
+        "cuda_runtime_version": "11.8",
+        "device_type": "cuda",
+        "device_name": "NVIDIA GeForce MX450",
+        "dtype": "torch.float32"
+      },
+      "role": "historical_reference_only_not_initialization"
+    },
+    {
+      "id": "E13_seed43_32k",
+      "config": {
+        "path": "D:/My_project_li/experiments/cooperative-load/configs/e13-v1-tx-paired-shadow-seed43-32k.json",
+        "relative_path": "experiments/cooperative-load/configs/e13-v1-tx-paired-shadow-seed43-32k.json",
+        "role": "historical_config",
+        "bytes": 9862,
+        "sha256": "1a2ef7836882ab7312bd456570949679a1d459711bcba7a15b5a469e5fa2aa42"
+      },
+      "canonical_config_hash": "411dcce4948d9b9bb599a61f49f86207494ee7cb633b4809765c17b6af03eb10",
+      "config_snapshot": {
+        "path": "D:/My_project_li/logs/gate_m/ca_gat_mappo__remote_stress_v2__seed-43__cfg-411dcce4948d__git-21624c6cd274/config_snapshot.yaml",
+        "relative_path": "logs/gate_m/ca_gat_mappo__remote_stress_v2__seed-43__cfg-411dcce4948d__git-21624c6cd274/config_snapshot.yaml",
+        "role": "historical_config_snapshot",
+        "bytes": 10718,
+        "sha256": "d96704ef5875b939b18bd0c878bf05f2517d5857a5a0fe5b4e933134a39e1a42"
+      },
+      "checkpoint": {
+        "path": "D:/My_project_li/logs/gate_m/ca_gat_mappo__remote_stress_v2__seed-43__cfg-411dcce4948d__git-21624c6cd274/checkpoints/final.pt",
+        "relative_path": "logs/gate_m/ca_gat_mappo__remote_stress_v2__seed-43__cfg-411dcce4948d__git-21624c6cd274/checkpoints/final.pt",
+        "role": "historical_final_checkpoint",
+        "bytes": 10384221,
+        "sha256": "25c576fe6974b4e3c3a7a518cbe5e1eff738322411dd3daaa16e645ffe41d679"
+      },
+      "checkpoint_kind": "FINAL_COMPLETED",
+      "training_state": {
+        "policy_version": 125,
+        "started_episodes": 64,
+        "completed_episodes": 64,
+        "next_episode_index": 64,
+        "collected_environment_transitions": 32000,
+        "optimized_transitions": 32000,
+        "ppo_update_count": 125,
+        "unused_final_tail_transitions": 0,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "checkpoint_git_commit": "21624c6cd274806a1f38c75e0f68094caf8a81a7",
+      "runtime_provenance": {
+        "python_version": "3.13.11",
+        "torch_version": "2.7.1+cu118",
+        "cuda_runtime_version": "11.8",
+        "device_type": "cuda",
+        "device_name": "NVIDIA GeForce MX450",
+        "dtype": "torch.float32"
+      },
+      "role": "historical_reference_only_not_initialization"
+    }
+  ],
+  "historical_p1a_4k_checkpoint": {
+    "path": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2f143a85c0e3__git-eb1140cefc4a/checkpoints/step_4000.pt",
+    "relative_path": "logs/development/e14e_p1a_task_event_credit_seed42_8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2f143a85c0e3__git-eb1140cefc4a/checkpoints/step_4000.pt",
+    "role": "diagnostic_only",
+    "bytes": 25867348,
+    "sha256": "edfd24a233d52f1c2d1db3b63675a20e76ca9ea0b6ec2f2bb4e863b233647f55"
+  },
+  "historical_eval1044_manifests": [
+    {
+      "path": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k/eval1044_4k/evaluations/development-service-eval__remote_stress_v2__chk-edfd24a233d5__cfg-2e7a1dd6b92d__eval-252be728cc0f/evaluation_manifest.json",
+      "relative_path": "logs/development/e14e_p1a_task_event_credit_seed42_8k/eval1044_4k/evaluations/development-service-eval__remote_stress_v2__chk-edfd24a233d5__cfg-2e7a1dd6b92d__eval-252be728cc0f/evaluation_manifest.json",
+      "role": "historical_evaluation_manifest",
+      "bytes": 14658,
+      "sha256": "47cf5db4282440187f9f8f1748e8e41b15b017f8d63cabac6e9bcf635bc356ba"
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k/eval1044_8k/evaluations/development-service-eval__remote_stress_v2__chk-d303878ed57d__cfg-2e7a1dd6b92d__eval-302b95721c5e/evaluation_manifest.json",
+      "relative_path": "logs/development/e14e_p1a_task_event_credit_seed42_8k/eval1044_8k/evaluations/development-service-eval__remote_stress_v2__chk-d303878ed57d__cfg-2e7a1dd6b92d__eval-302b95721c5e/evaluation_manifest.json",
+      "role": "historical_evaluation_manifest",
+      "bytes": 14654,
+      "sha256": "9f720a8a5492d9f31f550a1f50c15b78b28cad0af772c9a83f0b6bc9d1828154"
+    }
+  ],
+  "scope": "identity and protocol only; no source/config change, training, evaluation, oracle generation or pretraining"
+}

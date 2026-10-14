@@ -1,0 +1,1723 @@
+{
+  "schema": "abc_directory_cleanup.v1",
+  "moves": [
+    {
+      "old": "logs/development/task_allocation/experiments/A/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a/aggregate_metrics.json",
+      "new": "logs/A/seed42/8k/training/aggregate_metrics.json",
+      "bytes": 35920,
+      "sha256": "244f083174871c6b743f1f0f835bf0fb1a3d8b8265f3e583af27c79c269e3e65"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/A/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a/config_snapshot.yaml",
+      "new": "logs/A/seed42/8k/training/config_snapshot.yaml",
+      "bytes": 11440,
+      "sha256": "cf45bcd9a9e876c3dbe666abe51034068ae16480a08c1f50667cbb3ab873caca"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/A/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+      "new": "logs/A/seed42/8k/training/integrated_scheduler_updates_v1.jsonl",
+      "bytes": 401529,
+      "sha256": "2f52ca7ed03edaa60de5f45078bdc7cbf8d7329cbd8bdd10ec4a7eec06cbe9b5"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/A/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a/raw_metrics.jsonl",
+      "new": "logs/A/seed42/8k/training/raw_metrics.jsonl",
+      "bytes": 537972305,
+      "sha256": "0afa4519e3afff9ccebd7b0f02c458a07e8f69992fadb4e9e3c21531cdba3533"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/A/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+      "new": "logs/A/seed42/8k/training/route_diagnostic_samples_v1.jsonl",
+      "bytes": 47244092,
+      "sha256": "ea893d09c9fd2b74d412ce45a237fd91c4be571766ba3ee3478f0c83363cb626"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/A/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+      "new": "logs/A/seed42/8k/training/route_option_q_updates_v1.jsonl",
+      "bytes": 40293387,
+      "sha256": "8a17ded31242b177bcc97ddda535ea15b883ecb193daf36eee587c0feec5de69"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/A/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+      "new": "logs/A/seed42/8k/training/route_task_credit_updates_v1.jsonl",
+      "bytes": 27920864,
+      "sha256": "77654975e78ac6588957936d703ede547c4d6aa416666ce0cbf508d32c710de0"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/A/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+      "new": "logs/A/seed42/8k/training/route_training_rollouts_v1.jsonl",
+      "bytes": 1486759,
+      "sha256": "5876d243c677d707036a335e1000de04c1b8765f5dc0e3c6045c15b9a58c834e"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/A/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a/checkpoints/final.pt",
+      "new": "logs/A/seed42/8k/training/checkpoints/final.pt",
+      "bytes": 18588151,
+      "sha256": "5da08bb0309948ab8bbd9423364d6f76b07daf1a8dcdb7786c7dee141f958199"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/A/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a/checkpoints/step_4000.pt",
+      "new": "logs/A/seed42/8k/training/checkpoints/step_4000.pt",
+      "bytes": 25867284,
+      "sha256": "dc026714f6e0d5b588e1fea83020e5ec8a0e6b817757c01b46855efe59609777"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/A/seed42/8k/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-5da08bb03099__cfg-d2463e1929ea__eval-1f1e83d20fc9/route_decision_trace.jsonl",
+      "new": "logs/A/seed42/8k/diagnostics/route_decision_trace.jsonl",
+      "bytes": 739650,
+      "sha256": "023ac080c8a572b113a36be73e94c5ca8ec843ae325fef4444b0ae1c1027ba0c"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/A/seed42/8k/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-5da08bb03099__cfg-d2463e1929ea__eval-1f1e83d20fc9/summary.json",
+      "new": "logs/A/seed42/8k/diagnostics/summary.json",
+      "bytes": 1299,
+      "sha256": "50ec04cd1135c5154ab23cd0bc87ad7c65925040b282fd9b73bae6e95b67c321"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/A/seed42/8k/evaluations/formal-eval__remote_stress_v2__chk-5da08bb03099__cfg-d2463e1929ea__eval-1f1e83d20fc9/aggregate_metrics.json",
+      "new": "logs/A/seed42/8k/evaluation/aggregate_metrics.json",
+      "bytes": 16418,
+      "sha256": "547955062603f5d52deec963241edf75b16b4e7d056215a7d1eae956c7219a75"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/A/seed42/8k/evaluations/formal-eval__remote_stress_v2__chk-5da08bb03099__cfg-d2463e1929ea__eval-1f1e83d20fc9/episode_metrics.jsonl",
+      "new": "logs/A/seed42/8k/evaluation/episode_metrics.jsonl",
+      "bytes": 199004,
+      "sha256": "b6c58a03defc40107e347e2cb57ff178d3a3b89ce41cc4ff7639c532e3a2c7bb"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/A/seed42/8k/evaluations/formal-eval__remote_stress_v2__chk-5da08bb03099__cfg-d2463e1929ea__eval-1f1e83d20fc9/evaluation_manifest.json",
+      "new": "logs/A/seed42/8k/evaluation/evaluation_manifest.json",
+      "bytes": 16499,
+      "sha256": "0364c0e8c188597bff34e665e6d9675f59a6b4791ab7aa6286973a8974c8f665"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/A/seed42/8k/evaluations/formal-eval__remote_stress_v2__chk-5da08bb03099__cfg-d2463e1929ea__eval-1f1e83d20fc9/evaluation_metrics.csv",
+      "new": "logs/A/seed42/8k/evaluation/evaluation_metrics.csv",
+      "bytes": 10398,
+      "sha256": "b01fb95804ca0d5ab9d2b93ccffcffea1813afbb111af6058ea12e39253dc9d5"
+    },
+    {
+      "old": "dashboard_logs/development/task_allocation/experiments/A/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a_metrics.csv",
+      "new": "dashboard_logs/A/seed42/8k/training_metrics.csv",
+      "bytes": 28217612,
+      "sha256": "5a490ba9fe04afb84718b6ac27d6869957c89dddd33175ad3e9c9402193a7ee7"
+    },
+    {
+      "old": "plots/development/task_allocation/experiments/A/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a_dashboard.png",
+      "new": "plots/A/seed42/8k/training_dashboard.png",
+      "bytes": 811699,
+      "sha256": "15da1cb7dc28dadbe181ac233dcf8338b454c5d0ec914cb22386399fd8baa815"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/B/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a/aggregate_metrics.json",
+      "new": "logs/B/seed42/8k/training/aggregate_metrics.json",
+      "bytes": 35208,
+      "sha256": "8fa2554ca288e670a72b70275ab6174b76498a94da1405be22cf6cb22d706fbd"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/B/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a/config_snapshot.yaml",
+      "new": "logs/B/seed42/8k/training/config_snapshot.yaml",
+      "bytes": 11427,
+      "sha256": "b8129aefd034abb4a2730fbd7e9a6a1d77d16493a095dccdc1743bf5bb738486"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/B/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+      "new": "logs/B/seed42/8k/training/integrated_scheduler_updates_v1.jsonl",
+      "bytes": 399171,
+      "sha256": "7375ad3567606264df013303f05b2ca26f25301cf62f2fdb3364802168f27516"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/B/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a/raw_metrics.jsonl",
+      "new": "logs/B/seed42/8k/training/raw_metrics.jsonl",
+      "bytes": 499825099,
+      "sha256": "91c639cebac24eb5cf2ce66388446fdd3ccb3326bce606a9ed8fd2a9f225b34f"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/B/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+      "new": "logs/B/seed42/8k/training/route_diagnostic_samples_v1.jsonl",
+      "bytes": 42188709,
+      "sha256": "4c0a3f0cf6b41caea1bf74c688f3f892f40ac833da943d33cf473862ad6a63b7"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/B/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+      "new": "logs/B/seed42/8k/training/route_option_q_updates_v1.jsonl",
+      "bytes": 46762909,
+      "sha256": "9b7ff7d9e46d28e78682d0591d8fdd2d80e6925f417696bc81a91823d9fcd113"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/B/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+      "new": "logs/B/seed42/8k/training/route_task_credit_updates_v1.jsonl",
+      "bytes": 35694900,
+      "sha256": "7d494a5c49c607c0234085233b6fabc0cd72cd10091c0bc0cc80b9ed3d2f94c2"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/B/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+      "new": "logs/B/seed42/8k/training/route_training_rollouts_v1.jsonl",
+      "bytes": 3677338,
+      "sha256": "a16fc7a06fcd5c0478d788bd491b05d56bf830163730f31e6353c3e32319dfe8"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/B/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a/checkpoints/final.pt",
+      "new": "logs/B/seed42/8k/training/checkpoints/final.pt",
+      "bytes": 18272775,
+      "sha256": "2cab254ff8d527726779b7ec18383ffc0cd7710f5edb6d0ac229da2c554feec5"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/B/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a/checkpoints/step_4000.pt",
+      "new": "logs/B/seed42/8k/training/checkpoints/step_4000.pt",
+      "bytes": 25609820,
+      "sha256": "482e62078f944d3800db2b205afb5b71f48d31d5212f54e5b73cbf58065953e0"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/B/seed42/8k/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-2cab254ff8d5__cfg-d2463e1929ea__eval-a4b04e518632/route_decision_trace.jsonl",
+      "new": "logs/B/seed42/8k/diagnostics/route_decision_trace.jsonl",
+      "bytes": 1193632,
+      "sha256": "ae47eefa1989c98034c2005c3391bc3472b2f32c5b8de8daa550ddb87cd690ca"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/B/seed42/8k/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-2cab254ff8d5__cfg-d2463e1929ea__eval-a4b04e518632/summary.json",
+      "new": "logs/B/seed42/8k/diagnostics/summary.json",
+      "bytes": 1323,
+      "sha256": "8ef4ee1a34991ee50d091ca27a794668b2539e2a07416cdff5c99842134cde5b"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/B/seed42/8k/evaluations/formal-eval__remote_stress_v2__chk-2cab254ff8d5__cfg-d2463e1929ea__eval-a4b04e518632/aggregate_metrics.json",
+      "new": "logs/B/seed42/8k/evaluation/aggregate_metrics.json",
+      "bytes": 16409,
+      "sha256": "1b993159592ee752f20534d4bbf00334f95a79bbca76b7de0306a3856123a56c"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/B/seed42/8k/evaluations/formal-eval__remote_stress_v2__chk-2cab254ff8d5__cfg-d2463e1929ea__eval-a4b04e518632/episode_metrics.jsonl",
+      "new": "logs/B/seed42/8k/evaluation/episode_metrics.jsonl",
+      "bytes": 199040,
+      "sha256": "c87689b1f04b6f923e3d7314726b13b66329c0523255096ff672765031472419"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/B/seed42/8k/evaluations/formal-eval__remote_stress_v2__chk-2cab254ff8d5__cfg-d2463e1929ea__eval-a4b04e518632/evaluation_manifest.json",
+      "new": "logs/B/seed42/8k/evaluation/evaluation_manifest.json",
+      "bytes": 16356,
+      "sha256": "a838c69a981bcc109338976d0acf559735bd02229ec1dc639fbb82652f3c11fe"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/B/seed42/8k/evaluations/formal-eval__remote_stress_v2__chk-2cab254ff8d5__cfg-d2463e1929ea__eval-a4b04e518632/evaluation_metrics.csv",
+      "new": "logs/B/seed42/8k/evaluation/evaluation_metrics.csv",
+      "bytes": 10395,
+      "sha256": "9c9f9234badecceef56de6dbdf958596007ff9835cd5cbdf01f0e05837397630"
+    },
+    {
+      "old": "dashboard_logs/development/task_allocation/experiments/B/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a_metrics.csv",
+      "new": "dashboard_logs/B/seed42/8k/training_metrics.csv",
+      "bytes": 26134514,
+      "sha256": "1f77f16cc30ce6652f319dd805adf8c811d1c26830dca152781ef20feaa16950"
+    },
+    {
+      "old": "plots/development/task_allocation/experiments/B/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a_dashboard.png",
+      "new": "plots/B/seed42/8k/training_dashboard.png",
+      "bytes": 821145,
+      "sha256": "4eb7cf3315dd7e6680a64c85f7ef6ad789c402559db5ce902c3359349a948545"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/C/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9e76466588b6__git-eb1140cefc4a/aggregate_metrics.json",
+      "new": "logs/C/seed42/8k/training/aggregate_metrics.json",
+      "bytes": 35146,
+      "sha256": "6fd9e03db302a2f1779f45e0aadee1ec0335fdd234151748425e8a4671df3c22"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/C/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9e76466588b6__git-eb1140cefc4a/config_snapshot.yaml",
+      "new": "logs/C/seed42/8k/training/config_snapshot.yaml",
+      "bytes": 11480,
+      "sha256": "1659ed4498a39b3b2424b8d81e4ee9d36628c50ecd8b21e52bba7eeaac12bc49"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/C/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9e76466588b6__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+      "new": "logs/C/seed42/8k/training/integrated_scheduler_updates_v1.jsonl",
+      "bytes": 399328,
+      "sha256": "8d1cc106053d840cabba5e4e11842bc136672b9b2d859a953b04ba9d1ce3bba1"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/C/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9e76466588b6__git-eb1140cefc4a/raw_metrics.jsonl",
+      "new": "logs/C/seed42/8k/training/raw_metrics.jsonl",
+      "bytes": 485676531,
+      "sha256": "880cf63e43f76ca94b396a7f66fa04473d5dd574f7525a3174e9cba370e54687"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/C/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9e76466588b6__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+      "new": "logs/C/seed42/8k/training/route_diagnostic_samples_v1.jsonl",
+      "bytes": 40358626,
+      "sha256": "6f55b8044bda1e6486ba6089a11483afcc229da9f02ca1d4ebcdb63d30464325"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/C/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9e76466588b6__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+      "new": "logs/C/seed42/8k/training/route_option_q_updates_v1.jsonl",
+      "bytes": 44610548,
+      "sha256": "9f02f898dd8d00414b58534925f9619b16b9e9f03352d60189a94fd2f3214fb4"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/C/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9e76466588b6__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+      "new": "logs/C/seed42/8k/training/route_task_credit_updates_v1.jsonl",
+      "bytes": 34040848,
+      "sha256": "7470c7fdddd2210b63a430dddc0dd353aa6149fb778116dfd9fb2d380a446b38"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/C/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9e76466588b6__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+      "new": "logs/C/seed42/8k/training/route_training_rollouts_v1.jsonl",
+      "bytes": 3500299,
+      "sha256": "a7411c8e4226f3a2e0bc35f138f507998e6ffbfda036efa1518b9542ae372d75"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/C/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9e76466588b6__git-eb1140cefc4a/checkpoints/final.pt",
+      "new": "logs/C/seed42/8k/training/checkpoints/final.pt",
+      "bytes": 18372199,
+      "sha256": "58da11c49bde4a517471e1386842b90568fdb1ffe51d9c290caa7e3d442ff1b5"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/C/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9e76466588b6__git-eb1140cefc4a/checkpoints/step_4000.pt",
+      "new": "logs/C/seed42/8k/training/checkpoints/step_4000.pt",
+      "bytes": 25701068,
+      "sha256": "2a92745919ef42316131ab70dd67c6cbb9fa91cfb1cb08ebd2931e5913b50325"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/C/seed42/8k/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-58da11c49bde__cfg-d2463e1929ea__eval-e866f9e0ccb7/route_decision_trace.jsonl",
+      "new": "logs/C/seed42/8k/diagnostics/route_decision_trace.jsonl",
+      "bytes": 1278700,
+      "sha256": "7fd212341e5e0b4b76e8d9a3f0ff6530a18b782336fef29352b0af71f8a9031c"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/C/seed42/8k/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-58da11c49bde__cfg-d2463e1929ea__eval-e866f9e0ccb7/summary.json",
+      "new": "logs/C/seed42/8k/diagnostics/summary.json",
+      "bytes": 1322,
+      "sha256": "c827e3cbdf020cf2c4bbc1a11d42e7ff4472827495472dc57cdce76b82e44438"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/C/seed42/8k/evaluations/formal-eval__remote_stress_v2__chk-58da11c49bde__cfg-d2463e1929ea__eval-e866f9e0ccb7/aggregate_metrics.json",
+      "new": "logs/C/seed42/8k/evaluation/aggregate_metrics.json",
+      "bytes": 16471,
+      "sha256": "3b61d52a10c29bb15ab6478a5aeeacb5702a765b0b9132ca1968c1f36d1156dc"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/C/seed42/8k/evaluations/formal-eval__remote_stress_v2__chk-58da11c49bde__cfg-d2463e1929ea__eval-e866f9e0ccb7/episode_metrics.jsonl",
+      "new": "logs/C/seed42/8k/evaluation/episode_metrics.jsonl",
+      "bytes": 199034,
+      "sha256": "3069ef82394e81f23cf1a624ed21b832d86f3ab0761533169b53ad0256c3bd2d"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/C/seed42/8k/evaluations/formal-eval__remote_stress_v2__chk-58da11c49bde__cfg-d2463e1929ea__eval-e866f9e0ccb7/evaluation_manifest.json",
+      "new": "logs/C/seed42/8k/evaluation/evaluation_manifest.json",
+      "bytes": 16649,
+      "sha256": "eb5a1334f67e057150752bc1d549d061fea1352980376732cea3a48f43043a06"
+    },
+    {
+      "old": "logs/development/task_allocation/experiments/C/seed42/8k/evaluations/formal-eval__remote_stress_v2__chk-58da11c49bde__cfg-d2463e1929ea__eval-e866f9e0ccb7/evaluation_metrics.csv",
+      "new": "logs/C/seed42/8k/evaluation/evaluation_metrics.csv",
+      "bytes": 10428,
+      "sha256": "8ccb9b61026da6ac21c6b97c7dd07b8f24ddd1d42ee02d1d08f7a9782771a512"
+    },
+    {
+      "old": "dashboard_logs/development/task_allocation/experiments/C/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9e76466588b6__git-eb1140cefc4a_metrics.csv",
+      "new": "dashboard_logs/C/seed42/8k/training_metrics.csv",
+      "bytes": 25379190,
+      "sha256": "f384c46a3774fb5800377b7cc0247fe0c30af58fcef453f2c40cd7226c6e3d1f"
+    },
+    {
+      "old": "plots/development/task_allocation/experiments/C/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9e76466588b6__git-eb1140cefc4a_dashboard.png",
+      "new": "plots/C/seed42/8k/training_dashboard.png",
+      "bytes": 834159,
+      "sha256": "5a2a3584f43aed0a91b144e857b5137bf0b7effb951b2f8346a110aafc7a146f"
+    },
+    {
+      "old": "logs/development/e14e_p1a_task_event_credit_seed42_8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2f143a85c0e3__git-eb1140cefc4a/aggregate_metrics.json",
+      "new": "metadata/reference/p1a_seed42_1044/training/aggregate_metrics.json",
+      "bytes": 35944,
+      "sha256": "d947e498737d0004c8d48f458fddb6032ef1b03013f7602821cb71da45bec22b"
+    },
+    {
+      "old": "logs/development/e14e_p1a_task_event_credit_seed42_8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2f143a85c0e3__git-eb1140cefc4a/config_snapshot.yaml",
+      "new": "metadata/reference/p1a_seed42_1044/training/config_snapshot.yaml",
+      "bytes": 11555,
+      "sha256": "b1a1e052638d46f5eb8d7ec623071fddd5c9feb52b30fb8542cff3bc116a7dbd"
+    },
+    {
+      "old": "logs/development/e14e_p1a_task_event_credit_seed42_8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2f143a85c0e3__git-eb1140cefc4a/checkpoints/final.pt",
+      "new": "metadata/reference/p1a_seed42_1044/training/checkpoints/final.pt",
+      "bytes": 18588279,
+      "sha256": "d303878ed57dcfca0ee9d04354ab678046fbf22b3546aef38a853b53bae7a062"
+    },
+    {
+      "old": "logs/development/e14e_p1a_task_event_credit_seed42_8k/eval1044_8k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-d303878ed57d__cfg-2e7a1dd6b92d__eval-302b95721c5e/route_decision_trace.jsonl",
+      "new": "metadata/reference/p1a_seed42_1044/diagnostics/route_decision_trace.jsonl",
+      "bytes": 155112,
+      "sha256": "f8ae25323eb909bd132b2d1a25673596aad7814feaebe19d8539f4ceb6ad9048"
+    },
+    {
+      "old": "logs/development/e14e_p1a_task_event_credit_seed42_8k/eval1044_8k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-d303878ed57d__cfg-2e7a1dd6b92d__eval-302b95721c5e/summary.json",
+      "new": "metadata/reference/p1a_seed42_1044/diagnostics/summary.json",
+      "bytes": 643,
+      "sha256": "269c974e6696145b55ba079bdc41dba60778f72f301904696804c179ce2bcfd7"
+    },
+    {
+      "old": "logs/development/e14e_p1a_task_event_credit_seed42_8k/eval1044_8k/evaluations/development-service-eval__remote_stress_v2__chk-d303878ed57d__cfg-2e7a1dd6b92d__eval-302b95721c5e/aggregate_metrics.json",
+      "new": "metadata/reference/p1a_seed42_1044/evaluation/aggregate_metrics.json",
+      "bytes": 15009,
+      "sha256": "36cb5fe6c99abfdc6307e9897c7c6909199447886c7c244b488f4b385748bf98"
+    },
+    {
+      "old": "logs/development/e14e_p1a_task_event_credit_seed42_8k/eval1044_8k/evaluations/development-service-eval__remote_stress_v2__chk-d303878ed57d__cfg-2e7a1dd6b92d__eval-302b95721c5e/episode_metrics.jsonl",
+      "new": "metadata/reference/p1a_seed42_1044/evaluation/episode_metrics.jsonl",
+      "bytes": 39875,
+      "sha256": "7fbbc4781ea5e4426f6ac9abaa3095e8a9528f6e90b732ac7d3f5c9945aa2671"
+    },
+    {
+      "old": "logs/development/e14e_p1a_task_event_credit_seed42_8k/eval1044_8k/evaluations/development-service-eval__remote_stress_v2__chk-d303878ed57d__cfg-2e7a1dd6b92d__eval-302b95721c5e/evaluation_manifest.json",
+      "new": "metadata/reference/p1a_seed42_1044/evaluation/evaluation_manifest.json",
+      "bytes": 14654,
+      "sha256": "9f720a8a5492d9f31f550a1f50c15b78b28cad0af772c9a83f0b6bc9d1828154"
+    },
+    {
+      "old": "experiments/cooperative-load/configs/e14e-p1a-task-event-credit-seed42-8k-dev.json",
+      "new": "metadata/reference/p1a_seed42_1044/original_config.json",
+      "bytes": 11035,
+      "sha256": "d4442ef7284c2894f37fff518fbe9fba0b2501b6eeebb4e3e852976eae4f378d"
+    },
+    {
+      "old": "logs/development/task_allocation/step01_baseline_protocol/baseline_identity.json",
+      "new": "metadata/audits/implementation/step01_baseline_protocol/baseline_identity.json",
+      "bytes": 25843,
+      "sha256": "cf8477a1d35bddfb2a8849141afce7ba68a502ba24084917eb66cff903b31029"
+    },
+    {
+      "old": "logs/development/task_allocation/step01_baseline_protocol/experiment_protocol.json",
+      "new": "metadata/audits/implementation/step01_baseline_protocol/experiment_protocol.json",
+      "bytes": 15612,
+      "sha256": "7a83de0f4f7f29b8c60715097c9572a625cddcc8d55c81ef5eac3a21ef75f231"
+    },
+    {
+      "old": "logs/development/task_allocation/step01_baseline_protocol/protected_files_sha256.json",
+      "new": "metadata/audits/implementation/step01_baseline_protocol/protected_files_sha256.json",
+      "bytes": 64295,
+      "sha256": "a1a36cf56505571ed200bb4e1d1e2be4bd34f23c14789c4e6ba6a43a0bbc1c9f"
+    },
+    {
+      "old": "logs/development/task_allocation/step01_baseline_protocol/seed_usage_audit.json",
+      "new": "metadata/audits/implementation/step01_baseline_protocol/seed_usage_audit.json",
+      "bytes": 31895,
+      "sha256": "6687b82a24f8e3ef0788925429c70274b02037e1892b0c31ecafb9923e1908f1"
+    },
+    {
+      "old": "logs/development/task_allocation/step01_baseline_protocol/step01_report.md",
+      "new": "metadata/audits/implementation/step01_baseline_protocol/step01_report.md",
+      "bytes": 5334,
+      "sha256": "ee5f45bcceaa164f7f15c43a4f41d6b0c33565e68181bf69b81eab520347b7d3"
+    },
+    {
+      "old": "logs/development/task_allocation/step01_baseline_protocol/validation.json",
+      "new": "metadata/audits/implementation/step01_baseline_protocol/validation.json",
+      "bytes": 2255,
+      "sha256": "425d2ad70b16830e630348c1b917cace7940b6265bb680ae88195c58eb5cf8ab"
+    },
+    {
+      "old": "logs/development/task_allocation/step02_candidate_interface/historical_compatibility.json",
+      "new": "metadata/audits/implementation/step02_candidate_interface/historical_compatibility.json",
+      "bytes": 2464,
+      "sha256": "6ef6d6ed1711f14b823d0c0337a779ef91dbf3de2fd893f4db9aa92382ca8aed"
+    },
+    {
+      "old": "logs/development/task_allocation/step02_candidate_interface/historical_compatibility_final.json",
+      "new": "metadata/audits/implementation/step02_candidate_interface/historical_compatibility_final.json",
+      "bytes": 2329,
+      "sha256": "72eda4e6d3bcf0ca54ac694e0d1b7bf47944509cbafb3999e4750ea8a23c2c42"
+    },
+    {
+      "old": "logs/development/task_allocation/step02_candidate_interface/protected_files_after.json",
+      "new": "metadata/audits/implementation/step02_candidate_interface/protected_files_after.json",
+      "bytes": 66284,
+      "sha256": "5e3640fcdd78402a584366f61ed54b0751faaf52c9f77fda2a3b955bdca03a64"
+    },
+    {
+      "old": "logs/development/task_allocation/step02_candidate_interface/step02_report.md",
+      "new": "metadata/audits/implementation/step02_candidate_interface/step02_report.md",
+      "bytes": 6920,
+      "sha256": "13f2c21a493a82ea847b24d8a9b142f4304966d3d961297fb3fbbe6e757351eb"
+    },
+    {
+      "old": "logs/development/task_allocation/step02_candidate_interface/validation.json",
+      "new": "metadata/audits/implementation/step02_candidate_interface/validation.json",
+      "bytes": 6375,
+      "sha256": "6b0eb48445da6fe279f22de8f4daa22b09b27b859dee555c862ef0c493018b3c"
+    },
+    {
+      "old": "logs/development/task_allocation/step03_unified_scorer/historical_compatibility.json",
+      "new": "metadata/audits/implementation/step03_unified_scorer/historical_compatibility.json",
+      "bytes": 4677,
+      "sha256": "2603ae0ad6bdc49c91ccde60eded8e88bb4b034946e6a5162cd788923ff65540"
+    },
+    {
+      "old": "logs/development/task_allocation/step03_unified_scorer/initialization_audit.json",
+      "new": "metadata/audits/implementation/step03_unified_scorer/initialization_audit.json",
+      "bytes": 22207,
+      "sha256": "53c17a9937d8cca67c407b220f712a64ea1089fd41362658acb4a197d1156cd9"
+    },
+    {
+      "old": "logs/development/task_allocation/step03_unified_scorer/protected_files_after.json",
+      "new": "metadata/audits/implementation/step03_unified_scorer/protected_files_after.json",
+      "bytes": 66672,
+      "sha256": "551d541b8eeb3971a67efffea44d62d9c4c7eca04f0ce210e165d007ea700d89"
+    },
+    {
+      "old": "logs/development/task_allocation/step03_unified_scorer/step03_report.md",
+      "new": "metadata/audits/implementation/step03_unified_scorer/step03_report.md",
+      "bytes": 5366,
+      "sha256": "423b7bdeebf2a24c0ddd9a6f56afa36431f1867f8691cd6d54a1c981a9957e43"
+    },
+    {
+      "old": "logs/development/task_allocation/step03_unified_scorer/validation.json",
+      "new": "metadata/audits/implementation/step03_unified_scorer/validation.json",
+      "bytes": 1931,
+      "sha256": "b0d46c4d1c1d85c410c56ffc7003349b65f717708cc75c7adf60a4ab896a99f7"
+    },
+    {
+      "old": "logs/development/task_allocation/step04_learning_chain/formal_configuration_and_initialization.json",
+      "new": "metadata/audits/implementation/step04_learning_chain/formal_configuration_and_initialization.json",
+      "bytes": 2088,
+      "sha256": "537e5d8b1c01cb916e407b57c771efa60c0aa00c3a68d505efd166d34940dada"
+    },
+    {
+      "old": "logs/development/task_allocation/step04_learning_chain/historical_compatibility.json",
+      "new": "metadata/audits/implementation/step04_learning_chain/historical_compatibility.json",
+      "bytes": 2914,
+      "sha256": "0965db6b7754f6738f64fde42c07986a25dfcec058becccd7220733f0c288538"
+    },
+    {
+      "old": "logs/development/task_allocation/step04_learning_chain/protected_files_after.json",
+      "new": "metadata/audits/implementation/step04_learning_chain/protected_files_after.json",
+      "bytes": 67235,
+      "sha256": "4e2da00c251b0c896ba11f156b7bcf0c30f9b806ee642ab11164f083741222bf"
+    },
+    {
+      "old": "logs/development/task_allocation/step04_learning_chain/step04_report.md",
+      "new": "metadata/audits/implementation/step04_learning_chain/step04_report.md",
+      "bytes": 8164,
+      "sha256": "7ede49b8caacd4a5f43d731a74705428e185169477dae0e52a74f55f22732744"
+    },
+    {
+      "old": "logs/development/task_allocation/step04_learning_chain/validation.json",
+      "new": "metadata/audits/implementation/step04_learning_chain/validation.json",
+      "bytes": 2469,
+      "sha256": "da1016af509662ba32b4c21bedae453b9b1f0369980e55cfe522b79bcbed76e8"
+    },
+    {
+      "old": "logs/development/task_allocation/step05_physical_relations/configuration_and_initialization.json",
+      "new": "metadata/audits/implementation/step05_physical_relations/configuration_and_initialization.json",
+      "bytes": 5199,
+      "sha256": "72296405fc02d81f8a1c08851226c0f78f04e4bfdb1567a2fc533598692b23c4"
+    },
+    {
+      "old": "logs/development/task_allocation/step05_physical_relations/historical_compatibility.json",
+      "new": "metadata/audits/implementation/step05_physical_relations/historical_compatibility.json",
+      "bytes": 2843,
+      "sha256": "a65069a8413e2a0fa750ef70b6789502fd5613ef42752ec284a32b7e52959939"
+    },
+    {
+      "old": "logs/development/task_allocation/step05_physical_relations/physical_feature_contract.json",
+      "new": "metadata/audits/implementation/step05_physical_relations/physical_feature_contract.json",
+      "bytes": 2288,
+      "sha256": "361c37ada87dc3fbf968caf687a7236fcd5e6d54b5140e7239910e3a65a59c1a"
+    },
+    {
+      "old": "logs/development/task_allocation/step05_physical_relations/protected_files_after.json",
+      "new": "metadata/audits/implementation/step05_physical_relations/protected_files_after.json",
+      "bytes": 67827,
+      "sha256": "2558cd64c2614efe769f4b928debdf5897a0e694b902c44c757edb6851b6a2ef"
+    },
+    {
+      "old": "logs/development/task_allocation/step05_physical_relations/step05_report.md",
+      "new": "metadata/audits/implementation/step05_physical_relations/step05_report.md",
+      "bytes": 6998,
+      "sha256": "819cd2249500dda3cfee0a0e2bec15fa13d110337d4261d71b242f270b7588b1"
+    },
+    {
+      "old": "logs/development/task_allocation/step05_physical_relations/validation.json",
+      "new": "metadata/audits/implementation/step05_physical_relations/validation.json",
+      "bytes": 1048,
+      "sha256": "f51bfb236e34792d8f3a188640189d556b44e46605be320a4a134a8f251ea70e"
+    },
+    {
+      "old": "logs/development/task_allocation/step06_engineering_gate/config_diff_and_identity.json",
+      "new": "metadata/audits/implementation/step06_engineering_gate/config_diff_and_identity.json",
+      "bytes": 16854,
+      "sha256": "ebf431933df1c553288704c718f5edac7b6bf242681678d9c2327b79140fef92"
+    },
+    {
+      "old": "logs/development/task_allocation/step06_engineering_gate/integration_summary.json",
+      "new": "metadata/audits/implementation/step06_engineering_gate/integration_summary.json",
+      "bytes": 27067,
+      "sha256": "e3e9d5238dbb2abf9dbb9edf8b3b11213399760e39dc44fe2d39c2bba9edc0ee"
+    },
+    {
+      "old": "logs/development/task_allocation/step06_engineering_gate/protected_files_after.json",
+      "new": "metadata/audits/implementation/step06_engineering_gate/protected_files_after.json",
+      "bytes": 73354,
+      "sha256": "e5b4dbbd2ddf37a7596cecc6820f6fcb6cef7ceb006fedfd9ba5263cdddd9484"
+    },
+    {
+      "old": "logs/development/task_allocation/step06_engineering_gate/step06_report.md",
+      "new": "metadata/audits/implementation/step06_engineering_gate/step06_report.md",
+      "bytes": 7067,
+      "sha256": "33d91c3a69bee51211ae70e9f28cc682fa8464d425a481a730eaf72a2605c1ea"
+    },
+    {
+      "old": "logs/development/task_allocation/step06_engineering_gate/validation.json",
+      "new": "metadata/audits/implementation/step06_engineering_gate/validation.json",
+      "bytes": 5270,
+      "sha256": "d38f2013e80386e230fe922c04608a2a7047b7c1f9fb21a94769d115f29c5439"
+    },
+    {
+      "old": "logs/development/task_allocation/step07_seed42_comparison/analysis_data.json",
+      "new": "metadata/audits/seed42/analysis_data.json",
+      "bytes": 343978,
+      "sha256": "5274cf49d1bc2dc00c3eb97cccbc85434a196706dab3fb11a23440c931f89cdb"
+    },
+    {
+      "old": "logs/development/task_allocation/step07_seed42_comparison/checkpoint_identity_audit.json",
+      "new": "metadata/audits/seed42/checkpoint_identity_audit.json",
+      "bytes": 40772,
+      "sha256": "91e0365df15676918486cb4339eeb83a175ebad3bde30b036fa6611e5267e350"
+    },
+    {
+      "old": "logs/development/task_allocation/step07_seed42_comparison/historical_p1a_vs_current_a_1044.csv",
+      "new": "docs/results/seed42/historical_p1a_vs_current_a_1044.csv",
+      "bytes": 559,
+      "sha256": "9ce223e106fb5e9bef50a89bc4049f9d9ba626b5540ba686533b0465f0446815"
+    },
+    {
+      "old": "logs/development/task_allocation/step07_seed42_comparison/seed42_abc_comparison_report.md",
+      "new": "docs/results/seed42/seed42_abc_comparison_report.md",
+      "bytes": 31952,
+      "sha256": "6c824b29372f3b9f3f4b81a94b978e1033e26ab04a28943aaa03cfc1e70fdb59"
+    },
+    {
+      "old": "logs/development/task_allocation/step07_seed42_comparison/seed42_abc_deltas.csv",
+      "new": "docs/results/seed42/seed42_abc_deltas.csv",
+      "bytes": 470,
+      "sha256": "813cfe1b7253925a14a5f724f58c6e0aa4b2cba24fff3119d5179d243fc65325"
+    },
+    {
+      "old": "logs/development/task_allocation/step07_seed42_comparison/seed42_abc_evaluation_summary.csv",
+      "new": "docs/results/seed42/seed42_abc_evaluation_summary.csv",
+      "bytes": 2636,
+      "sha256": "c42e925c4a65386e1ed5a849f156fc7e47668f840dc534d9737e75ec54c3d9e2"
+    },
+    {
+      "old": "logs/development/task_allocation/step07_seed42_comparison/seed42_abc_per_eval_seed.csv",
+      "new": "docs/results/seed42/seed42_abc_per_eval_seed.csv",
+      "bytes": 973,
+      "sha256": "1e215f7b39d9921d2161332a28f78b5c680bb6fa8ecede9ec2fc4baf12f1ac1f"
+    },
+    {
+      "old": "logs/development/task_allocation/step07_seed42_comparison/seed42_abc_remote_destinations.csv",
+      "new": "docs/results/seed42/seed42_abc_remote_destinations.csv",
+      "bytes": 172,
+      "sha256": "981fc0a95a6184845833c3bd5727973f1c6334c41ef160948474c633dc32a8fe"
+    },
+    {
+      "old": "logs/development/task_allocation/step07_seed42_comparison/seed42_abc_route_behavior.csv",
+      "new": "docs/results/seed42/seed42_abc_route_behavior.csv",
+      "bytes": 941,
+      "sha256": "8e8f66ec1768dda3c2e35e1de685506c0278838940b67d7289943361384e5e1e"
+    },
+    {
+      "old": "logs/development/task_allocation/step07_seed42_comparison/seed42_abc_training_summary.csv",
+      "new": "docs/results/seed42/seed42_abc_training_summary.csv",
+      "bytes": 3796,
+      "sha256": "f0c82aaab80b0f17f32da3693948576975774689cb9476042d4ec71afc71e057"
+    },
+    {
+      "old": "logs/development/task_allocation/step07_seed42_comparison/source_manifest.json",
+      "new": "metadata/audits/seed42/source_manifest.json",
+      "bytes": 490647,
+      "sha256": "dae1be9f87487c000ec7062104f27b169e1048e3737a4f4f2bc3350499298d65"
+    },
+    {
+      "old": "logs/development/task_allocation/step07_seed42_comparison/summary_tables.json",
+      "new": "metadata/audits/seed42/summary_tables.json",
+      "bytes": 25571,
+      "sha256": "6b2ddc45e8b1b782b73c577e50063e9f81f87f1b6af4abdc3f2be2902aed22ad"
+    },
+    {
+      "old": "logs/development/task_allocation/step07_seed42_comparison/validation.json",
+      "new": "metadata/audits/seed42/validation.json",
+      "bytes": 4894,
+      "sha256": "fdf0df67b4a10e4bdf13e2e0c3279ef8544f66f190323e58417403d917c153ef"
+    },
+    {
+      "old": "logs/release/abc_cleanup_20261013/archive_validation.json",
+      "new": "metadata/cleanup/20261013/archive_validation.json",
+      "bytes": 453,
+      "sha256": "92194148071ddd62982dc4feacbfeb7288b09f936736bde52fa104ef98877dec"
+    },
+    {
+      "old": "logs/release/abc_cleanup_20261013/cleanup_plan.json",
+      "new": "metadata/cleanup/20261013/cleanup_plan.json",
+      "bytes": 386190,
+      "sha256": "f02bdcee102c8e2e546ac37a12bcac70b7c79f6e0d715fadc6acb7cb79f7a7a8"
+    },
+    {
+      "old": "logs/release/abc_cleanup_20261013/deletion_receipt.json",
+      "new": "metadata/cleanup/20261013/deletion_receipt.json",
+      "bytes": 375,
+      "sha256": "4928c5a1e24be61521d2981972d66975220522b8703dcae14e494477671dd7d7"
+    },
+    {
+      "old": "logs/release/abc_cleanup_20261013/full_regression.txt",
+      "new": "metadata/cleanup/20261013/full_regression.txt",
+      "bytes": 1554,
+      "sha256": "ce5d1150578e38c68fa3cf3ead5b0aa3b8a8cba860a45fd18530f15014610473"
+    },
+    {
+      "old": "logs/release/abc_cleanup_20261013/full_regression.xml",
+      "new": "metadata/cleanup/20261013/full_regression.xml",
+      "bytes": 197393,
+      "sha256": "d18e7272757241c85b30eb96eaaa8204d4de5935c20d5bc1def8ef59656dbaef"
+    },
+    {
+      "old": "logs/release/abc_cleanup_20261013/launcher_sandbox_probe.txt",
+      "new": "metadata/cleanup/20261013/launcher_sandbox_probe.txt",
+      "bytes": 2640,
+      "sha256": "a15b4e4e13d1a36eae30053a23ebc8a90f7a970d307d3a4b72c297d276177038"
+    },
+    {
+      "old": "logs/release/abc_cleanup_20261013/long_path_archive_validation.json",
+      "new": "metadata/cleanup/20261013/long_path_archive_validation.json",
+      "bytes": 30105,
+      "sha256": "eff4b77dba7fb5328956b016b2d7c952ed3e380fdbcfbbdac6ef7797db00176d"
+    },
+    {
+      "old": "logs/release/abc_cleanup_20261013/portable_validation.json",
+      "new": "metadata/cleanup/20261013/portable_validation.json",
+      "bytes": 1775,
+      "sha256": "7a8e253e1f5ac1ad9bbd889228646c2a5d8af8d10d1f8fc128f30523fa8753ef"
+    },
+    {
+      "old": "logs/release/abc_cleanup_20261013/test_path_migration.json",
+      "new": "metadata/cleanup/20261013/test_path_migration.json",
+      "bytes": 1763,
+      "sha256": "0a6f9861615b73c2adf2f60ac5581068eb9da8538a7a2063cfad2ca141a70bf7"
+    },
+    {
+      "old": "metadata/EMPTY_DIRECTORY_CLEANUP.json",
+      "new": "metadata/cleanup/20261013/EMPTY_DIRECTORY_CLEANUP.json",
+      "bytes": 8618,
+      "sha256": "17835c09046b2a25f0cbe53b48c14babe3f47079ace518122b1ffca2642cd53c"
+    },
+    {
+      "old": "metadata/FROZEN_INPUT_VALIDATION.json",
+      "new": "metadata/cleanup/20261013/FROZEN_INPUT_VALIDATION.json",
+      "bytes": 463,
+      "sha256": "78f027bdb4415056bdb0725986830078be572cc9f1494d551a638640d046683b"
+    },
+    {
+      "old": "metadata/RELOCATION_VALIDATION.json",
+      "new": "metadata/cleanup/20261013/RELOCATION_VALIDATION.json",
+      "bytes": 1144,
+      "sha256": "d4cf2c20d41a6c9c94f96becd26d12478428f27e0a69af758b01a2413c1570f3"
+    }
+  ],
+  "delete": [
+    {
+      "path": "logs/development/task_allocation/step01_baseline_protocol/git_status_before.txt",
+      "bytes": 4634,
+      "sha256": "e930c6cdbc07abef76cad5813ce2559b8f2eec82fd0b4ac509148de57a598aa8",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step02_candidate_interface/before_compatibility.json",
+      "bytes": 1779,
+      "sha256": "1a03290066fcb30b032fcd11a44b8c00cdc91d0d921f7d9f255922016693ab09",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step02_candidate_interface/checkpoint_fixture_diagnostic.txt",
+      "bytes": 3425,
+      "sha256": "2c7875d750bbf1519ac4f804a8669986cfa5265e50b4affa3b03a0d1fd276c35",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step02_candidate_interface/delivery_check.json",
+      "bytes": 350,
+      "sha256": "6273f3e56c2143c0c1b431e487dd235d6b285a5a1303903e28d4dc5f6e2205be",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step02_candidate_interface/final_focused_execution.json",
+      "bytes": 754,
+      "sha256": "9214245e029b5665155cddbfdb5b3516e1fcea69c77b71d022f33e4f8d873232",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step02_candidate_interface/final_focused_tests.txt",
+      "bytes": 115,
+      "sha256": "5943d9f4335d8da61dc9a308c3154e539f9bc50583463ebf3fb90b497135478d",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step02_candidate_interface/final_focused_tests.xml",
+      "bytes": 7810,
+      "sha256": "0549b4d6d740f46bc87244d8a1ce03bc5d4fb2a912a333d7e71f2d8f89d8f797",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step02_candidate_interface/focused_tests.txt",
+      "bytes": 101,
+      "sha256": "9ea522f9268104ca407800d1f9f742a28d330187410e8cad6d8b2be9a06ec55f",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step02_candidate_interface/focused_tests.xml",
+      "bytes": 5276,
+      "sha256": "6ab3522a378e2d8c5ebbed194f28738110ae5c8df9627e8d6df6ce6883e81f15",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step02_candidate_interface/focused_test_execution.json",
+      "bytes": 553,
+      "sha256": "35a9c9ea510b46568ba82012bef79f3820f45d5c74e237ab4dbc9a54e13bae15",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step02_candidate_interface/implementation_changes.patch",
+      "bytes": 34415,
+      "sha256": "b61524e8f071fc53a6c2def80f3a5feb91ead02819e0c2e2abdc7ada7fd6fd4a",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step02_candidate_interface/legacy_test_expectation.patch",
+      "bytes": 888,
+      "sha256": "526dbd5ccac54525723b5bbeca7153a8db4282a6c49b05d8942d494e565993b3",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step02_candidate_interface/patch_scope_check.json",
+      "bytes": 366,
+      "sha256": "388227f17841b9b74fc1e1825d65f6fa08b69f8c7669cdf5e7caaf62e830c994",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step02_candidate_interface/regression_execution.json",
+      "bytes": 1785,
+      "sha256": "732d31cd53d7325713d41fc307055c725eaf81417349b8778626aaf5446face4",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step02_candidate_interface/regression_interrupted_tempdir.txt",
+      "bytes": 13012,
+      "sha256": "ac21abcebab591d7eebc690a02cd6a97e54e4f410654d0419e797907a7f11557",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step02_candidate_interface/regression_tests.txt",
+      "bytes": 48332,
+      "sha256": "2e2cb0f6ac26cbfa6e82dcdcebbae72fdba7a3960a8f3828dc78194bb9d99082",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step02_candidate_interface/regression_tests.xml",
+      "bytes": 52305,
+      "sha256": "b4edbe01ee7d9e77f89bab0fe7238dbab2c12d457309b3e179b9534860c9d95a",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step03_unified_scorer/delivery_check.json",
+      "bytes": 347,
+      "sha256": "e6e07570e654675c9ee0db8eb872a9d18ba75b03212a0c7ef6c798c6ce159be2",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step03_unified_scorer/focused_01.txt",
+      "bytes": 13758,
+      "sha256": "34fdd8ff1c40abfa197674c2d47b58640b2528a825f076cb5e0db8abf5c719bd",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step03_unified_scorer/focused_01.xml",
+      "bytes": 15913,
+      "sha256": "50cdd39ed25aaafda7667de065f9778144be01caeb0e024954982733ae832afa",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step03_unified_scorer/focused_01_command.json",
+      "bytes": 731,
+      "sha256": "1a739bcea811247f588746276c2938c4ff4ed7e251683180832e2c4066cec18d",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step03_unified_scorer/focused_final.txt",
+      "bytes": 11312,
+      "sha256": "d3426035242ca0424e6690bd863d8c369e4ccadc9a46b318aba57daebfb26aaf",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step03_unified_scorer/focused_final.xml",
+      "bytes": 12987,
+      "sha256": "ee4a1064771da8b880093ebb6b9cbd035edabb32b75e15b2f8ddaff728007a26",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step03_unified_scorer/focused_final_command.json",
+      "bytes": 734,
+      "sha256": "22806007a4b2f9ade4dd728592ed38cf032bd338d5d32fbb13e1c152e583708d",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step03_unified_scorer/implementation_changes.patch",
+      "bytes": 22229,
+      "sha256": "a7534c311d0013f142c2bac02a6dde1c75a01e381ce5d7820fafb04ac30ceaa8",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step03_unified_scorer/regression.txt",
+      "bytes": 5471,
+      "sha256": "558484aebd5440689f7bf79671df1376fc61142a68cffe4892d715b8a655de65",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step03_unified_scorer/regression.xml",
+      "bytes": 5866,
+      "sha256": "d8257daae82364cc176c512fc87769d88bc37f4ceec8dc21d18a42d1ff55300e",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step03_unified_scorer/regression_command.json",
+      "bytes": 691,
+      "sha256": "6e166c14f75b1e1a7e522a43fe3609b9d87a78a58018c64195b7b0f9fadf676b",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step03_unified_scorer/starting_guard.json",
+      "bytes": 24050,
+      "sha256": "f818393d5ebc1577b3088541a97943aa25066ce7ee482b7838caf54fe55f9a6f",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step03_unified_scorer/before/README.md",
+      "bytes": 26786,
+      "sha256": "d8581ed111ba09f3d4ea7649e573e62a190783f690c778701aee3913fd0bf0a1",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step03_unified_scorer/before/sections/cooperative_task_allocation_implementation_plan.md",
+      "bytes": 24261,
+      "sha256": "b6175608ed6517e40f14e28a8965f53408157eceb5f655cb20fd208d93e2650b",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step03_unified_scorer/before/src/config.py",
+      "bytes": 126882,
+      "sha256": "284033cf46ea3078dfb87694933925e84e5808ec7f9b9f3f757b0755ba9fb85e",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step03_unified_scorer/before/tests/test_candidate_aware_route_decoder_v1.py",
+      "bytes": 18982,
+      "sha256": "525771ffd8fa5499b942418362f6770f4e3db8bf32587ef5471da96b61819874",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step03_unified_scorer/before/tests/test_route_candidate_interface.py",
+      "bytes": 18552,
+      "sha256": "5f93209d85c67530819bf42b455bc5c9fae2277fa2718c3d6bb7664ad65cf8c4",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step03_unified_scorer/before/src/models/ca_gat_mappo.py",
+      "bytes": 122227,
+      "sha256": "9769c10254e9907a2469fcdf05979604a68ab825daccab412adcd5f9cfdb5a9b",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step03_unified_scorer/before/src/models/ca_gat_mappo_actions.py",
+      "bytes": 48057,
+      "sha256": "dbdc31586ab97c00896f7eb3da625f1066be3ffdbf469bcd3f8c34768fc32aa7",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/delivery_check.json",
+      "bytes": 296,
+      "sha256": "efcead4d194c01b4a238d8996aa9e124e732dc1d3a0166320db66bfb19440324",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/implementation_changes.patch",
+      "bytes": 57228,
+      "sha256": "0e110fe6d23561d4d7270c72616e6697e696f84e488a1bbbe7d4d8baef4fcdad",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/initial.txt",
+      "bytes": 197,
+      "sha256": "ffa8427f521fc53e8a805fd425fd49d9e6c0e3822813eaf1b8f1143fc34e9c67",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/initial.xml",
+      "bytes": 12971,
+      "sha256": "f3470987c9a380878bf571440a390728020dfcb66253a4f2620add61e0059230",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/initial_command.json",
+      "bytes": 527,
+      "sha256": "490e10677dfebe970ddefe29c9a7f24ce6911f445d3ea61152df93de41eeaec2",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/learning01.txt",
+      "bytes": 27565,
+      "sha256": "82374fe63f6c22e12638679fa715e01b6a39be4e299d73806449dde69676f87e",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/learning01.xml",
+      "bytes": 26556,
+      "sha256": "a2426b5fcd426fde58ae64709b1c9f489b772ba3bd63ada2a755a6fde8b081e6",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/learning01_command.json",
+      "bytes": 393,
+      "sha256": "e9359e55de90486495eb3fbf9eed31436fdb918d651be00590c161c938559916",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/learning02.txt",
+      "bytes": 39689,
+      "sha256": "c63d69b1b2669b539075c613cc1a4778c9eb8926b8b56eba67b483160125f02d",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/learning02.xml",
+      "bytes": 39527,
+      "sha256": "8a7743a374cb4188edc79468794e32b082bb739d41ffee7db2adb408c2592672",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/learning02_command.json",
+      "bytes": 393,
+      "sha256": "e85bb2510179dfd3647ad3b7e694b07e53d1942f157c465e025b50711a43887e",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/learning03.txt",
+      "bytes": 19725,
+      "sha256": "646058d0148cc14341b86e987031920a0553e0edd4de21c150bb5b7ccd7a7dfb",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/learning03.xml",
+      "bytes": 19868,
+      "sha256": "3db714ea3b38ecf7002b331920d44308733e12973db204256193b4392f9366ce",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/learning03_command.json",
+      "bytes": 432,
+      "sha256": "bbdc60704a83969a88f9d7d01913af7edcca56ed0486be3c90e5d68e7dbf8b42",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/learning_final.txt",
+      "bytes": 3849,
+      "sha256": "0555fb7996dfa03e08ba454f5139b1a1069ffa89c85d7b6a1e448df67ab7bfa2",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/learning_final.xml",
+      "bytes": 4372,
+      "sha256": "b7acdf421825b9eaf86a50c9f5c9aac2f9f5ba3ac3ccb2f6c0c455f3fdc7dfb0",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/learning_final_command.json",
+      "bytes": 440,
+      "sha256": "73886b56e23990ffabc4d0f6922eb8f2ae7c1f0452dd832ca5c17662bfbf6e29",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/regression.txt",
+      "bytes": 38950,
+      "sha256": "032b9f4c2c96564db14c4a9de15099083513f725f6b0ac4d6f5bb2d95e6d0a42",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/regression.xml",
+      "bytes": 40708,
+      "sha256": "f4cb8d712523a8d1e2ee91f0db6b847e63c742db6745e8de4bc8624725751c99",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/regression_command.json",
+      "bytes": 956,
+      "sha256": "87b5adfcc2b079c3044779611649bc0ca99a2d5be2ac326084ecaf93dd19d1b5",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/runtime_and_scope.json",
+      "bytes": 1338,
+      "sha256": "719ca0e74d91c12a5b502d611375dea5fc22d1c0d4700dd3f6560a7ee02abe3e",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/starting_guard.json",
+      "bytes": 46,
+      "sha256": "01cec65baa262cff23f6af7ed7adef620cdf6668dce2a186b2dba5710c7368d3",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/strengthened.txt",
+      "bytes": 814,
+      "sha256": "d7283bb0ba8d95e4174743455ce20fee5ef44835d242699906a598242189ee53",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/strengthened.xml",
+      "bytes": 684,
+      "sha256": "a1e94d237176da768077c520df4d28c4a9776449727d669438d6dc4427cc0273",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/strengthened_command.json",
+      "bytes": 516,
+      "sha256": "0fe1217958798d84b1a3487d5e3379848c92c4d3513da51b75d258547c92dbea",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/synthetic_actor_loader_check.json",
+      "bytes": 867,
+      "sha256": "638553c45aa5d14e3530fc0991f97bb42ca25d883fe130b16b56e8b8ce6edab4",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/before/README.md",
+      "bytes": 27479,
+      "sha256": "2f7e5e8718e12eeeaff1c49630042d464ed1ea9f4c5189abdab81e3c47e1e4ba",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/before/sections/cooperative_task_allocation_implementation_plan.md",
+      "bytes": 25083,
+      "sha256": "06ffada34353f299cdd5337768d2fdf15f6fd56477a4eecca719463653506e89",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/before/src/config.py",
+      "bytes": 126884,
+      "sha256": "5850e544fad0a99e3b824e7f36f8891686a389088977a48004389ebe1b518fdb",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/before/tests/test_candidate_aware_route_decoder_v1.py",
+      "bytes": 18980,
+      "sha256": "e6655dc771522aa0b73ef9cbd21e376cb6b25210848037bd91e568902fb65038",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/before/tests/test_route_candidate_interface.py",
+      "bytes": 18550,
+      "sha256": "820d32c75a380105a4cb21f0a0b345c697fad9935b88b9cb822424a25d06b2a7",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/before/tests/test_unified_route.py",
+      "bytes": 14007,
+      "sha256": "020a643e28aeb3d004eb0a7212a47b5435b04fcf0b2b1c20a772b6a5f7f8fecc",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/before/src/evaluation/route_telemetry.py",
+      "bytes": 12356,
+      "sha256": "8f722e2a0bc97a4558fbc35aff5ecab0650e302382326cd881d2b693e1cbc0c4",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/before/src/models/ca_gat_mappo.py",
+      "bytes": 122665,
+      "sha256": "7e300c21bffffc9b1f8aaef17b0a98701fc24f0d187cce9f5e48e8dbb9ae509f",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/before/src/models/ca_gat_mappo_actions.py",
+      "bytes": 48216,
+      "sha256": "a74bdc9435f15b7800cab5ae1d2ca3de6ef2a6e0773b9023787ab074e7de0165",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/before/src/models/ca_gat_mappo_checkpoint.py",
+      "bytes": 48079,
+      "sha256": "dd036ebd1ea468e20f4dea7449cd79d12f066b81c2236aab9bc16554c38937bb",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/before/src/models/ca_gat_mappo_trainer.py",
+      "bytes": 87494,
+      "sha256": "a4ec7eae114d28c764847071cc8a985a8aff1122ae399c1102316f6703e0d6bc",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/before/src/models/route_exploration.py",
+      "bytes": 10456,
+      "sha256": "514d852a4c8d2fe272b5546d282c2d6c2846ac18e3506d61181286c03799b945",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/before/src/models/route_option_q.py",
+      "bytes": 17063,
+      "sha256": "21822aec16d28d901760252fc40c568eaaad8a6653c58c4d472c46e6f2700b75",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/before/src/models/route_task_credit.py",
+      "bytes": 20642,
+      "sha256": "cb5555f2671fc717735fb671bfa3c8940b163fbca7d71b5891ac669d3fa5b41d",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step04_learning_chain/before/src/models/unified_route.py",
+      "bytes": 3518,
+      "sha256": "f73498e55b2c2cf31edb13d7ba0fb828ffba9cbca370a2f8e319706f0e33441e",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step05_physical_relations/b_before.json",
+      "bytes": 1095,
+      "sha256": "67439be5da6dfc3a52273a279779fb168e05ae3c64c047f0edae167cb2ef5c2d",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step05_physical_relations/delivery_check.json",
+      "bytes": 992,
+      "sha256": "cf6d13a50ea2a9f6f57eb583455b9ebc33e71cb9c4b10f57c0722875ed8a3ff6",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step05_physical_relations/implementation_changes.patch",
+      "bytes": 59865,
+      "sha256": "152b2eafcb09d0d0f4d8c5846a30913e29a531f45e99f5e06312fcfd2896382e",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step05_physical_relations/physical01.txt",
+      "bytes": 14559,
+      "sha256": "d68cd9dc49865f88f39a5e941b587822433bf55feabfd7a94476f61e8fbef4c6",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step05_physical_relations/physical01.xml",
+      "bytes": 14862,
+      "sha256": "3ccd0df98910df6c227ef771c746332d5268ff517710a245046d7e3b84bf001e",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step05_physical_relations/physical01_command.json",
+      "bytes": 433,
+      "sha256": "1be4593fa39c88e91387f6d769f1a088dfe00ff93aaca57bf84769f25b857a8c",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step05_physical_relations/physical_final.txt",
+      "bytes": 4116,
+      "sha256": "c88c56434862ad3fbda03ef6e3f0546da3a0572d2e2aba81339a0fdf28ca3038",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step05_physical_relations/physical_final.xml",
+      "bytes": 4734,
+      "sha256": "e3932a25e333893c4291b1ca52b1bf4c0daefbb1eec9ffdd6a6c705de196a5ca",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step05_physical_relations/physical_final_command.json",
+      "bytes": 441,
+      "sha256": "9807da571ff4368c0e2123356f7216cd009dcc6dc6f4172abe7d8bda31ed1aba",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step05_physical_relations/protection_check.json",
+      "bytes": 499,
+      "sha256": "1b0a92c44226dee1522f6080ad566cf600b0ec4ba78be4ee0e6c464f17706a49",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step05_physical_relations/regression.txt",
+      "bytes": 35870,
+      "sha256": "188875ffdd6c1d4c01da0a13a15aba50127dfb7f8ac43f5b60696c07e6e107db",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step05_physical_relations/regression.xml",
+      "bytes": 36140,
+      "sha256": "e43047662b91110fcd88952961c4414c25de2c6c04f2d06cc5e3fa61374efa0b",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step05_physical_relations/regression_command.json",
+      "bytes": 933,
+      "sha256": "85cb8b04c5cf5cdb731070887e0aee0398c1e7d3e31a608c2dcacd369505920b",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step05_physical_relations/runtime_and_scope.json",
+      "bytes": 700,
+      "sha256": "b805a24c89a0a42034fb0caa6fec18db5b2380cf02c97d7acf91ee7ea84ed325",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step05_physical_relations/starting_guard.json",
+      "bytes": 22039,
+      "sha256": "9c90aaf416b4d90cbbd2e3134ce03c5dec1682c087f85edeaafe22b7ddc7aa0a",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step05_physical_relations/before/README.md",
+      "bytes": 28367,
+      "sha256": "79275416c2ea54c6b7ba3ac28fa178ecb5bf9e03124260d6763650ea2604c96c",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step05_physical_relations/before/sections/cooperative_task_allocation_implementation_plan.md",
+      "bytes": 25930,
+      "sha256": "63515bf6ba5fbe67d0b99a905861522fc56ea80db4e65aa7eca90c2be301e692",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step05_physical_relations/before/src/config.py",
+      "bytes": 127137,
+      "sha256": "8372a7defc56f4a8bb1d0d06ce78be3b14c4829d1662d1c0a9e6c8b17a31ff7b",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step05_physical_relations/before/src/models/ca_gat_mappo.py",
+      "bytes": 124365,
+      "sha256": "61267427da8f86949ea23adaf0addaf026215873043102b72db33e767db99906",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step05_physical_relations/before/src/models/ca_gat_mappo_actions.py",
+      "bytes": 48322,
+      "sha256": "9ed4efbbb7a1ca04d63b97397fc4adb84020d8d6449997e35f160859f2c834ec",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step05_physical_relations/before/src/models/ca_gat_mappo_checkpoint.py",
+      "bytes": 49393,
+      "sha256": "0d1bd38b9e3cb4f93711a97a8db3c3d3ff2ff20b5f4a0f59167dc77221d76857",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step05_physical_relations/before/src/models/route_decision.py",
+      "bytes": 2728,
+      "sha256": "0fb3ed2f520b77e39d749f9b8b61bc17cc838fefc53a40095f86e2f38c1706a0",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step05_physical_relations/before/src/models/unified_route.py",
+      "bytes": 4084,
+      "sha256": "236907b34146c6a5c1655f51fde2b70e75a3f35727a86709782fbfd7096a416f",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/cooperative_task_allocation_implementation_plan_progress.patch",
+      "bytes": 2907,
+      "sha256": "da73997f4a3877e4a17c425b1aec1b833ea2dbbe47edd988474aac0608c95761",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/delivery_check.json",
+      "bytes": 1316,
+      "sha256": "9a6a559c04a9c27a6d5f4c7744ff444a12701781fccff76b272671f56a9090da",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/fixture_cost.json",
+      "bytes": 1360,
+      "sha256": "1dc48bd6cda5cb09077d06463a7ca730fa41870e0d9bc02b1d049aff0da3100d",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/full_failure_retest01.txt",
+      "bytes": 3661,
+      "sha256": "0496065a76b3b7dc332b6cd36e4141272158e69010d8edd7d127c0ebbbb4f467",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/full_failure_retest01.xml",
+      "bytes": 4047,
+      "sha256": "fb36af0b301b01912d3dd8cc59891bc49e64b0f40490e7cabf0aca561453c2d7",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/full_failure_retest01_command.json",
+      "bytes": 384,
+      "sha256": "71c654b3ff5fca1f6f0849e3246977ab850156dfc286b5327684e031f71f71c4",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/full_regression01.txt",
+      "bytes": 201430,
+      "sha256": "7ebd501bf6b16da3aea59b8134a7c32fe027d4216d9e41b11f2719b3d5d289b0",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/full_regression01.xml",
+      "bytes": 227403,
+      "sha256": "173d5ef38d5215a2e87a892688b560323d28754477d36ac656bb6bbc7048ef58",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/full_regression01_command.json",
+      "bytes": 409,
+      "sha256": "3768a55941727af62b4109ab577531386ea9dde598cb24518d75b76c8e4b4e9d",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/handoff_commands.json",
+      "bytes": 20930,
+      "sha256": "3f2a116bd421bfb8fc542ecba332c3b2339a32e20d624faefaeb15e2e708d563",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/historical_evaluation_loader.json",
+      "bytes": 1050,
+      "sha256": "d8d04237763b4661ee39d267f88bb3a11959c4bfe3f843fae73deb0c65c91af4",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/integration01.txt",
+      "bytes": 56372,
+      "sha256": "e8b5b1d663822f21a228f1e902c231cd81900c134118a0790cb972dae11d048a",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/integration01.xml",
+      "bytes": 13556,
+      "sha256": "d3074fb7f86735371327605e7a9f817a30b299023fb5c7dfe8196247ae9580f8",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/integration01_command.json",
+      "bytes": 462,
+      "sha256": "1d75ec3b3f4feb7ad7dcfe24a8e9d857032147c1bd37cb9ef5b2780721d0723e",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/integration02.txt",
+      "bytes": 18622,
+      "sha256": "79f58df4ca72a7aee774ca3709fd11298a5b8256ea670db44861307165b9c276",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/integration02.xml",
+      "bytes": 7068,
+      "sha256": "bd1841f2c17a8612f76bf3d098213b5bee15f92054804f2aa90927b604d23c10",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/integration02_command.json",
+      "bytes": 469,
+      "sha256": "35e1f48c8873004f4c55d020e6886a303cdbef5d144808253ab3d7f1ebdcc818",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/integration03.txt",
+      "bytes": 25663,
+      "sha256": "0ad5d35a2ff33798fe39ff2836257a9b38d7c36da54c2d7f3b7838d2655aaf10",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/integration03.xml",
+      "bytes": 12435,
+      "sha256": "cc2299961d14fa4bc2ba768102ee64e6cdbb9c83d6b9cba62a67507ec15d8e5a",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/integration03_command.json",
+      "bytes": 469,
+      "sha256": "34b2750940a169ad1b8035bb715c1b7ab8b0941be4d99bfcb56daffe9d5322c3",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/integration04.txt",
+      "bytes": 44151,
+      "sha256": "0ca442c3481ef8ac033eff4c75f3c06bd02a239ef63ba8c36979cab9ccd1d7e8",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/integration04.xml",
+      "bytes": 1814,
+      "sha256": "08c77caf95fbe9787d2b6fbd2304a801be47a695fc0f8444c78a65c08ea4a746",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/integration04_command.json",
+      "bytes": 469,
+      "sha256": "eaee74863ab1f8ad42353719d8bd8cc08660d54a803505a6c054ab4099f46319",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/lifecycle_final.txt",
+      "bytes": 1420,
+      "sha256": "53c5a516b5bead32c048402aca06c3ad3ba9119a2a91439b4f585d70c498c1e9",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/lifecycle_final.xml",
+      "bytes": 1382,
+      "sha256": "aefbe0079c446211f7682cb37e2d2d0ac24fab3e756b409265704664201a80bb",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/lifecycle_final_command.json",
+      "bytes": 447,
+      "sha256": "3624df2c8e933a5aecb5a2eb91225390052c03a856eb8d0425a78a072d449d32",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/loader_regression01.txt",
+      "bytes": 19136,
+      "sha256": "35380c3a973fe86d7acc9ceea21f0a86fa91bca4bda320907ab96470f89b39a4",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/loader_regression01.xml",
+      "bytes": 21299,
+      "sha256": "2bfb06a3ded4ce16c7a28b90dc97786690c0ecbdfdc09875e250950752b66e07",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/loader_regression01_command.json",
+      "bytes": 752,
+      "sha256": "277d536d1d31e2d122cb0b83767bbece06e6c9d782840767f4d349c3ab26881a",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/README_progress.patch",
+      "bytes": 1825,
+      "sha256": "81836e0294cde603c4c836801c57c6f4110f4a93fc570c9cd49ef65ff83aebfc",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/runtime_and_scope.json",
+      "bytes": 660,
+      "sha256": "280661ad47dc06349e9c191188e5982b174515de5d12211297b2cc89dba1e6d9",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/source_and_existing_test.patch",
+      "bytes": 2950,
+      "sha256": "b4feb012be3a504eb0795b33fce7b2063b14b4f079c63a1b2428a2aa62ae9be9",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/starting_guard.json",
+      "bytes": 22227,
+      "sha256": "079c4a3a73b67204e917bf12f7b549db2415aefa391979130d356c98578b15d1",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/after/README.md",
+      "bytes": 30123,
+      "sha256": "98fd3e58d4d0323d0063ac0923e64654c0ccaadc3534b8111f560e12344e7fd5",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/before/README.md",
+      "bytes": 29144,
+      "sha256": "396d6acbcdff9ba586042d828fd8e53ae3003dc94c46668806a57c0e64a10686",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/after/sections/cooperative_task_allocation_implementation_plan.md",
+      "bytes": 27817,
+      "sha256": "082d525d9bc218d888584f33e91e80469c1956b9e495805cd0b9a7d04406e81c",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/after/sections/task_allocation_experiment_handoff_step06.md",
+      "bytes": 5895,
+      "sha256": "03bf5e9d24944daec00cbb00e82440f4505c3df9e59abdd16f0bf9e2e26ebef4",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/after/tests/test_route_slot_workload_timing.py",
+      "bytes": 21318,
+      "sha256": "db629a236ff0a8a63cb57c740318b69bc5f5a4ec78399df4400f24e545b49ec9",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/after/tests/test_task_allocation_engineering_gate.py",
+      "bytes": 15426,
+      "sha256": "813d6ab09aaeb343d1900542e45c7fd4f06e2fb5acad639b9ff29504f856f70e",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/after/experiments/task-allocation/configuration_manifest.json",
+      "bytes": 26775,
+      "sha256": "148455d817649ca87b8e051606a676b11ff296f670acc6420c7c3675e04c49c9",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/after/experiments/task-allocation/configs/a-seed42-8k.json",
+      "bytes": 10993,
+      "sha256": "6e1b96dc204ffa8c42e79db9dba56fc5fcec674c25bc048677beea256893f5f6",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/after/experiments/task-allocation/configs/a-seed43-8k.json",
+      "bytes": 10993,
+      "sha256": "13acb3fbc1670f7462b7bbbb29981b3e71b235aec81842284b2a5e8ab293b78d",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/after/experiments/task-allocation/configs/a-seed44-8k.json",
+      "bytes": 10993,
+      "sha256": "f1383d7d611480e6f268b7c8de1238317b7e9de66032fda1438a0cb99b1313d1",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/after/experiments/task-allocation/configs/b-seed42-8k.json",
+      "bytes": 10980,
+      "sha256": "23379d3f9c6976055f15d9425d8aea4997c1f8aa52d8e770ae2ea93b1590c9ae",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/after/experiments/task-allocation/configs/b-seed43-8k.json",
+      "bytes": 10980,
+      "sha256": "ae10238cda19fcf35c74ea7d74b2ccc6dc9f032b67ac70a9295bc0d0fdbbe5cb",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/after/experiments/task-allocation/configs/b-seed44-8k.json",
+      "bytes": 10980,
+      "sha256": "ecc415191d83cb7c4ef3053c86d54166fadb8eee740b5afb25477d686e532aa3",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/after/experiments/task-allocation/configs/c-seed42-8k.json",
+      "bytes": 11034,
+      "sha256": "ed0abc153552ea10dcc7a3099ce0f623c53c9e0d22324974a9bde876d31e9ff5",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/after/experiments/task-allocation/configs/c-seed43-8k.json",
+      "bytes": 11034,
+      "sha256": "30120075b3d1089f864525ffb4134d80524f81ade9bc8cc1a8702530fa8d3f98",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/after/experiments/task-allocation/configs/c-seed44-8k.json",
+      "bytes": 11034,
+      "sha256": "aacd8ff8bba0e09ace36d12294bf9042e5ef6fb7f5d0131e05464cfdf36c49de",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/after/src/evaluation/actor_loader.py",
+      "bytes": 20184,
+      "sha256": "de0c371370c7fb398bbe0288e855ba72d6bca4505202b048b709b12ba6153c51",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/before/sections/cooperative_task_allocation_implementation_plan.md",
+      "bytes": 26764,
+      "sha256": "f131a7199d0c5012796154ec6693c9bd414f9531958b427a0cd60a76c6624555",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/before/tests/test_route_slot_workload_timing.py",
+      "bytes": 20611,
+      "sha256": "9780db4ad00eea325e75c05ba024f74689ff0d033caacaa905fec1fc75851d97",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/before/src/evaluation/actor_loader.py",
+      "bytes": 19911,
+      "sha256": "e347695f91c6a47faf8ac98e71188a83ab63a3bcc49bc114961b7b8f2764b74c",
+      "reason": "Superseded engineering iterations or duplicate before/after source snapshots"
+    },
+    {
+      "path": "logs/archive/legacy_before_abc_20261013.zip",
+      "bytes": 2299867650,
+      "reason": "User requested no ZIP archives"
+    },
+    {
+      "path": "logs/archive/legacy_long_paths_20261013.zip",
+      "bytes": 1114453,
+      "reason": "User requested no ZIP archives"
+    },
+    {
+      "path": "logs/release/ABC_seed42_reproduction_20261013.zip",
+      "bytes": 347509859,
+      "reason": "User requested no ZIP archives"
+    },
+    {
+      "path": "docs/design/remote_stress_design.md",
+      "bytes": 11437,
+      "sha256": "aaed70df974554e1396538d168d1a6ad630ea3b5a4a523eb39493c5cb34a83a7",
+      "reason": "User requested docs review. Superseded remote_stress (not current remote_stress_v2) scenario design or historical E13 seed43 pilot/4k preparation report; not read by current ABC runtime, tests, or active documentation. Shared runtime implementation retained."
+    },
+    {
+      "path": "docs/e13/E13_PAIRED_SHADOW_RELIABILITY_PILOT_REPORT.md",
+      "bytes": 11889,
+      "sha256": "037d1fade3eee116e50d9ce3a253c2ba581deb6b5bf81467f9bfa9961f8b7e8a",
+      "reason": "User requested docs review. Superseded remote_stress (not current remote_stress_v2) scenario design or historical E13 seed43 pilot/4k preparation report; not read by current ABC runtime, tests, or active documentation. Shared runtime implementation retained."
+    },
+    {
+      "path": "docs/e13/E13_V1_PAIRED_SHADOW_IMPLEMENTATION_REPORT.md",
+      "bytes": 16317,
+      "sha256": "14cdb782bd1727dc2baebd1b4ffc6bde3978b4e9cf1cf74bd44cd9bc8454b65e",
+      "reason": "User requested docs review. Superseded remote_stress (not current remote_stress_v2) scenario design or historical E13 seed43 pilot/4k preparation report; not read by current ABC runtime, tests, or active documentation. Shared runtime implementation retained."
+    },
+    {
+      "path": "logs/release/abc_cleanup_20261013/package_payload_inventory.json",
+      "bytes": 19351,
+      "sha256": "1d0381909d8fce463d7366bb24839b66be723887084b0461ae18c78822738abd",
+      "reason": "Inventory of the removed ZIP reproduction package; superseded by local file manifest"
+    }
+  ],
+  "protected_excluded": [
+    ".git",
+    ".agents",
+    "knowledge"
+  ],
+  "research_outputs_rewritten": false,
+  "post_move_document_edits": [
+    {
+      "path": "docs/results/seed42/seed42_abc_comparison_report.md",
+      "sha256": "54bc36bf24aeb5d0536d1c7697cd84a35e7eb8bc98d4bcf2171e8c05f42a901a",
+      "scope": "Links and relocation note only; no numerical or scientific edits"
+    },
+    {
+      "path": "metadata/cleanup/20261013/EMPTY_DIRECTORY_CLEANUP.json",
+      "sha256": "f761f96911564fe3cdfacd7467ba23703ca25d402f2d41acbf6f2a53b340a8df",
+      "scope": "Append the final empty-directory pruning receipt after regression completed"
+    }
+  ],
+  "temporary_directories_to_remove_after_full_regression": [
+    {
+      "path": "logs/release/abc_cleanup_20261013/test_tmp",
+      "file_count": 90,
+      "bytes": 259644572,
+      "reason": "Disposable engineering regression outputs, not formal experiment evidence"
+    },
+    {
+      "path": "plots/development/task_allocation/step06_engineering_gate/pytest",
+      "file_count": 3,
+      "bytes": 1743509,
+      "reason": "Disposable engineering regression outputs, not formal experiment evidence"
+    },
+    {
+      "path": "dashboard_logs/development/task_allocation/step06_engineering_gate/pytest",
+      "file_count": 3,
+      "bytes": 2203515,
+      "reason": "Disposable engineering regression outputs, not formal experiment evidence"
+    }
+  ],
+  "status": "COMPLETED_AND_VERIFIED"
+}

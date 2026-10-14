@@ -1,0 +1,51 @@
+{
+  "artifacts": [
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_heuristic_timeline\\20261013_16k\\CPU_waiting_slot_trace.jsonl",
+      "bytes": 1218867,
+      "sha256": "aa8b39d0f0b9b1bd0bf1d63bdee57ca5e649d7b8c560a962908e3b61d058f885"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_heuristic_timeline\\20261013_16k\\inputs_after.json",
+      "bytes": 42990,
+      "sha256": "95720b3851188c440c6e694db57167136fc4a298134aa9e2c907ff5b2c945f30"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_heuristic_timeline\\20261013_16k\\inputs_before.json",
+      "bytes": 42990,
+      "sha256": "95720b3851188c440c6e694db57167136fc4a298134aa9e2c907ff5b2c945f30"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_heuristic_timeline\\20261013_16k\\interpretation.json",
+      "bytes": 6641,
+      "sha256": "67a338ba76e2988bcf4499a963bafac5bbf6db26cf45a81f2748cd2f187f53f3"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_heuristic_timeline\\20261013_16k\\post_depletion_assignments.json",
+      "bytes": 1506,
+      "sha256": "cec1a350e906fc5da796295fbd77ea27dc2e0a220ca76de082190318f52d9c41"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_heuristic_timeline\\20261013_16k\\task_timeline_comparison.csv",
+      "bytes": 15358,
+      "sha256": "57a2da4d5efedaf88895d60c5a4e60f8f42dacda7e7958ece21b5305a18a71f7"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_heuristic_timeline\\20261013_16k\\task_timelines.json",
+      "bytes": 79832,
+      "sha256": "9d7b786fae57e103ae50e9ee4b4e74d239f5be06578de99b2d2b93da641c4fd3"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_heuristic_timeline\\20261013_16k\\timeline_summary.json",
+      "bytes": 22630,
+      "sha256": "71c8d16f06fb943683f081850256c0a9bb127dcca4ab1a5b35850aa8217c8b6c"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_heuristic_timeline\\20261013_16k\\validation.json",
+      "bytes": 1127,
+      "sha256": "b19ae033939c4983a7477bd9d6e9d015084dfff0f830690801b5bc21540e2ec8"
+    }
+  ],
+  "manifest_self_excluded": true,
+  "README_progress_updated": "D:\\My_project_li\\README.md"
+}

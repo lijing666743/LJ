@@ -1,0 +1,45 @@
+Test-only TEMP/TMP/TMPDIR: C:\Users\李静\AppData\Local\Packages\sandbox.{5314db1a-3a29-415a-b564-109658e6f501}\AC\Temp\abc-cleanup-20261013\t-b7osxipf
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import pathlib,tempfile,sys; actual=pathlib.Path(tempfile.gettempdir()).resolve(); assert actual==pathlib.Path(sys.argv[1]).resolve(); print('tempfile.gettempdir():', actual)
+                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\shutil.py", line 631, in _rmtree_unsafe
+    os.rmdir(path)
+    ~~~~~~~~^^^^^^
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{5314db1a-3a29-415a-b564-109658e6f501}\\AC\\Temp\\abc-cleanup-20261013\\t-b7osxipf'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\My_project_li\tools\run_pytest.py", line 71, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "D:\My_project_li\tools\run_pytest.py", line 28, in main
+    with tempfile.TemporaryDirectory(prefix="t-", dir=temp_root) as directory:
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\tempfile.py", line 951, in __exit__
+    self.cleanup()
+    ~~~~~~~~~~~~^^
+  File "D:\Miniconda\Lib\tempfile.py", line 955, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\tempfile.py", line 935, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\shutil.py", line 790, in rmtree
+    return _rmtree_unsafe(path, onexc)
+  File "D:\Miniconda\Lib\shutil.py", line 635, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\tempfile.py", line 907, in onexc
+    _resetperms(path)
+    ~~~~~~~~~~~^^^^^^
+  File "D:\Miniconda\Lib\tempfile.py", line 287, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\tempfile.py", line 276, in _dont_follow_symlinks
+    func(path, *args, follow_symlinks=False)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{5314db1a-3a29-415a-b564-109658e6f501}\\AC\\Temp\\abc-cleanup-20261013\\t-b7osxipf'

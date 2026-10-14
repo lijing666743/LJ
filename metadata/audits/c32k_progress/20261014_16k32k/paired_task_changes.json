@@ -1,0 +1,56 @@
+[
+  {
+    "old_checkpoint": 12000,
+    "new_checkpoint": 16000,
+    "both_done": 326,
+    "new_only_done": 62,
+    "old_only_done": 27,
+    "neither_done": 190,
+    "net_DONE_change": 35
+  },
+  {
+    "old_checkpoint": 16000,
+    "new_checkpoint": 20000,
+    "both_done": 365,
+    "new_only_done": 49,
+    "old_only_done": 23,
+    "neither_done": 168,
+    "net_DONE_change": 26
+  },
+  {
+    "old_checkpoint": 20000,
+    "new_checkpoint": 24000,
+    "both_done": 376,
+    "new_only_done": 39,
+    "old_only_done": 38,
+    "neither_done": 152,
+    "net_DONE_change": 1
+  },
+  {
+    "old_checkpoint": 24000,
+    "new_checkpoint": 28000,
+    "both_done": 377,
+    "new_only_done": 33,
+    "old_only_done": 38,
+    "neither_done": 157,
+    "net_DONE_change": -5
+  },
+  {
+    "old_checkpoint": 28000,
+    "new_checkpoint": 32000,
+    "both_done": 385,
+    "new_only_done": 31,
+    "old_only_done": 25,
+    "neither_done": 164,
+    "net_DONE_change": 6
+  },
+  {
+    "old_checkpoint": 16000,
+    "new_checkpoint": 32000,
+    "both_done": 357,
+    "new_only_done": 59,
+    "old_only_done": 31,
+    "neither_done": 158,
+    "net_DONE_change": 28
+  }
+]

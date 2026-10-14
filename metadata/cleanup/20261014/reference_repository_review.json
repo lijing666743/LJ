@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-14",
+  "mode": "read_only_GET",
+  "url": "https://github.com/didgmd/SUTResearchHub/tree/main/M24_LiJingRu",
+  "directories_read": [
+    "M24_LiJingRu",
+    "M24_LiJingRu/P1v6",
+    "M24_LiJingRu/P2v1",
+    "M24_LiJingRu/P1v6/paper_results"
+  ],
+  "observed_top_level": [
+    "P1v1",
+    "P1v2",
+    "P1v3",
+    "P1v4",
+    "P1v5",
+    "P1v6",
+    "P2v1",
+    "hello.py"
+  ],
+  "observations": [
+    "Versions are separate project folders",
+    "P1v6 includes run_paper_experiments.py, run_reward_ablation.py and plotting entrypoints",
+    "P1v6/paper_results includes named figure PNGs and metrics CSVs",
+    "P2v1 includes comparison/evaluation entrypoints and named baseline/ablation folders"
+  ],
+  "local_adaptation": "Retain current project src/tests/config/log/plot conventions; add current result and reproduction navigation",
+  "remote_mutation_calls": 0,
+  "code_copied": false,
+  "future_upload_target": null
+}

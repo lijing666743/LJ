@@ -1,0 +1,56 @@
+{
+  "artifacts": [
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_energy_progress\\20261013_12k16k\\comparison_summary.json",
+      "size_bytes": 21632,
+      "sha256": "4bd466411f0a58fd857ef4470a4cb9e10efa633f041c5eec257ed50e1e44e353"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_energy_progress\\20261013_12k16k\\CPU_energy_blockage_trace.csv",
+      "size_bytes": 1867093,
+      "sha256": "276fe68be05a7ed4c059bfc2cd37fffdb078f9a37e86e30c19b2c0698119b329"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_energy_progress\\20261013_12k16k\\CPU_node_energy_statistics.json",
+      "size_bytes": 177101,
+      "sha256": "b914b05c4f8ac58e9a08f535221066644180e12f5ef1349ff0611daecec94188"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_energy_progress\\20261013_12k16k\\inputs_after.json",
+      "size_bytes": 49717,
+      "sha256": "aa12f1a41d4bff40e695aaf0a73de253fb9efa3886198ed10ced85c3cb4a3923"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_energy_progress\\20261013_12k16k\\inputs_before.json",
+      "size_bytes": 49717,
+      "sha256": "aa12f1a41d4bff40e695aaf0a73de253fb9efa3886198ed10ced85c3cb4a3923"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_energy_progress\\20261013_12k16k\\interpretation.json",
+      "size_bytes": 4382,
+      "sha256": "c50b4f3bd30741101839b6041edddbd2b17d590403c5efd62a8d18f24ca9aace"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_energy_progress\\20261013_12k16k\\per_seed_comparison.csv",
+      "size_bytes": 1804,
+      "sha256": "02854317a81cefd80e45ae6f95195906e57b40400efb83a3c0f6bc8e9a1f3072"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_energy_progress\\20261013_12k16k\\post_persistent_blockage_tasks.csv",
+      "size_bytes": 3119,
+      "sha256": "7acd2af493796812b9867cc7903cf424b9a41faece334c356e830101a5a5d80f"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_energy_progress\\20261013_12k16k\\remote_assignment_energy.csv",
+      "size_bytes": 130516,
+      "sha256": "6eb4d7c8a8d33b4e32a1b6eb67b4a299c44f92b817749406a220e44c17dfccc5"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_energy_progress\\20261013_12k16k\\validation.json",
+      "size_bytes": 1077,
+      "sha256": "db6bce5c124b157b16e5f8a4e80c94e5d9235aff65f79d6b5a5d85a048ef7e7a"
+    }
+  ],
+  "README_progress_updated": "D:\\My_project_li\\README.md",
+  "manifest_self_excluded": true
+}

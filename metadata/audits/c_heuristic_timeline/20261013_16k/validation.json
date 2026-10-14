@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "formal_training_started": false,
+  "environment_replay_steps": 0,
+  "new_evaluation_episodes": 0,
+  "oracle_calls": 0,
+  "production_source_or_config_changed": false,
+  "frozen_input_count": 276,
+  "frozen_input_hashes_unchanged": true,
+  "reconstructed_CPU_queue_snapshots_checked": 20000,
+  "EDF_head_identity_checks": 14594,
+  "per_UAV_energy_balance_checks": 20000,
+  "final_remaining_cycles_checked": 1210,
+  "task_timeline_count": 61,
+  "CPU_waiting_task_slot_rows": 2013,
+  "previous_stage_counts_verified": {
+    "total": 61,
+    "CPU_stage": 54,
+    "TX_stage": 7
+  },
+  "state_reconstruction": "Queue lengths, queue work, EDF heads, actual service amount, task final residual and per-slot energy balances all matched stored traces.",
+  "export_crosschecks": {
+    "task_csv_rows": 61,
+    "CPU_task_slot_rows": 2013,
+    "per_task_slot_counts_match_windows": true,
+    "post_energy_block_assignments": 32,
+    "post_energy_block_assignments_all_CPU_WAIT": true,
+    "post_energy_block_heuristic_only_completions": 18,
+    "final_input_rehash_match": true
+  }
+}

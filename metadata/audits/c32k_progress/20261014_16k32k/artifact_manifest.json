@@ -1,0 +1,375 @@
+{
+  "artifact_count": 74,
+  "artifacts": [
+    {
+      "path": "dashboard_logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\progress_metrics.csv",
+      "bytes": 1387,
+      "sha256": "039732ced852f9496e857a148301b8aca0fa8a482cf263c15be9abfe69e1ca43"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\20k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6\\route_decision_trace.jsonl",
+      "bytes": 1187504,
+      "sha256": "1d1f6dba109a2864b31b2c71189a0410bd0db2565f72f0d586f0dc5a5f3fa5c9"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\20k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6\\summary.json",
+      "bytes": 1333,
+      "sha256": "9bae0ce7df15d154db3de99a1e608f547778ed9dcc762ff5422cada7ce7a5524"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\20k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6\\cpu_service_trace.jsonl",
+      "bytes": 19089234,
+      "sha256": "f9fc38ce5645d986e303ef89808ffb438e6c856ba0e42f7f0f8105b2998a5b4c"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\20k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6\\service_diagnostic_manifest.json",
+      "bytes": 1416,
+      "sha256": "6e1c81322b6c74c749e489d72888f05fa984ca75b8ddf1f4603cefdf8e3a2ff7"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\20k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6\\task_lifecycle.jsonl",
+      "bytes": 1591002,
+      "sha256": "ba1a9228f12553acbf31a3fd67fc12630f3a323849d94ddd10d735ed3d588a47"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\20k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6\\tx_service_trace.jsonl",
+      "bytes": 25138609,
+      "sha256": "90cf1f94d8f0afa567a7ce40a1f6bbfb8f671d97f49d9d954b55ee46c1d41b4c"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\20k\\evaluations\\development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6\\aggregate_metrics.json",
+      "bytes": 16424,
+      "sha256": "85e62cdace773a5fa42fe67850d3de0cbb961036937bb50686d97f22f72f1182"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\20k\\evaluations\\development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6\\episode_metrics.jsonl",
+      "bytes": 199235,
+      "sha256": "a854e46620be086c5d56770376959c29adcdca404be51e4644b7eef71233f4cd"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\20k\\evaluations\\development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6\\evaluation_manifest.json",
+      "bytes": 18914,
+      "sha256": "522870721564f01e2d30a695e95f73185d59dfaa9158cd2ded8ac536bc282c33"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\20k\\evaluations\\development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6\\evaluation_metrics.csv",
+      "bytes": 10649,
+      "sha256": "e58767bf458b1955b8c140aed3007d9a8dbd4211590821d052c16586f7deaa47"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\24k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154\\route_decision_trace.jsonl",
+      "bytes": 1184326,
+      "sha256": "33c683b92be2e9137adf1adb6ebc3e2aa967cba0ff53628dae081d00dc4ca95a"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\24k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154\\summary.json",
+      "bytes": 1332,
+      "sha256": "51f6658f6b8cf9ce01fd7a48c23e33b5c75596caa31282c7d44327f9ddc1c292"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\24k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154\\cpu_service_trace.jsonl",
+      "bytes": 19088606,
+      "sha256": "aa8dca6d37b4094268c5d3b6da24e7e503edea8ca2cc9067f2f01d3066ac04df"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\24k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154\\service_diagnostic_manifest.json",
+      "bytes": 1416,
+      "sha256": "95a9ed5f3585467e8e7e48695cbfe007988926e406fa9bccf60e16cccd2c372d"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\24k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154\\task_lifecycle.jsonl",
+      "bytes": 1591079,
+      "sha256": "89ea73300e1e91d27f936de6d92e7a6025ec66f0d1d9888fcfe040a12f63ec84"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\24k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154\\tx_service_trace.jsonl",
+      "bytes": 25129109,
+      "sha256": "bfca9777139bb777dd4269cf82d93af742be269f2f5d64fe5518b6771d7f14de"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\24k\\evaluations\\development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154\\aggregate_metrics.json",
+      "bytes": 16490,
+      "sha256": "c846f3dd25eefcb2724fb99933727a03aa32255ffeebe513873b2d8b1c71320e"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\24k\\evaluations\\development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154\\episode_metrics.jsonl",
+      "bytes": 199299,
+      "sha256": "a3c2faefbb26d9176aa4aa6273546b3364bb67701061a671e0dc8121136fcb71"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\24k\\evaluations\\development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154\\evaluation_manifest.json",
+      "bytes": 18914,
+      "sha256": "25915f593ad67306a6450494cba972580f491573dde8c7eec8062292f467952e"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\24k\\evaluations\\development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154\\evaluation_metrics.csv",
+      "bytes": 10677,
+      "sha256": "fca9c0416397ffc4ee5bfb60ec84bcc2a38de995a8aab0859586abb10e05d14d"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\28k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59\\route_decision_trace.jsonl",
+      "bytes": 1286143,
+      "sha256": "0096214a2bbe6067999b966b778b78309c777e32db2aa7a2df06df0e2bfd702b"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\28k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59\\summary.json",
+      "bytes": 1333,
+      "sha256": "7372949cecd993b3b063999be44eee725371cee755f12d8f7318e5d3e2214f74"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\28k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59\\cpu_service_trace.jsonl",
+      "bytes": 19090485,
+      "sha256": "d9cd141c6a1da31c4e619ef167896c1a736c79fc4cfaaa531a6e0594832a4f00"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\28k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59\\service_diagnostic_manifest.json",
+      "bytes": 1416,
+      "sha256": "a802241d1dfefd6ec688e46c8bc1c9cc934581630a23aa2f401c29b39082fbd1"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\28k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59\\task_lifecycle.jsonl",
+      "bytes": 1591128,
+      "sha256": "ca5af9dbb610a84d5f62ed26c7c24d1ac87b41b2ef940e982cb9a139301cacca"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\28k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59\\tx_service_trace.jsonl",
+      "bytes": 25139270,
+      "sha256": "91983ab024bd706890ee29048799f94a93d00d4235415168a5c2803822bbf699"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\28k\\evaluations\\development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59\\aggregate_metrics.json",
+      "bytes": 16423,
+      "sha256": "17dc5b457951f10c38d056a66804603ac07fea8c33347f0334f8f6d7eabd3e1f"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\28k\\evaluations\\development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59\\episode_metrics.jsonl",
+      "bytes": 199266,
+      "sha256": "b1d535fc4ed68d8083c54ba0c04ace54722433f6e3ef0255df76f4705e462e40"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\28k\\evaluations\\development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59\\evaluation_manifest.json",
+      "bytes": 18914,
+      "sha256": "36e74ad28795768ad1936d3058c2d17773590e4a5df18e9b183202a905e96f0d"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\28k\\evaluations\\development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59\\evaluation_metrics.csv",
+      "bytes": 10643,
+      "sha256": "b1d0c6098bab3ebc12f78e8049f745ee04a00986ff0b9709ebbf855acad004dc"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\32k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec\\route_decision_trace.jsonl",
+      "bytes": 1186157,
+      "sha256": "925e129ec1be2bea5b133a66748b5cc560682f8bec80c586bf62cd947a5e01bd"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\32k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec\\summary.json",
+      "bytes": 1331,
+      "sha256": "7f851183d4b61bedbe475e527c51a3f3bfce14bf41fc68f1040d10b1477f23ed"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\32k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec\\cpu_service_trace.jsonl",
+      "bytes": 19089478,
+      "sha256": "4cfd08adcc7c07f8a665f83c7a4aba1d9865b72bdb43159108eb9118f9d4332d"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\32k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec\\service_diagnostic_manifest.json",
+      "bytes": 1416,
+      "sha256": "8b7edfec3444c9280ecb24a1bd61f9b4a37e258673b96259bac73758b7c9ca80"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\32k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec\\task_lifecycle.jsonl",
+      "bytes": 1590928,
+      "sha256": "c0d28f97821ac9b4cc0ffdff8bd41c1e0aa8a5187028c186312a782e1dc478ca"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\32k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec\\tx_service_trace.jsonl",
+      "bytes": 25137914,
+      "sha256": "fb571f3b3b2d590c47fdf10d94074171604a4d196a67e68b39400f0432709a97"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\32k\\evaluations\\development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec\\aggregate_metrics.json",
+      "bytes": 16421,
+      "sha256": "986ef57ac0c40ea83c700100fa4e25f4143f8344b6b7fae468bc8f4a45b267a9"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\32k\\evaluations\\development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec\\episode_metrics.jsonl",
+      "bytes": 199260,
+      "sha256": "ea6c37f5f16651ab914ae3e625539c3701302d5cc032088ef98529673c71d95b"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\32k\\evaluations\\development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec\\evaluation_manifest.json",
+      "bytes": 18909,
+      "sha256": "7b157dafd8f1173932a08c7c932f6a1e42d3a4ca47fe4c938b2653bab6cbac0d"
+    },
+    {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\32k\\evaluations\\development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec\\evaluation_metrics.csv",
+      "bytes": 10654,
+      "sha256": "8d22b7a3c14fa5fde9197f6fc6c446185352c928376f9f40ebe76b9243f0a6f5"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\analysis_source_identity.json",
+      "bytes": 236,
+      "sha256": "1eeececf9fbaf80d28dcb19f2d2d41afb2f755ed29795ac80dab044cb5e1679a"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\C_20k_energy_interim.json",
+      "bytes": 5321,
+      "sha256": "5a13f97874bdba9d8b645184d8d649613eea0536ef6e98c84971b708076111d9"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\C_20k_evaluation_config.json",
+      "bytes": 12074,
+      "sha256": "c73e1bb527b1b37c2034482864affd4102fbea0a36cdefe2a8e19eae6f0072a9"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\C_20k_run.json",
+      "bytes": 3243,
+      "sha256": "8cf4f0375afae8c20f96af33faca0ddbf3a55eba289478980348e61ec0f93174"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\C_24k_evaluation_config.json",
+      "bytes": 12074,
+      "sha256": "167af1b927a8787bf3c99d0071497fbba1c85092a7287998e0ef86b27f7707ef"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\C_24k_run.json",
+      "bytes": 3243,
+      "sha256": "1c54dbf2432b75f7652043e65307d7391740c03db6de6df84773dca5befce95b"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\C_28k_evaluation_config.json",
+      "bytes": 12074,
+      "sha256": "cb0e5179b081bf4da6fccd4cdc7535b80ab863ad070c7073a55ba7ea77f8ca8e"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\C_28k_run.json",
+      "bytes": 3242,
+      "sha256": "765f730e983c2ea9653bf32dda89d5a9a27fa68c0d02e48314f35cbe66f3e010"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\C_32k_evaluation_config.json",
+      "bytes": 12074,
+      "sha256": "49377cc80549230ed1666da475ceb0e548a03a6ddfcb08e3634e90df5bcec425"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\C_32k_run.json",
+      "bytes": 3237,
+      "sha256": "86c0a5c19b1978d5849f1daaca2077f6fe47c1748cb01d0f27cf08e6f86a0f16"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\checkpoint_inventory.json",
+      "bytes": 4867,
+      "sha256": "9db72920b893530141aec57ae22f65850f653f678d9f9397aa7760ffcc6bf766"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\comparison_summary.json",
+      "bytes": 12409,
+      "sha256": "6ff5f4fc21b532d294f651854da56d3aecf85354404a11151328bf1551ffdd90"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\core_comparison_table.csv",
+      "bytes": 1387,
+      "sha256": "039732ced852f9496e857a148301b8aca0fa8a482cf263c15be9abfe69e1ca43"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\CPU_energy_blockage_trace.csv",
+      "bytes": 4281705,
+      "sha256": "14d7431d5ced43b0de53f8aac785d0373a48105e29dc84b66a7326550494d1de"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\CPU_node_energy_statistics.json",
+      "bytes": 489818,
+      "sha256": "a33ad20b5720eddc91a2efc93c05be5b51c7609d8778641c224af4225647ba3a"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\energy_audit_tests.xml",
+      "bytes": 1266,
+      "sha256": "e52ed5092a4543c78670b055d9953cb6fc517ce19af48c016477557215ea5fbe"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\energy_protocol_regression.json",
+      "bytes": 2910,
+      "sha256": "cdce5066530c3a440cf057230463402f5f77b25cfc9eee1a715e6ff2440bcf82"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\evaluation_execution.json",
+      "bytes": 13667,
+      "sha256": "47e55e0242b21d8e2d7e1648acc32edb32f2692a2bfd7c2de1c8f98b34cf2b6d"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\evaluation_protocol.json",
+      "bytes": 1630,
+      "sha256": "ef95a6a5cd5149302b44226af9271da9436157606072615b65d0aaafaec6d349"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\evaluation_tests.xml",
+      "bytes": 4435,
+      "sha256": "d0f055ce1899d4cc9c046f2a1388ac8c0f6d3e05ac9653b6a730fbe3c630df29"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\inputs_after.json",
+      "bytes": 70794,
+      "sha256": "87787532091c5032ff5479e75e8e209aabcefac54b0b8585d0b02d30513da756"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\inputs_before.json",
+      "bytes": 70794,
+      "sha256": "87787532091c5032ff5479e75e8e209aabcefac54b0b8585d0b02d30513da756"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\interpretation.json",
+      "bytes": 4338,
+      "sha256": "d045b9d72629563b2d76596a71a961521b28a81de355ab3f6c5d45bb846107f1"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\paired_task_changes.json",
+      "bytes": 1197,
+      "sha256": "558bb3a89ad5f963ffce8389edf672886ac975d46d0956c8a0a44ab5be6eef0c"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\per_seed_metrics.json",
+      "bytes": 33173,
+      "sha256": "8ffdc406017da007966524c141a5c4c6d00393377f274e1606748037ce38e20b"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\post_persistent_blockage_tasks.csv",
+      "bytes": 7938,
+      "sha256": "3282eb337158aba4255f64709fb57c44a7073bac4eea64fcccd5ccbc5f5ff609"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\remote_assignment_energy.csv",
+      "bytes": 315767,
+      "sha256": "26b8ebf2eaabe06edde1b94ec396ec2b3f1044b85353975feeb0e038451dc62c"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\source_evaluation_runs.json",
+      "bytes": 19949,
+      "sha256": "01d7ec2d5848f0eb7b85926e989eb0dafe53250d6deaf9df180c3e0a10fa62b9"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\training_integrity.json",
+      "bytes": 2664,
+      "sha256": "c667eb8413abfc4f831ab6a0dbda6116a5c125f8f1958dba2a75406192d6f587"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\training_reward_windows.json",
+      "bytes": 3483,
+      "sha256": "0de11b0526bf12149e7921094dee53fd61587a8b8beb4cd84097e5219740599a"
+    },
+    {
+      "path": "metadata\\audits\\c32k_progress\\20261014_16k32k\\validation.json",
+      "bytes": 1804,
+      "sha256": "806edf50342e015511602df4e33fb8730b02e74c130973471a08b446c6a70c29"
+    },
+    {
+      "path": "src\\evaluation\\checkpoint_energy_audit.py",
+      "bytes": 15654,
+      "sha256": "e4b2ed9b8b842e59bda9e54947af8a0936130e7f0e8a744a7db98296b41fe524"
+    },
+    {
+      "path": "tests\\test_checkpoint_energy_audit.py",
+      "bytes": 1118,
+      "sha256": "d01aedf432ae4cc9e1beafb1cde5f561093289b54f9c9ffa3097f8214cd9a55d"
+    }
+  ]
+}

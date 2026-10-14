@@ -1,0 +1,1218 @@
+{
+  "schema": "abc_reproduction_release.v1",
+  "date": "2026-10-13",
+  "source_training_git_commit": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+  "source_training_git_dirty": true,
+  "source_of_truth": "Actual file SHA256, not old Git commit alone.",
+  "runtime_source_files": [
+    {
+      "path": "src/artifacts.py",
+      "sha256": "381a76012e965758195bedb5d17dd67a750c75a0bd194adc751dec1c74940d6c",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/cli.py",
+      "sha256": "b575661208079a2977f58b17be1f2774d120b23b76b9fe750271aebda8a7623d",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/config.py",
+      "sha256": "e6ee52760bf7ac604d98ab0fbd4365786577cd3a960e74d60a20fe4b5e072cde",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/execution.py",
+      "sha256": "f10b93f60d7fad40d0872af10a00e52c249b3006d168fed05079e7315b36f643",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/matched_short_diagnostics.py",
+      "sha256": "a4ed470780541bb075561e72db819dc7ae030f7a2512d58bda3a392aa5ca6cc5",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/registry.py",
+      "sha256": "b2f7bbcf28f601dc753d9ba25b170b62ac9504b4614ef5b76d4c383ebd36c987",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/rollout.py",
+      "sha256": "3d04f0df61d9d01326a7ccde60ae6f42498582428ebde16501eca5867734b87c",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/runner.py",
+      "sha256": "109acaf5a6999a6b911c0abf59708ca4c14f997e6f4cd34c553f7ee8d3562d11",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/training_artifacts.py",
+      "sha256": "3e3613d81dbec30117a30a8b8c20d3981111f43cd32f61f8830dccaf8aba863e",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/__init__.py",
+      "sha256": "7481327b50ff0104059ca4dff637fd03aba7cd9eb953d4adefbeb40a8206f9be",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/algorithms/__init__.py",
+      "sha256": "fdf240818db8a7523f67abe22c8652429b07cbd9935917727ee451340638501e",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/baselines/__init__.py",
+      "sha256": "a81112bee2f572ab9d7eba7d7e4fd4812cea868e869c1fc50124174652ab9eab",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/channel/__init__.py",
+      "sha256": "33e8bb8c5358b01979119c4dbd39def7c00bf7818c9a3c95fa304de02e5591d1",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/env/actions.py",
+      "sha256": "7f6b9eeda2c6674bc4bcd1dd698f3d85c60a520a1632916e59a7e052da435d1e",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/env/action_history.py",
+      "sha256": "64921079b0768bdec87749b39bd5b14e0a4a93885f839c8855189da4d29864b6",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/env/channel.py",
+      "sha256": "8121e5f6bb81b88538b237d10951578482029c1df9fecf39158bde99e1bfacc2",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/env/energy.py",
+      "sha256": "aad51548bf7422a5f717b8c413380ea44e31efa2b2db89f027571b071bf96841",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/env/environment.py",
+      "sha256": "3d9a47d925fc8187a2e39c5207bc0f4632f9e1dffe6be574284bff40d77e8ff5",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/env/executor.py",
+      "sha256": "4d79fc77b225bb5fe497a70489cb4be17c3016b4b4c01510300916db2f8548a4",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/env/history.py",
+      "sha256": "4bb0536b18036fbe5a64d3269679a5ad193b98e5400c27c4fb4f8f5a62a29a9f",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/env/lifecycle.py",
+      "sha256": "0c65b4ddd202a1ebaab292d2b4f0ad77369dc97581318027a3e6ccb10b659196",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/env/metrics.py",
+      "sha256": "f79c61bc3195f93d6a7a6808471b9fff2cf9c9d765b338fc7f3c8ec573ae7ecd",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/env/mobility.py",
+      "sha256": "fa779fe22ac4179c8afcb8074946f091cdf8ee3d6a7e0909105bd0a73f0bd3ea",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/env/observation.py",
+      "sha256": "39dfd220351849a7047fdaea71d27e267bdaf06d867484b4620bc17e8df51a79",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/env/outage.py",
+      "sha256": "206124a3da29f35b88fed54d0411495626e9545e24a8a6536edfd616d042745c",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/env/public_history.py",
+      "sha256": "be87558825dc7b3b74589bc566cc14d47a66534da3c98eda09679b63115c0dab",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/env/queues.py",
+      "sha256": "c4edab7b8c458a40adf245035435a29cba4d84c3d05467a7ff5f2e8205b96767",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/env/randomness.py",
+      "sha256": "0863cc52f7e93da1469f1b74e837239256b1e77c686f6337f8001dd129beaf04",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/env/reward.py",
+      "sha256": "424957a87c6b16836cd7ec73535098b70c3da25728d476a35969b28d7cde19cf",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/env/service.py",
+      "sha256": "6d0b177c95606245971d0e7f652a08589e4aa64fe75aac8d002486ae1a970ce9",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/env/state.py",
+      "sha256": "2d62584b6f919767f6c2711c73e2ad49f37e4f8eb931a6ca12cf3b894d202523",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/env/task.py",
+      "sha256": "12a4bcf99ffc5cb42b8cdde89330498fe1d89852ed28935a02436be506df0e25",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/env/tasks.py",
+      "sha256": "b691e9fa1647c931f194333ecab2bfbbf2db5bf0965ea7b3defe1e85ae9a98bf",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/env/topology.py",
+      "sha256": "e9276c4f39aa73f57849c99c2f10cb8ff5b16fad1a2946d87be917f7c463b115",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/env/traffic.py",
+      "sha256": "cdd85684b7d271e22c233f0454b17a26c31c1e46c5cc81decea25cba6d812223",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/env/validation.py",
+      "sha256": "4076aa7caef6a6a07bea2db3e323382f0e55f9f4ab6c1cfe56e160a21b942c37",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/env/__init__.py",
+      "sha256": "c8118cc330c2e54103bc6374f4bbbfcd4afc664b3d9785fd9527dfa4375fcfbb",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/actor_loader.py",
+      "sha256": "de0c371370c7fb398bbe0288e855ba72d6bca4505202b048b709b12ba6153c51",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/actor_only_route_oracle.py",
+      "sha256": "512fb36b79e40bd71968856c716849b07264b5d2de81d25b924a215791a8c76c",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/destination_calibration.py",
+      "sha256": "5172d6c0dce63439d2f92546616a04e5f83a1c0ba6a5b5fc015c1f861f2302c8",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/destination_gradient_probe.py",
+      "sha256": "1c5b1480e54c0692e110d4730ff19bb6a452718ec25a69f13e45de8e8749cda4",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/destination_oracle_dataset.py",
+      "sha256": "74376acac3c96150295e41d32f057c0132a525b930860b99f13fa59bcb43a241",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/destination_system_oracle.py",
+      "sha256": "a1d20fddcdd6d224dd620d7927c89c9b35437e8b9dcf84a800662964558a40d3",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/e4_defer_localization.py",
+      "sha256": "97dce1388f1f5f908d6cf05a106a0b7a720785edf4ba28056f4ad02fc1b8f4ac",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/e4_v1_audit_figures.py",
+      "sha256": "e695193c971c31d3754d74997555951ade3a323bfe57a11dca1d2c19624bafc7",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/e4_v1_audit_report.py",
+      "sha256": "fe0dabb8ff83b3077cf137bfb1fd749a09d909943599fd61e7fdcd26f39ad218",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/e4_v1_matched_audit.py",
+      "sha256": "099c88287f32206f9001d82f4157457930abe837bbea9fc4cdbfe15a62bdcea5",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/e5_v1_final_audit.py",
+      "sha256": "dd40973416f378b6100f86b521e96a1e0e15509efd00e098fe28ee4b9d06982b",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/handler.py",
+      "sha256": "06cef5a931171c22d794470ffe3ea4df4e8ef7ae4242aa369b7c3a11453bb53c",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/learnability_sanity.py",
+      "sha256": "13ae6d79a9bfbf5dc0ce95595f07a26f608a1f2a26fef9f19e043027e3bf7226",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/metrics.py",
+      "sha256": "0d52b4174f1983ca6f856b8bd152fa636ff3c6ef69479238644cd5f7d7c669b9",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/route_counterfactual_analysis.py",
+      "sha256": "f632a0163f4e4a24405a11fd832f784a9472886496ccd150a4a5825cc7c3f035",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/route_counterfactual_oracle.py",
+      "sha256": "b581c8cd94c9579e296c79446131800c5649070fba928c68a91fef839ae6a228",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/route_credit_probe.py",
+      "sha256": "a31a103bfec2a70e8b1696a7e46f6b820849278fd9285f3085271670d1ed810a",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/route_option_alignment.py",
+      "sha256": "c5a9bc01323a6e4e62598f55cdc052a7ba0d60488dfd54d30f7f785ef84deb34",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/route_oracle.py",
+      "sha256": "eabfa0b467342e53fff3758e7cd1b5cb143621923b06a310d38caad43fbfa0c0",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/route_oracle_probe.py",
+      "sha256": "cc8b20f24f3b335ef966ef0814b7c053e21006d579a123c25e6397378f55757c",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/route_q_probe.py",
+      "sha256": "168f8073b3a58786b5fcea59031fa14e23d6662c209ae2cceef3d821d4b84072",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/route_service_factorial.py",
+      "sha256": "130bb287f9df34363350b65dc53386ce03fce52f6d6c67d21e44bd2908cc2d50",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/route_sidecar_repair.py",
+      "sha256": "bbe987257db75256a1bb7e870be7c271be8e1c2dd5beac610c63f5bf89ddf84a",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/route_telemetry.py",
+      "sha256": "020981ea64897c211e15fa2e4aab7009450ae30cda79f65a0fea42d3fd4e3a38",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/runner.py",
+      "sha256": "8ee3f99fb380c3e17fd34131c14fcf746afae5340304edf09a5d6769c670d54d",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/service_diagnostics.py",
+      "sha256": "115ca9d0b8d13667d66a51ddd1bdf8649703d866e3348db90344c3dad9cff1e5",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/service_telemetry.py",
+      "sha256": "0cd1a0cb57aa8dd1e02f4eef0bb6483c096dbd8ce7bdd1eeb44bf5f934a5886c",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/tx_paired_shadow_pilot.py",
+      "sha256": "8945b430dd590c10d78943b29d87079454504d73e540e885ca372bec4ba19f01",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/evaluation/__init__.py",
+      "sha256": "ae869484a57b6a3e423f63b89ba4e852882c24f36631255f8b8314ecab4a0a51",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/mobility/__init__.py",
+      "sha256": "26d8bf2f3d3dfa6b113fa99b7e1e3c6a6a3dfec56e8e12f3b54c91db1a4914cf",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/ca_gat_mappo.py",
+      "sha256": "3e79786c34d9065f829a5bfc2d55ded668ef235376795a2220d1d7fa36d2c056",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/ca_gat_mappo_actions.py",
+      "sha256": "b547c68f3bef4970ccc31c04abe4915527c326b0f0103f9a913ca332ce6bab58",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/ca_gat_mappo_checkpoint.py",
+      "sha256": "d4dd28a72e684f854f597cb376e1ab153c94d4eded319c768fa6db8a566d24ef",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/ca_gat_mappo_credit_telemetry.py",
+      "sha256": "db323176dcd7247b73fe2d7bb69d5699f3b04689746facc692711953f90a4f26",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/ca_gat_mappo_gae.py",
+      "sha256": "2664b9cbd5f67b844214f263a25cd53912be7ed7eea9e96b237ba6092c11a2fb",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/ca_gat_mappo_ppo.py",
+      "sha256": "2957b3fc15ab2c1a89a3be35063198ef40f5531bffd5de5fc63d64fcddcf0fad",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/ca_gat_mappo_rollout.py",
+      "sha256": "8059de772ab97c78f4a2f7e172125f4edc62a609e80b578753437ebb164e47af",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/ca_gat_mappo_route_nstep.py",
+      "sha256": "d1ac55ef02022dc77cd25ef35cd59e97a87fd53239f75578401764e3e4ac5b8a",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/ca_gat_mappo_route_telemetry.py",
+      "sha256": "2fdcf39753878a0d61e5596695e0ae8f0d23809cc6c86d159b2984284d4019d5",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/ca_gat_mappo_runtime.py",
+      "sha256": "773d04035b808b68eaf1fece7baeee8fd11abf5010ffe0b2209aa0bbd8d340ee",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/ca_gat_mappo_trainer.py",
+      "sha256": "5273adf9cc4d81745016bac6353c87cbcc26a4afc55107ebdd5e186fa5bbb02f",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/ca_gat_mappo_update.py",
+      "sha256": "c7aa6268d52822ed373e3d01e34f254f573db4bdf783eef80f25a17cc5bed770",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/destination_pretraining.py",
+      "sha256": "82b9d1c05ba07b08e32281e499766c294c199b1c3b70fe56f5ffbf899b2b8540",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/destination_ranking.py",
+      "sha256": "f486626e14580b9a91c18b91612ae4498d8bac9cdb9d07729d8858575aa9b243",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/integrated_scheduler.py",
+      "sha256": "2f38b04ca1d249c8c59dfbd5e2f9bd0d710837a505929aad363fe2a0c62b5312",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/route_exploration.py",
+      "sha256": "1d70dcc969c91e8396b2c357d89c68e1521b09cbc658d2aa57f054b023ada957",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/route_option_q.py",
+      "sha256": "86aecbd4f4206ec7a27c8aea15242d4250b54ccff6688ded14bbdfd5f67f5cd4",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/route_q_inputs.py",
+      "sha256": "1903480b30b4ca9bb595d06a29f2695d71a1b27f18746a43eba29f3753e34094",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/route_task_credit.py",
+      "sha256": "345fcbedce1b509a2efb0cd402da0bf17b6c5df2a02c52f3befeda8e5e27a3a7",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/tx_paired_shadow.py",
+      "sha256": "d713e1f600ae8e9027cc8ba81ca67b3c30cc52afba746ce1651eae2c20ade2c7",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/tx_upper_counterfactual.py",
+      "sha256": "43dcb861a88075890682bb330954a85970e2ceb66985d931d707aa6afdf3a988",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/tx_upper_factual_credit.py",
+      "sha256": "a8576148685278e196748403f90fb375874a6b6ef89141243c53c03bbcecd858",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/tx_upper_stability.py",
+      "sha256": "00820f11218ee33ab6f88e49c9caaea74bab207c94bb2f0c55c7a9b564014a39",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/__init__.py",
+      "sha256": "e74fb35aa384328a4e16093b7f10b51829cb687c02e85fd3af6436e0d5cb2eef",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/policies/base.py",
+      "sha256": "679768c62a43f209141da545ae53a2cb4d7b1986fc0c56909fefb9c1e57f482d",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/policies/heuristic_policy.py",
+      "sha256": "9f909b19c8f2e3fd9e5f756caf56ff8c4651e40a03c5627c3d8064afb13fd9c5",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/policies/local_only_policy.py",
+      "sha256": "738d1d05d4c8f5d36a92b5d3bc586e9fdaf93f3b4107e162fb82ced7d841d713",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/policies/random_policy.py",
+      "sha256": "813627b0de07f2769e0bfd4a6cf1bd52a5515b60c178a06a20ee7e17e619364e",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/policies/__init__.py",
+      "sha256": "0c5aaac6c8db7166e2d60328f4c7e4e37527dcf882f0ab7cbf34282336a72ff0",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/queues/__init__.py",
+      "sha256": "1003520713a9875325c2335da68151ff28286475a050fe23a019de2081d00a8e",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/training/destination_distillation.py",
+      "sha256": "70652663b302c1959089453fe7e473f331a91d3778b129c6bf9dda9d5213ac05",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/training/__init__.py",
+      "sha256": "f0544d19d6955dda4cdcef9861c82323793e2fa8743cfd8e668c247ddd9c8b73",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/utils/__init__.py",
+      "sha256": "cb7b963905b57f0d262e510efa08bb1c29c3163cf34a0840d8432e07035c71ec",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "main.py",
+      "sha256": "a109d100fad65414b3f6119fa4074e4da2eaeae9b7726d313468a0ea9cf37295",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "2bc0874025a5c0c891139809d1e2e0a6df62708360993881adce206bc544372a",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/route_candidates.py",
+      "sha256": "595411fa64a2e4ec9d33cf4d9b4ac5bfd7ff941c82f9d8a57544bd2f63851d36",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/unified_route.py",
+      "sha256": "427dbd561abbcda38086e65bd612762fc5e37dd876d937c4b790e24471a50ab8",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/route_decision.py",
+      "sha256": "d0269971a956c231e0caf4c808274d0bdcb4d7b253d2f0b62e76ace4ae7389db",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "src/models/route_physical_relations.py",
+      "sha256": "95226f1cd4511c7551dd1aa3dddf266a4fe69960a28f4110a5acd0a9d23b6f25",
+      "role": "Step06/07 frozen runtime source"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "7b3db08c598f978af1c819e59a5b933e0b688040b88dbfbb3f646177e0c8c02f",
+      "role": "unchanged runtime dependency ranges / original ignore rules"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "a874e4f5e12cc94bcb76770262d3f66b11b93faef0607febfc6a2ac06117d434",
+      "role": "unchanged runtime dependency ranges / original ignore rules"
+    }
+  ],
+  "manuscript_0_to_7": [
+    {
+      "path": "sections/0_abstract_keywords.md",
+      "sha256": "9bc48056195427f61775191d605c01101606939f273f51e8d0f120e8f82185ba",
+      "role": "user requested manuscript 0—7"
+    },
+    {
+      "path": "sections/1_introduction.md",
+      "sha256": "af88f5812976fad2185ee989c60ac93130b2b9544d9de48413bd28e5e000d05c",
+      "role": "user requested manuscript 0—7"
+    },
+    {
+      "path": "sections/2_system_model.md",
+      "sha256": "b81e4279aad9c299d587bbb1372f63e690dff9ddcaa0f248dfeb46f5ec7e4a33",
+      "role": "user requested manuscript 0—7"
+    },
+    {
+      "path": "sections/3_methods.md",
+      "sha256": "b076f6359222d5e8dca83e5462542d820eb100070eef192a9e5b87d0ae3e2cad",
+      "role": "user requested manuscript 0—7"
+    },
+    {
+      "path": "sections/4_experimental_protocol.md",
+      "sha256": "36654c89d8aa8758ecf9f3d3725edc261f432fd045eb216e676d794fa892e5a2",
+      "role": "user requested manuscript 0—7"
+    },
+    {
+      "path": "sections/5_results_template.md",
+      "sha256": "ca5f36b683f9c4f9b438501114ae2ea54a0b0c284e8015c499578bd9ca1e4fb6",
+      "role": "user requested manuscript 0—7"
+    },
+    {
+      "path": "sections/6_discussion_limitations_template.md",
+      "sha256": "fba0dc41216f88bb0c5b0261130ba30936629981512d68d3d837f4788df12729",
+      "role": "user requested manuscript 0—7"
+    },
+    {
+      "path": "sections/7_conclusion.md",
+      "sha256": "da9809a9770f6a98ff6ab8a06d2ddb32a6ec2a6778c7ae9fc68323315a4fd924",
+      "role": "user requested manuscript 0—7"
+    }
+  ],
+  "runtime": {
+    "python": "3.13.11",
+    "packages": {
+      "numpy": "2.3.5",
+      "torch": "2.7.1+cu118",
+      "matplotlib": "3.10.8",
+      "PyYAML": "6.0.3",
+      "pytest": "9.1.1"
+    },
+    "training_device": "CUDA NVIDIA GeForce MX450",
+    "evaluation_device": "CPU torch.float32"
+  },
+  "experiments": [
+    {
+      "group": "A",
+      "training_seed": 42,
+      "config_path": "experiments/task-allocation/configs/a-seed42-8k.json",
+      "config_hash": "81cb1ad596cb6dcd6f212e2d08a7edc50e9b210b0a5cf226ba4a7a2cb1651ae5",
+      "run_id": "ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a",
+      "checkpoint_path": "logs/A/seed42/8k/training/checkpoints/final.pt",
+      "checkpoint_sha256": "5da08bb0309948ab8bbd9423364d6f76b07daf1a8dcdb7786c7dee141f958199",
+      "evaluation_path": "logs/A/seed42/8k/evaluation",
+      "evaluation_run_id": "formal-eval__remote_stress_v2__chk-5da08bb03099__cfg-d2463e1929ea__eval-1f1e83d20fc9",
+      "evaluation_seeds": [
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ],
+      "expected_evaluation": {
+        "episode_count": 5,
+        "evaluation_seeds": [
+          1042,
+          1043,
+          1044,
+          1045,
+          1046
+        ],
+        "metrics": {
+          "backlog_final_tasks": {
+            "mean": 8.8,
+            "std": 4.1182520563948,
+            "valid_sample_count": 5
+          },
+          "backlog_max_tasks": {
+            "mean": 14.2,
+            "std": 0.9797958971132712,
+            "valid_sample_count": 5
+          },
+          "backlog_mean_tasks": {
+            "mean": 6.5132,
+            "std": 1.0318221552186213,
+            "valid_sample_count": 5
+          },
+          "completed": {
+            "mean": 79.4,
+            "std": 15.304901175767192,
+            "valid_sample_count": 5
+          },
+          "completed_task_e2e_delay_s": {
+            "mean": 0.41108312342569275,
+            "std": 0.30199018390692506,
+            "valid_sample_count": 397
+          },
+          "completion_component": {
+            "mean": 79.4,
+            "std": 15.304901175767192,
+            "valid_sample_count": 5
+          },
+          "completion_ratio": {
+            "mean": 0.6543567905344945,
+            "std": 0.10021250901416176,
+            "valid_sample_count": 5
+          },
+          "cpu_energy_j": {
+            "mean": 34.34860593537,
+            "std": 10.547075448129185,
+            "valid_sample_count": 5
+          },
+          "energy_penalty": {
+            "mean": 0.01663077578076944,
+            "std": 0.00507983346184756,
+            "valid_sample_count": 5
+          },
+          "energy_per_completed_task_j": {
+            "mean": 0.4314810017953727,
+            "std": 0.06027384297771531,
+            "valid_sample_count": 5
+          },
+          "executor_downgrade": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid_sample_count": 5
+          },
+          "executor_rejection": {
+            "mean": 11.0,
+            "std": 13.98570698963767,
+            "valid_sample_count": 5
+          },
+          "expiration_penalty": {
+            "mean": 33.2,
+            "std": 10.552724766618335,
+            "valid_sample_count": 5
+          },
+          "expiration_ratio": {
+            "mean": 0.2785080338609077,
+            "std": 0.09599309557963134,
+            "valid_sample_count": 5
+          },
+          "expired": {
+            "mean": 33.2,
+            "std": 10.552724766618335,
+            "valid_sample_count": 5
+          },
+          "generated": {
+            "mean": 121.0,
+            "std": 11.296016997154352,
+            "valid_sample_count": 5
+          },
+          "outage_denominator": {
+            "mean": 109.0,
+            "std": 41.14365078599613,
+            "valid_sample_count": 5
+          },
+          "outage_numerator": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid_sample_count": 5
+          },
+          "outage_rate": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid_sample_count": 5
+          },
+          "total_energy_j": {
+            "mean": 34.82429129468737,
+            "std": 10.63700229837953,
+            "valid_sample_count": 5
+          },
+          "total_reward": {
+            "mean": 37.29070017944867,
+            "std": 26.85475514876343,
+            "valid_sample_count": 5
+          },
+          "truncated": {
+            "mean": 8.4,
+            "std": 4.029888335921977,
+            "valid_sample_count": 5
+          },
+          "truncation_ratio": {
+            "mean": 0.06713517560459768,
+            "std": 0.028921653925052148,
+            "valid_sample_count": 5
+          },
+          "tx_energy_j": {
+            "mean": 0.47568535931736083,
+            "std": 0.3770743812505661,
+            "valid_sample_count": 5
+          },
+          "workload_penalty": {
+            "mean": 8.892669044770564,
+            "std": 2.4562483571293736,
+            "valid_sample_count": 5
+          }
+        },
+        "pooled": {
+          "completed": 397,
+          "completion_ratio": 0.656198347107438,
+          "expiration_ratio": 0.2743801652892562,
+          "expired": 166,
+          "generated": 605,
+          "outage_denominator": 545,
+          "outage_numerator": 0,
+          "outage_rate": 0.0,
+          "truncated": 42,
+          "truncation_ratio": 0.06942148760330578
+        }
+      },
+      "expected_route_counts": {
+        "route_decision_count": 604,
+        "local_count": 131,
+        "remote_count": 473,
+        "defer_count": 0
+      },
+      "original_checkpoint_path": "logs/development/task_allocation/experiments/A/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a/checkpoints/final.pt",
+      "original_evaluation_path": "logs/development/task_allocation/experiments/A/seed42/8k/evaluations/formal-eval__remote_stress_v2__chk-5da08bb03099__cfg-d2463e1929ea__eval-1f1e83d20fc9",
+      "training_directory": "logs/A/seed42/8k/training",
+      "evaluation_directory": "logs/A/seed42/8k/evaluation",
+      "diagnostics_directory": "logs/A/seed42/8k/diagnostics",
+      "dashboard_csv": "dashboard_logs/A/seed42/8k/training_metrics.csv",
+      "dashboard_png": "plots/A/seed42/8k/training_dashboard.png"
+    },
+    {
+      "group": "B",
+      "training_seed": 42,
+      "config_path": "experiments/task-allocation/configs/b-seed42-8k.json",
+      "config_hash": "1bd1c1aa959695e150ef3734a625f5d87de87e4f4325d470f6ea3845e8cdfda4",
+      "run_id": "ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a",
+      "checkpoint_path": "logs/B/seed42/8k/training/checkpoints/final.pt",
+      "checkpoint_sha256": "2cab254ff8d527726779b7ec18383ffc0cd7710f5edb6d0ac229da2c554feec5",
+      "evaluation_path": "logs/B/seed42/8k/evaluation",
+      "evaluation_run_id": "formal-eval__remote_stress_v2__chk-2cab254ff8d5__cfg-d2463e1929ea__eval-a4b04e518632",
+      "evaluation_seeds": [
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ],
+      "expected_evaluation": {
+        "episode_count": 5,
+        "evaluation_seeds": [
+          1042,
+          1043,
+          1044,
+          1045,
+          1046
+        ],
+        "metrics": {
+          "backlog_final_tasks": {
+            "mean": 8.8,
+            "std": 3.7629775444453557,
+            "valid_sample_count": 5
+          },
+          "backlog_max_tasks": {
+            "mean": 14.2,
+            "std": 1.6,
+            "valid_sample_count": 5
+          },
+          "backlog_mean_tasks": {
+            "mean": 7.1575999999999995,
+            "std": 0.769066343042003,
+            "valid_sample_count": 5
+          },
+          "completed": {
+            "mean": 63.4,
+            "std": 9.393614852653903,
+            "valid_sample_count": 5
+          },
+          "completed_task_e2e_delay_s": {
+            "mean": 0.42397476340694007,
+            "std": 0.3115575595741229,
+            "valid_sample_count": 317
+          },
+          "completion_component": {
+            "mean": 63.4,
+            "std": 9.393614852653903,
+            "valid_sample_count": 5
+          },
+          "completion_ratio": {
+            "mean": 0.5241911795853175,
+            "std": 0.056675799553387786,
+            "valid_sample_count": 5
+          },
+          "cpu_energy_j": {
+            "mean": 25.441837210594308,
+            "std": 2.918164184603422,
+            "valid_sample_count": 5
+          },
+          "energy_penalty": {
+            "mean": 0.012191982041805776,
+            "std": 0.001391815719011821,
+            "valid_sample_count": 5
+          },
+          "energy_per_completed_task_j": {
+            "mean": 0.4052648891548107,
+            "std": 0.029656563611413715,
+            "valid_sample_count": 5
+          },
+          "executor_downgrade": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid_sample_count": 5
+          },
+          "executor_rejection": {
+            "mean": 0.8,
+            "std": 1.6,
+            "valid_sample_count": 5
+          },
+          "expiration_penalty": {
+            "mean": 49.0,
+            "std": 6.292853089020909,
+            "valid_sample_count": 5
+          },
+          "expiration_ratio": {
+            "mean": 0.406736322872763,
+            "std": 0.048925105558439985,
+            "valid_sample_count": 5
+          },
+          "expired": {
+            "mean": 49.0,
+            "std": 6.292853089020909,
+            "valid_sample_count": 5
+          },
+          "generated": {
+            "mean": 121.0,
+            "std": 11.296016997154352,
+            "valid_sample_count": 5
+          },
+          "outage_denominator": {
+            "mean": 22.2,
+            "std": 17.61135997020105,
+            "valid_sample_count": 5
+          },
+          "outage_numerator": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid_sample_count": 5
+          },
+          "outage_rate": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid_sample_count": 5
+          },
+          "total_energy_j": {
+            "mean": 25.52960485309354,
+            "std": 2.9144158195818006,
+            "valid_sample_count": 5
+          },
+          "total_reward": {
+            "mean": 2.426579414948246,
+            "std": 14.778712781169041,
+            "valid_sample_count": 5
+          },
+          "truncated": {
+            "mean": 8.6,
+            "std": 3.4985711369071804,
+            "valid_sample_count": 5
+          },
+          "truncation_ratio": {
+            "mean": 0.06907249754191962,
+            "std": 0.024746491150380568,
+            "valid_sample_count": 5
+          },
+          "tx_energy_j": {
+            "mean": 0.08776764249923438,
+            "std": 0.07272104844120172,
+            "valid_sample_count": 5
+          },
+          "workload_penalty": {
+            "mean": 11.961228603009948,
+            "std": 1.7017367182234047,
+            "valid_sample_count": 5
+          }
+        },
+        "pooled": {
+          "completed": 317,
+          "completion_ratio": 0.5239669421487604,
+          "expiration_ratio": 0.4049586776859504,
+          "expired": 245,
+          "generated": 605,
+          "outage_denominator": 111,
+          "outage_numerator": 0,
+          "outage_rate": 0.0,
+          "truncated": 43,
+          "truncation_ratio": 0.07107438016528926
+        }
+      },
+      "expected_route_counts": {
+        "route_decision_count": 614,
+        "local_count": 529,
+        "remote_count": 75,
+        "defer_count": 10
+      },
+      "original_checkpoint_path": "logs/development/task_allocation/experiments/B/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a/checkpoints/final.pt",
+      "original_evaluation_path": "logs/development/task_allocation/experiments/B/seed42/8k/evaluations/formal-eval__remote_stress_v2__chk-2cab254ff8d5__cfg-d2463e1929ea__eval-a4b04e518632",
+      "training_directory": "logs/B/seed42/8k/training",
+      "evaluation_directory": "logs/B/seed42/8k/evaluation",
+      "diagnostics_directory": "logs/B/seed42/8k/diagnostics",
+      "dashboard_csv": "dashboard_logs/B/seed42/8k/training_metrics.csv",
+      "dashboard_png": "plots/B/seed42/8k/training_dashboard.png"
+    },
+    {
+      "group": "C",
+      "training_seed": 42,
+      "config_path": "experiments/task-allocation/configs/c-seed42-8k.json",
+      "config_hash": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15",
+      "run_id": "ca_gat_mappo__remote_stress_v2__seed-42__cfg-9e76466588b6__git-eb1140cefc4a",
+      "checkpoint_path": "logs/C/seed42/8k/training/checkpoints/final.pt",
+      "checkpoint_sha256": "58da11c49bde4a517471e1386842b90568fdb1ffe51d9c290caa7e3d442ff1b5",
+      "evaluation_path": "logs/C/seed42/8k/evaluation",
+      "evaluation_run_id": "formal-eval__remote_stress_v2__chk-58da11c49bde__cfg-d2463e1929ea__eval-e866f9e0ccb7",
+      "evaluation_seeds": [
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ],
+      "expected_evaluation": {
+        "episode_count": 5,
+        "evaluation_seeds": [
+          1042,
+          1043,
+          1044,
+          1045,
+          1046
+        ],
+        "metrics": {
+          "backlog_final_tasks": {
+            "mean": 8.8,
+            "std": 3.655133376499413,
+            "valid_sample_count": 5
+          },
+          "backlog_max_tasks": {
+            "mean": 15.0,
+            "std": 0.8944271909999159,
+            "valid_sample_count": 5
+          },
+          "backlog_mean_tasks": {
+            "mean": 7.091200000000001,
+            "std": 0.7537411757360746,
+            "valid_sample_count": 5
+          },
+          "completed": {
+            "mean": 65.8,
+            "std": 20.5854317418897,
+            "valid_sample_count": 5
+          },
+          "completed_task_e2e_delay_s": {
+            "mean": 0.4299696048632219,
+            "std": 0.3225963238071482,
+            "valid_sample_count": 329
+          },
+          "completion_component": {
+            "mean": 65.8,
+            "std": 20.5854317418897,
+            "valid_sample_count": 5
+          },
+          "completion_ratio": {
+            "mean": 0.5381747904234505,
+            "std": 0.1309885295161852,
+            "valid_sample_count": 5
+          },
+          "cpu_energy_j": {
+            "mean": 29.446828713988918,
+            "std": 10.73107402537681,
+            "valid_sample_count": 5
+          },
+          "energy_penalty": {
+            "mean": 0.014242564765419363,
+            "std": 0.005125698385782828,
+            "valid_sample_count": 5
+          },
+          "energy_per_completed_task_j": {
+            "mean": 0.44783176066097774,
+            "std": 0.04324516719948817,
+            "valid_sample_count": 5
+          },
+          "executor_downgrade": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid_sample_count": 5
+          },
+          "executor_rejection": {
+            "mean": 3.2,
+            "std": 3.867815921162743,
+            "valid_sample_count": 5
+          },
+          "expiration_penalty": {
+            "mean": 46.6,
+            "std": 16.069847541280534,
+            "valid_sample_count": 5
+          },
+          "expiration_ratio": {
+            "mean": 0.3925891347640131,
+            "std": 0.13903560781719257,
+            "valid_sample_count": 5
+          },
+          "expired": {
+            "mean": 46.6,
+            "std": 16.069847541280534,
+            "valid_sample_count": 5
+          },
+          "generated": {
+            "mean": 121.0,
+            "std": 11.296016997154352,
+            "valid_sample_count": 5
+          },
+          "outage_denominator": {
+            "mean": 76.4,
+            "std": 33.18192278937434,
+            "valid_sample_count": 5
+          },
+          "outage_numerator": {
+            "mean": 0.2,
+            "std": 0.4,
+            "valid_sample_count": 5
+          },
+          "outage_rate": {
+            "mean": 0.0017699115044247787,
+            "std": 0.0035398230088495575,
+            "valid_sample_count": 5
+          },
+          "total_energy_j": {
+            "mean": 29.823456867714913,
+            "std": 10.733041923492975,
+            "valid_sample_count": 5
+          },
+          "total_reward": {
+            "mean": 7.76408965357673,
+            "std": 38.395331106981885,
+            "valid_sample_count": 5
+          },
+          "truncated": {
+            "mean": 8.6,
+            "std": 3.2,
+            "valid_sample_count": 5
+          },
+          "truncation_ratio": {
+            "mean": 0.06923607481253644,
+            "std": 0.020958028091722185,
+            "valid_sample_count": 5
+          },
+          "tx_energy_j": {
+            "mean": 0.37662815372599423,
+            "std": 0.31011896575097136,
+            "valid_sample_count": 5
+          },
+          "workload_penalty": {
+            "mean": 11.421667781657849,
+            "std": 2.6723132708193997,
+            "valid_sample_count": 5
+          }
+        },
+        "pooled": {
+          "completed": 329,
+          "completion_ratio": 0.543801652892562,
+          "expiration_ratio": 0.3851239669421488,
+          "expired": 233,
+          "generated": 605,
+          "outage_denominator": 382,
+          "outage_numerator": 1,
+          "outage_rate": 0.002617801047120419,
+          "truncated": 43,
+          "truncation_ratio": 0.07107438016528926
+        }
+      },
+      "expected_route_counts": {
+        "route_decision_count": 654,
+        "local_count": 273,
+        "remote_count": 330,
+        "defer_count": 51
+      },
+      "original_checkpoint_path": "logs/development/task_allocation/experiments/C/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9e76466588b6__git-eb1140cefc4a/checkpoints/final.pt",
+      "original_evaluation_path": "logs/development/task_allocation/experiments/C/seed42/8k/evaluations/formal-eval__remote_stress_v2__chk-58da11c49bde__cfg-d2463e1929ea__eval-e866f9e0ccb7",
+      "training_directory": "logs/C/seed42/8k/training",
+      "evaluation_directory": "logs/C/seed42/8k/evaluation",
+      "diagnostics_directory": "logs/C/seed42/8k/diagnostics",
+      "dashboard_csv": "dashboard_logs/C/seed42/8k/training_metrics.csv",
+      "dashboard_png": "plots/C/seed42/8k/training_dashboard.png"
+    }
+  ],
+  "claim_boundary": "One training seed. Current B/C do not exceed A. Saved historical P1a diagnostic is not an independent training repetition.",
+  "fresh_initialization_evidence_limit": "Saved configs/initial version support no-pretraining protocol; launch command and initial-weight hash absent.",
+  "git_portability": "Evaluator requires a real commit; recipient records a new commit. Never forge historical Git metadata; historical exact-resume is restricted.",
+  "test_dependencies": [
+    {
+      "source": "experiments/cooperative-load/configs/e13-v1-tx-paired-shadow-seed42-32k.json",
+      "destination": "tests/fixtures/configs/e13-v1-tx-paired-shadow-seed42-32k.json",
+      "sha256": "ef38feebd065fadad0d7dac70db5acf8d0f4590cb7ab9b96688642f893333c6d",
+      "role": "shared regression configuration, test-only"
+    },
+    {
+      "source": "experiments/cooperative-load/configs/e14a-v1-cpu-feasibility-seed42-8k-dev.json",
+      "destination": "tests/fixtures/configs/e14a-v1-cpu-feasibility-seed42-8k-dev.json",
+      "sha256": "362418440e3411b3d0db6efd884ac77009300dd31c0057129d86f2854a7e57e1",
+      "role": "shared regression configuration, test-only"
+    },
+    {
+      "source": "experiments/cooperative-load/configs/e14b-v1-route-log-barrier-seed42-8k-dev.json",
+      "destination": "tests/fixtures/configs/e14b-v1-route-log-barrier-seed42-8k-dev.json",
+      "sha256": "0692b5e12054231bc9acf54119da07fedd3de6cbae21a34382ca4d63df66ca63",
+      "role": "shared regression configuration, test-only"
+    },
+    {
+      "source": "experiments/cooperative-load/configs/e14c-v1-route-task-credit-seed42-8k-dev.json",
+      "destination": "tests/fixtures/configs/e14c-v1-route-task-credit-seed42-8k-dev.json",
+      "sha256": "a5f22c5f7d79fd2cf9ce84430b55b0675856c48c5bf329f9268de07bb1b2f77e",
+      "role": "shared regression configuration, test-only"
+    },
+    {
+      "source": "experiments/cooperative-load/configs/e14d-v1-route-counterfactual-q-seed42-8k-dev.json",
+      "destination": "tests/fixtures/configs/e14d-v1-route-counterfactual-q-seed42-8k-dev.json",
+      "sha256": "6893e98aeb6e2f3af426fed9147cb23c1b7c20df16df06a5d5b88d3e103a43e1",
+      "role": "shared regression configuration, test-only"
+    },
+    {
+      "source": "experiments/cooperative-load/configs/e14d-p0-dual-branch-seed42-8k-dev.json",
+      "destination": "tests/fixtures/configs/e14d-p0-dual-branch-seed42-8k-dev.json",
+      "sha256": "585f986f416788a76c152551037a1b8308bc7944c5a6731d8ec252581bb17415",
+      "role": "shared regression configuration, test-only"
+    },
+    {
+      "source": "experiments/cooperative-load/configs/e14d-p0-legacy-seed42-8k-dev.json",
+      "destination": "tests/fixtures/configs/e14d-p0-legacy-seed42-8k-dev.json",
+      "sha256": "19ddcc13b5c580a9524d3bdf6627b9943401fd889535977b852a644230380781",
+      "role": "shared regression configuration, test-only"
+    },
+    {
+      "source": "experiments/cooperative-load/configs/e14d-p0-normalized-seed42-8k-dev.json",
+      "destination": "tests/fixtures/configs/e14d-p0-normalized-seed42-8k-dev.json",
+      "sha256": "009e5521d5f9dfeafd2a2af39ac064e803950c6b5b4b73dba15560743344d218",
+      "role": "shared regression configuration, test-only"
+    },
+    {
+      "source": "experiments/cooperative-load/configs/e14e-p1a-task-event-credit-seed42-8k-dev.json",
+      "destination": "tests/fixtures/configs/e14e-p1a-task-event-credit-seed42-8k-dev.json",
+      "sha256": "d4442ef7284c2894f37fff518fbe9fba0b2501b6eeebb4e3e852976eae4f378d",
+      "role": "shared regression configuration, test-only"
+    },
+    {
+      "source": "logs/development/e14d_p0_normalized_seed42_8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-c155c181a5bb__git-eb1140cefc4a/checkpoints/step_4000.pt",
+      "destination": "tests/fixtures/historical/checkpoints/e14d_p0_normalized_seed42_8k/step_4000.pt",
+      "sha256": "39786b3db2fc496068806e8dce4a7dafdd57c9618f57a14022e7b8d8816b0ff7",
+      "role": "saved pending-rollout tensors required by B/C learning-chain regression; not training initialization or reported experiment result"
+    },
+    {
+      "source": "logs/development/e14d_route_counterfactual_q_seed42_8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2cd92efd656e__git-eb1140cefc4a/checkpoints/step_4000.pt",
+      "destination": "tests/fixtures/historical/checkpoints/e14d_route_counterfactual_q_seed42_8k/step_4000.pt",
+      "sha256": "eb3a309b63f42ae5eeb143a60aa7a9c6408fc9cb5e49c1223c6ce90b8496dba0",
+      "role": "saved pending-rollout tensors required by B/C learning-chain regression; not training initialization or reported experiment result"
+    }
+  ],
+  "directory_relocation_manifest": "metadata/DIRECTORY_RELOCATION.json",
+  "directory_policy": "Local A/B/C organization only. No GitHub upload or LFS configuration performed. Historical config output fields retained byte-identically; use documented output overrides for future runs."
+}

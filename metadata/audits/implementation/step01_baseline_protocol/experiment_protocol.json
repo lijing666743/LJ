@@ -1,0 +1,493 @@
+{
+  "schema": "task_allocation.experiment_protocol.v1",
+  "created_at_utc": "2026-10-12T04:13:33.583861+00:00",
+  "baseline_canonical_hash": "2f143a85c0e37f605bbf38b59b3a31267a305464179593d9828c7c0a1518e3fa",
+  "status": "PROTOCOL_FROZEN_IMPLEMENTATION_PENDING",
+  "objective": "Increase system DONE under the same original deadline, resources and physics; no Local-share target.",
+  "initialization": {
+    "all_new_runs": "random initialization independently for each method, training seed and budget",
+    "forbidden": [
+      "historical checkpoint initialization",
+      "8k-to-32k warm start",
+      "offline pretraining",
+      "expert distillation",
+      "oracle labels or historical rollouts used for training",
+      "simple-scenario pretraining transfer"
+    ],
+    "existing_oracle1044": "seen development diagnosis only; never training labels or independent test"
+  },
+  "groups": {
+    "A": {
+      "route_mode": "hierarchical_option_aware_v1",
+      "features": "original P1a option features",
+      "role": "same implementation/budget paired reference; historical A42 may be reused only after strict identity equivalence"
+    },
+    "B": {
+      "planned_route_mode": "unified_node_v1",
+      "runnable_now": false,
+      "allowed_changes": [
+        "shared candidate scores and direct legal leaf sampling/argmax",
+        "required route config/credit/Q auxiliary/exploration/log/checkpoint compatibility",
+        "separate initialization stream for new route components"
+      ],
+      "features": "original option feature semantics; do not silently repair Local CPU burden here"
+    },
+    "C": {
+      "planned_route_mode": "unified_node_v1",
+      "runnable_now": false,
+      "allowed_changes": [
+        "B plus explicit queue/compute/transmission/deadline/energy relations",
+        "complete visible shared Local CPU burden if audit finds old feature incomplete"
+      ],
+      "difference_from_B": "physical feature ablation only"
+    }
+  },
+  "frozen_baseline_sections": {
+    "environment": {
+      "episode_horizon": 500,
+      "slot_duration_s": 0.02,
+      "height_m": 80.0,
+      "bounds": {
+        "x_min_m": 0.0,
+        "x_max_m": 1000.0,
+        "y_min_m": 0.0,
+        "y_max_m": 1000.0
+      },
+      "boundary_rule": "coordinate-wise specular reflection",
+      "reset_safe_distance_m": 50.0,
+      "velocity_mean_mps": [
+        0.0,
+        0.0
+      ],
+      "velocity_std_mps": [
+        1.0,
+        1.0
+      ],
+      "gauss_markov_alpha": 0.85,
+      "candidate_neighbor_radius_m": 525.0,
+      "total_bandwidth_hz": 20000000.0,
+      "ru_count": 20,
+      "resource_group_count": 5,
+      "carrier_frequency_hz": 3500000000.0,
+      "reference_transmit_power_w": 1.0,
+      "reference_cpu_frequency_hz": 2000000000.0,
+      "reference_cpu_coefficient": 1e-28,
+      "reference_initial_energy_j": 30.0,
+      "reference_rate_bps": 20000000.0,
+      "antenna_gain_dbi": 2.0,
+      "noise_psd_dbm_hz": -174.0,
+      "receiver_noise_figure_db": 7.0,
+      "building_loss_db": 15.0,
+      "los_rician_k_db": 6.0,
+      "shadowing_std_db": 4.0,
+      "shadowing_correlation_distance_m": 50.0,
+      "fixed_csi_aoi_slots": 3,
+      "csi_error_std_db": 2.0,
+      "interference_ema_beta": 0.8,
+      "initial_interference_w": 0.0,
+      "outage_threshold_db": -3.0,
+      "energy_tolerance_j": 1e-12,
+      "minimum_task_slack_slots": 10,
+      "maximum_task_slack_slots": 150,
+      "task_data_bits_min": 250000.0,
+      "task_data_bits_max": 1500000.0,
+      "task_cycles_per_bit_min": 300.0,
+      "task_cycles_per_bit_max": 1000.0,
+      "task_deadline_factor_min": 1.5,
+      "task_deadline_factor_max": 3.0,
+      "arrival_history_window_slots": 500,
+      "reward_workload_reference_s": 1.0,
+      "reward_task_count_reference": 1.0,
+      "reward_completion_weight": 1.0,
+      "reward_expiration_weight": 1.0,
+      "reward_workload_weight": 0.2,
+      "reward_energy_weight": 0.05,
+      "uav_count": 4,
+      "arrival_probabilities": [
+        0.0467,
+        0.11,
+        0.02,
+        0.0633
+      ],
+      "profile_assignment": [
+        "Balanced",
+        "Resource-poor",
+        "Compute-rich",
+        "Energy-limited"
+      ],
+      "profile_perturbations": [
+        [
+          -0.013814309988,
+          0.044593840641,
+          0.044559189965,
+          0.033901094602
+        ],
+        [
+          0.024305247334,
+          -0.014446956216,
+          0.005750819819,
+          -0.029482012276
+        ],
+        [
+          -0.000601140633,
+          -0.015719950799,
+          0.049877636039,
+          0.034480593142
+        ],
+        [
+          -0.000524427719,
+          0.006763643213,
+          -0.028161367743,
+          -0.001054193533
+        ]
+      ],
+      "building_layout": [
+        {
+          "name": "B1",
+          "x_min_m": 150.0,
+          "x_max_m": 250.0,
+          "y_min_m": 150.0,
+          "y_max_m": 350.0,
+          "height_m": 120.0
+        },
+        {
+          "name": "B2",
+          "x_min_m": 400.0,
+          "x_max_m": 500.0,
+          "y_min_m": 150.0,
+          "y_max_m": 350.0,
+          "height_m": 120.0
+        },
+        {
+          "name": "B3",
+          "x_min_m": 550.0,
+          "x_max_m": 650.0,
+          "y_min_m": 650.0,
+          "y_max_m": 850.0,
+          "height_m": 120.0
+        },
+        {
+          "name": "B4",
+          "x_min_m": 750.0,
+          "x_max_m": 850.0,
+          "y_min_m": 650.0,
+          "y_max_m": 850.0,
+          "height_m": 120.0
+        }
+      ],
+      "profile_ratios": {
+        "Resource-poor": [
+          0.7,
+          0.8,
+          0.8,
+          1.2
+        ],
+        "Balanced": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Compute-rich": [
+          2.0,
+          1.0,
+          1.1,
+          0.9
+        ],
+        "Energy-limited": [
+          1.0,
+          0.8,
+          0.5,
+          1.1
+        ],
+        "Communication-rich": [
+          1.0,
+          1.5,
+          1.1,
+          1.0
+        ]
+      }
+    },
+    "action": {
+      "route_fixed_actions": [
+        "idle",
+        "local",
+        "defer"
+      ],
+      "tx_select_idle_action": "idle",
+      "resource_group_count": 5,
+      "resource_width_options": [
+        1,
+        2
+      ],
+      "power_levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "cpu_queue_idle_action": "idle",
+      "cpu_frequency_levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "resource_group_numbering": "one_based_contiguous",
+      "sampling_order": [
+        "route",
+        "tx_select",
+        "resource_group",
+        "resource_width",
+        "power_level",
+        "cpu_queue",
+        "cpu_frequency"
+      ],
+      "canonical_inactive_values": {
+        "route": "idle",
+        "tx_select": "idle",
+        "resource_group": "idle",
+        "resource_width": 1,
+        "power_level": 0.0,
+        "cpu_queue": "idle",
+        "cpu_frequency": 0.0
+      }
+    },
+    "reward": {
+      "credit_assignment_mode": "responsibility_terminal",
+      "beta_completion_credit": 0.5,
+      "mu_expiration_credit": 0.5
+    }
+  },
+  "frozen_training_reference": {
+    "encoder_hidden_dimension": 128,
+    "gat_layer_count": 1,
+    "attention_head_count": 4,
+    "gru_hidden_dimension": 128,
+    "actor_learning_rate": 0.0003,
+    "route_head_lr_scale": 0.1,
+    "route_private_backbone": true,
+    "tx_upper_decoder_mode": "private_candidate_binary_v1",
+    "cpu_scheduler_mode": "deadline_joint_v1",
+    "cpu_anti_starvation_mode": "deadline_feasibility_v1",
+    "route_exploration_mode": "annealed_top_level_log_barrier_v1",
+    "route_exploration_initial_coefficient": 0.05,
+    "route_exploration_anneal_steps": 6000,
+    "route_training_telemetry_enabled": true,
+    "route_task_credit_coefficient": 1.0,
+    "route_task_value_coefficient": 0.5,
+    "route_value_mode": "candidate_counterfactual_q_v1",
+    "route_counterfactual_credit_coefficient": 1.0,
+    "route_q_value_loss_coefficient": 0.5,
+    "route_q_input_mode": "normalized",
+    "route_actor_credit_source": "task_event",
+    "destination_decoder_mode": "legacy",
+    "destination_oracle_rank_coefficient": 0.0,
+    "destination_supervision_mode": "legacy",
+    "tx_upper_optimization_mode": "ppo_standard",
+    "tx_upper_credit_mode": "paired_shadow_v1",
+    "tx_shadow_max_pairs_per_rollout": 2,
+    "tx_shadow_step_budget_per_rollout": 2000,
+    "tx_shadow_selector": "cyclic_source_first_active_v1",
+    "tx_shadow_rng_mode": "slot_addressed_v1",
+    "tx_shadow_rng_seed": 130043,
+    "tx_shadow_max_conditional_draws": 128,
+    "tx_shadow_advantage_normalization": "paired_rms_v1",
+    "tx_q_target_normalization": "none",
+    "critic_learning_rate": 0.0003,
+    "optimizer": "Adam",
+    "optimizer_topology": "separate_actor_critic",
+    "adam_beta1": 0.9,
+    "adam_beta2": 0.999,
+    "adam_eps": 1e-08,
+    "weight_decay": 0.0,
+    "zero_grad_set_to_none": true,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "ppo_clip_epsilon": 0.2,
+    "actor_ratio_mode": "branch_specific",
+    "policy_loss_aggregation_mode": "branchwise_active_mean_v1",
+    "agent_credit_mode": "role_decomposed",
+    "route_decoder_mode": "hierarchical_option_aware_v1",
+    "tx_decoder_mode": "hierarchical_candidate_aware_v1",
+    "cpu_frequency_decoder_mode": "legacy",
+    "route_credit_mode": "task_event_value_v1",
+    "route_gae_lambda": 1.0,
+    "entropy_coefficient": 0.01,
+    "value_coefficient": 0.5,
+    "rollout_length_slots": 256,
+    "recurrent_chunk_length_slots": 32,
+    "sequence_minibatch_size": 8,
+    "update_epochs": 4,
+    "gradient_clip_norm": 0.5,
+    "gradient_clip_scope": "separate_actor_critic_global_norm",
+    "require_full_rollout": true,
+    "chunk_shuffle": false,
+    "timestep_shuffle": false,
+    "allow_incomplete_minibatch": false,
+    "sequence_padding": false,
+    "padded_actor_forward": false,
+    "advantage_normalization": false,
+    "value_clipping": false,
+    "target_kl_enabled": false,
+    "kl_early_stopping": false,
+    "learning_rate_schedule_enabled": false,
+    "entropy_coefficient_schedule_enabled": false,
+    "route_entropy_start_coefficient": 0.03,
+    "route_entropy_schedule_start_step": 3072,
+    "route_entropy_schedule_end_step": 32768,
+    "route_only_entropy_initial_coefficient": 0.0,
+    "route_only_entropy_final_coefficient": 0.0,
+    "route_only_entropy_anneal_steps": 0,
+    "gradient_accumulation": false,
+    "mixed_precision": false,
+    "training_device": "cuda",
+    "carry_hidden_across_update_boundary": true,
+    "policy_sampling_reset_each_episode": false,
+    "discard_final_partial_rollout": true,
+    "max_training_episodes": 16,
+    "max_training_environment_steps": 8000,
+    "evaluation_interval_steps": 4000,
+    "checkpoint_interval_steps": 4000,
+    "checkpoint_schema_version": 1,
+    "trajectory_credit_telemetry_enabled": false,
+    "conditional_credit_telemetry_enabled": true,
+    "conditional_credit_telemetry_max_bytes": 2147483648,
+    "route_diagnostic_samples_enabled": true
+  },
+  "allowed_run_specific_changes": [
+    "seed and matching reproducibility master seed",
+    "output paths and experiment identity",
+    "8k vs 32k episode/step limits and checkpoint milestone intervals",
+    "route structure and compatible actor architecture identity according to group"
+  ],
+  "frozen_other_mechanisms": [
+    "P1a shared plus task-event actor credit, effective task1 CF0",
+    "normalized chosen-only Route-Q auxiliary loss .5",
+    "original reward weights",
+    "CPU deadline_joint_v1 and deadline_feasibility_v1",
+    "TX paired_shadow_v1 with original parameters",
+    "PPO, learning rates, route LR scale .1, private route backbone",
+    "top-level log-barrier coefficient .05 anneal6000; Remote group mass used for regularizer only",
+    "original environment action masks and Idle/Defer legality"
+  ],
+  "seeds": {
+    "development_training": [
+      42,
+      43,
+      44
+    ],
+    "confirmation_training": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "additional_training_reserved": [
+      45,
+      46
+    ],
+    "development_evaluation": [
+      1042,
+      1043,
+      1044,
+      1045,
+      1046
+    ],
+    "holdout_evaluation": [
+      20042,
+      20043,
+      20044,
+      20045,
+      20046,
+      20047,
+      20048,
+      20049,
+      20050,
+      20051,
+      20052,
+      20053,
+      20054,
+      20055,
+      20056,
+      20057,
+      20058,
+      20059,
+      20060,
+      20061
+    ],
+    "holdout_use": "only after method/version frozen; no tuning or checkpoint selection on holdout",
+    "audit_file": "seed_usage_audit.json"
+  },
+  "checkpoint_selection": {
+    "8k_primary": "final at 8000 collected transitions",
+    "8k_diagnostic": [
+      4000
+    ],
+    "32k_primary": "final at 32000 collected transitions",
+    "32k_diagnostic": [
+      8000,
+      16000,
+      24000
+    ],
+    "select_best_on_test": false
+  },
+  "budgets": {
+    "development_max_runs": 9,
+    "development_steps_per_run": 8000,
+    "development_total_main_steps_max": 72000,
+    "confirmation_runs": 10,
+    "confirmation_steps_per_run": 32000,
+    "confirmation_total_main_steps": 320000,
+    "shadow_evaluation_fixture_steps_included": false,
+    "separate_costs": [
+      "TX shadow steps",
+      "evaluation steps",
+      "engineering fixture steps",
+      "optimizer updates",
+      "wall time"
+    ]
+  },
+  "evaluation": {
+    "device": "cpu",
+    "dtype": "float32",
+    "horizon_slots": 500,
+    "network_updates": false,
+    "deterministic_rule_A": "original hierarchical masked argmax",
+    "deterministic_rule_B_C": "actual legal leaf masked argmax",
+    "paired_identity_requirements": [
+      "same environment physics and generated workload for a given evaluation seed",
+      "matching exogenous trace fingerprint",
+      "group-specific architecture/checkpoint provenance recorded"
+    ],
+    "whole_config_hash_equal_across_architectures_required": false
+  },
+  "metrics": {
+    "primary": "For each training seed mean of five episode DONE/Generated rates; compare paired method minus A, then mean across training seeds.",
+    "secondary": [
+      "per episode Generated DONE EXPIRED TRUNCATED and conservation",
+      "pooled total DONE/total Generated reported separately",
+      "unique task bindings Local/Remote and their terminal outcomes",
+      "Defer decisions and unique tasks",
+      "expiry stage UNBOUND/TX_WAIT/TX_SERVICE/CPU_WAIT/CPU_SERVICE",
+      "UAV load/energy/CPU idle feasibility",
+      "actual leaf probabilities/argmax versus Remote grouped mass",
+      "energy and latency with empty denominator NA",
+      "optimized steps updates task events shadow steps and elapsed time"
+    ],
+    "no_success_criterion_on_local_share": true
+  },
+  "development_gate": {
+    "paired_mean_completion_delta_gt": 0,
+    "positive_training_seed_count_min": 2,
+    "training_seed_count": 3,
+    "if_B_and_C_pass": "higher development mean; exact tie prefers B",
+    "if_neither_passes": "failure attribution before further training",
+    "statistical_significance_claim": false
+  },
+  "confirmation": "Same-budget paired A vs selected B/C over five independently trained seeds; report every run and train-seed variation; insufficient or unstable evidence remains inconclusive.",
+  "training_gate": "Steps2-6 engineering checks must pass before Step7 RL training.",
+  "qmix": "separate conditional fallback after primary route; not implemented or enabled by this protocol",
+  "outputs": "new independent directories; no overwrite of historical configs checkpoints or artifacts"
+}

@@ -1,0 +1,342 @@
+[
+  {
+    "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/final.pt",
+    "kind": "FINAL_COMPLETED",
+    "training_state": {
+      "policy_version": 125,
+      "started_episodes": 64,
+      "completed_episodes": 64,
+      "next_episode_index": 64,
+      "collected_environment_transitions": 32000,
+      "optimized_transitions": 32000,
+      "ppo_update_count": 125,
+      "unused_final_tail_transitions": 0,
+      "training_complete": true,
+      "active_rollout_length": 0,
+      "active_rollout_policy_version": null
+    },
+    "keys": [
+      "schema_version",
+      "checkpoint_kind",
+      "method_id",
+      "git_commit",
+      "config_hash",
+      "config_snapshot",
+      "runtime_provenance",
+      "training_state",
+      "model_state",
+      "optimizer_state",
+      "policy_rng_state",
+      "active_rollout_state",
+      "diagnostics_state",
+      "route_decoder_identity"
+    ],
+    "continuation": {
+      "schema_version": 1,
+      "source_checkpoint": "D:\\My_project_li\\logs\\C\\seed42\\16k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a\\checkpoints\\step_12000.pt",
+      "source_sha256": "7c9034e00432c2545f8be8a972ac65580bec6602a7c3e061ef39fa76c91d3690",
+      "source_config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+      "target_config_hash": "02c7757520b8decc37e6c93d044675c7a002b7c4ab452968768595d872830cdd",
+      "restored_environment_steps": 12000,
+      "restored_pending_transitions": 224,
+      "target_environment_steps": 32000,
+      "diagnostic_sidecars_start_at": 12000,
+      "previous": {
+        "schema_version": 1,
+        "source_checkpoint": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\step_4000.pt",
+        "source_sha256": "2a92745919ef42316131ab70dd67c6cbb9fa91cfb1cb08ebd2931e5913b50325",
+        "source_config_hash": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15",
+        "target_config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+        "restored_environment_steps": 4000,
+        "restored_pending_transitions": 160,
+        "target_environment_steps": 16000,
+        "diagnostic_sidecars_start_at": 4000,
+        "previous": null,
+        "replay_reference": {
+          "path": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\final.pt",
+          "sha256": "58da11c49bde4a517471e1386842b90568fdb1ffe51d9c290caa7e3d442ff1b5",
+          "environment_steps": 8000,
+          "status": "verified_exact"
+        }
+      },
+      "replay_reference": {
+        "path": "D:\\My_project_li\\logs\\C\\seed42\\16k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a\\checkpoints\\final.pt",
+        "sha256": "dc8754d7871161233d65ee488e2125dbc4258b555b0a3efb7d579c264800c087",
+        "environment_steps": 16000,
+        "status": "verified_exact"
+      }
+    }
+  },
+  {
+    "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/step_16000.pt",
+    "kind": "PERIODIC_RESUME",
+    "training_state": {
+      "policy_version": 62,
+      "started_episodes": 32,
+      "completed_episodes": 32,
+      "next_episode_index": 32,
+      "collected_environment_transitions": 16000,
+      "optimized_transitions": 15872,
+      "ppo_update_count": 62,
+      "unused_final_tail_transitions": 0,
+      "training_complete": false,
+      "active_rollout_length": 128,
+      "active_rollout_policy_version": 62
+    },
+    "keys": [
+      "schema_version",
+      "checkpoint_kind",
+      "method_id",
+      "git_commit",
+      "config_hash",
+      "config_snapshot",
+      "runtime_provenance",
+      "training_state",
+      "model_state",
+      "optimizer_state",
+      "policy_rng_state",
+      "active_rollout_state",
+      "diagnostics_state",
+      "route_decoder_identity"
+    ],
+    "continuation": {
+      "schema_version": 1,
+      "source_checkpoint": "D:\\My_project_li\\logs\\C\\seed42\\16k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a\\checkpoints\\step_12000.pt",
+      "source_sha256": "7c9034e00432c2545f8be8a972ac65580bec6602a7c3e061ef39fa76c91d3690",
+      "source_config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+      "target_config_hash": "02c7757520b8decc37e6c93d044675c7a002b7c4ab452968768595d872830cdd",
+      "restored_environment_steps": 12000,
+      "restored_pending_transitions": 224,
+      "target_environment_steps": 32000,
+      "diagnostic_sidecars_start_at": 12000,
+      "previous": {
+        "schema_version": 1,
+        "source_checkpoint": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\step_4000.pt",
+        "source_sha256": "2a92745919ef42316131ab70dd67c6cbb9fa91cfb1cb08ebd2931e5913b50325",
+        "source_config_hash": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15",
+        "target_config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+        "restored_environment_steps": 4000,
+        "restored_pending_transitions": 160,
+        "target_environment_steps": 16000,
+        "diagnostic_sidecars_start_at": 4000,
+        "previous": null,
+        "replay_reference": {
+          "path": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\final.pt",
+          "sha256": "58da11c49bde4a517471e1386842b90568fdb1ffe51d9c290caa7e3d442ff1b5",
+          "environment_steps": 8000,
+          "status": "verified_exact"
+        }
+      },
+      "replay_reference": {
+        "path": "D:\\My_project_li\\logs\\C\\seed42\\16k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a\\checkpoints\\final.pt",
+        "sha256": "dc8754d7871161233d65ee488e2125dbc4258b555b0a3efb7d579c264800c087",
+        "environment_steps": 16000,
+        "status": "verified_exact"
+      }
+    }
+  },
+  {
+    "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/step_20000.pt",
+    "kind": "PERIODIC_RESUME",
+    "training_state": {
+      "policy_version": 78,
+      "started_episodes": 40,
+      "completed_episodes": 40,
+      "next_episode_index": 40,
+      "collected_environment_transitions": 20000,
+      "optimized_transitions": 19968,
+      "ppo_update_count": 78,
+      "unused_final_tail_transitions": 0,
+      "training_complete": false,
+      "active_rollout_length": 32,
+      "active_rollout_policy_version": 78
+    },
+    "keys": [
+      "schema_version",
+      "checkpoint_kind",
+      "method_id",
+      "git_commit",
+      "config_hash",
+      "config_snapshot",
+      "runtime_provenance",
+      "training_state",
+      "model_state",
+      "optimizer_state",
+      "policy_rng_state",
+      "active_rollout_state",
+      "diagnostics_state",
+      "route_decoder_identity"
+    ],
+    "continuation": {
+      "schema_version": 1,
+      "source_checkpoint": "D:\\My_project_li\\logs\\C\\seed42\\16k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a\\checkpoints\\step_12000.pt",
+      "source_sha256": "7c9034e00432c2545f8be8a972ac65580bec6602a7c3e061ef39fa76c91d3690",
+      "source_config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+      "target_config_hash": "02c7757520b8decc37e6c93d044675c7a002b7c4ab452968768595d872830cdd",
+      "restored_environment_steps": 12000,
+      "restored_pending_transitions": 224,
+      "target_environment_steps": 32000,
+      "diagnostic_sidecars_start_at": 12000,
+      "previous": {
+        "schema_version": 1,
+        "source_checkpoint": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\step_4000.pt",
+        "source_sha256": "2a92745919ef42316131ab70dd67c6cbb9fa91cfb1cb08ebd2931e5913b50325",
+        "source_config_hash": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15",
+        "target_config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+        "restored_environment_steps": 4000,
+        "restored_pending_transitions": 160,
+        "target_environment_steps": 16000,
+        "diagnostic_sidecars_start_at": 4000,
+        "previous": null,
+        "replay_reference": {
+          "path": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\final.pt",
+          "sha256": "58da11c49bde4a517471e1386842b90568fdb1ffe51d9c290caa7e3d442ff1b5",
+          "environment_steps": 8000,
+          "status": "verified_exact"
+        }
+      },
+      "replay_reference": {
+        "path": "D:\\My_project_li\\logs\\C\\seed42\\16k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a\\checkpoints\\final.pt",
+        "sha256": "dc8754d7871161233d65ee488e2125dbc4258b555b0a3efb7d579c264800c087",
+        "environment_steps": 16000,
+        "status": "verified_exact"
+      }
+    }
+  },
+  {
+    "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/step_24000.pt",
+    "kind": "PERIODIC_RESUME",
+    "training_state": {
+      "policy_version": 93,
+      "started_episodes": 48,
+      "completed_episodes": 48,
+      "next_episode_index": 48,
+      "collected_environment_transitions": 24000,
+      "optimized_transitions": 23808,
+      "ppo_update_count": 93,
+      "unused_final_tail_transitions": 0,
+      "training_complete": false,
+      "active_rollout_length": 192,
+      "active_rollout_policy_version": 93
+    },
+    "keys": [
+      "schema_version",
+      "checkpoint_kind",
+      "method_id",
+      "git_commit",
+      "config_hash",
+      "config_snapshot",
+      "runtime_provenance",
+      "training_state",
+      "model_state",
+      "optimizer_state",
+      "policy_rng_state",
+      "active_rollout_state",
+      "diagnostics_state",
+      "route_decoder_identity"
+    ],
+    "continuation": {
+      "schema_version": 1,
+      "source_checkpoint": "D:\\My_project_li\\logs\\C\\seed42\\16k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a\\checkpoints\\step_12000.pt",
+      "source_sha256": "7c9034e00432c2545f8be8a972ac65580bec6602a7c3e061ef39fa76c91d3690",
+      "source_config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+      "target_config_hash": "02c7757520b8decc37e6c93d044675c7a002b7c4ab452968768595d872830cdd",
+      "restored_environment_steps": 12000,
+      "restored_pending_transitions": 224,
+      "target_environment_steps": 32000,
+      "diagnostic_sidecars_start_at": 12000,
+      "previous": {
+        "schema_version": 1,
+        "source_checkpoint": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\step_4000.pt",
+        "source_sha256": "2a92745919ef42316131ab70dd67c6cbb9fa91cfb1cb08ebd2931e5913b50325",
+        "source_config_hash": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15",
+        "target_config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+        "restored_environment_steps": 4000,
+        "restored_pending_transitions": 160,
+        "target_environment_steps": 16000,
+        "diagnostic_sidecars_start_at": 4000,
+        "previous": null,
+        "replay_reference": {
+          "path": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\final.pt",
+          "sha256": "58da11c49bde4a517471e1386842b90568fdb1ffe51d9c290caa7e3d442ff1b5",
+          "environment_steps": 8000,
+          "status": "verified_exact"
+        }
+      },
+      "replay_reference": {
+        "path": "D:\\My_project_li\\logs\\C\\seed42\\16k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a\\checkpoints\\final.pt",
+        "sha256": "dc8754d7871161233d65ee488e2125dbc4258b555b0a3efb7d579c264800c087",
+        "environment_steps": 16000,
+        "status": "verified_exact"
+      }
+    }
+  },
+  {
+    "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/step_28000.pt",
+    "kind": "PERIODIC_RESUME",
+    "training_state": {
+      "policy_version": 109,
+      "started_episodes": 56,
+      "completed_episodes": 56,
+      "next_episode_index": 56,
+      "collected_environment_transitions": 28000,
+      "optimized_transitions": 27904,
+      "ppo_update_count": 109,
+      "unused_final_tail_transitions": 0,
+      "training_complete": false,
+      "active_rollout_length": 96,
+      "active_rollout_policy_version": 109
+    },
+    "keys": [
+      "schema_version",
+      "checkpoint_kind",
+      "method_id",
+      "git_commit",
+      "config_hash",
+      "config_snapshot",
+      "runtime_provenance",
+      "training_state",
+      "model_state",
+      "optimizer_state",
+      "policy_rng_state",
+      "active_rollout_state",
+      "diagnostics_state",
+      "route_decoder_identity"
+    ],
+    "continuation": {
+      "schema_version": 1,
+      "source_checkpoint": "D:\\My_project_li\\logs\\C\\seed42\\16k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a\\checkpoints\\step_12000.pt",
+      "source_sha256": "7c9034e00432c2545f8be8a972ac65580bec6602a7c3e061ef39fa76c91d3690",
+      "source_config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+      "target_config_hash": "02c7757520b8decc37e6c93d044675c7a002b7c4ab452968768595d872830cdd",
+      "restored_environment_steps": 12000,
+      "restored_pending_transitions": 224,
+      "target_environment_steps": 32000,
+      "diagnostic_sidecars_start_at": 12000,
+      "previous": {
+        "schema_version": 1,
+        "source_checkpoint": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\step_4000.pt",
+        "source_sha256": "2a92745919ef42316131ab70dd67c6cbb9fa91cfb1cb08ebd2931e5913b50325",
+        "source_config_hash": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15",
+        "target_config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+        "restored_environment_steps": 4000,
+        "restored_pending_transitions": 160,
+        "target_environment_steps": 16000,
+        "diagnostic_sidecars_start_at": 4000,
+        "previous": null,
+        "replay_reference": {
+          "path": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\final.pt",
+          "sha256": "58da11c49bde4a517471e1386842b90568fdb1ffe51d9c290caa7e3d442ff1b5",
+          "environment_steps": 8000,
+          "status": "verified_exact"
+        }
+      },
+      "replay_reference": {
+        "path": "D:\\My_project_li\\logs\\C\\seed42\\16k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a\\checkpoints\\final.pt",
+        "sha256": "dc8754d7871161233d65ee488e2125dbc4258b555b0a3efb7d579c264800c087",
+        "environment_steps": 16000,
+        "status": "verified_exact"
+      }
+    }
+  }
+]

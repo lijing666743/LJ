@@ -1,0 +1,3785 @@
+{
+  "ratio_denominator": "Active Local+Remote+Defer choices; Idle counted separately",
+  "A_repeated_Defer_limitation": "The v1 hierarchical trace omits route task_id; repeated Defer by task is unavailable for A. B/C use directly recorded task_id.",
+  "methods": {
+    "A": {
+      "4000": {
+        "pooled": {
+          "route_decision_count": 3546,
+          "active_route_decision_count": 3546,
+          "Local_count": 246,
+          "Remote_count": 254,
+          "Defer_count": 3046,
+          "Idle_count": 0,
+          "Local_ratio": 0.06937394247038917,
+          "Remote_ratio": 0.07163000564015792,
+          "Defer_ratio": 0.8589960518894529,
+          "remote_destination_counts": {
+            "0": 77,
+            "1": 58,
+            "2": 84,
+            "3": 35
+          },
+          "remote_destination_ratios": {
+            "0": 0.3031496062992126,
+            "1": 0.2283464566929134,
+            "2": 0.33070866141732286,
+            "3": 0.1377952755905512
+          },
+          "legal_remote_decision_count": 3370,
+          "choose_Local_when_Remote_legal_count": 117,
+          "choose_Local_when_Remote_legal_ratio": 0.034718100890207715,
+          "mean_group_probability": {
+            "Local": 0.3001102643897489,
+            "Remote": 0.30901982811123585,
+            "Defer": 0.3908699041561292
+          },
+          "group_mass_argmax_Remote_but_actual_Local_count": 0,
+          "group_mass_and_leaf_probabilities_available": false,
+          "Defer_task_identity_coverage": 0.0,
+          "repeated_Defer_status": "unavailable: hierarchical v1 route trace has no route task_id; no inference from TX head IDs"
+        },
+        "per_seed": {
+          "1042": {
+            "route_decision_count": 278,
+            "active_route_decision_count": 278,
+            "Local_count": 89,
+            "Remote_count": 45,
+            "Defer_count": 144,
+            "Idle_count": 0,
+            "Local_ratio": 0.32014388489208634,
+            "Remote_ratio": 0.1618705035971223,
+            "Defer_ratio": 0.5179856115107914,
+            "remote_destination_counts": {
+              "1": 2,
+              "2": 43
+            },
+            "remote_destination_ratios": {
+              "1": 0.044444444444444446,
+              "2": 0.9555555555555556
+            },
+            "legal_remote_decision_count": 205,
+            "choose_Local_when_Remote_legal_count": 35,
+            "choose_Local_when_Remote_legal_ratio": 0.17073170731707318,
+            "mean_group_probability": {
+              "Local": 0.3742105480578306,
+              "Remote": 0.2405398177157203,
+              "Defer": 0.3852496288663192
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": false,
+            "Defer_task_identity_coverage": 0.0,
+            "repeated_Defer_status": "unavailable: hierarchical v1 route trace has no route task_id; no inference from TX head IDs"
+          },
+          "1043": {
+            "route_decision_count": 934,
+            "active_route_decision_count": 934,
+            "Local_count": 29,
+            "Remote_count": 62,
+            "Defer_count": 843,
+            "Idle_count": 0,
+            "Local_ratio": 0.031049250535331904,
+            "Remote_ratio": 0.06638115631691649,
+            "Defer_ratio": 0.9025695931477516,
+            "remote_destination_counts": {
+              "0": 19,
+              "1": 16,
+              "3": 27
+            },
+            "remote_destination_ratios": {
+              "0": 0.3064516129032258,
+              "1": 0.25806451612903225,
+              "3": 0.43548387096774194
+            },
+            "legal_remote_decision_count": 934,
+            "choose_Local_when_Remote_legal_count": 29,
+            "choose_Local_when_Remote_legal_ratio": 0.031049250535331904,
+            "mean_group_probability": {
+              "Local": 0.2855806855975433,
+              "Remote": 0.32599013765408347,
+              "Defer": 0.3884291745865881
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": false,
+            "Defer_task_identity_coverage": 0.0,
+            "repeated_Defer_status": "unavailable: hierarchical v1 route trace has no route task_id; no inference from TX head IDs"
+          },
+          "1044": {
+            "route_decision_count": 903,
+            "active_route_decision_count": 903,
+            "Local_count": 20,
+            "Remote_count": 73,
+            "Defer_count": 810,
+            "Idle_count": 0,
+            "Local_ratio": 0.0221483942414175,
+            "Remote_ratio": 0.08084163898117387,
+            "Defer_ratio": 0.8970099667774086,
+            "remote_destination_counts": {
+              "0": 5,
+              "1": 19,
+              "2": 41,
+              "3": 8
+            },
+            "remote_destination_ratios": {
+              "0": 0.0684931506849315,
+              "1": 0.2602739726027397,
+              "2": 0.5616438356164384,
+              "3": 0.1095890410958904
+            },
+            "legal_remote_decision_count": 903,
+            "choose_Local_when_Remote_legal_count": 20,
+            "choose_Local_when_Remote_legal_ratio": 0.0221483942414175,
+            "mean_group_probability": {
+              "Local": 0.2843391926647685,
+              "Remote": 0.33113850351187873,
+              "Defer": 0.3845222996648892
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": false,
+            "Defer_task_identity_coverage": 0.0,
+            "repeated_Defer_status": "unavailable: hierarchical v1 route trace has no route task_id; no inference from TX head IDs"
+          },
+          "1045": {
+            "route_decision_count": 688,
+            "active_route_decision_count": 688,
+            "Local_count": 43,
+            "Remote_count": 31,
+            "Defer_count": 614,
+            "Idle_count": 0,
+            "Local_ratio": 0.0625,
+            "Remote_ratio": 0.04505813953488372,
+            "Defer_ratio": 0.8924418604651163,
+            "remote_destination_counts": {
+              "0": 21,
+              "1": 10
+            },
+            "remote_destination_ratios": {
+              "0": 0.6774193548387096,
+              "1": 0.3225806451612903
+            },
+            "legal_remote_decision_count": 649,
+            "choose_Local_when_Remote_legal_count": 4,
+            "choose_Local_when_Remote_legal_ratio": 0.0061633281972265025,
+            "mean_group_probability": {
+              "Local": 0.28869502987106177,
+              "Remote": 0.3078380842628174,
+              "Defer": 0.40346688114453194
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": false,
+            "Defer_task_identity_coverage": 0.0,
+            "repeated_Defer_status": "unavailable: hierarchical v1 route trace has no route task_id; no inference from TX head IDs"
+          },
+          "1046": {
+            "route_decision_count": 743,
+            "active_route_decision_count": 743,
+            "Local_count": 65,
+            "Remote_count": 43,
+            "Defer_count": 635,
+            "Idle_count": 0,
+            "Local_ratio": 0.08748317631224764,
+            "Remote_ratio": 0.05787348586810229,
+            "Defer_ratio": 0.8546433378196501,
+            "remote_destination_counts": {
+              "0": 32,
+              "1": 11
+            },
+            "remote_destination_ratios": {
+              "0": 0.7441860465116279,
+              "1": 0.2558139534883721
+            },
+            "legal_remote_decision_count": 679,
+            "choose_Local_when_Remote_legal_count": 29,
+            "choose_Local_when_Remote_legal_ratio": 0.042709867452135494,
+            "mean_group_probability": {
+              "Local": 0.32038712421304283,
+              "Remote": 0.2875219137880395,
+              "Defer": 0.3920909601939318
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": false,
+            "Defer_task_identity_coverage": 0.0,
+            "repeated_Defer_status": "unavailable: hierarchical v1 route trace has no route task_id; no inference from TX head IDs"
+          }
+        },
+        "source_trace": "D:\\My_project_li\\logs\\A\\seed42\\8k\\checkpoint_progress\\20261013_4k8k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-dc026714f6e0__cfg-d2463e1929ea__eval-78f388ab7bcb\\route_decision_trace.jsonl"
+      },
+      "8000": {
+        "pooled": {
+          "route_decision_count": 604,
+          "active_route_decision_count": 604,
+          "Local_count": 131,
+          "Remote_count": 473,
+          "Defer_count": 0,
+          "Idle_count": 0,
+          "Local_ratio": 0.21688741721854304,
+          "Remote_ratio": 0.7831125827814569,
+          "Defer_ratio": 0.0,
+          "remote_destination_counts": {
+            "0": 152,
+            "1": 120,
+            "2": 129,
+            "3": 72
+          },
+          "remote_destination_ratios": {
+            "0": 0.321353065539112,
+            "1": 0.2536997885835095,
+            "2": 0.2727272727272727,
+            "3": 0.1522198731501057
+          },
+          "legal_remote_decision_count": 473,
+          "choose_Local_when_Remote_legal_count": 0,
+          "choose_Local_when_Remote_legal_ratio": 0.0,
+          "mean_group_probability": {
+            "Local": 0.2602958059222098,
+            "Remote": 0.39848020512437976,
+            "Defer": 0.34122398887939803
+          },
+          "group_mass_argmax_Remote_but_actual_Local_count": 0,
+          "group_mass_and_leaf_probabilities_available": false,
+          "Defer_task_identity_coverage": null,
+          "repeated_Defer_status": "unavailable: hierarchical v1 route trace has no route task_id; no inference from TX head IDs"
+        },
+        "per_seed": {
+          "1042": {
+            "route_decision_count": 135,
+            "active_route_decision_count": 135,
+            "Local_count": 55,
+            "Remote_count": 80,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.4074074074074074,
+            "Remote_ratio": 0.5925925925925926,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "1": 11,
+              "2": 69
+            },
+            "remote_destination_ratios": {
+              "1": 0.1375,
+              "2": 0.8625
+            },
+            "legal_remote_decision_count": 80,
+            "choose_Local_when_Remote_legal_count": 0,
+            "choose_Local_when_Remote_legal_ratio": 0.0,
+            "mean_group_probability": {
+              "Local": 0.3442184454864926,
+              "Remote": 0.3057124978966183,
+              "Defer": 0.3500690546300676
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": false,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "unavailable: hierarchical v1 route trace has no route task_id; no inference from TX head IDs"
+          },
+          "1043": {
+            "route_decision_count": 121,
+            "active_route_decision_count": 121,
+            "Local_count": 0,
+            "Remote_count": 121,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.0,
+            "Remote_ratio": 1.0,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 31,
+              "1": 34,
+              "2": 11,
+              "3": 45
+            },
+            "remote_destination_ratios": {
+              "0": 0.256198347107438,
+              "1": 0.2809917355371901,
+              "2": 0.09090909090909091,
+              "3": 0.371900826446281
+            },
+            "legal_remote_decision_count": 121,
+            "choose_Local_when_Remote_legal_count": 0,
+            "choose_Local_when_Remote_legal_ratio": 0.0,
+            "mean_group_probability": {
+              "Local": 0.16320582805586256,
+              "Remote": 0.5185230454383802,
+              "Defer": 0.31827112453535567
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": false,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "unavailable: hierarchical v1 route trace has no route task_id; no inference from TX head IDs"
+          },
+          "1044": {
+            "route_decision_count": 117,
+            "active_route_decision_count": 117,
+            "Local_count": 0,
+            "Remote_count": 117,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.0,
+            "Remote_ratio": 1.0,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 14,
+              "1": 27,
+              "2": 49,
+              "3": 27
+            },
+            "remote_destination_ratios": {
+              "0": 0.11965811965811966,
+              "1": 0.23076923076923078,
+              "2": 0.4188034188034188,
+              "3": 0.23076923076923078
+            },
+            "legal_remote_decision_count": 117,
+            "choose_Local_when_Remote_legal_count": 0,
+            "choose_Local_when_Remote_legal_ratio": 0.0,
+            "mean_group_probability": {
+              "Local": 0.17501807149149415,
+              "Remote": 0.5092784650305398,
+              "Defer": 0.31570347048278546
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": false,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "unavailable: hierarchical v1 route trace has no route task_id; no inference from TX head IDs"
+          },
+          "1045": {
+            "route_decision_count": 102,
+            "active_route_decision_count": 102,
+            "Local_count": 39,
+            "Remote_count": 63,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.38235294117647056,
+            "Remote_ratio": 0.6176470588235294,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 43,
+              "1": 20
+            },
+            "remote_destination_ratios": {
+              "0": 0.6825396825396826,
+              "1": 0.31746031746031744
+            },
+            "legal_remote_decision_count": 63,
+            "choose_Local_when_Remote_legal_count": 0,
+            "choose_Local_when_Remote_legal_ratio": 0.0,
+            "mean_group_probability": {
+              "Local": 0.32892794227775407,
+              "Remote": 0.31432125089215296,
+              "Defer": 0.356750804419611
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": false,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "unavailable: hierarchical v1 route trace has no route task_id; no inference from TX head IDs"
+          },
+          "1046": {
+            "route_decision_count": 129,
+            "active_route_decision_count": 129,
+            "Local_count": 37,
+            "Remote_count": 92,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.2868217054263566,
+            "Remote_ratio": 0.7131782945736435,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 64,
+              "1": 28
+            },
+            "remote_destination_ratios": {
+              "0": 0.6956521739130435,
+              "1": 0.30434782608695654
+            },
+            "legal_remote_decision_count": 92,
+            "choose_Local_when_Remote_legal_count": 0,
+            "choose_Local_when_Remote_legal_ratio": 0.0,
+            "mean_group_probability": {
+              "Local": 0.2866163330600243,
+              "Remote": 0.3490172107090322,
+              "Defer": 0.36436645536459694
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": false,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "unavailable: hierarchical v1 route trace has no route task_id; no inference from TX head IDs"
+          }
+        },
+        "source_trace": "D:\\My_project_li\\logs\\A\\seed42\\8k\\diagnostics\\route_decision_trace.jsonl"
+      },
+      "12000": {
+        "pooled": {
+          "route_decision_count": 606,
+          "active_route_decision_count": 606,
+          "Local_count": 131,
+          "Remote_count": 473,
+          "Defer_count": 2,
+          "Idle_count": 0,
+          "Local_ratio": 0.21617161716171618,
+          "Remote_ratio": 0.7805280528052805,
+          "Defer_ratio": 0.0033003300330033004,
+          "remote_destination_counts": {
+            "0": 124,
+            "1": 98,
+            "2": 150,
+            "3": 101
+          },
+          "remote_destination_ratios": {
+            "0": 0.26215644820295986,
+            "1": 0.20718816067653276,
+            "2": 0.3171247357293869,
+            "3": 0.2135306553911205
+          },
+          "legal_remote_decision_count": 473,
+          "choose_Local_when_Remote_legal_count": 0,
+          "choose_Local_when_Remote_legal_ratio": 0.0,
+          "mean_group_probability": {
+            "Local": 0.21589966447833348,
+            "Remote": 0.5772539236807194,
+            "Defer": 0.20684641040246873
+          },
+          "group_mass_argmax_Remote_but_actual_Local_count": 0,
+          "group_mass_and_leaf_probabilities_available": false,
+          "Defer_task_identity_coverage": 0.0,
+          "repeated_Defer_status": "unavailable: hierarchical v1 route trace has no route task_id; no inference from TX head IDs"
+        },
+        "per_seed": {
+          "1042": {
+            "route_decision_count": 136,
+            "active_route_decision_count": 136,
+            "Local_count": 55,
+            "Remote_count": 80,
+            "Defer_count": 1,
+            "Idle_count": 0,
+            "Local_ratio": 0.40441176470588236,
+            "Remote_ratio": 0.5882352941176471,
+            "Defer_ratio": 0.007352941176470588,
+            "remote_destination_counts": {
+              "1": 11,
+              "2": 69
+            },
+            "remote_destination_ratios": {
+              "1": 0.1375,
+              "2": 0.8625
+            },
+            "legal_remote_decision_count": 80,
+            "choose_Local_when_Remote_legal_count": 0,
+            "choose_Local_when_Remote_legal_ratio": 0.0,
+            "mean_group_probability": {
+              "Local": 0.2919551446376478,
+              "Remote": 0.44533106991473365,
+              "Defer": 0.262713789665962
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": false,
+            "Defer_task_identity_coverage": 0.0,
+            "repeated_Defer_status": "unavailable: hierarchical v1 route trace has no route task_id; no inference from TX head IDs"
+          },
+          "1043": {
+            "route_decision_count": 121,
+            "active_route_decision_count": 121,
+            "Local_count": 0,
+            "Remote_count": 121,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.0,
+            "Remote_ratio": 1.0,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 13,
+              "1": 24,
+              "2": 21,
+              "3": 63
+            },
+            "remote_destination_ratios": {
+              "0": 0.10743801652892562,
+              "1": 0.19834710743801653,
+              "2": 0.17355371900826447,
+              "3": 0.5206611570247934
+            },
+            "legal_remote_decision_count": 121,
+            "choose_Local_when_Remote_legal_count": 0,
+            "choose_Local_when_Remote_legal_ratio": 0.0,
+            "mean_group_probability": {
+              "Local": 0.11932821017651518,
+              "Remote": 0.7388883757689768,
+              "Defer": 0.14178341189938143
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": false,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "unavailable: hierarchical v1 route trace has no route task_id; no inference from TX head IDs"
+          },
+          "1044": {
+            "route_decision_count": 117,
+            "active_route_decision_count": 117,
+            "Local_count": 0,
+            "Remote_count": 117,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.0,
+            "Remote_ratio": 1.0,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 4,
+              "1": 15,
+              "2": 60,
+              "3": 38
+            },
+            "remote_destination_ratios": {
+              "0": 0.03418803418803419,
+              "1": 0.1282051282051282,
+              "2": 0.5128205128205128,
+              "3": 0.3247863247863248
+            },
+            "legal_remote_decision_count": 117,
+            "choose_Local_when_Remote_legal_count": 0,
+            "choose_Local_when_Remote_legal_ratio": 0.0,
+            "mean_group_probability": {
+              "Local": 0.11278967572073652,
+              "Remote": 0.7448269978292987,
+              "Defer": 0.14238332562212253
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": false,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "unavailable: hierarchical v1 route trace has no route task_id; no inference from TX head IDs"
+          },
+          "1045": {
+            "route_decision_count": 102,
+            "active_route_decision_count": 102,
+            "Local_count": 39,
+            "Remote_count": 63,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.38235294117647056,
+            "Remote_ratio": 0.6176470588235294,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 43,
+              "1": 20
+            },
+            "remote_destination_ratios": {
+              "0": 0.6825396825396826,
+              "1": 0.31746031746031744
+            },
+            "legal_remote_decision_count": 63,
+            "choose_Local_when_Remote_legal_count": 0,
+            "choose_Local_when_Remote_legal_ratio": 0.0,
+            "mean_group_probability": {
+              "Local": 0.29587172556157204,
+              "Remote": 0.45101576751353695,
+              "Defer": 0.2531125006430289
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": false,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "unavailable: hierarchical v1 route trace has no route task_id; no inference from TX head IDs"
+          },
+          "1046": {
+            "route_decision_count": 130,
+            "active_route_decision_count": 130,
+            "Local_count": 37,
+            "Remote_count": 92,
+            "Defer_count": 1,
+            "Idle_count": 0,
+            "Local_ratio": 0.2846153846153846,
+            "Remote_ratio": 0.7076923076923077,
+            "Defer_ratio": 0.007692307692307693,
+            "remote_destination_counts": {
+              "0": 64,
+              "1": 28
+            },
+            "remote_destination_ratios": {
+              "0": 0.6956521739130435,
+              "1": 0.30434782608695654
+            },
+            "legal_remote_decision_count": 92,
+            "choose_Local_when_Remote_legal_count": 0,
+            "choose_Local_when_Remote_legal_ratio": 0.0,
+            "mean_group_probability": {
+              "Local": 0.2562713500398856,
+              "Remote": 0.5130537826281327,
+              "Defer": 0.23067486389325215
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": false,
+            "Defer_task_identity_coverage": 0.0,
+            "repeated_Defer_status": "unavailable: hierarchical v1 route trace has no route task_id; no inference from TX head IDs"
+          }
+        },
+        "source_trace": "D:\\My_project_li\\logs\\A\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\12k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-2ee8be084711__cfg-d2463e1929ea__eval-d893cd3c1376\\route_decision_trace.jsonl"
+      },
+      "16000": {
+        "pooled": {
+          "route_decision_count": 604,
+          "active_route_decision_count": 604,
+          "Local_count": 131,
+          "Remote_count": 473,
+          "Defer_count": 0,
+          "Idle_count": 0,
+          "Local_ratio": 0.21688741721854304,
+          "Remote_ratio": 0.7831125827814569,
+          "Defer_ratio": 0.0,
+          "remote_destination_counts": {
+            "0": 121,
+            "1": 88,
+            "2": 166,
+            "3": 98
+          },
+          "remote_destination_ratios": {
+            "0": 0.2558139534883721,
+            "1": 0.18604651162790697,
+            "2": 0.35095137420718814,
+            "3": 0.20718816067653276
+          },
+          "legal_remote_decision_count": 473,
+          "choose_Local_when_Remote_legal_count": 0,
+          "choose_Local_when_Remote_legal_ratio": 0.0,
+          "mean_group_probability": {
+            "Local": 0.21778654619212576,
+            "Remote": 0.6281154269463574,
+            "Defer": 0.15409802589935578
+          },
+          "group_mass_argmax_Remote_but_actual_Local_count": 0,
+          "group_mass_and_leaf_probabilities_available": false,
+          "Defer_task_identity_coverage": null,
+          "repeated_Defer_status": "unavailable: hierarchical v1 route trace has no route task_id; no inference from TX head IDs"
+        },
+        "per_seed": {
+          "1042": {
+            "route_decision_count": 135,
+            "active_route_decision_count": 135,
+            "Local_count": 55,
+            "Remote_count": 80,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.4074074074074074,
+            "Remote_ratio": 0.5925925925925926,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "1": 11,
+              "2": 69
+            },
+            "remote_destination_ratios": {
+              "1": 0.1375,
+              "2": 0.8625
+            },
+            "legal_remote_decision_count": 80,
+            "choose_Local_when_Remote_legal_count": 0,
+            "choose_Local_when_Remote_legal_ratio": 0.0,
+            "mean_group_probability": {
+              "Local": 0.32261020552229,
+              "Remote": 0.4747058978787175,
+              "Defer": 0.2026838978131612
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": false,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "unavailable: hierarchical v1 route trace has no route task_id; no inference from TX head IDs"
+          },
+          "1043": {
+            "route_decision_count": 121,
+            "active_route_decision_count": 121,
+            "Local_count": 0,
+            "Remote_count": 121,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.0,
+            "Remote_ratio": 1.0,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 11,
+              "1": 23,
+              "2": 22,
+              "3": 65
+            },
+            "remote_destination_ratios": {
+              "0": 0.09090909090909091,
+              "1": 0.19008264462809918,
+              "2": 0.18181818181818182,
+              "3": 0.5371900826446281
+            },
+            "legal_remote_decision_count": 121,
+            "choose_Local_when_Remote_legal_count": 0,
+            "choose_Local_when_Remote_legal_ratio": 0.0,
+            "mean_group_probability": {
+              "Local": 0.09317869557575746,
+              "Remote": 0.8078992319993736,
+              "Defer": 0.0989220758730715
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": false,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "unavailable: hierarchical v1 route trace has no route task_id; no inference from TX head IDs"
+          },
+          "1044": {
+            "route_decision_count": 117,
+            "active_route_decision_count": 117,
+            "Local_count": 0,
+            "Remote_count": 117,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.0,
+            "Remote_ratio": 1.0,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 3,
+              "1": 6,
+              "2": 75,
+              "3": 33
+            },
+            "remote_destination_ratios": {
+              "0": 0.02564102564102564,
+              "1": 0.05128205128205128,
+              "2": 0.6410256410256411,
+              "3": 0.28205128205128205
+            },
+            "legal_remote_decision_count": 117,
+            "choose_Local_when_Remote_legal_count": 0,
+            "choose_Local_when_Remote_legal_ratio": 0.0,
+            "mean_group_probability": {
+              "Local": 0.10541726687015632,
+              "Remote": 0.7860033424236835,
+              "Defer": 0.10857939280760594
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": false,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "unavailable: hierarchical v1 route trace has no route task_id; no inference from TX head IDs"
+          },
+          "1045": {
+            "route_decision_count": 102,
+            "active_route_decision_count": 102,
+            "Local_count": 39,
+            "Remote_count": 63,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.38235294117647056,
+            "Remote_ratio": 0.6176470588235294,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 43,
+              "1": 20
+            },
+            "remote_destination_ratios": {
+              "0": 0.6825396825396826,
+              "1": 0.31746031746031744
+            },
+            "legal_remote_decision_count": 63,
+            "choose_Local_when_Remote_legal_count": 0,
+            "choose_Local_when_Remote_legal_ratio": 0.0,
+            "mean_group_probability": {
+              "Local": 0.3086715294596027,
+              "Remote": 0.5001738135721169,
+              "Defer": 0.19115465134382248
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": false,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "unavailable: hierarchical v1 route trace has no route task_id; no inference from TX head IDs"
+          },
+          "1046": {
+            "route_decision_count": 129,
+            "active_route_decision_count": 129,
+            "Local_count": 37,
+            "Remote_count": 92,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.2868217054263566,
+            "Remote_ratio": 0.7131782945736435,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 64,
+              "1": 28
+            },
+            "remote_destination_ratios": {
+              "0": 0.6956521739130435,
+              "1": 0.30434782608695654
+            },
+            "legal_remote_decision_count": 92,
+            "choose_Local_when_Remote_legal_count": 0,
+            "choose_Local_when_Remote_legal_ratio": 0.0,
+            "mean_group_probability": {
+              "Local": 0.2550213779936465,
+              "Remote": 0.5779883297838906,
+              "Defer": 0.16699028575374175
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": false,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "unavailable: hierarchical v1 route trace has no route task_id; no inference from TX head IDs"
+          }
+        },
+        "source_trace": "D:\\My_project_li\\logs\\A\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\16k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-c94352238cdc__cfg-d2463e1929ea__eval-a72d8cc2e9a5\\route_decision_trace.jsonl"
+      }
+    },
+    "B": {
+      "4000": {
+        "pooled": {
+          "route_decision_count": 3756,
+          "active_route_decision_count": 3756,
+          "Local_count": 209,
+          "Remote_count": 261,
+          "Defer_count": 3286,
+          "Idle_count": 0,
+          "Local_ratio": 0.05564430244941427,
+          "Remote_ratio": 0.0694888178913738,
+          "Defer_ratio": 0.874866879659212,
+          "remote_destination_counts": {
+            "0": 101,
+            "1": 83,
+            "2": 56,
+            "3": 21
+          },
+          "remote_destination_ratios": {
+            "0": 0.38697318007662834,
+            "1": 0.31800766283524906,
+            "2": 0.21455938697318008,
+            "3": 0.08045977011494253
+          },
+          "legal_remote_decision_count": 3580,
+          "choose_Local_when_Remote_legal_count": 79,
+          "choose_Local_when_Remote_legal_ratio": 0.022067039106145252,
+          "mean_group_probability": {
+            "Local": 0.2774820823829395,
+            "Remote": 0.3748217150807,
+            "Defer": 0.34769620175083604
+          },
+          "group_mass_argmax_Remote_but_actual_Local_count": 18,
+          "group_mass_and_leaf_probabilities_available": true,
+          "Defer_task_identity_coverage": 1.0,
+          "repeated_Defer_status": "available",
+          "Defer_distinct_known_tasks": 387,
+          "repeated_Defer_task_count": 328,
+          "Defer_decisions_from_repeated_tasks": 3227,
+          "additional_Defer_decisions_after_first": 2899,
+          "Defer_fraction_from_repeated_tasks": 0.9820450395617772,
+          "max_Defer_decisions_per_task": 39,
+          "most_repeated_tasks": [
+            {
+              "evaluation_seed": 1044,
+              "uav_id": 3,
+              "task_id": 88,
+              "Defer_decisions": 39
+            },
+            {
+              "evaluation_seed": 1046,
+              "uav_id": 0,
+              "task_id": 6,
+              "Defer_decisions": 36
+            },
+            {
+              "evaluation_seed": 1046,
+              "uav_id": 1,
+              "task_id": 12,
+              "Defer_decisions": 36
+            },
+            {
+              "evaluation_seed": 1042,
+              "uav_id": 0,
+              "task_id": 78,
+              "Defer_decisions": 34
+            },
+            {
+              "evaluation_seed": 1046,
+              "uav_id": 1,
+              "task_id": 25,
+              "Defer_decisions": 33
+            },
+            {
+              "evaluation_seed": 1044,
+              "uav_id": 1,
+              "task_id": 28,
+              "Defer_decisions": 29
+            },
+            {
+              "evaluation_seed": 1046,
+              "uav_id": 0,
+              "task_id": 26,
+              "Defer_decisions": 28
+            },
+            {
+              "evaluation_seed": 1046,
+              "uav_id": 0,
+              "task_id": 37,
+              "Defer_decisions": 28
+            },
+            {
+              "evaluation_seed": 1046,
+              "uav_id": 0,
+              "task_id": 114,
+              "Defer_decisions": 28
+            },
+            {
+              "evaluation_seed": 1044,
+              "uav_id": 0,
+              "task_id": 41,
+              "Defer_decisions": 27
+            }
+          ]
+        },
+        "per_seed": {
+          "1042": {
+            "route_decision_count": 625,
+            "active_route_decision_count": 625,
+            "Local_count": 81,
+            "Remote_count": 21,
+            "Defer_count": 523,
+            "Idle_count": 0,
+            "Local_ratio": 0.1296,
+            "Remote_ratio": 0.0336,
+            "Defer_ratio": 0.8368,
+            "remote_destination_counts": {
+              "1": 3,
+              "2": 18
+            },
+            "remote_destination_ratios": {
+              "1": 0.14285714285714285,
+              "2": 0.8571428571428571
+            },
+            "legal_remote_decision_count": 525,
+            "choose_Local_when_Remote_legal_count": 27,
+            "choose_Local_when_Remote_legal_ratio": 0.05142857142857143,
+            "mean_group_probability": {
+              "Local": 0.3394500924348831,
+              "Remote": 0.2562494735240936,
+              "Defer": 0.40430043334960936
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": 1.0,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 66,
+            "repeated_Defer_task_count": 60,
+            "Defer_decisions_from_repeated_tasks": 517,
+            "additional_Defer_decisions_after_first": 457,
+            "Defer_fraction_from_repeated_tasks": 0.988527724665392,
+            "max_Defer_decisions_per_task": 34,
+            "most_repeated_tasks": [
+              {
+                "evaluation_seed": 1042,
+                "uav_id": 0,
+                "task_id": 78,
+                "Defer_decisions": 34
+              },
+              {
+                "evaluation_seed": 1042,
+                "uav_id": 1,
+                "task_id": 25,
+                "Defer_decisions": 23
+              },
+              {
+                "evaluation_seed": 1042,
+                "uav_id": 1,
+                "task_id": 115,
+                "Defer_decisions": 23
+              },
+              {
+                "evaluation_seed": 1042,
+                "uav_id": 1,
+                "task_id": 38,
+                "Defer_decisions": 22
+              },
+              {
+                "evaluation_seed": 1042,
+                "uav_id": 1,
+                "task_id": 55,
+                "Defer_decisions": 21
+              },
+              {
+                "evaluation_seed": 1042,
+                "uav_id": 1,
+                "task_id": 98,
+                "Defer_decisions": 21
+              },
+              {
+                "evaluation_seed": 1042,
+                "uav_id": 2,
+                "task_id": 103,
+                "Defer_decisions": 19
+              },
+              {
+                "evaluation_seed": 1042,
+                "uav_id": 1,
+                "task_id": 53,
+                "Defer_decisions": 16
+              },
+              {
+                "evaluation_seed": 1042,
+                "uav_id": 1,
+                "task_id": 4,
+                "Defer_decisions": 15
+              },
+              {
+                "evaluation_seed": 1042,
+                "uav_id": 1,
+                "task_id": 50,
+                "Defer_decisions": 15
+              }
+            ]
+          },
+          "1043": {
+            "route_decision_count": 833,
+            "active_route_decision_count": 833,
+            "Local_count": 25,
+            "Remote_count": 79,
+            "Defer_count": 729,
+            "Idle_count": 0,
+            "Local_ratio": 0.030012004801920768,
+            "Remote_ratio": 0.09483793517406963,
+            "Defer_ratio": 0.8751500600240096,
+            "remote_destination_counts": {
+              "0": 37,
+              "1": 23,
+              "2": 4,
+              "3": 15
+            },
+            "remote_destination_ratios": {
+              "0": 0.46835443037974683,
+              "1": 0.2911392405063291,
+              "2": 0.05063291139240506,
+              "3": 0.189873417721519
+            },
+            "legal_remote_decision_count": 833,
+            "choose_Local_when_Remote_legal_count": 25,
+            "choose_Local_when_Remote_legal_ratio": 0.030012004801920768,
+            "mean_group_probability": {
+              "Local": 0.2492939662926194,
+              "Remote": 0.4349747360790191,
+              "Defer": 0.3157312955532898
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 13,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": 1.0,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 99,
+            "repeated_Defer_task_count": 84,
+            "Defer_decisions_from_repeated_tasks": 714,
+            "additional_Defer_decisions_after_first": 630,
+            "Defer_fraction_from_repeated_tasks": 0.9794238683127572,
+            "max_Defer_decisions_per_task": 26,
+            "most_repeated_tasks": [
+              {
+                "evaluation_seed": 1043,
+                "uav_id": 3,
+                "task_id": 47,
+                "Defer_decisions": 26
+              },
+              {
+                "evaluation_seed": 1043,
+                "uav_id": 3,
+                "task_id": 93,
+                "Defer_decisions": 25
+              },
+              {
+                "evaluation_seed": 1043,
+                "uav_id": 3,
+                "task_id": 58,
+                "Defer_decisions": 24
+              },
+              {
+                "evaluation_seed": 1043,
+                "uav_id": 0,
+                "task_id": 104,
+                "Defer_decisions": 24
+              },
+              {
+                "evaluation_seed": 1043,
+                "uav_id": 1,
+                "task_id": 53,
+                "Defer_decisions": 19
+              },
+              {
+                "evaluation_seed": 1043,
+                "uav_id": 1,
+                "task_id": 78,
+                "Defer_decisions": 19
+              },
+              {
+                "evaluation_seed": 1043,
+                "uav_id": 1,
+                "task_id": 82,
+                "Defer_decisions": 19
+              },
+              {
+                "evaluation_seed": 1043,
+                "uav_id": 0,
+                "task_id": 27,
+                "Defer_decisions": 17
+              },
+              {
+                "evaluation_seed": 1043,
+                "uav_id": 1,
+                "task_id": 88,
+                "Defer_decisions": 17
+              },
+              {
+                "evaluation_seed": 1043,
+                "uav_id": 3,
+                "task_id": 115,
+                "Defer_decisions": 17
+              }
+            ]
+          },
+          "1044": {
+            "route_decision_count": 912,
+            "active_route_decision_count": 912,
+            "Local_count": 5,
+            "Remote_count": 83,
+            "Defer_count": 824,
+            "Idle_count": 0,
+            "Local_ratio": 0.005482456140350877,
+            "Remote_ratio": 0.09100877192982457,
+            "Defer_ratio": 0.9035087719298246,
+            "remote_destination_counts": {
+              "0": 18,
+              "1": 25,
+              "2": 34,
+              "3": 6
+            },
+            "remote_destination_ratios": {
+              "0": 0.21686746987951808,
+              "1": 0.30120481927710846,
+              "2": 0.40963855421686746,
+              "3": 0.07228915662650602
+            },
+            "legal_remote_decision_count": 912,
+            "choose_Local_when_Remote_legal_count": 5,
+            "choose_Local_when_Remote_legal_ratio": 0.005482456140350877,
+            "mean_group_probability": {
+              "Local": 0.20465053503581307,
+              "Remote": 0.5241159470098322,
+              "Defer": 0.2712335177419478
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 5,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": 1.0,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 91,
+            "repeated_Defer_task_count": 75,
+            "Defer_decisions_from_repeated_tasks": 808,
+            "additional_Defer_decisions_after_first": 733,
+            "Defer_fraction_from_repeated_tasks": 0.9805825242718447,
+            "max_Defer_decisions_per_task": 39,
+            "most_repeated_tasks": [
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 3,
+                "task_id": 88,
+                "Defer_decisions": 39
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 1,
+                "task_id": 28,
+                "Defer_decisions": 29
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 0,
+                "task_id": 41,
+                "Defer_decisions": 27
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 1,
+                "task_id": 84,
+                "Defer_decisions": 26
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 0,
+                "task_id": 18,
+                "Defer_decisions": 24
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 3,
+                "task_id": 83,
+                "Defer_decisions": 23
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 0,
+                "task_id": 87,
+                "Defer_decisions": 21
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 3,
+                "task_id": 103,
+                "Defer_decisions": 21
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 1,
+                "task_id": 15,
+                "Defer_decisions": 20
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 0,
+                "task_id": 66,
+                "Defer_decisions": 20
+              }
+            ]
+          },
+          "1045": {
+            "route_decision_count": 561,
+            "active_route_decision_count": 561,
+            "Local_count": 50,
+            "Remote_count": 33,
+            "Defer_count": 478,
+            "Idle_count": 0,
+            "Local_ratio": 0.08912655971479501,
+            "Remote_ratio": 0.058823529411764705,
+            "Defer_ratio": 0.8520499108734403,
+            "remote_destination_counts": {
+              "0": 20,
+              "1": 13
+            },
+            "remote_destination_ratios": {
+              "0": 0.6060606060606061,
+              "1": 0.3939393939393939
+            },
+            "legal_remote_decision_count": 522,
+            "choose_Local_when_Remote_legal_count": 11,
+            "choose_Local_when_Remote_legal_ratio": 0.0210727969348659,
+            "mean_group_probability": {
+              "Local": 0.31988339739687305,
+              "Remote": 0.2894331862263501,
+              "Defer": 0.3906834149424405
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": 1.0,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 56,
+            "repeated_Defer_task_count": 48,
+            "Defer_decisions_from_repeated_tasks": 470,
+            "additional_Defer_decisions_after_first": 422,
+            "Defer_fraction_from_repeated_tasks": 0.9832635983263598,
+            "max_Defer_decisions_per_task": 27,
+            "most_repeated_tasks": [
+              {
+                "evaluation_seed": 1045,
+                "uav_id": 1,
+                "task_id": 41,
+                "Defer_decisions": 27
+              },
+              {
+                "evaluation_seed": 1045,
+                "uav_id": 1,
+                "task_id": 96,
+                "Defer_decisions": 24
+              },
+              {
+                "evaluation_seed": 1045,
+                "uav_id": 0,
+                "task_id": 44,
+                "Defer_decisions": 22
+              },
+              {
+                "evaluation_seed": 1045,
+                "uav_id": 1,
+                "task_id": 64,
+                "Defer_decisions": 21
+              },
+              {
+                "evaluation_seed": 1045,
+                "uav_id": 1,
+                "task_id": 89,
+                "Defer_decisions": 21
+              },
+              {
+                "evaluation_seed": 1045,
+                "uav_id": 1,
+                "task_id": 39,
+                "Defer_decisions": 19
+              },
+              {
+                "evaluation_seed": 1045,
+                "uav_id": 0,
+                "task_id": 16,
+                "Defer_decisions": 18
+              },
+              {
+                "evaluation_seed": 1045,
+                "uav_id": 1,
+                "task_id": 14,
+                "Defer_decisions": 16
+              },
+              {
+                "evaluation_seed": 1045,
+                "uav_id": 1,
+                "task_id": 33,
+                "Defer_decisions": 16
+              },
+              {
+                "evaluation_seed": 1045,
+                "uav_id": 1,
+                "task_id": 13,
+                "Defer_decisions": 15
+              }
+            ]
+          },
+          "1046": {
+            "route_decision_count": 825,
+            "active_route_decision_count": 825,
+            "Local_count": 48,
+            "Remote_count": 45,
+            "Defer_count": 732,
+            "Idle_count": 0,
+            "Local_ratio": 0.05818181818181818,
+            "Remote_ratio": 0.05454545454545454,
+            "Defer_ratio": 0.8872727272727273,
+            "remote_destination_counts": {
+              "0": 26,
+              "1": 19
+            },
+            "remote_destination_ratios": {
+              "0": 0.5777777777777777,
+              "1": 0.4222222222222222
+            },
+            "legal_remote_decision_count": 788,
+            "choose_Local_when_Remote_legal_count": 11,
+            "choose_Local_when_Remote_legal_ratio": 0.013959390862944163,
+            "mean_group_probability": {
+              "Local": 0.31067714647813277,
+              "Remote": 0.29693906011003435,
+              "Defer": 0.39238379366470105
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": 1.0,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 75,
+            "repeated_Defer_task_count": 61,
+            "Defer_decisions_from_repeated_tasks": 718,
+            "additional_Defer_decisions_after_first": 657,
+            "Defer_fraction_from_repeated_tasks": 0.9808743169398907,
+            "max_Defer_decisions_per_task": 36,
+            "most_repeated_tasks": [
+              {
+                "evaluation_seed": 1046,
+                "uav_id": 0,
+                "task_id": 6,
+                "Defer_decisions": 36
+              },
+              {
+                "evaluation_seed": 1046,
+                "uav_id": 1,
+                "task_id": 12,
+                "Defer_decisions": 36
+              },
+              {
+                "evaluation_seed": 1046,
+                "uav_id": 1,
+                "task_id": 25,
+                "Defer_decisions": 33
+              },
+              {
+                "evaluation_seed": 1046,
+                "uav_id": 0,
+                "task_id": 26,
+                "Defer_decisions": 28
+              },
+              {
+                "evaluation_seed": 1046,
+                "uav_id": 0,
+                "task_id": 37,
+                "Defer_decisions": 28
+              },
+              {
+                "evaluation_seed": 1046,
+                "uav_id": 0,
+                "task_id": 114,
+                "Defer_decisions": 28
+              },
+              {
+                "evaluation_seed": 1046,
+                "uav_id": 1,
+                "task_id": 4,
+                "Defer_decisions": 21
+              },
+              {
+                "evaluation_seed": 1046,
+                "uav_id": 0,
+                "task_id": 47,
+                "Defer_decisions": 21
+              },
+              {
+                "evaluation_seed": 1046,
+                "uav_id": 0,
+                "task_id": 65,
+                "Defer_decisions": 20
+              },
+              {
+                "evaluation_seed": 1046,
+                "uav_id": 1,
+                "task_id": 93,
+                "Defer_decisions": 19
+              }
+            ]
+          }
+        },
+        "source_trace": "D:\\My_project_li\\logs\\B\\seed42\\8k\\checkpoint_progress\\20261013_4k8k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-482e62078f94__cfg-d2463e1929ea__eval-b6ea042ce89d\\route_decision_trace.jsonl"
+      },
+      "8000": {
+        "pooled": {
+          "route_decision_count": 614,
+          "active_route_decision_count": 614,
+          "Local_count": 529,
+          "Remote_count": 75,
+          "Defer_count": 10,
+          "Idle_count": 0,
+          "Local_ratio": 0.8615635179153095,
+          "Remote_ratio": 0.12214983713355049,
+          "Defer_ratio": 0.016286644951140065,
+          "remote_destination_counts": {
+            "0": 14,
+            "1": 15,
+            "2": 39,
+            "3": 7
+          },
+          "remote_destination_ratios": {
+            "0": 0.18666666666666668,
+            "1": 0.2,
+            "2": 0.52,
+            "3": 0.09333333333333334
+          },
+          "legal_remote_decision_count": 483,
+          "choose_Local_when_Remote_legal_count": 398,
+          "choose_Local_when_Remote_legal_ratio": 0.8240165631469979,
+          "mean_group_probability": {
+            "Local": 0.42381460098276696,
+            "Remote": 0.345228073263013,
+            "Defer": 0.23095732340012778
+          },
+          "group_mass_argmax_Remote_but_actual_Local_count": 160,
+          "group_mass_and_leaf_probabilities_available": true,
+          "Defer_task_identity_coverage": 1.0,
+          "repeated_Defer_status": "available",
+          "Defer_distinct_known_tasks": 10,
+          "repeated_Defer_task_count": 0,
+          "Defer_decisions_from_repeated_tasks": 0,
+          "additional_Defer_decisions_after_first": 0,
+          "Defer_fraction_from_repeated_tasks": 0.0,
+          "max_Defer_decisions_per_task": 1,
+          "most_repeated_tasks": [
+            {
+              "evaluation_seed": 1042,
+              "uav_id": 1,
+              "task_id": 25,
+              "Defer_decisions": 1
+            },
+            {
+              "evaluation_seed": 1042,
+              "uav_id": 1,
+              "task_id": 38,
+              "Defer_decisions": 1
+            },
+            {
+              "evaluation_seed": 1043,
+              "uav_id": 1,
+              "task_id": 39,
+              "Defer_decisions": 1
+            },
+            {
+              "evaluation_seed": 1043,
+              "uav_id": 3,
+              "task_id": 58,
+              "Defer_decisions": 1
+            },
+            {
+              "evaluation_seed": 1045,
+              "uav_id": 1,
+              "task_id": 10,
+              "Defer_decisions": 1
+            },
+            {
+              "evaluation_seed": 1045,
+              "uav_id": 1,
+              "task_id": 39,
+              "Defer_decisions": 1
+            },
+            {
+              "evaluation_seed": 1045,
+              "uav_id": 1,
+              "task_id": 58,
+              "Defer_decisions": 1
+            },
+            {
+              "evaluation_seed": 1046,
+              "uav_id": 0,
+              "task_id": 22,
+              "Defer_decisions": 1
+            },
+            {
+              "evaluation_seed": 1046,
+              "uav_id": 0,
+              "task_id": 47,
+              "Defer_decisions": 1
+            },
+            {
+              "evaluation_seed": 1046,
+              "uav_id": 0,
+              "task_id": 89,
+              "Defer_decisions": 1
+            }
+          ]
+        },
+        "per_seed": {
+          "1042": {
+            "route_decision_count": 137,
+            "active_route_decision_count": 137,
+            "Local_count": 124,
+            "Remote_count": 11,
+            "Defer_count": 2,
+            "Idle_count": 0,
+            "Local_ratio": 0.9051094890510949,
+            "Remote_ratio": 0.08029197080291971,
+            "Defer_ratio": 0.014598540145985401,
+            "remote_destination_counts": {
+              "1": 1,
+              "2": 10
+            },
+            "remote_destination_ratios": {
+              "1": 0.09090909090909091,
+              "2": 0.9090909090909091
+            },
+            "legal_remote_decision_count": 82,
+            "choose_Local_when_Remote_legal_count": 69,
+            "choose_Local_when_Remote_legal_ratio": 0.8414634146341463,
+            "mean_group_probability": {
+              "Local": 0.5294585362838132,
+              "Remote": 0.2130635759256182,
+              "Defer": 0.25747788452754056
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": 1.0,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 2,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": 0.0,
+            "max_Defer_decisions_per_task": 1,
+            "most_repeated_tasks": [
+              {
+                "evaluation_seed": 1042,
+                "uav_id": 1,
+                "task_id": 25,
+                "Defer_decisions": 1
+              },
+              {
+                "evaluation_seed": 1042,
+                "uav_id": 1,
+                "task_id": 38,
+                "Defer_decisions": 1
+              }
+            ]
+          },
+          "1043": {
+            "route_decision_count": 123,
+            "active_route_decision_count": 123,
+            "Local_count": 96,
+            "Remote_count": 25,
+            "Defer_count": 2,
+            "Idle_count": 0,
+            "Local_ratio": 0.7804878048780488,
+            "Remote_ratio": 0.2032520325203252,
+            "Defer_ratio": 0.016260162601626018,
+            "remote_destination_counts": {
+              "0": 4,
+              "1": 6,
+              "2": 11,
+              "3": 4
+            },
+            "remote_destination_ratios": {
+              "0": 0.16,
+              "1": 0.24,
+              "2": 0.44,
+              "3": 0.16
+            },
+            "legal_remote_decision_count": 123,
+            "choose_Local_when_Remote_legal_count": 96,
+            "choose_Local_when_Remote_legal_ratio": 0.7804878048780488,
+            "mean_group_probability": {
+              "Local": 0.31150023990530307,
+              "Remote": 0.4838551205348193,
+              "Defer": 0.20464463931758228
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 68,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": 1.0,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 2,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": 0.0,
+            "max_Defer_decisions_per_task": 1,
+            "most_repeated_tasks": [
+              {
+                "evaluation_seed": 1043,
+                "uav_id": 1,
+                "task_id": 39,
+                "Defer_decisions": 1
+              },
+              {
+                "evaluation_seed": 1043,
+                "uav_id": 3,
+                "task_id": 58,
+                "Defer_decisions": 1
+              }
+            ]
+          },
+          "1044": {
+            "route_decision_count": 117,
+            "active_route_decision_count": 117,
+            "Local_count": 92,
+            "Remote_count": 25,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.7863247863247863,
+            "Remote_ratio": 0.21367521367521367,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 2,
+              "1": 2,
+              "2": 18,
+              "3": 3
+            },
+            "remote_destination_ratios": {
+              "0": 0.08,
+              "1": 0.08,
+              "2": 0.72,
+              "3": 0.12
+            },
+            "legal_remote_decision_count": 117,
+            "choose_Local_when_Remote_legal_count": 92,
+            "choose_Local_when_Remote_legal_ratio": 0.7863247863247863,
+            "mean_group_probability": {
+              "Local": 0.25761306527842825,
+              "Remote": 0.576522560710581,
+              "Defer": 0.16586437133642343
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 92,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 0,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": null,
+            "max_Defer_decisions_per_task": 0,
+            "most_repeated_tasks": []
+          },
+          "1045": {
+            "route_decision_count": 105,
+            "active_route_decision_count": 105,
+            "Local_count": 95,
+            "Remote_count": 7,
+            "Defer_count": 3,
+            "Idle_count": 0,
+            "Local_ratio": 0.9047619047619048,
+            "Remote_ratio": 0.06666666666666667,
+            "Defer_ratio": 0.02857142857142857,
+            "remote_destination_counts": {
+              "0": 3,
+              "1": 4
+            },
+            "remote_destination_ratios": {
+              "0": 0.42857142857142855,
+              "1": 0.5714285714285714
+            },
+            "legal_remote_decision_count": 66,
+            "choose_Local_when_Remote_legal_count": 56,
+            "choose_Local_when_Remote_legal_ratio": 0.8484848484848485,
+            "mean_group_probability": {
+              "Local": 0.5205038825670878,
+              "Remote": 0.21444046525728136,
+              "Defer": 0.2650556457894189
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": 1.0,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 3,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": 0.0,
+            "max_Defer_decisions_per_task": 1,
+            "most_repeated_tasks": [
+              {
+                "evaluation_seed": 1045,
+                "uav_id": 1,
+                "task_id": 10,
+                "Defer_decisions": 1
+              },
+              {
+                "evaluation_seed": 1045,
+                "uav_id": 1,
+                "task_id": 39,
+                "Defer_decisions": 1
+              },
+              {
+                "evaluation_seed": 1045,
+                "uav_id": 1,
+                "task_id": 58,
+                "Defer_decisions": 1
+              }
+            ]
+          },
+          "1046": {
+            "route_decision_count": 132,
+            "active_route_decision_count": 132,
+            "Local_count": 122,
+            "Remote_count": 7,
+            "Defer_count": 3,
+            "Idle_count": 0,
+            "Local_ratio": 0.9242424242424242,
+            "Remote_ratio": 0.05303030303030303,
+            "Defer_ratio": 0.022727272727272728,
+            "remote_destination_counts": {
+              "0": 5,
+              "1": 2
+            },
+            "remote_destination_ratios": {
+              "0": 0.7142857142857143,
+              "1": 0.2857142857142857
+            },
+            "legal_remote_decision_count": 95,
+            "choose_Local_when_Remote_legal_count": 85,
+            "choose_Local_when_Remote_legal_ratio": 0.8947368421052632,
+            "mean_group_probability": {
+              "Local": 0.4892286342201811,
+              "Remote": 0.2522481727329167,
+              "Defer": 0.2585231931597898
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": 1.0,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 3,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": 0.0,
+            "max_Defer_decisions_per_task": 1,
+            "most_repeated_tasks": [
+              {
+                "evaluation_seed": 1046,
+                "uav_id": 0,
+                "task_id": 22,
+                "Defer_decisions": 1
+              },
+              {
+                "evaluation_seed": 1046,
+                "uav_id": 0,
+                "task_id": 47,
+                "Defer_decisions": 1
+              },
+              {
+                "evaluation_seed": 1046,
+                "uav_id": 0,
+                "task_id": 89,
+                "Defer_decisions": 1
+              }
+            ]
+          }
+        },
+        "source_trace": "D:\\My_project_li\\logs\\B\\seed42\\8k\\diagnostics\\route_decision_trace.jsonl"
+      },
+      "12000": {
+        "pooled": {
+          "route_decision_count": 604,
+          "active_route_decision_count": 604,
+          "Local_count": 318,
+          "Remote_count": 286,
+          "Defer_count": 0,
+          "Idle_count": 0,
+          "Local_ratio": 0.5264900662251656,
+          "Remote_ratio": 0.4735099337748344,
+          "Defer_ratio": 0.0,
+          "remote_destination_counts": {
+            "0": 75,
+            "1": 41,
+            "2": 133,
+            "3": 37
+          },
+          "remote_destination_ratios": {
+            "0": 0.26223776223776224,
+            "1": 0.14335664335664336,
+            "2": 0.46503496503496505,
+            "3": 0.12937062937062938
+          },
+          "legal_remote_decision_count": 473,
+          "choose_Local_when_Remote_legal_count": 187,
+          "choose_Local_when_Remote_legal_ratio": 0.3953488372093023,
+          "mean_group_probability": {
+            "Local": 0.4258425786647181,
+            "Remote": 0.38192584540768965,
+            "Defer": 0.19223157473105862
+          },
+          "group_mass_argmax_Remote_but_actual_Local_count": 44,
+          "group_mass_and_leaf_probabilities_available": true,
+          "Defer_task_identity_coverage": null,
+          "repeated_Defer_status": "available",
+          "Defer_distinct_known_tasks": 0,
+          "repeated_Defer_task_count": 0,
+          "Defer_decisions_from_repeated_tasks": 0,
+          "additional_Defer_decisions_after_first": 0,
+          "Defer_fraction_from_repeated_tasks": null,
+          "max_Defer_decisions_per_task": 0,
+          "most_repeated_tasks": []
+        },
+        "per_seed": {
+          "1042": {
+            "route_decision_count": 135,
+            "active_route_decision_count": 135,
+            "Local_count": 71,
+            "Remote_count": 64,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.5259259259259259,
+            "Remote_ratio": 0.4740740740740741,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "1": 2,
+              "2": 62
+            },
+            "remote_destination_ratios": {
+              "1": 0.03125,
+              "2": 0.96875
+            },
+            "legal_remote_decision_count": 80,
+            "choose_Local_when_Remote_legal_count": 16,
+            "choose_Local_when_Remote_legal_ratio": 0.2,
+            "mean_group_probability": {
+              "Local": 0.5384263040842834,
+              "Remote": 0.2574394789006975,
+              "Defer": 0.20413421778767196
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 0,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": null,
+            "max_Defer_decisions_per_task": 0,
+            "most_repeated_tasks": []
+          },
+          "1043": {
+            "route_decision_count": 121,
+            "active_route_decision_count": 121,
+            "Local_count": 58,
+            "Remote_count": 63,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.4793388429752066,
+            "Remote_ratio": 0.5206611570247934,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 28,
+              "1": 6,
+              "2": 14,
+              "3": 15
+            },
+            "remote_destination_ratios": {
+              "0": 0.4444444444444444,
+              "1": 0.09523809523809523,
+              "2": 0.2222222222222222,
+              "3": 0.23809523809523808
+            },
+            "legal_remote_decision_count": 121,
+            "choose_Local_when_Remote_legal_count": 58,
+            "choose_Local_when_Remote_legal_ratio": 0.4793388429752066,
+            "mean_group_probability": {
+              "Local": 0.31247218334970395,
+              "Remote": 0.5133181051774458,
+              "Defer": 0.17420971061079954
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 32,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 0,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": null,
+            "max_Defer_decisions_per_task": 0,
+            "most_repeated_tasks": []
+          },
+          "1044": {
+            "route_decision_count": 117,
+            "active_route_decision_count": 117,
+            "Local_count": 12,
+            "Remote_count": 105,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.10256410256410256,
+            "Remote_ratio": 0.8974358974358975,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 5,
+              "1": 21,
+              "2": 57,
+              "3": 22
+            },
+            "remote_destination_ratios": {
+              "0": 0.047619047619047616,
+              "1": 0.2,
+              "2": 0.5428571428571428,
+              "3": 0.20952380952380953
+            },
+            "legal_remote_decision_count": 117,
+            "choose_Local_when_Remote_legal_count": 12,
+            "choose_Local_when_Remote_legal_ratio": 0.10256410256410256,
+            "mean_group_probability": {
+              "Local": 0.24530737484112763,
+              "Remote": 0.6288133463543705,
+              "Defer": 0.12587927963234422
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 12,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 0,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": null,
+            "max_Defer_decisions_per_task": 0,
+            "most_repeated_tasks": []
+          },
+          "1045": {
+            "route_decision_count": 102,
+            "active_route_decision_count": 102,
+            "Local_count": 80,
+            "Remote_count": 22,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.7843137254901961,
+            "Remote_ratio": 0.21568627450980393,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 15,
+              "1": 7
+            },
+            "remote_destination_ratios": {
+              "0": 0.6818181818181818,
+              "1": 0.3181818181818182
+            },
+            "legal_remote_decision_count": 63,
+            "choose_Local_when_Remote_legal_count": 41,
+            "choose_Local_when_Remote_legal_ratio": 0.6507936507936508,
+            "mean_group_probability": {
+              "Local": 0.5291443534341513,
+              "Remote": 0.2383793376240076,
+              "Defer": 0.23247630412087722
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 0,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": null,
+            "max_Defer_decisions_per_task": 0,
+            "most_repeated_tasks": []
+          },
+          "1046": {
+            "route_decision_count": 129,
+            "active_route_decision_count": 129,
+            "Local_count": 97,
+            "Remote_count": 32,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.751937984496124,
+            "Remote_ratio": 0.24806201550387597,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 27,
+              "1": 5
+            },
+            "remote_destination_ratios": {
+              "0": 0.84375,
+              "1": 0.15625
+            },
+            "legal_remote_decision_count": 92,
+            "choose_Local_when_Remote_legal_count": 60,
+            "choose_Local_when_Remote_legal_ratio": 0.6521739130434783,
+            "mean_group_probability": {
+              "Local": 0.4964228323263715,
+              "Remote": 0.2785390409850335,
+              "Defer": 0.22503812414731167
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 0,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": null,
+            "max_Defer_decisions_per_task": 0,
+            "most_repeated_tasks": []
+          }
+        },
+        "source_trace": "D:\\My_project_li\\logs\\B\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\12k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-d0b1d9fa22ba__cfg-d2463e1929ea__eval-eeb8813de801\\route_decision_trace.jsonl"
+      },
+      "16000": {
+        "pooled": {
+          "route_decision_count": 604,
+          "active_route_decision_count": 604,
+          "Local_count": 131,
+          "Remote_count": 473,
+          "Defer_count": 0,
+          "Idle_count": 0,
+          "Local_ratio": 0.21688741721854304,
+          "Remote_ratio": 0.7831125827814569,
+          "Defer_ratio": 0.0,
+          "remote_destination_counts": {
+            "0": 146,
+            "1": 152,
+            "2": 79,
+            "3": 96
+          },
+          "remote_destination_ratios": {
+            "0": 0.3086680761099366,
+            "1": 0.321353065539112,
+            "2": 0.16701902748414377,
+            "3": 0.2029598308668076
+          },
+          "legal_remote_decision_count": 473,
+          "choose_Local_when_Remote_legal_count": 0,
+          "choose_Local_when_Remote_legal_ratio": 0.0,
+          "mean_group_probability": {
+            "Local": 0.4135319894512758,
+            "Remote": 0.4233447216845901,
+            "Defer": 0.16312328775394833
+          },
+          "group_mass_argmax_Remote_but_actual_Local_count": 0,
+          "group_mass_and_leaf_probabilities_available": true,
+          "Defer_task_identity_coverage": null,
+          "repeated_Defer_status": "available",
+          "Defer_distinct_known_tasks": 0,
+          "repeated_Defer_task_count": 0,
+          "Defer_decisions_from_repeated_tasks": 0,
+          "additional_Defer_decisions_after_first": 0,
+          "Defer_fraction_from_repeated_tasks": null,
+          "max_Defer_decisions_per_task": 0,
+          "most_repeated_tasks": []
+        },
+        "per_seed": {
+          "1042": {
+            "route_decision_count": 135,
+            "active_route_decision_count": 135,
+            "Local_count": 55,
+            "Remote_count": 80,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.4074074074074074,
+            "Remote_ratio": 0.5925925925925926,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "1": 11,
+              "2": 69
+            },
+            "remote_destination_ratios": {
+              "1": 0.1375,
+              "2": 0.8625
+            },
+            "legal_remote_decision_count": 80,
+            "choose_Local_when_Remote_legal_count": 0,
+            "choose_Local_when_Remote_legal_ratio": 0.0,
+            "mean_group_probability": {
+              "Local": 0.5363225859624369,
+              "Remote": 0.2824586636490292,
+              "Defer": 0.18121874773943866
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 0,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": null,
+            "max_Defer_decisions_per_task": 0,
+            "most_repeated_tasks": []
+          },
+          "1043": {
+            "route_decision_count": 121,
+            "active_route_decision_count": 121,
+            "Local_count": 0,
+            "Remote_count": 121,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.0,
+            "Remote_ratio": 1.0,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 24,
+              "1": 38,
+              "2": 7,
+              "3": 52
+            },
+            "remote_destination_ratios": {
+              "0": 0.19834710743801653,
+              "1": 0.3140495867768595,
+              "2": 0.05785123966942149,
+              "3": 0.4297520661157025
+            },
+            "legal_remote_decision_count": 121,
+            "choose_Local_when_Remote_legal_count": 0,
+            "choose_Local_when_Remote_legal_ratio": 0.0,
+            "mean_group_probability": {
+              "Local": 0.28293052931462437,
+              "Remote": 0.5729563390174188,
+              "Defer": 0.1441131329610328
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 0,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": null,
+            "max_Defer_decisions_per_task": 0,
+            "most_repeated_tasks": []
+          },
+          "1044": {
+            "route_decision_count": 117,
+            "active_route_decision_count": 117,
+            "Local_count": 0,
+            "Remote_count": 117,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.0,
+            "Remote_ratio": 1.0,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 15,
+              "1": 55,
+              "2": 3,
+              "3": 44
+            },
+            "remote_destination_ratios": {
+              "0": 0.1282051282051282,
+              "1": 0.4700854700854701,
+              "2": 0.02564102564102564,
+              "3": 0.37606837606837606
+            },
+            "legal_remote_decision_count": 117,
+            "choose_Local_when_Remote_legal_count": 0,
+            "choose_Local_when_Remote_legal_ratio": 0.0,
+            "mean_group_probability": {
+              "Local": 0.22350852611737373,
+              "Remote": 0.6605279575555753,
+              "Defer": 0.11596351486240697
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 0,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": null,
+            "max_Defer_decisions_per_task": 0,
+            "most_repeated_tasks": []
+          },
+          "1045": {
+            "route_decision_count": 102,
+            "active_route_decision_count": 102,
+            "Local_count": 39,
+            "Remote_count": 63,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.38235294117647056,
+            "Remote_ratio": 0.6176470588235294,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 43,
+              "1": 20
+            },
+            "remote_destination_ratios": {
+              "0": 0.6825396825396826,
+              "1": 0.31746031746031744
+            },
+            "legal_remote_decision_count": 63,
+            "choose_Local_when_Remote_legal_count": 0,
+            "choose_Local_when_Remote_legal_ratio": 0.0,
+            "mean_group_probability": {
+              "Local": 0.5307643054162755,
+              "Remote": 0.2834073541795506,
+              "Defer": 0.1858283402580841
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 0,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": null,
+            "max_Defer_decisions_per_task": 0,
+            "most_repeated_tasks": []
+          },
+          "1046": {
+            "route_decision_count": 129,
+            "active_route_decision_count": 129,
+            "Local_count": 37,
+            "Remote_count": 92,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.2868217054263566,
+            "Remote_ratio": 0.7131782945736435,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 64,
+              "1": 28
+            },
+            "remote_destination_ratios": {
+              "0": 0.6956521739130435,
+              "1": 0.30434782608695654
+            },
+            "legal_remote_decision_count": 92,
+            "choose_Local_when_Remote_legal_count": 0,
+            "choose_Local_when_Remote_legal_ratio": 0.0,
+            "mean_group_probability": {
+              "Local": 0.4871838896773582,
+              "Remote": 0.3259787141352661,
+              "Defer": 0.18683739399263102
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 0,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": null,
+            "max_Defer_decisions_per_task": 0,
+            "most_repeated_tasks": []
+          }
+        },
+        "source_trace": "D:\\My_project_li\\logs\\B\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\16k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-49f962672e2a__cfg-d2463e1929ea__eval-c575e2bbe14f\\route_decision_trace.jsonl"
+      }
+    },
+    "C": {
+      "4000": {
+        "pooled": {
+          "route_decision_count": 3165,
+          "active_route_decision_count": 3165,
+          "Local_count": 146,
+          "Remote_count": 301,
+          "Defer_count": 2718,
+          "Idle_count": 0,
+          "Local_ratio": 0.04612954186413902,
+          "Remote_ratio": 0.09510268562401264,
+          "Defer_ratio": 0.8587677725118483,
+          "remote_destination_counts": {
+            "0": 114,
+            "1": 60,
+            "2": 70,
+            "3": 57
+          },
+          "remote_destination_ratios": {
+            "0": 0.3787375415282392,
+            "1": 0.19933554817275748,
+            "2": 0.23255813953488372,
+            "3": 0.1893687707641196
+          },
+          "legal_remote_decision_count": 2951,
+          "choose_Local_when_Remote_legal_count": 17,
+          "choose_Local_when_Remote_legal_ratio": 0.0057607590647238225,
+          "mean_group_probability": {
+            "Local": 0.2792964277909642,
+            "Remote": 0.3642573360818634,
+            "Defer": 0.3564462363060805
+          },
+          "group_mass_argmax_Remote_but_actual_Local_count": 2,
+          "group_mass_and_leaf_probabilities_available": true,
+          "Defer_task_identity_coverage": 1.0,
+          "repeated_Defer_status": "available",
+          "Defer_distinct_known_tasks": 336,
+          "repeated_Defer_task_count": 280,
+          "Defer_decisions_from_repeated_tasks": 2662,
+          "additional_Defer_decisions_after_first": 2382,
+          "Defer_fraction_from_repeated_tasks": 0.9793966151582045,
+          "max_Defer_decisions_per_task": 46,
+          "most_repeated_tasks": [
+            {
+              "evaluation_seed": 1044,
+              "uav_id": 3,
+              "task_id": 75,
+              "Defer_decisions": 46
+            },
+            {
+              "evaluation_seed": 1043,
+              "uav_id": 0,
+              "task_id": 67,
+              "Defer_decisions": 40
+            },
+            {
+              "evaluation_seed": 1046,
+              "uav_id": 0,
+              "task_id": 6,
+              "Defer_decisions": 36
+            },
+            {
+              "evaluation_seed": 1042,
+              "uav_id": 0,
+              "task_id": 78,
+              "Defer_decisions": 34
+            },
+            {
+              "evaluation_seed": 1045,
+              "uav_id": 0,
+              "task_id": 16,
+              "Defer_decisions": 33
+            },
+            {
+              "evaluation_seed": 1043,
+              "uav_id": 0,
+              "task_id": 104,
+              "Defer_decisions": 29
+            },
+            {
+              "evaluation_seed": 1044,
+              "uav_id": 0,
+              "task_id": 33,
+              "Defer_decisions": 28
+            },
+            {
+              "evaluation_seed": 1044,
+              "uav_id": 3,
+              "task_id": 69,
+              "Defer_decisions": 28
+            },
+            {
+              "evaluation_seed": 1046,
+              "uav_id": 0,
+              "task_id": 114,
+              "Defer_decisions": 28
+            },
+            {
+              "evaluation_seed": 1042,
+              "uav_id": 1,
+              "task_id": 22,
+              "Defer_decisions": 26
+            }
+          ]
+        },
+        "per_seed": {
+          "1042": {
+            "route_decision_count": 685,
+            "active_route_decision_count": 685,
+            "Local_count": 53,
+            "Remote_count": 18,
+            "Defer_count": 614,
+            "Idle_count": 0,
+            "Local_ratio": 0.07737226277372262,
+            "Remote_ratio": 0.026277372262773723,
+            "Defer_ratio": 0.8963503649635036,
+            "remote_destination_counts": {
+              "1": 10,
+              "2": 8
+            },
+            "remote_destination_ratios": {
+              "1": 0.5555555555555556,
+              "2": 0.4444444444444444
+            },
+            "legal_remote_decision_count": 547,
+            "choose_Local_when_Remote_legal_count": 0,
+            "choose_Local_when_Remote_legal_ratio": 0.0,
+            "mean_group_probability": {
+              "Local": 0.3272538671093265,
+              "Remote": 0.24564064530125498,
+              "Defer": 0.4271054873501297
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": 1.0,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 76,
+            "repeated_Defer_task_count": 66,
+            "Defer_decisions_from_repeated_tasks": 604,
+            "additional_Defer_decisions_after_first": 538,
+            "Defer_fraction_from_repeated_tasks": 0.9837133550488599,
+            "max_Defer_decisions_per_task": 34,
+            "most_repeated_tasks": [
+              {
+                "evaluation_seed": 1042,
+                "uav_id": 0,
+                "task_id": 78,
+                "Defer_decisions": 34
+              },
+              {
+                "evaluation_seed": 1042,
+                "uav_id": 1,
+                "task_id": 22,
+                "Defer_decisions": 26
+              },
+              {
+                "evaluation_seed": 1042,
+                "uav_id": 1,
+                "task_id": 94,
+                "Defer_decisions": 24
+              },
+              {
+                "evaluation_seed": 1042,
+                "uav_id": 1,
+                "task_id": 100,
+                "Defer_decisions": 23
+              },
+              {
+                "evaluation_seed": 1042,
+                "uav_id": 1,
+                "task_id": 98,
+                "Defer_decisions": 22
+              },
+              {
+                "evaluation_seed": 1042,
+                "uav_id": 1,
+                "task_id": 115,
+                "Defer_decisions": 22
+              },
+              {
+                "evaluation_seed": 1042,
+                "uav_id": 1,
+                "task_id": 61,
+                "Defer_decisions": 19
+              },
+              {
+                "evaluation_seed": 1042,
+                "uav_id": 1,
+                "task_id": 8,
+                "Defer_decisions": 17
+              },
+              {
+                "evaluation_seed": 1042,
+                "uav_id": 1,
+                "task_id": 50,
+                "Defer_decisions": 17
+              },
+              {
+                "evaluation_seed": 1042,
+                "uav_id": 0,
+                "task_id": 9,
+                "Defer_decisions": 16
+              }
+            ]
+          },
+          "1043": {
+            "route_decision_count": 645,
+            "active_route_decision_count": 645,
+            "Local_count": 3,
+            "Remote_count": 97,
+            "Defer_count": 545,
+            "Idle_count": 0,
+            "Local_ratio": 0.004651162790697674,
+            "Remote_ratio": 0.15038759689922482,
+            "Defer_ratio": 0.8449612403100775,
+            "remote_destination_counts": {
+              "0": 21,
+              "1": 16,
+              "2": 17,
+              "3": 43
+            },
+            "remote_destination_ratios": {
+              "0": 0.21649484536082475,
+              "1": 0.16494845360824742,
+              "2": 0.17525773195876287,
+              "3": 0.44329896907216493
+            },
+            "legal_remote_decision_count": 645,
+            "choose_Local_when_Remote_legal_count": 3,
+            "choose_Local_when_Remote_legal_ratio": 0.004651162790697674,
+            "mean_group_probability": {
+              "Local": 0.26135217318701187,
+              "Remote": 0.40271439556927646,
+              "Defer": 0.33593343013478805
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 1,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": 1.0,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 77,
+            "repeated_Defer_task_count": 60,
+            "Defer_decisions_from_repeated_tasks": 528,
+            "additional_Defer_decisions_after_first": 468,
+            "Defer_fraction_from_repeated_tasks": 0.9688073394495413,
+            "max_Defer_decisions_per_task": 40,
+            "most_repeated_tasks": [
+              {
+                "evaluation_seed": 1043,
+                "uav_id": 0,
+                "task_id": 67,
+                "Defer_decisions": 40
+              },
+              {
+                "evaluation_seed": 1043,
+                "uav_id": 0,
+                "task_id": 104,
+                "Defer_decisions": 29
+              },
+              {
+                "evaluation_seed": 1043,
+                "uav_id": 0,
+                "task_id": 87,
+                "Defer_decisions": 25
+              },
+              {
+                "evaluation_seed": 1043,
+                "uav_id": 0,
+                "task_id": 56,
+                "Defer_decisions": 23
+              },
+              {
+                "evaluation_seed": 1043,
+                "uav_id": 3,
+                "task_id": 58,
+                "Defer_decisions": 21
+              },
+              {
+                "evaluation_seed": 1043,
+                "uav_id": 3,
+                "task_id": 89,
+                "Defer_decisions": 20
+              },
+              {
+                "evaluation_seed": 1043,
+                "uav_id": 3,
+                "task_id": 57,
+                "Defer_decisions": 17
+              },
+              {
+                "evaluation_seed": 1043,
+                "uav_id": 0,
+                "task_id": 63,
+                "Defer_decisions": 17
+              },
+              {
+                "evaluation_seed": 1043,
+                "uav_id": 0,
+                "task_id": 54,
+                "Defer_decisions": 15
+              },
+              {
+                "evaluation_seed": 1043,
+                "uav_id": 2,
+                "task_id": 11,
+                "Defer_decisions": 14
+              }
+            ]
+          },
+          "1044": {
+            "route_decision_count": 846,
+            "active_route_decision_count": 846,
+            "Local_count": 1,
+            "Remote_count": 74,
+            "Defer_count": 771,
+            "Idle_count": 0,
+            "Local_ratio": 0.001182033096926714,
+            "Remote_ratio": 0.08747044917257683,
+            "Defer_ratio": 0.9113475177304965,
+            "remote_destination_counts": {
+              "0": 15,
+              "2": 45,
+              "3": 14
+            },
+            "remote_destination_ratios": {
+              "0": 0.20270270270270271,
+              "2": 0.6081081081081081,
+              "3": 0.1891891891891892
+            },
+            "legal_remote_decision_count": 846,
+            "choose_Local_when_Remote_legal_count": 1,
+            "choose_Local_when_Remote_legal_ratio": 0.001182033096926714,
+            "mean_group_probability": {
+              "Local": 0.20328918169858043,
+              "Remote": 0.5101646615751528,
+              "Defer": 0.28654615889274765
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 1,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": 1.0,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 86,
+            "repeated_Defer_task_count": 74,
+            "Defer_decisions_from_repeated_tasks": 759,
+            "additional_Defer_decisions_after_first": 685,
+            "Defer_fraction_from_repeated_tasks": 0.9844357976653697,
+            "max_Defer_decisions_per_task": 46,
+            "most_repeated_tasks": [
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 3,
+                "task_id": 75,
+                "Defer_decisions": 46
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 0,
+                "task_id": 33,
+                "Defer_decisions": 28
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 3,
+                "task_id": 69,
+                "Defer_decisions": 28
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 3,
+                "task_id": 14,
+                "Defer_decisions": 24
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 0,
+                "task_id": 18,
+                "Defer_decisions": 24
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 0,
+                "task_id": 8,
+                "Defer_decisions": 23
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 1,
+                "task_id": 10,
+                "Defer_decisions": 23
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 1,
+                "task_id": 59,
+                "Defer_decisions": 21
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 3,
+                "task_id": 103,
+                "Defer_decisions": 21
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 1,
+                "task_id": 11,
+                "Defer_decisions": 20
+              }
+            ]
+          },
+          "1045": {
+            "route_decision_count": 515,
+            "active_route_decision_count": 515,
+            "Local_count": 43,
+            "Remote_count": 45,
+            "Defer_count": 427,
+            "Idle_count": 0,
+            "Local_ratio": 0.08349514563106795,
+            "Remote_ratio": 0.08737864077669903,
+            "Defer_ratio": 0.829126213592233,
+            "remote_destination_counts": {
+              "0": 28,
+              "1": 17
+            },
+            "remote_destination_ratios": {
+              "0": 0.6222222222222222,
+              "1": 0.37777777777777777
+            },
+            "legal_remote_decision_count": 476,
+            "choose_Local_when_Remote_legal_count": 4,
+            "choose_Local_when_Remote_legal_ratio": 0.008403361344537815,
+            "mean_group_probability": {
+              "Local": 0.32230078745814206,
+              "Remote": 0.2946091665226279,
+              "Defer": 0.3830900453826756
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": 1.0,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 45,
+            "repeated_Defer_task_count": 40,
+            "Defer_decisions_from_repeated_tasks": 422,
+            "additional_Defer_decisions_after_first": 382,
+            "Defer_fraction_from_repeated_tasks": 0.9882903981264637,
+            "max_Defer_decisions_per_task": 33,
+            "most_repeated_tasks": [
+              {
+                "evaluation_seed": 1045,
+                "uav_id": 0,
+                "task_id": 16,
+                "Defer_decisions": 33
+              },
+              {
+                "evaluation_seed": 1045,
+                "uav_id": 1,
+                "task_id": 14,
+                "Defer_decisions": 24
+              },
+              {
+                "evaluation_seed": 1045,
+                "uav_id": 1,
+                "task_id": 81,
+                "Defer_decisions": 23
+              },
+              {
+                "evaluation_seed": 1045,
+                "uav_id": 1,
+                "task_id": 97,
+                "Defer_decisions": 23
+              },
+              {
+                "evaluation_seed": 1045,
+                "uav_id": 0,
+                "task_id": 99,
+                "Defer_decisions": 19
+              },
+              {
+                "evaluation_seed": 1045,
+                "uav_id": 1,
+                "task_id": 74,
+                "Defer_decisions": 18
+              },
+              {
+                "evaluation_seed": 1045,
+                "uav_id": 1,
+                "task_id": 61,
+                "Defer_decisions": 17
+              },
+              {
+                "evaluation_seed": 1045,
+                "uav_id": 1,
+                "task_id": 59,
+                "Defer_decisions": 17
+              },
+              {
+                "evaluation_seed": 1045,
+                "uav_id": 1,
+                "task_id": 33,
+                "Defer_decisions": 16
+              },
+              {
+                "evaluation_seed": 1045,
+                "uav_id": 1,
+                "task_id": 51,
+                "Defer_decisions": 16
+              }
+            ]
+          },
+          "1046": {
+            "route_decision_count": 474,
+            "active_route_decision_count": 474,
+            "Local_count": 46,
+            "Remote_count": 67,
+            "Defer_count": 361,
+            "Idle_count": 0,
+            "Local_ratio": 0.0970464135021097,
+            "Remote_ratio": 0.14135021097046413,
+            "Defer_ratio": 0.7616033755274262,
+            "remote_destination_counts": {
+              "0": 50,
+              "1": 17
+            },
+            "remote_destination_ratios": {
+              "0": 0.746268656716418,
+              "1": 0.2537313432835821
+            },
+            "legal_remote_decision_count": 437,
+            "choose_Local_when_Remote_legal_count": 9,
+            "choose_Local_when_Remote_legal_ratio": 0.020594965675057208,
+            "mean_group_probability": {
+              "Local": 0.3233430169302703,
+              "Remote": 0.2986008799025781,
+              "Defer": 0.3780561030414034
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": 1.0,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 52,
+            "repeated_Defer_task_count": 40,
+            "Defer_decisions_from_repeated_tasks": 349,
+            "additional_Defer_decisions_after_first": 309,
+            "Defer_fraction_from_repeated_tasks": 0.9667590027700831,
+            "max_Defer_decisions_per_task": 36,
+            "most_repeated_tasks": [
+              {
+                "evaluation_seed": 1046,
+                "uav_id": 0,
+                "task_id": 6,
+                "Defer_decisions": 36
+              },
+              {
+                "evaluation_seed": 1046,
+                "uav_id": 0,
+                "task_id": 114,
+                "Defer_decisions": 28
+              },
+              {
+                "evaluation_seed": 1046,
+                "uav_id": 0,
+                "task_id": 22,
+                "Defer_decisions": 25
+              },
+              {
+                "evaluation_seed": 1046,
+                "uav_id": 0,
+                "task_id": 47,
+                "Defer_decisions": 17
+              },
+              {
+                "evaluation_seed": 1046,
+                "uav_id": 0,
+                "task_id": 89,
+                "Defer_decisions": 15
+              },
+              {
+                "evaluation_seed": 1046,
+                "uav_id": 0,
+                "task_id": 102,
+                "Defer_decisions": 15
+              },
+              {
+                "evaluation_seed": 1046,
+                "uav_id": 1,
+                "task_id": 110,
+                "Defer_decisions": 14
+              },
+              {
+                "evaluation_seed": 1046,
+                "uav_id": 1,
+                "task_id": 112,
+                "Defer_decisions": 13
+              },
+              {
+                "evaluation_seed": 1046,
+                "uav_id": 0,
+                "task_id": 108,
+                "Defer_decisions": 12
+              },
+              {
+                "evaluation_seed": 1046,
+                "uav_id": 0,
+                "task_id": 57,
+                "Defer_decisions": 11
+              }
+            ]
+          }
+        },
+        "source_trace": "D:\\My_project_li\\logs\\C\\seed42\\8k\\checkpoint_progress\\20261013_4k8k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-2a92745919ef__cfg-d2463e1929ea__eval-b43a8e43300f\\route_decision_trace.jsonl"
+      },
+      "8000": {
+        "pooled": {
+          "route_decision_count": 654,
+          "active_route_decision_count": 654,
+          "Local_count": 273,
+          "Remote_count": 330,
+          "Defer_count": 51,
+          "Idle_count": 0,
+          "Local_ratio": 0.41743119266055045,
+          "Remote_ratio": 0.5045871559633027,
+          "Defer_ratio": 0.0779816513761468,
+          "remote_destination_counts": {
+            "0": 103,
+            "1": 63,
+            "2": 121,
+            "3": 43
+          },
+          "remote_destination_ratios": {
+            "0": 0.31212121212121213,
+            "1": 0.19090909090909092,
+            "2": 0.36666666666666664,
+            "3": 0.1303030303030303
+          },
+          "legal_remote_decision_count": 523,
+          "choose_Local_when_Remote_legal_count": 142,
+          "choose_Local_when_Remote_legal_ratio": 0.27151051625239003,
+          "mean_group_probability": {
+            "Local": 0.3920236643665792,
+            "Remote": 0.37279334290676525,
+            "Defer": 0.2351829922026086
+          },
+          "group_mass_argmax_Remote_but_actual_Local_count": 40,
+          "group_mass_and_leaf_probabilities_available": true,
+          "Defer_task_identity_coverage": 1.0,
+          "repeated_Defer_status": "available",
+          "Defer_distinct_known_tasks": 16,
+          "repeated_Defer_task_count": 5,
+          "Defer_decisions_from_repeated_tasks": 40,
+          "additional_Defer_decisions_after_first": 35,
+          "Defer_fraction_from_repeated_tasks": 0.7843137254901961,
+          "max_Defer_decisions_per_task": 23,
+          "most_repeated_tasks": [
+            {
+              "evaluation_seed": 1044,
+              "uav_id": 3,
+              "task_id": 83,
+              "Defer_decisions": 23
+            },
+            {
+              "evaluation_seed": 1044,
+              "uav_id": 3,
+              "task_id": 101,
+              "Defer_decisions": 7
+            },
+            {
+              "evaluation_seed": 1044,
+              "uav_id": 1,
+              "task_id": 46,
+              "Defer_decisions": 5
+            },
+            {
+              "evaluation_seed": 1044,
+              "uav_id": 3,
+              "task_id": 91,
+              "Defer_decisions": 3
+            },
+            {
+              "evaluation_seed": 1044,
+              "uav_id": 1,
+              "task_id": 25,
+              "Defer_decisions": 2
+            },
+            {
+              "evaluation_seed": 1042,
+              "uav_id": 1,
+              "task_id": 38,
+              "Defer_decisions": 1
+            },
+            {
+              "evaluation_seed": 1042,
+              "uav_id": 1,
+              "task_id": 68,
+              "Defer_decisions": 1
+            },
+            {
+              "evaluation_seed": 1042,
+              "uav_id": 1,
+              "task_id": 79,
+              "Defer_decisions": 1
+            },
+            {
+              "evaluation_seed": 1044,
+              "uav_id": 0,
+              "task_id": 8,
+              "Defer_decisions": 1
+            },
+            {
+              "evaluation_seed": 1044,
+              "uav_id": 3,
+              "task_id": 16,
+              "Defer_decisions": 1
+            }
+          ]
+        },
+        "per_seed": {
+          "1042": {
+            "route_decision_count": 138,
+            "active_route_decision_count": 138,
+            "Local_count": 81,
+            "Remote_count": 54,
+            "Defer_count": 3,
+            "Idle_count": 0,
+            "Local_ratio": 0.5869565217391305,
+            "Remote_ratio": 0.391304347826087,
+            "Defer_ratio": 0.021739130434782608,
+            "remote_destination_counts": {
+              "1": 1,
+              "2": 53
+            },
+            "remote_destination_ratios": {
+              "1": 0.018518518518518517,
+              "2": 0.9814814814814815
+            },
+            "legal_remote_decision_count": 83,
+            "choose_Local_when_Remote_legal_count": 26,
+            "choose_Local_when_Remote_legal_ratio": 0.3132530120481928,
+            "mean_group_probability": {
+              "Local": 0.49857096719569055,
+              "Remote": 0.22496839731499768,
+              "Defer": 0.2764606309541758
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": 1.0,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 3,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": 0.0,
+            "max_Defer_decisions_per_task": 1,
+            "most_repeated_tasks": [
+              {
+                "evaluation_seed": 1042,
+                "uav_id": 1,
+                "task_id": 38,
+                "Defer_decisions": 1
+              },
+              {
+                "evaluation_seed": 1042,
+                "uav_id": 1,
+                "task_id": 68,
+                "Defer_decisions": 1
+              },
+              {
+                "evaluation_seed": 1042,
+                "uav_id": 1,
+                "task_id": 79,
+                "Defer_decisions": 1
+              }
+            ]
+          },
+          "1043": {
+            "route_decision_count": 121,
+            "active_route_decision_count": 121,
+            "Local_count": 24,
+            "Remote_count": 97,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.19834710743801653,
+            "Remote_ratio": 0.8016528925619835,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 31,
+              "1": 20,
+              "2": 17,
+              "3": 29
+            },
+            "remote_destination_ratios": {
+              "0": 0.31958762886597936,
+              "1": 0.20618556701030927,
+              "2": 0.17525773195876287,
+              "3": 0.29896907216494845
+            },
+            "legal_remote_decision_count": 121,
+            "choose_Local_when_Remote_legal_count": 24,
+            "choose_Local_when_Remote_legal_ratio": 0.19834710743801653,
+            "mean_group_probability": {
+              "Local": 0.2955466878315634,
+              "Remote": 0.510746678907024,
+              "Defer": 0.19370663012108527
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 11,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 0,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": null,
+            "max_Defer_decisions_per_task": 0,
+            "most_repeated_tasks": []
+          },
+          "1044": {
+            "route_decision_count": 163,
+            "active_route_decision_count": 163,
+            "Local_count": 29,
+            "Remote_count": 87,
+            "Defer_count": 47,
+            "Idle_count": 0,
+            "Local_ratio": 0.17791411042944785,
+            "Remote_ratio": 0.5337423312883436,
+            "Defer_ratio": 0.2883435582822086,
+            "remote_destination_counts": {
+              "0": 13,
+              "1": 9,
+              "2": 51,
+              "3": 14
+            },
+            "remote_destination_ratios": {
+              "0": 0.14942528735632185,
+              "1": 0.10344827586206896,
+              "2": 0.5862068965517241,
+              "3": 0.16091954022988506
+            },
+            "legal_remote_decision_count": 163,
+            "choose_Local_when_Remote_legal_count": 29,
+            "choose_Local_when_Remote_legal_ratio": 0.17791411042944785,
+            "mean_group_probability": {
+              "Local": 0.2321186652578459,
+              "Remote": 0.5596029093843297,
+              "Defer": 0.2082784282374967
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 29,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": 1.0,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 12,
+            "repeated_Defer_task_count": 5,
+            "Defer_decisions_from_repeated_tasks": 40,
+            "additional_Defer_decisions_after_first": 35,
+            "Defer_fraction_from_repeated_tasks": 0.851063829787234,
+            "max_Defer_decisions_per_task": 23,
+            "most_repeated_tasks": [
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 3,
+                "task_id": 83,
+                "Defer_decisions": 23
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 3,
+                "task_id": 101,
+                "Defer_decisions": 7
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 1,
+                "task_id": 46,
+                "Defer_decisions": 5
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 3,
+                "task_id": 91,
+                "Defer_decisions": 3
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 1,
+                "task_id": 25,
+                "Defer_decisions": 2
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 0,
+                "task_id": 8,
+                "Defer_decisions": 1
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 3,
+                "task_id": 16,
+                "Defer_decisions": 1
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 1,
+                "task_id": 39,
+                "Defer_decisions": 1
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 1,
+                "task_id": 56,
+                "Defer_decisions": 1
+              },
+              {
+                "evaluation_seed": 1044,
+                "uav_id": 1,
+                "task_id": 78,
+                "Defer_decisions": 1
+              }
+            ]
+          },
+          "1045": {
+            "route_decision_count": 102,
+            "active_route_decision_count": 102,
+            "Local_count": 61,
+            "Remote_count": 41,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.5980392156862745,
+            "Remote_ratio": 0.4019607843137255,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 26,
+              "1": 15
+            },
+            "remote_destination_ratios": {
+              "0": 0.6341463414634146,
+              "1": 0.36585365853658536
+            },
+            "legal_remote_decision_count": 63,
+            "choose_Local_when_Remote_legal_count": 22,
+            "choose_Local_when_Remote_legal_ratio": 0.3492063492063492,
+            "mean_group_probability": {
+              "Local": 0.5093454344599855,
+              "Remote": 0.23696810912852193,
+              "Defer": 0.25368645874892964
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 0,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": null,
+            "max_Defer_decisions_per_task": 0,
+            "most_repeated_tasks": []
+          },
+          "1046": {
+            "route_decision_count": 130,
+            "active_route_decision_count": 130,
+            "Local_count": 78,
+            "Remote_count": 51,
+            "Defer_count": 1,
+            "Idle_count": 0,
+            "Local_ratio": 0.6,
+            "Remote_ratio": 0.3923076923076923,
+            "Defer_ratio": 0.007692307692307693,
+            "remote_destination_counts": {
+              "0": 33,
+              "1": 18
+            },
+            "remote_destination_ratios": {
+              "0": 0.6470588235294118,
+              "1": 0.35294117647058826
+            },
+            "legal_remote_decision_count": 93,
+            "choose_Local_when_Remote_legal_count": 41,
+            "choose_Local_when_Remote_legal_ratio": 0.44086021505376344,
+            "mean_group_probability": {
+              "Local": 0.47716120802439177,
+              "Remote": 0.27365259940807635,
+              "Defer": 0.24918619222365893
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": 1.0,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 1,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": 0.0,
+            "max_Defer_decisions_per_task": 1,
+            "most_repeated_tasks": [
+              {
+                "evaluation_seed": 1046,
+                "uav_id": 0,
+                "task_id": 89,
+                "Defer_decisions": 1
+              }
+            ]
+          }
+        },
+        "source_trace": "D:\\My_project_li\\logs\\C\\seed42\\8k\\diagnostics\\route_decision_trace.jsonl"
+      },
+      "12000": {
+        "pooled": {
+          "route_decision_count": 604,
+          "active_route_decision_count": 604,
+          "Local_count": 144,
+          "Remote_count": 460,
+          "Defer_count": 0,
+          "Idle_count": 0,
+          "Local_ratio": 0.23841059602649006,
+          "Remote_ratio": 0.7615894039735099,
+          "Defer_ratio": 0.0,
+          "remote_destination_counts": {
+            "0": 146,
+            "1": 103,
+            "2": 150,
+            "3": 61
+          },
+          "remote_destination_ratios": {
+            "0": 0.3173913043478261,
+            "1": 0.22391304347826088,
+            "2": 0.32608695652173914,
+            "3": 0.13260869565217392
+          },
+          "legal_remote_decision_count": 473,
+          "choose_Local_when_Remote_legal_count": 13,
+          "choose_Local_when_Remote_legal_ratio": 0.02748414376321353,
+          "mean_group_probability": {
+            "Local": 0.39565379957094887,
+            "Remote": 0.41958442998939005,
+            "Defer": 0.1847617688545624
+          },
+          "group_mass_argmax_Remote_but_actual_Local_count": 1,
+          "group_mass_and_leaf_probabilities_available": true,
+          "Defer_task_identity_coverage": null,
+          "repeated_Defer_status": "available",
+          "Defer_distinct_known_tasks": 0,
+          "repeated_Defer_task_count": 0,
+          "Defer_decisions_from_repeated_tasks": 0,
+          "additional_Defer_decisions_after_first": 0,
+          "Defer_fraction_from_repeated_tasks": null,
+          "max_Defer_decisions_per_task": 0,
+          "most_repeated_tasks": []
+        },
+        "per_seed": {
+          "1042": {
+            "route_decision_count": 135,
+            "active_route_decision_count": 135,
+            "Local_count": 55,
+            "Remote_count": 80,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.4074074074074074,
+            "Remote_ratio": 0.5925925925925926,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "1": 11,
+              "2": 69
+            },
+            "remote_destination_ratios": {
+              "1": 0.1375,
+              "2": 0.8625
+            },
+            "legal_remote_decision_count": 80,
+            "choose_Local_when_Remote_legal_count": 0,
+            "choose_Local_when_Remote_legal_ratio": 0.0,
+            "mean_group_probability": {
+              "Local": 0.5092961061883856,
+              "Remote": 0.28262926273875766,
+              "Defer": 0.20807463394271003
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 0,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": null,
+            "max_Defer_decisions_per_task": 0,
+            "most_repeated_tasks": []
+          },
+          "1043": {
+            "route_decision_count": 121,
+            "active_route_decision_count": 121,
+            "Local_count": 5,
+            "Remote_count": 116,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.04132231404958678,
+            "Remote_ratio": 0.9586776859504132,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 33,
+              "1": 27,
+              "2": 15,
+              "3": 41
+            },
+            "remote_destination_ratios": {
+              "0": 0.28448275862068967,
+              "1": 0.23275862068965517,
+              "2": 0.12931034482758622,
+              "3": 0.35344827586206895
+            },
+            "legal_remote_decision_count": 121,
+            "choose_Local_when_Remote_legal_count": 5,
+            "choose_Local_when_Remote_legal_ratio": 0.04132231404958678,
+            "mean_group_probability": {
+              "Local": 0.2717811035469544,
+              "Remote": 0.5784276915975839,
+              "Defer": 0.1497911999910331
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 0,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": null,
+            "max_Defer_decisions_per_task": 0,
+            "most_repeated_tasks": []
+          },
+          "1044": {
+            "route_decision_count": 117,
+            "active_route_decision_count": 117,
+            "Local_count": 1,
+            "Remote_count": 116,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.008547008547008548,
+            "Remote_ratio": 0.9914529914529915,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 11,
+              "1": 19,
+              "2": 66,
+              "3": 20
+            },
+            "remote_destination_ratios": {
+              "0": 0.09482758620689655,
+              "1": 0.16379310344827586,
+              "2": 0.5689655172413793,
+              "3": 0.1724137931034483
+            },
+            "legal_remote_decision_count": 117,
+            "choose_Local_when_Remote_legal_count": 1,
+            "choose_Local_when_Remote_legal_ratio": 0.008547008547008548,
+            "mean_group_probability": {
+              "Local": 0.21113767341161385,
+              "Remote": 0.6736086699952427,
+              "Defer": 0.11525365223105137
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 1,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 0,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": null,
+            "max_Defer_decisions_per_task": 0,
+            "most_repeated_tasks": []
+          },
+          "1045": {
+            "route_decision_count": 102,
+            "active_route_decision_count": 102,
+            "Local_count": 42,
+            "Remote_count": 60,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.4117647058823529,
+            "Remote_ratio": 0.5882352941176471,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 41,
+              "1": 19
+            },
+            "remote_destination_ratios": {
+              "0": 0.6833333333333333,
+              "1": 0.31666666666666665
+            },
+            "legal_remote_decision_count": 63,
+            "choose_Local_when_Remote_legal_count": 3,
+            "choose_Local_when_Remote_legal_ratio": 0.047619047619047616,
+            "mean_group_probability": {
+              "Local": 0.5084907465121326,
+              "Remote": 0.26780079217518077,
+              "Defer": 0.22370845773348622
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 0,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": null,
+            "max_Defer_decisions_per_task": 0,
+            "most_repeated_tasks": []
+          },
+          "1046": {
+            "route_decision_count": 129,
+            "active_route_decision_count": 129,
+            "Local_count": 41,
+            "Remote_count": 88,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.3178294573643411,
+            "Remote_ratio": 0.6821705426356589,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 61,
+              "1": 27
+            },
+            "remote_destination_ratios": {
+              "0": 0.6931818181818182,
+              "1": 0.3068181818181818
+            },
+            "legal_remote_decision_count": 92,
+            "choose_Local_when_Remote_legal_count": 4,
+            "choose_Local_when_Remote_legal_ratio": 0.043478260869565216,
+            "mean_group_probability": {
+              "Local": 0.4710483964561492,
+              "Remote": 0.30353797960651013,
+              "Defer": 0.2254136248614437
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 0,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": null,
+            "max_Defer_decisions_per_task": 0,
+            "most_repeated_tasks": []
+          }
+        },
+        "source_trace": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\12k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8\\route_decision_trace.jsonl"
+      },
+      "16000": {
+        "pooled": {
+          "route_decision_count": 604,
+          "active_route_decision_count": 604,
+          "Local_count": 138,
+          "Remote_count": 466,
+          "Defer_count": 0,
+          "Idle_count": 0,
+          "Local_ratio": 0.22847682119205298,
+          "Remote_ratio": 0.7715231788079471,
+          "Defer_ratio": 0.0,
+          "remote_destination_counts": {
+            "0": 155,
+            "1": 106,
+            "2": 146,
+            "3": 59
+          },
+          "remote_destination_ratios": {
+            "0": 0.33261802575107297,
+            "1": 0.22746781115879827,
+            "2": 0.3133047210300429,
+            "3": 0.12660944206008584
+          },
+          "legal_remote_decision_count": 473,
+          "choose_Local_when_Remote_legal_count": 7,
+          "choose_Local_when_Remote_legal_ratio": 0.014799154334038054,
+          "mean_group_probability": {
+            "Local": 0.4034492406031943,
+            "Remote": 0.4525992117624804,
+            "Defer": 0.14395154701755536
+          },
+          "group_mass_argmax_Remote_but_actual_Local_count": 0,
+          "group_mass_and_leaf_probabilities_available": true,
+          "Defer_task_identity_coverage": null,
+          "repeated_Defer_status": "available",
+          "Defer_distinct_known_tasks": 0,
+          "repeated_Defer_task_count": 0,
+          "Defer_decisions_from_repeated_tasks": 0,
+          "additional_Defer_decisions_after_first": 0,
+          "Defer_fraction_from_repeated_tasks": null,
+          "max_Defer_decisions_per_task": 0,
+          "most_repeated_tasks": []
+        },
+        "per_seed": {
+          "1042": {
+            "route_decision_count": 135,
+            "active_route_decision_count": 135,
+            "Local_count": 55,
+            "Remote_count": 80,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.4074074074074074,
+            "Remote_ratio": 0.5925925925925926,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "1": 11,
+              "2": 69
+            },
+            "remote_destination_ratios": {
+              "1": 0.1375,
+              "2": 0.8625
+            },
+            "legal_remote_decision_count": 80,
+            "choose_Local_when_Remote_legal_count": 0,
+            "choose_Local_when_Remote_legal_ratio": 0.0,
+            "mean_group_probability": {
+              "Local": 0.5365213016668956,
+              "Remote": 0.31709035016872267,
+              "Defer": 0.14638834766767644
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 0,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": null,
+            "max_Defer_decisions_per_task": 0,
+            "most_repeated_tasks": []
+          },
+          "1043": {
+            "route_decision_count": 121,
+            "active_route_decision_count": 121,
+            "Local_count": 3,
+            "Remote_count": 118,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.024793388429752067,
+            "Remote_ratio": 0.9752066115702479,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 33,
+              "1": 29,
+              "2": 15,
+              "3": 41
+            },
+            "remote_destination_ratios": {
+              "0": 0.2796610169491525,
+              "1": 0.2457627118644068,
+              "2": 0.1271186440677966,
+              "3": 0.3474576271186441
+            },
+            "legal_remote_decision_count": 121,
+            "choose_Local_when_Remote_legal_count": 3,
+            "choose_Local_when_Remote_legal_ratio": 0.024793388429752067,
+            "mean_group_probability": {
+              "Local": 0.25739656684319834,
+              "Remote": 0.6174971210069893,
+              "Defer": 0.1251063060846703
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 0,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": null,
+            "max_Defer_decisions_per_task": 0,
+            "most_repeated_tasks": []
+          },
+          "1044": {
+            "route_decision_count": 117,
+            "active_route_decision_count": 117,
+            "Local_count": 0,
+            "Remote_count": 117,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.0,
+            "Remote_ratio": 1.0,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 19,
+              "1": 18,
+              "2": 62,
+              "3": 18
+            },
+            "remote_destination_ratios": {
+              "0": 0.1623931623931624,
+              "1": 0.15384615384615385,
+              "2": 0.5299145299145299,
+              "3": 0.15384615384615385
+            },
+            "legal_remote_decision_count": 117,
+            "choose_Local_when_Remote_legal_count": 0,
+            "choose_Local_when_Remote_legal_ratio": 0.0,
+            "mean_group_probability": {
+              "Local": 0.19837479000417596,
+              "Remote": 0.7037397575938803,
+              "Defer": 0.097885456127234
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 0,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": null,
+            "max_Defer_decisions_per_task": 0,
+            "most_repeated_tasks": []
+          },
+          "1045": {
+            "route_decision_count": 102,
+            "active_route_decision_count": 102,
+            "Local_count": 40,
+            "Remote_count": 62,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.39215686274509803,
+            "Remote_ratio": 0.6078431372549019,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 42,
+              "1": 20
+            },
+            "remote_destination_ratios": {
+              "0": 0.6774193548387096,
+              "1": 0.3225806451612903
+            },
+            "legal_remote_decision_count": 63,
+            "choose_Local_when_Remote_legal_count": 1,
+            "choose_Local_when_Remote_legal_ratio": 0.015873015873015872,
+            "mean_group_probability": {
+              "Local": 0.5332545978473682,
+              "Remote": 0.2948089493255989,
+              "Defer": 0.17193645647927827
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 0,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": null,
+            "max_Defer_decisions_per_task": 0,
+            "most_repeated_tasks": []
+          },
+          "1046": {
+            "route_decision_count": 129,
+            "active_route_decision_count": 129,
+            "Local_count": 40,
+            "Remote_count": 89,
+            "Defer_count": 0,
+            "Idle_count": 0,
+            "Local_ratio": 0.31007751937984496,
+            "Remote_ratio": 0.689922480620155,
+            "Defer_ratio": 0.0,
+            "remote_destination_counts": {
+              "0": 61,
+              "1": 28
+            },
+            "remote_destination_ratios": {
+              "0": 0.6853932584269663,
+              "1": 0.3146067415730337
+            },
+            "legal_remote_decision_count": 92,
+            "choose_Local_when_Remote_legal_count": 3,
+            "choose_Local_when_Remote_legal_ratio": 0.03260869565217391,
+            "mean_group_probability": {
+              "Local": 0.48454388837481654,
+              "Remote": 0.3367248877536419,
+              "Defer": 0.1787312209259632
+            },
+            "group_mass_argmax_Remote_but_actual_Local_count": 0,
+            "group_mass_and_leaf_probabilities_available": true,
+            "Defer_task_identity_coverage": null,
+            "repeated_Defer_status": "available",
+            "Defer_distinct_known_tasks": 0,
+            "repeated_Defer_task_count": 0,
+            "Defer_decisions_from_repeated_tasks": 0,
+            "additional_Defer_decisions_after_first": 0,
+            "Defer_fraction_from_repeated_tasks": null,
+            "max_Defer_decisions_per_task": 0,
+            "most_repeated_tasks": []
+          }
+        },
+        "source_trace": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\16k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e\\route_decision_trace.jsonl"
+      }
+    }
+  }
+}

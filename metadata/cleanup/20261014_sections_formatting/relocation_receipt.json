@@ -1,0 +1,56 @@
+[
+  {
+    "old": "sections/e14c_route_task_credit.md",
+    "new": "sections/methods/e14c_route_task_credit.md",
+    "sha256_before": "6ce41a545f4f077e69214c75db6ade273a2123d8be27636a41b8eb27a4b14c01",
+    "sha256_after": "4e309b1ceefddda07a027b465d5a630f2ce56434e646f26a5a5609a0fd780c42"
+  },
+  {
+    "old": "sections/e14d_p0_input_repair.md",
+    "new": "sections/methods/e14d_p0_input_repair.md",
+    "sha256_before": "60dca1b01941100d7e30e697b091232982eb997d7a0998cdbabee20773a6cc30",
+    "sha256_after": "029418f03f10ff39617b5f29d7dd838d5619b263bbd1e93fa5e54dbdc5611ce5"
+  },
+  {
+    "old": "sections/e14e_p1a_task_event_credit.md",
+    "new": "sections/methods/e14e_p1a_task_event_credit.md",
+    "sha256_before": "61518def649f75c257ac9aeec7349bfeb96a86409b6ee5322d54b800e294ec60",
+    "sha256_after": "f4afc3b41f29f8b6ef8d8da3c90a987f88e62b04dd8f2871f5ac36030741c017"
+  },
+  {
+    "old": "sections/route_candidate_interface_cpu_audit.md",
+    "new": "sections/methods/route_candidate_interface_cpu_audit.md",
+    "sha256_before": "a2d3132a9e52b0f2894252b76461b31860ff3b57ea225a25ffc7af90c7588e69",
+    "sha256_after": "fa9a78c7991a60a79d75ae7aca5ccde3c8edc2a8636912944edcf28d193779bb"
+  },
+  {
+    "old": "sections/unified_route_scoring_step03.md",
+    "new": "sections/methods/unified_route_scoring_step03.md",
+    "sha256_before": "434407ca20f738ee4aee696eaa82ffa14ae87be757715b41d9f1bbd04ef9d81f",
+    "sha256_after": "f6c1ca02e73d802f352fee9b3efcc65f987d93a182b92281c60e111388042dc1"
+  },
+  {
+    "old": "sections/unified_route_learning_step04.md",
+    "new": "sections/methods/unified_route_learning_step04.md",
+    "sha256_before": "25395f69c8986c11d0510d726b54c989cac6f51fa9e6bfdfc55b5acba4b896e6",
+    "sha256_after": "4047ceb44f0f831c6c2b4e30a5c09b0acddfa8861f54162f7661788f5a8288b6"
+  },
+  {
+    "old": "sections/unified_route_physical_relations_step05.md",
+    "new": "sections/methods/unified_route_physical_relations_step05.md",
+    "sha256_before": "dc8f15c4a65855a11d6d189907df9b72c93856d9516a00729e03dbfa243740d8",
+    "sha256_after": "6d65672da1e564af25c2cbfb42dfd11ee16fe0454ecfbd85f35030a529d17f71"
+  },
+  {
+    "old": "sections/cooperative_task_allocation_implementation_plan.md",
+    "new": "sections/history/cooperative_task_allocation_implementation_plan.md",
+    "sha256_before": "e4f92d71b7b8a53269e8cb9e1f0614214f57aad21f394a2b624e1496cdd24b34",
+    "sha256_after": "9b207f462b92f27ce7c2074126c985d2b509edd365df708131c06a4b4adc7366"
+  },
+  {
+    "old": "sections/task_allocation_experiment_handoff_step06.md",
+    "new": "sections/history/task_allocation_experiment_handoff_step06.md",
+    "sha256_before": "03bf5e9d24944daec00cbb00e82440f4505c3df9e59abdd16f0bf9e2e26ebef4",
+    "sha256_after": "b6bbcfe1f3f4040cbced0b5a63df67b213fd5c47b79ab47a668bb735e0dd9a08"
+  }
+]

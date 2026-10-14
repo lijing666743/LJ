@@ -1,0 +1,914 @@
+{
+  "purpose": "Context only: stochastic training rollouts on changing per-episode training seeds; separate from frozen deterministic development evaluation. No training executed.",
+  "methods": [
+    {
+      "method": "A",
+      "episodes": [
+        {
+          "episode_index": 0,
+          "environment_seed": 11465652750463011511,
+          "transition_count": 500,
+          "training_rollout_reward": -90.38233477395188,
+          "training_rollout_DONE": 20.0,
+          "training_rollout_EXPIRED": 96.0
+        },
+        {
+          "episode_index": 1,
+          "environment_seed": 15658369528003122356,
+          "transition_count": 500,
+          "training_rollout_reward": -91.08464469310069,
+          "training_rollout_DONE": 20.0,
+          "training_rollout_EXPIRED": 95.0
+        },
+        {
+          "episode_index": 2,
+          "environment_seed": 11821647455969306524,
+          "transition_count": 500,
+          "training_rollout_reward": -102.78022147696889,
+          "training_rollout_DONE": 19.0,
+          "training_rollout_EXPIRED": 106.0
+        },
+        {
+          "episode_index": 3,
+          "environment_seed": 18141372322412330060,
+          "transition_count": 500,
+          "training_rollout_reward": -83.10002655096443,
+          "training_rollout_DONE": 16.0,
+          "training_rollout_EXPIRED": 88.0
+        },
+        {
+          "episode_index": 4,
+          "environment_seed": 12942005313116043004,
+          "transition_count": 500,
+          "training_rollout_reward": -82.18732716043019,
+          "training_rollout_DONE": 27.0,
+          "training_rollout_EXPIRED": 93.0
+        },
+        {
+          "episode_index": 5,
+          "environment_seed": 83509503666147837,
+          "transition_count": 500,
+          "training_rollout_reward": -69.80729326405695,
+          "training_rollout_DONE": 28.0,
+          "training_rollout_EXPIRED": 85.0
+        },
+        {
+          "episode_index": 6,
+          "environment_seed": 8791827420312658877,
+          "transition_count": 500,
+          "training_rollout_reward": -42.8761566175739,
+          "training_rollout_DONE": 36.0,
+          "training_rollout_EXPIRED": 69.0
+        },
+        {
+          "episode_index": 7,
+          "environment_seed": 10473664704035447458,
+          "transition_count": 500,
+          "training_rollout_reward": -72.39343087766403,
+          "training_rollout_DONE": 24.0,
+          "training_rollout_EXPIRED": 83.0
+        },
+        {
+          "episode_index": 8,
+          "environment_seed": 7385000503980522420,
+          "transition_count": 500,
+          "training_rollout_reward": -72.80196933624347,
+          "training_rollout_DONE": 29.0,
+          "training_rollout_EXPIRED": 88.0
+        },
+        {
+          "episode_index": 9,
+          "environment_seed": 8061443053443875443,
+          "transition_count": 500,
+          "training_rollout_reward": -59.295792828451475,
+          "training_rollout_DONE": 25.0,
+          "training_rollout_EXPIRED": 74.0
+        },
+        {
+          "episode_index": 10,
+          "environment_seed": 3000636453440181237,
+          "transition_count": 500,
+          "training_rollout_reward": -99.62222971501883,
+          "training_rollout_DONE": 18.0,
+          "training_rollout_EXPIRED": 100.0
+        },
+        {
+          "episode_index": 11,
+          "environment_seed": 1836629433376927409,
+          "transition_count": 500,
+          "training_rollout_reward": -109.98286214554199,
+          "training_rollout_DONE": 10.0,
+          "training_rollout_EXPIRED": 104.0
+        },
+        {
+          "episode_index": 12,
+          "environment_seed": 12764375309156168509,
+          "transition_count": 500,
+          "training_rollout_reward": -69.33360117813075,
+          "training_rollout_DONE": 21.0,
+          "training_rollout_EXPIRED": 78.0
+        },
+        {
+          "episode_index": 13,
+          "environment_seed": 6687531385899574914,
+          "transition_count": 500,
+          "training_rollout_reward": -98.51914169103885,
+          "training_rollout_DONE": 19.0,
+          "training_rollout_EXPIRED": 102.0
+        },
+        {
+          "episode_index": 14,
+          "environment_seed": 12325896752067391801,
+          "transition_count": 500,
+          "training_rollout_reward": -78.29574729790131,
+          "training_rollout_DONE": 27.0,
+          "training_rollout_EXPIRED": 90.0
+        },
+        {
+          "episode_index": 15,
+          "environment_seed": 6268624617681093759,
+          "transition_count": 500,
+          "training_rollout_reward": -91.24038831355233,
+          "training_rollout_DONE": 19.0,
+          "training_rollout_EXPIRED": 95.0
+        },
+        {
+          "episode_index": 16,
+          "environment_seed": 4613060145578951867,
+          "transition_count": 500,
+          "training_rollout_reward": -58.031314818453424,
+          "training_rollout_DONE": 30.0,
+          "training_rollout_EXPIRED": 75.0
+        },
+        {
+          "episode_index": 17,
+          "environment_seed": 16590819629083839184,
+          "transition_count": 500,
+          "training_rollout_reward": -90.79990608896044,
+          "training_rollout_DONE": 29.0,
+          "training_rollout_EXPIRED": 103.0
+        },
+        {
+          "episode_index": 18,
+          "environment_seed": 6015862112229537797,
+          "transition_count": 500,
+          "training_rollout_reward": -86.0225158356659,
+          "training_rollout_DONE": 29.0,
+          "training_rollout_EXPIRED": 101.0
+        },
+        {
+          "episode_index": 19,
+          "environment_seed": 1726380645918996821,
+          "transition_count": 500,
+          "training_rollout_reward": -71.61834986218784,
+          "training_rollout_DONE": 23.0,
+          "training_rollout_EXPIRED": 81.0
+        },
+        {
+          "episode_index": 20,
+          "environment_seed": 11327701547635627201,
+          "transition_count": 500,
+          "training_rollout_reward": -76.27752853992841,
+          "training_rollout_DONE": 33.0,
+          "training_rollout_EXPIRED": 96.0
+        },
+        {
+          "episode_index": 21,
+          "environment_seed": 1483872008752602299,
+          "transition_count": 500,
+          "training_rollout_reward": -50.5407783614628,
+          "training_rollout_DONE": 42.0,
+          "training_rollout_EXPIRED": 80.0
+        },
+        {
+          "episode_index": 22,
+          "environment_seed": 5521568693234236954,
+          "transition_count": 500,
+          "training_rollout_reward": -64.9484656211902,
+          "training_rollout_DONE": 29.0,
+          "training_rollout_EXPIRED": 80.0
+        },
+        {
+          "episode_index": 23,
+          "environment_seed": 13432762685628854554,
+          "transition_count": 500,
+          "training_rollout_reward": -46.73501357794565,
+          "training_rollout_DONE": 31.0,
+          "training_rollout_EXPIRED": 67.0
+        },
+        {
+          "episode_index": 24,
+          "environment_seed": 6392554820605964434,
+          "transition_count": 500,
+          "training_rollout_reward": -85.86738734487612,
+          "training_rollout_DONE": 19.0,
+          "training_rollout_EXPIRED": 90.0
+        },
+        {
+          "episode_index": 25,
+          "environment_seed": 9308808172739498032,
+          "transition_count": 500,
+          "training_rollout_reward": -87.58487321067126,
+          "training_rollout_DONE": 27.0,
+          "training_rollout_EXPIRED": 96.0
+        },
+        {
+          "episode_index": 26,
+          "environment_seed": 3555679840980675666,
+          "transition_count": 500,
+          "training_rollout_reward": -86.4270808583684,
+          "training_rollout_DONE": 18.0,
+          "training_rollout_EXPIRED": 91.0
+        },
+        {
+          "episode_index": 27,
+          "environment_seed": 8461852042247483737,
+          "transition_count": 500,
+          "training_rollout_reward": -93.18268237722083,
+          "training_rollout_DONE": 20.0,
+          "training_rollout_EXPIRED": 98.0
+        },
+        {
+          "episode_index": 28,
+          "environment_seed": 18207512517869741386,
+          "transition_count": 500,
+          "training_rollout_reward": -132.56611049457635,
+          "training_rollout_DONE": 9.0,
+          "training_rollout_EXPIRED": 121.0
+        },
+        {
+          "episode_index": 29,
+          "environment_seed": 13916432220715004778,
+          "transition_count": 500,
+          "training_rollout_reward": -106.23703854827143,
+          "training_rollout_DONE": 14.0,
+          "training_rollout_EXPIRED": 106.0
+        },
+        {
+          "episode_index": 30,
+          "environment_seed": 7018879060195312234,
+          "transition_count": 500,
+          "training_rollout_reward": -97.0116189081237,
+          "training_rollout_DONE": 28.0,
+          "training_rollout_EXPIRED": 106.0
+        },
+        {
+          "episode_index": 31,
+          "environment_seed": 12931851829617332386,
+          "transition_count": 500,
+          "training_rollout_reward": -62.97142712276433,
+          "training_rollout_DONE": 36.0,
+          "training_rollout_EXPIRED": 85.0
+        }
+      ],
+      "blocks": [
+        {
+          "collected_step_interval": [
+            0,
+            4000
+          ],
+          "episodes": 8,
+          "mean_training_rollout_reward": -79.32642942683887,
+          "mean_training_rollout_DONE": 23.75,
+          "mean_training_rollout_EXPIRED": 89.375
+        },
+        {
+          "collected_step_interval": [
+            4000,
+            8000
+          ],
+          "episodes": 8,
+          "mean_training_rollout_reward": -84.88646656323488,
+          "mean_training_rollout_DONE": 21.0,
+          "mean_training_rollout_EXPIRED": 91.375
+        },
+        {
+          "collected_step_interval": [
+            8000,
+            12000
+          ],
+          "episodes": 8,
+          "mean_training_rollout_reward": -68.12173408822433,
+          "mean_training_rollout_DONE": 30.75,
+          "mean_training_rollout_EXPIRED": 85.375
+        },
+        {
+          "collected_step_interval": [
+            12000,
+            16000
+          ],
+          "episodes": 8,
+          "mean_training_rollout_reward": -93.98102735810905,
+          "mean_training_rollout_DONE": 21.375,
+          "mean_training_rollout_EXPIRED": 99.125
+        }
+      ]
+    },
+    {
+      "method": "B",
+      "episodes": [
+        {
+          "episode_index": 0,
+          "environment_seed": 11465652750463011511,
+          "transition_count": 500,
+          "training_rollout_reward": -90.02180104406644,
+          "training_rollout_DONE": 20.0,
+          "training_rollout_EXPIRED": 96.0
+        },
+        {
+          "episode_index": 1,
+          "environment_seed": 15658369528003122356,
+          "transition_count": 500,
+          "training_rollout_reward": -80.5513442405515,
+          "training_rollout_DONE": 25.0,
+          "training_rollout_EXPIRED": 90.0
+        },
+        {
+          "episode_index": 2,
+          "environment_seed": 11821647455969306524,
+          "transition_count": 500,
+          "training_rollout_reward": -99.73841129943713,
+          "training_rollout_DONE": 21.0,
+          "training_rollout_EXPIRED": 105.0
+        },
+        {
+          "episode_index": 3,
+          "environment_seed": 18141372322412330060,
+          "transition_count": 500,
+          "training_rollout_reward": -74.66535464849551,
+          "training_rollout_DONE": 20.0,
+          "training_rollout_EXPIRED": 84.0
+        },
+        {
+          "episode_index": 4,
+          "environment_seed": 12942005313116043004,
+          "transition_count": 500,
+          "training_rollout_reward": -90.50707273079807,
+          "training_rollout_DONE": 23.0,
+          "training_rollout_EXPIRED": 97.0
+        },
+        {
+          "episode_index": 5,
+          "environment_seed": 83509503666147837,
+          "transition_count": 500,
+          "training_rollout_reward": -83.94920297677163,
+          "training_rollout_DONE": 21.0,
+          "training_rollout_EXPIRED": 92.0
+        },
+        {
+          "episode_index": 6,
+          "environment_seed": 8791827420312658877,
+          "transition_count": 500,
+          "training_rollout_reward": -29.567087217935036,
+          "training_rollout_DONE": 42.0,
+          "training_rollout_EXPIRED": 62.0
+        },
+        {
+          "episode_index": 7,
+          "environment_seed": 10473664704035447458,
+          "transition_count": 500,
+          "training_rollout_reward": -73.61457919020077,
+          "training_rollout_DONE": 24.0,
+          "training_rollout_EXPIRED": 84.0
+        },
+        {
+          "episode_index": 8,
+          "environment_seed": 7385000503980522420,
+          "transition_count": 500,
+          "training_rollout_reward": -73.39033926743993,
+          "training_rollout_DONE": 28.0,
+          "training_rollout_EXPIRED": 88.0
+        },
+        {
+          "episode_index": 9,
+          "environment_seed": 8061443053443875443,
+          "transition_count": 500,
+          "training_rollout_reward": -34.3270930521752,
+          "training_rollout_DONE": 37.0,
+          "training_rollout_EXPIRED": 62.0
+        },
+        {
+          "episode_index": 10,
+          "environment_seed": 3000636453440181237,
+          "transition_count": 500,
+          "training_rollout_reward": -84.06597743338801,
+          "training_rollout_DONE": 26.0,
+          "training_rollout_EXPIRED": 93.0
+        },
+        {
+          "episode_index": 11,
+          "environment_seed": 1836629433376927409,
+          "transition_count": 500,
+          "training_rollout_reward": -103.24783590645653,
+          "training_rollout_DONE": 13.0,
+          "training_rollout_EXPIRED": 101.0
+        },
+        {
+          "episode_index": 12,
+          "environment_seed": 12764375309156168509,
+          "transition_count": 500,
+          "training_rollout_reward": -47.8731674668964,
+          "training_rollout_DONE": 31.0,
+          "training_rollout_EXPIRED": 68.0
+        },
+        {
+          "episode_index": 13,
+          "environment_seed": 6687531385899574914,
+          "transition_count": 500,
+          "training_rollout_reward": -81.34099506684773,
+          "training_rollout_DONE": 27.0,
+          "training_rollout_EXPIRED": 94.0
+        },
+        {
+          "episode_index": 14,
+          "environment_seed": 12325896752067391801,
+          "transition_count": 500,
+          "training_rollout_reward": -88.41332487346627,
+          "training_rollout_DONE": 22.0,
+          "training_rollout_EXPIRED": 95.0
+        },
+        {
+          "episode_index": 15,
+          "environment_seed": 6268624617681093759,
+          "transition_count": 500,
+          "training_rollout_reward": -85.73460238800735,
+          "training_rollout_DONE": 22.0,
+          "training_rollout_EXPIRED": 92.0
+        },
+        {
+          "episode_index": 16,
+          "environment_seed": 4613060145578951867,
+          "transition_count": 500,
+          "training_rollout_reward": -81.91875728965533,
+          "training_rollout_DONE": 19.0,
+          "training_rollout_EXPIRED": 87.0
+        },
+        {
+          "episode_index": 17,
+          "environment_seed": 16590819629083839184,
+          "transition_count": 500,
+          "training_rollout_reward": -104.87196903386842,
+          "training_rollout_DONE": 22.0,
+          "training_rollout_EXPIRED": 109.0
+        },
+        {
+          "episode_index": 18,
+          "environment_seed": 6015862112229537797,
+          "transition_count": 500,
+          "training_rollout_reward": -104.60738266242987,
+          "training_rollout_DONE": 20.0,
+          "training_rollout_EXPIRED": 109.0
+        },
+        {
+          "episode_index": 19,
+          "environment_seed": 1726380645918996821,
+          "transition_count": 500,
+          "training_rollout_reward": -91.77561909090358,
+          "training_rollout_DONE": 13.0,
+          "training_rollout_EXPIRED": 91.0
+        },
+        {
+          "episode_index": 20,
+          "environment_seed": 11327701547635627201,
+          "transition_count": 500,
+          "training_rollout_reward": -87.71270107321118,
+          "training_rollout_DONE": 28.0,
+          "training_rollout_EXPIRED": 101.0
+        },
+        {
+          "episode_index": 21,
+          "environment_seed": 1483872008752602299,
+          "transition_count": 500,
+          "training_rollout_reward": -57.84389384507188,
+          "training_rollout_DONE": 38.0,
+          "training_rollout_EXPIRED": 84.0
+        },
+        {
+          "episode_index": 22,
+          "environment_seed": 5521568693234236954,
+          "transition_count": 500,
+          "training_rollout_reward": -66.6966688910955,
+          "training_rollout_DONE": 27.0,
+          "training_rollout_EXPIRED": 81.0
+        },
+        {
+          "episode_index": 23,
+          "environment_seed": 13432762685628854554,
+          "transition_count": 500,
+          "training_rollout_reward": -61.0511804376368,
+          "training_rollout_DONE": 24.0,
+          "training_rollout_EXPIRED": 74.0
+        },
+        {
+          "episode_index": 24,
+          "environment_seed": 6392554820605964434,
+          "transition_count": 500,
+          "training_rollout_reward": -90.38442853692236,
+          "training_rollout_DONE": 17.0,
+          "training_rollout_EXPIRED": 92.0
+        },
+        {
+          "episode_index": 25,
+          "environment_seed": 9308808172739498032,
+          "transition_count": 500,
+          "training_rollout_reward": -69.65026952353634,
+          "training_rollout_DONE": 35.0,
+          "training_rollout_EXPIRED": 87.0
+        },
+        {
+          "episode_index": 26,
+          "environment_seed": 3555679840980675666,
+          "transition_count": 500,
+          "training_rollout_reward": -94.88421032937973,
+          "training_rollout_DONE": 14.0,
+          "training_rollout_EXPIRED": 95.0
+        },
+        {
+          "episode_index": 27,
+          "environment_seed": 8461852042247483737,
+          "transition_count": 500,
+          "training_rollout_reward": -94.52961108308355,
+          "training_rollout_DONE": 19.0,
+          "training_rollout_EXPIRED": 99.0
+        },
+        {
+          "episode_index": 28,
+          "environment_seed": 18207512517869741386,
+          "transition_count": 500,
+          "training_rollout_reward": -135.42543609611394,
+          "training_rollout_DONE": 7.0,
+          "training_rollout_EXPIRED": 123.0
+        },
+        {
+          "episode_index": 29,
+          "environment_seed": 13916432220715004778,
+          "transition_count": 500,
+          "training_rollout_reward": -76.08621286274851,
+          "training_rollout_DONE": 28.0,
+          "training_rollout_EXPIRED": 92.0
+        },
+        {
+          "episode_index": 30,
+          "environment_seed": 7018879060195312234,
+          "transition_count": 500,
+          "training_rollout_reward": -94.73432996518926,
+          "training_rollout_DONE": 29.0,
+          "training_rollout_EXPIRED": 106.0
+        },
+        {
+          "episode_index": 31,
+          "environment_seed": 12931851829617332386,
+          "transition_count": 500,
+          "training_rollout_reward": -60.04041352953851,
+          "training_rollout_DONE": 37.0,
+          "training_rollout_EXPIRED": 84.0
+        }
+      ],
+      "blocks": [
+        {
+          "collected_step_interval": [
+            0,
+            4000
+          ],
+          "episodes": 8,
+          "mean_training_rollout_reward": -77.82685666853202,
+          "mean_training_rollout_DONE": 24.5,
+          "mean_training_rollout_EXPIRED": 88.75
+        },
+        {
+          "collected_step_interval": [
+            4000,
+            8000
+          ],
+          "episodes": 8,
+          "mean_training_rollout_reward": -74.79916693183468,
+          "mean_training_rollout_DONE": 25.75,
+          "mean_training_rollout_EXPIRED": 86.625
+        },
+        {
+          "collected_step_interval": [
+            8000,
+            12000
+          ],
+          "episodes": 8,
+          "mean_training_rollout_reward": -82.05977154048406,
+          "mean_training_rollout_DONE": 23.875,
+          "mean_training_rollout_EXPIRED": 92.0
+        },
+        {
+          "collected_step_interval": [
+            12000,
+            16000
+          ],
+          "episodes": 8,
+          "mean_training_rollout_reward": -89.46686399081402,
+          "mean_training_rollout_DONE": 23.25,
+          "mean_training_rollout_EXPIRED": 97.25
+        }
+      ]
+    },
+    {
+      "method": "C",
+      "episodes": [
+        {
+          "episode_index": 0,
+          "environment_seed": 11465652750463011511,
+          "transition_count": 500,
+          "training_rollout_reward": -89.98543298692886,
+          "training_rollout_DONE": 20.0,
+          "training_rollout_EXPIRED": 96.0
+        },
+        {
+          "episode_index": 1,
+          "environment_seed": 15658369528003122356,
+          "transition_count": 500,
+          "training_rollout_reward": -82.19429705163762,
+          "training_rollout_DONE": 24.0,
+          "training_rollout_EXPIRED": 91.0
+        },
+        {
+          "episode_index": 2,
+          "environment_seed": 11821647455969306524,
+          "transition_count": 500,
+          "training_rollout_reward": -102.02337539696649,
+          "training_rollout_DONE": 20.0,
+          "training_rollout_EXPIRED": 106.0
+        },
+        {
+          "episode_index": 3,
+          "environment_seed": 18141372322412330060,
+          "transition_count": 500,
+          "training_rollout_reward": -78.77453075846152,
+          "training_rollout_DONE": 18.0,
+          "training_rollout_EXPIRED": 86.0
+        },
+        {
+          "episode_index": 4,
+          "environment_seed": 12942005313116043004,
+          "transition_count": 500,
+          "training_rollout_reward": -94.7919918520077,
+          "training_rollout_DONE": 21.0,
+          "training_rollout_EXPIRED": 99.0
+        },
+        {
+          "episode_index": 5,
+          "environment_seed": 83509503666147837,
+          "transition_count": 500,
+          "training_rollout_reward": -96.39465530805289,
+          "training_rollout_DONE": 15.0,
+          "training_rollout_EXPIRED": 98.0
+        },
+        {
+          "episode_index": 6,
+          "environment_seed": 8791827420312658877,
+          "transition_count": 500,
+          "training_rollout_reward": -42.33854123491723,
+          "training_rollout_DONE": 36.0,
+          "training_rollout_EXPIRED": 68.0
+        },
+        {
+          "episode_index": 7,
+          "environment_seed": 10473664704035447458,
+          "transition_count": 500,
+          "training_rollout_reward": -79.94754738269125,
+          "training_rollout_DONE": 21.0,
+          "training_rollout_EXPIRED": 87.0
+        },
+        {
+          "episode_index": 8,
+          "environment_seed": 7385000503980522420,
+          "transition_count": 500,
+          "training_rollout_reward": -69.21597453299817,
+          "training_rollout_DONE": 30.0,
+          "training_rollout_EXPIRED": 86.0
+        },
+        {
+          "episode_index": 9,
+          "environment_seed": 8061443053443875443,
+          "transition_count": 500,
+          "training_rollout_reward": -40.25920630452414,
+          "training_rollout_DONE": 34.0,
+          "training_rollout_EXPIRED": 65.0
+        },
+        {
+          "episode_index": 10,
+          "environment_seed": 3000636453440181237,
+          "transition_count": 500,
+          "training_rollout_reward": -84.11367739821691,
+          "training_rollout_DONE": 26.0,
+          "training_rollout_EXPIRED": 93.0
+        },
+        {
+          "episode_index": 11,
+          "environment_seed": 1836629433376927409,
+          "transition_count": 500,
+          "training_rollout_reward": -95.88193086692775,
+          "training_rollout_DONE": 17.0,
+          "training_rollout_EXPIRED": 98.0
+        },
+        {
+          "episode_index": 12,
+          "environment_seed": 12764375309156168509,
+          "transition_count": 500,
+          "training_rollout_reward": -51.94601958094942,
+          "training_rollout_DONE": 29.0,
+          "training_rollout_EXPIRED": 70.0
+        },
+        {
+          "episode_index": 13,
+          "environment_seed": 6687531385899574914,
+          "transition_count": 500,
+          "training_rollout_reward": -76.16208026364191,
+          "training_rollout_DONE": 30.0,
+          "training_rollout_EXPIRED": 92.0
+        },
+        {
+          "episode_index": 14,
+          "environment_seed": 12325896752067391801,
+          "transition_count": 500,
+          "training_rollout_reward": -91.86777711342262,
+          "training_rollout_DONE": 20.0,
+          "training_rollout_EXPIRED": 97.0
+        },
+        {
+          "episode_index": 15,
+          "environment_seed": 6268624617681093759,
+          "transition_count": 500,
+          "training_rollout_reward": -83.27847801644322,
+          "training_rollout_DONE": 23.0,
+          "training_rollout_EXPIRED": 91.0
+        },
+        {
+          "episode_index": 16,
+          "environment_seed": 4613060145578951867,
+          "transition_count": 500,
+          "training_rollout_reward": -83.9792488099108,
+          "training_rollout_DONE": 18.0,
+          "training_rollout_EXPIRED": 88.0
+        },
+        {
+          "episode_index": 17,
+          "environment_seed": 16590819629083839184,
+          "transition_count": 500,
+          "training_rollout_reward": -90.89889684424658,
+          "training_rollout_DONE": 29.0,
+          "training_rollout_EXPIRED": 103.0
+        },
+        {
+          "episode_index": 18,
+          "environment_seed": 6015862112229537797,
+          "transition_count": 500,
+          "training_rollout_reward": -83.61724255211429,
+          "training_rollout_DONE": 30.0,
+          "training_rollout_EXPIRED": 99.0
+        },
+        {
+          "episode_index": 19,
+          "environment_seed": 1726380645918996821,
+          "transition_count": 500,
+          "training_rollout_reward": -93.86371028972357,
+          "training_rollout_DONE": 12.0,
+          "training_rollout_EXPIRED": 92.0
+        },
+        {
+          "episode_index": 20,
+          "environment_seed": 11327701547635627201,
+          "transition_count": 500,
+          "training_rollout_reward": -91.74170466841325,
+          "training_rollout_DONE": 26.0,
+          "training_rollout_EXPIRED": 103.0
+        },
+        {
+          "episode_index": 21,
+          "environment_seed": 1483872008752602299,
+          "transition_count": 500,
+          "training_rollout_reward": -70.70267412027926,
+          "training_rollout_DONE": 32.0,
+          "training_rollout_EXPIRED": 90.0
+        },
+        {
+          "episode_index": 22,
+          "environment_seed": 5521568693234236954,
+          "transition_count": 500,
+          "training_rollout_reward": -63.757047349752334,
+          "training_rollout_DONE": 29.0,
+          "training_rollout_EXPIRED": 80.0
+        },
+        {
+          "episode_index": 23,
+          "environment_seed": 13432762685628854554,
+          "transition_count": 500,
+          "training_rollout_reward": -49.92606485903116,
+          "training_rollout_DONE": 30.0,
+          "training_rollout_EXPIRED": 69.0
+        },
+        {
+          "episode_index": 24,
+          "environment_seed": 6392554820605964434,
+          "transition_count": 500,
+          "training_rollout_reward": -77.1788561158901,
+          "training_rollout_DONE": 23.0,
+          "training_rollout_EXPIRED": 86.0
+        },
+        {
+          "episode_index": 25,
+          "environment_seed": 9308808172739498032,
+          "transition_count": 500,
+          "training_rollout_reward": -74.49760803787296,
+          "training_rollout_DONE": 33.0,
+          "training_rollout_EXPIRED": 90.0
+        },
+        {
+          "episode_index": 26,
+          "environment_seed": 3555679840980675666,
+          "transition_count": 500,
+          "training_rollout_reward": -95.14799019419573,
+          "training_rollout_DONE": 14.0,
+          "training_rollout_EXPIRED": 95.0
+        },
+        {
+          "episode_index": 27,
+          "environment_seed": 8461852042247483737,
+          "transition_count": 500,
+          "training_rollout_reward": -101.11206713422985,
+          "training_rollout_DONE": 16.0,
+          "training_rollout_EXPIRED": 102.0
+        },
+        {
+          "episode_index": 28,
+          "environment_seed": 18207512517869741386,
+          "transition_count": 500,
+          "training_rollout_reward": -135.3339676409008,
+          "training_rollout_DONE": 7.0,
+          "training_rollout_EXPIRED": 123.0
+        },
+        {
+          "episode_index": 29,
+          "environment_seed": 13916432220715004778,
+          "transition_count": 500,
+          "training_rollout_reward": -73.67106601367998,
+          "training_rollout_DONE": 29.0,
+          "training_rollout_EXPIRED": 91.0
+        },
+        {
+          "episode_index": 30,
+          "environment_seed": 7018879060195312234,
+          "transition_count": 500,
+          "training_rollout_reward": -94.85845793939433,
+          "training_rollout_DONE": 29.0,
+          "training_rollout_EXPIRED": 106.0
+        },
+        {
+          "episode_index": 31,
+          "environment_seed": 12931851829617332386,
+          "transition_count": 500,
+          "training_rollout_reward": -64.163260361691,
+          "training_rollout_DONE": 35.0,
+          "training_rollout_EXPIRED": 86.0
+        }
+      ],
+      "blocks": [
+        {
+          "collected_step_interval": [
+            0,
+            4000
+          ],
+          "episodes": 8,
+          "mean_training_rollout_reward": -83.30629649645795,
+          "mean_training_rollout_DONE": 21.875,
+          "mean_training_rollout_EXPIRED": 91.375
+        },
+        {
+          "collected_step_interval": [
+            4000,
+            8000
+          ],
+          "episodes": 8,
+          "mean_training_rollout_reward": -74.09064300964052,
+          "mean_training_rollout_DONE": 26.125,
+          "mean_training_rollout_EXPIRED": 86.5
+        },
+        {
+          "collected_step_interval": [
+            8000,
+            12000
+          ],
+          "episodes": 8,
+          "mean_training_rollout_reward": -78.5608236866839,
+          "mean_training_rollout_DONE": 25.75,
+          "mean_training_rollout_EXPIRED": 90.5
+        },
+        {
+          "collected_step_interval": [
+            12000,
+            16000
+          ],
+          "episodes": 8,
+          "mean_training_rollout_reward": -89.49540917973184,
+          "mean_training_rollout_DONE": 23.25,
+          "mean_training_rollout_EXPIRED": 97.375
+        }
+      ]
+    }
+  ]
+}

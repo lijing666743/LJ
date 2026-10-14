@@ -1,0 +1,691 @@
+{
+  "scope": "Read-only reconstruction from existing C16k and heuristic evaluation traces; no environment replay, new evaluation, oracle or training",
+  "evaluation_run_id": "development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e",
+  "checkpoint_sha256": "dc8754d7871161233d65ee488e2125dbc4258b555b0a3efb7d579c264800c087",
+  "resources": {
+    "0": {
+      "profile": "Balanced",
+      "fmax": 1972371380.024,
+      "kappa": 1.033901094602e-28,
+      "initial_energy": 31.33677569895
+    },
+    "1": {
+      "profile": "Resource-poor",
+      "fmax": 1434027346.2676,
+      "kappa": 1.1646215852687998e-28,
+      "initial_energy": 24.138019675655997
+    },
+    "2": {
+      "profile": "Compute-rich",
+      "fmax": 3997595437.468,
+      "kappa": 9.310325338278e-29,
+      "initial_energy": 34.645961989287
+    },
+    "3": {
+      "profile": "Energy-limited",
+      "fmax": 1998951144.562,
+      "kappa": 1.0988403871137e-28,
+      "initial_energy": 14.577579483854999
+    }
+  },
+  "overall": {
+    "tasks": 61,
+    "CPU_stage_tasks": 54,
+    "TX_stage_tasks": 7,
+    "CPU_stage_status": {
+      "EXPIRED": 52,
+      "TRUNCATED": 2
+    },
+    "no_positive_CPU_service_tasks": 25,
+    "deadline_capacity_shortfall_tasks": 0,
+    "observed_capacity_shortfall_tasks": 0,
+    "arrival_energy_below_completion_lower_bound_tasks": 19,
+    "any_all_heads_energy_blocked_tasks": 21,
+    "entire_window_all_heads_energy_blocked_tasks": 18,
+    "CPU_stage_destination_counts": {
+      "2": 27,
+      "1": 20,
+      "3": 6,
+      "0": 1
+    },
+    "service_kind_task_slots": {
+      "behind_same_source_EDF_head": 695,
+      "all_heads_energy_blocked": 714,
+      "target_served": 275,
+      "other_source_queue_served": 329
+    },
+    "mean_observed_CPU_window_slots": 37.27777777777778,
+    "mean_full_frequency_required_slots": 14.296296296296296,
+    "median_initial_wait_observed_slots": 21.0
+  },
+  "per_seed": {
+    "1042": {
+      "tasks": 15,
+      "CPU_stage_tasks": 11,
+      "TX_stage_tasks": 4,
+      "CPU_stage_status": {
+        "EXPIRED": 9,
+        "TRUNCATED": 2
+      },
+      "no_positive_CPU_service_tasks": 10,
+      "deadline_capacity_shortfall_tasks": 0,
+      "observed_capacity_shortfall_tasks": 0,
+      "arrival_energy_below_completion_lower_bound_tasks": 10,
+      "any_all_heads_energy_blocked_tasks": 11,
+      "entire_window_all_heads_energy_blocked_tasks": 9,
+      "CPU_stage_destination_counts": {
+        "2": 11
+      },
+      "service_kind_task_slots": {
+        "behind_same_source_EDF_head": 13,
+        "all_heads_energy_blocked": 398,
+        "target_served": 4
+      },
+      "mean_observed_CPU_window_slots": 37.72727272727273,
+      "mean_full_frequency_required_slots": 8.818181818181818,
+      "median_initial_wait_observed_slots": 24
+    },
+    "1043": {
+      "tasks": 13,
+      "CPU_stage_tasks": 13,
+      "TX_stage_tasks": 0,
+      "CPU_stage_status": {
+        "EXPIRED": 13
+      },
+      "no_positive_CPU_service_tasks": 2,
+      "deadline_capacity_shortfall_tasks": 0,
+      "observed_capacity_shortfall_tasks": 0,
+      "arrival_energy_below_completion_lower_bound_tasks": 0,
+      "any_all_heads_energy_blocked_tasks": 0,
+      "entire_window_all_heads_energy_blocked_tasks": 0,
+      "CPU_stage_destination_counts": {
+        "1": 9,
+        "3": 4
+      },
+      "service_kind_task_slots": {
+        "target_served": 103,
+        "other_source_queue_served": 108,
+        "behind_same_source_EDF_head": 247
+      },
+      "mean_observed_CPU_window_slots": 35.23076923076923,
+      "mean_full_frequency_required_slots": 18.692307692307693,
+      "median_initial_wait_observed_slots": 12
+    },
+    "1044": {
+      "tasks": 26,
+      "CPU_stage_tasks": 23,
+      "TX_stage_tasks": 3,
+      "CPU_stage_status": {
+        "EXPIRED": 23
+      },
+      "no_positive_CPU_service_tasks": 13,
+      "deadline_capacity_shortfall_tasks": 0,
+      "observed_capacity_shortfall_tasks": 0,
+      "arrival_energy_below_completion_lower_bound_tasks": 9,
+      "any_all_heads_energy_blocked_tasks": 10,
+      "entire_window_all_heads_energy_blocked_tasks": 9,
+      "CPU_stage_destination_counts": {
+        "2": 16,
+        "1": 5,
+        "3": 2
+      },
+      "service_kind_task_slots": {
+        "other_source_queue_served": 221,
+        "behind_same_source_EDF_head": 164,
+        "target_served": 62,
+        "all_heads_energy_blocked": 316
+      },
+      "mean_observed_CPU_window_slots": 33.17391304347826,
+      "mean_full_frequency_required_slots": 10.347826086956522,
+      "median_initial_wait_observed_slots": 24
+    },
+    "1045": {
+      "tasks": 3,
+      "CPU_stage_tasks": 3,
+      "TX_stage_tasks": 0,
+      "CPU_stage_status": {
+        "EXPIRED": 3
+      },
+      "no_positive_CPU_service_tasks": 0,
+      "deadline_capacity_shortfall_tasks": 0,
+      "observed_capacity_shortfall_tasks": 0,
+      "arrival_energy_below_completion_lower_bound_tasks": 0,
+      "any_all_heads_energy_blocked_tasks": 0,
+      "entire_window_all_heads_energy_blocked_tasks": 0,
+      "CPU_stage_destination_counts": {
+        "1": 3
+      },
+      "service_kind_task_slots": {
+        "behind_same_source_EDF_head": 94,
+        "target_served": 48
+      },
+      "mean_observed_CPU_window_slots": 47.333333333333336,
+      "mean_full_frequency_required_slots": 26,
+      "median_initial_wait_observed_slots": 21
+    },
+    "1046": {
+      "tasks": 4,
+      "CPU_stage_tasks": 4,
+      "TX_stage_tasks": 0,
+      "CPU_stage_status": {
+        "EXPIRED": 4
+      },
+      "no_positive_CPU_service_tasks": 0,
+      "deadline_capacity_shortfall_tasks": 0,
+      "observed_capacity_shortfall_tasks": 0,
+      "arrival_energy_below_completion_lower_bound_tasks": 0,
+      "any_all_heads_energy_blocked_tasks": 0,
+      "entire_window_all_heads_energy_blocked_tasks": 0,
+      "CPU_stage_destination_counts": {
+        "1": 3,
+        "0": 1
+      },
+      "service_kind_task_slots": {
+        "behind_same_source_EDF_head": 177,
+        "target_served": 58
+      },
+      "mean_observed_CPU_window_slots": 58.75,
+      "mean_full_frequency_required_slots": 29,
+      "median_initial_wait_observed_slots": 16.0
+    }
+  },
+  "CPU_resource_statistics": [
+    {
+      "method": "C",
+      "seed": 1042,
+      "uav_id": 0,
+      "profile": "Balanced",
+      "initial_energy_j": 31.33677569895,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 383,
+      "final_energy_j": 25.404326876690508
+    },
+    {
+      "method": "C",
+      "seed": 1042,
+      "uav_id": 1,
+      "profile": "Resource-poor",
+      "initial_energy_j": 24.138019675655997,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 113,
+      "final_energy_j": 23.004077836550554
+    },
+    {
+      "method": "C",
+      "seed": 1042,
+      "uav_id": 2,
+      "profile": "Compute-rich",
+      "initial_energy_j": 34.645961989287,
+      "blocked_backlog_slots": 168,
+      "first_blocked_backlog_slot": 332,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 317,
+      "final_energy_j": 0.001299005820286468
+    },
+    {
+      "method": "C",
+      "seed": 1042,
+      "uav_id": 3,
+      "profile": "Energy-limited",
+      "initial_energy_j": 14.577579483854999,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 407,
+      "final_energy_j": 7.6684373641134025
+    },
+    {
+      "method": "C",
+      "seed": 1043,
+      "uav_id": 0,
+      "profile": "Balanced",
+      "initial_energy_j": 31.33677569895,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 462,
+      "final_energy_j": 24.08083644562974
+    },
+    {
+      "method": "C",
+      "seed": 1043,
+      "uav_id": 1,
+      "profile": "Resource-poor",
+      "initial_energy_j": 24.138019675655997,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 380,
+      "final_energy_j": 21.065869013688665
+    },
+    {
+      "method": "C",
+      "seed": 1043,
+      "uav_id": 2,
+      "profile": "Compute-rich",
+      "initial_energy_j": 34.645961989287,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 135,
+      "final_energy_j": 19.50642386551695
+    },
+    {
+      "method": "C",
+      "seed": 1043,
+      "uav_id": 3,
+      "profile": "Energy-limited",
+      "initial_energy_j": 14.577579483854999,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 436,
+      "final_energy_j": 6.7075397602732405
+    },
+    {
+      "method": "C",
+      "seed": 1044,
+      "uav_id": 0,
+      "profile": "Balanced",
+      "initial_energy_j": 31.33677569895,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 239,
+      "final_energy_j": 27.47604834722539
+    },
+    {
+      "method": "C",
+      "seed": 1044,
+      "uav_id": 1,
+      "profile": "Resource-poor",
+      "initial_energy_j": 24.138019675655997,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 212,
+      "final_energy_j": 22.258475258428753
+    },
+    {
+      "method": "C",
+      "seed": 1044,
+      "uav_id": 2,
+      "profile": "Compute-rich",
+      "initial_energy_j": 34.645961989287,
+      "blocked_backlog_slots": 129,
+      "first_blocked_backlog_slot": 371,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 313,
+      "final_energy_j": 0.0004255489234453573
+    },
+    {
+      "method": "C",
+      "seed": 1044,
+      "uav_id": 3,
+      "profile": "Energy-limited",
+      "initial_energy_j": 14.577579483854999,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 250,
+      "final_energy_j": 9.813801248233194
+    },
+    {
+      "method": "C",
+      "seed": 1045,
+      "uav_id": 0,
+      "profile": "Balanced",
+      "initial_energy_j": 31.33677569895,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 461,
+      "final_energy_j": 23.986755965762704
+    },
+    {
+      "method": "C",
+      "seed": 1045,
+      "uav_id": 1,
+      "profile": "Resource-poor",
+      "initial_energy_j": 24.138019675655997,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 355,
+      "final_energy_j": 21.449467253090987
+    },
+    {
+      "method": "C",
+      "seed": 1045,
+      "uav_id": 2,
+      "profile": "Compute-rich",
+      "initial_energy_j": 34.645961989287,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 92,
+      "final_energy_j": 24.230638217985913
+    },
+    {
+      "method": "C",
+      "seed": 1045,
+      "uav_id": 3,
+      "profile": "Energy-limited",
+      "initial_energy_j": 14.577579483854999,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 376,
+      "final_energy_j": 8.170074433259309
+    },
+    {
+      "method": "C",
+      "seed": 1046,
+      "uav_id": 0,
+      "profile": "Balanced",
+      "initial_energy_j": 31.33677569895,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 496,
+      "final_energy_j": 23.371562297520757
+    },
+    {
+      "method": "C",
+      "seed": 1046,
+      "uav_id": 1,
+      "profile": "Resource-poor",
+      "initial_energy_j": 24.138019675655997,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 392,
+      "final_energy_j": 21.07402906430416
+    },
+    {
+      "method": "C",
+      "seed": 1046,
+      "uav_id": 2,
+      "profile": "Compute-rich",
+      "initial_energy_j": 34.645961989287,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 78,
+      "final_energy_j": 25.888348680249848
+    },
+    {
+      "method": "C",
+      "seed": 1046,
+      "uav_id": 3,
+      "profile": "Energy-limited",
+      "initial_energy_j": 14.577579483854999,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 327,
+      "final_energy_j": 9.021441539041064
+    },
+    {
+      "method": "heuristic",
+      "seed": 1042,
+      "uav_id": 0,
+      "profile": "Balanced",
+      "initial_energy_j": 31.33677569895,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 483,
+      "final_energy_j": 26.68453916764856
+    },
+    {
+      "method": "heuristic",
+      "seed": 1042,
+      "uav_id": 1,
+      "profile": "Resource-poor",
+      "initial_energy_j": 24.138019675655997,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 487,
+      "final_energy_j": 21.16140060846809
+    },
+    {
+      "method": "heuristic",
+      "seed": 1042,
+      "uav_id": 2,
+      "profile": "Compute-rich",
+      "initial_energy_j": 34.645961989287,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 495,
+      "final_energy_j": 13.949419938834732
+    },
+    {
+      "method": "heuristic",
+      "seed": 1042,
+      "uav_id": 3,
+      "profile": "Energy-limited",
+      "initial_energy_j": 14.577579483854999,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 457,
+      "final_energy_j": 8.672257701898186
+    },
+    {
+      "method": "heuristic",
+      "seed": 1043,
+      "uav_id": 0,
+      "profile": "Balanced",
+      "initial_energy_j": 31.33677569895,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 417,
+      "final_energy_j": 26.18403922004297
+    },
+    {
+      "method": "heuristic",
+      "seed": 1043,
+      "uav_id": 1,
+      "profile": "Resource-poor",
+      "initial_energy_j": 24.138019675655997,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 492,
+      "final_energy_j": 20.765020731209873
+    },
+    {
+      "method": "heuristic",
+      "seed": 1043,
+      "uav_id": 2,
+      "profile": "Compute-rich",
+      "initial_energy_j": 34.645961989287,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 242,
+      "final_energy_j": 33.86400124575742
+    },
+    {
+      "method": "heuristic",
+      "seed": 1043,
+      "uav_id": 3,
+      "profile": "Energy-limited",
+      "initial_energy_j": 14.577579483854999,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 422,
+      "final_energy_j": 9.427156192798092
+    },
+    {
+      "method": "heuristic",
+      "seed": 1044,
+      "uav_id": 0,
+      "profile": "Balanced",
+      "initial_energy_j": 31.33677569895,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 428,
+      "final_energy_j": 28.132890345326594
+    },
+    {
+      "method": "heuristic",
+      "seed": 1044,
+      "uav_id": 1,
+      "profile": "Resource-poor",
+      "initial_energy_j": 24.138019675655997,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 476,
+      "final_energy_j": 21.008148329190618
+    },
+    {
+      "method": "heuristic",
+      "seed": 1044,
+      "uav_id": 2,
+      "profile": "Compute-rich",
+      "initial_energy_j": 34.645961989287,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 431,
+      "final_energy_j": 16.27140821185076
+    },
+    {
+      "method": "heuristic",
+      "seed": 1044,
+      "uav_id": 3,
+      "profile": "Energy-limited",
+      "initial_energy_j": 14.577579483854999,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 435,
+      "final_energy_j": 8.8050478221652
+    },
+    {
+      "method": "heuristic",
+      "seed": 1045,
+      "uav_id": 0,
+      "profile": "Balanced",
+      "initial_energy_j": 31.33677569895,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 361,
+      "final_energy_j": 27.415992193452595
+    },
+    {
+      "method": "heuristic",
+      "seed": 1045,
+      "uav_id": 1,
+      "profile": "Resource-poor",
+      "initial_energy_j": 24.138019675655997,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 475,
+      "final_energy_j": 21.11330222398295
+    },
+    {
+      "method": "heuristic",
+      "seed": 1045,
+      "uav_id": 2,
+      "profile": "Compute-rich",
+      "initial_energy_j": 34.645961989287,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 294,
+      "final_energy_j": 32.66223906697384
+    },
+    {
+      "method": "heuristic",
+      "seed": 1045,
+      "uav_id": 3,
+      "profile": "Energy-limited",
+      "initial_energy_j": 14.577579483854999,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 404,
+      "final_energy_j": 9.291760853993221
+    },
+    {
+      "method": "heuristic",
+      "seed": 1046,
+      "uav_id": 0,
+      "profile": "Balanced",
+      "initial_energy_j": 31.33677569895,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 468,
+      "final_energy_j": 25.508774579564015
+    },
+    {
+      "method": "heuristic",
+      "seed": 1046,
+      "uav_id": 1,
+      "profile": "Resource-poor",
+      "initial_energy_j": 24.138019675655997,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 497,
+      "final_energy_j": 20.84767097483522
+    },
+    {
+      "method": "heuristic",
+      "seed": 1046,
+      "uav_id": 2,
+      "profile": "Compute-rich",
+      "initial_energy_j": 34.645961989287,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 224,
+      "final_energy_j": 32.60913836788807
+    },
+    {
+      "method": "heuristic",
+      "seed": 1046,
+      "uav_id": 3,
+      "profile": "Energy-limited",
+      "initial_energy_j": 14.577579483854999,
+      "blocked_backlog_slots": 0,
+      "first_blocked_backlog_slot": null,
+      "energy_feasible_idle_backlog_slots": 0,
+      "positive_service_slots": 382,
+      "final_energy_j": 9.950625832082446
+    }
+  ],
+  "definitions": {
+    "CPU_eligibility": "Remote tx_complete_slot+1; local route_bind_slot+1. Service and deadline settlement are inclusive at deadline_slot.",
+    "observed_end": "min(deadline_slot, episode_horizon-1); truncated tasks are right censored, not deadline failures.",
+    "queue_order": "Each (source,destination) CPU queue is EDF then task ID; cross-source selection is not globally EDF by contract.",
+    "energy_before": "residual_energy_after + actual_CPU_debit + single_link_TX_debit; checked against previous slot residual/initial capability.",
+    "all_heads_energy_blocked": "At slot start no current CPU source-queue head can afford any positive allowed frequency, using actual partial-slot reservation and original energy tolerance.",
+    "arrival_energy_lower_bound": "kappa*(0.25*fmax)^2*required_cycles; ignores all other tasks and TX costs and time limitations. Energy below this is sufficient evidence that the task cannot finish on this destination from that remaining budget.",
+    "capacity_lower_bound": "Full-frequency uninterrupted CPU service ignoring contention and energy. Sufficient individual time capacity does not imply system-wide schedulability.",
+    "service_kind_precedence": [
+      "target_served",
+      "all_heads_energy_blocked",
+      "behind_same_source_EDF_head",
+      "target_head_energy_blocked",
+      "other_source_queue_served",
+      "no_service_with_energy_feasible_target_head"
+    ]
+  }
+}

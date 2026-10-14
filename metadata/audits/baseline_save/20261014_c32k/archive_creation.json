@@ -1,0 +1,35 @@
+{
+  "assets": [
+    {
+      "name": "baseline-c32k-20261014-A-recovery.zip",
+      "bytes": 249244667,
+      "sha256": "7cc2342faa99c2ee38e787d1a069aea9c02e6ac03db86dd7a56d0d1247814b76",
+      "original_bytes": 1868310852,
+      "file_count": 63
+    },
+    {
+      "name": "baseline-c32k-20261014-B-recovery.zip",
+      "bytes": 247424119,
+      "sha256": "5de807fb1ae0ca81547265752efeb1a1fbbfea0f4890822b9de6eda69784b851",
+      "original_bytes": 1813409813,
+      "file_count": 62
+    },
+    {
+      "name": "baseline-c32k-20261014-C-recovery.zip",
+      "bytes": 480298152,
+      "sha256": "6c6bdc909a6c4c3f35202dcf949c4305b7d7ccfc810c9e040953754e23158558",
+      "original_bytes": 3497346808,
+      "file_count": 134
+    },
+    {
+      "name": "baseline-c32k-20261014-support-recovery.zip",
+      "bytes": 14609905,
+      "sha256": "9b3151ce667de9238d05996880e50821abbc541a85668dfda6abd159ecff8d0d",
+      "original_bytes": 18752828,
+      "file_count": 10
+    }
+  ],
+  "total_original_bytes": 7197820301,
+  "total_archive_bytes": 991576843,
+  "seconds": 52.53793670004234
+}

@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "unprotected_empty_directories": [],
+  "unprotected_zip_files": [],
+  "test_temp_or_cache_files": [],
+  "output_root_directories": {
+    "logs": [
+      "A",
+      "B",
+      "C"
+    ],
+    "dashboard_logs": [
+      "A",
+      "B",
+      "C"
+    ],
+    "plots": [
+      "A",
+      "B",
+      "C"
+    ],
+    "docs": [
+      "reproduction",
+      "results"
+    ]
+  },
+  "relocated_files_verified": 120,
+  "runtime_source_files_verified": 108,
+  "core_manuscript_files_verified": 8,
+  "navigation_links_verified": true,
+  "protected_directories_excluded_from_cleanup": [
+    ".agents",
+    ".git",
+    "knowledge"
+  ],
+  "github_upload_or_lfs_setup_performed": false,
+  "full_regression_result": "1261 passed, 338 subtests passed",
+  "directory_guide": "docs/DIRECTORY_GUIDE.md"
+}

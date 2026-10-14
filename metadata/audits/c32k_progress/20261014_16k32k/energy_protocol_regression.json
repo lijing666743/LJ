@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "reference": "metadata/audits/c_energy_progress/20261013_12k16k/comparison_summary.json",
+  "field_comparisons": 32,
+  "scene_reconstructions": [
+    {
+      "checkpoint": 12000,
+      "seed": 1042,
+      "validation_counts": {
+        "energy_balance": 2000,
+        "CPU_queue": 2000,
+        "TX_attempt_gate": 2000,
+        "EDF_and_service_amount": 1212,
+        "final_task_cycles": 135
+      }
+    },
+    {
+      "checkpoint": 12000,
+      "seed": 1043,
+      "validation_counts": {
+        "energy_balance": 2000,
+        "CPU_queue": 2000,
+        "TX_attempt_gate": 2000,
+        "EDF_and_service_amount": 1200,
+        "final_task_cycles": 122
+      }
+    },
+    {
+      "checkpoint": 12000,
+      "seed": 1044,
+      "validation_counts": {
+        "energy_balance": 2000,
+        "CPU_queue": 2000,
+        "TX_attempt_gate": 2000,
+        "EDF_and_service_amount": 1038,
+        "final_task_cycles": 117
+      }
+    },
+    {
+      "checkpoint": 12000,
+      "seed": 1045,
+      "validation_counts": {
+        "energy_balance": 2000,
+        "CPU_queue": 2000,
+        "TX_attempt_gate": 2000,
+        "EDF_and_service_amount": 804,
+        "final_task_cycles": 102
+      }
+    },
+    {
+      "checkpoint": 12000,
+      "seed": 1046,
+      "validation_counts": {
+        "energy_balance": 2000,
+        "CPU_queue": 2000,
+        "TX_attempt_gate": 2000,
+        "EDF_and_service_amount": 721,
+        "final_task_cycles": 129
+      }
+    },
+    {
+      "checkpoint": 16000,
+      "seed": 1042,
+      "validation_counts": {
+        "energy_balance": 2000,
+        "CPU_queue": 2000,
+        "TX_attempt_gate": 2000,
+        "EDF_and_service_amount": 1220,
+        "final_task_cycles": 135
+      }
+    },
+    {
+      "checkpoint": 16000,
+      "seed": 1043,
+      "validation_counts": {
+        "energy_balance": 2000,
+        "CPU_queue": 2000,
+        "TX_attempt_gate": 2000,
+        "EDF_and_service_amount": 1413,
+        "final_task_cycles": 122
+      }
+    },
+    {
+      "checkpoint": 16000,
+      "seed": 1044,
+      "validation_counts": {
+        "energy_balance": 2000,
+        "CPU_queue": 2000,
+        "TX_attempt_gate": 2000,
+        "EDF_and_service_amount": 1014,
+        "final_task_cycles": 117
+      }
+    },
+    {
+      "checkpoint": 16000,
+      "seed": 1045,
+      "validation_counts": {
+        "energy_balance": 2000,
+        "CPU_queue": 2000,
+        "TX_attempt_gate": 2000,
+        "EDF_and_service_amount": 1284,
+        "final_task_cycles": 102
+      }
+    },
+    {
+      "checkpoint": 16000,
+      "seed": 1046,
+      "validation_counts": {
+        "energy_balance": 2000,
+        "CPU_queue": 2000,
+        "TX_attempt_gate": 2000,
+        "EDF_and_service_amount": 1293,
+        "final_task_cycles": 129
+      }
+    }
+  ]
+}

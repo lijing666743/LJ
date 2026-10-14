@@ -1,0 +1,132 @@
+[
+  {
+    "step": 16000,
+    "path": "D:\\My_project_li\\logs\\C\\seed42\\32k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a\\checkpoints\\step_16000.pt",
+    "sha256": "2c5594728c974c3cffebda7eff8c4b26cc6fda9f693eabedada0a39dc84b6249",
+    "training_state": {
+      "policy_version": 62,
+      "started_episodes": 32,
+      "completed_episodes": 32,
+      "next_episode_index": 32,
+      "collected_environment_transitions": 16000,
+      "optimized_transitions": 15872,
+      "ppo_update_count": 62,
+      "unused_final_tail_transitions": 0,
+      "training_complete": false,
+      "active_rollout_length": 128,
+      "active_rollout_policy_version": 62
+    },
+    "runtime": {
+      "python_version": "3.13.11",
+      "torch_version": "2.7.1+cu118",
+      "cuda_runtime_version": "11.8",
+      "device_type": "cuda",
+      "device_name": "NVIDIA GeForce MX450",
+      "dtype": "torch.float32"
+    }
+  },
+  {
+    "step": 20000,
+    "path": "D:\\My_project_li\\logs\\C\\seed42\\32k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a\\checkpoints\\step_20000.pt",
+    "sha256": "afd9b73163e61d8fb9891986f9be509fd8b80e2ec38fbb95cbf2eed23027d79e",
+    "training_state": {
+      "policy_version": 78,
+      "started_episodes": 40,
+      "completed_episodes": 40,
+      "next_episode_index": 40,
+      "collected_environment_transitions": 20000,
+      "optimized_transitions": 19968,
+      "ppo_update_count": 78,
+      "unused_final_tail_transitions": 0,
+      "training_complete": false,
+      "active_rollout_length": 32,
+      "active_rollout_policy_version": 78
+    },
+    "runtime": {
+      "python_version": "3.13.11",
+      "torch_version": "2.7.1+cu118",
+      "cuda_runtime_version": "11.8",
+      "device_type": "cuda",
+      "device_name": "NVIDIA GeForce MX450",
+      "dtype": "torch.float32"
+    }
+  },
+  {
+    "step": 24000,
+    "path": "D:\\My_project_li\\logs\\C\\seed42\\32k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a\\checkpoints\\step_24000.pt",
+    "sha256": "ceb8caf8beebcba021eb8b8f19061c8a74b748d1c49629f4870a739becbd4a0a",
+    "training_state": {
+      "policy_version": 93,
+      "started_episodes": 48,
+      "completed_episodes": 48,
+      "next_episode_index": 48,
+      "collected_environment_transitions": 24000,
+      "optimized_transitions": 23808,
+      "ppo_update_count": 93,
+      "unused_final_tail_transitions": 0,
+      "training_complete": false,
+      "active_rollout_length": 192,
+      "active_rollout_policy_version": 93
+    },
+    "runtime": {
+      "python_version": "3.13.11",
+      "torch_version": "2.7.1+cu118",
+      "cuda_runtime_version": "11.8",
+      "device_type": "cuda",
+      "device_name": "NVIDIA GeForce MX450",
+      "dtype": "torch.float32"
+    }
+  },
+  {
+    "step": 28000,
+    "path": "D:\\My_project_li\\logs\\C\\seed42\\32k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a\\checkpoints\\step_28000.pt",
+    "sha256": "940cef6a89ffa43bcb23747f0e9f2740411afc5c526053193df24eb00cba360c",
+    "training_state": {
+      "policy_version": 109,
+      "started_episodes": 56,
+      "completed_episodes": 56,
+      "next_episode_index": 56,
+      "collected_environment_transitions": 28000,
+      "optimized_transitions": 27904,
+      "ppo_update_count": 109,
+      "unused_final_tail_transitions": 0,
+      "training_complete": false,
+      "active_rollout_length": 96,
+      "active_rollout_policy_version": 109
+    },
+    "runtime": {
+      "python_version": "3.13.11",
+      "torch_version": "2.7.1+cu118",
+      "cuda_runtime_version": "11.8",
+      "device_type": "cuda",
+      "device_name": "NVIDIA GeForce MX450",
+      "dtype": "torch.float32"
+    }
+  },
+  {
+    "step": 32000,
+    "path": "D:\\My_project_li\\logs\\C\\seed42\\32k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a\\checkpoints\\final.pt",
+    "sha256": "7b1191d87095e6dd08a6c5523475cfc9c9c67494cffed4f7ef287379efa656b2",
+    "training_state": {
+      "policy_version": 125,
+      "started_episodes": 64,
+      "completed_episodes": 64,
+      "next_episode_index": 64,
+      "collected_environment_transitions": 32000,
+      "optimized_transitions": 32000,
+      "ppo_update_count": 125,
+      "unused_final_tail_transitions": 0,
+      "training_complete": true,
+      "active_rollout_length": 0,
+      "active_rollout_policy_version": null
+    },
+    "runtime": {
+      "python_version": "3.13.11",
+      "torch_version": "2.7.1+cu118",
+      "cuda_runtime_version": "11.8",
+      "device_type": "cuda",
+      "device_name": "NVIDIA GeForce MX450",
+      "dtype": "torch.float32"
+    }
+  }
+]

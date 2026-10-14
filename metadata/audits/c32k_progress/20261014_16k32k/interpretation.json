@@ -1,0 +1,31 @@
+{
+  "scope": "C training seed42, fixed development seeds1042-1046,605 identical generated tasks per checkpoint",
+  "main_finding": "Completion improves from16k to32k, with a narrow aggregate completion band after20k, while energy-aware behavior has not improved consistently.",
+  "findings": [
+    "The32k run completed64 episodes and125 PPO updates, optimized all32000 transitions and left no unused tail. Its16k periodic state exactly matches the prior16k final for actor, critic, two Adam states, policy RNG, saved diagnostics and core counters;128 regenerated pending transitions were retained.",
+    "Pooled completion at16k/20k/24k/28k/32k is64.13/68.43/68.60/67.77/68.76 percent, with388/414/415/410/416 completed tasks.20k-to32k adds only2 net completions, but individual scene and task outcomes still change.",
+    "From16k to32k the scene DONE changes are0,+17,+2,+10,-1 for1042-1046. Scenes1043 and1045 account for27 of the28 net additional completions. In1044 the20k model completes90 tasks but the32k model completes82.",
+    "The32k checkpoint newly completes59 tasks and loses31 completions relative to16k. Aggregate flatness therefore does not imply stable success sets or parameter convergence.",
+    "Total energy rises179.31 to192.23 J, or7.21 percent, while energy per DONE remains approximately0.462 J. More completed tasks account for much of the additional energy; no energy-efficiency gain is demonstrated.",
+    "Published-energy-infeasible remote assignments change31/466 to34/420,6.65 to8.10 percent. Missing-public cases remain15 and are excluded from the numerator. CPU energy-blocked UAV-slots change297 to290 out of10000. Post-persistent-blockage assignments rise32 to36; the32k outcomes are27 EXPIRED and9 TRUNCATED, all at CPU_WAIT.",
+    "Against heuristic, C32k completes416 versus371 tasks,68.76 versus61.32 percent, a7.44 percentage-point gain. Energy per DONE is0.4621 versus0.2943 J,57.04 percent higher.93.50 percent of the additional83.07 J is CPU energy.",
+    "Against local_only, C32k completes416 versus323 tasks,68.76 versus53.39 percent, a15.37 percentage-point gain, with25.78 percent higher energy per DONE.",
+    "C32k and heuristic share314 DONE tasks; C alone completes102 and heuristic alone completes57. Of those57 failures in C,52 terminate at CPU stages and5 at TX_WAIT.",
+    "The final four nonoverlapping8-episode training reward means rise approximately-65.20,-59.56,-45.40,-39.06, with substantial variability. These stochastic, different-seed training episodes and fixed-scene argmax evaluation answer different questions and should not be merged."
+  ],
+  "recommendation": "Keep32k as this predeclared run endpoint and retain it as a candidate main-method checkpoint. Do not extend seed42 again on this evidence alone. Completion is promising, while the energy tradeoff remains explicit and convergence is unproven.",
+  "next_step_plan": {
+    "first": "Prepare independent C training-seed43/44 runs from initialization through the same32k budget, with the same science and development evaluation protocol. Preparation and commands only; no automatic training launch.",
+    "purpose": "Check whether the completion gains and energy tradeoffs reproduce across training randomness rather than increasing one seed's budget indefinitely.",
+    "fair_abc_requirement": "Before claiming C better than A/B, complete their matched32k budget comparison and use independent training seeds. Current A/B16k versus C32k is not a fair method ranking.",
+    "held_out_policy": "Seeds20042-20061 remain unused during this diagnostic; preserve them for the subsequently frozen final protocol.",
+    "scientific_changes": "No reward, environment, feature, mask or PPO changes are justified by this descriptive result alone."
+  },
+  "limits": [
+    "Only one training seed and five development scenes were evaluated.",
+    "Public energy and message age are reconstructed from causal saved traces, not directly logged full actor inputs.",
+    "The minimum-frequency individual-task energy bound ignores queue contention, other tasks and transmission energy.",
+    "20k-32k aggregate completion plateau evidence is descriptive and does not establish convergence.",
+    "32k remains the predeclared endpoint; earlier diagnostic checkpoints are not retrospectively selected as a new final."
+  ]
+}

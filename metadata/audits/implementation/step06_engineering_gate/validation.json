@@ -1,0 +1,88 @@
+{
+  "schema": "task_allocation.step06.validation.v1",
+  "status": "PASS",
+  "completed_step": 6,
+  "created_at_utc": "2026-10-12T07:29:55.958788+00:00",
+  "runs": {
+    "full_regression01": {
+      "test_cases": 1350,
+      "passed": 1344,
+      "failures": [
+        "tests.test_route_sidecar_repair.RouteSidecarRepairTests::test_4001_to_5359_tail_and_byte_exact_backup",
+        "tests.test_route_sidecar_repair.RouteSidecarRepairTests::test_apply_preserves_conditional_trace_backup_and_live_bytes",
+        "tests.test_route_sidecar_repair.RouteSidecarRepairTests::test_cross_rollout_task_uses_action_time_not_task_arrival",
+        "tests.test_route_sidecar_repair.RouteSidecarRepairTests::test_native_writer_collision_before_and_append_after_repair",
+        "tests.test_route_sidecar_repair.RouteSidecarRepairTests::test_second_run_is_noop_and_has_no_duplicate_keys",
+        "tests.test_route_slot_workload_timing.RouteSlotWorkloadTimingTests::test_config_default_enum_validation_and_legacy_canonical_identity"
+      ],
+      "subtests": 338,
+      "duration_seconds": 2013.971,
+      "xml": "logs\\development\\task_allocation\\step06_engineering_gate\\full_regression01.xml",
+      "stdout": "logs\\development\\task_allocation\\step06_engineering_gate\\full_regression01.txt"
+    },
+    "full_failure_retest01": {
+      "test_cases": 24,
+      "passed": 24,
+      "failures": [],
+      "subtests": 0,
+      "duration_seconds": 6.21,
+      "xml": "logs\\development\\task_allocation\\step06_engineering_gate\\full_failure_retest01.xml",
+      "stdout": "logs\\development\\task_allocation\\step06_engineering_gate\\full_failure_retest01.txt"
+    },
+    "loader_regression01": {
+      "test_cases": 137,
+      "passed": 137,
+      "failures": [],
+      "subtests": 30,
+      "duration_seconds": 562.525,
+      "xml": "logs\\development\\task_allocation\\step06_engineering_gate\\loader_regression01.xml",
+      "stdout": "logs\\development\\task_allocation\\step06_engineering_gate\\loader_regression01.txt"
+    },
+    "integration04": {
+      "test_cases": 10,
+      "passed": 10,
+      "failures": [],
+      "subtests": 0,
+      "duration_seconds": 567.431,
+      "xml": "logs\\development\\task_allocation\\step06_engineering_gate\\integration04.xml",
+      "stdout": "logs\\development\\task_allocation\\step06_engineering_gate\\integration04.txt"
+    },
+    "lifecycle_final": {
+      "test_cases": 7,
+      "passed": 7,
+      "failures": [],
+      "subtests": 0,
+      "duration_seconds": 8.767,
+      "xml": "logs\\development\\task_allocation\\step06_engineering_gate\\lifecycle_final.xml",
+      "stdout": "logs\\development\\task_allocation\\step06_engineering_gate\\lifecycle_final.txt"
+    }
+  },
+  "unique_test_cases_passed_across_runs": 1360,
+  "unresolved_test_failures": [],
+  "full_suite_history": "Initial full suite: 1344 passed, 6 failed, 338 subtests passed. All six failures resolved by complete affected-module rerun (24 passed). This is not a claim of a second all-green full-suite invocation.",
+  "source_coverage": "Full suite began before the actor_loader patch; final patched loader was covered by 137 related cases and real ABC integration. Final lifecycle assertion additions were rerun separately (7 cases).",
+  "resolved_initial_failures": [
+    "tests.test_route_sidecar_repair.RouteSidecarRepairTests::test_4001_to_5359_tail_and_byte_exact_backup",
+    "tests.test_route_sidecar_repair.RouteSidecarRepairTests::test_apply_preserves_conditional_trace_backup_and_live_bytes",
+    "tests.test_route_sidecar_repair.RouteSidecarRepairTests::test_cross_rollout_task_uses_action_time_not_task_arrival",
+    "tests.test_route_sidecar_repair.RouteSidecarRepairTests::test_native_writer_collision_before_and_append_after_repair",
+    "tests.test_route_sidecar_repair.RouteSidecarRepairTests::test_second_run_is_noop_and_has_no_duplicate_keys",
+    "tests.test_route_slot_workload_timing.RouteSlotWorkloadTimingTests::test_config_default_enum_validation_and_legacy_canonical_identity"
+  ],
+  "production_sources_changed_this_step": [
+    "src/evaluation/actor_loader.py"
+  ],
+  "existing_tests_updated": [
+    "tests/test_route_slot_workload_timing.py"
+  ],
+  "new_test": "tests/test_task_allocation_engineering_gate.py",
+  "candidate_configs": 9,
+  "configuration_diff_evidence": "logs\\development\\task_allocation\\step06_engineering_gate\\config_diff_and_identity.json",
+  "historical_load_evidence": "logs\\development\\task_allocation\\step06_engineering_gate\\historical_evaluation_loader.json",
+  "integration_evidence": "logs\\development\\task_allocation\\step06_engineering_gate\\integration_summary.json",
+  "cost_evidence": "logs\\development\\task_allocation\\step06_engineering_gate\\fixture_cost.json",
+  "protected_file_check": "protected_files_after.json",
+  "formal_training_started": false,
+  "ABC_pretraining_or_warmstart": false,
+  "diagnostic_resume_limitation": "Historical V1 restores only nine completed-epoch core diagnostics; optional pre-interruption telemetry is NA. Full learning state and subsequent real update are exact. Auxiliary Route outcomes from resumed training are not treated as a complete service census."
+}

@@ -1,0 +1,103 @@
+{
+  "status": "READY_FOR_USER_TO_START_C32K_CONTINUATION",
+  "formal_training_started": false,
+  "actual_12k_to_16k_replay_executed": false,
+  "method": "C",
+  "training_seed": 42,
+  "purpose": "bounded training-length diagnostic through 32k",
+  "target_config": "experiments/task-allocation/configs/c-seed42-32k-resume.json",
+  "target_config_file_sha256": "a971a3f20a1db5e326469570b2c7ddab6535a45069c386663f5bf0e8537a30b3",
+  "target_config_hash": "02c7757520b8decc37e6c93d044675c7a002b7c4ab452968768595d872830cdd",
+  "source_checkpoint": {
+    "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/checkpoints/step_12000.pt",
+    "sha256": "7c9034e00432c2545f8be8a972ac65580bec6602a7c3e061ef39fa76c91d3690",
+    "environment_steps": 12000,
+    "optimized_transitions": 11776,
+    "ppo_updates": 46,
+    "pending_transitions": 224
+  },
+  "replay_reference": {
+    "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/checkpoints/final.pt",
+    "sha256": "dc8754d7871161233d65ee488e2125dbc4258b555b0a3efb7d579c264800c087",
+    "environment_steps": 16000,
+    "optimized_transitions": 15872,
+    "ppo_updates": 62,
+    "unused_final_tail_transitions": 128
+  },
+  "resume_check": {
+    "status": "passed",
+    "environment_steps_executed": 0,
+    "optimizer_updates_executed": 0,
+    "restored": [
+      "actor",
+      "critic",
+      "actor Adam",
+      "critic Adam",
+      "policy RNG",
+      "pending rollout",
+      "saved diagnostics",
+      "training counters"
+    ],
+    "previous_8k_replay_status": "verified_exact",
+    "new_16k_replay_status_before_launch": "pending"
+  },
+  "boundary_contract": {
+    "verification_step": 16000,
+    "exact_comparison": [
+      "actor",
+      "critic",
+      "actor Adam",
+      "critic Adam",
+      "policy RNG",
+      "saved diagnostic history",
+      "PPO and episode counters"
+    ],
+    "regenerated_pending_transitions_retained": 128,
+    "first_post_boundary_ppo_update_step": 16128,
+    "failure_behavior": "stop at 16k before collecting any transition beyond the boundary",
+    "expected_success_message": "Replay verification passed at 16000; pending tail retained"
+  },
+  "target_accounting": {
+    "total_environment_steps": 32000,
+    "total_episodes": 64,
+    "optimized_transitions": 32000,
+    "ppo_updates": 125,
+    "unused_final_tail_transitions": 0,
+    "steps_executed_by_this_launch": 20000,
+    "replay_steps": 4000,
+    "new_steps_after_original_16k": 16000,
+    "saved_observation_points": [20000, 24000, 28000, 32000]
+  },
+  "configuration_scope": {
+    "changed_fields": 5,
+    "scientific_changes": false,
+    "changes": [
+      "max_training_episodes: 32 -> 64",
+      "max_training_environment_steps: 16000 -> 32000",
+      "new logs output root",
+      "new plots output root",
+      "new dashboard_logs output root"
+    ],
+    "reward_environment_route_and_ppo_hyperparameters_frozen": true
+  },
+  "validation": {
+    "pytest_passed": 86,
+    "pytest_subtests_passed": 26,
+    "junit_testcases": 112,
+    "failures": 0,
+    "errors": 0,
+    "includes_real_abc_ppo_extension": true,
+    "includes_second_c_extension": true,
+    "second_extension_compared_with_uninterrupted_training": true,
+    "frozen_existing_inputs": 429,
+    "changed_existing_inputs": 0,
+    "formal_32k_output_roots_created": false
+  },
+  "limits": [
+    "The actual CUDA 12k-to-16k replay has not run during preparation; the launch command performs and verifies it.",
+    "Legacy checkpoints do not contain a generic full-process Python, NumPy and Torch RNG snapshot; continuity is scoped to the fixed current pipeline and runtime.",
+    "Checkpoint saving does not automatically run the frozen development evaluation.",
+    "One C training seed and an unequal 32k-versus-16k budget cannot establish convergence or fair A/B/C superiority."
+  ],
+  "next_step": "User runs the reviewed PowerShell launch command, watches for the 16k replay-pass message, and stops to inspect any nonzero exit."
+}

@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "training_completed_integrity": "PASS",
+  "actual16k_replay_boundary_rechecked_exact": true,
+  "training_started_by_this_task": false,
+  "resume_or_replay_called_by_this_task": false,
+  "network_updates": 0,
+  "forbidden_call_counts": {
+    "trainer_constructor": 0,
+    "trainer_run": 0,
+    "resume": 0,
+    "ppo_update": 0,
+    "adam_step": 0,
+    "backward": 0,
+    "paired_shadow": 0
+  },
+  "new_evaluations": 4,
+  "new_episodes": 80,
+  "new_learned_episodes": 20,
+  "new_baseline_episodes": 60,
+  "new_baseline_episodes_exactly_matched": 60,
+  "new_task_initial_records_verified": 9680,
+  "same_generated_tasks_per_checkpoint": 605,
+  "functional_evaluation_protocol_sha256": "d2463e1929ea867212edec4774f54b2c5a6dbc9ef957f00dd2978402aec4849a",
+  "all_new_actors_frozen_eval_no_grad": true,
+  "held_out_seeds_used": [],
+  "energy_protocol_regression": {
+    "previous_checkpoints": [
+      12000,
+      16000
+    ],
+    "matched_statistical_fields": 32
+  },
+  "reconstruction_validation_counts": {
+    "energy_balance": 60000,
+    "CPU_queue": 60000,
+    "TX_attempt_gate": 60000,
+    "EDF_and_service_amount": 37455,
+    "final_task_cycles": 3630
+  },
+  "frozen_existing_inputs_unchanged": 461,
+  "changed_frozen_inputs": 0,
+  "existing_training_environment_reward_source_unchanged": true,
+  "new_offline_analysis_source": "src/evaluation/checkpoint_energy_audit.py",
+  "new_analysis_executes_environment_or_actor": false,
+  "tests": {
+    "passed": 32,
+    "subtests_passed": 8,
+    "junit_cases": 40,
+    "failures": 0,
+    "errors": 0
+  },
+  "claim_scope": "One training seed and five development scenes. Completion plateau is descriptive. No energy-efficiency advantage or matched-budget ABC superiority claimed."
+}

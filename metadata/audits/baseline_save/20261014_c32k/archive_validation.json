@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "assets": [
+    {
+      "asset": "baseline-c32k-20261014-A-recovery.zip",
+      "members_verified": 63,
+      "crc_and_sha256": "PASS"
+    },
+    {
+      "asset": "baseline-c32k-20261014-B-recovery.zip",
+      "members_verified": 62,
+      "crc_and_sha256": "PASS"
+    },
+    {
+      "asset": "baseline-c32k-20261014-C-recovery.zip",
+      "members_verified": 134,
+      "crc_and_sha256": "PASS"
+    },
+    {
+      "asset": "baseline-c32k-20261014-support-recovery.zip",
+      "members_verified": 10,
+      "crc_and_sha256": "PASS"
+    }
+  ],
+  "seconds": 17.66366930003278
+}

@@ -1,0 +1,90 @@
+{
+  "sections/methods/reading_view.html": {
+    "bytes": 717491,
+    "sha256": "e80a5ed58eaeb9e3392eb550e1bebd4f808602d9826085abf98b9ea8b71f499c"
+  },
+  "sections/methods/e14c_route_task_credit.md": {
+    "bytes": 9685,
+    "sha256": "4e309b1ceefddda07a027b465d5a630f2ce56434e646f26a5a5609a0fd780c42"
+  },
+  "sections/methods/e14d_p0_input_repair.md": {
+    "bytes": 28609,
+    "sha256": "029418f03f10ff39617b5f29d7dd838d5619b263bbd1e93fa5e54dbdc5611ce5"
+  },
+  "sections/methods/e14e_p1a_task_event_credit.md": {
+    "bytes": 13466,
+    "sha256": "f4afc3b41f29f8b6ef8d8da3c90a987f88e62b04dd8f2871f5ac36030741c017"
+  },
+  "sections/methods/route_candidate_interface_cpu_audit.md": {
+    "bytes": 5617,
+    "sha256": "fa9a78c7991a60a79d75ae7aca5ccde3c8edc2a8636912944edcf28d193779bb"
+  },
+  "sections/methods/unified_route_scoring_step03.md": {
+    "bytes": 5027,
+    "sha256": "f6c1ca02e73d802f352fee9b3efcc65f987d93a182b92281c60e111388042dc1"
+  },
+  "sections/methods/unified_route_learning_step04.md": {
+    "bytes": 6220,
+    "sha256": "4047ceb44f0f831c6c2b4e30a5c09b0acddfa8861f54162f7661788f5a8288b6"
+  },
+  "sections/methods/unified_route_physical_relations_step05.md": {
+    "bytes": 8623,
+    "sha256": "6d65672da1e564af25c2cbfb42dfd11ee16fe0454ecfbd85f35030a529d17f71"
+  },
+  "sections/history/cooperative_task_allocation_implementation_plan.md": {
+    "bytes": 28477,
+    "sha256": "9b207f462b92f27ce7c2074126c985d2b509edd365df708131c06a4b4adc7366"
+  },
+  "sections/history/task_allocation_experiment_handoff_step06.md": {
+    "bytes": 6234,
+    "sha256": "b6bbcfe1f3f4040cbced0b5a63df67b213fd5c47b79ab47a668bb735e0dd9a08"
+  },
+  "sections/README.md": {
+    "bytes": 8737,
+    "sha256": "0f405c72b1a0f36682044c711525a3dde5441cc11da9c0ed872f02f60c439a46"
+  },
+  "README.md": {
+    "bytes": 24367,
+    "sha256": "9652b5f6d186c3e4417e5590ab3b426fd396759650d7929302e005e2ad138189"
+  },
+  "metadata/cleanup/20261014_sections_formatting/documentation_links.json": {
+    "bytes": 15610,
+    "sha256": "4af285b8628bfdebaf8cb1952050689858f0828a43d22fe6dd795832b9eff775"
+  },
+  "metadata/cleanup/20261014_sections_formatting/formula_preservation.json": {
+    "bytes": 3522,
+    "sha256": "3bec34dd2465b65444977de625a47b1b772ff1a189b0aa02a4fa072df97b2e5e"
+  },
+  "metadata/cleanup/20261014_sections_formatting/inputs_before.json": {
+    "bytes": 92272,
+    "sha256": "5c6bc2f1277f82a9fbd8da63d2f3cda7a12c9b05cecbf545927982431c544a6b"
+  },
+  "metadata/cleanup/20261014_sections_formatting/links_check_intermediate.json": {
+    "bytes": 137,
+    "sha256": "39ca09e8241d25b58263007ef496c115a4d54b375dc7af6b0ec5249f6e0e0210"
+  },
+  "metadata/cleanup/20261014_sections_formatting/math_render_validation.json": {
+    "bytes": 12770,
+    "sha256": "9659184fc17351e20227821c05714eb98bb999eb4a08c252b89e72e34e567e34"
+  },
+  "metadata/cleanup/20261014_sections_formatting/navigation_files_updated.json": {
+    "bytes": 102,
+    "sha256": "91b79266ad683ba67254643a2cf87dc1fc182cad94163db405e6a05404acc535"
+  },
+  "metadata/cleanup/20261014_sections_formatting/relocation_plan.json": {
+    "bytes": 2053,
+    "sha256": "802759a92082db1d171dd2cf1d2f6c34621620a53dbae030c676147fdf90abb2"
+  },
+  "metadata/cleanup/20261014_sections_formatting/relocation_receipt.json": {
+    "bytes": 2854,
+    "sha256": "688b5cdf1ac54fc39eadfa90692e28573494f1ad086bc4a826d32681d807ca83"
+  },
+  "metadata/cleanup/20261014_sections_formatting/renderer_identity.json": {
+    "bytes": 316,
+    "sha256": "a927c5be420fc7c1bd94d7b0a2c5683746e9e228e06c9405c28c019c9f7d3860"
+  },
+  "metadata/cleanup/20261014_sections_formatting/validation.json": {
+    "bytes": 1609,
+    "sha256": "de63289078ec7321266f8ee31a4e885afb88df5657f2dd55eb35c4dfb0f4034d"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schema": "task_allocation.step01_validation.v1",
+  "verified_at_utc": "2026-10-12T04:15:49.135675+00:00",
+  "status": "PASS",
+  "scope": "Identity/protocol consistency and read-only protection checks; not model correctness or efficacy tests.",
+  "checks": {
+    "all_four_json_artifacts_parse": true,
+    "protected_214_files_unchanged": true,
+    "git_head_unchanged": true,
+    "canonical_P1a_identity_preserved": true,
+    "historical_checkpoint_and_snapshot_identities_match": true,
+    "historical_training_budgets_confirmed": true,
+    "collected_and_optimized_budget_distinguished": true,
+    "task_credit_1_CF_actor_0": true,
+    "original_physics_action_reward_frozen": true,
+    "original_training_reference_frozen": true,
+    "development_seeds_fixed": true,
+    "holdout_20_seeds_disjoint": true,
+    "holdout_audit_no_recorded_occurrence": true,
+    "seed_audit_evidence_unchanged": true,
+    "budget_arithmetic": true,
+    "no_test_checkpoint_selection": true,
+    "new_modes_explicitly_pending": true,
+    "no_warm_start_and_oracle_labels": true,
+    "documentation_status_updated": true
+  },
+  "check_count": 19,
+  "protected_file_count": 214,
+  "protected_file_changes": [],
+  "seed_records_scanned": 84,
+  "artifact_identities": [
+    {
+      "filename": "baseline_identity.json",
+      "sha256": "cf8477a1d35bddfb2a8849141afce7ba68a502ba24084917eb66cff903b31029"
+    },
+    {
+      "filename": "experiment_protocol.json",
+      "sha256": "7a83de0f4f7f29b8c60715097c9572a625cddcc8d55c81ef5eac3a21ef75f231"
+    },
+    {
+      "filename": "git_status_before.txt",
+      "sha256": "e930c6cdbc07abef76cad5813ce2559b8f2eec82fd0b4ac509148de57a598aa8"
+    },
+    {
+      "filename": "protected_files_sha256.json",
+      "sha256": "a1a36cf56505571ed200bb4e1d1e2be4bd34f23c14789c4e6ba6a43a0bbc1c9f"
+    },
+    {
+      "filename": "seed_usage_audit.json",
+      "sha256": "6687b82a24f8e3ef0788925429c70274b02037e1892b0c31ecafb9923e1908f1"
+    }
+  ],
+  "not_executed": [
+    "model/unit/integration test suites (no source implementation in Step01)",
+    "environment rollouts",
+    "RL training",
+    "checkpoint policy evaluation",
+    "oracle generation",
+    "pretraining"
+  ]
+}

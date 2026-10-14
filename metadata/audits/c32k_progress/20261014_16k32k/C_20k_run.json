@@ -1,0 +1,30 @@
+{
+  "method": "C",
+  "checkpoint_steps": 20000,
+  "evaluation_run_id": "development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6",
+  "source_checkpoint_path": "D:\\My_project_li\\logs\\C\\seed42\\32k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a\\checkpoints\\step_20000.pt",
+  "source_checkpoint_sha256": "afd9b73163e61d8fb9891986f9be509fd8b80e2ec38fbb95cbf2eed23027d79e",
+  "evaluation_config_sha256": "d2463e1929ea867212edec4774f54b2c5a6dbc9ef957f00dd2978402aec4849a",
+  "duration_seconds": 243.81601619999856,
+  "new_episode_count": 20,
+  "baseline_episodes_exactly_matched": 15,
+  "external_traces_matched": 20,
+  "network_updates": 0,
+  "purpose": "development_checkpoint_progress_diagnosis",
+  "evaluation_artifacts": [
+    "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\20k\\evaluations\\development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6\\evaluation_manifest.json",
+    "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\20k\\evaluations\\development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6\\episode_metrics.jsonl",
+    "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\20k\\evaluations\\development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6\\aggregate_metrics.json",
+    "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\20k\\evaluations\\development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6\\evaluation_metrics.csv"
+  ],
+  "route_artifacts": [
+    "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\20k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6\\summary.json",
+    "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\20k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6\\route_decision_trace.jsonl"
+  ],
+  "service_artifacts": [
+    "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\20k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6\\service_diagnostic_manifest.json",
+    "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\20k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6\\task_lifecycle.jsonl",
+    "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\20k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6\\cpu_service_trace.jsonl",
+    "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\20k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6\\tx_service_trace.jsonl"
+  ]
+}

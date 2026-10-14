@@ -1,0 +1,36 @@
+{
+  "artifact_filenames": [
+    "service_diagnostic_manifest.json",
+    "task_lifecycle.jsonl",
+    "cpu_service_trace.jsonl",
+    "tx_service_trace.jsonl"
+  ],
+  "cpu_record_count": 40000,
+  "evaluation_purpose": "development_service_diagnostic",
+  "evaluation_run_id": "development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154",
+  "evaluation_seeds": [
+    1042,
+    1043,
+    1044,
+    1045,
+    1046
+  ],
+  "frequency_unit": "Hz",
+  "local_expiry": "CPU_WAIT/CPU_SERVICE; destination_uav equals source_uav",
+  "method_suite": [
+    "ca_gat_mappo",
+    "local_only",
+    "heuristic",
+    "random"
+  ],
+  "paper_formal_result": false,
+  "queue_timing": "slot_start; CPU includes local and remote queues",
+  "remaining_bits_timing": "post_service_before_or_after_settlement (unchanged by settlement)",
+  "schema_version": "evaluation_service_telemetry.v1",
+  "source_checkpoint_sha256": "ceb8caf8beebcba021eb8b8f19061c8a74b748d1c49629f4870a739becbd4a0a",
+  "source_training_config_hash": "02c7757520b8decc37e6c93d044675c7a002b7c4ab452968768595d872830cdd",
+  "stage_definition": "WAIT: never positive service in stage; SERVICE: positive service at least once, including expiry slot",
+  "task_count": 2420,
+  "tx_record_count": 40030,
+  "tx_row_definition": "one row per selected head or serviced task; sum transmitted_bits; count links/energy only where link_summary=true"
+}

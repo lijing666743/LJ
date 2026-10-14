@@ -1,0 +1,20 @@
+{
+  "status": "READY_FOR_SAVE",
+  "target_repository": "https://github.com/lijing666743/LJ",
+  "tag": "baseline-c32k-20261014",
+  "branch": "codex/baseline-c32k-20261014",
+  "baseline_scope": "A/B16k and C32k seed42 development state",
+  "frozen_experiment_files_unchanged": 512,
+  "source_workspace_git_head_preserved": true,
+  "source_workspace_git_index_preserved": true,
+  "runtime_code_changed": false,
+  "training_started": false,
+  "tests": "79 passed, 8 subtests passed",
+  "C28k_full_restore_zero_steps": true,
+  "archive_members_verified": 269,
+  "archive_assets": 4,
+  "local_links_checked": 46,
+  "original_git_history_exported": false,
+  "protected_directories_exported": false,
+  "reference_repository_write_actions": 0
+}

@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "frozen_inputs_checked": 310,
+  "frozen_input_hashes_unchanged": true,
+  "checks": {
+    "route_action_and_attempt_identity": 1208,
+    "CPU_queue_snapshot": 20000,
+    "CPU_TX_energy_balance": 20000,
+    "EDF_head_and_service_amount": 11199,
+    "final_task_remaining_cycles": 1210,
+    "episode_outcome_energy_identity": 10
+  },
+  "task_pairs_identical": 605,
+  "baseline_episode_identities_matched": 5,
+  "16k_blocked_slots_match_previous_audit": 297,
+  "16k_post_blockage_assignments_match_previous_audit": 32,
+  "formal_training_started": false,
+  "environment_replay_steps": 0,
+  "new_evaluation_episodes": 0,
+  "oracle_calls": 0,
+  "actor_forward_calls": 0,
+  "source_config_reward_or_weights_changed": false,
+  "held_out_used": false,
+  "export_crosschecks": {
+    "remote_assignment_rows": 926,
+    "CPU_slot_rows": 20000,
+    "post_blockage_task_rows": 57,
+    "per_seed_rows": 10,
+    "risk_and_blockage_counts_match_summary": true,
+    "paired_completion_delta": 35,
+    "final_inputs_unchanged": true
+  }
+}

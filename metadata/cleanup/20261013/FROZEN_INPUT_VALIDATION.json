@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "frozen_files_verified": 178,
+  "step07_inputs_verified": 49,
+  "number_source_entries": 446,
+  "number_source_files_resolve": 26,
+  "production_source_modified": false,
+  "nine_formal_configs_modified": false,
+  "manuscript_0_to_7_modified": false,
+  "method_metrics_and_weights_modified": false,
+  "github_or_lfs_settings_modified": false,
+  "hash_method": "SHA256; exact old/new relocation map; unchanged original bytes"
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "process_exit_code": 0,
+  "passed": 1261,
+  "subtests_passed": 338,
+  "duration_seconds": 2038.98,
+  "failures": 0,
+  "formal_experiment_started": false,
+  "engineering_fixture_runs": true,
+  "temp_policy": "Test outputs isolated in workspace; redirected sandbox external tempfile probe failed before tests and was replaced by explicit test-only tempfile.tempdir",
+  "pytest_arguments": [
+    "-p",
+    "no:cacheprovider",
+    "--basetemp",
+    "logs/release/abc_cleanup_20261013/test_tmp/pytest",
+    "tests",
+    "-q",
+    "--maxfail=1",
+    "--junitxml",
+    "logs/release/abc_cleanup_20261013/full_regression.xml"
+  ]
+}

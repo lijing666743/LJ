@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "saved_episode_records_checked": 160,
+  "same_baseline_episode_records_checked": 120,
+  "training_seed": 42,
+  "evaluation_seeds": [
+    1042,
+    1043,
+    1044,
+    1045,
+    1046
+  ],
+  "protocol_sha256": "d2463e1929ea867212edec4774f54b2c5a6dbc9ef957f00dd2978402aec4849a",
+  "source_hashes": {
+    "logs\\C\\seed42\\8k\\checkpoint_progress\\20261013_4k8k\\evaluations\\development-service-eval__remote_stress_v2__chk-2a92745919ef__cfg-d2463e1929ea__eval-b43a8e43300f\\episode_metrics.jsonl": "6545cd7fd8edd8371b69d9544864ed963582992a086e0f762c728c68c23c79ee",
+    "logs\\C\\seed42\\8k\\checkpoint_progress\\20261013_4k8k\\evaluations\\development-service-eval__remote_stress_v2__chk-2a92745919ef__cfg-d2463e1929ea__eval-b43a8e43300f\\evaluation_manifest.json": "6ae559c7e3d76cf61473143245c0a384050833ff43c90d349f1ef6d3cf961d96",
+    "logs\\C\\seed42\\8k\\evaluation\\episode_metrics.jsonl": "3069ef82394e81f23cf1a624ed21b832d86f3ab0761533169b53ad0256c3bd2d",
+    "logs\\C\\seed42\\8k\\evaluation\\evaluation_manifest.json": "eb5a1334f67e057150752bc1d549d061fea1352980376732cea3a48f43043a06",
+    "logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\12k\\evaluations\\development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8\\episode_metrics.jsonl": "77df2bdeda07d1185e2654443737d24d09edaf80ae674a324eb1943cbeb3da2f",
+    "logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\12k\\evaluations\\development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8\\evaluation_manifest.json": "54d9c94dc142e8a8bde92419271f63f3b3f612e4c2a655ac2c0231874680b620",
+    "logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\16k\\evaluations\\development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e\\episode_metrics.jsonl": "146e46a2764885b55aec66ef8775cda49ba7c5c98b428f27567ea17efd6585da",
+    "logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\16k\\evaluations\\development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e\\evaluation_manifest.json": "6e7204615d8cc9f6659b8e9f040fefe703c4251e3209daeec2c3f58edfe5fd72",
+    "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\20k\\evaluations\\development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6\\episode_metrics.jsonl": "a854e46620be086c5d56770376959c29adcdca404be51e4644b7eef71233f4cd",
+    "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\20k\\evaluations\\development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6\\evaluation_manifest.json": "522870721564f01e2d30a695e95f73185d59dfaa9158cd2ded8ac536bc282c33",
+    "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\24k\\evaluations\\development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154\\episode_metrics.jsonl": "a3c2faefbb26d9176aa4aa6273546b3364bb67701061a671e0dc8121136fcb71",
+    "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\24k\\evaluations\\development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154\\evaluation_manifest.json": "25915f593ad67306a6450494cba972580f491573dde8c7eec8062292f467952e",
+    "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\28k\\evaluations\\development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59\\episode_metrics.jsonl": "b1d535fc4ed68d8083c54ba0c04ace54722433f6e3ef0255df76f4705e462e40",
+    "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\28k\\evaluations\\development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59\\evaluation_manifest.json": "36e74ad28795768ad1936d3058c2d17773590e4a5df18e9b183202a905e96f0d",
+    "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\32k\\evaluations\\development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec\\episode_metrics.jsonl": "ea6c37f5f16651ab914ae3e625539c3701302d5cc032088ef98529673c71d95b",
+    "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\32k\\evaluations\\development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec\\evaluation_manifest.json": "7b157dafd8f1173932a08c7c932f6a1e42d3a4ca47fe4c938b2653bab6cbac0d",
+    "metadata\\audits\\c32k_progress\\20261014_16k32k\\comparison_summary.json": "6ff5f4fc21b532d294f651854da56d3aecf85354404a11151328bf1551ffdd90",
+    "metadata\\audits\\c32k_progress\\20261014_16k32k\\source_evaluation_runs.json": "01d7ec2d5848f0eb7b85926e989eb0dafe53250d6deaf9df180c3e0a10fa62b9",
+    "metadata\\audits\\checkpoint_progress\\20261013_4k8k12k16k\\comparison_summary.json": "b23720f6b7d9d73e94c37aff2b68da96b90d7839b5da35fe9886c1fd28d59ed2"
+  },
+  "new_training_or_evaluation_executed": false,
+  "input_files_unchanged": true
+}

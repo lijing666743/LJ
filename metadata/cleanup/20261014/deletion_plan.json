@@ -1,0 +1,1048 @@
+{
+  "root": "D:/My_project_li",
+  "scope": "explicit files only; protected directories excluded",
+  "files": [
+    {
+      "path": "dashboard_logs/C/seed42/group_meeting/20261014/per_scene_metrics.csv",
+      "bytes": 5432,
+      "sha256": "b7477b3af81ecd6734962409e9adbd629feb10ceebe8fb4284bdd2f7b125d1a7",
+      "reason": "与修正版逐字节相同的旧汇报CSV",
+      "replacement": "dashboard_logs/C/seed42/group_meeting/20261014_scene_fix/per_scene_metrics.csv",
+      "identical_to_replacement": true
+    },
+    {
+      "path": "dashboard_logs/C/seed42/group_meeting/20261014/summary_metrics.csv",
+      "bytes": 1928,
+      "sha256": "0c008be225cb5de7bb455144e2a0a4a357242afb6d93576758255c1ad107d32c",
+      "reason": "与修正版逐字节相同的旧汇报CSV",
+      "replacement": "dashboard_logs/C/seed42/group_meeting/20261014_scene_fix/summary_metrics.csv",
+      "identical_to_replacement": true
+    },
+    {
+      "path": "dashboard_logs/development/task_allocation/step06_engineering_gate/pytest-0/A/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3a6f24a4c7c5__git-eb1140cefc4a_metrics.csv",
+      "bytes": 726817,
+      "sha256": "6eb57a13cce6ce066a73472b0bdef5b4d170f0934160ad8dca4eeef61335aa0f",
+      "reason": "Step06工程测试生成CSV，不是正式实验"
+    },
+    {
+      "path": "dashboard_logs/development/task_allocation/step06_engineering_gate/pytest-0/B/ca_gat_mappo__remote_stress_v2__seed-42__cfg-09e827c1a7f5__git-eb1140cefc4a_metrics.csv",
+      "bytes": 738183,
+      "sha256": "24585f111f12a614f0995b3c78a051f24517e0b016149309de0c4542fcb97790",
+      "reason": "Step06工程测试生成CSV，不是正式实验"
+    },
+    {
+      "path": "dashboard_logs/development/task_allocation/step06_engineering_gate/pytest-0/C/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a6b46028028b__git-eb1140cefc4a_metrics.csv",
+      "bytes": 738515,
+      "sha256": "f06ad2a1fa8776996e09a758c992f7a38c8f88a9f517fc4c3dc54e86d9a8b505",
+      "reason": "Step06工程测试生成CSV，不是正式实验"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_environment_local_re0/lifecycle_evidence.json",
+      "bytes": 201638,
+      "sha256": "ddb610ef152d0d976308a7abd0e87b0cef46b9becfb1a5e5af2d577bfadc98ec",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_environment_local_re1/lifecycle_evidence.json",
+      "bytes": 204347,
+      "sha256": "268e6de584e2b62f00a5c6d8565c116f4a22851d7bf83c554ab19e0cb5f112e1",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_environment_local_re2/lifecycle_evidence.json",
+      "bytes": 204309,
+      "sha256": "56a3b6580031f85659cea45771e099a4e8c15ac2edb20b72b89f6dcedebc3a6e",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_environment_local_re3/lifecycle_evidence.json",
+      "bytes": 199522,
+      "sha256": "ba2918856b6a403e080701c3c96ed31148999ac4820b18c6353507021ff68a10",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/engineering_evidence.json",
+      "bytes": 1963030,
+      "sha256": "070c6b6d22b18e53770b37c139846cd13e429b462269033374037aad55712e61",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-d4ed880b9ec1__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+      "bytes": 27171,
+      "sha256": "171ddd532b6ef41a483f7e2afb2dda78d9539649d7695fcea8fb76625e808cbc",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-d4ed880b9ec1__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+      "bytes": 2370971,
+      "sha256": "bea39246ada18aa202b45d3121eed2c206d2d90e255d781003da50b72489bc82",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-d4ed880b9ec1__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+      "bytes": 1971153,
+      "sha256": "607c1ba2a543eaf2358a17d69ff9d9cf7c8c25910b0864e3244adcd052b75916",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-d4ed880b9ec1__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+      "bytes": 1397744,
+      "sha256": "d701a8c072aebf8a7a22504491ca1c158b42cd326335b245cb9f9833fb530762",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-d4ed880b9ec1__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+      "bytes": 78487,
+      "sha256": "08b9f639f29e8b65cbe8eb8dc1c8fa2e484c201c2bb6fd44ff6b76545d6f43d3",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/evaluation/logs/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-1d57cc2b1397__cfg-40afc20573e6__eval-7e6148065ad5/route_decision_trace.jsonl",
+      "bytes": 37615,
+      "sha256": "78aaf99b055332b416a93b3b5c7729d2126febcba33c1d906660dcc190f0dd94",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/evaluation/logs/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-1d57cc2b1397__cfg-40afc20573e6__eval-7e6148065ad5/summary.json",
+      "bytes": 627,
+      "sha256": "35789c06c9c314db558fc9594f9959362d4e56768e608cd0be5bffc971710eda",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-1d57cc2b1397__cfg-40afc20573e6__eval-7e6148065ad5/cpu_service_trace.jsonl",
+      "bytes": 143350,
+      "sha256": "da99912f0564767b512beaf8149baa2d92c8675c0080e5df824c2da555dc4aaf",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-1d57cc2b1397__cfg-40afc20573e6__eval-7e6148065ad5/service_diagnostic_manifest.json",
+      "bytes": 1267,
+      "sha256": "fac0bac5efe162245310754ba6fb79ea57c2b824ede963a436843d26aa9b60e4",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-1d57cc2b1397__cfg-40afc20573e6__eval-7e6148065ad5/task_lifecycle.jsonl",
+      "bytes": 28664,
+      "sha256": "88413b647cc82a8b48170b193e21ae70ffb9cfd5aa0784e9e47808461d784158",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-1d57cc2b1397__cfg-40afc20573e6__eval-7e6148065ad5/tx_service_trace.jsonl",
+      "bytes": 196285,
+      "sha256": "5b775eddbeab12fa4ce737f90102ef270f50821bede5cd41419899400ad86ba7",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-1d57cc2b1397__cfg-40afc20573e6__eval-7e6148065ad5/aggregate_metrics.json",
+      "bytes": 14495,
+      "sha256": "d294a69082b15394068e202bbeb8221817361e3ce5d2b4c91a56f3e1779274bf",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-1d57cc2b1397__cfg-40afc20573e6__eval-7e6148065ad5/episode_metrics.jsonl",
+      "bytes": 7330,
+      "sha256": "341579ec975d79c18c470ae2337ee096b4f5d09a1d785f7da1fed02fad8a2fef",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-1d57cc2b1397__cfg-40afc20573e6__eval-7e6148065ad5/evaluation_manifest.json",
+      "bytes": 14370,
+      "sha256": "5763e621806ac93f07110d9e04c5dbb624275eb5f229baf408b427b0b748abab",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-1d57cc2b1397__cfg-40afc20573e6__eval-7e6148065ad5/evaluation_metrics.csv",
+      "bytes": 2261,
+      "sha256": "0e7b4f4c1a5ef14e922bdda237c4107f9639f3cc51ce4415530d0441ac6f4f6d",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3a6f24a4c7c5__git-eb1140cefc4a/aggregate_metrics.json",
+      "bytes": 35942,
+      "sha256": "84061b1474651a65ec07c886a62d4cbec1dc2713fff5cd7fbb49a594512f1751",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3a6f24a4c7c5__git-eb1140cefc4a/config_snapshot.yaml",
+      "bytes": 11531,
+      "sha256": "41410b7a895f38594a3dcd026691b52a993b2a1b8afa54dea251aab850515359",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3a6f24a4c7c5__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+      "bytes": 27174,
+      "sha256": "ccf764ed44699567d7ec194ae7d790431619c6f6ab1caa8268582ce22dc304c6",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3a6f24a4c7c5__git-eb1140cefc4a/raw_metrics.jsonl",
+      "bytes": 13674646,
+      "sha256": "5f7fd44aa040d8d3ea9678bbd474633e100ddb5d6ceddfbb704a285efc79e806",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3a6f24a4c7c5__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+      "bytes": 2370971,
+      "sha256": "25d3c4d3494ad47f13f9d5d238c33749d785b177e99cc854c1d22f661bbf736b",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3a6f24a4c7c5__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+      "bytes": 1971153,
+      "sha256": "bdf6718fd7b7f451db79c3fa7bebe5ed87bcb79797bb26ed3a3730c95c968f16",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3a6f24a4c7c5__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+      "bytes": 1397744,
+      "sha256": "cc05721ac6697cdf488c3f8728dcbea7df96ebcec23b782a5c9e3f253016d1fc",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3a6f24a4c7c5__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+      "bytes": 78487,
+      "sha256": "4762545f2e9a98afeb552816945470e6c2b18a448fa04b64ecbe4d102afa7591",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3a6f24a4c7c5__git-eb1140cefc4a/checkpoints/final.pt",
+      "bytes": 18580855,
+      "sha256": "1d57cc2b13974c574a14b1e26e7494e967b58d3abe2cc487ed3de5fa33a6f580",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3a6f24a4c7c5__git-eb1140cefc4a/checkpoints/step_260.pt",
+      "bytes": 18752185,
+      "sha256": "4c509db1563d2ae07c53a49b6cd8483db97324f6458768ddb04cb9477ac8385f",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/engineering_evidence.json",
+      "bytes": 1984106,
+      "sha256": "99acd7c507689c62899983c87bb87d7240aef398823a0735b07e3ff0ca2494df",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3f4c3bbc8c9f__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+      "bytes": 27507,
+      "sha256": "2c5cf1662d0d763df31ca413eb17b99698af2bca7dfc0df0ccb1b52e4ff2fa60",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3f4c3bbc8c9f__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+      "bytes": 2219554,
+      "sha256": "2fb01dbfef7e7b10efeed346c836c3f5a1e6854cefc99a78f2b87908af18aa37",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3f4c3bbc8c9f__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+      "bytes": 2436208,
+      "sha256": "24bb1e9d240f2907d94f586622468c989f6f15c4d33f6b20f328dfcffb6d0d06",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3f4c3bbc8c9f__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+      "bytes": 1889800,
+      "sha256": "91b2babcc55a2f2c1fb13b5105365d79f05383d687424e89c62f2c01d3e4db4b",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3f4c3bbc8c9f__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+      "bytes": 199429,
+      "sha256": "efdbc3bdbc831b5c7d0e729bb1c4fdd32bb3217e1c6b97db249b1f9ae302aaaa",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/evaluation/logs/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-bbbe2574c22a__cfg-40afc20573e6__eval-1fe33fe39ce9/route_decision_trace.jsonl",
+      "bytes": 20728,
+      "sha256": "6bba54912df5879030527e18bc6ee13b3df29b10538741f971b08d7f0bac54bb",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/evaluation/logs/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-bbbe2574c22a__cfg-40afc20573e6__eval-1fe33fe39ce9/summary.json",
+      "bytes": 647,
+      "sha256": "3479f2843881c6424eb731f75293401dc130e4bc6c71a8671c19aa2e291089f3",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-bbbe2574c22a__cfg-40afc20573e6__eval-1fe33fe39ce9/cpu_service_trace.jsonl",
+      "bytes": 144623,
+      "sha256": "bee6019692ef479a081aee4347feac259cee236840ca73da190a29c5501c186a",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-bbbe2574c22a__cfg-40afc20573e6__eval-1fe33fe39ce9/service_diagnostic_manifest.json",
+      "bytes": 1267,
+      "sha256": "ab4ce540f3555b952af86c93e72d1461a652def817313a893539b4e0cd7ca2db",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-bbbe2574c22a__cfg-40afc20573e6__eval-1fe33fe39ce9/task_lifecycle.jsonl",
+      "bytes": 28575,
+      "sha256": "baaf5b88d3f8fa7d726362bf43843c6a5eceaf82128410580fe590228a171dde",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-bbbe2574c22a__cfg-40afc20573e6__eval-1fe33fe39ce9/tx_service_trace.jsonl",
+      "bytes": 196285,
+      "sha256": "bb565ce028dc27252fab10078a03d8d604b4b4bd020e341e547e68ac3bb529b5",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-bbbe2574c22a__cfg-40afc20573e6__eval-1fe33fe39ce9/aggregate_metrics.json",
+      "bytes": 14623,
+      "sha256": "ff7e2fed9ccc0bd059642fdf909120568a0591572a48b57d268ca2bf9dbf2592",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-bbbe2574c22a__cfg-40afc20573e6__eval-1fe33fe39ce9/episode_metrics.jsonl",
+      "bytes": 7429,
+      "sha256": "9bd804167b2f7563289ae0ad1201058d2fb0f2d27ce0956156c37cd36a16e1b9",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-bbbe2574c22a__cfg-40afc20573e6__eval-1fe33fe39ce9/evaluation_manifest.json",
+      "bytes": 14227,
+      "sha256": "44e5ba32bb424aceaaac2e00ebabcaf172ea1bda9e3cf73c1433c21f733226ec",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-bbbe2574c22a__cfg-40afc20573e6__eval-1fe33fe39ce9/evaluation_metrics.csv",
+      "bytes": 2364,
+      "sha256": "04991b71ad6ade411f395fa33ed9b2a3d2490ef4fca6675ef09ec49678358bec",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-09e827c1a7f5__git-eb1140cefc4a/aggregate_metrics.json",
+      "bytes": 35228,
+      "sha256": "091bcf0d882bad312653c00c06510d5b03697a582f4f446b5779b5f7d7e4239b",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-09e827c1a7f5__git-eb1140cefc4a/config_snapshot.yaml",
+      "bytes": 11518,
+      "sha256": "e1f40f2963d59ef57112b1f77d5ee17d11b6647b32ae30d0e2caaa07bd47068b",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-09e827c1a7f5__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+      "bytes": 27508,
+      "sha256": "b310f941f4386e390a8eae8a8a5652a3b6c2bfc368c6a8399257799810e84b98",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-09e827c1a7f5__git-eb1140cefc4a/raw_metrics.jsonl",
+      "bytes": 13893812,
+      "sha256": "6580c5e1d53525acac693dbb3e60ce3a3589a65148730ea15d8da2ba8601cc57",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-09e827c1a7f5__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+      "bytes": 2219554,
+      "sha256": "12a64d131ce083e6e18d0629eb5d4edffeceb8d11b936302f835e7360fd69119",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-09e827c1a7f5__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+      "bytes": 2436208,
+      "sha256": "3b09adce058e97454989be4e9adcbf6ecbee551de8c0f9affbe82c655d30c220",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-09e827c1a7f5__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+      "bytes": 1889800,
+      "sha256": "a9d9edd0542611aa6708adf57246c90d9e72aeaf6a4b206108915231711672b7",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-09e827c1a7f5__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+      "bytes": 199429,
+      "sha256": "3a16eb5170aadcf8bbb2fc70e17f7eb832de768682a1ca6f289be93618771130",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-09e827c1a7f5__git-eb1140cefc4a/checkpoints/final.pt",
+      "bytes": 18265479,
+      "sha256": "bbbe2574c22a4d8168cb527d8e65e04112823fa562a8f247e5d8598bbeeb21b0",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-09e827c1a7f5__git-eb1140cefc4a/checkpoints/step_260.pt",
+      "bytes": 18439177,
+      "sha256": "6614a5f807d9f957337765d509807449366a1987ac34fa0346e20f46fe2c9abf",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/engineering_evidence.json",
+      "bytes": 1984392,
+      "sha256": "6c5f3e6989e79b5f5bf484fb22db7555e87ff3dde48778fc85c7e5743229bc09",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-b12ce942c73e__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+      "bytes": 27424,
+      "sha256": "4a0c697eeec161f6244dcbd6bf6ed4b0c0675cd74e40806b3fc2c594cc7ce264",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-b12ce942c73e__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+      "bytes": 2191348,
+      "sha256": "7c55ee9ffde0395351d70e6ea500e2345ac9abd69a70faa18c21e0d5a37fb5f6",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-b12ce942c73e__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+      "bytes": 2399552,
+      "sha256": "35b8c3a3c7b8f8990c3c2449433ce7871f72fbea00b3037c38754d3798e55dc7",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-b12ce942c73e__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+      "bytes": 1860250,
+      "sha256": "679d07a9660e57907bedbf371dff24adcbb9e0b40d91a97c0aeed89df03bb736",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-b12ce942c73e__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+      "bytes": 195641,
+      "sha256": "35b264b76131491e3006a24e2542920979599ccae1b1cac7bb06ef8435a9e3ff",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/evaluation/logs/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-aab42bb54904__cfg-40afc20573e6__eval-18e90e403b6f/route_decision_trace.jsonl",
+      "bytes": 18822,
+      "sha256": "8dba8342550174f0c5e29734416b11ee99dfed800daf3c597cccbbdf012e22c6",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/evaluation/logs/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-aab42bb54904__cfg-40afc20573e6__eval-18e90e403b6f/summary.json",
+      "bytes": 632,
+      "sha256": "b61f008e1f0541203d92b253e59646baf20b91f74529d9a016810d510fe17a67",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-aab42bb54904__cfg-40afc20573e6__eval-18e90e403b6f/cpu_service_trace.jsonl",
+      "bytes": 144627,
+      "sha256": "268ce635469953e8093191737fb3ec8350f5d507693075e1f400b0b046ba09c7",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-aab42bb54904__cfg-40afc20573e6__eval-18e90e403b6f/service_diagnostic_manifest.json",
+      "bytes": 1267,
+      "sha256": "b75cc3a04b3f1cc46a68b7e4044acca47baa4de1f76484fc167a2fbc46d89250",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-aab42bb54904__cfg-40afc20573e6__eval-18e90e403b6f/task_lifecycle.jsonl",
+      "bytes": 28558,
+      "sha256": "e9e86969555de26188f6fb113ff51a3ccd7e098e2be5c37289cddc22f4172eec",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-aab42bb54904__cfg-40afc20573e6__eval-18e90e403b6f/tx_service_trace.jsonl",
+      "bytes": 196285,
+      "sha256": "594d08d04d8c686bb49bc07eafe8c0d96af7dec183416a7977c79fd05a1a64b0",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-aab42bb54904__cfg-40afc20573e6__eval-18e90e403b6f/aggregate_metrics.json",
+      "bytes": 14618,
+      "sha256": "9b236d08b297a6b067194154043d948d28c1b22a6f16dae033bc5c15d8baad87",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-aab42bb54904__cfg-40afc20573e6__eval-18e90e403b6f/episode_metrics.jsonl",
+      "bytes": 7424,
+      "sha256": "8122e4802a7b3be3baf636727b71687256c20ed0ac417c2b9945c1d307dfb251",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-aab42bb54904__cfg-40afc20573e6__eval-18e90e403b6f/evaluation_manifest.json",
+      "bytes": 14520,
+      "sha256": "2bd2246873e67d9e0504590454f291673725ee25e3efe03900dcf873e2cb8a8c",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-aab42bb54904__cfg-40afc20573e6__eval-18e90e403b6f/evaluation_metrics.csv",
+      "bytes": 2359,
+      "sha256": "66e9907fed5ec095c75cff5973bab12b8fabae9cf34bb330ddb62c62922f19fc",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a6b46028028b__git-eb1140cefc4a/aggregate_metrics.json",
+      "bytes": 35213,
+      "sha256": "4b4d9270308bf42f4eac44a2cbd84810e2d6d1d3ead1aedc85e4567d1c81d24b",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a6b46028028b__git-eb1140cefc4a/config_snapshot.yaml",
+      "bytes": 11571,
+      "sha256": "1d0472cc188cc83b40ca29be0a6504e0486e0bfb1b97fe5d81d0453c2c072506",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a6b46028028b__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+      "bytes": 27426,
+      "sha256": "7dee0a839a6813a4f07ec83a644c3283d457deb90f3107d1140dfa606307c627",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a6b46028028b__git-eb1140cefc4a/raw_metrics.jsonl",
+      "bytes": 13894148,
+      "sha256": "285a857990051b3f41f0bf818ac4ec58767776951704f3ecc81ebb20b40918a8",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a6b46028028b__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+      "bytes": 2191348,
+      "sha256": "9d8eac2a46ed742ad15e23726571fa4194ada526f0a517c0763df6cdbdf4b38a",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a6b46028028b__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+      "bytes": 2399552,
+      "sha256": "832facb826e3051f8452391cd657533d8d77757320e70ec8e7ee6c77b09eacff",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a6b46028028b__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+      "bytes": 1860250,
+      "sha256": "cf0904aaf2c537e9f944f734fe60bc9a041baf7547cb8ffd1b2f55a9f8a7c34f",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a6b46028028b__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+      "bytes": 195641,
+      "sha256": "b5e3bec64cb9b10ac8a92a3a97839ae93c365ef1c7f9658b11ee23b8563af2d7",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a6b46028028b__git-eb1140cefc4a/checkpoints/final.pt",
+      "bytes": 18364903,
+      "sha256": "aab42bb549048f52afc22b8faf2c00cc9e7b9c2240941d48a2868d3188e56410",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a6b46028028b__git-eb1140cefc4a/checkpoints/step_260.pt",
+      "bytes": 18538601,
+      "sha256": "ba716e4d20ad33f098babaf767aed9e96bc0f11b52424a89c977a6138cfcd3f0",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-825e3dd63ce8__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+      "bytes": 40923,
+      "sha256": "a6dbbee90c36f73527ac385206c8cdd81b063057c7a0defcf9789f37d6619f32",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-825e3dd63ce8__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+      "bytes": 3863938,
+      "sha256": "be7fb3777ebd6bc76a2a44d8e82d58951b1d3533c77e1eef9ba6f175958107ad",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-825e3dd63ce8__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+      "bytes": 3265078,
+      "sha256": "4a4d83e3a61307b92dd9c905cab2201a8653459e971206af264120d8853ccc0d",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-825e3dd63ce8__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+      "bytes": 2278342,
+      "sha256": "54b95a2ea4f0b4cc3b86fe9b3b7acb6e989b64fe404f6685ef24e34ebfd5f544",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-825e3dd63ce8__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+      "bytes": 126574,
+      "sha256": "7297acaae04099cd08bdc1c3533002fae42a3394621dc63a89db120e0c4309e7",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9cd0d8704e63__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+      "bytes": 27172,
+      "sha256": "39cd81711ca7f53969870d161a98901037f83c475b6cceb08e26fedca51128e2",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9cd0d8704e63__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+      "bytes": 2370971,
+      "sha256": "62a7d030233debf01e4fb1728e22c93d05d3ff2349ff665b6927ddebca20fd41",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9cd0d8704e63__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+      "bytes": 1971153,
+      "sha256": "0d246a0c3c12731d252a3f0cc2f15c3a97909a8e6a827afcb0a7af8e7c7fd8f3",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9cd0d8704e63__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+      "bytes": 1397744,
+      "sha256": "245b51e0f63cfbedd163e4256bc21675b0f8af52d7cb7d169dd0df54c86ce680",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9cd0d8704e63__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+      "bytes": 78487,
+      "sha256": "5075ec3691c8ee6b53c0a11a4c76ba08aa86109a69e5b3c82ffc7abb466be26e",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9cd0d8704e63__git-eb1140cefc4a/checkpoints/final.pt",
+      "bytes": 18580919,
+      "sha256": "47b4d6c5f59d6c59a526b86c4ad92de8af7c9a8544cf5afe3f1197a672c70467",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9cd0d8704e63__git-eb1140cefc4a/checkpoints/step_260.pt",
+      "bytes": 18752249,
+      "sha256": "7e26b3b1100c0db87fe64c678259c5ae4bc4ee3a70b659f34b5c65c084678223",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-38df8a9a2c4d__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+      "bytes": 27377,
+      "sha256": "7db0b746cad918b62b9ca652b14ef0967ee1598d803c63d3499facb7ff94f7f7",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-38df8a9a2c4d__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+      "bytes": 2391635,
+      "sha256": "82226b2baa0efe9a7ba9949403817f25b1aa196b9d941974d52755e695a59ac2",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-38df8a9a2c4d__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+      "bytes": 2114740,
+      "sha256": "f61f239907c67304c20add3ea4934930e03997ebf4b1ec185cb64cd1abe28f3c",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-38df8a9a2c4d__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+      "bytes": 1453145,
+      "sha256": "817c3c9f109d803bcfcdb50ac641c85a17f2ad3c5392a39c2674158251d09260",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-38df8a9a2c4d__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+      "bytes": 80736,
+      "sha256": "a45b6e2099eb3b0715c8a19c2ca36d1af2a72c432dbffb5057d050f37d62419e",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-38df8a9a2c4d__git-eb1140cefc4a/checkpoints/continuation_from_260.json",
+      "bytes": 1145,
+      "sha256": "947f45bfc636585ce8e536bedfffaeee30d49544de5f0682adf3497da663119d",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-38df8a9a2c4d__git-eb1140cefc4a/checkpoints/final.pt",
+      "bytes": 18589239,
+      "sha256": "96a7ad6c1137c94732b9fbc40d0b93986408520f72fb37ce25360a7ffd20a8fb",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-38df8a9a2c4d__git-eb1140cefc4a/checkpoints/step_520.pt",
+      "bytes": 18918292,
+      "sha256": "3a989227ed85d40d177a4308e949bc0419ab7ecf1ebe10bf94619ac46a563366",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a446615c5e9e__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+      "bytes": 41326,
+      "sha256": "07de1d23f68763eaba51ffeb06e63d0b0470133bd5696ed3068a23ea70a42566",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a446615c5e9e__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+      "bytes": 3570652,
+      "sha256": "53e8cd08564eadee37d0657352b22c020c50fa92b7b01fac5d29fbc3f954da8d",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a446615c5e9e__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+      "bytes": 3918100,
+      "sha256": "3f796e9d4cdbdd781b59fd8282fe17b9f6cee43de067d860f9d465d18d65f04c",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a446615c5e9e__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+      "bytes": 3008506,
+      "sha256": "77671c3ed50e138d316e2aa11a61c751515e2ae9da46305f6f36dfae4623c74f",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a446615c5e9e__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+      "bytes": 320125,
+      "sha256": "62b7520f0e93d741bdaa2bf8420166aad9de750ae521b670205d3524d9ce6c3b",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-d56af0f1bb8e__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+      "bytes": 27508,
+      "sha256": "9744e2ab913d7fb3f0d54466e1891b890111aa49fde3f1d86949790a6b80e02a",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-d56af0f1bb8e__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+      "bytes": 2219554,
+      "sha256": "64cafb79269335bb812edc4e56fc88cac6e2867fd16e75c7a198c060ecfaed82",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-d56af0f1bb8e__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+      "bytes": 2436208,
+      "sha256": "6a8df873c11186254e2b0ac955341a6d8616b45444f95022c66cac28ac594e1e",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-d56af0f1bb8e__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+      "bytes": 1889800,
+      "sha256": "1e47a92e2daacf1c6119f73883b8476572d4d2afa7eed35ab194e0599ee30148",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-d56af0f1bb8e__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+      "bytes": 199429,
+      "sha256": "30b57435b43ea8ca28bd4a0eb9e0be91bcedcadcb2cfec125e813e5f4bd30a2e",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-d56af0f1bb8e__git-eb1140cefc4a/checkpoints/final.pt",
+      "bytes": 18265543,
+      "sha256": "0df342f7172f88e1cecc240976dbb94d9df8cd332ecbcafc9da349c12c8a1d79",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-d56af0f1bb8e__git-eb1140cefc4a/checkpoints/step_260.pt",
+      "bytes": 18439241,
+      "sha256": "233208781369dca930ac78f46cacab322d6e6be9a3a72167d1477d7630d93970",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-573d72d74c07__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+      "bytes": 27598,
+      "sha256": "5926ad913e3e15000eef89822f9f6e25a3139217e43839c32ab568205846cd50",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-573d72d74c07__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+      "bytes": 2279396,
+      "sha256": "0aacf7d4974853e276ec4d84da2f8188d9f850582788c639fbfd6cda6b3fc147",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-573d72d74c07__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+      "bytes": 2585239,
+      "sha256": "5b343e9319110fd087ca3ef80a3d5f0bc9a853bd3d3f9eb7b31d1cc7f82072e2",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-573d72d74c07__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+      "bytes": 1961078,
+      "sha256": "5152027224f468209dab63b41204f37c033fcbece8726507ea85ad09d3148f37",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-573d72d74c07__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+      "bytes": 209039,
+      "sha256": "7f290f894f9dced3ca923d3aa6c4fd5b08dde68bda6d0683a4f6b4a896ec229f",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-573d72d74c07__git-eb1140cefc4a/checkpoints/continuation_from_260.json",
+      "bytes": 1145,
+      "sha256": "586cff21c3e74cc40525ffb37f4ce6732bfdf59c1af69ee51307a862a8e5cb61",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-573d72d74c07__git-eb1140cefc4a/checkpoints/final.pt",
+      "bytes": 18273863,
+      "sha256": "8b48bd3b16f4e4990ba0f5abbf353a2aef0eec9d89f3a616f18120994da032f8",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-573d72d74c07__git-eb1140cefc4a/checkpoints/step_520.pt",
+      "bytes": 18602908,
+      "sha256": "50f0f584060b48dcd7079640eca5210302c2961f85559c693ff0dab6a4a11902",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-ddb0f55dc5a6__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+      "bytes": 41168,
+      "sha256": "9cf9a7b6c8aa2cbea5b1ea91839c6836079798329b4817a43c2042348a92bbcb",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-ddb0f55dc5a6__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+      "bytes": 3499563,
+      "sha256": "c4087d9c2c8d361a1a3060489ebb1f7ee6fd6ef0b6da426d369dc45b4fd768aa",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-ddb0f55dc5a6__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+      "bytes": 3830391,
+      "sha256": "9df8582371dec09463cd6da7cbfbcddb5fb4b7c15a05f965f6c7bad944d6c241",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-ddb0f55dc5a6__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+      "bytes": 2940298,
+      "sha256": "9bceb0d167a0d0786ea51459172a1ab36d4f184b057f99601d366f749bed93e9",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-ddb0f55dc5a6__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+      "bytes": 311932,
+      "sha256": "9d00abb15b581d4dc9ded9f9d1a3b697fca219f0a53a837a50fcd248277b6692",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-8614dbb47727__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+      "bytes": 27426,
+      "sha256": "146010f6d414b00b983829121cbc51e505afedd9dbea1abe0cf1d67c92674128",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-8614dbb47727__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+      "bytes": 2191348,
+      "sha256": "a567527025820f321091016d2935cb040571860b89466d004e6d482aaefb1125",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-8614dbb47727__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+      "bytes": 2399552,
+      "sha256": "2b6e30e8e0244d8e2e0f11fcf332d8a89fb3dcd8efa0bf099ebaedf5739a7c22",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-8614dbb47727__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+      "bytes": 1860250,
+      "sha256": "869fa1bb2f7f9e2ca28ea6b5d6621afb579fed4bcfb6693e218547e957392845",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-8614dbb47727__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+      "bytes": 195641,
+      "sha256": "ab6ea952ba02f6c1dc4cf7b06d0a1bf0b12df6ade8fe188fd8193503c673a994",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-8614dbb47727__git-eb1140cefc4a/checkpoints/final.pt",
+      "bytes": 18364967,
+      "sha256": "61a92449e510b2914e2276d0e061faf13f32ba91653c737e5e4f1a0d21dfb859",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-8614dbb47727__git-eb1140cefc4a/checkpoints/step_260.pt",
+      "bytes": 18538665,
+      "sha256": "702dbeab7e85946bda40c0e4b4e27a5e570fa9c38d18b728d70e5ac80baf0b40",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2ff4897cd1da__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+      "bytes": 27522,
+      "sha256": "ba27e76b5285cd16660af79cc75ea5b24d6b26dad977c556eff92dcad35d26fe",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2ff4897cd1da__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+      "bytes": 2236240,
+      "sha256": "4102785e90e3a3fc283bab69d745e60bf73e9de1e3406e585d1bff68c0af3c45",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2ff4897cd1da__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+      "bytes": 2531229,
+      "sha256": "4662d035b6134efc4002508bd945583d464491aa9479f868dcef57e42be6ac5b",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2ff4897cd1da__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+      "bytes": 1919832,
+      "sha256": "543eb03efd63cf10c8225d2bec94daf3469276bd66fec849b51bc983e33fe6e7",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2ff4897cd1da__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+      "bytes": 204058,
+      "sha256": "06961000acb04fb1f9d8d53e0c7551331fdad7b44a2810f971e4fc9525dcf0f5",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2ff4897cd1da__git-eb1140cefc4a/checkpoints/continuation_from_260.json",
+      "bytes": 1145,
+      "sha256": "90e4a82725a2fd5d24dd2afa0e390804a61bdb2a1164ad3e3572b4300a3ee1da",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2ff4897cd1da__git-eb1140cefc4a/checkpoints/final.pt",
+      "bytes": 18373223,
+      "sha256": "2372d700373c176a9a2892d58e494ba32bb3e10fe9ad90216b4228b081278c63",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2ff4897cd1da__git-eb1140cefc4a/checkpoints/step_520.pt",
+      "bytes": 18702348,
+      "sha256": "cf0b6afb41e3081cb051528f27b7dbda09105d7563aa5e84c202268ddaf383d1",
+      "reason": "续训工程测试临时输出，可由固定测试重新生成"
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014/00_summary_table.png",
+      "bytes": 326946,
+      "sha256": "894d81174aa4794da6276646ae2a95ad83e8b51e8a57f18f6673345d42a42269",
+      "reason": "已被完整修正版20261014_scene_fix替代的旧汇报图片/压缩包",
+      "replacement": "plots/C/seed42/group_meeting/20261014_scene_fix/00_summary_table.png",
+      "identical_to_replacement": true
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014/00_summary_table.svg",
+      "bytes": 40838,
+      "sha256": "5b611bd082e45225d4ca0548065119cfaa630acb9071d846ea8fa10ffe05eeaa",
+      "reason": "已被完整修正版20261014_scene_fix替代的旧汇报图片/压缩包",
+      "replacement": "plots/C/seed42/group_meeting/20261014_scene_fix/00_summary_table.svg",
+      "identical_to_replacement": false
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014/01_completion_and_reward.png",
+      "bytes": 219907,
+      "sha256": "781dde1d08ccee235b100ad6fe6292fbc2a247ed2de704b039293bf8ddc93106",
+      "reason": "已被完整修正版20261014_scene_fix替代的旧汇报图片/压缩包",
+      "replacement": "plots/C/seed42/group_meeting/20261014_scene_fix/01_completion_and_reward.png",
+      "identical_to_replacement": true
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014/01_completion_and_reward.svg",
+      "bytes": 27928,
+      "sha256": "588e6952e34fc911d7e0135460773d6fef99daa35cd33199dd341edf65dd7335",
+      "reason": "已被完整修正版20261014_scene_fix替代的旧汇报图片/压缩包",
+      "replacement": "plots/C/seed42/group_meeting/20261014_scene_fix/01_completion_and_reward.svg",
+      "identical_to_replacement": false
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014/02_energy_cost.png",
+      "bytes": 196923,
+      "sha256": "01b51661a398a91bdd30bd1ef837d7afdd19346458e9e798ea7f64aa862ef5a5",
+      "reason": "已被完整修正版20261014_scene_fix替代的旧汇报图片/压缩包",
+      "replacement": "plots/C/seed42/group_meeting/20261014_scene_fix/02_energy_cost.png",
+      "identical_to_replacement": true
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014/02_energy_cost.svg",
+      "bytes": 24815,
+      "sha256": "4ae7ef20d3eaa9501e0dfa845317e02d05f80ae99c0e14e62b96ff36c6586cc1",
+      "reason": "已被完整修正版20261014_scene_fix替代的旧汇报图片/压缩包",
+      "replacement": "plots/C/seed42/group_meeting/20261014_scene_fix/02_energy_cost.svg",
+      "identical_to_replacement": false
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014/03_scene_comparison.png",
+      "bytes": 144317,
+      "sha256": "13ad000c810027789c949e103448150b3ac9f7bcc0dc82ac6643a169093c6066",
+      "reason": "已被完整修正版20261014_scene_fix替代的旧汇报图片/压缩包",
+      "replacement": "plots/C/seed42/group_meeting/20261014_scene_fix/03_scene_comparison.png",
+      "identical_to_replacement": false
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014/04_energy_risk.png",
+      "bytes": 266798,
+      "sha256": "31b49685fd3310bed833d0348badbe12b9266a4b79e56c333d0e4abf0302a1a4",
+      "reason": "已被完整修正版20261014_scene_fix替代的旧汇报图片/压缩包",
+      "replacement": "plots/C/seed42/group_meeting/20261014_scene_fix/04_energy_risk.png",
+      "identical_to_replacement": true
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014/04_energy_risk.svg",
+      "bytes": 32950,
+      "sha256": "f509eb9eb4b849eb7b45aa2348328c1ec2e51c1686e0a6b3fc9b0b53c0191665",
+      "reason": "已被完整修正版20261014_scene_fix替代的旧汇报图片/压缩包",
+      "replacement": "plots/C/seed42/group_meeting/20261014_scene_fix/04_energy_risk.svg",
+      "identical_to_replacement": false
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014/C_group_meeting_figures.zip",
+      "bytes": 1076041,
+      "sha256": "da4434a79b0ad00e8654509b3628cb3a6ee4dfe61c98b2286dfab69d29c8c2a0",
+      "reason": "已被完整修正版20261014_scene_fix替代的旧汇报图片/压缩包",
+      "replacement": "plots/C/seed42/group_meeting/20261014_scene_fix/C_group_meeting_figures_corrected.zip",
+      "identical_to_replacement": false
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014/figure_data.json",
+      "bytes": 45908,
+      "sha256": "3495cd89f2512a2264f648065bf05d7f45c79cac5a0d22aaa71740ce07fa44b0",
+      "reason": "已被完整修正版20261014_scene_fix替代的旧汇报图片/压缩包",
+      "replacement": "plots/C/seed42/group_meeting/20261014_scene_fix/figure_data.json",
+      "identical_to_replacement": true
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014/figure_recipe.json",
+      "bytes": 17885,
+      "sha256": "df4e0a7fd832913a79af768cd2bc9a96fb861b0b7787120e215ffbe1412a2659",
+      "reason": "已被完整修正版20261014_scene_fix替代的旧汇报图片/压缩包",
+      "replacement": "plots/C/seed42/group_meeting/20261014_scene_fix/figure_recipe.json",
+      "identical_to_replacement": false
+    },
+    {
+      "path": "plots/development/task_allocation/step06_engineering_gate/pytest-0/A/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3a6f24a4c7c5__git-eb1140cefc4a_dashboard.png",
+      "bytes": 580840,
+      "sha256": "7eb0ddfdf73a565cee5e03bb6f1846532f18d56aae338a83ff46cc1da33a3a01",
+      "reason": "Step06工程测试生成图片，不是正式实验"
+    },
+    {
+      "path": "plots/development/task_allocation/step06_engineering_gate/pytest-0/B/ca_gat_mappo__remote_stress_v2__seed-42__cfg-09e827c1a7f5__git-eb1140cefc4a_dashboard.png",
+      "bytes": 586578,
+      "sha256": "b920f7318999b643d081426c8e5190459514d897b06e2dcdb28001de51db4ba5",
+      "reason": "Step06工程测试生成图片，不是正式实验"
+    },
+    {
+      "path": "plots/development/task_allocation/step06_engineering_gate/pytest-0/C/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a6b46028028b__git-eb1140cefc4a_dashboard.png",
+      "bytes": 576091,
+      "sha256": "5d1aad833c4cc0fe5e24b21731018c0691406854759ebe4e2fced02ac41e34c4",
+      "reason": "Step06工程测试生成图片，不是正式实验"
+    },
+    {
+      "path": "tmp/pdfs/literature_20261013/1.txt",
+      "bytes": 72236,
+      "sha256": "393e8812b5bc6af8b08c6e60ab3fcd4eea8d8c768dda937e18083f783ca3507d",
+      "reason": "文献阅读临时文本；正式阅读笔记及37页图像保留"
+    },
+    {
+      "path": "tmp/pdfs/literature_20261013/2.txt",
+      "bytes": 72847,
+      "sha256": "58461d2c9bcee1d19b4bdd28c25e76780547df6e593af63c852453ae02f032ce",
+      "reason": "文献阅读临时文本；正式阅读笔记及37页图像保留"
+    },
+    {
+      "path": "tmp/pdfs/literature_20261013/3.txt",
+      "bytes": 72832,
+      "sha256": "644031e411a478bc7376b283a545ab58bfa80d467aa66d06733e617aa19ca78a",
+      "reason": "文献阅读临时文本；正式阅读笔记及37页图像保留"
+    },
+    {
+      "path": "tmp/pdfs/literature_20261013/4.txt",
+      "bytes": 115536,
+      "sha256": "7b1b6fb0ea64d37c6f8fcfa2702aaae404ef426b7115f523e9a95935b3fcc713",
+      "reason": "文献阅读临时文本；正式阅读笔记及37页图像保留"
+    },
+    {
+      "path": "tmp/pdfs/literature_20261013/5.txt",
+      "bytes": 81853,
+      "sha256": "1715ecc5662ceb7d3db3468d8d1c28401e715cba9eeacdd048a59bb0bedb8311",
+      "reason": "文献阅读临时文本；正式阅读笔记及37页图像保留"
+    },
+    {
+      "path": "tmp/pdfs/literature_20261013/6.txt",
+      "bytes": 68778,
+      "sha256": "8f7c9637489e07d17e7c47a2cea8848db28b2a0cb6df35d4ea46ebe472355657",
+      "reason": "文献阅读临时文本；正式阅读笔记及37页图像保留"
+    },
+    {
+      "path": "tmp/pdfs/literature_20261013/8.txt",
+      "bytes": 94312,
+      "sha256": "e668a9e91ee1a3d2e167a6df5cb90eb675c91b42f0e7e747364d86bd662397a6",
+      "reason": "文献阅读临时文本；正式阅读笔记及37页图像保留"
+    }
+  ]
+}

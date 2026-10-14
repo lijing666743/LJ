@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "training_or_replay_started_during_preparation": false,
+  "checks": {
+    "source_12k_periodic_checkpoint_kind": "PASS",
+    "source_checkpoint_sha256": "PASS",
+    "matching_16k_final_reference_sha256": "PASS",
+    "full_restore_without_environment_step_or_update": "PASS",
+    "actor_critic_two_adam_policy_rng_pending_diagnostics_counters": "PASS",
+    "prior_8k_replay_provenance_verified": "PASS",
+    "nested_continuation_provenance_test": "PASS",
+    "regenerated_tail_retention_test": "PASS",
+    "replay_mismatch_fail_closed_test": "PASS",
+    "second_extension_matches_uninterrupted_real_ppo_fixture": "PASS",
+    "config_has_only_five_allowed_changes": "PASS",
+    "new_output_roots_absent": "PASS",
+    "launch_command_powershell_syntax": "PASS",
+    "existing_inputs_unchanged": "PASS"
+  },
+  "test_result": {
+    "console": "86 passed, 26 subtests passed in 1228.43s",
+    "junit_testcases": 112,
+    "failures": 0,
+    "errors": 0,
+    "tests_xml_sha256": "3c24e44344126c0d2df815b502b1853fc911fb21d9cb4aeec15c34f3af5375ef"
+  },
+  "resolved_infrastructure_note": "An initial isolated test used the Windows sandbox Temp directory and its cleanup raised PermissionError after the assertions passed. The official suite used a workspace-local TEMP/TMP and passed; no production workaround or science change was made.",
+  "claim_boundary": "This validates launch readiness and state-continuity machinery. Actual CUDA replay equality remains a launch-time gate, and future 32k results remain a single-seed training-length diagnostic."
+}

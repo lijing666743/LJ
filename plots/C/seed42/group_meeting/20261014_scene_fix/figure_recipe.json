@@ -1,0 +1,445 @@
+{
+  "purpose": "group-meeting development diagnostic; not final manuscript evidence",
+  "script": "D:\\My_project_li\\src\\evaluation\\group_meeting_figures.py",
+  "script_sha256": "1c5111afdf410213d8aded5bf0e185347c60aaffb234f6941ea296086cccfd3f",
+  "regeneration": "D:/Miniconda/python.exe -B -X utf8 -m src.evaluation.group_meeting_figures --tag NEW_TAG",
+  "data": "D:\\My_project_li\\plots\\C\\seed42\\group_meeting\\20261014_scene_fix\\figure_data.json",
+  "summary_csv": "D:\\My_project_li\\dashboard_logs\\C\\seed42\\group_meeting\\20261014_scene_fix\\summary_metrics.csv",
+  "source_hashes": {
+    "logs\\C\\seed42\\8k\\checkpoint_progress\\20261013_4k8k\\evaluations\\development-service-eval__remote_stress_v2__chk-2a92745919ef__cfg-d2463e1929ea__eval-b43a8e43300f\\episode_metrics.jsonl": "6545cd7fd8edd8371b69d9544864ed963582992a086e0f762c728c68c23c79ee",
+    "logs\\C\\seed42\\8k\\checkpoint_progress\\20261013_4k8k\\evaluations\\development-service-eval__remote_stress_v2__chk-2a92745919ef__cfg-d2463e1929ea__eval-b43a8e43300f\\evaluation_manifest.json": "6ae559c7e3d76cf61473143245c0a384050833ff43c90d349f1ef6d3cf961d96",
+    "logs\\C\\seed42\\8k\\evaluation\\episode_metrics.jsonl": "3069ef82394e81f23cf1a624ed21b832d86f3ab0761533169b53ad0256c3bd2d",
+    "logs\\C\\seed42\\8k\\evaluation\\evaluation_manifest.json": "eb5a1334f67e057150752bc1d549d061fea1352980376732cea3a48f43043a06",
+    "logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\12k\\evaluations\\development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8\\episode_metrics.jsonl": "77df2bdeda07d1185e2654443737d24d09edaf80ae674a324eb1943cbeb3da2f",
+    "logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\12k\\evaluations\\development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8\\evaluation_manifest.json": "54d9c94dc142e8a8bde92419271f63f3b3f612e4c2a655ac2c0231874680b620",
+    "logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\16k\\evaluations\\development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e\\episode_metrics.jsonl": "146e46a2764885b55aec66ef8775cda49ba7c5c98b428f27567ea17efd6585da",
+    "logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\16k\\evaluations\\development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e\\evaluation_manifest.json": "6e7204615d8cc9f6659b8e9f040fefe703c4251e3209daeec2c3f58edfe5fd72",
+    "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\20k\\evaluations\\development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6\\episode_metrics.jsonl": "a854e46620be086c5d56770376959c29adcdca404be51e4644b7eef71233f4cd",
+    "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\20k\\evaluations\\development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6\\evaluation_manifest.json": "522870721564f01e2d30a695e95f73185d59dfaa9158cd2ded8ac536bc282c33",
+    "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\24k\\evaluations\\development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154\\episode_metrics.jsonl": "a3c2faefbb26d9176aa4aa6273546b3364bb67701061a671e0dc8121136fcb71",
+    "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\24k\\evaluations\\development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154\\evaluation_manifest.json": "25915f593ad67306a6450494cba972580f491573dde8c7eec8062292f467952e",
+    "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\28k\\evaluations\\development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59\\episode_metrics.jsonl": "b1d535fc4ed68d8083c54ba0c04ace54722433f6e3ef0255df76f4705e462e40",
+    "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\28k\\evaluations\\development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59\\evaluation_manifest.json": "36e74ad28795768ad1936d3058c2d17773590e4a5df18e9b183202a905e96f0d",
+    "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\32k\\evaluations\\development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec\\episode_metrics.jsonl": "ea6c37f5f16651ab914ae3e625539c3701302d5cc032088ef98529673c71d95b",
+    "logs\\C\\seed42\\checkpoint_progress\\20261014_16k32k\\32k\\evaluations\\development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec\\evaluation_manifest.json": "7b157dafd8f1173932a08c7c932f6a1e42d3a4ca47fe4c938b2653bab6cbac0d",
+    "metadata\\audits\\c32k_progress\\20261014_16k32k\\comparison_summary.json": "6ff5f4fc21b532d294f651854da56d3aecf85354404a11151328bf1551ffdd90",
+    "metadata\\audits\\c32k_progress\\20261014_16k32k\\source_evaluation_runs.json": "01d7ec2d5848f0eb7b85926e989eb0dafe53250d6deaf9df180c3e0a10fa62b9",
+    "metadata\\audits\\checkpoint_progress\\20261013_4k8k12k16k\\comparison_summary.json": "b23720f6b7d9d73e94c37aff2b68da96b90d7839b5da35fe9886c1fd28d59ed2"
+  },
+  "figures": [
+    {
+      "figure": "01_completion_and_reward",
+      "caption": "训练 seed42；固定开发 seeds1042–1046；每组605个相同任务；基线无需训练；无平滑、无误差条",
+      "plotted_data": {
+        "x_k": [
+          4.0,
+          8.0,
+          12.0,
+          16.0,
+          20.0,
+          24.0,
+          28.0,
+          32.0
+        ],
+        "C_completion_pct": [
+          46.28099173553719,
+          54.3801652892562,
+          58.34710743801653,
+          64.13223140495867,
+          68.4297520661157,
+          68.59504132231405,
+          67.76859504132231,
+          68.7603305785124
+        ],
+        "C_mean_reward": [
+          -12.702765359479882,
+          7.764089653576731,
+          17.92776194850105,
+          33.48417908594455,
+          44.53362980810205,
+          45.25329332404057,
+          43.402496203229035,
+          45.70197812286557
+        ],
+        "baselines": {
+          "local_only": {
+            "method": "local_only",
+            "checkpoint_steps": null,
+            "generated": 605,
+            "completed": 323,
+            "expired": 243,
+            "truncated": 39,
+            "total_energy_j": 118.66321643549148,
+            "cpu_energy_j": 118.66321643549148,
+            "tx_energy_j": 0.0,
+            "completion_pct": 53.388429752066116,
+            "mean_per_scene_completion_pct": 53.72476348982819,
+            "mean_episode_reward": 4.867831322473131,
+            "energy_per_DONE_j": 0.3673783790572492,
+            "completed_task_delay_s": 0.3977089783281734
+          },
+          "heuristic": {
+            "method": "heuristic",
+            "checkpoint_steps": null,
+            "generated": 605,
+            "completed": 371,
+            "expired": 190,
+            "truncated": 44,
+            "total_energy_j": 109.1668506307753,
+            "cpu_energy_j": 108.59256812073247,
+            "tx_energy_j": 0.5742825100428339,
+            "completion_pct": 61.32231404958678,
+            "mean_per_scene_completion_pct": 61.03767378351936,
+            "mean_episode_reward": 26.022282434158512,
+            "energy_per_DONE_j": 0.29425027124198194,
+            "completed_task_delay_s": 0.5313207547169811
+          }
+        }
+      },
+      "label_overlap_check": null
+    },
+    {
+      "figure": "02_energy_cost",
+      "caption": "训练 seed42；固定开发 seeds1042–1046；每组605个相同任务；基线无需训练；无平滑、无误差条",
+      "plotted_data": {
+        "x_k": [
+          4.0,
+          8.0,
+          12.0,
+          16.0,
+          20.0,
+          24.0,
+          28.0,
+          32.0
+        ],
+        "C_total_energy_j": [
+          142.68592995692717,
+          149.11728433857456,
+          162.17042920232436,
+          179.31180621642775,
+          190.45762927936954,
+          189.32384072282557,
+          189.824368949893,
+          192.23415894392812
+        ],
+        "C_energy_per_DONE_j": [
+          0.5095926069890256,
+          0.45324402534521147,
+          0.4594063150207489,
+          0.4621438304547107,
+          0.4600425828004095,
+          0.4562020258381339,
+          0.46298626573144636,
+          0.4621013436152118
+        ],
+        "baselines": {
+          "local_only": {
+            "method": "local_only",
+            "checkpoint_steps": null,
+            "generated": 605,
+            "completed": 323,
+            "expired": 243,
+            "truncated": 39,
+            "total_energy_j": 118.66321643549148,
+            "cpu_energy_j": 118.66321643549148,
+            "tx_energy_j": 0.0,
+            "completion_pct": 53.388429752066116,
+            "mean_per_scene_completion_pct": 53.72476348982819,
+            "mean_episode_reward": 4.867831322473131,
+            "energy_per_DONE_j": 0.3673783790572492,
+            "completed_task_delay_s": 0.3977089783281734
+          },
+          "heuristic": {
+            "method": "heuristic",
+            "checkpoint_steps": null,
+            "generated": 605,
+            "completed": 371,
+            "expired": 190,
+            "truncated": 44,
+            "total_energy_j": 109.1668506307753,
+            "cpu_energy_j": 108.59256812073247,
+            "tx_energy_j": 0.5742825100428339,
+            "completion_pct": 61.32231404958678,
+            "mean_per_scene_completion_pct": 61.03767378351936,
+            "mean_episode_reward": 26.022282434158512,
+            "energy_per_DONE_j": 0.29425027124198194,
+            "completed_task_delay_s": 0.5313207547169811
+          }
+        }
+      },
+      "label_overlap_check": null
+    },
+    {
+      "figure": "03_scene_comparison",
+      "caption": "柱高与柱顶标注均为完成率（完成数/该场景到达数）；每个场景使用自己的分母",
+      "plotted_data": {
+        "scenes": [
+          1042,
+          1043,
+          1044,
+          1045,
+          1046
+        ],
+        "arrival_counts": [
+          135,
+          122,
+          117,
+          102,
+          129
+        ],
+        "bar_height_metric": "completion_pct",
+        "bar_label_metric": "completion_pct",
+        "series": {
+          "local_only": {
+            "completion_pct": [
+              54.074074074074076,
+              49.18032786885246,
+              59.82905982905983,
+              59.80392156862745,
+              45.736434108527135
+            ],
+            "bar_labels": [
+              "54.07%",
+              "49.18%",
+              "59.83%",
+              "59.80%",
+              "45.74%"
+            ],
+            "completed": [
+              73,
+              60,
+              70,
+              61,
+              59
+            ]
+          },
+          "heuristic": {
+            "completion_pct": [
+              74.07407407407408,
+              52.459016393442624,
+              78.63247863247864,
+              51.96078431372549,
+              48.06201550387597
+            ],
+            "bar_labels": [
+              "74.07%",
+              "52.46%",
+              "78.63%",
+              "51.96%",
+              "48.06%"
+            ],
+            "completed": [
+              100,
+              64,
+              92,
+              53,
+              62
+            ]
+          },
+          "C": {
+            "completion_pct": [
+              74.07407407407408,
+              77.8688524590164,
+              70.08547008547009,
+              67.6470588235294,
+              54.263565891472865
+            ],
+            "bar_labels": [
+              "74.07%",
+              "77.87%",
+              "70.09%",
+              "67.65%",
+              "54.26%"
+            ],
+            "completed": [
+              100,
+              95,
+              82,
+              69,
+              70
+            ]
+          }
+        }
+      },
+      "label_overlap_check": {
+        "label_count": 15,
+        "overlap_pairs": 0
+      }
+    },
+    {
+      "figure": "04_energy_risk",
+      "caption": "仅12k–32k已有诊断；公共能量按日志因果顺序重建，缺失消息单列；早期未诊断不等于风险为零",
+      "plotted_data": {
+        "x_k": [
+          12.0,
+          16.0,
+          20.0,
+          24.0,
+          28.0,
+          32.0
+        ],
+        "series": {
+          "published_energy_infeasible_pct_of_remote": [
+            5.434782608695652,
+            6.652360515021459,
+            6.605922551252847,
+            5.83756345177665,
+            6.651376146788991,
+            8.095238095238095
+          ],
+          "CPU_energy_blocked_UAV_slots": [
+            229,
+            297,
+            275,
+            325,
+            271,
+            290
+          ],
+          "post_persistent_blockage_assignments": [
+            25,
+            32,
+            31,
+            26,
+            31,
+            36
+          ]
+        }
+      },
+      "label_overlap_check": null
+    },
+    {
+      "figure": "00_summary_table",
+      "caption": "各行均为5个场景、605个任务；完成率=总完成数/605；能耗/DONE=总能耗/总完成数；截断指评估结束时未完成",
+      "plotted_data": {
+        "headers": [
+          "方法 / 模型",
+          "完成数",
+          "完成率\n（%）",
+          "过期数",
+          "截断数",
+          "平均评估\n奖励",
+          "总能耗\n（J）",
+          "能耗 / DONE\n（J/任务）"
+        ],
+        "cells": [
+          [
+            "纯本地",
+            "323",
+            "53.39",
+            "243",
+            "39",
+            "4.87",
+            "118.66",
+            "0.3674"
+          ],
+          [
+            "Heuristic",
+            "371",
+            "61.32",
+            "190",
+            "44",
+            "26.02",
+            "109.17",
+            "0.2943"
+          ],
+          [
+            "C 4k",
+            "280",
+            "46.28",
+            "284",
+            "41",
+            "-12.70",
+            "142.69",
+            "0.5096"
+          ],
+          [
+            "C 8k",
+            "329",
+            "54.38",
+            "233",
+            "43",
+            "7.76",
+            "149.12",
+            "0.4532"
+          ],
+          [
+            "C 12k",
+            "353",
+            "58.35",
+            "208",
+            "44",
+            "17.93",
+            "162.17",
+            "0.4594"
+          ],
+          [
+            "C 16k",
+            "388",
+            "64.13",
+            "175",
+            "42",
+            "33.48",
+            "179.31",
+            "0.4621"
+          ],
+          [
+            "C 20k",
+            "414",
+            "68.43",
+            "149",
+            "42",
+            "44.53",
+            "190.46",
+            "0.4600"
+          ],
+          [
+            "C 24k",
+            "415",
+            "68.60",
+            "147",
+            "43",
+            "45.25",
+            "189.32",
+            "0.4562"
+          ],
+          [
+            "C 28k",
+            "410",
+            "67.77",
+            "151",
+            "44",
+            "43.40",
+            "189.82",
+            "0.4630"
+          ],
+          [
+            "C 32k",
+            "416",
+            "68.76",
+            "146",
+            "43",
+            "45.70",
+            "192.23",
+            "0.4621"
+          ]
+        ]
+      },
+      "label_overlap_check": null
+    }
+  ],
+  "palette": {
+    "C": "#2C6093",
+    "heuristic": "#C48744",
+    "local_only": "#638575"
+  },
+  "font": "Microsoft YaHei",
+  "smoothing": null,
+  "error_bars": null,
+  "table_order": "two fixed baselines, followed by C4k-32k",
+  "claim_limits": [
+    "One training seed and five development scenes",
+    "No convergence or energy-efficiency advantage claim",
+    "No ranking against A/B at different budgets",
+    "No paper held-out evaluation or additional training"
+  ]
+}

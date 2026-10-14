@@ -1,0 +1,482 @@
+[
+  {
+    "source": "README.md",
+    "target": "docs/results/CURRENT_EXPERIMENT_STATUS.md"
+  },
+  {
+    "source": "README.md",
+    "target": "docs/reproduction/REPRODUCE_ABC.md"
+  },
+  {
+    "source": "README.md",
+    "target": "plots/C/seed42/group_meeting/20261014_scene_fix/03_scene_comparison.png"
+  },
+  {
+    "source": "README.md",
+    "target": "plots/C/seed42/group_meeting/20261014_scene_fix/C_group_meeting_figures_corrected.zip"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/cleanup/20261014/cleanup_report.md"
+  },
+  {
+    "source": "README.md",
+    "target": "docs/DIRECTORY_GUIDE.md"
+  },
+  {
+    "source": "README.md",
+    "target": "docs/reproduction/REPRODUCE_ABC.md"
+  },
+  {
+    "source": "README.md",
+    "target": "docs/results/seed42/seed42_abc_comparison_report.md"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/ABC_RELEASE_MANIFEST.json"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/ABC_FILE_MANIFEST.json"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/cleanup/20261013/cleanup_report.md"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/audits/checkpoint_progress/20261013_4k8k/comparison_summary.json"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/audits/checkpoint_progress/20261013_4k8k/validation.json"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/audits/continuation_implementation/20261013/implementation_summary.json"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/audits/continuation_launch/20261013_ready/preflight.json"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/README.md"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/audits/c_heuristic_gap/20261013_16k/comparison_summary.json"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/audits/c_heuristic_gap/20261013_16k/validation.json"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/audits/c_heuristic_timeline/20261013_16k/timeline_summary.json"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/audits/c_heuristic_timeline/20261013_16k/task_timeline_comparison.csv"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/audits/c_heuristic_timeline/20261013_16k/validation.json"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/audits/c_route_energy_inputs/20261013_16k/audit_summary.json"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/audits/c_route_energy_inputs/20261013_16k/selected32_decisions.csv"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/audits/c_energy_progress/20261013_12k16k/comparison_summary.json"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/audits/c_energy_progress/20261013_12k16k/interpretation.json"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/audits/c_energy_progress/20261013_12k16k/validation.json"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/audits/continuation_launch/20261013_c32k_ready/preflight_summary.json"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/audits/continuation_launch/20261013_c32k_ready/validation.json"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/audits/c32k_progress/20261014_16k32k/comparison_summary.json"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/audits/c32k_progress/20261014_16k32k/interpretation.json"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/audits/c32k_progress/20261014_16k32k/validation.json"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/cleanup/20261014/cleanup_report.md"
+  },
+  {
+    "source": "README.md",
+    "target": "sections/README.md"
+  },
+  {
+    "source": "README.md",
+    "target": "sections/methods/reading_view.html"
+  },
+  {
+    "source": "README.md",
+    "target": "metadata/cleanup/20261014_sections_formatting/validation.json"
+  },
+  {
+    "source": "metadata/README.md",
+    "target": "CURRENT_EXPERIMENT_MANIFEST.json"
+  },
+  {
+    "source": "metadata/README.md",
+    "target": "cleanup/20261014/cleanup_report.md"
+  },
+  {
+    "source": "metadata/README.md",
+    "target": "../sections/README.md"
+  },
+  {
+    "source": "metadata/README.md",
+    "target": "../sections/methods/reading_view.html"
+  },
+  {
+    "source": "experiments/README.md",
+    "target": "../docs/reproduction/REPRODUCE_ABC.md"
+  },
+  {
+    "source": "experiments/README.md",
+    "target": "../docs/results/seed42/seed42_abc_comparison_report.md"
+  },
+  {
+    "source": "experiments/README.md",
+    "target": "../docs/results/CURRENT_EXPERIMENT_STATUS.md"
+  },
+  {
+    "source": "experiments/README.md",
+    "target": "../docs/reproduction/REPRODUCE_ABC.md"
+  },
+  {
+    "source": "docs/DIRECTORY_GUIDE.md",
+    "target": "../sections/README.md"
+  },
+  {
+    "source": "docs/DIRECTORY_GUIDE.md",
+    "target": "../sections/methods/reading_view.html"
+  },
+  {
+    "source": "docs/DIRECTORY_GUIDE.md",
+    "target": "../metadata/cleanup/20261014_sections_formatting/relocation_receipt.json"
+  },
+  {
+    "source": "docs/DIRECTORY_GUIDE.md",
+    "target": "results/CURRENT_EXPERIMENT_STATUS.md"
+  },
+  {
+    "source": "docs/DIRECTORY_GUIDE.md",
+    "target": "reproduction/REPRODUCE_ABC.md"
+  },
+  {
+    "source": "docs/DIRECTORY_GUIDE.md",
+    "target": "reproduction/REPRODUCE_ABC.md#后续实验怎样放置"
+  },
+  {
+    "source": "docs/DIRECTORY_GUIDE.md",
+    "target": "../sections/README.md"
+  },
+  {
+    "source": "docs/PUBLICATION_PREPARATION.md",
+    "target": "../metadata/cleanup/20261014/cleanup_report.md"
+  },
+  {
+    "source": "docs/reproduction/REPRODUCE_ABC.md",
+    "target": "../results/CURRENT_EXPERIMENT_STATUS.md"
+  },
+  {
+    "source": "docs/results/CURRENT_EXPERIMENT_STATUS.md",
+    "target": "seed42/seed42_abc_comparison_report.md"
+  },
+  {
+    "source": "docs/results/CURRENT_EXPERIMENT_STATUS.md",
+    "target": "../reproduction/REPRODUCE_ABC.md"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "../../../metadata/DIRECTORY_RELOCATION.json"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "../../../metadata/audits/seed42"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "../../../sections/history/task_allocation_experiment_handoff_step06.md"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "../../../experiments/task-allocation/configs/a-seed42-8k.json"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "../../../logs/A/seed42/8k/training/checkpoints/final.pt"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "../../../logs/A/seed42/8k/evaluation"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "../../../experiments/task-allocation/configs/b-seed42-8k.json"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "../../../logs/B/seed42/8k/training/checkpoints/final.pt"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "../../../logs/B/seed42/8k/evaluation"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "../../../experiments/task-allocation/configs/c-seed42-8k.json"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "../../../logs/C/seed42/8k/training/checkpoints/final.pt"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "../../../logs/C/seed42/8k/evaluation"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "../../../metadata/reference/p1a_seed42_1044/training/checkpoints/final.pt"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "../../../metadata/reference/p1a_seed42_1044/original_config.json"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "../../../logs/A/seed42/8k/training/checkpoints/final.pt"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "../../../experiments/task-allocation/configs/a-seed42-8k.json"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "seed42_abc_comparison_report.md"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "seed42_abc_training_summary.csv"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "seed42_abc_evaluation_summary.csv"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "seed42_abc_per_eval_seed.csv"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "seed42_abc_route_behavior.csv"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "seed42_abc_remote_destinations.csv"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "seed42_abc_deltas.csv"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "historical_p1a_vs_current_a_1044.csv"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "../../../metadata/audits/seed42/source_manifest.json"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "../../../metadata/audits/seed42/validation.json"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "../../../metadata/audits/seed42/checkpoint_identity_audit.json"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "../../../metadata/audits/seed42/analysis_data.json"
+  },
+  {
+    "source": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "target": "../../../metadata/audits/seed42/summary_tables.json"
+  },
+  {
+    "source": "sections/README.md",
+    "target": "methods/reading_view.html"
+  },
+  {
+    "source": "sections/README.md",
+    "target": "../docs/results/CURRENT_EXPERIMENT_STATUS.md"
+  },
+  {
+    "source": "sections/README.md",
+    "target": "../docs/reproduction/REPRODUCE_ABC.md"
+  },
+  {
+    "source": "sections/README.md",
+    "target": "history/cooperative_task_allocation_implementation_plan.md"
+  },
+  {
+    "source": "sections/README.md",
+    "target": "history/task_allocation_experiment_handoff_step06.md"
+  },
+  {
+    "source": "sections/README.md",
+    "target": "methods/e14c_route_task_credit.md"
+  },
+  {
+    "source": "sections/README.md",
+    "target": "methods/e14d_p0_input_repair.md"
+  },
+  {
+    "source": "sections/README.md",
+    "target": "methods/e14e_p1a_task_event_credit.md"
+  },
+  {
+    "source": "sections/README.md",
+    "target": "methods/route_candidate_interface_cpu_audit.md"
+  },
+  {
+    "source": "sections/README.md",
+    "target": "methods/unified_route_scoring_step03.md"
+  },
+  {
+    "source": "sections/README.md",
+    "target": "methods/unified_route_learning_step04.md"
+  },
+  {
+    "source": "sections/README.md",
+    "target": "methods/unified_route_physical_relations_step05.md"
+  },
+  {
+    "source": "sections/README.md",
+    "target": "../metadata/cleanup/20261014/markdown_audit.json"
+  },
+  {
+    "source": "sections/history/cooperative_task_allocation_implementation_plan.md",
+    "target": "../../docs/results/CURRENT_EXPERIMENT_STATUS.md"
+  },
+  {
+    "source": "sections/history/cooperative_task_allocation_implementation_plan.md",
+    "target": "../../docs/reproduction/REPRODUCE_ABC.md"
+  },
+  {
+    "source": "sections/history/cooperative_task_allocation_implementation_plan.md",
+    "target": "../../metadata/audits/implementation/step01_baseline_protocol/step01_report.md"
+  },
+  {
+    "source": "sections/history/cooperative_task_allocation_implementation_plan.md",
+    "target": "../../metadata/audits/implementation/step02_candidate_interface/step02_report.md"
+  },
+  {
+    "source": "sections/history/cooperative_task_allocation_implementation_plan.md",
+    "target": "../methods/route_candidate_interface_cpu_audit.md"
+  },
+  {
+    "source": "sections/history/cooperative_task_allocation_implementation_plan.md",
+    "target": "../methods/unified_route_scoring_step03.md"
+  },
+  {
+    "source": "sections/history/cooperative_task_allocation_implementation_plan.md",
+    "target": "../../metadata/audits/implementation/step03_unified_scorer/step03_report.md"
+  },
+  {
+    "source": "sections/history/cooperative_task_allocation_implementation_plan.md",
+    "target": "../methods/unified_route_learning_step04.md"
+  },
+  {
+    "source": "sections/history/cooperative_task_allocation_implementation_plan.md",
+    "target": "../../metadata/audits/implementation/step04_learning_chain/step04_report.md"
+  },
+  {
+    "source": "sections/history/cooperative_task_allocation_implementation_plan.md",
+    "target": "../methods/unified_route_physical_relations_step05.md"
+  },
+  {
+    "source": "sections/history/cooperative_task_allocation_implementation_plan.md",
+    "target": "../../metadata/audits/implementation/step05_physical_relations/step05_report.md"
+  },
+  {
+    "source": "sections/history/cooperative_task_allocation_implementation_plan.md",
+    "target": "../../metadata/audits/implementation/step06_engineering_gate/step06_report.md"
+  },
+  {
+    "source": "sections/history/cooperative_task_allocation_implementation_plan.md",
+    "target": "task_allocation_experiment_handoff_step06.md"
+  },
+  {
+    "source": "sections/history/task_allocation_experiment_handoff_step06.md",
+    "target": "../../docs/results/CURRENT_EXPERIMENT_STATUS.md"
+  },
+  {
+    "source": "sections/history/task_allocation_experiment_handoff_step06.md",
+    "target": "../../docs/reproduction/REPRODUCE_ABC.md"
+  },
+  {
+    "source": "sections/history/task_allocation_experiment_handoff_step06.md",
+    "target": "cooperative_task_allocation_implementation_plan.md"
+  },
+  {
+    "source": "sections/methods/e14c_route_task_credit.md",
+    "target": "../../docs/reproduction/REPRODUCE_ABC.md"
+  },
+  {
+    "source": "sections/methods/e14d_p0_input_repair.md",
+    "target": "e14e_p1a_task_event_credit.md"
+  },
+  {
+    "source": "sections/methods/e14e_p1a_task_event_credit.md",
+    "target": "../../docs/reproduction/REPRODUCE_ABC.md"
+  },
+  {
+    "source": "sections/methods/route_candidate_interface_cpu_audit.md",
+    "target": "../../docs/reproduction/REPRODUCE_ABC.md"
+  },
+  {
+    "source": "sections/methods/unified_route_learning_step04.md",
+    "target": "../../docs/reproduction/REPRODUCE_ABC.md"
+  },
+  {
+    "source": "sections/methods/unified_route_learning_step04.md",
+    "target": "../../metadata/audits/implementation/step04_learning_chain/step04_report.md"
+  },
+  {
+    "source": "sections/methods/unified_route_physical_relations_step05.md",
+    "target": "../../docs/reproduction/REPRODUCE_ABC.md"
+  },
+  {
+    "source": "sections/methods/unified_route_scoring_step03.md",
+    "target": "../../docs/reproduction/REPRODUCE_ABC.md"
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "checkpoint_inventory": "PASS",
+  "evaluation_protocol_functional_identity": "PASS",
+  "evaluation_protocol_sha256": "d2463e1929ea867212edec4774f54b2c5a6dbc9ef957f00dd2978402aec4849a",
+  "historical_requires_grad_metadata_difference_disclosed": true,
+  "source_scientific_configs_equal_except_declared_caps_and_output_paths": true,
+  "old_4k_8k_evaluation_artifacts_unchanged": true,
+  "old_8k_checkpoints_unchanged": true,
+  "continuation_16k_training_artifacts_unchanged": true,
+  "production_source_code_unchanged": true,
+  "production_source_file_set_unchanged": true,
+  "unchanged_input_files": 256,
+  "unchanged_categories": {
+    "src_python": 105,
+    "8k_training_evaluation_and_4k_progress": 85,
+    "16k_continuation_training": 42
+  },
+  "new_checkpoint_evaluations": 6,
+  "new_episodes": 120,
+  "new_neural_policy_episodes": 30,
+  "new_baseline_episodes": 90,
+  "new_baseline_episodes_exactly_matched": 90,
+  "old4k_baseline_episodes_rechecked_against8k": 45,
+  "reference8k_baseline_episodes": 45,
+  "new_old_episode_rows_with_conservation_checks": 240,
+  "recomputed_neural_scalar_aggregates": 300,
+  "all_five_external_realizations_identical_across_all_methods_and_checkpoints": true,
+  "held_out_seeds_used": [],
+  "training_started": false,
+  "resume_called": false,
+  "network_updates": 0,
+  "oracle_used": false,
+  "pretraining_used": false,
+  "forbidden_call_counts": {
+    "trainer_constructor": 0,
+    "trainer_run": 0,
+    "resume": 0,
+    "ppo_update": 0,
+    "adam_step": 0,
+    "backward": 0,
+    "paired_shadow": 0
+  },
+  "tests": {
+    "passed": 26,
+    "subtests_passed": 8,
+    "junit_file": "D:\\My_project_li\\metadata\\audits\\checkpoint_progress\\20261013_4k8k12k16k\\evaluation_tests.xml"
+  },
+  "output_table_rows": {
+    "core_comparison": 60,
+    "per_checkpoint_seed_metrics": 60,
+    "paired_DONE_and_deltas": 15
+  },
+  "figures": {
+    "source_data_hash_verified": true,
+    "png_size": [
+      2600,
+      1500
+    ],
+    "svg_present": true,
+    "visual_inspection_passed": true,
+    "no_smoothing": true,
+    "no_invented_error_bars": true
+  },
+  "claim_scope": "seed42 + development seeds1042-1046 only; no convergence or held-out paper claim"
+}

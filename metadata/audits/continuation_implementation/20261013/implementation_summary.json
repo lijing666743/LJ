@@ -1,0 +1,374 @@
+{
+  "status": "IMPLEMENTED_AND_ENGINEERING_VERIFIED",
+  "scheme": "Restore full 4k periodic state; replay 4k-8k; verify exact original 8k factual learning state; retain regenerated 64 pending samples; continue to 16k.",
+  "direct_resume_from_existing_8k_final": false,
+  "random_fresh_initialization": false,
+  "formal_training_started": false,
+  "actual_4k_to_8k_replay_executed": false,
+  "actual_checkpoint_restore_checks": [
+    {
+      "method": "A",
+      "arguments": [
+        "--config",
+        "experiments/task-allocation/configs/a-seed42-16k-resume.json",
+        "--resume-from",
+        "logs/A/seed42/8k/training/checkpoints/step_4000.pt",
+        "--extend-training-budget",
+        "--verify-replay-against",
+        "logs/A/seed42/8k/training/checkpoints/final.pt",
+        "--check-resume"
+      ],
+      "result": {
+        "continuation": {
+          "diagnostic_sidecars_start_at": 4000,
+          "previous": null,
+          "replay_reference": {
+            "environment_steps": 8000,
+            "path": "D:\\My_project_li\\logs\\A\\seed42\\8k\\training\\checkpoints\\final.pt",
+            "sha256": "5da08bb0309948ab8bbd9423364d6f76b07daf1a8dcdb7786c7dee141f958199",
+            "status": "pending"
+          },
+          "restored_environment_steps": 4000,
+          "restored_pending_transitions": 160,
+          "schema_version": 1,
+          "source_checkpoint": "D:\\My_project_li\\logs\\A\\seed42\\8k\\training\\checkpoints\\step_4000.pt",
+          "source_config_hash": "81cb1ad596cb6dcd6f212e2d08a7edc50e9b210b0a5cf226ba4a7a2cb1651ae5",
+          "source_sha256": "dc026714f6e0d5b588e1fea83020e5ec8a0e6b817757c01b46855efe59609777",
+          "target_config_hash": "04d52c3c96635e1e984547506be0197b2c7f3fc3410102e44fce9dd08fcc7cbc",
+          "target_environment_steps": 16000
+        },
+        "environment_steps_executed": 0,
+        "optimizer_updates_executed": 0,
+        "restored_state": {
+          "active_rollout_length": 160,
+          "active_rollout_policy_version": 15,
+          "collected_environment_transitions": 4000,
+          "completed_episodes": 8,
+          "next_episode_index": 8,
+          "optimized_transitions": 3840,
+          "policy_version": 15,
+          "ppo_update_count": 15,
+          "started_episodes": 8,
+          "training_complete": false,
+          "unused_final_tail_transitions": 0
+        },
+        "status": "resume_check_passed",
+        "target_environment_steps": 16000
+      }
+    },
+    {
+      "method": "B",
+      "arguments": [
+        "--config",
+        "experiments/task-allocation/configs/b-seed42-16k-resume.json",
+        "--resume-from",
+        "logs/B/seed42/8k/training/checkpoints/step_4000.pt",
+        "--extend-training-budget",
+        "--verify-replay-against",
+        "logs/B/seed42/8k/training/checkpoints/final.pt",
+        "--check-resume"
+      ],
+      "result": {
+        "continuation": {
+          "diagnostic_sidecars_start_at": 4000,
+          "previous": null,
+          "replay_reference": {
+            "environment_steps": 8000,
+            "path": "D:\\My_project_li\\logs\\B\\seed42\\8k\\training\\checkpoints\\final.pt",
+            "sha256": "2cab254ff8d527726779b7ec18383ffc0cd7710f5edb6d0ac229da2c554feec5",
+            "status": "pending"
+          },
+          "restored_environment_steps": 4000,
+          "restored_pending_transitions": 160,
+          "schema_version": 1,
+          "source_checkpoint": "D:\\My_project_li\\logs\\B\\seed42\\8k\\training\\checkpoints\\step_4000.pt",
+          "source_config_hash": "1bd1c1aa959695e150ef3734a625f5d87de87e4f4325d470f6ea3845e8cdfda4",
+          "source_sha256": "482e62078f944d3800db2b205afb5b71f48d31d5212f54e5b73cbf58065953e0",
+          "target_config_hash": "309c76095f8ff67442d51ddae7a3998509d203b53cdbd0d694717b45466319cb",
+          "target_environment_steps": 16000
+        },
+        "environment_steps_executed": 0,
+        "optimizer_updates_executed": 0,
+        "restored_state": {
+          "active_rollout_length": 160,
+          "active_rollout_policy_version": 15,
+          "collected_environment_transitions": 4000,
+          "completed_episodes": 8,
+          "next_episode_index": 8,
+          "optimized_transitions": 3840,
+          "policy_version": 15,
+          "ppo_update_count": 15,
+          "started_episodes": 8,
+          "training_complete": false,
+          "unused_final_tail_transitions": 0
+        },
+        "status": "resume_check_passed",
+        "target_environment_steps": 16000
+      }
+    },
+    {
+      "method": "C",
+      "arguments": [
+        "--config",
+        "experiments/task-allocation/configs/c-seed42-16k-resume.json",
+        "--resume-from",
+        "logs/C/seed42/8k/training/checkpoints/step_4000.pt",
+        "--extend-training-budget",
+        "--verify-replay-against",
+        "logs/C/seed42/8k/training/checkpoints/final.pt",
+        "--check-resume"
+      ],
+      "result": {
+        "continuation": {
+          "diagnostic_sidecars_start_at": 4000,
+          "previous": null,
+          "replay_reference": {
+            "environment_steps": 8000,
+            "path": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\final.pt",
+            "sha256": "58da11c49bde4a517471e1386842b90568fdb1ffe51d9c290caa7e3d442ff1b5",
+            "status": "pending"
+          },
+          "restored_environment_steps": 4000,
+          "restored_pending_transitions": 160,
+          "schema_version": 1,
+          "source_checkpoint": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\step_4000.pt",
+          "source_config_hash": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15",
+          "source_sha256": "2a92745919ef42316131ab70dd67c6cbb9fa91cfb1cb08ebd2931e5913b50325",
+          "target_config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+          "target_environment_steps": 16000
+        },
+        "environment_steps_executed": 0,
+        "optimizer_updates_executed": 0,
+        "restored_state": {
+          "active_rollout_length": 160,
+          "active_rollout_policy_version": 15,
+          "collected_environment_transitions": 4000,
+          "completed_episodes": 8,
+          "next_episode_index": 8,
+          "optimized_transitions": 3840,
+          "policy_version": 15,
+          "ppo_update_count": 15,
+          "started_episodes": 8,
+          "training_complete": false,
+          "unused_final_tail_transitions": 0
+        },
+        "status": "resume_check_passed",
+        "target_environment_steps": 16000
+      }
+    }
+  ],
+  "engineering_validation": {
+    "base_tests_passed": 115,
+    "subtests_passed": 49,
+    "junit": [
+      {
+        "file": "regression_tests.xml",
+        "name": "pytest",
+        "errors": "0",
+        "failures": "0",
+        "skipped": "0",
+        "tests": "151",
+        "time": "523.249",
+        "timestamp": "2026-10-13T11:08:40.319402+08:00",
+        "hostname": "DESKTOP-4RBUISE"
+      },
+      {
+        "file": "continuation_tests.xml",
+        "name": "pytest",
+        "errors": "0",
+        "failures": "0",
+        "skipped": "0",
+        "tests": "13",
+        "time": "776.291",
+        "timestamp": "2026-10-13T11:14:22.653003+08:00",
+        "hostname": "DESKTOP-4RBUISE"
+      }
+    ],
+    "real_abc_extension_fixture": {
+      "source_budget": 520,
+      "target_budget": 780,
+      "episode_horizon": 20,
+      "device": "cpu",
+      "real_ppo_and_paired_shadows": true,
+      "model_optimizer_policy_rng_and_persisted_diagnostics_exact": true,
+      "not_formal_experiment_results": true
+    }
+  },
+  "original_non_src_inputs_verified_unchanged": {
+    "main.py": "a109d100fad65414b3f6119fa4074e4da2eaeae9b7726d313468a0ea9cf37295",
+    "AGENTS.md": "2bc0874025a5c0c891139809d1e2e0a6df62708360993881adce206bc544372a",
+    "requirements.txt": "7b3db08c598f978af1c819e59a5b933e0b688040b88dbfbb3f646177e0c8c02f",
+    ".gitignore": "a874e4f5e12cc94bcb76770262d3f66b11b93faef0607febfc6a2ac06117d434",
+    "logs\\A\\seed42\\8k\\training\\checkpoints\\final.pt": "5da08bb0309948ab8bbd9423364d6f76b07daf1a8dcdb7786c7dee141f958199",
+    "logs\\A\\seed42\\8k\\training\\checkpoints\\step_4000.pt": "dc026714f6e0d5b588e1fea83020e5ec8a0e6b817757c01b46855efe59609777",
+    "logs\\A\\seed42\\8k\\evaluation\\aggregate_metrics.json": "547955062603f5d52deec963241edf75b16b4e7d056215a7d1eae956c7219a75",
+    "logs\\A\\seed42\\8k\\evaluation\\episode_metrics.jsonl": "b6c58a03defc40107e347e2cb57ff178d3a3b89ce41cc4ff7639c532e3a2c7bb",
+    "logs\\A\\seed42\\8k\\evaluation\\evaluation_manifest.json": "0364c0e8c188597bff34e665e6d9675f59a6b4791ab7aa6286973a8974c8f665",
+    "logs\\A\\seed42\\8k\\evaluation\\evaluation_metrics.csv": "b01fb95804ca0d5ab9d2b93ccffcffea1813afbb111af6058ea12e39253dc9d5",
+    "experiments\\task-allocation\\configs\\a-seed42-8k.json": "6e1b96dc204ffa8c42e79db9dba56fc5fcec674c25bc048677beea256893f5f6",
+    "logs\\A\\seed42\\8k\\diagnostics\\summary.json": "50ec04cd1135c5154ab23cd0bc87ad7c65925040b282fd9b73bae6e95b67c321",
+    "logs\\B\\seed42\\8k\\training\\checkpoints\\final.pt": "2cab254ff8d527726779b7ec18383ffc0cd7710f5edb6d0ac229da2c554feec5",
+    "logs\\B\\seed42\\8k\\training\\checkpoints\\step_4000.pt": "482e62078f944d3800db2b205afb5b71f48d31d5212f54e5b73cbf58065953e0",
+    "logs\\B\\seed42\\8k\\evaluation\\aggregate_metrics.json": "1b993159592ee752f20534d4bbf00334f95a79bbca76b7de0306a3856123a56c",
+    "logs\\B\\seed42\\8k\\evaluation\\episode_metrics.jsonl": "c87689b1f04b6f923e3d7314726b13b66329c0523255096ff672765031472419",
+    "logs\\B\\seed42\\8k\\evaluation\\evaluation_manifest.json": "a838c69a981bcc109338976d0acf559735bd02229ec1dc639fbb82652f3c11fe",
+    "logs\\B\\seed42\\8k\\evaluation\\evaluation_metrics.csv": "9c9f9234badecceef56de6dbdf958596007ff9835cd5cbdf01f0e05837397630",
+    "experiments\\task-allocation\\configs\\b-seed42-8k.json": "23379d3f9c6976055f15d9425d8aea4997c1f8aa52d8e770ae2ea93b1590c9ae",
+    "logs\\B\\seed42\\8k\\diagnostics\\summary.json": "8ef4ee1a34991ee50d091ca27a794668b2539e2a07416cdff5c99842134cde5b",
+    "logs\\C\\seed42\\8k\\training\\checkpoints\\final.pt": "58da11c49bde4a517471e1386842b90568fdb1ffe51d9c290caa7e3d442ff1b5",
+    "logs\\C\\seed42\\8k\\training\\checkpoints\\step_4000.pt": "2a92745919ef42316131ab70dd67c6cbb9fa91cfb1cb08ebd2931e5913b50325",
+    "logs\\C\\seed42\\8k\\evaluation\\aggregate_metrics.json": "3b61d52a10c29bb15ab6478a5aeeacb5702a765b0b9132ca1968c1f36d1156dc",
+    "logs\\C\\seed42\\8k\\evaluation\\episode_metrics.jsonl": "3069ef82394e81f23cf1a624ed21b832d86f3ab0761533169b53ad0256c3bd2d",
+    "logs\\C\\seed42\\8k\\evaluation\\evaluation_manifest.json": "eb5a1334f67e057150752bc1d549d061fea1352980376732cea3a48f43043a06",
+    "logs\\C\\seed42\\8k\\evaluation\\evaluation_metrics.csv": "8ccb9b61026da6ac21c6b97c7dd07b8f24ddd1d42ee02d1d08f7a9782771a512",
+    "experiments\\task-allocation\\configs\\c-seed42-8k.json": "ed0abc153552ea10dcc7a3099ce0f623c53c9e0d22324974a9bde876d31e9ff5",
+    "logs\\C\\seed42\\8k\\diagnostics\\summary.json": "c827e3cbdf020cf2c4bbc1a11d42e7ff4472827495472dc57cdce76b82e44438"
+  },
+  "preserved_release_runtime_file_count": 103,
+  "modified_release_runtime_files": [
+    {
+      "path": "src/cli.py",
+      "original_sha256": "b575661208079a2977f58b17be1f2774d120b23b76b9fe750271aebda8a7623d",
+      "current_sha256": "5b14d9cc0f35d6f9440ea447c6e7361cc0bcad405707e83f93930dc33af3ad79"
+    },
+    {
+      "path": "src/execution.py",
+      "original_sha256": "f10b93f60d7fad40d0872af10a00e52c249b3006d168fed05079e7315b36f643",
+      "current_sha256": "c670eca782b0914e3e66fce6cdf27a9dfaa7cd41fd33db01f6b8626ad2e97481"
+    },
+    {
+      "path": "src/registry.py",
+      "original_sha256": "b2f7bbcf28f601dc753d9ba25b170b62ac9504b4614ef5b76d4c383ebd36c987",
+      "current_sha256": "6d4e68da163b2a6cb13435508c4af163a199cfcc6d9950138b3ef0ab47281e45"
+    },
+    {
+      "path": "src/models/ca_gat_mappo_checkpoint.py",
+      "original_sha256": "d4dd28a72e684f854f597cb376e1ab153c94d4eded319c768fa6db8a566d24ef",
+      "current_sha256": "dbc3b9e704355dda143e6064eee7f4ef0f00c4061737947ff67ecf7f0df5d7d6"
+    },
+    {
+      "path": "src/models/ca_gat_mappo_trainer.py",
+      "original_sha256": "5273adf9cc4d81745016bac6353c87cbcc26a4afc55107ebdd5e186fa5bbb02f",
+      "current_sha256": "0f4e08a658268e8e231c7bbb6159aff488951526e704195face32ee8bcda7ce7"
+    }
+  ],
+  "new_runtime_module": {
+    "path": "src/models/ca_gat_mappo_continuation.py",
+    "sha256": "b749c940c1c3ef9e8cb337dc75386f38ea181e2a8c6f5f1aa672b88811f1ba4c"
+  },
+  "prepared_configs": [
+    {
+      "group": "A",
+      "path": "experiments\\task-allocation\\configs\\a-seed42-16k-resume.json",
+      "sha256": "570e95b46a65f53768c69beacd007debe24e0673f9ba4c87a6565b22c553dc0d",
+      "changes": [
+        {
+          "key": "training.mappo.max_training_episodes",
+          "old": 16,
+          "new": 32
+        },
+        {
+          "key": "training.mappo.max_training_environment_steps",
+          "old": 8000,
+          "new": 16000
+        },
+        {
+          "key": "output.logs_dir",
+          "old": "logs/development/task_allocation/experiments/A/seed42/8k",
+          "new": "logs/A/seed42/16k_continuation"
+        },
+        {
+          "key": "output.plots_dir",
+          "old": "plots/development/task_allocation/experiments/A/seed42/8k",
+          "new": "plots/A/seed42/16k_continuation"
+        },
+        {
+          "key": "output.dashboard_logs_dir",
+          "old": "dashboard_logs/development/task_allocation/experiments/A/seed42/8k",
+          "new": "dashboard_logs/A/seed42/16k_continuation"
+        }
+      ]
+    },
+    {
+      "group": "B",
+      "path": "experiments\\task-allocation\\configs\\b-seed42-16k-resume.json",
+      "sha256": "9d5c1bd0ff6dd15f280f8bb8c9befcb0faf0fe679e2b44e1cc482c356c6731b8",
+      "changes": [
+        {
+          "key": "training.mappo.max_training_episodes",
+          "old": 16,
+          "new": 32
+        },
+        {
+          "key": "training.mappo.max_training_environment_steps",
+          "old": 8000,
+          "new": 16000
+        },
+        {
+          "key": "output.logs_dir",
+          "old": "logs/development/task_allocation/experiments/B/seed42/8k",
+          "new": "logs/B/seed42/16k_continuation"
+        },
+        {
+          "key": "output.plots_dir",
+          "old": "plots/development/task_allocation/experiments/B/seed42/8k",
+          "new": "plots/B/seed42/16k_continuation"
+        },
+        {
+          "key": "output.dashboard_logs_dir",
+          "old": "dashboard_logs/development/task_allocation/experiments/B/seed42/8k",
+          "new": "dashboard_logs/B/seed42/16k_continuation"
+        }
+      ]
+    },
+    {
+      "group": "C",
+      "path": "experiments\\task-allocation\\configs\\c-seed42-16k-resume.json",
+      "sha256": "c035898f6d3ecedc9bdf059a00d0bd0fab9ffd82e1e83aa2bf8b815dd12890c3",
+      "changes": [
+        {
+          "key": "training.mappo.max_training_episodes",
+          "old": 16,
+          "new": 32
+        },
+        {
+          "key": "training.mappo.max_training_environment_steps",
+          "old": 8000,
+          "new": 16000
+        },
+        {
+          "key": "output.logs_dir",
+          "old": "logs/development/task_allocation/experiments/C/seed42/8k",
+          "new": "logs/C/seed42/16k_continuation"
+        },
+        {
+          "key": "output.plots_dir",
+          "old": "plots/development/task_allocation/experiments/C/seed42/8k",
+          "new": "plots/C/seed42/16k_continuation"
+        },
+        {
+          "key": "output.dashboard_logs_dir",
+          "old": "dashboard_logs/development/task_allocation/experiments/C/seed42/8k",
+          "new": "dashboard_logs/C/seed42/16k_continuation"
+        }
+      ]
+    }
+  ],
+  "rng_contract": {
+    "policy_generator": "Exact saved state restored",
+    "environment_streams": "Reconstructed from original episode seed sequence at completed episode boundary",
+    "paired_shadow": "Slot-addressed RNG and pending selector metadata retained",
+    "global_python_numpy_torch_rng_in_old_checkpoint": false,
+    "scope": "Existing fixed A/B/C pipeline and runtime; not a generic full-process RNG snapshot"
+  },
+  "unused_tail_contract": {
+    "existing_final_tail_samples_available": false,
+    "existing_final_unused_count": 64,
+    "restored_4k_pending_count": 160,
+    "replay_8k_pending_count_expected": 64,
+    "next_ppo_update_environment_steps": 8192,
+    "replay_guard": "Bitwise equality of actor, critic, both Adam states, policy RNG, saved diagnostic histories and PPO/episode counters; any mismatch stops before collecting past 8k."
+  },
+  "artifact_boundary": "New telemetry starts after 4k restoration. Saved reward/episode/PPO history contains the prefix; omitted optional historical diagnostics remain unavailable. Frozen release manifests continue to describe original 8k version.",
+  "previous_readonly_audit": "metadata/audits/resume_readiness/20261013_final8k_to16k/audit.json"
+}

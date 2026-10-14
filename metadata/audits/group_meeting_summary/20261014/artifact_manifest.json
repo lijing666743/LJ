@@ -1,0 +1,105 @@
+{
+  "artifact_count": 20,
+  "artifacts": [
+    {
+      "path": "dashboard_logs\\C\\seed42\\group_meeting\\20261014\\per_scene_metrics.csv",
+      "bytes": 5432,
+      "sha256": "b7477b3af81ecd6734962409e9adbd629feb10ceebe8fb4284bdd2f7b125d1a7"
+    },
+    {
+      "path": "dashboard_logs\\C\\seed42\\group_meeting\\20261014\\summary_metrics.csv",
+      "bytes": 1928,
+      "sha256": "0c008be225cb5de7bb455144e2a0a4a357242afb6d93576758255c1ad107d32c"
+    },
+    {
+      "path": "logs\\group_meeting_summary\\20261014\\aggregation_tests.xml",
+      "bytes": 1078,
+      "sha256": "439c08264f81558eaf307f8daddba3e07dd49324b7e3d99cc4be02977222d8c1"
+    },
+    {
+      "path": "metadata\\audits\\group_meeting_summary\\20261014\\data_validation.json",
+      "bytes": 4965,
+      "sha256": "68ca6a5bb8deedd6a72b2aeac96f4834451a0214d92c98f5ff6c92dfd2c703da"
+    },
+    {
+      "path": "metadata\\audits\\group_meeting_summary\\20261014\\validation.json",
+      "bytes": 2920,
+      "sha256": "443e23846dac6f23ee6237e1544f52046631c84298bba8d5865fcba830bb6b81"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014\\00_summary_table.png",
+      "bytes": 326946,
+      "sha256": "894d81174aa4794da6276646ae2a95ad83e8b51e8a57f18f6673345d42a42269"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014\\00_summary_table.svg",
+      "bytes": 40838,
+      "sha256": "5b611bd082e45225d4ca0548065119cfaa630acb9071d846ea8fa10ffe05eeaa"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014\\01_completion_and_reward.png",
+      "bytes": 219907,
+      "sha256": "781dde1d08ccee235b100ad6fe6292fbc2a247ed2de704b039293bf8ddc93106"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014\\01_completion_and_reward.svg",
+      "bytes": 27928,
+      "sha256": "588e6952e34fc911d7e0135460773d6fef99daa35cd33199dd341edf65dd7335"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014\\02_energy_cost.png",
+      "bytes": 196923,
+      "sha256": "01b51661a398a91bdd30bd1ef837d7afdd19346458e9e798ea7f64aa862ef5a5"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014\\02_energy_cost.svg",
+      "bytes": 24815,
+      "sha256": "4ae7ef20d3eaa9501e0dfa845317e02d05f80ae99c0e14e62b96ff36c6586cc1"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014\\03_scene_comparison.png",
+      "bytes": 144317,
+      "sha256": "13ad000c810027789c949e103448150b3ac9f7bcc0dc82ac6643a169093c6066"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014\\03_scene_comparison.svg",
+      "bytes": 16839,
+      "sha256": "a3e4bbf2439bc28c0502439a5148e5288134ce1776289608541919daff2147d5"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014\\04_energy_risk.png",
+      "bytes": 266798,
+      "sha256": "31b49685fd3310bed833d0348badbe12b9266a4b79e56c333d0e4abf0302a1a4"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014\\04_energy_risk.svg",
+      "bytes": 32950,
+      "sha256": "f509eb9eb4b849eb7b45aa2348328c1ec2e51c1686e0a6b3fc9b0b53c0191665"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014\\C_group_meeting_figures.zip",
+      "bytes": 1076041,
+      "sha256": "da4434a79b0ad00e8654509b3628cb3a6ee4dfe61c98b2286dfab69d29c8c2a0"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014\\figure_data.json",
+      "bytes": 45908,
+      "sha256": "3495cd89f2512a2264f648065bf05d7f45c79cac5a0d22aaa71740ce07fa44b0"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014\\figure_recipe.json",
+      "bytes": 17885,
+      "sha256": "df4e0a7fd832913a79af768cd2bc9a96fb861b0b7787120e215ffbe1412a2659"
+    },
+    {
+      "path": "src\\evaluation\\group_meeting_figures.py",
+      "bytes": 17787,
+      "sha256": "003375a86b92428307285f592d0c4a3fc812b89321ca4b806d60741853680155"
+    },
+    {
+      "path": "tests\\test_group_meeting_figures.py",
+      "bytes": 2044,
+      "sha256": "c491ea65638648965ffd1a4b94b95ad492810db313b098046b8a6628b2f52963"
+    }
+  ]
+}

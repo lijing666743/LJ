@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "baseline_files": 573,
+  "unchanged_files": 552,
+  "intentional_deleted_files": 15,
+  "intentional_modified_files": [
+    "experiments/README.md",
+    "logs/README.md",
+    "sections/cooperative_task_allocation_implementation_plan.md",
+    "sections/README.md",
+    "sections/unified_route_learning_step04.md",
+    "tests/test_ca_gat_mappo_checkpoint_contract.py"
+  ],
+  "unexpected_missing": [],
+  "unexpected_changes": [],
+  "all_107_runtime_modules_unchanged": true,
+  "all_formal_checkpoints_logs_and_configs_unchanged": true,
+  "protected_directories_not_traversed": true,
+  "all_0_to_7_chapters_unchanged": true
+}

@@ -1,0 +1,581 @@
+{
+  "checkpoints": [
+    {
+      "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/checkpoints/final.pt",
+      "sha256": "c94352238cdcb77d97571842bf9ecc2952393a05e222c044348d6e5cb092b7eb",
+      "kind": "FINAL_COMPLETED",
+      "training_state": {
+        "policy_version": 62,
+        "started_episodes": 32,
+        "completed_episodes": 32,
+        "next_episode_index": 32,
+        "collected_environment_transitions": 16000,
+        "optimized_transitions": 15872,
+        "ppo_update_count": 62,
+        "unused_final_tail_transitions": 128,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "config_hash": "04d52c3c96635e1e984547506be0197b2c7f3fc3410102e44fce9dd08fcc7cbc",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true,
+      "strict_actor_load": "PASS",
+      "actor_training_mode": false
+    },
+    {
+      "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/checkpoints/step_12000.pt",
+      "sha256": "2ee8be084711488c125eebc52bbd8cd97d0c7cef5590d697afcbfe8a4a73232e",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 46,
+        "started_episodes": 24,
+        "completed_episodes": 24,
+        "next_episode_index": 24,
+        "collected_environment_transitions": 12000,
+        "optimized_transitions": 11776,
+        "ppo_update_count": 46,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 224,
+        "active_rollout_policy_version": 46
+      },
+      "config_hash": "04d52c3c96635e1e984547506be0197b2c7f3fc3410102e44fce9dd08fcc7cbc",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    },
+    {
+      "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/checkpoints/step_8000.pt",
+      "sha256": "cdc8194e0547303e7a88f53125724c3abdd941744112e7a401259de712bc129e",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 31,
+        "started_episodes": 16,
+        "completed_episodes": 16,
+        "next_episode_index": 16,
+        "collected_environment_transitions": 8000,
+        "optimized_transitions": 7936,
+        "ppo_update_count": 31,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 64,
+        "active_rollout_policy_version": 31
+      },
+      "config_hash": "04d52c3c96635e1e984547506be0197b2c7f3fc3410102e44fce9dd08fcc7cbc",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    },
+    {
+      "path": "logs/A/seed42/8k/training/checkpoints/final.pt",
+      "sha256": "5da08bb0309948ab8bbd9423364d6f76b07daf1a8dcdb7786c7dee141f958199",
+      "kind": "FINAL_COMPLETED",
+      "training_state": {
+        "policy_version": 31,
+        "started_episodes": 16,
+        "completed_episodes": 16,
+        "next_episode_index": 16,
+        "collected_environment_transitions": 8000,
+        "optimized_transitions": 7936,
+        "ppo_update_count": 31,
+        "unused_final_tail_transitions": 64,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "config_hash": "81cb1ad596cb6dcd6f212e2d08a7edc50e9b210b0a5cf226ba4a7a2cb1651ae5",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true,
+      "strict_actor_load": "PASS",
+      "actor_training_mode": false
+    },
+    {
+      "path": "logs/A/seed42/8k/training/checkpoints/step_4000.pt",
+      "sha256": "dc026714f6e0d5b588e1fea83020e5ec8a0e6b817757c01b46855efe59609777",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 15,
+        "started_episodes": 8,
+        "completed_episodes": 8,
+        "next_episode_index": 8,
+        "collected_environment_transitions": 4000,
+        "optimized_transitions": 3840,
+        "ppo_update_count": 15,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 160,
+        "active_rollout_policy_version": 15
+      },
+      "config_hash": "81cb1ad596cb6dcd6f212e2d08a7edc50e9b210b0a5cf226ba4a7a2cb1651ae5",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    },
+    {
+      "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/checkpoints/final.pt",
+      "sha256": "49f962672e2a429194a553fb41d72f8d84090e4621de6ecfbd6c286dd286e9be",
+      "kind": "FINAL_COMPLETED",
+      "training_state": {
+        "policy_version": 62,
+        "started_episodes": 32,
+        "completed_episodes": 32,
+        "next_episode_index": 32,
+        "collected_environment_transitions": 16000,
+        "optimized_transitions": 15872,
+        "ppo_update_count": 62,
+        "unused_final_tail_transitions": 128,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "config_hash": "309c76095f8ff67442d51ddae7a3998509d203b53cdbd0d694717b45466319cb",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true,
+      "strict_actor_load": "PASS",
+      "actor_training_mode": false
+    },
+    {
+      "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/checkpoints/step_12000.pt",
+      "sha256": "d0b1d9fa22ba3f8910cbd2f10808f7bc9c50fdc64ed8eabe2245506c28e98703",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 46,
+        "started_episodes": 24,
+        "completed_episodes": 24,
+        "next_episode_index": 24,
+        "collected_environment_transitions": 12000,
+        "optimized_transitions": 11776,
+        "ppo_update_count": 46,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 224,
+        "active_rollout_policy_version": 46
+      },
+      "config_hash": "309c76095f8ff67442d51ddae7a3998509d203b53cdbd0d694717b45466319cb",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    },
+    {
+      "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/checkpoints/step_8000.pt",
+      "sha256": "8d46f0025f19b2ea43f9bffed1a9ae0f33ecb8f5fe92e321834c0743a609a2c2",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 31,
+        "started_episodes": 16,
+        "completed_episodes": 16,
+        "next_episode_index": 16,
+        "collected_environment_transitions": 8000,
+        "optimized_transitions": 7936,
+        "ppo_update_count": 31,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 64,
+        "active_rollout_policy_version": 31
+      },
+      "config_hash": "309c76095f8ff67442d51ddae7a3998509d203b53cdbd0d694717b45466319cb",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    },
+    {
+      "path": "logs/B/seed42/8k/training/checkpoints/final.pt",
+      "sha256": "2cab254ff8d527726779b7ec18383ffc0cd7710f5edb6d0ac229da2c554feec5",
+      "kind": "FINAL_COMPLETED",
+      "training_state": {
+        "policy_version": 31,
+        "started_episodes": 16,
+        "completed_episodes": 16,
+        "next_episode_index": 16,
+        "collected_environment_transitions": 8000,
+        "optimized_transitions": 7936,
+        "ppo_update_count": 31,
+        "unused_final_tail_transitions": 64,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "config_hash": "1bd1c1aa959695e150ef3734a625f5d87de87e4f4325d470f6ea3845e8cdfda4",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true,
+      "strict_actor_load": "PASS",
+      "actor_training_mode": false
+    },
+    {
+      "path": "logs/B/seed42/8k/training/checkpoints/step_4000.pt",
+      "sha256": "482e62078f944d3800db2b205afb5b71f48d31d5212f54e5b73cbf58065953e0",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 15,
+        "started_episodes": 8,
+        "completed_episodes": 8,
+        "next_episode_index": 8,
+        "collected_environment_transitions": 4000,
+        "optimized_transitions": 3840,
+        "ppo_update_count": 15,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 160,
+        "active_rollout_policy_version": 15
+      },
+      "config_hash": "1bd1c1aa959695e150ef3734a625f5d87de87e4f4325d470f6ea3845e8cdfda4",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    },
+    {
+      "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/checkpoints/final.pt",
+      "sha256": "dc8754d7871161233d65ee488e2125dbc4258b555b0a3efb7d579c264800c087",
+      "kind": "FINAL_COMPLETED",
+      "training_state": {
+        "policy_version": 62,
+        "started_episodes": 32,
+        "completed_episodes": 32,
+        "next_episode_index": 32,
+        "collected_environment_transitions": 16000,
+        "optimized_transitions": 15872,
+        "ppo_update_count": 62,
+        "unused_final_tail_transitions": 128,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true,
+      "strict_actor_load": "PASS",
+      "actor_training_mode": false
+    },
+    {
+      "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/checkpoints/step_12000.pt",
+      "sha256": "7c9034e00432c2545f8be8a972ac65580bec6602a7c3e061ef39fa76c91d3690",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 46,
+        "started_episodes": 24,
+        "completed_episodes": 24,
+        "next_episode_index": 24,
+        "collected_environment_transitions": 12000,
+        "optimized_transitions": 11776,
+        "ppo_update_count": 46,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 224,
+        "active_rollout_policy_version": 46
+      },
+      "config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    },
+    {
+      "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/checkpoints/step_8000.pt",
+      "sha256": "34d5989ad5664934e5e957213c2dd87198f314a1bf84ab246626d88836db6b71",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 31,
+        "started_episodes": 16,
+        "completed_episodes": 16,
+        "next_episode_index": 16,
+        "collected_environment_transitions": 8000,
+        "optimized_transitions": 7936,
+        "ppo_update_count": 31,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 64,
+        "active_rollout_policy_version": 31
+      },
+      "config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    },
+    {
+      "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/final.pt",
+      "sha256": "7b1191d87095e6dd08a6c5523475cfc9c9c67494cffed4f7ef287379efa656b2",
+      "kind": "FINAL_COMPLETED",
+      "training_state": {
+        "policy_version": 125,
+        "started_episodes": 64,
+        "completed_episodes": 64,
+        "next_episode_index": 64,
+        "collected_environment_transitions": 32000,
+        "optimized_transitions": 32000,
+        "ppo_update_count": 125,
+        "unused_final_tail_transitions": 0,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "config_hash": "02c7757520b8decc37e6c93d044675c7a002b7c4ab452968768595d872830cdd",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true,
+      "strict_actor_load": "PASS",
+      "actor_training_mode": false
+    },
+    {
+      "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/step_16000.pt",
+      "sha256": "2c5594728c974c3cffebda7eff8c4b26cc6fda9f693eabedada0a39dc84b6249",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 62,
+        "started_episodes": 32,
+        "completed_episodes": 32,
+        "next_episode_index": 32,
+        "collected_environment_transitions": 16000,
+        "optimized_transitions": 15872,
+        "ppo_update_count": 62,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 128,
+        "active_rollout_policy_version": 62
+      },
+      "config_hash": "02c7757520b8decc37e6c93d044675c7a002b7c4ab452968768595d872830cdd",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    },
+    {
+      "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/step_20000.pt",
+      "sha256": "afd9b73163e61d8fb9891986f9be509fd8b80e2ec38fbb95cbf2eed23027d79e",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 78,
+        "started_episodes": 40,
+        "completed_episodes": 40,
+        "next_episode_index": 40,
+        "collected_environment_transitions": 20000,
+        "optimized_transitions": 19968,
+        "ppo_update_count": 78,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 32,
+        "active_rollout_policy_version": 78
+      },
+      "config_hash": "02c7757520b8decc37e6c93d044675c7a002b7c4ab452968768595d872830cdd",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    },
+    {
+      "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/step_24000.pt",
+      "sha256": "ceb8caf8beebcba021eb8b8f19061c8a74b748d1c49629f4870a739becbd4a0a",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 93,
+        "started_episodes": 48,
+        "completed_episodes": 48,
+        "next_episode_index": 48,
+        "collected_environment_transitions": 24000,
+        "optimized_transitions": 23808,
+        "ppo_update_count": 93,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 192,
+        "active_rollout_policy_version": 93
+      },
+      "config_hash": "02c7757520b8decc37e6c93d044675c7a002b7c4ab452968768595d872830cdd",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    },
+    {
+      "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/step_28000.pt",
+      "sha256": "940cef6a89ffa43bcb23747f0e9f2740411afc5c526053193df24eb00cba360c",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 109,
+        "started_episodes": 56,
+        "completed_episodes": 56,
+        "next_episode_index": 56,
+        "collected_environment_transitions": 28000,
+        "optimized_transitions": 27904,
+        "ppo_update_count": 109,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 96,
+        "active_rollout_policy_version": 109
+      },
+      "config_hash": "02c7757520b8decc37e6c93d044675c7a002b7c4ab452968768595d872830cdd",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    },
+    {
+      "path": "logs/C/seed42/8k/training/checkpoints/final.pt",
+      "sha256": "58da11c49bde4a517471e1386842b90568fdb1ffe51d9c290caa7e3d442ff1b5",
+      "kind": "FINAL_COMPLETED",
+      "training_state": {
+        "policy_version": 31,
+        "started_episodes": 16,
+        "completed_episodes": 16,
+        "next_episode_index": 16,
+        "collected_environment_transitions": 8000,
+        "optimized_transitions": 7936,
+        "ppo_update_count": 31,
+        "unused_final_tail_transitions": 64,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "config_hash": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true,
+      "strict_actor_load": "PASS",
+      "actor_training_mode": false
+    },
+    {
+      "path": "logs/C/seed42/8k/training/checkpoints/step_4000.pt",
+      "sha256": "2a92745919ef42316131ab70dd67c6cbb9fa91cfb1cb08ebd2931e5913b50325",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 15,
+        "started_episodes": 8,
+        "completed_episodes": 8,
+        "next_episode_index": 8,
+        "collected_environment_transitions": 4000,
+        "optimized_transitions": 3840,
+        "ppo_update_count": 15,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 160,
+        "active_rollout_policy_version": 15
+      },
+      "config_hash": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    }
+  ],
+  "strict_final_actor_loads": 7,
+  "environment_steps_executed": 0,
+  "optimizer_updates_executed": 0
+}

@@ -1,0 +1,10 @@
+{
+  "console_result": "237 passed, 3 deselected, 62 subtests passed in 282.64s",
+  "collected_entire_suite": 1285,
+  "full_suite_executed": false,
+  "scope": "14 relevant test modules; three expensive real_abc_ppo_extension parametrizations excluded because runtime unchanged and prior dedicated validation retained",
+  "failures": 0,
+  "errors": 0,
+  "xml": "metadata/cleanup/20261014/regression_verified.xml",
+  "initial_failure": "Legacy filename-wide checkpoint isolation assertion also matched read-only energy audit; restricted persistence-module discovery to src/models; rerun passed"
+}

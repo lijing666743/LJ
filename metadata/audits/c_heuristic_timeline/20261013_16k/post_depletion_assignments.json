@@ -1,0 +1,88 @@
+[
+  {
+    "seed": 1042,
+    "destination_uav": 2,
+    "first_all_heads_energy_blocked_slot": 332,
+    "final_energy_j": 0.001299005820286468,
+    "new_task_bindings_at_or_after_block": 20,
+    "new_binding_task_ids": [
+      87,
+      88,
+      89,
+      90,
+      94,
+      98,
+      100,
+      102,
+      106,
+      108,
+      112,
+      115,
+      117,
+      118,
+      124,
+      127,
+      129,
+      131,
+      132,
+      134
+    ],
+    "new_binding_final_status_counts": {
+      "EXPIRED": 14,
+      "TRUNCATED": 6
+    },
+    "new_binding_terminal_stage_counts": {
+      "CPU_WAIT": 20
+    },
+    "heuristic_only_done_among_new_bindings": [
+      87,
+      94,
+      98,
+      100,
+      102,
+      108,
+      115,
+      117,
+      127
+    ]
+  },
+  {
+    "seed": 1044,
+    "destination_uav": 2,
+    "first_all_heads_energy_blocked_slot": 371,
+    "final_energy_j": 0.0004255489234453573,
+    "new_task_bindings_at_or_after_block": 12,
+    "new_binding_task_ids": [
+      89,
+      91,
+      92,
+      96,
+      98,
+      99,
+      101,
+      104,
+      107,
+      108,
+      109,
+      111
+    ],
+    "new_binding_final_status_counts": {
+      "EXPIRED": 10,
+      "TRUNCATED": 2
+    },
+    "new_binding_terminal_stage_counts": {
+      "CPU_WAIT": 12
+    },
+    "heuristic_only_done_among_new_bindings": [
+      89,
+      91,
+      96,
+      98,
+      99,
+      101,
+      104,
+      108,
+      111
+    ]
+  }
+]

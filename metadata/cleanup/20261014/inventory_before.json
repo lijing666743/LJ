@@ -1,0 +1,3834 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 497
+  },
+  {
+    "path": "AGENTS.md",
+    "bytes": 1773
+  },
+  {
+    "path": "main.py",
+    "bytes": 293
+  },
+  {
+    "path": "README.md",
+    "bytes": 20797
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 193
+  },
+  {
+    "path": "dashboard_logs/.gitkeep",
+    "bytes": 1
+  },
+  {
+    "path": "dashboard_logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a_metrics.csv",
+    "bytes": 38519482
+  },
+  {
+    "path": "dashboard_logs/A/seed42/8k/training_metrics.csv",
+    "bytes": 28217612
+  },
+  {
+    "path": "dashboard_logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a_metrics.csv",
+    "bytes": 36152734
+  },
+  {
+    "path": "dashboard_logs/B/seed42/8k/training_metrics.csv",
+    "bytes": 26134514
+  },
+  {
+    "path": "dashboard_logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a_metrics.csv",
+    "bytes": 36189947
+  },
+  {
+    "path": "dashboard_logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a_metrics.csv",
+    "bytes": 56977587
+  },
+  {
+    "path": "dashboard_logs/C/seed42/8k/training_metrics.csv",
+    "bytes": 25379190
+  },
+  {
+    "path": "dashboard_logs/C/seed42/checkpoint_progress/20261014_16k32k/progress_metrics.csv",
+    "bytes": 1387
+  },
+  {
+    "path": "dashboard_logs/C/seed42/group_meeting/20261014/per_scene_metrics.csv",
+    "bytes": 5432
+  },
+  {
+    "path": "dashboard_logs/C/seed42/group_meeting/20261014/summary_metrics.csv",
+    "bytes": 1928
+  },
+  {
+    "path": "dashboard_logs/C/seed42/group_meeting/20261014_scene_fix/per_scene_metrics.csv",
+    "bytes": 5432
+  },
+  {
+    "path": "dashboard_logs/C/seed42/group_meeting/20261014_scene_fix/summary_metrics.csv",
+    "bytes": 1928
+  },
+  {
+    "path": "dashboard_logs/development/task_allocation/step06_engineering_gate/pytest-0/A/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3a6f24a4c7c5__git-eb1140cefc4a_metrics.csv",
+    "bytes": 726817
+  },
+  {
+    "path": "dashboard_logs/development/task_allocation/step06_engineering_gate/pytest-0/B/ca_gat_mappo__remote_stress_v2__seed-42__cfg-09e827c1a7f5__git-eb1140cefc4a_metrics.csv",
+    "bytes": 738183
+  },
+  {
+    "path": "dashboard_logs/development/task_allocation/step06_engineering_gate/pytest-0/C/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a6b46028028b__git-eb1140cefc4a_metrics.csv",
+    "bytes": 738515
+  },
+  {
+    "path": "docs/DIRECTORY_GUIDE.md",
+    "bytes": 18366
+  },
+  {
+    "path": "docs/results/seed42/historical_p1a_vs_current_a_1044.csv",
+    "bytes": 559
+  },
+  {
+    "path": "docs/results/seed42/seed42_abc_comparison_report.md",
+    "bytes": 29269
+  },
+  {
+    "path": "docs/results/seed42/seed42_abc_deltas.csv",
+    "bytes": 470
+  },
+  {
+    "path": "docs/results/seed42/seed42_abc_evaluation_summary.csv",
+    "bytes": 2636
+  },
+  {
+    "path": "docs/results/seed42/seed42_abc_per_eval_seed.csv",
+    "bytes": 973
+  },
+  {
+    "path": "docs/results/seed42/seed42_abc_remote_destinations.csv",
+    "bytes": 172
+  },
+  {
+    "path": "docs/results/seed42/seed42_abc_route_behavior.csv",
+    "bytes": 941
+  },
+  {
+    "path": "docs/results/seed42/seed42_abc_training_summary.csv",
+    "bytes": 3796
+  },
+  {
+    "path": "environment/requirements-abc-tested.txt",
+    "bytes": 245
+  },
+  {
+    "path": "experiments/README.md",
+    "bytes": 935
+  },
+  {
+    "path": "experiments/task-allocation/configuration_manifest.json",
+    "bytes": 26775
+  },
+  {
+    "path": "experiments/task-allocation/configs/a-seed42-16k-resume.json",
+    "bytes": 10916
+  },
+  {
+    "path": "experiments/task-allocation/configs/a-seed42-8k.json",
+    "bytes": 10993
+  },
+  {
+    "path": "experiments/task-allocation/configs/a-seed43-8k.json",
+    "bytes": 10993
+  },
+  {
+    "path": "experiments/task-allocation/configs/a-seed44-8k.json",
+    "bytes": 10993
+  },
+  {
+    "path": "experiments/task-allocation/configs/b-seed42-16k-resume.json",
+    "bytes": 10903
+  },
+  {
+    "path": "experiments/task-allocation/configs/b-seed42-8k.json",
+    "bytes": 10980
+  },
+  {
+    "path": "experiments/task-allocation/configs/b-seed43-8k.json",
+    "bytes": 10980
+  },
+  {
+    "path": "experiments/task-allocation/configs/b-seed44-8k.json",
+    "bytes": 10980
+  },
+  {
+    "path": "experiments/task-allocation/configs/c-seed42-16k-resume.json",
+    "bytes": 10957
+  },
+  {
+    "path": "experiments/task-allocation/configs/c-seed42-32k-resume.json",
+    "bytes": 10957
+  },
+  {
+    "path": "experiments/task-allocation/configs/c-seed42-8k.json",
+    "bytes": 11034
+  },
+  {
+    "path": "experiments/task-allocation/configs/c-seed43-8k.json",
+    "bytes": 11034
+  },
+  {
+    "path": "experiments/task-allocation/configs/c-seed44-8k.json",
+    "bytes": 11034
+  },
+  {
+    "path": "logs/README.md",
+    "bytes": 1881
+  },
+  {
+    "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/aggregate_metrics.json",
+    "bytes": 35651
+  },
+  {
+    "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/config_snapshot.yaml",
+    "bytes": 11371
+  },
+  {
+    "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+    "bytes": 613208
+  },
+  {
+    "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/raw_metrics.jsonl",
+    "bytes": 735061335
+  },
+  {
+    "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+    "bytes": 60329651
+  },
+  {
+    "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+    "bytes": 52192216
+  },
+  {
+    "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+    "bytes": 36255399
+  },
+  {
+    "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+    "bytes": 1946944
+  },
+  {
+    "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/checkpoints/continuation_from_4000.json",
+    "bytes": 825
+  },
+  {
+    "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/checkpoints/final.pt",
+    "bytes": 18615543
+  },
+  {
+    "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/checkpoints/step_12000.pt",
+    "bytes": 28555092
+  },
+  {
+    "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/checkpoints/step_8000.pt",
+    "bytes": 21511188
+  },
+  {
+    "path": "logs/A/seed42/8k/checkpoint_progress/20261013_4k8k/evaluation_tests.xml",
+    "bytes": 4434
+  },
+  {
+    "path": "logs/A/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-dc026714f6e0__cfg-d2463e1929ea__eval-78f388ab7bcb/route_decision_trace.jsonl",
+    "bytes": 4425775
+  },
+  {
+    "path": "logs/A/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-dc026714f6e0__cfg-d2463e1929ea__eval-78f388ab7bcb/summary.json",
+    "bytes": 1317
+  },
+  {
+    "path": "logs/A/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-dc026714f6e0__cfg-d2463e1929ea__eval-78f388ab7bcb/cpu_service_trace.jsonl",
+    "bytes": 19028467
+  },
+  {
+    "path": "logs/A/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-dc026714f6e0__cfg-d2463e1929ea__eval-78f388ab7bcb/service_diagnostic_manifest.json",
+    "bytes": 1416
+  },
+  {
+    "path": "logs/A/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-dc026714f6e0__cfg-d2463e1929ea__eval-78f388ab7bcb/task_lifecycle.jsonl",
+    "bytes": 1596282
+  },
+  {
+    "path": "logs/A/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-dc026714f6e0__cfg-d2463e1929ea__eval-78f388ab7bcb/tx_service_trace.jsonl",
+    "bytes": 25103643
+  },
+  {
+    "path": "logs/A/seed42/8k/checkpoint_progress/20261013_4k8k/evaluations/development-service-eval__remote_stress_v2__chk-dc026714f6e0__cfg-d2463e1929ea__eval-78f388ab7bcb/aggregate_metrics.json",
+    "bytes": 16442
+  },
+  {
+    "path": "logs/A/seed42/8k/checkpoint_progress/20261013_4k8k/evaluations/development-service-eval__remote_stress_v2__chk-dc026714f6e0__cfg-d2463e1929ea__eval-78f388ab7bcb/episode_metrics.jsonl",
+    "bytes": 199260
+  },
+  {
+    "path": "logs/A/seed42/8k/checkpoint_progress/20261013_4k8k/evaluations/development-service-eval__remote_stress_v2__chk-dc026714f6e0__cfg-d2463e1929ea__eval-78f388ab7bcb/evaluation_manifest.json",
+    "bytes": 16654
+  },
+  {
+    "path": "logs/A/seed42/8k/checkpoint_progress/20261013_4k8k/evaluations/development-service-eval__remote_stress_v2__chk-dc026714f6e0__cfg-d2463e1929ea__eval-78f388ab7bcb/evaluation_metrics.csv",
+    "bytes": 10656
+  },
+  {
+    "path": "logs/A/seed42/8k/diagnostics/route_decision_trace.jsonl",
+    "bytes": 739650
+  },
+  {
+    "path": "logs/A/seed42/8k/diagnostics/summary.json",
+    "bytes": 1299
+  },
+  {
+    "path": "logs/A/seed42/8k/evaluation/aggregate_metrics.json",
+    "bytes": 16418
+  },
+  {
+    "path": "logs/A/seed42/8k/evaluation/episode_metrics.jsonl",
+    "bytes": 199004
+  },
+  {
+    "path": "logs/A/seed42/8k/evaluation/evaluation_manifest.json",
+    "bytes": 16499
+  },
+  {
+    "path": "logs/A/seed42/8k/evaluation/evaluation_metrics.csv",
+    "bytes": 10398
+  },
+  {
+    "path": "logs/A/seed42/8k/training/aggregate_metrics.json",
+    "bytes": 35920
+  },
+  {
+    "path": "logs/A/seed42/8k/training/config_snapshot.yaml",
+    "bytes": 11440
+  },
+  {
+    "path": "logs/A/seed42/8k/training/integrated_scheduler_updates_v1.jsonl",
+    "bytes": 401529
+  },
+  {
+    "path": "logs/A/seed42/8k/training/raw_metrics.jsonl",
+    "bytes": 537972305
+  },
+  {
+    "path": "logs/A/seed42/8k/training/route_diagnostic_samples_v1.jsonl",
+    "bytes": 47244092
+  },
+  {
+    "path": "logs/A/seed42/8k/training/route_option_q_updates_v1.jsonl",
+    "bytes": 40293387
+  },
+  {
+    "path": "logs/A/seed42/8k/training/route_task_credit_updates_v1.jsonl",
+    "bytes": 27920864
+  },
+  {
+    "path": "logs/A/seed42/8k/training/route_training_rollouts_v1.jsonl",
+    "bytes": 1486759
+  },
+  {
+    "path": "logs/A/seed42/8k/training/checkpoints/final.pt",
+    "bytes": 18588151
+  },
+  {
+    "path": "logs/A/seed42/8k/training/checkpoints/step_4000.pt",
+    "bytes": 25867284
+  },
+  {
+    "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-2ee8be084711__cfg-d2463e1929ea__eval-d893cd3c1376/route_decision_trace.jsonl",
+    "bytes": 751235
+  },
+  {
+    "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-2ee8be084711__cfg-d2463e1929ea__eval-d893cd3c1376/summary.json",
+    "bytes": 1311
+  },
+  {
+    "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-2ee8be084711__cfg-d2463e1929ea__eval-d893cd3c1376/cpu_service_trace.jsonl",
+    "bytes": 19038037
+  },
+  {
+    "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-2ee8be084711__cfg-d2463e1929ea__eval-d893cd3c1376/service_diagnostic_manifest.json",
+    "bytes": 1416
+  },
+  {
+    "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-2ee8be084711__cfg-d2463e1929ea__eval-d893cd3c1376/task_lifecycle.jsonl",
+    "bytes": 1593621
+  },
+  {
+    "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-2ee8be084711__cfg-d2463e1929ea__eval-d893cd3c1376/tx_service_trace.jsonl",
+    "bytes": 25143684
+  },
+  {
+    "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-2ee8be084711__cfg-d2463e1929ea__eval-d893cd3c1376/aggregate_metrics.json",
+    "bytes": 16491
+  },
+  {
+    "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-2ee8be084711__cfg-d2463e1929ea__eval-d893cd3c1376/episode_metrics.jsonl",
+    "bytes": 199244
+  },
+  {
+    "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-2ee8be084711__cfg-d2463e1929ea__eval-d893cd3c1376/evaluation_manifest.json",
+    "bytes": 17666
+  },
+  {
+    "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-2ee8be084711__cfg-d2463e1929ea__eval-d893cd3c1376/evaluation_metrics.csv",
+    "bytes": 10658
+  },
+  {
+    "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-c94352238cdc__cfg-d2463e1929ea__eval-a72d8cc2e9a5/route_decision_trace.jsonl",
+    "bytes": 750454
+  },
+  {
+    "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-c94352238cdc__cfg-d2463e1929ea__eval-a72d8cc2e9a5/summary.json",
+    "bytes": 1311
+  },
+  {
+    "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-c94352238cdc__cfg-d2463e1929ea__eval-a72d8cc2e9a5/cpu_service_trace.jsonl",
+    "bytes": 19027348
+  },
+  {
+    "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-c94352238cdc__cfg-d2463e1929ea__eval-a72d8cc2e9a5/service_diagnostic_manifest.json",
+    "bytes": 1416
+  },
+  {
+    "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-c94352238cdc__cfg-d2463e1929ea__eval-a72d8cc2e9a5/task_lifecycle.jsonl",
+    "bytes": 1592812
+  },
+  {
+    "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-c94352238cdc__cfg-d2463e1929ea__eval-a72d8cc2e9a5/tx_service_trace.jsonl",
+    "bytes": 25165313
+  },
+  {
+    "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-c94352238cdc__cfg-d2463e1929ea__eval-a72d8cc2e9a5/aggregate_metrics.json",
+    "bytes": 16515
+  },
+  {
+    "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-c94352238cdc__cfg-d2463e1929ea__eval-a72d8cc2e9a5/episode_metrics.jsonl",
+    "bytes": 199307
+  },
+  {
+    "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-c94352238cdc__cfg-d2463e1929ea__eval-a72d8cc2e9a5/evaluation_manifest.json",
+    "bytes": 17661
+  },
+  {
+    "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-c94352238cdc__cfg-d2463e1929ea__eval-a72d8cc2e9a5/evaluation_metrics.csv",
+    "bytes": 10684
+  },
+  {
+    "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/aggregate_metrics.json",
+    "bytes": 34843
+  },
+  {
+    "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/config_snapshot.yaml",
+    "bytes": 11358
+  },
+  {
+    "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+    "bytes": 606797
+  },
+  {
+    "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/raw_metrics.jsonl",
+    "bytes": 691621019
+  },
+  {
+    "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+    "bytes": 54505562
+  },
+  {
+    "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+    "bytes": 61340415
+  },
+  {
+    "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+    "bytes": 46847295
+  },
+  {
+    "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+    "bytes": 4836792
+  },
+  {
+    "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/checkpoints/continuation_from_4000.json",
+    "bytes": 825
+  },
+  {
+    "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/checkpoints/final.pt",
+    "bytes": 18300167
+  },
+  {
+    "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/checkpoints/step_12000.pt",
+    "bytes": 28282652
+  },
+  {
+    "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/checkpoints/step_8000.pt",
+    "bytes": 21220764
+  },
+  {
+    "path": "logs/B/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-482e62078f94__cfg-d2463e1929ea__eval-b6ea042ce89d/route_decision_trace.jsonl",
+    "bytes": 7495665
+  },
+  {
+    "path": "logs/B/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-482e62078f94__cfg-d2463e1929ea__eval-b6ea042ce89d/summary.json",
+    "bytes": 1338
+  },
+  {
+    "path": "logs/B/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-482e62078f94__cfg-d2463e1929ea__eval-b6ea042ce89d/cpu_service_trace.jsonl",
+    "bytes": 19004843
+  },
+  {
+    "path": "logs/B/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-482e62078f94__cfg-d2463e1929ea__eval-b6ea042ce89d/service_diagnostic_manifest.json",
+    "bytes": 1416
+  },
+  {
+    "path": "logs/B/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-482e62078f94__cfg-d2463e1929ea__eval-b6ea042ce89d/task_lifecycle.jsonl",
+    "bytes": 1598625
+  },
+  {
+    "path": "logs/B/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-482e62078f94__cfg-d2463e1929ea__eval-b6ea042ce89d/tx_service_trace.jsonl",
+    "bytes": 25098817
+  },
+  {
+    "path": "logs/B/seed42/8k/checkpoint_progress/20261013_4k8k/evaluations/development-service-eval__remote_stress_v2__chk-482e62078f94__cfg-d2463e1929ea__eval-b6ea042ce89d/aggregate_metrics.json",
+    "bytes": 16468
+  },
+  {
+    "path": "logs/B/seed42/8k/checkpoint_progress/20261013_4k8k/evaluations/development-service-eval__remote_stress_v2__chk-482e62078f94__cfg-d2463e1929ea__eval-b6ea042ce89d/episode_metrics.jsonl",
+    "bytes": 199276
+  },
+  {
+    "path": "logs/B/seed42/8k/checkpoint_progress/20261013_4k8k/evaluations/development-service-eval__remote_stress_v2__chk-482e62078f94__cfg-d2463e1929ea__eval-b6ea042ce89d/evaluation_manifest.json",
+    "bytes": 16509
+  },
+  {
+    "path": "logs/B/seed42/8k/checkpoint_progress/20261013_4k8k/evaluations/development-service-eval__remote_stress_v2__chk-482e62078f94__cfg-d2463e1929ea__eval-b6ea042ce89d/evaluation_metrics.csv",
+    "bytes": 10690
+  },
+  {
+    "path": "logs/B/seed42/8k/diagnostics/route_decision_trace.jsonl",
+    "bytes": 1193632
+  },
+  {
+    "path": "logs/B/seed42/8k/diagnostics/summary.json",
+    "bytes": 1323
+  },
+  {
+    "path": "logs/B/seed42/8k/evaluation/aggregate_metrics.json",
+    "bytes": 16409
+  },
+  {
+    "path": "logs/B/seed42/8k/evaluation/episode_metrics.jsonl",
+    "bytes": 199040
+  },
+  {
+    "path": "logs/B/seed42/8k/evaluation/evaluation_manifest.json",
+    "bytes": 16356
+  },
+  {
+    "path": "logs/B/seed42/8k/evaluation/evaluation_metrics.csv",
+    "bytes": 10395
+  },
+  {
+    "path": "logs/B/seed42/8k/training/aggregate_metrics.json",
+    "bytes": 35208
+  },
+  {
+    "path": "logs/B/seed42/8k/training/config_snapshot.yaml",
+    "bytes": 11427
+  },
+  {
+    "path": "logs/B/seed42/8k/training/integrated_scheduler_updates_v1.jsonl",
+    "bytes": 399171
+  },
+  {
+    "path": "logs/B/seed42/8k/training/raw_metrics.jsonl",
+    "bytes": 499825099
+  },
+  {
+    "path": "logs/B/seed42/8k/training/route_diagnostic_samples_v1.jsonl",
+    "bytes": 42188709
+  },
+  {
+    "path": "logs/B/seed42/8k/training/route_option_q_updates_v1.jsonl",
+    "bytes": 46762909
+  },
+  {
+    "path": "logs/B/seed42/8k/training/route_task_credit_updates_v1.jsonl",
+    "bytes": 35694900
+  },
+  {
+    "path": "logs/B/seed42/8k/training/route_training_rollouts_v1.jsonl",
+    "bytes": 3677338
+  },
+  {
+    "path": "logs/B/seed42/8k/training/checkpoints/final.pt",
+    "bytes": 18272775
+  },
+  {
+    "path": "logs/B/seed42/8k/training/checkpoints/step_4000.pt",
+    "bytes": 25609820
+  },
+  {
+    "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-d0b1d9fa22ba__cfg-d2463e1929ea__eval-eeb8813de801/route_decision_trace.jsonl",
+    "bytes": 1187187
+  },
+  {
+    "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-d0b1d9fa22ba__cfg-d2463e1929ea__eval-eeb8813de801/summary.json",
+    "bytes": 1332
+  },
+  {
+    "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-d0b1d9fa22ba__cfg-d2463e1929ea__eval-eeb8813de801/cpu_service_trace.jsonl",
+    "bytes": 19076589
+  },
+  {
+    "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-d0b1d9fa22ba__cfg-d2463e1929ea__eval-eeb8813de801/service_diagnostic_manifest.json",
+    "bytes": 1416
+  },
+  {
+    "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-d0b1d9fa22ba__cfg-d2463e1929ea__eval-eeb8813de801/task_lifecycle.jsonl",
+    "bytes": 1591349
+  },
+  {
+    "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-d0b1d9fa22ba__cfg-d2463e1929ea__eval-eeb8813de801/tx_service_trace.jsonl",
+    "bytes": 25110121
+  },
+  {
+    "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-d0b1d9fa22ba__cfg-d2463e1929ea__eval-eeb8813de801/aggregate_metrics.json",
+    "bytes": 16437
+  },
+  {
+    "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-d0b1d9fa22ba__cfg-d2463e1929ea__eval-eeb8813de801/episode_metrics.jsonl",
+    "bytes": 199252
+  },
+  {
+    "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-d0b1d9fa22ba__cfg-d2463e1929ea__eval-eeb8813de801/evaluation_manifest.json",
+    "bytes": 17521
+  },
+  {
+    "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-d0b1d9fa22ba__cfg-d2463e1929ea__eval-eeb8813de801/evaluation_metrics.csv",
+    "bytes": 10666
+  },
+  {
+    "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-49f962672e2a__cfg-d2463e1929ea__eval-c575e2bbe14f/route_decision_trace.jsonl",
+    "bytes": 1194897
+  },
+  {
+    "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-49f962672e2a__cfg-d2463e1929ea__eval-c575e2bbe14f/summary.json",
+    "bytes": 1333
+  },
+  {
+    "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-49f962672e2a__cfg-d2463e1929ea__eval-c575e2bbe14f/cpu_service_trace.jsonl",
+    "bytes": 19038212
+  },
+  {
+    "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-49f962672e2a__cfg-d2463e1929ea__eval-c575e2bbe14f/service_diagnostic_manifest.json",
+    "bytes": 1416
+  },
+  {
+    "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-49f962672e2a__cfg-d2463e1929ea__eval-c575e2bbe14f/task_lifecycle.jsonl",
+    "bytes": 1593092
+  },
+  {
+    "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-49f962672e2a__cfg-d2463e1929ea__eval-c575e2bbe14f/tx_service_trace.jsonl",
+    "bytes": 25172141
+  },
+  {
+    "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-49f962672e2a__cfg-d2463e1929ea__eval-c575e2bbe14f/aggregate_metrics.json",
+    "bytes": 16489
+  },
+  {
+    "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-49f962672e2a__cfg-d2463e1929ea__eval-c575e2bbe14f/episode_metrics.jsonl",
+    "bytes": 199297
+  },
+  {
+    "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-49f962672e2a__cfg-d2463e1929ea__eval-c575e2bbe14f/evaluation_manifest.json",
+    "bytes": 17516
+  },
+  {
+    "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-49f962672e2a__cfg-d2463e1929ea__eval-c575e2bbe14f/evaluation_metrics.csv",
+    "bytes": 10691
+  },
+  {
+    "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/aggregate_metrics.json",
+    "bytes": 34853
+  },
+  {
+    "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/config_snapshot.yaml",
+    "bytes": 11411
+  },
+  {
+    "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+    "bytes": 613839
+  },
+  {
+    "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/raw_metrics.jsonl",
+    "bytes": 692510588
+  },
+  {
+    "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+    "bytes": 54598292
+  },
+  {
+    "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+    "bytes": 61284729
+  },
+  {
+    "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+    "bytes": 46791253
+  },
+  {
+    "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+    "bytes": 4819545
+  },
+  {
+    "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/checkpoints/continuation_from_4000.json",
+    "bytes": 825
+  },
+  {
+    "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/checkpoints/final.pt",
+    "bytes": 18399527
+  },
+  {
+    "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/checkpoints/step_12000.pt",
+    "bytes": 28389452
+  },
+  {
+    "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/checkpoints/step_8000.pt",
+    "bytes": 21320012
+  },
+  {
+    "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/aggregate_metrics.json",
+    "bytes": 34964
+  },
+  {
+    "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/config_snapshot.yaml",
+    "bytes": 11411
+  },
+  {
+    "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+    "bytes": 1047861
+  },
+  {
+    "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/raw_metrics.jsonl",
+    "bytes": 1089595608
+  },
+  {
+    "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+    "bytes": 81783079
+  },
+  {
+    "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+    "bytes": 92403525
+  },
+  {
+    "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+    "bytes": 70372343
+  },
+  {
+    "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+    "bytes": 7164766
+  },
+  {
+    "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/continuation_from_12000.json",
+    "bytes": 1853
+  },
+  {
+    "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/final.pt",
+    "bytes": 18454247
+  },
+  {
+    "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/step_16000.pt",
+    "bytes": 24303052
+  },
+  {
+    "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/step_20000.pt",
+    "bytes": 19913804
+  },
+  {
+    "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/step_24000.pt",
+    "bytes": 27048844
+  },
+  {
+    "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/step_28000.pt",
+    "bytes": 22775308
+  },
+  {
+    "path": "logs/C/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-2a92745919ef__cfg-d2463e1929ea__eval-b43a8e43300f/route_decision_trace.jsonl",
+    "bytes": 6272478
+  },
+  {
+    "path": "logs/C/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-2a92745919ef__cfg-d2463e1929ea__eval-b43a8e43300f/summary.json",
+    "bytes": 1338
+  },
+  {
+    "path": "logs/C/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-2a92745919ef__cfg-d2463e1929ea__eval-b43a8e43300f/cpu_service_trace.jsonl",
+    "bytes": 19018821
+  },
+  {
+    "path": "logs/C/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-2a92745919ef__cfg-d2463e1929ea__eval-b43a8e43300f/service_diagnostic_manifest.json",
+    "bytes": 1416
+  },
+  {
+    "path": "logs/C/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-2a92745919ef__cfg-d2463e1929ea__eval-b43a8e43300f/task_lifecycle.jsonl",
+    "bytes": 1598087
+  },
+  {
+    "path": "logs/C/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-2a92745919ef__cfg-d2463e1929ea__eval-b43a8e43300f/tx_service_trace.jsonl",
+    "bytes": 25110631
+  },
+  {
+    "path": "logs/C/seed42/8k/checkpoint_progress/20261013_4k8k/evaluations/development-service-eval__remote_stress_v2__chk-2a92745919ef__cfg-d2463e1929ea__eval-b43a8e43300f/aggregate_metrics.json",
+    "bytes": 16440
+  },
+  {
+    "path": "logs/C/seed42/8k/checkpoint_progress/20261013_4k8k/evaluations/development-service-eval__remote_stress_v2__chk-2a92745919ef__cfg-d2463e1929ea__eval-b43a8e43300f/episode_metrics.jsonl",
+    "bytes": 199272
+  },
+  {
+    "path": "logs/C/seed42/8k/checkpoint_progress/20261013_4k8k/evaluations/development-service-eval__remote_stress_v2__chk-2a92745919ef__cfg-d2463e1929ea__eval-b43a8e43300f/evaluation_manifest.json",
+    "bytes": 16806
+  },
+  {
+    "path": "logs/C/seed42/8k/checkpoint_progress/20261013_4k8k/evaluations/development-service-eval__remote_stress_v2__chk-2a92745919ef__cfg-d2463e1929ea__eval-b43a8e43300f/evaluation_metrics.csv",
+    "bytes": 10650
+  },
+  {
+    "path": "logs/C/seed42/8k/diagnostics/route_decision_trace.jsonl",
+    "bytes": 1278700
+  },
+  {
+    "path": "logs/C/seed42/8k/diagnostics/summary.json",
+    "bytes": 1322
+  },
+  {
+    "path": "logs/C/seed42/8k/evaluation/aggregate_metrics.json",
+    "bytes": 16471
+  },
+  {
+    "path": "logs/C/seed42/8k/evaluation/episode_metrics.jsonl",
+    "bytes": 199034
+  },
+  {
+    "path": "logs/C/seed42/8k/evaluation/evaluation_manifest.json",
+    "bytes": 16649
+  },
+  {
+    "path": "logs/C/seed42/8k/evaluation/evaluation_metrics.csv",
+    "bytes": 10428
+  },
+  {
+    "path": "logs/C/seed42/8k/training/aggregate_metrics.json",
+    "bytes": 35146
+  },
+  {
+    "path": "logs/C/seed42/8k/training/config_snapshot.yaml",
+    "bytes": 11480
+  },
+  {
+    "path": "logs/C/seed42/8k/training/integrated_scheduler_updates_v1.jsonl",
+    "bytes": 399328
+  },
+  {
+    "path": "logs/C/seed42/8k/training/raw_metrics.jsonl",
+    "bytes": 485676531
+  },
+  {
+    "path": "logs/C/seed42/8k/training/route_diagnostic_samples_v1.jsonl",
+    "bytes": 40358626
+  },
+  {
+    "path": "logs/C/seed42/8k/training/route_option_q_updates_v1.jsonl",
+    "bytes": 44610548
+  },
+  {
+    "path": "logs/C/seed42/8k/training/route_task_credit_updates_v1.jsonl",
+    "bytes": 34040848
+  },
+  {
+    "path": "logs/C/seed42/8k/training/route_training_rollouts_v1.jsonl",
+    "bytes": 3500299
+  },
+  {
+    "path": "logs/C/seed42/8k/training/checkpoints/final.pt",
+    "bytes": 18372199
+  },
+  {
+    "path": "logs/C/seed42/8k/training/checkpoints/step_4000.pt",
+    "bytes": 25701068
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/route_decision_trace.jsonl",
+    "bytes": 1187231
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/summary.json",
+    "bytes": 1334
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/cpu_service_trace.jsonl",
+    "bytes": 19027793
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/service_diagnostic_manifest.json",
+    "bytes": 1416
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/task_lifecycle.jsonl",
+    "bytes": 1592579
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/tx_service_trace.jsonl",
+    "bytes": 25126438
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/aggregate_metrics.json",
+    "bytes": 16492
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/episode_metrics.jsonl",
+    "bytes": 199267
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/evaluation_manifest.json",
+    "bytes": 17818
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/evaluation_metrics.csv",
+    "bytes": 10662
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/route_decision_trace.jsonl",
+    "bytes": 1186032
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/summary.json",
+    "bytes": 1333
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/cpu_service_trace.jsonl",
+    "bytes": 19070940
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/service_diagnostic_manifest.json",
+    "bytes": 1416
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/task_lifecycle.jsonl",
+    "bytes": 1591822
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/tx_service_trace.jsonl",
+    "bytes": 25126654
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/aggregate_metrics.json",
+    "bytes": 16485
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/episode_metrics.jsonl",
+    "bytes": 199270
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/evaluation_manifest.json",
+    "bytes": 17813
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/evaluation_metrics.csv",
+    "bytes": 10664
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/route_decision_trace.jsonl",
+    "bytes": 1187504
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/summary.json",
+    "bytes": 1333
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/cpu_service_trace.jsonl",
+    "bytes": 19089234
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/service_diagnostic_manifest.json",
+    "bytes": 1416
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/task_lifecycle.jsonl",
+    "bytes": 1591002
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/tx_service_trace.jsonl",
+    "bytes": 25138609
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/evaluations/development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/aggregate_metrics.json",
+    "bytes": 16424
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/evaluations/development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/episode_metrics.jsonl",
+    "bytes": 199235
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/evaluations/development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/evaluation_manifest.json",
+    "bytes": 18914
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/evaluations/development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/evaluation_metrics.csv",
+    "bytes": 10649
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/route_decision_trace.jsonl",
+    "bytes": 1184326
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/summary.json",
+    "bytes": 1332
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/cpu_service_trace.jsonl",
+    "bytes": 19088606
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/service_diagnostic_manifest.json",
+    "bytes": 1416
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/task_lifecycle.jsonl",
+    "bytes": 1591079
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/tx_service_trace.jsonl",
+    "bytes": 25129109
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/evaluations/development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/aggregate_metrics.json",
+    "bytes": 16490
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/evaluations/development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/episode_metrics.jsonl",
+    "bytes": 199299
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/evaluations/development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/evaluation_manifest.json",
+    "bytes": 18914
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/evaluations/development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/evaluation_metrics.csv",
+    "bytes": 10677
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/route_decision_trace.jsonl",
+    "bytes": 1286143
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/summary.json",
+    "bytes": 1333
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/cpu_service_trace.jsonl",
+    "bytes": 19090485
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/service_diagnostic_manifest.json",
+    "bytes": 1416
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/task_lifecycle.jsonl",
+    "bytes": 1591128
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/tx_service_trace.jsonl",
+    "bytes": 25139270
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/evaluations/development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/aggregate_metrics.json",
+    "bytes": 16423
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/evaluations/development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/episode_metrics.jsonl",
+    "bytes": 199266
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/evaluations/development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/evaluation_manifest.json",
+    "bytes": 18914
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/evaluations/development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/evaluation_metrics.csv",
+    "bytes": 10643
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/route_decision_trace.jsonl",
+    "bytes": 1186157
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/summary.json",
+    "bytes": 1331
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/cpu_service_trace.jsonl",
+    "bytes": 19089478
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/service_diagnostic_manifest.json",
+    "bytes": 1416
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/task_lifecycle.jsonl",
+    "bytes": 1590928
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/tx_service_trace.jsonl",
+    "bytes": 25137914
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/evaluations/development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/aggregate_metrics.json",
+    "bytes": 16421
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/evaluations/development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/episode_metrics.jsonl",
+    "bytes": 199260
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/evaluations/development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/evaluation_manifest.json",
+    "bytes": 18909
+  },
+  {
+    "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/evaluations/development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/evaluation_metrics.csv",
+    "bytes": 10654
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_environment_local_re0/lifecycle_evidence.json",
+    "bytes": 201638
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_environment_local_re1/lifecycle_evidence.json",
+    "bytes": 204347
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_environment_local_re2/lifecycle_evidence.json",
+    "bytes": 204309
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_environment_local_re3/lifecycle_evidence.json",
+    "bytes": 199522
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/engineering_evidence.json",
+    "bytes": 1963030
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-d4ed880b9ec1__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+    "bytes": 27171
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-d4ed880b9ec1__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+    "bytes": 2370971
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-d4ed880b9ec1__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+    "bytes": 1971153
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-d4ed880b9ec1__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+    "bytes": 1397744
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-d4ed880b9ec1__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+    "bytes": 78487
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/evaluation/logs/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-1d57cc2b1397__cfg-40afc20573e6__eval-7e6148065ad5/route_decision_trace.jsonl",
+    "bytes": 37615
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/evaluation/logs/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-1d57cc2b1397__cfg-40afc20573e6__eval-7e6148065ad5/summary.json",
+    "bytes": 627
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-1d57cc2b1397__cfg-40afc20573e6__eval-7e6148065ad5/cpu_service_trace.jsonl",
+    "bytes": 143350
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-1d57cc2b1397__cfg-40afc20573e6__eval-7e6148065ad5/service_diagnostic_manifest.json",
+    "bytes": 1267
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-1d57cc2b1397__cfg-40afc20573e6__eval-7e6148065ad5/task_lifecycle.jsonl",
+    "bytes": 28664
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-1d57cc2b1397__cfg-40afc20573e6__eval-7e6148065ad5/tx_service_trace.jsonl",
+    "bytes": 196285
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-1d57cc2b1397__cfg-40afc20573e6__eval-7e6148065ad5/aggregate_metrics.json",
+    "bytes": 14495
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-1d57cc2b1397__cfg-40afc20573e6__eval-7e6148065ad5/episode_metrics.jsonl",
+    "bytes": 7330
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-1d57cc2b1397__cfg-40afc20573e6__eval-7e6148065ad5/evaluation_manifest.json",
+    "bytes": 14370
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-1d57cc2b1397__cfg-40afc20573e6__eval-7e6148065ad5/evaluation_metrics.csv",
+    "bytes": 2261
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3a6f24a4c7c5__git-eb1140cefc4a/aggregate_metrics.json",
+    "bytes": 35942
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3a6f24a4c7c5__git-eb1140cefc4a/config_snapshot.yaml",
+    "bytes": 11531
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3a6f24a4c7c5__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+    "bytes": 27174
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3a6f24a4c7c5__git-eb1140cefc4a/raw_metrics.jsonl",
+    "bytes": 13674646
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3a6f24a4c7c5__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+    "bytes": 2370971
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3a6f24a4c7c5__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+    "bytes": 1971153
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3a6f24a4c7c5__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+    "bytes": 1397744
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3a6f24a4c7c5__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+    "bytes": 78487
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3a6f24a4c7c5__git-eb1140cefc4a/checkpoints/final.pt",
+    "bytes": 18580855
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e0/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3a6f24a4c7c5__git-eb1140cefc4a/checkpoints/step_260.pt",
+    "bytes": 18752185
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/engineering_evidence.json",
+    "bytes": 1984106
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3f4c3bbc8c9f__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+    "bytes": 27507
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3f4c3bbc8c9f__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+    "bytes": 2219554
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3f4c3bbc8c9f__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+    "bytes": 2436208
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3f4c3bbc8c9f__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+    "bytes": 1889800
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3f4c3bbc8c9f__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+    "bytes": 199429
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/evaluation/logs/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-bbbe2574c22a__cfg-40afc20573e6__eval-1fe33fe39ce9/route_decision_trace.jsonl",
+    "bytes": 20728
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/evaluation/logs/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-bbbe2574c22a__cfg-40afc20573e6__eval-1fe33fe39ce9/summary.json",
+    "bytes": 647
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-bbbe2574c22a__cfg-40afc20573e6__eval-1fe33fe39ce9/cpu_service_trace.jsonl",
+    "bytes": 144623
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-bbbe2574c22a__cfg-40afc20573e6__eval-1fe33fe39ce9/service_diagnostic_manifest.json",
+    "bytes": 1267
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-bbbe2574c22a__cfg-40afc20573e6__eval-1fe33fe39ce9/task_lifecycle.jsonl",
+    "bytes": 28575
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-bbbe2574c22a__cfg-40afc20573e6__eval-1fe33fe39ce9/tx_service_trace.jsonl",
+    "bytes": 196285
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-bbbe2574c22a__cfg-40afc20573e6__eval-1fe33fe39ce9/aggregate_metrics.json",
+    "bytes": 14623
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-bbbe2574c22a__cfg-40afc20573e6__eval-1fe33fe39ce9/episode_metrics.jsonl",
+    "bytes": 7429
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-bbbe2574c22a__cfg-40afc20573e6__eval-1fe33fe39ce9/evaluation_manifest.json",
+    "bytes": 14227
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-bbbe2574c22a__cfg-40afc20573e6__eval-1fe33fe39ce9/evaluation_metrics.csv",
+    "bytes": 2364
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-09e827c1a7f5__git-eb1140cefc4a/aggregate_metrics.json",
+    "bytes": 35228
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-09e827c1a7f5__git-eb1140cefc4a/config_snapshot.yaml",
+    "bytes": 11518
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-09e827c1a7f5__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+    "bytes": 27508
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-09e827c1a7f5__git-eb1140cefc4a/raw_metrics.jsonl",
+    "bytes": 13893812
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-09e827c1a7f5__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+    "bytes": 2219554
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-09e827c1a7f5__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+    "bytes": 2436208
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-09e827c1a7f5__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+    "bytes": 1889800
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-09e827c1a7f5__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+    "bytes": 199429
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-09e827c1a7f5__git-eb1140cefc4a/checkpoints/final.pt",
+    "bytes": 18265479
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e1/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-09e827c1a7f5__git-eb1140cefc4a/checkpoints/step_260.pt",
+    "bytes": 18439177
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/engineering_evidence.json",
+    "bytes": 1984392
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-b12ce942c73e__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+    "bytes": 27424
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-b12ce942c73e__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+    "bytes": 2191348
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-b12ce942c73e__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+    "bytes": 2399552
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-b12ce942c73e__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+    "bytes": 1860250
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-b12ce942c73e__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+    "bytes": 195641
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/evaluation/logs/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-aab42bb54904__cfg-40afc20573e6__eval-18e90e403b6f/route_decision_trace.jsonl",
+    "bytes": 18822
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/evaluation/logs/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-aab42bb54904__cfg-40afc20573e6__eval-18e90e403b6f/summary.json",
+    "bytes": 632
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-aab42bb54904__cfg-40afc20573e6__eval-18e90e403b6f/cpu_service_trace.jsonl",
+    "bytes": 144627
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-aab42bb54904__cfg-40afc20573e6__eval-18e90e403b6f/service_diagnostic_manifest.json",
+    "bytes": 1267
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-aab42bb54904__cfg-40afc20573e6__eval-18e90e403b6f/task_lifecycle.jsonl",
+    "bytes": 28558
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-aab42bb54904__cfg-40afc20573e6__eval-18e90e403b6f/tx_service_trace.jsonl",
+    "bytes": 196285
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-aab42bb54904__cfg-40afc20573e6__eval-18e90e403b6f/aggregate_metrics.json",
+    "bytes": 14618
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-aab42bb54904__cfg-40afc20573e6__eval-18e90e403b6f/episode_metrics.jsonl",
+    "bytes": 7424
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-aab42bb54904__cfg-40afc20573e6__eval-18e90e403b6f/evaluation_manifest.json",
+    "bytes": 14520
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-aab42bb54904__cfg-40afc20573e6__eval-18e90e403b6f/evaluation_metrics.csv",
+    "bytes": 2359
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a6b46028028b__git-eb1140cefc4a/aggregate_metrics.json",
+    "bytes": 35213
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a6b46028028b__git-eb1140cefc4a/config_snapshot.yaml",
+    "bytes": 11571
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a6b46028028b__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+    "bytes": 27426
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a6b46028028b__git-eb1140cefc4a/raw_metrics.jsonl",
+    "bytes": 13894148
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a6b46028028b__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+    "bytes": 2191348
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a6b46028028b__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+    "bytes": 2399552
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a6b46028028b__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+    "bytes": 1860250
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a6b46028028b__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+    "bytes": 195641
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a6b46028028b__git-eb1140cefc4a/checkpoints/final.pt",
+    "bytes": 18364903
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-0/test_real_trainer_resume_and_e2/resume/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a6b46028028b__git-eb1140cefc4a/checkpoints/step_260.pt",
+    "bytes": 18538601
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-825e3dd63ce8__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+    "bytes": 40923
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-825e3dd63ce8__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+    "bytes": 3863938
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-825e3dd63ce8__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+    "bytes": 3265078
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-825e3dd63ce8__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+    "bytes": 2278342
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-825e3dd63ce8__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+    "bytes": 126574
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9cd0d8704e63__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+    "bytes": 27172
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9cd0d8704e63__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+    "bytes": 2370971
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9cd0d8704e63__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+    "bytes": 1971153
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9cd0d8704e63__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+    "bytes": 1397744
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9cd0d8704e63__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+    "bytes": 78487
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9cd0d8704e63__git-eb1140cefc4a/checkpoints/final.pt",
+    "bytes": 18580919
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9cd0d8704e63__git-eb1140cefc4a/checkpoints/step_260.pt",
+    "bytes": 18752249
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-38df8a9a2c4d__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+    "bytes": 27377
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-38df8a9a2c4d__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+    "bytes": 2391635
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-38df8a9a2c4d__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+    "bytes": 2114740
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-38df8a9a2c4d__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+    "bytes": 1453145
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-38df8a9a2c4d__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+    "bytes": 80736
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-38df8a9a2c4d__git-eb1140cefc4a/checkpoints/continuation_from_260.json",
+    "bytes": 1145
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-38df8a9a2c4d__git-eb1140cefc4a/checkpoints/final.pt",
+    "bytes": 18589239
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr0/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-38df8a9a2c4d__git-eb1140cefc4a/checkpoints/step_520.pt",
+    "bytes": 18918292
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a446615c5e9e__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+    "bytes": 41326
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a446615c5e9e__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+    "bytes": 3570652
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a446615c5e9e__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+    "bytes": 3918100
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a446615c5e9e__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+    "bytes": 3008506
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a446615c5e9e__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+    "bytes": 320125
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-d56af0f1bb8e__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+    "bytes": 27508
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-d56af0f1bb8e__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+    "bytes": 2219554
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-d56af0f1bb8e__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+    "bytes": 2436208
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-d56af0f1bb8e__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+    "bytes": 1889800
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-d56af0f1bb8e__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+    "bytes": 199429
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-d56af0f1bb8e__git-eb1140cefc4a/checkpoints/final.pt",
+    "bytes": 18265543
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-d56af0f1bb8e__git-eb1140cefc4a/checkpoints/step_260.pt",
+    "bytes": 18439241
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-573d72d74c07__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+    "bytes": 27598
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-573d72d74c07__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+    "bytes": 2279396
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-573d72d74c07__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+    "bytes": 2585239
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-573d72d74c07__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+    "bytes": 1961078
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-573d72d74c07__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+    "bytes": 209039
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-573d72d74c07__git-eb1140cefc4a/checkpoints/continuation_from_260.json",
+    "bytes": 1145
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-573d72d74c07__git-eb1140cefc4a/checkpoints/final.pt",
+    "bytes": 18273863
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr1/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-573d72d74c07__git-eb1140cefc4a/checkpoints/step_520.pt",
+    "bytes": 18602908
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-ddb0f55dc5a6__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+    "bytes": 41168
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-ddb0f55dc5a6__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+    "bytes": 3499563
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-ddb0f55dc5a6__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+    "bytes": 3830391
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-ddb0f55dc5a6__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+    "bytes": 2940298
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/control/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-ddb0f55dc5a6__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+    "bytes": 311932
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-8614dbb47727__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+    "bytes": 27426
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-8614dbb47727__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+    "bytes": 2191348
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-8614dbb47727__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+    "bytes": 2399552
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-8614dbb47727__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+    "bytes": 1860250
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-8614dbb47727__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+    "bytes": 195641
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-8614dbb47727__git-eb1140cefc4a/checkpoints/final.pt",
+    "bytes": 18364967
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/source/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-8614dbb47727__git-eb1140cefc4a/checkpoints/step_260.pt",
+    "bytes": 18538665
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2ff4897cd1da__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+    "bytes": 27522
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2ff4897cd1da__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+    "bytes": 2236240
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2ff4897cd1da__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+    "bytes": 2531229
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2ff4897cd1da__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+    "bytes": 1919832
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2ff4897cd1da__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+    "bytes": 204058
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2ff4897cd1da__git-eb1140cefc4a/checkpoints/continuation_from_260.json",
+    "bytes": 1145
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2ff4897cd1da__git-eb1140cefc4a/checkpoints/final.pt",
+    "bytes": 18373223
+  },
+  {
+    "path": "logs/engineering/continuation_tests_tmp/pytest-of-李静/pytest-1/test_real_abc_ppo_extension_pr2/target/logs/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2ff4897cd1da__git-eb1140cefc4a/checkpoints/step_520.pt",
+    "bytes": 18702348
+  },
+  {
+    "path": "logs/group_meeting_summary/20261014/aggregation_tests.xml",
+    "bytes": 1078
+  },
+  {
+    "path": "logs/group_meeting_summary/20261014_scene_fix/aggregation_tests.xml",
+    "bytes": 1617
+  },
+  {
+    "path": "metadata/ABC_FILE_MANIFEST.json",
+    "bytes": 70954
+  },
+  {
+    "path": "metadata/ABC_RELEASE_MANIFEST.json",
+    "bytes": 46946
+  },
+  {
+    "path": "metadata/DIRECTORY_RELOCATION.json",
+    "bytes": 94086
+  },
+  {
+    "path": "metadata/README.md",
+    "bytes": 1360
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/analysis_source_identity.json",
+    "bytes": 236
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/artifact_manifest.json",
+    "bytes": 21233
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/checkpoint_inventory.json",
+    "bytes": 4867
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/comparison_summary.json",
+    "bytes": 12409
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/core_comparison_table.csv",
+    "bytes": 1387
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/CPU_energy_blockage_trace.csv",
+    "bytes": 4281705
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/CPU_node_energy_statistics.json",
+    "bytes": 489818
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/C_20k_energy_interim.json",
+    "bytes": 5321
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/C_20k_evaluation_config.json",
+    "bytes": 12074
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/C_20k_run.json",
+    "bytes": 3243
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/C_24k_evaluation_config.json",
+    "bytes": 12074
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/C_24k_run.json",
+    "bytes": 3243
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/C_28k_evaluation_config.json",
+    "bytes": 12074
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/C_28k_run.json",
+    "bytes": 3242
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/C_32k_evaluation_config.json",
+    "bytes": 12074
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/C_32k_run.json",
+    "bytes": 3237
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/energy_audit_tests.xml",
+    "bytes": 1266
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/energy_protocol_regression.json",
+    "bytes": 2910
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/evaluation_execution.json",
+    "bytes": 13667
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/evaluation_protocol.json",
+    "bytes": 1630
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/evaluation_tests.xml",
+    "bytes": 4435
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/inputs_after.json",
+    "bytes": 70794
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/inputs_before.json",
+    "bytes": 70794
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/interpretation.json",
+    "bytes": 4338
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/paired_task_changes.json",
+    "bytes": 1197
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/per_seed_metrics.json",
+    "bytes": 33173
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/post_persistent_blockage_tasks.csv",
+    "bytes": 7938
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/remote_assignment_energy.csv",
+    "bytes": 315767
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/source_evaluation_runs.json",
+    "bytes": 19949
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/training_integrity.json",
+    "bytes": 2664
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/training_reward_windows.json",
+    "bytes": 3483
+  },
+  {
+    "path": "metadata/audits/c32k_progress/20261014_16k32k/validation.json",
+    "bytes": 1804
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k/A_evaluation_config.json",
+    "bytes": 12068
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k/A_run.json",
+    "bytes": 5993
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k/B_evaluation_config.json",
+    "bytes": 12055
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k/B_run.json",
+    "bytes": 6003
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k/comparison_summary.json",
+    "bytes": 12249
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k/C_evaluation_config.json",
+    "bytes": 12109
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k/C_run.json",
+    "bytes": 5990
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k/engineering_tests.json",
+    "bytes": 590
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k/execution_protocol.json",
+    "bytes": 5853
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k/inputs_after.json",
+    "bytes": 14371
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k/inputs_before.json",
+    "bytes": 14371
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k/validation.json",
+    "bytes": 1398
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/analysis_checks.json",
+    "bytes": 755
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/artifact_manifest.json",
+    "bytes": 30764
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/A_12k_evaluation_config.json",
+    "bytes": 12110
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/A_12k_run.json",
+    "bytes": 3283
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/A_16k_evaluation_config.json",
+    "bytes": 12110
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/A_16k_run.json",
+    "bytes": 3278
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/B_12k_evaluation_config.json",
+    "bytes": 12097
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/B_12k_run.json",
+    "bytes": 3283
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/B_16k_evaluation_config.json",
+    "bytes": 12097
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/B_16k_run.json",
+    "bytes": 3278
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/checkpoint_inventory.json",
+    "bytes": 24069
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/comparison_summary.json",
+    "bytes": 129027
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/core_comparison_table.csv",
+    "bytes": 4893
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/C_12k_evaluation_config.json",
+    "bytes": 12151
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/C_12k_run.json",
+    "bytes": 3282
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/C_16k_evaluation_config.json",
+    "bytes": 12151
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/C_16k_run.json",
+    "bytes": 3277
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/evaluation_execution.json",
+    "bytes": 20900
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/evaluation_protocol.json",
+    "bytes": 27241
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/evaluation_tests.xml",
+    "bytes": 4434
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/figure_artifacts.json",
+    "bytes": 530
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/inputs_after.json",
+    "bytes": 38960
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/inputs_before.json",
+    "bytes": 38960
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/interpretation.json",
+    "bytes": 1788
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/per_checkpoint_seed_metrics.csv",
+    "bytes": 22401
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/per_seed_comparison.json",
+    "bytes": 449933
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/per_seed_DONE_and_deltas.csv",
+    "bytes": 4644
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/platform_evidence.json",
+    "bytes": 24124
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/README.md",
+    "bytes": 16752
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/route_behavior_summary.json",
+    "bytes": 143571
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/training_rollout_context.json",
+    "bytes": 31681
+  },
+  {
+    "path": "metadata/audits/checkpoint_progress/20261013_4k8k12k16k/validation.json",
+    "bytes": 2281
+  },
+  {
+    "path": "metadata/audits/continuation_implementation/20261013/continuation_tests.xml",
+    "bytes": 1346
+  },
+  {
+    "path": "metadata/audits/continuation_implementation/20261013/final_cli_resume_checks.json",
+    "bytes": 5996
+  },
+  {
+    "path": "metadata/audits/continuation_implementation/20261013/implementation_summary.json",
+    "bytes": 17363
+  },
+  {
+    "path": "metadata/audits/continuation_implementation/20261013/real_checkpoint_resume_checks.json",
+    "bytes": 8697
+  },
+  {
+    "path": "metadata/audits/continuation_implementation/20261013/regression_tests.xml",
+    "bytes": 17360
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261013_c32k_ready/artifact_manifest.json",
+    "bytes": 2153
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261013_c32k_ready/checkpoint_audit.json",
+    "bytes": 4859
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261013_c32k_ready/config_changes.json",
+    "bytes": 675
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261013_c32k_ready/expected_checkpoint_accounting.json",
+    "bytes": 1133
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261013_c32k_ready/inputs_after.json",
+    "bytes": 64949
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261013_c32k_ready/inputs_before.json",
+    "bytes": 64949
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261013_c32k_ready/launch_and_evaluation_plan.json",
+    "bytes": 4116
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261013_c32k_ready/launch_command.json",
+    "bytes": 734
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261013_c32k_ready/preflight_summary.json",
+    "bytes": 4068
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261013_c32k_ready/restore_check.json",
+    "bytes": 3314
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261013_c32k_ready/runtime.json",
+    "bytes": 300
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261013_c32k_ready/target_identity.json",
+    "bytes": 2461
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261013_c32k_ready/tests.xml",
+    "bytes": 13920
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261013_c32k_ready/validation.json",
+    "bytes": 1569
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261013_ready/preflight.json",
+    "bytes": 8800
+  },
+  {
+    "path": "metadata/audits/c_energy_progress/20261013_12k16k/artifact_manifest.json",
+    "bytes": 2552
+  },
+  {
+    "path": "metadata/audits/c_energy_progress/20261013_12k16k/comparison_summary.json",
+    "bytes": 21632
+  },
+  {
+    "path": "metadata/audits/c_energy_progress/20261013_12k16k/CPU_energy_blockage_trace.csv",
+    "bytes": 1867093
+  },
+  {
+    "path": "metadata/audits/c_energy_progress/20261013_12k16k/CPU_node_energy_statistics.json",
+    "bytes": 177101
+  },
+  {
+    "path": "metadata/audits/c_energy_progress/20261013_12k16k/inputs_after.json",
+    "bytes": 49717
+  },
+  {
+    "path": "metadata/audits/c_energy_progress/20261013_12k16k/inputs_before.json",
+    "bytes": 49717
+  },
+  {
+    "path": "metadata/audits/c_energy_progress/20261013_12k16k/interpretation.json",
+    "bytes": 4382
+  },
+  {
+    "path": "metadata/audits/c_energy_progress/20261013_12k16k/per_seed_comparison.csv",
+    "bytes": 1804
+  },
+  {
+    "path": "metadata/audits/c_energy_progress/20261013_12k16k/post_persistent_blockage_tasks.csv",
+    "bytes": 3119
+  },
+  {
+    "path": "metadata/audits/c_energy_progress/20261013_12k16k/remote_assignment_energy.csv",
+    "bytes": 130516
+  },
+  {
+    "path": "metadata/audits/c_energy_progress/20261013_12k16k/validation.json",
+    "bytes": 1077
+  },
+  {
+    "path": "metadata/audits/c_heuristic_gap/20261013_16k/artifact_manifest.json",
+    "bytes": 2267
+  },
+  {
+    "path": "metadata/audits/c_heuristic_gap/20261013_16k/comparison_summary.json",
+    "bytes": 17250
+  },
+  {
+    "path": "metadata/audits/c_heuristic_gap/20261013_16k/C_only_done_tasks.csv",
+    "bytes": 19105
+  },
+  {
+    "path": "metadata/audits/c_heuristic_gap/20261013_16k/heuristic_only_done_tasks.csv",
+    "bytes": 14693
+  },
+  {
+    "path": "metadata/audits/c_heuristic_gap/20261013_16k/inputs_after.json",
+    "bytes": 41537
+  },
+  {
+    "path": "metadata/audits/c_heuristic_gap/20261013_16k/inputs_before.json",
+    "bytes": 41537
+  },
+  {
+    "path": "metadata/audits/c_heuristic_gap/20261013_16k/interpretation.json",
+    "bytes": 2575
+  },
+  {
+    "path": "metadata/audits/c_heuristic_gap/20261013_16k/paired_task_comparison.csv",
+    "bytes": 135745
+  },
+  {
+    "path": "metadata/audits/c_heuristic_gap/20261013_16k/per_seed_comparison.csv",
+    "bytes": 845
+  },
+  {
+    "path": "metadata/audits/c_heuristic_gap/20261013_16k/validation.json",
+    "bytes": 3014
+  },
+  {
+    "path": "metadata/audits/c_heuristic_timeline/20261013_16k/artifact_manifest.json",
+    "bytes": 2246
+  },
+  {
+    "path": "metadata/audits/c_heuristic_timeline/20261013_16k/CPU_waiting_slot_trace.jsonl",
+    "bytes": 1218867
+  },
+  {
+    "path": "metadata/audits/c_heuristic_timeline/20261013_16k/inputs_after.json",
+    "bytes": 42990
+  },
+  {
+    "path": "metadata/audits/c_heuristic_timeline/20261013_16k/inputs_before.json",
+    "bytes": 42990
+  },
+  {
+    "path": "metadata/audits/c_heuristic_timeline/20261013_16k/interpretation.json",
+    "bytes": 6641
+  },
+  {
+    "path": "metadata/audits/c_heuristic_timeline/20261013_16k/post_depletion_assignments.json",
+    "bytes": 1506
+  },
+  {
+    "path": "metadata/audits/c_heuristic_timeline/20261013_16k/task_timelines.json",
+    "bytes": 79832
+  },
+  {
+    "path": "metadata/audits/c_heuristic_timeline/20261013_16k/task_timeline_comparison.csv",
+    "bytes": 15358
+  },
+  {
+    "path": "metadata/audits/c_heuristic_timeline/20261013_16k/timeline_summary.json",
+    "bytes": 22630
+  },
+  {
+    "path": "metadata/audits/c_heuristic_timeline/20261013_16k/validation.json",
+    "bytes": 1127
+  },
+  {
+    "path": "metadata/audits/c_route_energy_inputs/20261013_16k/artifact_manifest.json",
+    "bytes": 2060
+  },
+  {
+    "path": "metadata/audits/c_route_energy_inputs/20261013_16k/audit_summary.json",
+    "bytes": 6259
+  },
+  {
+    "path": "metadata/audits/c_route_energy_inputs/20261013_16k/inputs_after.json",
+    "bytes": 45050
+  },
+  {
+    "path": "metadata/audits/c_route_energy_inputs/20261013_16k/inputs_before.json",
+    "bytes": 45050
+  },
+  {
+    "path": "metadata/audits/c_route_energy_inputs/20261013_16k/interpretation.json",
+    "bytes": 3933
+  },
+  {
+    "path": "metadata/audits/c_route_energy_inputs/20261013_16k/public_energy_refreshes_reconstructed.json",
+    "bytes": 90608
+  },
+  {
+    "path": "metadata/audits/c_route_energy_inputs/20261013_16k/selected32_decisions.csv",
+    "bytes": 13446
+  },
+  {
+    "path": "metadata/audits/c_route_energy_inputs/20261013_16k/selected32_decisions.json",
+    "bytes": 47922
+  },
+  {
+    "path": "metadata/audits/c_route_energy_inputs/20261013_16k/validation.json",
+    "bytes": 1166
+  },
+  {
+    "path": "metadata/audits/group_meeting_summary/20261014/artifact_manifest.json",
+    "bytes": 4126
+  },
+  {
+    "path": "metadata/audits/group_meeting_summary/20261014/data_validation.json",
+    "bytes": 4965
+  },
+  {
+    "path": "metadata/audits/group_meeting_summary/20261014/validation.json",
+    "bytes": 2920
+  },
+  {
+    "path": "metadata/audits/group_meeting_summary/20261014_scene_fix/artifact_manifest.json",
+    "bytes": 4316
+  },
+  {
+    "path": "metadata/audits/group_meeting_summary/20261014_scene_fix/data_validation.json",
+    "bytes": 4965
+  },
+  {
+    "path": "metadata/audits/group_meeting_summary/20261014_scene_fix/validation.json",
+    "bytes": 1038
+  },
+  {
+    "path": "metadata/audits/implementation/step01_baseline_protocol/baseline_identity.json",
+    "bytes": 25843
+  },
+  {
+    "path": "metadata/audits/implementation/step01_baseline_protocol/experiment_protocol.json",
+    "bytes": 15612
+  },
+  {
+    "path": "metadata/audits/implementation/step01_baseline_protocol/protected_files_sha256.json",
+    "bytes": 64295
+  },
+  {
+    "path": "metadata/audits/implementation/step01_baseline_protocol/seed_usage_audit.json",
+    "bytes": 31895
+  },
+  {
+    "path": "metadata/audits/implementation/step01_baseline_protocol/step01_report.md",
+    "bytes": 5334
+  },
+  {
+    "path": "metadata/audits/implementation/step01_baseline_protocol/validation.json",
+    "bytes": 2255
+  },
+  {
+    "path": "metadata/audits/implementation/step02_candidate_interface/historical_compatibility.json",
+    "bytes": 2464
+  },
+  {
+    "path": "metadata/audits/implementation/step02_candidate_interface/historical_compatibility_final.json",
+    "bytes": 2329
+  },
+  {
+    "path": "metadata/audits/implementation/step02_candidate_interface/protected_files_after.json",
+    "bytes": 66284
+  },
+  {
+    "path": "metadata/audits/implementation/step02_candidate_interface/step02_report.md",
+    "bytes": 6920
+  },
+  {
+    "path": "metadata/audits/implementation/step02_candidate_interface/validation.json",
+    "bytes": 6375
+  },
+  {
+    "path": "metadata/audits/implementation/step03_unified_scorer/historical_compatibility.json",
+    "bytes": 4677
+  },
+  {
+    "path": "metadata/audits/implementation/step03_unified_scorer/initialization_audit.json",
+    "bytes": 22207
+  },
+  {
+    "path": "metadata/audits/implementation/step03_unified_scorer/protected_files_after.json",
+    "bytes": 66672
+  },
+  {
+    "path": "metadata/audits/implementation/step03_unified_scorer/step03_report.md",
+    "bytes": 5366
+  },
+  {
+    "path": "metadata/audits/implementation/step03_unified_scorer/validation.json",
+    "bytes": 1931
+  },
+  {
+    "path": "metadata/audits/implementation/step04_learning_chain/formal_configuration_and_initialization.json",
+    "bytes": 2088
+  },
+  {
+    "path": "metadata/audits/implementation/step04_learning_chain/historical_compatibility.json",
+    "bytes": 2914
+  },
+  {
+    "path": "metadata/audits/implementation/step04_learning_chain/protected_files_after.json",
+    "bytes": 67235
+  },
+  {
+    "path": "metadata/audits/implementation/step04_learning_chain/step04_report.md",
+    "bytes": 8164
+  },
+  {
+    "path": "metadata/audits/implementation/step04_learning_chain/validation.json",
+    "bytes": 2469
+  },
+  {
+    "path": "metadata/audits/implementation/step05_physical_relations/configuration_and_initialization.json",
+    "bytes": 5199
+  },
+  {
+    "path": "metadata/audits/implementation/step05_physical_relations/historical_compatibility.json",
+    "bytes": 2843
+  },
+  {
+    "path": "metadata/audits/implementation/step05_physical_relations/physical_feature_contract.json",
+    "bytes": 2288
+  },
+  {
+    "path": "metadata/audits/implementation/step05_physical_relations/protected_files_after.json",
+    "bytes": 67827
+  },
+  {
+    "path": "metadata/audits/implementation/step05_physical_relations/step05_report.md",
+    "bytes": 6998
+  },
+  {
+    "path": "metadata/audits/implementation/step05_physical_relations/validation.json",
+    "bytes": 1048
+  },
+  {
+    "path": "metadata/audits/implementation/step06_engineering_gate/config_diff_and_identity.json",
+    "bytes": 16854
+  },
+  {
+    "path": "metadata/audits/implementation/step06_engineering_gate/integration_summary.json",
+    "bytes": 27067
+  },
+  {
+    "path": "metadata/audits/implementation/step06_engineering_gate/protected_files_after.json",
+    "bytes": 73354
+  },
+  {
+    "path": "metadata/audits/implementation/step06_engineering_gate/step06_report.md",
+    "bytes": 7067
+  },
+  {
+    "path": "metadata/audits/implementation/step06_engineering_gate/validation.json",
+    "bytes": 5270
+  },
+  {
+    "path": "metadata/audits/literature_review/20261013/reading_validation.json",
+    "bytes": 5262
+  },
+  {
+    "path": "metadata/audits/resume_readiness/20261013_final8k_to16k/audit.json",
+    "bytes": 13243
+  },
+  {
+    "path": "metadata/audits/resume_readiness/20261013_final8k_to16k/A_fresh16k_proposed_config.json",
+    "bytes": 12618
+  },
+  {
+    "path": "metadata/audits/resume_readiness/20261013_final8k_to16k/B_fresh16k_proposed_config.json",
+    "bytes": 12605
+  },
+  {
+    "path": "metadata/audits/resume_readiness/20261013_final8k_to16k/C_fresh16k_proposed_config.json",
+    "bytes": 12659
+  },
+  {
+    "path": "metadata/audits/resume_readiness/20261013_final8k_to16k/inputs_before_after.json",
+    "bytes": 24998
+  },
+  {
+    "path": "metadata/audits/seed42/analysis_data.json",
+    "bytes": 343978
+  },
+  {
+    "path": "metadata/audits/seed42/checkpoint_identity_audit.json",
+    "bytes": 40772
+  },
+  {
+    "path": "metadata/audits/seed42/source_manifest.json",
+    "bytes": 490647
+  },
+  {
+    "path": "metadata/audits/seed42/summary_tables.json",
+    "bytes": 25571
+  },
+  {
+    "path": "metadata/audits/seed42/validation.json",
+    "bytes": 4894
+  },
+  {
+    "path": "metadata/cleanup/20261013/archive_validation.json",
+    "bytes": 453
+  },
+  {
+    "path": "metadata/cleanup/20261013/cleanup_plan.json",
+    "bytes": 386190
+  },
+  {
+    "path": "metadata/cleanup/20261013/cleanup_report.md",
+    "bytes": 4484
+  },
+  {
+    "path": "metadata/cleanup/20261013/deletion_receipt.json",
+    "bytes": 375
+  },
+  {
+    "path": "metadata/cleanup/20261013/EMPTY_DIRECTORY_CLEANUP.json",
+    "bytes": 8989
+  },
+  {
+    "path": "metadata/cleanup/20261013/engineering_fixtures.json",
+    "bytes": 6624058
+  },
+  {
+    "path": "metadata/cleanup/20261013/final_validation.json",
+    "bytes": 841
+  },
+  {
+    "path": "metadata/cleanup/20261013/FROZEN_INPUT_VALIDATION.json",
+    "bytes": 463
+  },
+  {
+    "path": "metadata/cleanup/20261013/full_regression.txt",
+    "bytes": 1554
+  },
+  {
+    "path": "metadata/cleanup/20261013/full_regression.xml",
+    "bytes": 197393
+  },
+  {
+    "path": "metadata/cleanup/20261013/full_regression_result.json",
+    "bytes": 670
+  },
+  {
+    "path": "metadata/cleanup/20261013/launcher_sandbox_probe.txt",
+    "bytes": 2640
+  },
+  {
+    "path": "metadata/cleanup/20261013/long_path_archive_validation.json",
+    "bytes": 30105
+  },
+  {
+    "path": "metadata/cleanup/20261013/portable_validation.json",
+    "bytes": 1775
+  },
+  {
+    "path": "metadata/cleanup/20261013/RELOCATION_VALIDATION.json",
+    "bytes": 1144
+  },
+  {
+    "path": "metadata/cleanup/20261013/test_path_migration.json",
+    "bytes": 1763
+  },
+  {
+    "path": "metadata/reference/p1a_seed42_1044/original_config.json",
+    "bytes": 11035
+  },
+  {
+    "path": "metadata/reference/p1a_seed42_1044/diagnostics/route_decision_trace.jsonl",
+    "bytes": 155112
+  },
+  {
+    "path": "metadata/reference/p1a_seed42_1044/diagnostics/summary.json",
+    "bytes": 643
+  },
+  {
+    "path": "metadata/reference/p1a_seed42_1044/evaluation/aggregate_metrics.json",
+    "bytes": 15009
+  },
+  {
+    "path": "metadata/reference/p1a_seed42_1044/evaluation/episode_metrics.jsonl",
+    "bytes": 39875
+  },
+  {
+    "path": "metadata/reference/p1a_seed42_1044/evaluation/evaluation_manifest.json",
+    "bytes": 14654
+  },
+  {
+    "path": "metadata/reference/p1a_seed42_1044/training/aggregate_metrics.json",
+    "bytes": 35944
+  },
+  {
+    "path": "metadata/reference/p1a_seed42_1044/training/config_snapshot.yaml",
+    "bytes": 11555
+  },
+  {
+    "path": "metadata/reference/p1a_seed42_1044/training/checkpoints/final.pt",
+    "bytes": 18588279
+  },
+  {
+    "path": "plots/.gitkeep",
+    "bytes": 1
+  },
+  {
+    "path": "plots/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a_dashboard.png",
+    "bytes": 868107
+  },
+  {
+    "path": "plots/A/seed42/8k/training_dashboard.png",
+    "bytes": 811699
+  },
+  {
+    "path": "plots/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a_dashboard.png",
+    "bytes": 877819
+  },
+  {
+    "path": "plots/B/seed42/8k/training_dashboard.png",
+    "bytes": 821145
+  },
+  {
+    "path": "plots/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a_dashboard.png",
+    "bytes": 868584
+  },
+  {
+    "path": "plots/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a_dashboard.png",
+    "bytes": 964655
+  },
+  {
+    "path": "plots/C/seed42/8k/training_dashboard.png",
+    "bytes": 834159
+  },
+  {
+    "path": "plots/C/seed42/group_meeting/20261014/00_summary_table.png",
+    "bytes": 326946
+  },
+  {
+    "path": "plots/C/seed42/group_meeting/20261014/00_summary_table.svg",
+    "bytes": 40838
+  },
+  {
+    "path": "plots/C/seed42/group_meeting/20261014/01_completion_and_reward.png",
+    "bytes": 219907
+  },
+  {
+    "path": "plots/C/seed42/group_meeting/20261014/01_completion_and_reward.svg",
+    "bytes": 27928
+  },
+  {
+    "path": "plots/C/seed42/group_meeting/20261014/02_energy_cost.png",
+    "bytes": 196923
+  },
+  {
+    "path": "plots/C/seed42/group_meeting/20261014/02_energy_cost.svg",
+    "bytes": 24815
+  },
+  {
+    "path": "plots/C/seed42/group_meeting/20261014/03_scene_comparison.png",
+    "bytes": 144317
+  },
+  {
+    "path": "plots/C/seed42/group_meeting/20261014/04_energy_risk.png",
+    "bytes": 266798
+  },
+  {
+    "path": "plots/C/seed42/group_meeting/20261014/04_energy_risk.svg",
+    "bytes": 32950
+  },
+  {
+    "path": "plots/C/seed42/group_meeting/20261014/C_group_meeting_figures.zip",
+    "bytes": 1076041
+  },
+  {
+    "path": "plots/C/seed42/group_meeting/20261014/figure_data.json",
+    "bytes": 45908
+  },
+  {
+    "path": "plots/C/seed42/group_meeting/20261014/figure_recipe.json",
+    "bytes": 17885
+  },
+  {
+    "path": "plots/C/seed42/group_meeting/20261014_scene_fix/00_summary_table.png",
+    "bytes": 326946
+  },
+  {
+    "path": "plots/C/seed42/group_meeting/20261014_scene_fix/00_summary_table.svg",
+    "bytes": 40838
+  },
+  {
+    "path": "plots/C/seed42/group_meeting/20261014_scene_fix/01_completion_and_reward.png",
+    "bytes": 219907
+  },
+  {
+    "path": "plots/C/seed42/group_meeting/20261014_scene_fix/01_completion_and_reward.svg",
+    "bytes": 27928
+  },
+  {
+    "path": "plots/C/seed42/group_meeting/20261014_scene_fix/02_energy_cost.png",
+    "bytes": 196923
+  },
+  {
+    "path": "plots/C/seed42/group_meeting/20261014_scene_fix/02_energy_cost.svg",
+    "bytes": 24815
+  },
+  {
+    "path": "plots/C/seed42/group_meeting/20261014_scene_fix/03_scene_comparison.png",
+    "bytes": 154988
+  },
+  {
+    "path": "plots/C/seed42/group_meeting/20261014_scene_fix/03_scene_comparison.svg",
+    "bytes": 16846
+  },
+  {
+    "path": "plots/C/seed42/group_meeting/20261014_scene_fix/04_energy_risk.png",
+    "bytes": 266798
+  },
+  {
+    "path": "plots/C/seed42/group_meeting/20261014_scene_fix/04_energy_risk.svg",
+    "bytes": 32950
+  },
+  {
+    "path": "plots/C/seed42/group_meeting/20261014_scene_fix/C_group_meeting_figures_corrected.zip",
+    "bytes": 1086625
+  },
+  {
+    "path": "plots/C/seed42/group_meeting/20261014_scene_fix/figure_data.json",
+    "bytes": 45908
+  },
+  {
+    "path": "plots/C/seed42/group_meeting/20261014_scene_fix/figure_recipe.json",
+    "bytes": 16344
+  },
+  {
+    "path": "plots/checkpoint_progress/20261013_4k8k12k16k/checkpoint_progress_dashboard.png",
+    "bytes": 297252
+  },
+  {
+    "path": "plots/checkpoint_progress/20261013_4k8k12k16k/checkpoint_progress_dashboard.svg",
+    "bytes": 57097
+  },
+  {
+    "path": "plots/checkpoint_progress/20261013_4k8k12k16k/figure_data_and_recipe.json",
+    "bytes": 4624
+  },
+  {
+    "path": "plots/development/task_allocation/step06_engineering_gate/pytest-0/A/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3a6f24a4c7c5__git-eb1140cefc4a_dashboard.png",
+    "bytes": 580840
+  },
+  {
+    "path": "plots/development/task_allocation/step06_engineering_gate/pytest-0/B/ca_gat_mappo__remote_stress_v2__seed-42__cfg-09e827c1a7f5__git-eb1140cefc4a_dashboard.png",
+    "bytes": 586578
+  },
+  {
+    "path": "plots/development/task_allocation/step06_engineering_gate/pytest-0/C/ca_gat_mappo__remote_stress_v2__seed-42__cfg-a6b46028028b__git-eb1140cefc4a_dashboard.png",
+    "bytes": 576091
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_1_p10.png",
+    "bytes": 654348
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_1_p11.png",
+    "bytes": 536277
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_1_p3.png",
+    "bytes": 527142
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_1_p6.png",
+    "bytes": 615943
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_2_p10.png",
+    "bytes": 615880
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_2_p11.png",
+    "bytes": 472889
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_2_p12.png",
+    "bytes": 657989
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_2_p4.png",
+    "bytes": 618526
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_3_p10.png",
+    "bytes": 585863
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_3_p11.png",
+    "bytes": 469881
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_3_p12.png",
+    "bytes": 560131
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_3_p13.png",
+    "bytes": 702929
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_3_p3.png",
+    "bytes": 629173
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_3_p5.png",
+    "bytes": 647349
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_3_p6.png",
+    "bytes": 543307
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_4_p13.png",
+    "bytes": 601918
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_4_p14.png",
+    "bytes": 629253
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_4_p15.png",
+    "bytes": 669469
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_4_p16.png",
+    "bytes": 593870
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_4_p17.png",
+    "bytes": 670357
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_4_p3.png",
+    "bytes": 620706
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_4_p8.png",
+    "bytes": 695092
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_5_p10.png",
+    "bytes": 552547
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_5_p11.png",
+    "bytes": 549427
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_5_p12.png",
+    "bytes": 520893
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_5_p13.png",
+    "bytes": 472555
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_5_p14.png",
+    "bytes": 715436
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_5_p3.png",
+    "bytes": 723435
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_6_p10.png",
+    "bytes": 312305
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_6_p11.png",
+    "bytes": 449406
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_6_p12.png",
+    "bytes": 591556
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_6_p4.png",
+    "bytes": 463493
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_6_p5.png",
+    "bytes": 474517
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_8_p13.png",
+    "bytes": 523834
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_8_p14.png",
+    "bytes": 618354
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_8_p15.png",
+    "bytes": 527349
+  },
+  {
+    "path": "plots/literature_review_20261013/paper_8_p4.png",
+    "bytes": 709059
+  },
+  {
+    "path": "sections/0_abstract_keywords.md",
+    "bytes": 945
+  },
+  {
+    "path": "sections/1_introduction.md",
+    "bytes": 948
+  },
+  {
+    "path": "sections/2_system_model.md",
+    "bytes": 140264
+  },
+  {
+    "path": "sections/3_methods.md",
+    "bytes": 49331
+  },
+  {
+    "path": "sections/4_experimental_protocol.md",
+    "bytes": 69048
+  },
+  {
+    "path": "sections/5_results_template.md",
+    "bytes": 1195
+  },
+  {
+    "path": "sections/6_discussion_limitations_template.md",
+    "bytes": 1496
+  },
+  {
+    "path": "sections/7_conclusion.md",
+    "bytes": 945
+  },
+  {
+    "path": "sections/cooperative_task_allocation_implementation_plan.md",
+    "bytes": 27817
+  },
+  {
+    "path": "sections/e14c_route_task_credit.md",
+    "bytes": 9381
+  },
+  {
+    "path": "sections/e14d_p0_input_repair.md",
+    "bytes": 28372
+  },
+  {
+    "path": "sections/e14d_route_counterfactual_q.md",
+    "bytes": 6082
+  },
+  {
+    "path": "sections/e14e_p1a_task_event_credit.md",
+    "bytes": 13097
+  },
+  {
+    "path": "sections/literature_reading_and_figure_notes_20261013.md",
+    "bytes": 25352
+  },
+  {
+    "path": "sections/literature_review_high_relevance_20261013.md",
+    "bytes": 19450
+  },
+  {
+    "path": "sections/README.md",
+    "bytes": 5702
+  },
+  {
+    "path": "sections/route_candidate_interface_cpu_audit.md",
+    "bytes": 5344
+  },
+  {
+    "path": "sections/task_allocation_experiment_handoff_step06.md",
+    "bytes": 5895
+  },
+  {
+    "path": "sections/unified_route_learning_step04.md",
+    "bytes": 5935
+  },
+  {
+    "path": "sections/unified_route_physical_relations_step05.md",
+    "bytes": 8299
+  },
+  {
+    "path": "sections/unified_route_scoring_step03.md",
+    "bytes": 4759
+  },
+  {
+    "path": "src/artifacts.py",
+    "bytes": 7660
+  },
+  {
+    "path": "src/cli.py",
+    "bytes": 20345
+  },
+  {
+    "path": "src/config.py",
+    "bytes": 127833
+  },
+  {
+    "path": "src/execution.py",
+    "bytes": 8274
+  },
+  {
+    "path": "src/matched_short_diagnostics.py",
+    "bytes": 17938
+  },
+  {
+    "path": "src/registry.py",
+    "bytes": 13921
+  },
+  {
+    "path": "src/rollout.py",
+    "bytes": 18076
+  },
+  {
+    "path": "src/runner.py",
+    "bytes": 2346
+  },
+  {
+    "path": "src/training_artifacts.py",
+    "bytes": 81090
+  },
+  {
+    "path": "src/__init__.py",
+    "bytes": 28
+  },
+  {
+    "path": "src/algorithms/__init__.py",
+    "bytes": 22
+  },
+  {
+    "path": "src/baselines/__init__.py",
+    "bytes": 28
+  },
+  {
+    "path": "src/channel/__init__.py",
+    "bytes": 22
+  },
+  {
+    "path": "src/env/actions.py",
+    "bytes": 11568
+  },
+  {
+    "path": "src/env/action_history.py",
+    "bytes": 19410
+  },
+  {
+    "path": "src/env/channel.py",
+    "bytes": 17029
+  },
+  {
+    "path": "src/env/energy.py",
+    "bytes": 10688
+  },
+  {
+    "path": "src/env/environment.py",
+    "bytes": 67732
+  },
+  {
+    "path": "src/env/executor.py",
+    "bytes": 11683
+  },
+  {
+    "path": "src/env/history.py",
+    "bytes": 20205
+  },
+  {
+    "path": "src/env/lifecycle.py",
+    "bytes": 14903
+  },
+  {
+    "path": "src/env/metrics.py",
+    "bytes": 25981
+  },
+  {
+    "path": "src/env/mobility.py",
+    "bytes": 14981
+  },
+  {
+    "path": "src/env/observation.py",
+    "bytes": 62939
+  },
+  {
+    "path": "src/env/outage.py",
+    "bytes": 2532
+  },
+  {
+    "path": "src/env/public_history.py",
+    "bytes": 20151
+  },
+  {
+    "path": "src/env/queues.py",
+    "bytes": 12530
+  },
+  {
+    "path": "src/env/randomness.py",
+    "bytes": 2205
+  },
+  {
+    "path": "src/env/reward.py",
+    "bytes": 31760
+  },
+  {
+    "path": "src/env/service.py",
+    "bytes": 13719
+  },
+  {
+    "path": "src/env/state.py",
+    "bytes": 23659
+  },
+  {
+    "path": "src/env/task.py",
+    "bytes": 357
+  },
+  {
+    "path": "src/env/tasks.py",
+    "bytes": 17044
+  },
+  {
+    "path": "src/env/topology.py",
+    "bytes": 4042
+  },
+  {
+    "path": "src/env/traffic.py",
+    "bytes": 6516
+  },
+  {
+    "path": "src/env/validation.py",
+    "bytes": 3765
+  },
+  {
+    "path": "src/env/__init__.py",
+    "bytes": 5781
+  },
+  {
+    "path": "src/evaluation/actor_loader.py",
+    "bytes": 20184
+  },
+  {
+    "path": "src/evaluation/actor_only_route_oracle.py",
+    "bytes": 18941
+  },
+  {
+    "path": "src/evaluation/checkpoint_energy_audit.py",
+    "bytes": 15654
+  },
+  {
+    "path": "src/evaluation/destination_calibration.py",
+    "bytes": 13574
+  },
+  {
+    "path": "src/evaluation/destination_gradient_probe.py",
+    "bytes": 5701
+  },
+  {
+    "path": "src/evaluation/destination_oracle_dataset.py",
+    "bytes": 9542
+  },
+  {
+    "path": "src/evaluation/destination_system_oracle.py",
+    "bytes": 6210
+  },
+  {
+    "path": "src/evaluation/e4_defer_localization.py",
+    "bytes": 21528
+  },
+  {
+    "path": "src/evaluation/e4_v1_audit_figures.py",
+    "bytes": 10189
+  },
+  {
+    "path": "src/evaluation/e4_v1_audit_report.py",
+    "bytes": 16270
+  },
+  {
+    "path": "src/evaluation/e4_v1_matched_audit.py",
+    "bytes": 25439
+  },
+  {
+    "path": "src/evaluation/e5_v1_final_audit.py",
+    "bytes": 35154
+  },
+  {
+    "path": "src/evaluation/group_meeting_figures.py",
+    "bytes": 19661
+  },
+  {
+    "path": "src/evaluation/handler.py",
+    "bytes": 3268
+  },
+  {
+    "path": "src/evaluation/learnability_sanity.py",
+    "bytes": 4602
+  },
+  {
+    "path": "src/evaluation/metrics.py",
+    "bytes": 12691
+  },
+  {
+    "path": "src/evaluation/route_counterfactual_analysis.py",
+    "bytes": 29335
+  },
+  {
+    "path": "src/evaluation/route_counterfactual_oracle.py",
+    "bytes": 29881
+  },
+  {
+    "path": "src/evaluation/route_credit_probe.py",
+    "bytes": 6684
+  },
+  {
+    "path": "src/evaluation/route_option_alignment.py",
+    "bytes": 13362
+  },
+  {
+    "path": "src/evaluation/route_oracle.py",
+    "bytes": 75446
+  },
+  {
+    "path": "src/evaluation/route_oracle_probe.py",
+    "bytes": 74049
+  },
+  {
+    "path": "src/evaluation/route_q_probe.py",
+    "bytes": 20510
+  },
+  {
+    "path": "src/evaluation/route_service_factorial.py",
+    "bytes": 32961
+  },
+  {
+    "path": "src/evaluation/route_sidecar_repair.py",
+    "bytes": 17145
+  },
+  {
+    "path": "src/evaluation/route_telemetry.py",
+    "bytes": 12965
+  },
+  {
+    "path": "src/evaluation/runner.py",
+    "bytes": 38787
+  },
+  {
+    "path": "src/evaluation/service_diagnostics.py",
+    "bytes": 2383
+  },
+  {
+    "path": "src/evaluation/service_telemetry.py",
+    "bytes": 8004
+  },
+  {
+    "path": "src/evaluation/tx_paired_shadow_pilot.py",
+    "bytes": 35920
+  },
+  {
+    "path": "src/evaluation/__init__.py",
+    "bytes": 2513
+  },
+  {
+    "path": "src/mobility/__init__.py",
+    "bytes": 25
+  },
+  {
+    "path": "src/models/ca_gat_mappo.py",
+    "bytes": 124854
+  },
+  {
+    "path": "src/models/ca_gat_mappo_actions.py",
+    "bytes": 48616
+  },
+  {
+    "path": "src/models/ca_gat_mappo_checkpoint.py",
+    "bytes": 50270
+  },
+  {
+    "path": "src/models/ca_gat_mappo_continuation.py",
+    "bytes": 9425
+  },
+  {
+    "path": "src/models/ca_gat_mappo_credit_telemetry.py",
+    "bytes": 22891
+  },
+  {
+    "path": "src/models/ca_gat_mappo_gae.py",
+    "bytes": 18849
+  },
+  {
+    "path": "src/models/ca_gat_mappo_ppo.py",
+    "bytes": 46513
+  },
+  {
+    "path": "src/models/ca_gat_mappo_rollout.py",
+    "bytes": 39113
+  },
+  {
+    "path": "src/models/ca_gat_mappo_route_nstep.py",
+    "bytes": 20125
+  },
+  {
+    "path": "src/models/ca_gat_mappo_route_telemetry.py",
+    "bytes": 196307
+  },
+  {
+    "path": "src/models/ca_gat_mappo_runtime.py",
+    "bytes": 3772
+  },
+  {
+    "path": "src/models/ca_gat_mappo_trainer.py",
+    "bytes": 93250
+  },
+  {
+    "path": "src/models/ca_gat_mappo_update.py",
+    "bytes": 101545
+  },
+  {
+    "path": "src/models/destination_pretraining.py",
+    "bytes": 14359
+  },
+  {
+    "path": "src/models/destination_ranking.py",
+    "bytes": 17931
+  },
+  {
+    "path": "src/models/integrated_scheduler.py",
+    "bytes": 17310
+  },
+  {
+    "path": "src/models/route_candidates.py",
+    "bytes": 10487
+  },
+  {
+    "path": "src/models/route_decision.py",
+    "bytes": 2813
+  },
+  {
+    "path": "src/models/route_exploration.py",
+    "bytes": 11081
+  },
+  {
+    "path": "src/models/route_option_q.py",
+    "bytes": 17217
+  },
+  {
+    "path": "src/models/route_physical_relations.py",
+    "bytes": 10705
+  },
+  {
+    "path": "src/models/route_q_inputs.py",
+    "bytes": 5582
+  },
+  {
+    "path": "src/models/route_task_credit.py",
+    "bytes": 20878
+  },
+  {
+    "path": "src/models/tx_paired_shadow.py",
+    "bytes": 18201
+  },
+  {
+    "path": "src/models/tx_upper_counterfactual.py",
+    "bytes": 11348
+  },
+  {
+    "path": "src/models/tx_upper_factual_credit.py",
+    "bytes": 5304
+  },
+  {
+    "path": "src/models/tx_upper_stability.py",
+    "bytes": 5563
+  },
+  {
+    "path": "src/models/unified_route.py",
+    "bytes": 5796
+  },
+  {
+    "path": "src/models/__init__.py",
+    "bytes": 3789
+  },
+  {
+    "path": "src/policies/base.py",
+    "bytes": 601
+  },
+  {
+    "path": "src/policies/heuristic_policy.py",
+    "bytes": 33168
+  },
+  {
+    "path": "src/policies/local_only_policy.py",
+    "bytes": 6131
+  },
+  {
+    "path": "src/policies/random_policy.py",
+    "bytes": 3224
+  },
+  {
+    "path": "src/policies/__init__.py",
+    "bytes": 699
+  },
+  {
+    "path": "src/queues/__init__.py",
+    "bytes": 22
+  },
+  {
+    "path": "src/training/destination_distillation.py",
+    "bytes": 7410
+  },
+  {
+    "path": "src/training/__init__.py",
+    "bytes": 76
+  },
+  {
+    "path": "src/utils/__init__.py",
+    "bytes": 28
+  },
+  {
+    "path": "tests/test_artifact_evaluation_paths.py",
+    "bytes": 12604
+  },
+  {
+    "path": "tests/test_artifact_nonoverwrite.py",
+    "bytes": 15712
+  },
+  {
+    "path": "tests/test_candidate_aware_route_decoder_v1.py",
+    "bytes": 18554
+  },
+  {
+    "path": "tests/test_candidate_cpu_frequency_decoder.py",
+    "bytes": 20859
+  },
+  {
+    "path": "tests/test_ca_gat_mappo_action_distribution.py",
+    "bytes": 16220
+  },
+  {
+    "path": "tests/test_ca_gat_mappo_agent_credit.py",
+    "bytes": 33048
+  },
+  {
+    "path": "tests/test_ca_gat_mappo_branch_specific_ppo.py",
+    "bytes": 21247
+  },
+  {
+    "path": "tests/test_ca_gat_mappo_checkpoint.py",
+    "bytes": 32628
+  },
+  {
+    "path": "tests/test_ca_gat_mappo_checkpoint_contract.py",
+    "bytes": 19090
+  },
+  {
+    "path": "tests/test_ca_gat_mappo_continuation.py",
+    "bytes": 13602
+  },
+  {
+    "path": "tests/test_ca_gat_mappo_gae.py",
+    "bytes": 17070
+  },
+  {
+    "path": "tests/test_ca_gat_mappo_network.py",
+    "bytes": 10154
+  },
+  {
+    "path": "tests/test_ca_gat_mappo_ppo.py",
+    "bytes": 19734
+  },
+  {
+    "path": "tests/test_ca_gat_mappo_rollout_buffer.py",
+    "bytes": 25881
+  },
+  {
+    "path": "tests/test_ca_gat_mappo_route_credit_package3.py",
+    "bytes": 25298
+  },
+  {
+    "path": "tests/test_ca_gat_mappo_route_credit_package31.py",
+    "bytes": 11121
+  },
+  {
+    "path": "tests/test_ca_gat_mappo_route_specific_gae.py",
+    "bytes": 26693
+  },
+  {
+    "path": "tests/test_ca_gat_mappo_route_telemetry.py",
+    "bytes": 29630
+  },
+  {
+    "path": "tests/test_ca_gat_mappo_second_continuation.py",
+    "bytes": 5351
+  },
+  {
+    "path": "tests/test_ca_gat_mappo_trainer.py",
+    "bytes": 26720
+  },
+  {
+    "path": "tests/test_ca_gat_mappo_trainer_contract.py",
+    "bytes": 10311
+  },
+  {
+    "path": "tests/test_ca_gat_mappo_training_artifacts.py",
+    "bytes": 10710
+  },
+  {
+    "path": "tests/test_ca_gat_mappo_training_contract.py",
+    "bytes": 3846
+  },
+  {
+    "path": "tests/test_ca_gat_mappo_update.py",
+    "bytes": 31449
+  },
+  {
+    "path": "tests/test_checkpoint_energy_audit.py",
+    "bytes": 1118
+  },
+  {
+    "path": "tests/test_config_cli_runner.py",
+    "bytes": 33599
+  },
+  {
+    "path": "tests/test_cpu_anti_starvation.py",
+    "bytes": 22786
+  },
+  {
+    "path": "tests/test_e10_q_target_semantics.py",
+    "bytes": 2952
+  },
+  {
+    "path": "tests/test_e3_branchwise_ppo_aggregation.py",
+    "bytes": 11598
+  },
+  {
+    "path": "tests/test_e9_entropy_runtime_plumbing.py",
+    "bytes": 8847
+  },
+  {
+    "path": "tests/test_environment_api.py",
+    "bytes": 10114
+  },
+  {
+    "path": "tests/test_environment_gate0.py",
+    "bytes": 35010
+  },
+  {
+    "path": "tests/test_evaluation_service_telemetry.py",
+    "bytes": 15035
+  },
+  {
+    "path": "tests/test_executor_service_energy.py",
+    "bytes": 27356
+  },
+  {
+    "path": "tests/test_formal_evaluation.py",
+    "bytes": 31044
+  },
+  {
+    "path": "tests/test_formal_route_oracle_checkpoint_identity.py",
+    "bytes": 4975
+  },
+  {
+    "path": "tests/test_formal_route_oracle_probe_v1.py",
+    "bytes": 12682
+  },
+  {
+    "path": "tests/test_group_meeting_figures.py",
+    "bytes": 3845
+  },
+  {
+    "path": "tests/test_hierarchical_tx_decoder.py",
+    "bytes": 15055
+  },
+  {
+    "path": "tests/test_integrated_scheduler.py",
+    "bytes": 22573
+  },
+  {
+    "path": "tests/test_mobility_topology_channel.py",
+    "bytes": 23247
+  },
+  {
+    "path": "tests/test_option_aware_route_decoder_v1.py",
+    "bytes": 17868
+  },
+  {
+    "path": "tests/test_policy_rollout.py",
+    "bytes": 53788
+  },
+  {
+    "path": "tests/test_radius_revision.py",
+    "bytes": 3100
+  },
+  {
+    "path": "tests/test_remote_stress_scenario.py",
+    "bytes": 5605
+  },
+  {
+    "path": "tests/test_remote_stress_v2_scenario.py",
+    "bytes": 4758
+  },
+  {
+    "path": "tests/test_rollout_capped_route_event_nstep.py",
+    "bytes": 33871
+  },
+  {
+    "path": "tests/test_route_actor_credit_source.py",
+    "bytes": 22143
+  },
+  {
+    "path": "tests/test_route_candidate_interface.py",
+    "bytes": 18993
+  },
+  {
+    "path": "tests/test_route_choice_stability.py",
+    "bytes": 18652
+  },
+  {
+    "path": "tests/test_route_counterfactual_oracle.py",
+    "bytes": 7056
+  },
+  {
+    "path": "tests/test_route_diagnostic_instrumentation.py",
+    "bytes": 16277
+  },
+  {
+    "path": "tests/test_route_entropy_schedule_parameterization.py",
+    "bytes": 27416
+  },
+  {
+    "path": "tests/test_route_exploration.py",
+    "bytes": 26394
+  },
+  {
+    "path": "tests/test_route_head_lr_isolation.py",
+    "bytes": 15806
+  },
+  {
+    "path": "tests/test_route_only_entropy_regularization.py",
+    "bytes": 7184
+  },
+  {
+    "path": "tests/test_route_option_q.py",
+    "bytes": 30664
+  },
+  {
+    "path": "tests/test_route_oracle_diagnostic.py",
+    "bytes": 46306
+  },
+  {
+    "path": "tests/test_route_oracle_probe_v1.py",
+    "bytes": 12062
+  },
+  {
+    "path": "tests/test_route_physical_relations.py",
+    "bytes": 22361
+  },
+  {
+    "path": "tests/test_route_private_backbone.py",
+    "bytes": 20192
+  },
+  {
+    "path": "tests/test_route_q_inputs.py",
+    "bytes": 16825
+  },
+  {
+    "path": "tests/test_route_sidecar_repair.py",
+    "bytes": 12317
+  },
+  {
+    "path": "tests/test_route_slot_workload_timing.py",
+    "bytes": 21318
+  },
+  {
+    "path": "tests/test_route_task_credit.py",
+    "bytes": 26153
+  },
+  {
+    "path": "tests/test_task_allocation_engineering_gate.py",
+    "bytes": 15426
+  },
+  {
+    "path": "tests/test_task_queue_lifecycle.py",
+    "bytes": 15704
+  },
+  {
+    "path": "tests/test_trajectory_credit_telemetry.py",
+    "bytes": 43416
+  },
+  {
+    "path": "tests/test_tx_paired_shadow_credit.py",
+    "bytes": 26727
+  },
+  {
+    "path": "tests/test_tx_paired_shadow_pilot.py",
+    "bytes": 10784
+  },
+  {
+    "path": "tests/test_tx_power_mask.py",
+    "bytes": 4459
+  },
+  {
+    "path": "tests/test_tx_q_popart.py",
+    "bytes": 20859
+  },
+  {
+    "path": "tests/test_tx_upper_counterfactual.py",
+    "bytes": 21341
+  },
+  {
+    "path": "tests/test_tx_upper_factual_credit.py",
+    "bytes": 24172
+  },
+  {
+    "path": "tests/test_tx_upper_stability.py",
+    "bytes": 19538
+  },
+  {
+    "path": "tests/test_unified_route.py",
+    "bytes": 14127
+  },
+  {
+    "path": "tests/test_unified_route_learning.py",
+    "bytes": 28846
+  },
+  {
+    "path": "tests/fixtures/README.md",
+    "bytes": 904
+  },
+  {
+    "path": "tests/fixtures/state_bank_route.jsonl",
+    "bytes": 33852
+  },
+  {
+    "path": "tests/fixtures/configs/cooperative-load-v2-hierarchical-optionaware-v1-entropy-a-32k.json",
+    "bytes": 2374
+  },
+  {
+    "path": "tests/fixtures/configs/cooperative-load-v2-hierarchical-optionaware-v1-entropy-b-32k.json",
+    "bytes": 2374
+  },
+  {
+    "path": "tests/fixtures/configs/cooperative-load-v2-hierarchical-optionaware-v1-entropy-b0-32k.json",
+    "bytes": 2231
+  },
+  {
+    "path": "tests/fixtures/configs/cooperative-load-v2-hierarchical-optionaware-v1-hierarchical-tx-v1-remote-stress-v2-32k.json",
+    "bytes": 2306
+  },
+  {
+    "path": "tests/fixtures/configs/cooperative-load-v2-hierarchical-optionaware-v1-hierarchical-tx-v1-remote-stress-v2-branchwise-32k.json",
+    "bytes": 2373
+  },
+  {
+    "path": "tests/fixtures/configs/cooperative-load-v2-hierarchical-optionaware-v1-remote-stress-32k.json",
+    "bytes": 2463
+  },
+  {
+    "path": "tests/fixtures/configs/cooperative-load-v2-hierarchical-optionaware-v1-remote-stress-v2-32k.json",
+    "bytes": 2246
+  },
+  {
+    "path": "tests/fixtures/configs/cooperative-load-v2-hierarchical-optionaware-v1-remote-stress-v2-route-entropy-v1-32k.json",
+    "bytes": 2399
+  },
+  {
+    "path": "tests/fixtures/configs/e10-seed42-config-snapshot.yaml",
+    "bytes": 10480
+  },
+  {
+    "path": "tests/fixtures/configs/e10-v1-tx-counterfactual-credit-seed43-32k.json",
+    "bytes": 9841
+  },
+  {
+    "path": "tests/fixtures/configs/e11-seed43-config-snapshot.yaml",
+    "bytes": 10515
+  },
+  {
+    "path": "tests/fixtures/configs/e11-v1-tx-q-popart-seed42-32k.json",
+    "bytes": 9890
+  },
+  {
+    "path": "tests/fixtures/configs/e12-v1-tx-factual-team-gae-seed43-32k.json",
+    "bytes": 9885
+  },
+  {
+    "path": "tests/fixtures/configs/e13-v1-tx-paired-shadow-seed42-32k.json",
+    "bytes": 9862
+  },
+  {
+    "path": "tests/fixtures/configs/e13-v1-tx-paired-shadow-seed43-4k.json",
+    "bytes": 10232
+  },
+  {
+    "path": "tests/fixtures/configs/e14a-v1-cpu-feasibility-seed42-8k-dev.json",
+    "bytes": 10403
+  },
+  {
+    "path": "tests/fixtures/configs/e14b-v1-route-log-barrier-seed42-8k-dev.json",
+    "bytes": 10252
+  },
+  {
+    "path": "tests/fixtures/configs/e14c-v1-route-task-credit-seed42-8k-dev.json",
+    "bytes": 10769
+  },
+  {
+    "path": "tests/fixtures/configs/e14d-p0-dual-branch-seed42-8k-dev.json",
+    "bytes": 10965
+  },
+  {
+    "path": "tests/fixtures/configs/e14d-p0-legacy-seed42-8k-dev.json",
+    "bytes": 10945
+  },
+  {
+    "path": "tests/fixtures/configs/e14d-p0-normalized-seed42-8k-dev.json",
+    "bytes": 10961
+  },
+  {
+    "path": "tests/fixtures/configs/e14d-v1-route-counterfactual-q-seed42-8k-dev.json",
+    "bytes": 10945
+  },
+  {
+    "path": "tests/fixtures/configs/e14e-p1a-task-event-credit-seed42-8k-dev.json",
+    "bytes": 11035
+  },
+  {
+    "path": "tests/fixtures/configs/e4-v1-candidate-cpu-frequency-seed43-32k.json",
+    "bytes": 9559
+  },
+  {
+    "path": "tests/fixtures/configs/e5-v1-route-head-lr-isolation-seed43-32k.json",
+    "bytes": 9594
+  },
+  {
+    "path": "tests/fixtures/configs/e6-v1-legacy-cpu-frequency-rollback-seed43-32k.json",
+    "bytes": 9223
+  },
+  {
+    "path": "tests/fixtures/configs/e7-v1-route-private-backbone-seed43-32k.json",
+    "bytes": 9621
+  },
+  {
+    "path": "tests/fixtures/configs/e8-v1-integrated-tx-deadline-cpu-seed43-32k.json",
+    "bytes": 9734
+  },
+  {
+    "path": "tests/fixtures/configs/e9-v1-tx-deterministic-stability-seed43-32k.json",
+    "bytes": 9801
+  },
+  {
+    "path": "tests/fixtures/historical/e3-seed43-cfg735fb97120ce-config_snapshot.yaml",
+    "bytes": 10609
+  },
+  {
+    "path": "tests/fixtures/historical/checkpoints/e14d_p0_normalized_seed42_8k/step_4000.pt",
+    "bytes": 25877844
+  },
+  {
+    "path": "tests/fixtures/historical/checkpoints/e14d_route_counterfactual_q_seed42_8k/step_4000.pt",
+    "bytes": 25855767
+  },
+  {
+    "path": "tmp/pdfs/literature_20261013/1.txt",
+    "bytes": 72236
+  },
+  {
+    "path": "tmp/pdfs/literature_20261013/2.txt",
+    "bytes": 72847
+  },
+  {
+    "path": "tmp/pdfs/literature_20261013/3.txt",
+    "bytes": 72832
+  },
+  {
+    "path": "tmp/pdfs/literature_20261013/4.txt",
+    "bytes": 115536
+  },
+  {
+    "path": "tmp/pdfs/literature_20261013/5.txt",
+    "bytes": 81853
+  },
+  {
+    "path": "tmp/pdfs/literature_20261013/6.txt",
+    "bytes": 68778
+  },
+  {
+    "path": "tmp/pdfs/literature_20261013/8.txt",
+    "bytes": 94312
+  },
+  {
+    "path": "tools/repair_route_sidecar_for_resume.py",
+    "bytes": 1509
+  },
+  {
+    "path": "tools/run_pytest.py",
+    "bytes": 2600
+  }
+]

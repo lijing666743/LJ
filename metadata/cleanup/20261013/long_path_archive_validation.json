@@ -1,0 +1,388 @@
+{
+  "status": "ALL_MEMBERS_SHA256_VERIFIED",
+  "archive_path": "D:/My_project_li/logs/archive/legacy_long_paths_20261013.zip",
+  "archive_sha256": "368bd4facdce967484754d9b4249517eec5b1b2561fa80ea53f92fd773f5ad6e",
+  "archive_bytes": 1114453,
+  "member_count": 63,
+  "original_bytes": 24527391,
+  "files": [
+    {
+      "path": "logs/development/artifact_evaluation_fix/test_temp/tmp4gcszeym/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb/cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+      "bytes": 9,
+      "sha256": "a626bf0d5b57865ee8e1c91b944c82564496d67523639027676d0f7f90373825",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/environment_learnability_eval/remote_stress_v2_full-seed2042-1k-artifactfix-v1/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-402b2ac433ce__cfg-22607173eaa2__eval-0f71d8528374/route_decision_trace.jsonl",
+      "bytes": 2039248,
+      "sha256": "fa5b0affdf90d81bd6d56fe63322349dd20c4be15bb1b2218d17890d18c6559b",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/environment_learnability_eval/remote_stress_v2_full-seed2042-1k-artifactfix-v1/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-402b2ac433ce__cfg-22607173eaa2__eval-0f71d8528374/summary.json",
+      "bytes": 660,
+      "sha256": "445c24a37d91f44b9fd57451c4d9a2f212fa5d17e14dd703e3ddd3fa2df425a7",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/environment_learnability_eval/remote_stress_v2_full-seed2042-1k-artifactfix-v1/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-402b2ac433ce__cfg-22607173eaa2__eval-0f71d8528374/cpu_service_trace.jsonl",
+      "bytes": 3753401,
+      "sha256": "fe33c38979bef39b0a02726283689e5c9cb6c98aa2175350430b0110ac14ae3b",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/environment_learnability_eval/remote_stress_v2_full-seed2042-1k-artifactfix-v1/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-402b2ac433ce__cfg-22607173eaa2__eval-0f71d8528374/service_diagnostic_manifest.json",
+      "bytes": 1373,
+      "sha256": "eb96cdc9813024643c7879e56a0db5e5e61b176863dd8c19658545284edf2e3d",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/environment_learnability_eval/remote_stress_v2_full-seed2042-1k-artifactfix-v1/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-402b2ac433ce__cfg-22607173eaa2__eval-0f71d8528374/task_lifecycle.jsonl",
+      "bytes": 351370,
+      "sha256": "d6bbd014ad57c412172f6b44c403e521bf33ec5393027300ea14bcf9c9414872",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/environment_learnability_eval/remote_stress_v2_full-seed2042-1k-artifactfix-v1/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-402b2ac433ce__cfg-22607173eaa2__eval-0f71d8528374/tx_service_trace.jsonl",
+      "bytes": 5016879,
+      "sha256": "6d2aeeda9feacdd33854084fe510d6a15b1b26557688ac6780e5c22b784e8eb7",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/environment_learnability_eval/remote_stress_v2_full-seed2042-2k-artifactfix-v1/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-20e8ed827d8b__cfg-22607173eaa2__eval-a5d3182ed4ef/route_decision_trace.jsonl",
+      "bytes": 2042552,
+      "sha256": "a38d59f3b87c6f1562b7ff4173c27878ff5fe7cd97ba0193fabb7002eb25b812",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/environment_learnability_eval/remote_stress_v2_full-seed2042-2k-artifactfix-v1/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-20e8ed827d8b__cfg-22607173eaa2__eval-a5d3182ed4ef/summary.json",
+      "bytes": 628,
+      "sha256": "696b142701c40235bbce0d0758d4702ff4b8a0a9410e4066e81569d1c8c3a392",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/environment_learnability_eval/remote_stress_v2_full-seed2042-2k-artifactfix-v1/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-20e8ed827d8b__cfg-22607173eaa2__eval-a5d3182ed4ef/cpu_service_trace.jsonl",
+      "bytes": 3753863,
+      "sha256": "642eb90c01a1136ac55217fc6a3f51a2f8f734e7493d6ee79ba54568c5625dd1",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/environment_learnability_eval/remote_stress_v2_full-seed2042-2k-artifactfix-v1/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-20e8ed827d8b__cfg-22607173eaa2__eval-a5d3182ed4ef/service_diagnostic_manifest.json",
+      "bytes": 1373,
+      "sha256": "ebb0902f8d64e80543bcefcd62cd3a788d0e5c0968f8863516bb0880b2cbb541",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/environment_learnability_eval/remote_stress_v2_full-seed2042-2k-artifactfix-v1/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-20e8ed827d8b__cfg-22607173eaa2__eval-a5d3182ed4ef/task_lifecycle.jsonl",
+      "bytes": 351372,
+      "sha256": "3ccb66610b4e7fc045616c0cbbc6978e507b60c3188a5b7407c5e18617e19cc0",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/environment_learnability_eval/remote_stress_v2_full-seed2042-2k-artifactfix-v1/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-20e8ed827d8b__cfg-22607173eaa2__eval-a5d3182ed4ef/tx_service_trace.jsonl",
+      "bytes": 5015931,
+      "sha256": "3cb76da90bac79a274a76fe4708a211aeedfb6c92e478ab4bfbf5e8f93f81dcb",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration02/test_real_trainer_resume_and_e0/preflight-eval/logs/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-4cfa4d06e5a8__cfg-40afc20573e6__eval-7d5b34420e65/route_decision_trace.jsonl",
+      "bytes": 37615,
+      "sha256": "728c8c4adc281a2350acdce5081118b927648abcd45e35d18e67d04b84321ce4",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration02/test_real_trainer_resume_and_e0/preflight-eval/logs/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-4cfa4d06e5a8__cfg-40afc20573e6__eval-7d5b34420e65/summary.json",
+      "bytes": 627,
+      "sha256": "16dd6a43c95d34dc138b9f2380ba6301d13b7c1e3c32a84fa0d3070051acbbc3",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration02/test_real_trainer_resume_and_e0/preflight-eval/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-4cfa4d06e5a8__cfg-40afc20573e6__eval-7d5b34420e65/cpu_service_trace.jsonl",
+      "bytes": 143350,
+      "sha256": "3a951abb5c291cc9579603da06594370ab1e133407cd172a722aeaf2a2a0063b",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration02/test_real_trainer_resume_and_e0/preflight-eval/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-4cfa4d06e5a8__cfg-40afc20573e6__eval-7d5b34420e65/service_diagnostic_manifest.json",
+      "bytes": 1267,
+      "sha256": "14ec78737ce8c4700a8cfac5beb3f15970efad056a3efcdb08d4033f32859698",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration02/test_real_trainer_resume_and_e0/preflight-eval/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-4cfa4d06e5a8__cfg-40afc20573e6__eval-7d5b34420e65/task_lifecycle.jsonl",
+      "bytes": 28664,
+      "sha256": "024376048d370b0c833a28ce8442b4b3879202b5eac7cb855ba454db8b2f7038",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration02/test_real_trainer_resume_and_e0/preflight-eval/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-4cfa4d06e5a8__cfg-40afc20573e6__eval-7d5b34420e65/tx_service_trace.jsonl",
+      "bytes": 196285,
+      "sha256": "2c3c11fd78aef2e72df85fd44b977d31729bd8a6d396ff93ce98b1e94614ffe7",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration02/test_real_trainer_resume_and_e0/preflight-eval/logs/evaluations/formal-eval__remote_stress_v2__chk-4cfa4d06e5a8__cfg-40afc20573e6__eval-7d5b34420e65/aggregate_metrics.json",
+      "bytes": 14495,
+      "sha256": "f47914dd3eedccea4a53a64666212931f95f0c009c10a5bdaf6a23f82a79e546",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration02/test_real_trainer_resume_and_e0/preflight-eval/logs/evaluations/formal-eval__remote_stress_v2__chk-4cfa4d06e5a8__cfg-40afc20573e6__eval-7d5b34420e65/episode_metrics.jsonl",
+      "bytes": 7330,
+      "sha256": "2088b9a8b6d775b2fe5e44efaad6a88f59aa37ea19d2329bafdd9ac0c81e3399",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration02/test_real_trainer_resume_and_e0/preflight-eval/logs/evaluations/formal-eval__remote_stress_v2__chk-4cfa4d06e5a8__cfg-40afc20573e6__eval-7d5b34420e65/evaluation_manifest.json",
+      "bytes": 14382,
+      "sha256": "2c50efd85713afb871e62902764b3765b36ac91cc777101cd31c0f22d135303e",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration02/test_real_trainer_resume_and_e0/preflight-eval/logs/evaluations/formal-eval__remote_stress_v2__chk-4cfa4d06e5a8__cfg-40afc20573e6__eval-7d5b34420e65/evaluation_metrics.csv",
+      "bytes": 2261,
+      "sha256": "e95ba15ae6c65803533a384ee6f595eeab3722daf0c3ef2fe8d881dfbc4f96c0",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration03/test_real_trainer_resume_and_e0/evaluation/logs/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-ab5f4c4a26db__cfg-40afc20573e6__eval-f59e711c151d/route_decision_trace.jsonl",
+      "bytes": 37615,
+      "sha256": "df762e9ffdd19203d63997b79b5a1088fbac53f89881bcaaad90abe64d3774e0",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration03/test_real_trainer_resume_and_e0/evaluation/logs/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-ab5f4c4a26db__cfg-40afc20573e6__eval-f59e711c151d/summary.json",
+      "bytes": 627,
+      "sha256": "837f1434e1c3bdcc3218dd6da21b4b86bf94d90d804d664e7f55dfc8117e0e8e",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration03/test_real_trainer_resume_and_e0/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-ab5f4c4a26db__cfg-40afc20573e6__eval-f59e711c151d/cpu_service_trace.jsonl",
+      "bytes": 143350,
+      "sha256": "9452cece18735e85cecfd37725b8dedd41ce5d7cce67548b1213356839bb5f4c",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration03/test_real_trainer_resume_and_e0/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-ab5f4c4a26db__cfg-40afc20573e6__eval-f59e711c151d/service_diagnostic_manifest.json",
+      "bytes": 1267,
+      "sha256": "be825d918f458db2e5a0b24a0e12a0529d387e4cb1c5bda5da7d1348d04db63e",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration03/test_real_trainer_resume_and_e0/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-ab5f4c4a26db__cfg-40afc20573e6__eval-f59e711c151d/task_lifecycle.jsonl",
+      "bytes": 28664,
+      "sha256": "28dc16c4924f74d0c9cade0661631a09235415f4771339d5a3ee7a2648b314fb",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration03/test_real_trainer_resume_and_e0/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-ab5f4c4a26db__cfg-40afc20573e6__eval-f59e711c151d/tx_service_trace.jsonl",
+      "bytes": 196285,
+      "sha256": "44232fc9b2a83d76782bce9e5c291d1f9391c8c919026f8f3631ca435a5c442a",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration03/test_real_trainer_resume_and_e0/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-ab5f4c4a26db__cfg-40afc20573e6__eval-f59e711c151d/aggregate_metrics.json",
+      "bytes": 14495,
+      "sha256": "76da4790be80e4d620f7f7d9930189da20c348521b7ef3ec0aefc71e5bff36de",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration03/test_real_trainer_resume_and_e0/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-ab5f4c4a26db__cfg-40afc20573e6__eval-f59e711c151d/episode_metrics.jsonl",
+      "bytes": 7330,
+      "sha256": "ffb6e0d951296db0eeb6398424d65237bc1d6be6340b69001cf05b44baffd207",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration03/test_real_trainer_resume_and_e0/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-ab5f4c4a26db__cfg-40afc20573e6__eval-f59e711c151d/evaluation_manifest.json",
+      "bytes": 14382,
+      "sha256": "324e7faf2d835902ab4b80f4874e142670c2ebc473a165113c263117e0808f54",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration03/test_real_trainer_resume_and_e0/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-ab5f4c4a26db__cfg-40afc20573e6__eval-f59e711c151d/evaluation_metrics.csv",
+      "bytes": 2261,
+      "sha256": "caee7a3647f8e701e8c686819e6fc896cb32609026a7227e1d7c8b83b0b0a2d3",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e0/evaluation/logs/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-20d25229e948__cfg-40afc20573e6__eval-aa7fb7c5e37a/route_decision_trace.jsonl",
+      "bytes": 37615,
+      "sha256": "46c80f6a858115e3883f9f6c5c9217f29ba712fa52f31d085a3d42b5c27c22b9",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e0/evaluation/logs/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-20d25229e948__cfg-40afc20573e6__eval-aa7fb7c5e37a/summary.json",
+      "bytes": 627,
+      "sha256": "4ce5babb83bbb9156b9a98f0e70f4ff97ab3ca187c84b1d7632b648282bd1ccc",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e0/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-20d25229e948__cfg-40afc20573e6__eval-aa7fb7c5e37a/cpu_service_trace.jsonl",
+      "bytes": 143350,
+      "sha256": "ee3d32b1ae2ac0fb9ef9c2ee50cbfa09eed1dfa7166128b517095ededb42daac",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e0/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-20d25229e948__cfg-40afc20573e6__eval-aa7fb7c5e37a/service_diagnostic_manifest.json",
+      "bytes": 1267,
+      "sha256": "8865a95e7c0e87b85f8d63ba793a5425e1ab478f33eee5ccee00e954197e9e46",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e0/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-20d25229e948__cfg-40afc20573e6__eval-aa7fb7c5e37a/task_lifecycle.jsonl",
+      "bytes": 28664,
+      "sha256": "f3a2bac40a97c9383891371e51db6c714967e5f4b407fcf16e1164a189b7ee4d",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e0/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-20d25229e948__cfg-40afc20573e6__eval-aa7fb7c5e37a/tx_service_trace.jsonl",
+      "bytes": 196285,
+      "sha256": "a50011c9faa9631593be0914451f36272dfb405a1222bbf51e9fad4a59918037",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e0/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-20d25229e948__cfg-40afc20573e6__eval-aa7fb7c5e37a/aggregate_metrics.json",
+      "bytes": 14495,
+      "sha256": "c8fa44fec963dc8a61988440c5270f9aff7fa2c53eaaf144c22ebadcfe737f41",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e0/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-20d25229e948__cfg-40afc20573e6__eval-aa7fb7c5e37a/episode_metrics.jsonl",
+      "bytes": 7330,
+      "sha256": "f0384c0926497f1a32b3d3819b7a508231a84cb9929a4ad34bbd8bd9471c9cd7",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e0/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-20d25229e948__cfg-40afc20573e6__eval-aa7fb7c5e37a/evaluation_manifest.json",
+      "bytes": 14382,
+      "sha256": "49d19b0718a7a8f9c5f591ee1588da261a3aa1d267076c231a37182bc1a15d2a",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e0/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-20d25229e948__cfg-40afc20573e6__eval-aa7fb7c5e37a/evaluation_metrics.csv",
+      "bytes": 2261,
+      "sha256": "9752f6b40b64272080f97f7778a09e0e573b61b1fe77ba4cf3b8e7bd63021610",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e1/evaluation/logs/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-36d52a8311db__cfg-40afc20573e6__eval-1dd11f324d37/route_decision_trace.jsonl",
+      "bytes": 20728,
+      "sha256": "053a7ecd151108811d1125167f97d3f4c2d168425146bb7b03e51302bda27714",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e1/evaluation/logs/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-36d52a8311db__cfg-40afc20573e6__eval-1dd11f324d37/summary.json",
+      "bytes": 647,
+      "sha256": "d468941aa1d7f2a4693cba3f70dae1e74c59be96be0f9dd7e3cce5d0a83432d0",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e1/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-36d52a8311db__cfg-40afc20573e6__eval-1dd11f324d37/cpu_service_trace.jsonl",
+      "bytes": 144623,
+      "sha256": "2e95c2837de5ef77337dd3e63ed8e9daba87ff3193b2124f360bb5d33eabc8a8",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e1/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-36d52a8311db__cfg-40afc20573e6__eval-1dd11f324d37/service_diagnostic_manifest.json",
+      "bytes": 1267,
+      "sha256": "bc105db2a2cf9f6f5184099510972b21f4cafa47c236f4aae31f407aa5b62cf4",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e1/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-36d52a8311db__cfg-40afc20573e6__eval-1dd11f324d37/task_lifecycle.jsonl",
+      "bytes": 28575,
+      "sha256": "28ecad47410914ed41c1ceabdcb17587052df38bfa92aeb8501e90caa2ac46be",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e1/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-36d52a8311db__cfg-40afc20573e6__eval-1dd11f324d37/tx_service_trace.jsonl",
+      "bytes": 196285,
+      "sha256": "06a21e0c0d0c16d4feed853b758acef3374474a9c3b031ceb7457daa05df492c",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e1/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-36d52a8311db__cfg-40afc20573e6__eval-1dd11f324d37/aggregate_metrics.json",
+      "bytes": 14623,
+      "sha256": "58e5a20724530541cee72b470430c943752429acc08b99429ad8b2d83e05ec34",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e1/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-36d52a8311db__cfg-40afc20573e6__eval-1dd11f324d37/episode_metrics.jsonl",
+      "bytes": 7429,
+      "sha256": "5934cb9d43793b3ac79c683481987b9183832335b65fcd46ba973261a45f5861",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e1/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-36d52a8311db__cfg-40afc20573e6__eval-1dd11f324d37/evaluation_manifest.json",
+      "bytes": 14239,
+      "sha256": "61d702b92b314938db5ebf5369880cc8852eacb4a1f463679cff156aa1173575",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e1/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-36d52a8311db__cfg-40afc20573e6__eval-1dd11f324d37/evaluation_metrics.csv",
+      "bytes": 2364,
+      "sha256": "a0b986f2691388764e829c3d46a8ea487f2d35323e77ef4a691b301f296162ec",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e2/evaluation/logs/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-6ba8cb406eee__cfg-40afc20573e6__eval-fb466bde9524/route_decision_trace.jsonl",
+      "bytes": 18822,
+      "sha256": "d8a07b2ff3e37a2b9669f3eab54fb294113b1be9abdebd75ed80b58a6b376d4d",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e2/evaluation/logs/diagnostics/hierarchical-route-eval__formal-eval__remote_stress_v2__chk-6ba8cb406eee__cfg-40afc20573e6__eval-fb466bde9524/summary.json",
+      "bytes": 632,
+      "sha256": "91a04b800e61aa8b34e1fd89b4c826b7daf971b92487cd351d938a342a50958b",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e2/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-6ba8cb406eee__cfg-40afc20573e6__eval-fb466bde9524/cpu_service_trace.jsonl",
+      "bytes": 144627,
+      "sha256": "334c31d0d883a891c40497ab2db2d628fdf3bb656855ed8ceb043f732c98c0e9",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e2/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-6ba8cb406eee__cfg-40afc20573e6__eval-fb466bde9524/service_diagnostic_manifest.json",
+      "bytes": 1267,
+      "sha256": "7dc4544e485acf71b58d95fd05b42a02bf57be3f11a231f06f423d4e7de55131",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e2/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-6ba8cb406eee__cfg-40afc20573e6__eval-fb466bde9524/task_lifecycle.jsonl",
+      "bytes": 28558,
+      "sha256": "0e73b6fef262fbc9e151343c5fe9a72cf13bca5f034d119680e9bed201348028",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e2/evaluation/logs/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-6ba8cb406eee__cfg-40afc20573e6__eval-fb466bde9524/tx_service_trace.jsonl",
+      "bytes": 196285,
+      "sha256": "cdfbd9fcc7864df0e593f7bd923b675adc9ffdb0a6ef96ac241ecd5b0cf6c320",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e2/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-6ba8cb406eee__cfg-40afc20573e6__eval-fb466bde9524/aggregate_metrics.json",
+      "bytes": 14618,
+      "sha256": "8b0cfb66f03cbaf5da75636ee4d04c1db36e841a0798cae3c059e76bf46f0cd7",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e2/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-6ba8cb406eee__cfg-40afc20573e6__eval-fb466bde9524/episode_metrics.jsonl",
+      "bytes": 7424,
+      "sha256": "b9024ecd02dd300b36df8b4d10d9aca5487e55abbabbbe196328ec95d9c322e4",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e2/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-6ba8cb406eee__cfg-40afc20573e6__eval-fb466bde9524/evaluation_manifest.json",
+      "bytes": 14532,
+      "sha256": "5d978915092ec842561c404216bb05ad10d6797489825aa3ea50c06bd2576655",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    },
+    {
+      "path": "logs/development/task_allocation/step06_engineering_gate/pytest_integration04/test_real_trainer_resume_and_e2/evaluation/logs/evaluations/formal-eval__remote_stress_v2__chk-6ba8cb406eee__cfg-40afc20573e6__eval-fb466bde9524/evaluation_metrics.csv",
+      "bytes": 2359,
+      "sha256": "4e12de5ffa08c70dd44a6f599dc5957861b161e980f122a73cae3a4edb4c63ef",
+      "reason": "Windows MAX_PATH residual; extended-path inventory"
+    }
+  ]
+}

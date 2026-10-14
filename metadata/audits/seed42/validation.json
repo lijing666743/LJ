@@ -1,0 +1,114 @@
+{
+  "status": "PASS_WITH_PROVENANCE_LIMITATIONS",
+  "all_inputs_exist": true,
+  "input_count": 49,
+  "identity_conflicts": [],
+  "required_missing_fields": [],
+  "fixed_baselines": {
+    "local_only": {
+      "aggregate_all_fields_equal": true,
+      "episode_all_fields_except_evaluation_run_id_equal": true,
+      "action_and_external_hashes_included": true
+    },
+    "heuristic": {
+      "aggregate_all_fields_equal": true,
+      "episode_all_fields_except_evaluation_run_id_equal": true,
+      "action_and_external_hashes_included": true
+    },
+    "random": {
+      "aggregate_all_fields_equal": true,
+      "episode_all_fields_except_evaluation_run_id_equal": true,
+      "action_and_external_hashes_included": true
+    }
+  },
+  "checks": {
+    "A": {
+      "raw_dashboard_crosscheck": true,
+      "eval_csv_crosscheck": true,
+      "aggregate_means_pooled_recomputed": true,
+      "route_summary_recomputed": true,
+      "route_legal_node_identity": true,
+      "leaf_argmax_equals_chosen": "NA: A hierarchical semantics",
+      "embedded_training_checks_pass": true
+    },
+    "B": {
+      "raw_dashboard_crosscheck": true,
+      "eval_csv_crosscheck": true,
+      "aggregate_means_pooled_recomputed": true,
+      "route_summary_recomputed": true,
+      "route_legal_node_identity": true,
+      "leaf_argmax_equals_chosen": true,
+      "embedded_training_checks_pass": true
+    },
+    "C": {
+      "raw_dashboard_crosscheck": true,
+      "eval_csv_crosscheck": true,
+      "aggregate_means_pooled_recomputed": true,
+      "route_summary_recomputed": true,
+      "route_legal_node_identity": true,
+      "leaf_argmax_equals_chosen": true,
+      "embedded_training_checks_pass": true
+    }
+  },
+  "inputs_unchanged_during_read": true,
+  "production_source_unchanged_and_matches_step06": true,
+  "source_file_count": 106,
+  "history_comparison": {
+    "all_metrics_exact_equal": true,
+    "metric_field_count": 25,
+    "action_external_hashes_equal": true,
+    "normalized_route_rows_exact_equal": false,
+    "route_non_probability_fields_exact_equal": true,
+    "probability_difference_field_counts": {
+      "remote_probability": 54,
+      "remote_destination_probabilities": 55,
+      "local_probability": 12,
+      "defer_probability": 13
+    },
+    "max_probability_absolute_difference": 8.940696716308594e-08,
+    "probability_comparison_tolerance": 1e-06,
+    "normalized_route_excluded_fields": [
+      "evaluation_run_id",
+      "episode_id"
+    ]
+  },
+  "unconfirmable_items": [
+    "Original launch command and initial-weight digest absent: random initialization consistent with saved config and initial_policy_version=0, but final artifacts cannot prove all prior weight provenance.",
+    "Shared historical dirty Git HEAD does not reconstruct its full source tree. Saved config/architecture, bitwise equal actor/critic and matched 1044 traces support alignment."
+  ],
+  "scope_notes": [
+    "Historical evaluation is development_service_diagnostic; paper_formal_result=false; this identity difference is disclosed, not silently treated as current five-seed formal evaluation.",
+    "Historical evaluation config hash differs due seed list and diagnostic protocol/purpose; compare only 1044 vs1044, horizon500, deterministic CPU float32.",
+    "Historical architecture manifest omits default destination_decoder_mode=legacy; checkpoint architecture configuration equals A.",
+    "Step06 formal_training_started=false is a release-time status, not a description of current stored artifacts.",
+    "Defer chosen_node_id=null while leaf_node_ids sentinel=-1; normalized as no destination.",
+    "leaf_argmax_equals_chosen is NA for hierarchical A; never interpreted as failed flat-leaf validation."
+  ],
+  "new_training_or_evaluation_started": false,
+  "production_code_or_experiment_config_modified": false,
+  "no_FULL_1k_statistics": true,
+  "output_validation": {
+    "required_output_count": 10,
+    "all_required_outputs_exist": true,
+    "CSV_roundtrip_exact": true,
+    "CSV_row_counts": {
+      "seed42_abc_training_summary.csv": 28,
+      "seed42_abc_evaluation_summary.csv": 20,
+      "seed42_abc_per_eval_seed.csv": 5,
+      "seed42_abc_route_behavior.csv": 3,
+      "seed42_abc_remote_destinations.csv": 3,
+      "seed42_abc_deltas.csv": 3,
+      "historical_p1a_vs_current_a_1044.csv": 10
+    },
+    "unique_key_number_source_count": 446,
+    "all_number_source_paths_exist": true,
+    "markdown_tables_column_consistent": true,
+    "markdown_table_count": 19,
+    "local_links_exist": true,
+    "all_input_hashes_rechecked_after_report": true,
+    "source_inventory_rechecked_after_report": true,
+    "route_ratios_destinations_crosscheck": true,
+    "historical_comparison_all_requested_values_equal": true,
+    "formal_claim_wording_gate": true
+  }
+}

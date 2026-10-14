@@ -1,0 +1,473 @@
+{
+  "status": "PASS",
+  "engine": "MathJax3.2.2 SVG",
+  "display": 18,
+  "inline": 39,
+  "equations": [
+    {
+      "id": 0,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "b_{\\max}",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 1,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "c_{\\max}",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 2,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "A",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 3,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "H",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 4,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "M=\\max(1,AH)",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 5,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": true,
+      "tex": "b=\\widetilde b\\,b_{\\max},\\qquad\nc=\\widetilde c\\,c_{\\max},\\qquad\nQ_j=\\widetilde Q_j\\,M c_{\\max},\\qquad\nB_{ij}=\\widetilde B_{ij}\\,M b_{\\max}.",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 6,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "b",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 7,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "c",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 8,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "Q_j",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 9,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "B_{ij}",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 10,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "i",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 11,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "j",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 12,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "f_{\\mathrm{ref}}",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 13,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "E_{\\mathrm{ref}}",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 14,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "R_{\\mathrm{ref}}",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 15,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "\\Delta t",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 16,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "f_j",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 17,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "E_j",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 18,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "\\kappa_j",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 19,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "P_i",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 20,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "d",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 21,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": true,
+      "tex": "\\widehat t^{\\mathrm{task,cpu}}_j=\\frac{c}{f_j},\\qquad\n\\widehat t^{\\mathrm{queue,cpu}}_j=\\frac{Q_j}{f_j}.",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 22,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": true,
+      "tex": "\\widehat R_{ij}=\\sum_{r=1}^{R}W_r\n\\log_2\\left(1+\\frac{(P_i/R)|\\widehat h_{ijr}|^2}{N_r+\\widehat I_{ijr}}\\right).",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 23,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "R",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 24,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "W_r",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 25,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "\\widehat h_{ijr}",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 26,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "N_r",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 27,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "\\widehat I_{ijr}",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 28,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": true,
+      "tex": "\\widehat t^{\\mathrm{task,tx}}_{ij}=\\frac{b}{\\widehat R_{ij}},\\qquad\n\\widehat t^{\\mathrm{queue,tx}}_{ij}=\\frac{B_{ij}}{\\widehat R_{ij}},",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 29,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": true,
+      "tex": "\\widehat t^{\\mathrm{service}}_{ij}=\n\\widehat t^{\\mathrm{task,cpu}}_j+\n\\widehat t^{\\mathrm{queue,cpu}}_j+\n\\widehat t^{\\mathrm{task,tx}}_{ij}+\n\\widehat t^{\\mathrm{queue,tx}}_{ij},\\qquad\n\\widehat m_{ij}=d-\\widehat t^{\\mathrm{service}}_{ij}.",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 30,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "10^{-12}",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 31,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": true,
+      "tex": "\\widehat E^{\\mathrm{task,cpu}}_j=\\kappa_j f_j^2 c,\\qquad\n\\widehat E^{\\mathrm{tx}}_{ij}=P_i\n\\left(\\widehat t^{\\mathrm{task,tx}}_{ij}+\\widehat t^{\\mathrm{queue,tx}}_{ij}\\right).",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 32,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "E_j-\\widehat E^{\\mathrm{task,cpu}}_j",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 33,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "E_i-\\widehat E^{\\mathrm{tx}}_{ij}",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 34,
+      "source": "unified_route_physical_relations_step05.md",
+      "display": false,
+      "tex": "\\operatorname{sign}(x)\\log(1+|x|)",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 35,
+      "source": "e14e_p1a_task_event_credit.md",
+      "display": false,
+      "tex": "A_{task}=G_{event}-V_{task,old}",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 36,
+      "source": "e14e_p1a_task_event_credit.md",
+      "display": false,
+      "tex": "t",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 37,
+      "source": "e14e_p1a_task_event_credit.md",
+      "display": false,
+      "tex": "d",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 38,
+      "source": "e14e_p1a_task_event_credit.md",
+      "display": false,
+      "tex": "\\gamma^{d-t}r_{event}",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 39,
+      "source": "e14e_p1a_task_event_credit.md",
+      "display": false,
+      "tex": "-V_{task,old}",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 40,
+      "source": "e14e_p1a_task_event_credit.md",
+      "display": false,
+      "tex": "\\gamma^{b+1-t}V_{task,old}(s_{b+1})",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 41,
+      "source": "e14e_p1a_task_event_credit.md",
+      "display": false,
+      "tex": "\\gamma^{b-t}r_{event}",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 42,
+      "source": "e14e_p1a_task_event_credit.md",
+      "display": true,
+      "tex": "A_{task}=G_{event}-V_{task,old},\\quad\nA_{CF}=Q_{old}(s,o_{chosen})-\\sum_o\\pi_{old}(o\\mid s)Q_{old}(s,o).",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 43,
+      "source": "e14e_p1a_task_event_credit.md",
+      "display": true,
+      "tex": "\\begin{aligned}\n\\text{P0a: } A_{route}&=A_{shared}+\\beta A_{CF},\\\\\n\\text{P1a: } A_{route}&=A_{shared}+\\alpha_{task}A_{task},\n\\qquad \\alpha_{task}=1.0.\n\\end{aligned}",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 44,
+      "source": "e14e_p1a_task_event_credit.md",
+      "display": false,
+      "tex": "s",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 45,
+      "source": "e14e_p1a_task_event_credit.md",
+      "display": false,
+      "tex": "o",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 46,
+      "source": "e14e_p1a_task_event_credit.md",
+      "display": false,
+      "tex": "\\pi_{old}",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 47,
+      "source": "e14c_route_task_credit.md",
+      "display": true,
+      "tex": "G^{\\mathrm{bind}}_{j,t}=\\begin{cases}\n\\gamma^{d-t} C_j,&\\text{本 rollout 内观察到终局},\\\\\n\\gamma^{K+1-t}\\bar V_{\\mathrm{task}}(s_{K+1},j),&\\text{rollout 结束时仍存活}.\n\\end{cases}",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 48,
+      "source": "e14c_route_task_credit.md",
+      "display": true,
+      "tex": "G^{\\mathrm{defer}}_{j,t}=\\gamma^{b+1-t}\\bar V_{\\mathrm{task}}(s_{b+1},j).",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 49,
+      "source": "e14c_route_task_credit.md",
+      "display": true,
+      "tex": "A^{\\mathrm{task}}_{j,t}=G^{\\mathrm{event}}_{j,t}-\\bar V_{\\mathrm{task}}(s_t,j),\\qquad\nA^{\\mathrm{Route}}_{i,t}=A^{\\mathrm{shared}}_{i,t}+\\alpha A^{\\mathrm{task}}_{j,t},\\quad \\alpha=1.",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 50,
+      "source": "e14c_route_task_credit.md",
+      "display": true,
+      "tex": "L_{\\mathrm{taskV}}=\\frac12\\operatorname{mean}_j(V_{\\mathrm{task}}-G^{\\mathrm{task}})^2,\\qquad\nL=L_{\\mathrm{existing}}+0.5L_{\\mathrm{taskV}}.",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 51,
+      "source": "e14d_p0_input_repair.md",
+      "display": true,
+      "tex": "T_j(x)=\\operatorname{sign}(g_jx)\\log(1+|g_jx|).",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 52,
+      "source": "e14d_p0_input_repair.md",
+      "display": true,
+      "tex": "R(e)=e/\\max\\{1,\\sqrt{\\operatorname{mean}(e^2)}\\},\\qquad R(c)=[R(e_1),R(e_2),t].",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 53,
+      "source": "e14d_p0_input_repair.md",
+      "display": true,
+      "tex": "Q_{P0a}(s,c)=F([T(s),R(c)]).",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 54,
+      "source": "e14d_p0_input_repair.md",
+      "display": true,
+      "tex": "z_s=P_s(T(s)),\\quad z_c=P_c(R(c)),\\quad\nQ_{P0b}(s,c)=F([z_s,z_c,t]).",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 55,
+      "source": "e14d_p0_input_repair.md",
+      "display": true,
+      "tex": "L_Q=\\frac{1}{2M}\\sum_i(Q(s_i,c_{a_i})-G_{\\mathrm{event},i})^2,",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "id": 56,
+      "source": "e14d_p0_input_repair.md",
+      "display": true,
+      "tex": "b_Q=\\sum_{a\\in\\mathcal A_{legal}}\\pi_{old}(a\\mid s)Q(s,c_a),\\quad\nA_{CF}=Q(s,c_{chosen})-b_Q,\\quad\nA_{Route}=A_{shared}+\\beta A_{CF}.",
+      "status": "PASS",
+      "error": null
+    }
+  ],
+  "offline_html_has_no_scripts": true,
+  "svg_count": 57,
+  "network_requests_blocked": true,
+  "layout_checks": {
+    "svg_count": 57,
+    "script_count": 0,
+    "assistive_math_hidden": true,
+    "document_horizontal_overflow": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "new_evaluation_episodes": 60,
+  "new_learned_policy_episodes": 15,
+  "existing_8k_results_reused": true,
+  "inputs_checked_unchanged": 132,
+  "checkpoints_checked_unchanged": 6,
+  "checks": [
+    {
+      "method": "A",
+      "evaluation_protocol_identical": true,
+      "source_training_config_identical": true,
+      "external_traces_matched": 20,
+      "baseline_episodes_exactly_matched": 15,
+      "episode_invariants_passed": 20,
+      "primary_means_recomputed": true,
+      "route_count_conservation": true
+    },
+    {
+      "method": "B",
+      "evaluation_protocol_identical": true,
+      "source_training_config_identical": true,
+      "external_traces_matched": 20,
+      "baseline_episodes_exactly_matched": 15,
+      "episode_invariants_passed": 20,
+      "primary_means_recomputed": true,
+      "route_count_conservation": true
+    },
+    {
+      "method": "C",
+      "evaluation_protocol_identical": true,
+      "source_training_config_identical": true,
+      "external_traces_matched": 20,
+      "baseline_episodes_exactly_matched": 15,
+      "episode_invariants_passed": 20,
+      "primary_means_recomputed": true,
+      "route_count_conservation": true
+    }
+  ],
+  "engineering_tests": "26 passed, 8 subtests passed",
+  "training_started": false,
+  "production_code_changed": false,
+  "reward_changed": false
+}

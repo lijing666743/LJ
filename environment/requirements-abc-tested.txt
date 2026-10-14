@@ -1,0 +1,7 @@
+# 实际验证的直接依赖；Python 3.13.11，训练 CUDA11.8 / MX450。
+# torch 的 +cu118 构建需使用对应 wheel 来源；不是跨平台完整锁文件。
+numpy==2.3.5
+torch==2.7.1+cu118
+matplotlib==3.10.8
+PyYAML==6.0.3
+pytest==9.1.1

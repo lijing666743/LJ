@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "scope": "Step05 targeted and affected-module regressions; full repository gate awaits Step06.",
+  "unique_pytest_tests": 262,
+  "subtests": 67,
+  "runs": [
+    {
+      "suite": "physical_final",
+      "pytest_tests": 32,
+      "subtests": 0,
+      "seconds": 66.361,
+      "status": "PASS",
+      "xml": "physical_final.xml",
+      "stdout": "physical_final.txt"
+    },
+    {
+      "suite": "regression",
+      "pytest_tests": 230,
+      "subtests": 67,
+      "seconds": 307.326,
+      "status": "PASS",
+      "xml": "regression.xml",
+      "stdout": "regression.txt"
+    }
+  ],
+  "initial_failure": {
+    "suite": "physical01",
+    "passed": 27,
+    "failed": 1,
+    "reason": "Test fixture attempted to resume FINAL_COMPLETED; existing completion guard correctly rejected.",
+    "resolution": "Use PERIODIC_RESUME with 160 pending transitions; production completion guard unchanged."
+  },
+  "formal_training_started": false,
+  "pretraining_started": false,
+  "effect_claim": "unknown"
+}

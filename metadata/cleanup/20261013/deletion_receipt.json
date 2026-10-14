@@ -1,0 +1,9 @@
+{
+  "status": "REMOVED_VERIFIED_ARCHIVED_FILES",
+  "removed_file_count": 914,
+  "removed_original_bytes": 11202742918.0,
+  "cache_files_removed": 71,
+  "empty_directories_removed": 565,
+  "archive_sha256": "665f2f0cccbc4be75060b0c6a112d422cd98cac7e4eb101c421a3ac99add3ea5",
+  "scope": "Explicit planned files only; no protected directory or frozen input removed."
+}

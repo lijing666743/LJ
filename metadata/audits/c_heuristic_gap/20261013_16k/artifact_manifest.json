@@ -1,0 +1,52 @@
+{
+  "scope": "Read-only C16k versus heuristic task and energy diagnosis",
+  "artifacts": [
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_heuristic_gap\\20261013_16k\\C_only_done_tasks.csv",
+      "bytes": 19105,
+      "sha256": "13a3d68ffe721bae367c9ae3f58142c760fe239b39761c8f687453b4358e03e8"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_heuristic_gap\\20261013_16k\\comparison_summary.json",
+      "bytes": 17250,
+      "sha256": "d72db600e897d0fe7dbba2ca558752b1551161b0bb19a96f1964746457477abc"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_heuristic_gap\\20261013_16k\\heuristic_only_done_tasks.csv",
+      "bytes": 14693,
+      "sha256": "6ec6c49e2f2ad6047da0e69bf178ef25cc0a8f1bc1b87bc2d6ea476c7f3f91b7"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_heuristic_gap\\20261013_16k\\inputs_after.json",
+      "bytes": 41537,
+      "sha256": "1fddb0c06fe540da6ffac0a2ccf960df6d04652aa869f81fdd63d2099d60cc22"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_heuristic_gap\\20261013_16k\\inputs_before.json",
+      "bytes": 41537,
+      "sha256": "1fddb0c06fe540da6ffac0a2ccf960df6d04652aa869f81fdd63d2099d60cc22"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_heuristic_gap\\20261013_16k\\interpretation.json",
+      "bytes": 2575,
+      "sha256": "70ec5cea0b30114f1b696f2b8bc5330bf136c74304d67028c5fe7d9f6d581088"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_heuristic_gap\\20261013_16k\\paired_task_comparison.csv",
+      "bytes": 135745,
+      "sha256": "a4dcd3b1f9a8acb59311c897b3224a0231cace721d6271c684ecf1bf93609b96"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_heuristic_gap\\20261013_16k\\per_seed_comparison.csv",
+      "bytes": 845,
+      "sha256": "05d3ba765abcf8e95edcd6616e34327ee0a5cc5c3fe5f6be4ebe55a053754fc1"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_heuristic_gap\\20261013_16k\\validation.json",
+      "bytes": 3014,
+      "sha256": "8dd076629330bd09690be5fe557034b150cc8feb0a2cd8325851cba01c856623"
+    }
+  ],
+  "README_progress_updated": "D:\\My_project_li\\README.md",
+  "manifest_self_excluded": true
+}

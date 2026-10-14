@@ -1,0 +1,5 @@
+# Environment Implementation 的直接数值依赖；已使用 NumPy 2.3.5 验证。
+numpy>=1.26,<3
+# CA-GAT-MAPPO Network Gate 的直接神经网络依赖。
+torch>=2.7,<3
+matplotlib>=3.8,<4

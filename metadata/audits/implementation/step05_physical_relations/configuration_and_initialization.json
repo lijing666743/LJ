@@ -1,0 +1,124 @@
+{
+  "status": "PASS",
+  "b_preservation": [
+    {
+      "seed": 42,
+      "config_hash": "4d0445c21cf415cdc9846a923f1a3f7c52195bdf80488b8008b7e18edf1b8b41",
+      "actor": "9e61f199c9d8a9bafdded6025db527e75303cf75008c1736ca19ad20acc4008d",
+      "critic": "e76a979a18c10a76846af1dfbd12c09908cf791a867f6a5e015a240f5b59d963",
+      "forward": "12dcca209d650e408bbd682a5dd5743ba609b2fc2c358a8edac9ff1e31bfb670",
+      "matches_pre_step05": true
+    },
+    {
+      "seed": 43,
+      "config_hash": "4eb7ddf98f0b6cbad7b064622fc4f3af5c09e972903d60abb0769c798a0c4652",
+      "actor": "6287fc7e7f186d985f20f167d6d8e09b26260b44663a893e31922414b97ecdcc",
+      "critic": "fabe6620d41c5cf7a16d3b7d8b4e0087cd75caa39ad436055da4c5a1b5e835e3",
+      "forward": "c39f6c7abe25a75d147719567e56b662e30c29dccdcc6a3ab178741b5264ec35",
+      "matches_pre_step05": true
+    },
+    {
+      "seed": 44,
+      "config_hash": "5f3399970f58e23f707e7bfcc05081e8a0d505b04ec134956e3cd19a146085e4",
+      "actor": "a388606f37fa2859d4f91c7c39bdf18fb59d4ef58c5ee5f888b2b07af1359cdb",
+      "critic": "6c6f4aa9cfa1f73c9e517ff59039f923aa86ee2324f2ecd9d469c5092aa3e29c",
+      "forward": "f0fcd6692455f4d98ac463e996846b1842e85adf6205c85fed9bd6c1f33353dc",
+      "matches_pre_step05": true
+    }
+  ],
+  "b_c_common_initialization": [
+    {
+      "seed": 42,
+      "common_actor_tensor_count": 156,
+      "all_common_equal": true,
+      "critic_equal": true,
+      "c_extra_keys": [
+        "action_heads.route.physical_projection.0.bias",
+        "action_heads.route.physical_projection.0.weight",
+        "action_heads.route.physical_projection.2.bias",
+        "action_heads.route.physical_projection.2.weight"
+      ],
+      "c_actor_hash": "b57b6357b377dbb770c8cbf363862cf7c9300d92087ebadb2b3cd56b3ec53ee6",
+      "c_forward_hash": "f4a4f6e8fcea00454165b124c35fa5999383b1162fad8fccd998ffb4676c1415",
+      "c_identity": {
+        "schema": "unified_route_identity.v2",
+        "decoder_mode": "unified_node_v1",
+        "decision_mode": "flat_leaf_v1",
+        "feature_mode": "physical_relations_v1",
+        "q_candidate_mode": "physical_candidate_remote_context_type_411_v1",
+        "initialization_domain": 17001,
+        "initialization_seed": 3399495094973554999,
+        "physical_initialization_domain": 17002,
+        "physical_initialization_seed": 8109250931685342088,
+        "physical_transform": "signed_log1p_config_scales_v1"
+      }
+    },
+    {
+      "seed": 43,
+      "common_actor_tensor_count": 156,
+      "all_common_equal": true,
+      "critic_equal": true,
+      "c_extra_keys": [
+        "action_heads.route.physical_projection.0.bias",
+        "action_heads.route.physical_projection.0.weight",
+        "action_heads.route.physical_projection.2.bias",
+        "action_heads.route.physical_projection.2.weight"
+      ],
+      "c_actor_hash": "982ed49570e68769dab8e8be3094c798a292a20bc5f8aa203b19e768e931eda7",
+      "c_forward_hash": "21749af66c0037a715e19240c7bff83cfee8da51e8621413852e9fe96ddc7932",
+      "c_identity": {
+        "schema": "unified_route_identity.v2",
+        "decoder_mode": "unified_node_v1",
+        "decision_mode": "flat_leaf_v1",
+        "feature_mode": "physical_relations_v1",
+        "q_candidate_mode": "physical_candidate_remote_context_type_411_v1",
+        "initialization_domain": 17001,
+        "initialization_seed": 4760288170161496701,
+        "physical_initialization_domain": 17002,
+        "physical_initialization_seed": 4223353171784418688,
+        "physical_transform": "signed_log1p_config_scales_v1"
+      }
+    },
+    {
+      "seed": 44,
+      "common_actor_tensor_count": 156,
+      "all_common_equal": true,
+      "critic_equal": true,
+      "c_extra_keys": [
+        "action_heads.route.physical_projection.0.bias",
+        "action_heads.route.physical_projection.0.weight",
+        "action_heads.route.physical_projection.2.bias",
+        "action_heads.route.physical_projection.2.weight"
+      ],
+      "c_actor_hash": "c7bdcd35ed86b3f0cbd266d31743de4f3b07fe3d1c994c7ad3e33180671a5c48",
+      "c_forward_hash": "26e54e3667a4cfe8f4db1f63fec1a4a4c85193f6971b29bc9e1d19a242bfe2b1",
+      "c_identity": {
+        "schema": "unified_route_identity.v2",
+        "decoder_mode": "unified_node_v1",
+        "decision_mode": "flat_leaf_v1",
+        "feature_mode": "physical_relations_v1",
+        "q_candidate_mode": "physical_candidate_remote_context_type_411_v1",
+        "initialization_domain": 17001,
+        "initialization_seed": 4853198679874376696,
+        "physical_initialization_domain": 17002,
+        "physical_initialization_seed": 2432202374158157285,
+        "physical_transform": "signed_log1p_config_scales_v1"
+      }
+    }
+  ],
+  "a_to_b": [
+    {
+      "path": "training.mappo.route_decoder_mode",
+      "before": "hierarchical_option_aware_v1",
+      "after": "unified_node_v1"
+    }
+  ],
+  "b_to_c": [
+    {
+      "path": "training.mappo.route_feature_mode",
+      "before": "<absent>",
+      "after": "physical_relations_v1"
+    }
+  ],
+  "note": "Configuration API only; independent experiment files await Step06."
+}

@@ -1,0 +1,46 @@
+{
+  "artifacts": [
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_route_energy_inputs\\20261013_16k\\audit_summary.json",
+      "size_bytes": 6259,
+      "sha256": "a95386a605c889bdbf3cc373a899469cae4555997bb94a4b57d9ac8b16f90804"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_route_energy_inputs\\20261013_16k\\inputs_after.json",
+      "size_bytes": 45050,
+      "sha256": "3df3f6560e6c23d14d975fd2fdec000e23e01b854a1daa1f78f20c0891c52a0f"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_route_energy_inputs\\20261013_16k\\inputs_before.json",
+      "size_bytes": 45050,
+      "sha256": "3df3f6560e6c23d14d975fd2fdec000e23e01b854a1daa1f78f20c0891c52a0f"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_route_energy_inputs\\20261013_16k\\interpretation.json",
+      "size_bytes": 3933,
+      "sha256": "dcca434403397fbd306c825d6fcf666c62fc7809c0b623ae104edbf6ab5eabb8"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_route_energy_inputs\\20261013_16k\\public_energy_refreshes_reconstructed.json",
+      "size_bytes": 90608,
+      "sha256": "b80e25ea85c700ad7d49ad6eb4644d5568972eb09a95b92b352b87e382ecd4f9"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_route_energy_inputs\\20261013_16k\\selected32_decisions.csv",
+      "size_bytes": 13446,
+      "sha256": "af1b238db4997108211edc54a3845e2e734ec4704bb0594277b91bd2ee31d5c5"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_route_energy_inputs\\20261013_16k\\selected32_decisions.json",
+      "size_bytes": 47922,
+      "sha256": "e35b670ce4ca344dbf48de3e2d2cb4033166daaa1768e1b1a7e4a4e68a0b9017"
+    },
+    {
+      "path": "D:\\My_project_li\\metadata\\audits\\c_route_energy_inputs\\20261013_16k\\validation.json",
+      "size_bytes": 1166,
+      "sha256": "4f6b95e010706a28aa69317d78896a57a7ee9c82338f84bb46b961d0cf7e4fee"
+    }
+  ],
+  "README_progress_updated": "D:\\My_project_li\\README.md",
+  "manifest_self_excluded": true
+}

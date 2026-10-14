@@ -1,0 +1,20 @@
+{
+  "action_trace_sha256_by_episode": [
+    {
+      "action_trace_sha256": "041afc230bff3df0457a642d94ed546e72660ce64a0b02aa178961d3b2f4aeec",
+      "episode_id": 0,
+      "evaluation_seed": 1044
+    }
+  ],
+  "decoder_mode": "hierarchical_option_aware_v1",
+  "defer_count": 0,
+  "evaluation_run_id": "development-service-eval__remote_stress_v2__chk-d303878ed57d__cfg-2e7a1dd6b92d__eval-302b95721c5e",
+  "idle_count": 0,
+  "local_count": 0,
+  "outage_denominator": 173,
+  "remote_count": 117,
+  "remote_ratio": 1.0,
+  "route_decision_count": 117,
+  "schema_version": "evaluation_route_telemetry.v1",
+  "tx_energy_total_j": 1.0349013479348128
+}

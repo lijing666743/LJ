@@ -1,0 +1,87 @@
+[
+  {
+    "old_path": "sections/e14c_route_task_credit.md",
+    "new_path": "sections/methods/e14c_route_task_credit.md",
+    "display_formulas": 4,
+    "formula_bodies_unchanged": true,
+    "body_sha256": [
+      "6d9a24cf16e3a2ae64d52efe4cc050943a7c33372efd8e2ad147f450ab1a767b",
+      "8868c64709c84ba886de188711896e08171e1b0d8112345e9673c69fc46dcfe5",
+      "a648c72315d162d5bc63f79aad0f41ab79e32db3f60c949340d112b2b2c6db75",
+      "cec1dc4e080baa1407f258e6f09fc4c35e560905a69f6bd48b3e72dc6f9190f5"
+    ]
+  },
+  {
+    "old_path": "sections/e14d_p0_input_repair.md",
+    "new_path": "sections/methods/e14d_p0_input_repair.md",
+    "display_formulas": 6,
+    "formula_bodies_unchanged": true,
+    "body_sha256": [
+      "ca4b1a81e4cb59926f03e9d9eedee0e8b1942f9e6f73f96e7d63ff8780affa5b",
+      "af9cb3e768c588beb8dfed2a767136dac8cb62831154f0dadde1d36ee484e931",
+      "fd6f19d3eb8d11e9d89202bc31cb2416bbd4b2650d72e0d9f965d611137d287c",
+      "7ec0353ed24cf2ac32f2a3e373b453d6d2118c9920d22ed523b892abb36f79c8",
+      "fc23faea04c875d327b1bd71b9e852d5fda0fb5ce5763c855cbd1c52a8124ce1",
+      "6d7be455274d27dffa25b073a0cad1a5fab2b62a04356c32ae075c0d7e820dff"
+    ]
+  },
+  {
+    "old_path": "sections/e14e_p1a_task_event_credit.md",
+    "new_path": "sections/methods/e14e_p1a_task_event_credit.md",
+    "display_formulas": 2,
+    "formula_bodies_unchanged": true,
+    "body_sha256": [
+      "07ab8313de4893de811f8b5a6a7eeec323e0d9d74dd9e9435628af015ef6aadd",
+      "99e6e35c6be753376fdd75805b3a1da318452b82be133eaa1593e089af870226"
+    ]
+  },
+  {
+    "old_path": "sections/route_candidate_interface_cpu_audit.md",
+    "new_path": "sections/methods/route_candidate_interface_cpu_audit.md",
+    "display_formulas": 0,
+    "formula_bodies_unchanged": true,
+    "body_sha256": []
+  },
+  {
+    "old_path": "sections/unified_route_scoring_step03.md",
+    "new_path": "sections/methods/unified_route_scoring_step03.md",
+    "display_formulas": 0,
+    "formula_bodies_unchanged": true,
+    "body_sha256": []
+  },
+  {
+    "old_path": "sections/unified_route_learning_step04.md",
+    "new_path": "sections/methods/unified_route_learning_step04.md",
+    "display_formulas": 0,
+    "formula_bodies_unchanged": true,
+    "body_sha256": []
+  },
+  {
+    "old_path": "sections/unified_route_physical_relations_step05.md",
+    "new_path": "sections/methods/unified_route_physical_relations_step05.md",
+    "display_formulas": 6,
+    "formula_bodies_unchanged": true,
+    "body_sha256": [
+      "415745931c3c22c25452588dcb8870d715ed307585ffda0da4ccdbb201a2ee0d",
+      "52370d0f5f13f9c8f36aa0848ad879cf9ec96cbf65cf20deb38b39ab4e1cc05c",
+      "18893e931173ee8323f382b2a79456cebde2fd4614399ab98fab1f463fb1e2ed",
+      "4c14fbe8dc9bc2a06519ab59fab05d2ef19db9bbc1a919e3aa57d8fa40307c20",
+      "a543359dc0e2f46f59ffb1a458741100a6edf9f0bbc27f914f36b5737bd0bdbd",
+      "01e5cb9cef5ae869fa0bfb9fcefd160b3b0883cb23ddfbfef5e196a00ee84638"
+    ]
+  },
+  {
+    "old_path": "sections/cooperative_task_allocation_implementation_plan.md",
+    "new_path": "sections/history/cooperative_task_allocation_implementation_plan.md",
+    "display_formulas": 0,
+    "formula_bodies_unchanged": true,
+    "body_sha256": []
+  },
+  {
+    "old_path": "sections/task_allocation_experiment_handoff_step06.md",
+    "new_path": "sections/history/task_allocation_experiment_handoff_step06.md",
+    "display_formulas": 0,
+    "formula_bodies_unchanged": true,
+    "body_sha256": []
+  }
+]

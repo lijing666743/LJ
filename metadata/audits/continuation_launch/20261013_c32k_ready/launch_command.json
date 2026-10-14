@@ -1,0 +1,6 @@
+{
+  "shell": "PowerShell",
+  "syntax_errors": 0,
+  "executed": false,
+  "command": "Set-Location 'D:\\My_project_li'\n$env:OMP_NUM_THREADS = '1'\n$env:MKL_NUM_THREADS = '1'\n$checkpointRoot = 'logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/checkpoints'\n$runArgs = @(\n    '--config', 'experiments/task-allocation/configs/c-seed42-32k-resume.json',\n    '--resume-from', \"$checkpointRoot/step_12000.pt\",\n    '--extend-training-budget',\n    '--verify-replay-against', \"$checkpointRoot/final.pt\"\n)\n& 'D:\\Miniconda\\python.exe' -u -B -X utf8 main.py @runArgs\nif ($LASTEXITCODE -ne 0) { throw 'C 32k continuation failed. Check the error before restarting.' }"
+}

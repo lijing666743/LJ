@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "executed_at_utc": "2026-10-13T11:51:37.261862+00:00",
+  "formal_training_started": false,
+  "formal_replay_executed": false,
+  "new_evaluation_episodes": 0,
+  "production_code_changed": false,
+  "reward_environment_and_training_config_changed": false,
+  "held_out_used": false,
+  "frozen_inputs_checked": 266,
+  "frozen_inputs_unchanged": true,
+  "paired_tasks": 605,
+  "exogenous_field_identity_checks": 3025,
+  "task_cycle_conservation_checks": 1210,
+  "cpu_energy_formula_checks": 20000,
+  "tx_link_energy_and_bits_checks": 20000,
+  "episode_metric_crosschecks": [
+    {
+      "method": "C",
+      "seed": 1042,
+      "task_counts": "PASS",
+      "cpu_tx_total_energy": "PASS",
+      "completed_delay": "PASS"
+    },
+    {
+      "method": "heuristic",
+      "seed": 1042,
+      "task_counts": "PASS",
+      "cpu_tx_total_energy": "PASS",
+      "completed_delay": "PASS"
+    },
+    {
+      "method": "C",
+      "seed": 1043,
+      "task_counts": "PASS",
+      "cpu_tx_total_energy": "PASS",
+      "completed_delay": "PASS"
+    },
+    {
+      "method": "heuristic",
+      "seed": 1043,
+      "task_counts": "PASS",
+      "cpu_tx_total_energy": "PASS",
+      "completed_delay": "PASS"
+    },
+    {
+      "method": "C",
+      "seed": 1044,
+      "task_counts": "PASS",
+      "cpu_tx_total_energy": "PASS",
+      "completed_delay": "PASS"
+    },
+    {
+      "method": "heuristic",
+      "seed": 1044,
+      "task_counts": "PASS",
+      "cpu_tx_total_energy": "PASS",
+      "completed_delay": "PASS"
+    },
+    {
+      "method": "C",
+      "seed": 1045,
+      "task_counts": "PASS",
+      "cpu_tx_total_energy": "PASS",
+      "completed_delay": "PASS"
+    },
+    {
+      "method": "heuristic",
+      "seed": 1045,
+      "task_counts": "PASS",
+      "cpu_tx_total_energy": "PASS",
+      "completed_delay": "PASS"
+    },
+    {
+      "method": "C",
+      "seed": 1046,
+      "task_counts": "PASS",
+      "cpu_tx_total_energy": "PASS",
+      "completed_delay": "PASS"
+    },
+    {
+      "method": "heuristic",
+      "seed": 1046,
+      "task_counts": "PASS",
+      "cpu_tx_total_energy": "PASS",
+      "completed_delay": "PASS"
+    }
+  ],
+  "source_file_set_unchanged": true,
+  "engineering_training_fixtures_executed_by_this_analysis": false,
+  "scope_correction": "A prior mistaken 32k-preparation branch was canceled; its newly added config, test, audit and temporary fixture directory were removed. Its interrupted test command is not used as evidence for this analysis.",
+  "assertions": "All arithmetic, task pairing, lifecycle counts, actual CPU/TX debit, latency and source-immutability assertions passed; no new runtime module was implemented.",
+  "export_crosschecks": {
+    "paired_csv_rows": 605,
+    "C_only_csv_rows": 78,
+    "heuristic_only_csv_rows": 61,
+    "per_seed_csv_rows": 5,
+    "CSV_counts_and_CPU_energy_match_summary": true,
+    "final_input_rehash_match": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "status": "ALL_MEMBERS_SHA256_VERIFIED",
+  "archive_path": "D:/My_project_li/logs/archive/legacy_before_abc_20261013.zip",
+  "archive_sha256": "665f2f0cccbc4be75060b0c6a112d422cd98cac7e4eb101c421a3ac99add3ea5",
+  "archive_bytes": 2299867650,
+  "member_count": 922,
+  "original_bytes": 11202884784,
+  "test_dependency_copies_verified": 11,
+  "production_source_and_manuscript_frozen_hashes_verified": true,
+  "deletion_has_started": false
+}

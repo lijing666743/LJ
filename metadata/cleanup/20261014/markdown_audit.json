@@ -1,0 +1,149 @@
+[
+  {
+    "path": "sections/0_abstract_keywords.md",
+    "action": "keep_frozen",
+    "reason": "用户明确保留0—7章；按基线逐字节核对",
+    "sha256_before": "9bc48056195427f61775191d605c01101606939f273f51e8d0f120e8f82185ba",
+    "lines": 36
+  },
+  {
+    "path": "sections/1_introduction.md",
+    "action": "keep_frozen",
+    "reason": "用户明确保留0—7章；按基线逐字节核对",
+    "sha256_before": "af88f5812976fad2185ee989c60ac93130b2b9544d9de48413bd28e5e000d05c",
+    "lines": 36
+  },
+  {
+    "path": "sections/2_system_model.md",
+    "action": "keep_frozen",
+    "reason": "用户明确保留0—7章；按基线逐字节核对",
+    "sha256_before": "b81e4279aad9c299d587bbb1372f63e690dff9ddcaa0f248dfeb46f5ec7e4a33",
+    "lines": 2360
+  },
+  {
+    "path": "sections/3_methods.md",
+    "action": "keep_frozen",
+    "reason": "用户明确保留0—7章；按基线逐字节核对",
+    "sha256_before": "b076f6359222d5e8dca83e5462542d820eb100070eef192a9e5b87d0ae3e2cad",
+    "lines": 861
+  },
+  {
+    "path": "sections/4_experimental_protocol.md",
+    "action": "keep_frozen",
+    "reason": "用户明确保留0—7章；按基线逐字节核对",
+    "sha256_before": "36654c89d8aa8758ecf9f3d3725edc261f432fd045eb216e676d794fa892e5a2",
+    "lines": 815
+  },
+  {
+    "path": "sections/5_results_template.md",
+    "action": "keep_frozen",
+    "reason": "用户明确保留0—7章；按基线逐字节核对",
+    "sha256_before": "ca5f36b683f9c4f9b438501114ae2ea54a0b0c284e8015c499578bd9ca1e4fb6",
+    "lines": 50
+  },
+  {
+    "path": "sections/6_discussion_limitations_template.md",
+    "action": "keep_frozen",
+    "reason": "用户明确保留0—7章；按基线逐字节核对",
+    "sha256_before": "fba0dc41216f88bb0c5b0261130ba30936629981512d68d3d837f4788df12729",
+    "lines": 52
+  },
+  {
+    "path": "sections/7_conclusion.md",
+    "action": "keep_frozen",
+    "reason": "用户明确保留0—7章；按基线逐字节核对",
+    "sha256_before": "da9809a9770f6a98ff6ab8a06d2ddb32a6ec2a6778c7ae9fc68323315a4fd924",
+    "lines": 36
+  },
+  {
+    "path": "sections/cooperative_task_allocation_implementation_plan.md",
+    "action": "keep",
+    "reason": "已确认的A/B/C范围、后续多seed和公平对照计划；作为历史规划保留",
+    "sha256_before": "082d525d9bc218d888584f33e91e80469c1956b9e495805cd0b9a7d04406e81c",
+    "lines": 269
+  },
+  {
+    "path": "sections/e14c_route_task_credit.md",
+    "action": "keep",
+    "reason": "当前task_event_value_v1的任务事件回报、Defer与删失定义",
+    "sha256_before": "6ce41a545f4f077e69214c75db6ade273a2123d8be27636a41b8eb27a4b14c01",
+    "lines": 84
+  },
+  {
+    "path": "sections/e14d_p0_input_repair.md",
+    "action": "keep",
+    "reason": "当前route_q_input_mode=normalized的尺度及Q输入契约",
+    "sha256_before": "60dca1b01941100d7e30e697b091232982eb997d7a0998cdbabee20773a6cc30",
+    "lines": 317
+  },
+  {
+    "path": "sections/e14d_route_counterfactual_q.md",
+    "action": "delete_superseded",
+    "reason": "旧counterfactual-Q actor机制说明已由当前P1a task_event机制、normalized Q输入和统一学习链说明替代；不再单列旧actor路线",
+    "sha256_before": "f9d918d7fa4365dce3d8a4d9fff5236604f4c24a5700bd7248d1c893c78719c1",
+    "lines": 84
+  },
+  {
+    "path": "sections/e14e_p1a_task_event_credit.md",
+    "action": "keep",
+    "reason": "当前route_actor_credit_source=task_event；CF actor有效系数0的核心定义",
+    "sha256_before": "61518def649f75c257ac9aeec7349bfeb96a86409b6ee5322d54b800e294ec60",
+    "lines": 137
+  },
+  {
+    "path": "sections/literature_reading_and_figure_notes_20261013.md",
+    "action": "keep",
+    "reason": "七篇真实文献的图表/指标阅读记录，README直接引用",
+    "sha256_before": "91217bd0e13f9cf9e8ea965c485ede8317a613cce44850dfbdf126d725ab02f0",
+    "lines": 176
+  },
+  {
+    "path": "sections/literature_review_high_relevance_20261013.md",
+    "action": "keep",
+    "reason": "相关文献题名、DOI及来源，README直接引用",
+    "sha256_before": "f4610b949c99c561f118eb77e6521667d4648dbbaec578b95dcfe7262bf0c5ef",
+    "lines": 233
+  },
+  {
+    "path": "sections/README.md",
+    "action": "keep",
+    "reason": "章节与当前方法说明用途索引",
+    "sha256_before": "e8a59d5edf7aa177d57448b9a880fedc57bb3cf797677f4c5864eedd326fc512",
+    "lines": 71
+  },
+  {
+    "path": "sections/route_candidate_interface_cpu_audit.md",
+    "action": "keep",
+    "reason": "当前候选接口与Local/Remote CPU负担含义，解释信息可用性",
+    "sha256_before": "a2d3132a9e52b0f2894252b76461b31860ff3b57ea225a25ffc7af90c7588e69",
+    "lines": 45
+  },
+  {
+    "path": "sections/task_allocation_experiment_handoff_step06.md",
+    "action": "keep",
+    "reason": "原始A/B/C正式8k配置、协议和测试边界；历史结果报告直接引用",
+    "sha256_before": "03bf5e9d24944daec00cbb00e82440f4505c3df9e59abdd16f0bf9e2e26ebef4",
+    "lines": 55
+  },
+  {
+    "path": "sections/unified_route_learning_step04.md",
+    "action": "keep",
+    "reason": "B/C与P1a的PPO、task credit和Q接线",
+    "sha256_before": "fcf391a313b2a0407ee4080d22653151f3748f882bf7f1d8bd3f29449111c234",
+    "lines": 56
+  },
+  {
+    "path": "sections/unified_route_physical_relations_step05.md",
+    "action": "keep",
+    "reason": "C的35维物理关系特征与信息边界",
+    "sha256_before": "dc8f15c4a65855a11d6d189907df9b72c93856d9516a00729e03dbfa243740d8",
+    "lines": 108
+  },
+  {
+    "path": "sections/unified_route_scoring_step03.md",
+    "action": "keep",
+    "reason": "B/C统一叶评分与随机初始化公平性",
+    "sha256_before": "434407ca20f738ee4aee696eaa82ffa14ae87be757715b41d9f1bbd04ef9d81f",
+    "lines": 40
+  }
+]

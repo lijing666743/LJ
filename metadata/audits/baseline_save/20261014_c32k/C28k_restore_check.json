@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checkpoint": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/step_28000.pt",
+  "restored_training_state": {
+    "policy_version": 109,
+    "started_episodes": 56,
+    "completed_episodes": 56,
+    "next_episode_index": 56,
+    "collected_environment_transitions": 28000,
+    "optimized_transitions": 27904,
+    "ppo_update_count": 109,
+    "unused_final_tail_transitions": 0,
+    "training_complete": false,
+    "active_rollout_length": 96,
+    "active_rollout_policy_version": 109
+  },
+  "actor_critic_two_adam_policy_rng_pending_diagnostics_counters": "exact",
+  "environment_steps": 0,
+  "optimizer_updates": 0,
+  "source_git_identity": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+  "future_budget_selected": false
+}

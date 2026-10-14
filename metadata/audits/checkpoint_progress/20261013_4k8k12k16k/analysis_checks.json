@@ -1,0 +1,15 @@
+{
+  "all_checkpoint_episode_rows_checked": 240,
+  "all_baseline_rows_exactly_matched": 180,
+  "learned_policy_scalar_aggregates_recomputed": 300,
+  "shared_external_trace_sha256_by_seed": {
+    "1042": "0b9f421b7672bbdddb2eba95fc9730106975ac1ea1d3eb714f537ba9cf2f0889",
+    "1043": "3d52c983249ca048a4c05e262a9196d81aa67273835b373ad79c947dfe7d3a1c",
+    "1044": "11423f92499e671a3e7da9126bbbff9e7030eb4af260b02c86ab07b5bf3da28c",
+    "1045": "9674fd1e3aad1926ae38adbbe09b3b7e0aff31d4332518f66e48f91faa55fe04",
+    "1046": "9e3663178ffc8b32878a066686043e622c8b8befa9267f31e993e6b43ec34800"
+  },
+  "checkpoint_identity_checks_passed": 12,
+  "all_required_per_seed_metrics_present": true,
+  "route_counts_and_probability_sums_checked": true
+}

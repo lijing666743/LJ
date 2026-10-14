@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "starting_guard_count": 216,
+  "protected_after_count": 218,
+  "changed_existing_protected_files": [
+    "src/config.py",
+    "src/models/ca_gat_mappo.py",
+    "src/models/ca_gat_mappo_actions.py",
+    "tests/test_candidate_aware_route_decoder_v1.py",
+    "tests/test_route_candidate_interface.py"
+  ],
+  "unchanged_existing_protected_count": 211,
+  "new_source_test_files": [
+    "src/models/unified_route.py",
+    "tests/test_unified_route.py"
+  ],
+  "legacy_snapshots_match_starting_hashes": true,
+  "test_suites": [
+    {
+      "file": "focused_final.xml",
+      "suite_attributes": [
+        {
+          "name": "pytest",
+          "errors": "0",
+          "failures": "0",
+          "skipped": "0",
+          "tests": "86",
+          "time": "13.547",
+          "timestamp": "2026-10-12T13:13:21.967658+08:00",
+          "hostname": "DESKTOP-4RBUISE"
+        }
+      ],
+      "new_unified_test_cases": 24,
+      "skipped_unified_cases": 0
+    },
+    {
+      "file": "regression.xml",
+      "suite_attributes": [
+        {
+          "name": "pytest",
+          "errors": "0",
+          "failures": "0",
+          "skipped": "0",
+          "tests": "40",
+          "time": "17.693",
+          "timestamp": "2026-10-12T13:15:23.191940+08:00",
+          "hostname": "DESKTOP-4RBUISE"
+        }
+      ],
+      "new_unified_test_cases": 0,
+      "skipped_unified_cases": 0
+    }
+  ],
+  "historical_compatibility": "historical_compatibility.json",
+  "common_initialization": "initialization_audit.json",
+  "formal_unified_config_rejected": true,
+  "no_experiment_training_pretraining_or_episode_evaluation": true,
+  "first_attempt_failure": "1 new private-hidden test used episode-start fixture; fixed test episode flag, final full focused rerun passed",
+  "scope": "Step03 scorer/proposal probe only; P1a production learning chain remains Step04"
+}

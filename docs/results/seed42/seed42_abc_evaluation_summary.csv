@@ -1,0 +1,21 @@
+﻿metric,label,unit,aggregation,higher_is_better,A,B,C,best
+generated,Generated,tasks,5 evaluation-episode arithmetic mean (non-null),0,121.0,121.0,121.0,相同
+completed,DONE,tasks,5 evaluation-episode arithmetic mean (non-null),1,79.4,63.4,65.8,A
+completion_ratio,Completion Ratio,percent,5 evaluation-episode arithmetic mean (non-null),1,65.43567905344945,52.41911795853175,53.81747904234505,A
+expired,EXPIRED,tasks,5 evaluation-episode arithmetic mean (non-null),-1,33.2,49.0,46.6,A
+expiration_ratio,Expiration Ratio,percent,5 evaluation-episode arithmetic mean (non-null),-1,27.85080338609077,40.6736322872763,39.25891347640131,A
+truncated,TRUNCATED,tasks,5 evaluation-episode arithmetic mean (non-null),-1,8.4,8.6,8.6,A
+truncation_ratio,Truncation Ratio,percent,5 evaluation-episode arithmetic mean (non-null),-1,6.713517560459768,6.9072497541919615,6.923607481253644,A
+total_reward,Total Reward,dimensionless,5 evaluation-episode arithmetic mean (non-null),1,37.29070017944867,2.426579414948246,7.76408965357673,A
+completed_task_e2e_delay_s,Completed Task E2E Delay,s,pooled DONE-task weighted mean,-1,0.41108312342569275,0.42397476340694007,0.4299696048632219,A
+total_energy_j,Total Energy,J,5 evaluation-episode arithmetic mean (non-null),-1,34.82429129468737,25.52960485309354,29.823456867714913,B
+cpu_energy_j,CPU Energy,J,5 evaluation-episode arithmetic mean (non-null),-1,34.34860593537,25.441837210594308,29.446828713988918,B
+tx_energy_j,TX Energy,J,5 evaluation-episode arithmetic mean (non-null),-1,0.47568535931736083,0.08776764249923438,0.37662815372599423,B
+energy_per_completed_task_j,Energy per Completed Task,J/task,5 evaluation-episode arithmetic mean (non-null),-1,0.4314810017953727,0.4052648891548107,0.44783176066097774,B
+executor_rejection,Executor Rejection,events,5 evaluation-episode arithmetic mean (non-null),-1,11.0,0.8,3.2,B
+executor_downgrade,Executor Downgrade,events,5 evaluation-episode arithmetic mean (non-null),-1,0.0,0.0,0.0,A/B/C
+backlog_final_tasks,Backlog Final Tasks,tasks,5 evaluation-episode arithmetic mean (non-null),-1,8.8,8.8,8.8,A/B/C
+backlog_mean_tasks,Backlog Mean Tasks,tasks,5 evaluation-episode arithmetic mean (non-null),-1,6.5132,7.1575999999999995,7.091200000000001,A
+backlog_max_tasks,Backlog Max Tasks,tasks,5 evaluation-episode arithmetic mean (non-null),-1,14.2,14.2,15.0,A/B
+workload_penalty,Workload Penalty,dimensionless,5 evaluation-episode arithmetic mean (non-null),-1,8.892669044770564,11.961228603009948,11.421667781657849,A
+outage_rate,Outage Rate,percent,5 evaluation-episode arithmetic mean (non-null),-1,0.0,0.0,0.17699115044247787,A/B

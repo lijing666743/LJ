@@ -1,0 +1,22 @@
+{
+  "files": [
+    {
+      "path": "sections/e14d_route_counterfactual_q.md",
+      "bytes": 6082,
+      "sha256": "f9d918d7fa4365dce3d8a4d9fff5236604f4c24a5700bd7248d1c893c78719c1",
+      "reason": "旧counterfactual-Q actor机制说明已由当前P1a task_event机制、normalized Q输入和统一学习链说明替代；不再单列旧actor路线",
+      "replacements": [
+        "sections/e14e_p1a_task_event_credit.md",
+        "sections/e14d_p0_input_repair.md",
+        "sections/unified_route_learning_step04.md"
+      ],
+      "code_file_readers": [],
+      "covered_subjects": [
+        "chosen-only Q监督与无反事实标签",
+        "候选411维布局、mask和detach",
+        "冻结Q/advantage及PPO epoch边界",
+        "P1a task-event actor、CF仅诊断的明确区别"
+      ]
+    }
+  ]
+}

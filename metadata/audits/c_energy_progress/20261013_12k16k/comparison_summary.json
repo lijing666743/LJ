@@ -1,0 +1,399 @@
+{
+  "scope": "Existing C seed42 checkpoints12k and16k; identical605 tasks, five development scenes; no training/evaluation/replay/oracle",
+  "predeclared_protocol": {
+    "scope": "One bounded read-only comparison of existing C12k and C16k on seeds1042-1046; no new training or evaluation.",
+    "predeclared_metrics": [
+      {
+        "name": "Selected-remote assignments with published energy below minimum-frequency task completion lower bound",
+        "denominator": "Report raw count, fraction of all remote assignments, and public-message-missing count separately; never treat missing zero placeholders as measured depleted energy."
+      },
+      {
+        "name": "CPU backlog slots with no energy-feasible positive-frequency queue head",
+        "denominator": "Per UAV and scene, then sum over identical10000 UAV-slot observations at each checkpoint."
+      },
+      {
+        "name": "New assignments to destinations after persistent energy blockage",
+        "denominator": "Count assignments and report subsequent DONE/EXPIRED/TRUNCATED separately."
+      },
+      {
+        "name": "Completion and energy outcomes",
+        "denominator": "Same605 generated tasks and five fixed scenes; compare paired scene changes and total completion ratio."
+      }
+    ],
+    "purpose": "Determine whether C12k->16k task completion improvement also improves energy-aware routing, or coexists with worsening energy exhaustion. Use the result to choose the next training-length/repeatability step without altering the scientific configuration."
+  },
+  "definitions": {
+    "minimum_energy_bound": "kappa*(0.25*fmax)^2*task_required_cycles; ignores contention and other energy costs. Published energy below this bound is counted only when the message is valid.",
+    "remote_ratio_denominator": "All selected Remote bindings at that checkpoint; missing-message bindings separately counted.",
+    "CPU_energy_blocked": "CPU backlog exists and no current source-queue EDF head can afford any positive allowed frequency at slot start. Partial final-slot energy uses actual remaining cycles.",
+    "persistent_blockage_start": "Earliest blocked backlog slot after the last positive CPU service, with every subsequent backlogged slot energy-blocked to episode end; no fixed low-energy threshold.",
+    "post_blockage_binding": "Task bound to that destination at or after persistent blockage start; EXPIRED and TRUNCATED separate.",
+    "time_units": "UAV-slot counts are summed over four UAVs,500 slots and five scenes=10000 per checkpoint. They are not a single episode elapsed time."
+  },
+  "checkpoints": {
+    "12000": {
+      "overall": {
+        "generated": 605,
+        "completed": 353,
+        "completion_pct": 58.34710743801653,
+        "expired": 208,
+        "truncated": 44,
+        "bound_tasks": 604,
+        "remote_assignments": 460,
+        "local_assignments": 144,
+        "missing_public_energy_remote_assignments": 15,
+        "published_energy_infeasible_remote_assignments": 25,
+        "published_energy_infeasible_pct_of_remote": 5.434782608695652,
+        "published_full_frequency_margin_negative_remote_assignments": 29,
+        "actual_energy_infeasible_remote_assignments": 26,
+        "CPU_energy_blocked_UAV_slots": 229,
+        "CPU_energy_blocked_pct_of_10000_UAV_slots": 2.29,
+        "CPU_tasks_exposed_to_blockage": 30,
+        "exposed_task_final_status": {
+          "EXPIRED": 22,
+          "TRUNCATED": 8
+        },
+        "post_persistent_blockage_assignments": 25,
+        "post_persistent_blockage_final_status": {
+          "EXPIRED": 16,
+          "TRUNCATED": 9
+        },
+        "post_persistent_blockage_terminal_stage": {
+          "CPU_WAIT": 25
+        },
+        "persistent_blocked_nodes": [
+          {
+            "seed": 1042,
+            "uav_id": 2,
+            "start_slot": 331,
+            "blocked_slots": 169,
+            "final_energy_j": 0.0012945460958265116
+          },
+          {
+            "seed": 1044,
+            "uav_id": 2,
+            "start_slot": 440,
+            "blocked_slots": 60,
+            "final_energy_j": 0.0008757412347797811
+          }
+        ],
+        "total_energy_j": 162.17042920232436,
+        "CPU_energy_j": 159.41341866747572,
+        "TX_energy_j": 2.7570105348486416,
+        "energy_per_DONE_j": 0.4594063150207489,
+        "mean_reward": 17.92776194850105,
+        "frequency_level_counts_on_positive_service": {
+          "1.0": 4964,
+          "0.5": 7,
+          "0.25": 4
+        },
+        "max_frequency_fraction_on_positive_service": 0.9977889447236181
+      },
+      "per_seed": [
+        {
+          "checkpoint_steps": 12000,
+          "seed": 1042,
+          "generated": 135,
+          "completed": 100,
+          "completion_pct": 74.07407407407408,
+          "remote_assignments": 80,
+          "missing_public_energy_remote_assignments": 3,
+          "published_energy_infeasible_remote_assignments": 20,
+          "published_energy_infeasible_pct_of_remote": 25.0,
+          "CPU_energy_blocked_UAV_slots": 169,
+          "CPU_tasks_exposed_to_blockage": 22,
+          "post_persistent_blockage_assignments": 20,
+          "post_persistent_blockage_EXPIRED": 14,
+          "post_persistent_blockage_TRUNCATED": 6,
+          "total_energy_j": 48.4404030250609,
+          "CPU_energy_j": 48.07496976643615,
+          "TX_energy_j": 0.36543325862475334,
+          "reward": 68.84854827203657
+        },
+        {
+          "checkpoint_steps": 12000,
+          "seed": 1043,
+          "generated": 122,
+          "completed": 71,
+          "completion_pct": 58.19672131147541,
+          "remote_assignments": 116,
+          "missing_public_energy_remote_assignments": 4,
+          "published_energy_infeasible_remote_assignments": 0,
+          "published_energy_infeasible_pct_of_remote": 0.0,
+          "CPU_energy_blocked_UAV_slots": 0,
+          "CPU_tasks_exposed_to_blockage": 0,
+          "post_persistent_blockage_assignments": 0,
+          "post_persistent_blockage_EXPIRED": 0,
+          "post_persistent_blockage_TRUNCATED": 0,
+          "total_energy_j": 30.187969566799104,
+          "CPU_energy_j": 29.289103316954897,
+          "TX_energy_j": 0.8988662498442064,
+          "reward": 19.54499795296134
+        },
+        {
+          "checkpoint_steps": 12000,
+          "seed": 1044,
+          "generated": 117,
+          "completed": 79,
+          "completion_pct": 67.52136752136752,
+          "remote_assignments": 116,
+          "missing_public_energy_remote_assignments": 4,
+          "published_energy_infeasible_remote_assignments": 5,
+          "published_energy_infeasible_pct_of_remote": 4.310344827586207,
+          "CPU_energy_blocked_UAV_slots": 60,
+          "CPU_tasks_exposed_to_blockage": 8,
+          "post_persistent_blockage_assignments": 5,
+          "post_persistent_blockage_EXPIRED": 2,
+          "post_persistent_blockage_TRUNCATED": 3,
+          "total_energy_j": 45.01966576148213,
+          "CPU_energy_j": 43.914534545236386,
+          "TX_energy_j": 1.105131216245743,
+          "reward": 39.569220761252325
+        },
+        {
+          "checkpoint_steps": 12000,
+          "seed": 1045,
+          "generated": 102,
+          "completed": 49,
+          "completion_pct": 48.03921568627451,
+          "remote_assignments": 60,
+          "missing_public_energy_remote_assignments": 2,
+          "published_energy_infeasible_remote_assignments": 0,
+          "published_energy_infeasible_pct_of_remote": 0.0,
+          "CPU_energy_blocked_UAV_slots": 0,
+          "CPU_tasks_exposed_to_blockage": 0,
+          "post_persistent_blockage_assignments": 0,
+          "post_persistent_blockage_EXPIRED": 0,
+          "post_persistent_blockage_TRUNCATED": 0,
+          "total_energy_j": 20.434093029001446,
+          "CPU_energy_j": 20.281571613973114,
+          "TX_energy_j": 0.15252141502833086,
+          "reward": -12.493856840836905
+        },
+        {
+          "checkpoint_steps": 12000,
+          "seed": 1046,
+          "generated": 129,
+          "completed": 54,
+          "completion_pct": 41.86046511627907,
+          "remote_assignments": 88,
+          "missing_public_energy_remote_assignments": 2,
+          "published_energy_infeasible_remote_assignments": 0,
+          "published_energy_infeasible_pct_of_remote": 0.0,
+          "CPU_energy_blocked_UAV_slots": 0,
+          "CPU_tasks_exposed_to_blockage": 0,
+          "post_persistent_blockage_assignments": 0,
+          "post_persistent_blockage_EXPIRED": 0,
+          "post_persistent_blockage_TRUNCATED": 0,
+          "total_energy_j": 18.08829781998078,
+          "CPU_energy_j": 17.853239424875174,
+          "TX_energy_j": 0.2350583951056079,
+          "reward": -25.83010040290807
+        }
+      ],
+      "publication_reconstruction": "Derived receiver refresh from actually attempted links; energy/AoI components not full saved actor tensors."
+    },
+    "16000": {
+      "overall": {
+        "generated": 605,
+        "completed": 388,
+        "completion_pct": 64.13223140495867,
+        "expired": 175,
+        "truncated": 42,
+        "bound_tasks": 604,
+        "remote_assignments": 466,
+        "local_assignments": 138,
+        "missing_public_energy_remote_assignments": 15,
+        "published_energy_infeasible_remote_assignments": 31,
+        "published_energy_infeasible_pct_of_remote": 6.652360515021459,
+        "published_full_frequency_margin_negative_remote_assignments": 34,
+        "actual_energy_infeasible_remote_assignments": 32,
+        "CPU_energy_blocked_UAV_slots": 297,
+        "CPU_energy_blocked_pct_of_10000_UAV_slots": 2.97,
+        "CPU_tasks_exposed_to_blockage": 36,
+        "exposed_task_final_status": {
+          "EXPIRED": 29,
+          "TRUNCATED": 7
+        },
+        "post_persistent_blockage_assignments": 32,
+        "post_persistent_blockage_final_status": {
+          "EXPIRED": 24,
+          "TRUNCATED": 8
+        },
+        "post_persistent_blockage_terminal_stage": {
+          "CPU_WAIT": 32
+        },
+        "persistent_blocked_nodes": [
+          {
+            "seed": 1042,
+            "uav_id": 2,
+            "start_slot": 332,
+            "blocked_slots": 168,
+            "final_energy_j": 0.001299005820286468
+          },
+          {
+            "seed": 1044,
+            "uav_id": 2,
+            "start_slot": 371,
+            "blocked_slots": 129,
+            "final_energy_j": 0.0004255489234453573
+          }
+        ],
+        "total_energy_j": 179.31180621642775,
+        "CPU_energy_j": 175.2645554296479,
+        "TX_energy_j": 4.047250786779842,
+        "energy_per_DONE_j": 0.4621438304547107,
+        "mean_reward": 33.48417908594455,
+        "frequency_level_counts_on_positive_service": {
+          "1.0": 6212,
+          "0.25": 8,
+          "0.5": 4
+        },
+        "max_frequency_fraction_on_positive_service": 0.9980719794344473
+      },
+      "per_seed": [
+        {
+          "checkpoint_steps": 16000,
+          "seed": 1042,
+          "generated": 135,
+          "completed": 100,
+          "completion_pct": 74.07407407407408,
+          "remote_assignments": 80,
+          "missing_public_energy_remote_assignments": 3,
+          "published_energy_infeasible_remote_assignments": 20,
+          "published_energy_infeasible_pct_of_remote": 25.0,
+          "CPU_energy_blocked_UAV_slots": 168,
+          "CPU_tasks_exposed_to_blockage": 22,
+          "post_persistent_blockage_assignments": 20,
+          "post_persistent_blockage_EXPIRED": 14,
+          "post_persistent_blockage_TRUNCATED": 6,
+          "total_energy_j": 48.620195764572635,
+          "CPU_energy_j": 48.18669411318271,
+          "TX_energy_j": 0.4335016513899257,
+          "reward": 68.86299303062714
+        },
+        {
+          "checkpoint_steps": 16000,
+          "seed": 1043,
+          "generated": 122,
+          "completed": 78,
+          "completion_pct": 63.934426229508205,
+          "remote_assignments": 118,
+          "missing_public_energy_remote_assignments": 4,
+          "published_energy_infeasible_remote_assignments": 0,
+          "published_energy_infeasible_pct_of_remote": 0.0,
+          "CPU_energy_blocked_UAV_slots": 0,
+          "CPU_tasks_exposed_to_blockage": 0,
+          "post_persistent_blockage_assignments": 0,
+          "post_persistent_blockage_EXPIRED": 0,
+          "post_persistent_blockage_TRUNCATED": 0,
+          "total_energy_j": 33.33766776263873,
+          "CPU_energy_j": 32.168937747341545,
+          "TX_energy_j": 1.1687300152971891,
+          "reward": 35.56231408416465
+        },
+        {
+          "checkpoint_steps": 16000,
+          "seed": 1044,
+          "generated": 117,
+          "completed": 80,
+          "completion_pct": 68.37606837606837,
+          "remote_assignments": 117,
+          "missing_public_energy_remote_assignments": 4,
+          "published_energy_infeasible_remote_assignments": 11,
+          "published_energy_infeasible_pct_of_remote": 9.401709401709402,
+          "CPU_energy_blocked_UAV_slots": 129,
+          "CPU_tasks_exposed_to_blockage": 14,
+          "post_persistent_blockage_assignments": 12,
+          "post_persistent_blockage_EXPIRED": 10,
+          "post_persistent_blockage_TRUNCATED": 2,
+          "total_energy_j": 45.149586444936816,
+          "CPU_energy_j": 43.91362975545703,
+          "TX_energy_j": 1.2359566894797884,
+          "reward": 41.548009952168705
+        },
+        {
+          "checkpoint_steps": 16000,
+          "seed": 1045,
+          "generated": 102,
+          "completed": 59,
+          "completion_pct": 57.84313725490197,
+          "remote_assignments": 62,
+          "missing_public_energy_remote_assignments": 2,
+          "published_energy_infeasible_remote_assignments": 0,
+          "published_energy_infeasible_pct_of_remote": 0.0,
+          "CPU_energy_blocked_UAV_slots": 0,
+          "CPU_tasks_exposed_to_blockage": 0,
+          "post_persistent_blockage_assignments": 0,
+          "post_persistent_blockage_EXPIRED": 0,
+          "post_persistent_blockage_TRUNCATED": 0,
+          "total_energy_j": 26.861400977648305,
+          "CPU_energy_j": 26.389357988124885,
+          "TX_energy_j": 0.4720429895234195,
+          "reward": 10.40329852894565
+        },
+        {
+          "checkpoint_steps": 16000,
+          "seed": 1046,
+          "generated": 129,
+          "completed": 71,
+          "completion_pct": 55.03875968992248,
+          "remote_assignments": 89,
+          "missing_public_energy_remote_assignments": 2,
+          "published_energy_infeasible_remote_assignments": 0,
+          "published_energy_infeasible_pct_of_remote": 0.0,
+          "CPU_energy_blocked_UAV_slots": 0,
+          "CPU_tasks_exposed_to_blockage": 0,
+          "post_persistent_blockage_assignments": 0,
+          "post_persistent_blockage_EXPIRED": 0,
+          "post_persistent_blockage_TRUNCATED": 0,
+          "total_energy_j": 25.342955266631268,
+          "CPU_energy_j": 24.60593582554175,
+          "TX_energy_j": 0.7370194410895196,
+          "reward": 11.04427983381659
+        }
+      ],
+      "publication_reconstruction": "Derived receiver refresh from actually attempted links; energy/AoI components not full saved actor tensors."
+    }
+  },
+  "paired_task_completion_changes": {
+    "both_DONE": 326,
+    "neither_DONE": 190,
+    "newly_DONE_at_16k": 62,
+    "DONE_at_12k_only": 27
+  },
+  "input_sources": {
+    "12000": {
+      "run_id": "development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8",
+      "checkpoint_sha256": "7c9034e00432c2545f8be8a972ac65580bec6602a7c3e061ef39fa76c91d3690",
+      "files": {
+        "service_diagnostic_manifest.json": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\12k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8\\service_diagnostic_manifest.json",
+        "task_lifecycle.jsonl": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\12k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8\\task_lifecycle.jsonl",
+        "cpu_service_trace.jsonl": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\12k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8\\cpu_service_trace.jsonl",
+        "tx_service_trace.jsonl": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\12k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8\\tx_service_trace.jsonl",
+        "summary.json": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\12k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8\\summary.json",
+        "route_decision_trace.jsonl": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\12k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8\\route_decision_trace.jsonl",
+        "evaluation_manifest.json": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\12k\\evaluations\\development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8\\evaluation_manifest.json",
+        "episode_metrics.jsonl": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\12k\\evaluations\\development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8\\episode_metrics.jsonl",
+        "aggregate_metrics.json": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\12k\\evaluations\\development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8\\aggregate_metrics.json",
+        "evaluation_metrics.csv": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\12k\\evaluations\\development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8\\evaluation_metrics.csv"
+      }
+    },
+    "16000": {
+      "run_id": "development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e",
+      "checkpoint_sha256": "dc8754d7871161233d65ee488e2125dbc4258b555b0a3efb7d579c264800c087",
+      "files": {
+        "service_diagnostic_manifest.json": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\16k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e\\service_diagnostic_manifest.json",
+        "task_lifecycle.jsonl": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\16k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e\\task_lifecycle.jsonl",
+        "cpu_service_trace.jsonl": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\16k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e\\cpu_service_trace.jsonl",
+        "tx_service_trace.jsonl": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\16k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e\\tx_service_trace.jsonl",
+        "summary.json": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\16k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e\\summary.json",
+        "route_decision_trace.jsonl": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\16k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e\\route_decision_trace.jsonl",
+        "evaluation_manifest.json": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\16k\\evaluations\\development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e\\evaluation_manifest.json",
+        "episode_metrics.jsonl": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\16k\\evaluations\\development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e\\episode_metrics.jsonl",
+        "aggregate_metrics.json": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\16k\\evaluations\\development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e\\aggregate_metrics.json",
+        "evaluation_metrics.csv": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\16k\\evaluations\\development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e\\evaluation_metrics.csv"
+      }
+    }
+  }
+}

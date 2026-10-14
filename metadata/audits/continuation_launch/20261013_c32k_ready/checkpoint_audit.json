@@ -1,0 +1,124 @@
+{
+  "restore_12k": {
+    "path": "D:\\My_project_li\\logs\\C\\seed42\\16k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a\\checkpoints\\step_12000.pt",
+    "sha256": "7c9034e00432c2545f8be8a972ac65580bec6602a7c3e061ef39fa76c91d3690",
+    "bytes": 28389452,
+    "checkpoint_kind": "PERIODIC_RESUME",
+    "config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+    "runtime": {
+      "python_version": "3.13.11",
+      "torch_version": "2.7.1+cu118",
+      "cuda_runtime_version": "11.8",
+      "device_type": "cuda",
+      "device_name": "NVIDIA GeForce MX450",
+      "dtype": "torch.float32"
+    },
+    "training_state": {
+      "policy_version": 46,
+      "started_episodes": 24,
+      "completed_episodes": 24,
+      "next_episode_index": 24,
+      "collected_environment_transitions": 12000,
+      "optimized_transitions": 11776,
+      "ppo_update_count": 46,
+      "unused_final_tail_transitions": 0,
+      "training_complete": false,
+      "active_rollout_length": 224,
+      "active_rollout_policy_version": 46
+    },
+    "actor_state_tensors": 160,
+    "critic_state_tensors": 21,
+    "optimizer_state_entries": {
+      "actor_adam": 160,
+      "critic_adam": 18
+    },
+    "policy_rng_keys": [
+      "generator_state",
+      "device_type"
+    ],
+    "active_rollout_keys": [
+      "rollout_length",
+      "rollout_policy_version",
+      "ordered_transitions"
+    ],
+    "continuation": {
+      "schema_version": 1,
+      "source_checkpoint": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\step_4000.pt",
+      "source_sha256": "2a92745919ef42316131ab70dd67c6cbb9fa91cfb1cb08ebd2931e5913b50325",
+      "source_config_hash": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15",
+      "target_config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+      "restored_environment_steps": 4000,
+      "restored_pending_transitions": 160,
+      "target_environment_steps": 16000,
+      "diagnostic_sidecars_start_at": 4000,
+      "previous": null,
+      "replay_reference": {
+        "path": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\final.pt",
+        "sha256": "58da11c49bde4a517471e1386842b90568fdb1ffe51d9c290caa7e3d442ff1b5",
+        "environment_steps": 8000,
+        "status": "verified_exact"
+      }
+    }
+  },
+  "reference_16k": {
+    "path": "D:\\My_project_li\\logs\\C\\seed42\\16k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a\\checkpoints\\final.pt",
+    "sha256": "dc8754d7871161233d65ee488e2125dbc4258b555b0a3efb7d579c264800c087",
+    "bytes": 18399527,
+    "checkpoint_kind": "FINAL_COMPLETED",
+    "config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+    "runtime": {
+      "python_version": "3.13.11",
+      "torch_version": "2.7.1+cu118",
+      "cuda_runtime_version": "11.8",
+      "device_type": "cuda",
+      "device_name": "NVIDIA GeForce MX450",
+      "dtype": "torch.float32"
+    },
+    "training_state": {
+      "policy_version": 62,
+      "started_episodes": 32,
+      "completed_episodes": 32,
+      "next_episode_index": 32,
+      "collected_environment_transitions": 16000,
+      "optimized_transitions": 15872,
+      "ppo_update_count": 62,
+      "unused_final_tail_transitions": 128,
+      "training_complete": true,
+      "active_rollout_length": 0,
+      "active_rollout_policy_version": null
+    },
+    "actor_state_tensors": 160,
+    "critic_state_tensors": 21,
+    "optimizer_state_entries": {
+      "actor_adam": 160,
+      "critic_adam": 18
+    },
+    "policy_rng_keys": [
+      "generator_state",
+      "device_type"
+    ],
+    "active_rollout_keys": [
+      "rollout_length",
+      "rollout_policy_version",
+      "ordered_transitions"
+    ],
+    "continuation": {
+      "schema_version": 1,
+      "source_checkpoint": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\step_4000.pt",
+      "source_sha256": "2a92745919ef42316131ab70dd67c6cbb9fa91cfb1cb08ebd2931e5913b50325",
+      "source_config_hash": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15",
+      "target_config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+      "restored_environment_steps": 4000,
+      "restored_pending_transitions": 160,
+      "target_environment_steps": 16000,
+      "diagnostic_sidecars_start_at": 4000,
+      "previous": null,
+      "replay_reference": {
+        "path": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\final.pt",
+        "sha256": "58da11c49bde4a517471e1386842b90568fdb1ffe51d9c290caa7e3d442ff1b5",
+        "environment_steps": 8000,
+        "status": "verified_exact"
+      }
+    }
+  }
+}

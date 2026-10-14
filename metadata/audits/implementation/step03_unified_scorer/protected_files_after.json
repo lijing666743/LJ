@@ -1,0 +1,1531 @@
+{
+  "schema": "task_allocation.protected_files.v3",
+  "files": [
+    {
+      "path": "D:/My_project_li/src/artifacts.py",
+      "relative_path": "src/artifacts.py",
+      "role": "current_source",
+      "bytes": 7660,
+      "sha256": "381a76012e965758195bedb5d17dd67a750c75a0bd194adc751dec1c74940d6c"
+    },
+    {
+      "path": "D:/My_project_li/src/cli.py",
+      "relative_path": "src/cli.py",
+      "role": "current_source",
+      "bytes": 16546,
+      "sha256": "b575661208079a2977f58b17be1f2774d120b23b76b9fe750271aebda8a7623d"
+    },
+    {
+      "path": "D:/My_project_li/src/config.py",
+      "relative_path": "src/config.py",
+      "role": "current_source",
+      "bytes": 126884,
+      "sha256": "5850e544fad0a99e3b824e7f36f8891686a389088977a48004389ebe1b518fdb"
+    },
+    {
+      "path": "D:/My_project_li/src/execution.py",
+      "relative_path": "src/execution.py",
+      "role": "current_source",
+      "bytes": 7419,
+      "sha256": "f10b93f60d7fad40d0872af10a00e52c249b3006d168fed05079e7315b36f643"
+    },
+    {
+      "path": "D:/My_project_li/src/matched_short_diagnostics.py",
+      "relative_path": "src/matched_short_diagnostics.py",
+      "role": "current_source",
+      "bytes": 17938,
+      "sha256": "a4ed470780541bb075561e72db819dc7ae030f7a2512d58bda3a392aa5ca6cc5"
+    },
+    {
+      "path": "D:/My_project_li/src/registry.py",
+      "relative_path": "src/registry.py",
+      "role": "current_source",
+      "bytes": 13393,
+      "sha256": "b2f7bbcf28f601dc753d9ba25b170b62ac9504b4614ef5b76d4c383ebd36c987"
+    },
+    {
+      "path": "D:/My_project_li/src/rollout.py",
+      "relative_path": "src/rollout.py",
+      "role": "current_source",
+      "bytes": 18076,
+      "sha256": "3d04f0df61d9d01326a7ccde60ae6f42498582428ebde16501eca5867734b87c"
+    },
+    {
+      "path": "D:/My_project_li/src/runner.py",
+      "relative_path": "src/runner.py",
+      "role": "current_source",
+      "bytes": 2346,
+      "sha256": "109acaf5a6999a6b911c0abf59708ca4c14f997e6f4cd34c553f7ee8d3562d11"
+    },
+    {
+      "path": "D:/My_project_li/src/training_artifacts.py",
+      "relative_path": "src/training_artifacts.py",
+      "role": "current_source",
+      "bytes": 81090,
+      "sha256": "3e3613d81dbec30117a30a8b8c20d3981111f43cd32f61f8830dccaf8aba863e"
+    },
+    {
+      "path": "D:/My_project_li/src/__init__.py",
+      "relative_path": "src/__init__.py",
+      "role": "current_source",
+      "bytes": 28,
+      "sha256": "7481327b50ff0104059ca4dff637fd03aba7cd9eb953d4adefbeb40a8206f9be"
+    },
+    {
+      "path": "D:/My_project_li/src/algorithms/__init__.py",
+      "relative_path": "src/algorithms/__init__.py",
+      "role": "current_source",
+      "bytes": 22,
+      "sha256": "fdf240818db8a7523f67abe22c8652429b07cbd9935917727ee451340638501e"
+    },
+    {
+      "path": "D:/My_project_li/src/baselines/__init__.py",
+      "relative_path": "src/baselines/__init__.py",
+      "role": "current_source",
+      "bytes": 28,
+      "sha256": "a81112bee2f572ab9d7eba7d7e4fd4812cea868e869c1fc50124174652ab9eab"
+    },
+    {
+      "path": "D:/My_project_li/src/channel/__init__.py",
+      "relative_path": "src/channel/__init__.py",
+      "role": "current_source",
+      "bytes": 22,
+      "sha256": "33e8bb8c5358b01979119c4dbd39def7c00bf7818c9a3c95fa304de02e5591d1"
+    },
+    {
+      "path": "D:/My_project_li/src/env/actions.py",
+      "relative_path": "src/env/actions.py",
+      "role": "current_source",
+      "bytes": 11568,
+      "sha256": "7f6b9eeda2c6674bc4bcd1dd698f3d85c60a520a1632916e59a7e052da435d1e"
+    },
+    {
+      "path": "D:/My_project_li/src/env/action_history.py",
+      "relative_path": "src/env/action_history.py",
+      "role": "current_source",
+      "bytes": 19410,
+      "sha256": "64921079b0768bdec87749b39bd5b14e0a4a93885f839c8855189da4d29864b6"
+    },
+    {
+      "path": "D:/My_project_li/src/env/channel.py",
+      "relative_path": "src/env/channel.py",
+      "role": "current_source",
+      "bytes": 17029,
+      "sha256": "8121e5f6bb81b88538b237d10951578482029c1df9fecf39158bde99e1bfacc2"
+    },
+    {
+      "path": "D:/My_project_li/src/env/energy.py",
+      "relative_path": "src/env/energy.py",
+      "role": "current_source",
+      "bytes": 10688,
+      "sha256": "aad51548bf7422a5f717b8c413380ea44e31efa2b2db89f027571b071bf96841"
+    },
+    {
+      "path": "D:/My_project_li/src/env/environment.py",
+      "relative_path": "src/env/environment.py",
+      "role": "current_source",
+      "bytes": 67732,
+      "sha256": "3d9a47d925fc8187a2e39c5207bc0f4632f9e1dffe6be574284bff40d77e8ff5"
+    },
+    {
+      "path": "D:/My_project_li/src/env/executor.py",
+      "relative_path": "src/env/executor.py",
+      "role": "current_source",
+      "bytes": 11683,
+      "sha256": "4d79fc77b225bb5fe497a70489cb4be17c3016b4b4c01510300916db2f8548a4"
+    },
+    {
+      "path": "D:/My_project_li/src/env/history.py",
+      "relative_path": "src/env/history.py",
+      "role": "current_source",
+      "bytes": 20205,
+      "sha256": "4bb0536b18036fbe5a64d3269679a5ad193b98e5400c27c4fb4f8f5a62a29a9f"
+    },
+    {
+      "path": "D:/My_project_li/src/env/lifecycle.py",
+      "relative_path": "src/env/lifecycle.py",
+      "role": "current_source",
+      "bytes": 14903,
+      "sha256": "0c65b4ddd202a1ebaab292d2b4f0ad77369dc97581318027a3e6ccb10b659196"
+    },
+    {
+      "path": "D:/My_project_li/src/env/metrics.py",
+      "relative_path": "src/env/metrics.py",
+      "role": "current_source",
+      "bytes": 25981,
+      "sha256": "f79c61bc3195f93d6a7a6808471b9fff2cf9c9d765b338fc7f3c8ec573ae7ecd"
+    },
+    {
+      "path": "D:/My_project_li/src/env/mobility.py",
+      "relative_path": "src/env/mobility.py",
+      "role": "current_source",
+      "bytes": 14981,
+      "sha256": "fa779fe22ac4179c8afcb8074946f091cdf8ee3d6a7e0909105bd0a73f0bd3ea"
+    },
+    {
+      "path": "D:/My_project_li/src/env/observation.py",
+      "relative_path": "src/env/observation.py",
+      "role": "current_source",
+      "bytes": 62939,
+      "sha256": "39dfd220351849a7047fdaea71d27e267bdaf06d867484b4620bc17e8df51a79"
+    },
+    {
+      "path": "D:/My_project_li/src/env/outage.py",
+      "relative_path": "src/env/outage.py",
+      "role": "current_source",
+      "bytes": 2532,
+      "sha256": "206124a3da29f35b88fed54d0411495626e9545e24a8a6536edfd616d042745c"
+    },
+    {
+      "path": "D:/My_project_li/src/env/public_history.py",
+      "relative_path": "src/env/public_history.py",
+      "role": "current_source",
+      "bytes": 20151,
+      "sha256": "be87558825dc7b3b74589bc566cc14d47a66534da3c98eda09679b63115c0dab"
+    },
+    {
+      "path": "D:/My_project_li/src/env/queues.py",
+      "relative_path": "src/env/queues.py",
+      "role": "current_source",
+      "bytes": 12530,
+      "sha256": "c4edab7b8c458a40adf245035435a29cba4d84c3d05467a7ff5f2e8205b96767"
+    },
+    {
+      "path": "D:/My_project_li/src/env/randomness.py",
+      "relative_path": "src/env/randomness.py",
+      "role": "current_source",
+      "bytes": 2205,
+      "sha256": "0863cc52f7e93da1469f1b74e837239256b1e77c686f6337f8001dd129beaf04"
+    },
+    {
+      "path": "D:/My_project_li/src/env/reward.py",
+      "relative_path": "src/env/reward.py",
+      "role": "current_source",
+      "bytes": 31760,
+      "sha256": "424957a87c6b16836cd7ec73535098b70c3da25728d476a35969b28d7cde19cf"
+    },
+    {
+      "path": "D:/My_project_li/src/env/service.py",
+      "relative_path": "src/env/service.py",
+      "role": "current_source",
+      "bytes": 13719,
+      "sha256": "6d0b177c95606245971d0e7f652a08589e4aa64fe75aac8d002486ae1a970ce9"
+    },
+    {
+      "path": "D:/My_project_li/src/env/state.py",
+      "relative_path": "src/env/state.py",
+      "role": "current_source",
+      "bytes": 23659,
+      "sha256": "2d62584b6f919767f6c2711c73e2ad49f37e4f8eb931a6ca12cf3b894d202523"
+    },
+    {
+      "path": "D:/My_project_li/src/env/task.py",
+      "relative_path": "src/env/task.py",
+      "role": "current_source",
+      "bytes": 357,
+      "sha256": "12a4bcf99ffc5cb42b8cdde89330498fe1d89852ed28935a02436be506df0e25"
+    },
+    {
+      "path": "D:/My_project_li/src/env/tasks.py",
+      "relative_path": "src/env/tasks.py",
+      "role": "current_source",
+      "bytes": 17044,
+      "sha256": "b691e9fa1647c931f194333ecab2bfbbf2db5bf0965ea7b3defe1e85ae9a98bf"
+    },
+    {
+      "path": "D:/My_project_li/src/env/topology.py",
+      "relative_path": "src/env/topology.py",
+      "role": "current_source",
+      "bytes": 4042,
+      "sha256": "e9276c4f39aa73f57849c99c2f10cb8ff5b16fad1a2946d87be917f7c463b115"
+    },
+    {
+      "path": "D:/My_project_li/src/env/traffic.py",
+      "relative_path": "src/env/traffic.py",
+      "role": "current_source",
+      "bytes": 6516,
+      "sha256": "cdd85684b7d271e22c233f0454b17a26c31c1e46c5cc81decea25cba6d812223"
+    },
+    {
+      "path": "D:/My_project_li/src/env/validation.py",
+      "relative_path": "src/env/validation.py",
+      "role": "current_source",
+      "bytes": 3765,
+      "sha256": "4076aa7caef6a6a07bea2db3e323382f0e55f9f4ab6c1cfe56e160a21b942c37"
+    },
+    {
+      "path": "D:/My_project_li/src/env/__init__.py",
+      "relative_path": "src/env/__init__.py",
+      "role": "current_source",
+      "bytes": 5781,
+      "sha256": "c8118cc330c2e54103bc6374f4bbbfcd4afc664b3d9785fd9527dfa4375fcfbb"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/actor_loader.py",
+      "relative_path": "src/evaluation/actor_loader.py",
+      "role": "current_source",
+      "bytes": 19911,
+      "sha256": "e347695f91c6a47faf8ac98e71188a83ab63a3bcc49bc114961b7b8f2764b74c"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/actor_only_route_oracle.py",
+      "relative_path": "src/evaluation/actor_only_route_oracle.py",
+      "role": "current_source",
+      "bytes": 18941,
+      "sha256": "512fb36b79e40bd71968856c716849b07264b5d2de81d25b924a215791a8c76c"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/destination_calibration.py",
+      "relative_path": "src/evaluation/destination_calibration.py",
+      "role": "current_source",
+      "bytes": 13574,
+      "sha256": "5172d6c0dce63439d2f92546616a04e5f83a1c0ba6a5b5fc015c1f861f2302c8"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/destination_gradient_probe.py",
+      "relative_path": "src/evaluation/destination_gradient_probe.py",
+      "role": "current_source",
+      "bytes": 5701,
+      "sha256": "1c5b1480e54c0692e110d4730ff19bb6a452718ec25a69f13e45de8e8749cda4"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/destination_oracle_dataset.py",
+      "relative_path": "src/evaluation/destination_oracle_dataset.py",
+      "role": "current_source",
+      "bytes": 9542,
+      "sha256": "74376acac3c96150295e41d32f057c0132a525b930860b99f13fa59bcb43a241"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/destination_system_oracle.py",
+      "relative_path": "src/evaluation/destination_system_oracle.py",
+      "role": "current_source",
+      "bytes": 6210,
+      "sha256": "a1d20fddcdd6d224dd620d7927c89c9b35437e8b9dcf84a800662964558a40d3"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/e4_defer_localization.py",
+      "relative_path": "src/evaluation/e4_defer_localization.py",
+      "role": "current_source",
+      "bytes": 21528,
+      "sha256": "97dce1388f1f5f908d6cf05a106a0b7a720785edf4ba28056f4ad02fc1b8f4ac"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/e4_v1_audit_figures.py",
+      "relative_path": "src/evaluation/e4_v1_audit_figures.py",
+      "role": "current_source",
+      "bytes": 10189,
+      "sha256": "e695193c971c31d3754d74997555951ade3a323bfe57a11dca1d2c19624bafc7"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/e4_v1_audit_report.py",
+      "relative_path": "src/evaluation/e4_v1_audit_report.py",
+      "role": "current_source",
+      "bytes": 16270,
+      "sha256": "fe0dabb8ff83b3077cf137bfb1fd749a09d909943599fd61e7fdcd26f39ad218"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/e4_v1_matched_audit.py",
+      "relative_path": "src/evaluation/e4_v1_matched_audit.py",
+      "role": "current_source",
+      "bytes": 25439,
+      "sha256": "099c88287f32206f9001d82f4157457930abe837bbea9fc4cdbfe15a62bdcea5"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/e5_v1_final_audit.py",
+      "relative_path": "src/evaluation/e5_v1_final_audit.py",
+      "role": "current_source",
+      "bytes": 35154,
+      "sha256": "dd40973416f378b6100f86b521e96a1e0e15509efd00e098fe28ee4b9d06982b"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/handler.py",
+      "relative_path": "src/evaluation/handler.py",
+      "role": "current_source",
+      "bytes": 3268,
+      "sha256": "06cef5a931171c22d794470ffe3ea4df4e8ef7ae4242aa369b7c3a11453bb53c"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/learnability_sanity.py",
+      "relative_path": "src/evaluation/learnability_sanity.py",
+      "role": "current_source",
+      "bytes": 4602,
+      "sha256": "13ae6d79a9bfbf5dc0ce95595f07a26f608a1f2a26fef9f19e043027e3bf7226"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/metrics.py",
+      "relative_path": "src/evaluation/metrics.py",
+      "role": "current_source",
+      "bytes": 12691,
+      "sha256": "0d52b4174f1983ca6f856b8bd152fa636ff3c6ef69479238644cd5f7d7c669b9"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/route_counterfactual_analysis.py",
+      "relative_path": "src/evaluation/route_counterfactual_analysis.py",
+      "role": "current_source",
+      "bytes": 29335,
+      "sha256": "f632a0163f4e4a24405a11fd832f784a9472886496ccd150a4a5825cc7c3f035"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/route_counterfactual_oracle.py",
+      "relative_path": "src/evaluation/route_counterfactual_oracle.py",
+      "role": "current_source",
+      "bytes": 29881,
+      "sha256": "b581c8cd94c9579e296c79446131800c5649070fba928c68a91fef839ae6a228"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/route_credit_probe.py",
+      "relative_path": "src/evaluation/route_credit_probe.py",
+      "role": "current_source",
+      "bytes": 6684,
+      "sha256": "a31a103bfec2a70e8b1696a7e46f6b820849278fd9285f3085271670d1ed810a"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/route_option_alignment.py",
+      "relative_path": "src/evaluation/route_option_alignment.py",
+      "role": "current_source",
+      "bytes": 13362,
+      "sha256": "c5a9bc01323a6e4e62598f55cdc052a7ba0d60488dfd54d30f7f785ef84deb34"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/route_oracle.py",
+      "relative_path": "src/evaluation/route_oracle.py",
+      "role": "current_source",
+      "bytes": 75446,
+      "sha256": "eabfa0b467342e53fff3758e7cd1b5cb143621923b06a310d38caad43fbfa0c0"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/route_oracle_probe.py",
+      "relative_path": "src/evaluation/route_oracle_probe.py",
+      "role": "current_source",
+      "bytes": 74049,
+      "sha256": "cc8b20f24f3b335ef966ef0814b7c053e21006d579a123c25e6397378f55757c"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/route_q_probe.py",
+      "relative_path": "src/evaluation/route_q_probe.py",
+      "role": "current_source",
+      "bytes": 20510,
+      "sha256": "168f8073b3a58786b5fcea59031fa14e23d6662c209ae2cceef3d821d4b84072"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/route_service_factorial.py",
+      "relative_path": "src/evaluation/route_service_factorial.py",
+      "role": "current_source",
+      "bytes": 32961,
+      "sha256": "130bb287f9df34363350b65dc53386ce03fce52f6d6c67d21e44bd2908cc2d50"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/route_sidecar_repair.py",
+      "relative_path": "src/evaluation/route_sidecar_repair.py",
+      "role": "current_source",
+      "bytes": 17145,
+      "sha256": "bbe987257db75256a1bb7e870be7c271be8e1c2dd5beac610c63f5bf89ddf84a"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/route_telemetry.py",
+      "relative_path": "src/evaluation/route_telemetry.py",
+      "role": "current_source",
+      "bytes": 12356,
+      "sha256": "8f722e2a0bc97a4558fbc35aff5ecab0650e302382326cd881d2b693e1cbc0c4"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/runner.py",
+      "relative_path": "src/evaluation/runner.py",
+      "role": "current_source",
+      "bytes": 38787,
+      "sha256": "8ee3f99fb380c3e17fd34131c14fcf746afae5340304edf09a5d6769c670d54d"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/service_diagnostics.py",
+      "relative_path": "src/evaluation/service_diagnostics.py",
+      "role": "current_source",
+      "bytes": 2383,
+      "sha256": "115ca9d0b8d13667d66a51ddd1bdf8649703d866e3348db90344c3dad9cff1e5"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/service_telemetry.py",
+      "relative_path": "src/evaluation/service_telemetry.py",
+      "role": "current_source",
+      "bytes": 8004,
+      "sha256": "0cd1a0cb57aa8dd1e02f4eef0bb6483c096dbd8ce7bdd1eeb44bf5f934a5886c"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/tx_paired_shadow_pilot.py",
+      "relative_path": "src/evaluation/tx_paired_shadow_pilot.py",
+      "role": "current_source",
+      "bytes": 35920,
+      "sha256": "8945b430dd590c10d78943b29d87079454504d73e540e885ca372bec4ba19f01"
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/__init__.py",
+      "relative_path": "src/evaluation/__init__.py",
+      "role": "current_source",
+      "bytes": 2513,
+      "sha256": "ae869484a57b6a3e423f63b89ba4e852882c24f36631255f8b8314ecab4a0a51"
+    },
+    {
+      "path": "D:/My_project_li/src/mobility/__init__.py",
+      "relative_path": "src/mobility/__init__.py",
+      "role": "current_source",
+      "bytes": 25,
+      "sha256": "26d8bf2f3d3dfa6b113fa99b7e1e3c6a6a3dfec56e8e12f3b54c91db1a4914cf"
+    },
+    {
+      "path": "D:/My_project_li/src/models/ca_gat_mappo.py",
+      "relative_path": "src/models/ca_gat_mappo.py",
+      "role": "current_source",
+      "bytes": 122665,
+      "sha256": "7e300c21bffffc9b1f8aaef17b0a98701fc24f0d187cce9f5e48e8dbb9ae509f"
+    },
+    {
+      "path": "D:/My_project_li/src/models/ca_gat_mappo_actions.py",
+      "relative_path": "src/models/ca_gat_mappo_actions.py",
+      "role": "current_source",
+      "bytes": 48216,
+      "sha256": "a74bdc9435f15b7800cab5ae1d2ca3de6ef2a6e0773b9023787ab074e7de0165"
+    },
+    {
+      "path": "D:/My_project_li/src/models/ca_gat_mappo_checkpoint.py",
+      "relative_path": "src/models/ca_gat_mappo_checkpoint.py",
+      "role": "current_source",
+      "bytes": 48079,
+      "sha256": "dd036ebd1ea468e20f4dea7449cd79d12f066b81c2236aab9bc16554c38937bb"
+    },
+    {
+      "path": "D:/My_project_li/src/models/ca_gat_mappo_credit_telemetry.py",
+      "relative_path": "src/models/ca_gat_mappo_credit_telemetry.py",
+      "role": "current_source",
+      "bytes": 22891,
+      "sha256": "db323176dcd7247b73fe2d7bb69d5699f3b04689746facc692711953f90a4f26"
+    },
+    {
+      "path": "D:/My_project_li/src/models/ca_gat_mappo_gae.py",
+      "relative_path": "src/models/ca_gat_mappo_gae.py",
+      "role": "current_source",
+      "bytes": 18849,
+      "sha256": "2664b9cbd5f67b844214f263a25cd53912be7ed7eea9e96b237ba6092c11a2fb"
+    },
+    {
+      "path": "D:/My_project_li/src/models/ca_gat_mappo_ppo.py",
+      "relative_path": "src/models/ca_gat_mappo_ppo.py",
+      "role": "current_source",
+      "bytes": 46513,
+      "sha256": "2957b3fc15ab2c1a89a3be35063198ef40f5531bffd5de5fc63d64fcddcf0fad"
+    },
+    {
+      "path": "D:/My_project_li/src/models/ca_gat_mappo_rollout.py",
+      "relative_path": "src/models/ca_gat_mappo_rollout.py",
+      "role": "current_source",
+      "bytes": 39113,
+      "sha256": "8059de772ab97c78f4a2f7e172125f4edc62a609e80b578753437ebb164e47af"
+    },
+    {
+      "path": "D:/My_project_li/src/models/ca_gat_mappo_route_nstep.py",
+      "relative_path": "src/models/ca_gat_mappo_route_nstep.py",
+      "role": "current_source",
+      "bytes": 20125,
+      "sha256": "d1ac55ef02022dc77cd25ef35cd59e97a87fd53239f75578401764e3e4ac5b8a"
+    },
+    {
+      "path": "D:/My_project_li/src/models/ca_gat_mappo_route_telemetry.py",
+      "relative_path": "src/models/ca_gat_mappo_route_telemetry.py",
+      "role": "current_source",
+      "bytes": 196307,
+      "sha256": "2fdcf39753878a0d61e5596695e0ae8f0d23809cc6c86d159b2984284d4019d5"
+    },
+    {
+      "path": "D:/My_project_li/src/models/ca_gat_mappo_runtime.py",
+      "relative_path": "src/models/ca_gat_mappo_runtime.py",
+      "role": "current_source",
+      "bytes": 3772,
+      "sha256": "773d04035b808b68eaf1fece7baeee8fd11abf5010ffe0b2209aa0bbd8d340ee"
+    },
+    {
+      "path": "D:/My_project_li/src/models/ca_gat_mappo_trainer.py",
+      "relative_path": "src/models/ca_gat_mappo_trainer.py",
+      "role": "current_source",
+      "bytes": 87494,
+      "sha256": "a4ec7eae114d28c764847071cc8a985a8aff1122ae399c1102316f6703e0d6bc"
+    },
+    {
+      "path": "D:/My_project_li/src/models/ca_gat_mappo_update.py",
+      "relative_path": "src/models/ca_gat_mappo_update.py",
+      "role": "current_source",
+      "bytes": 101545,
+      "sha256": "c7aa6268d52822ed373e3d01e34f254f573db4bdf783eef80f25a17cc5bed770"
+    },
+    {
+      "path": "D:/My_project_li/src/models/destination_pretraining.py",
+      "relative_path": "src/models/destination_pretraining.py",
+      "role": "current_source",
+      "bytes": 14359,
+      "sha256": "82b9d1c05ba07b08e32281e499766c294c199b1c3b70fe56f5ffbf899b2b8540"
+    },
+    {
+      "path": "D:/My_project_li/src/models/destination_ranking.py",
+      "relative_path": "src/models/destination_ranking.py",
+      "role": "current_source",
+      "bytes": 17931,
+      "sha256": "f486626e14580b9a91c18b91612ae4498d8bac9cdb9d07729d8858575aa9b243"
+    },
+    {
+      "path": "D:/My_project_li/src/models/integrated_scheduler.py",
+      "relative_path": "src/models/integrated_scheduler.py",
+      "role": "current_source",
+      "bytes": 17310,
+      "sha256": "2f38b04ca1d249c8c59dfbd5e2f9bd0d710837a505929aad363fe2a0c62b5312"
+    },
+    {
+      "path": "D:/My_project_li/src/models/route_exploration.py",
+      "relative_path": "src/models/route_exploration.py",
+      "role": "current_source",
+      "bytes": 10456,
+      "sha256": "514d852a4c8d2fe272b5546d282c2d6c2846ac18e3506d61181286c03799b945"
+    },
+    {
+      "path": "D:/My_project_li/src/models/route_option_q.py",
+      "relative_path": "src/models/route_option_q.py",
+      "role": "current_source",
+      "bytes": 17063,
+      "sha256": "21822aec16d28d901760252fc40c568eaaad8a6653c58c4d472c46e6f2700b75"
+    },
+    {
+      "path": "D:/My_project_li/src/models/route_q_inputs.py",
+      "relative_path": "src/models/route_q_inputs.py",
+      "role": "current_source",
+      "bytes": 5582,
+      "sha256": "1903480b30b4ca9bb595d06a29f2695d71a1b27f18746a43eba29f3753e34094"
+    },
+    {
+      "path": "D:/My_project_li/src/models/route_task_credit.py",
+      "relative_path": "src/models/route_task_credit.py",
+      "role": "current_source",
+      "bytes": 20642,
+      "sha256": "cb5555f2671fc717735fb671bfa3c8940b163fbca7d71b5891ac669d3fa5b41d"
+    },
+    {
+      "path": "D:/My_project_li/src/models/tx_paired_shadow.py",
+      "relative_path": "src/models/tx_paired_shadow.py",
+      "role": "current_source",
+      "bytes": 18201,
+      "sha256": "d713e1f600ae8e9027cc8ba81ca67b3c30cc52afba746ce1651eae2c20ade2c7"
+    },
+    {
+      "path": "D:/My_project_li/src/models/tx_upper_counterfactual.py",
+      "relative_path": "src/models/tx_upper_counterfactual.py",
+      "role": "current_source",
+      "bytes": 11348,
+      "sha256": "43dcb861a88075890682bb330954a85970e2ceb66985d931d707aa6afdf3a988"
+    },
+    {
+      "path": "D:/My_project_li/src/models/tx_upper_factual_credit.py",
+      "relative_path": "src/models/tx_upper_factual_credit.py",
+      "role": "current_source",
+      "bytes": 5304,
+      "sha256": "a8576148685278e196748403f90fb375874a6b6ef89141243c53c03bbcecd858"
+    },
+    {
+      "path": "D:/My_project_li/src/models/tx_upper_stability.py",
+      "relative_path": "src/models/tx_upper_stability.py",
+      "role": "current_source",
+      "bytes": 5563,
+      "sha256": "00820f11218ee33ab6f88e49c9caaea74bab207c94bb2f0c55c7a9b564014a39"
+    },
+    {
+      "path": "D:/My_project_li/src/models/__init__.py",
+      "relative_path": "src/models/__init__.py",
+      "role": "current_source",
+      "bytes": 3789,
+      "sha256": "e74fb35aa384328a4e16093b7f10b51829cb687c02e85fd3af6436e0d5cb2eef"
+    },
+    {
+      "path": "D:/My_project_li/src/policies/base.py",
+      "relative_path": "src/policies/base.py",
+      "role": "current_source",
+      "bytes": 601,
+      "sha256": "679768c62a43f209141da545ae53a2cb4d7b1986fc0c56909fefb9c1e57f482d"
+    },
+    {
+      "path": "D:/My_project_li/src/policies/heuristic_policy.py",
+      "relative_path": "src/policies/heuristic_policy.py",
+      "role": "current_source",
+      "bytes": 33168,
+      "sha256": "9f909b19c8f2e3fd9e5f756caf56ff8c4651e40a03c5627c3d8064afb13fd9c5"
+    },
+    {
+      "path": "D:/My_project_li/src/policies/local_only_policy.py",
+      "relative_path": "src/policies/local_only_policy.py",
+      "role": "current_source",
+      "bytes": 6131,
+      "sha256": "738d1d05d4c8f5d36a92b5d3bc586e9fdaf93f3b4107e162fb82ced7d841d713"
+    },
+    {
+      "path": "D:/My_project_li/src/policies/random_policy.py",
+      "relative_path": "src/policies/random_policy.py",
+      "role": "current_source",
+      "bytes": 3224,
+      "sha256": "813627b0de07f2769e0bfd4a6cf1bd52a5515b60c178a06a20ee7e17e619364e"
+    },
+    {
+      "path": "D:/My_project_li/src/policies/__init__.py",
+      "relative_path": "src/policies/__init__.py",
+      "role": "current_source",
+      "bytes": 699,
+      "sha256": "0c5aaac6c8db7166e2d60328f4c7e4e37527dcf882f0ab7cbf34282336a72ff0"
+    },
+    {
+      "path": "D:/My_project_li/src/queues/__init__.py",
+      "relative_path": "src/queues/__init__.py",
+      "role": "current_source",
+      "bytes": 22,
+      "sha256": "1003520713a9875325c2335da68151ff28286475a050fe23a019de2081d00a8e"
+    },
+    {
+      "path": "D:/My_project_li/src/training/destination_distillation.py",
+      "relative_path": "src/training/destination_distillation.py",
+      "role": "current_source",
+      "bytes": 7410,
+      "sha256": "70652663b302c1959089453fe7e473f331a91d3778b129c6bf9dda9d5213ac05"
+    },
+    {
+      "path": "D:/My_project_li/src/training/__init__.py",
+      "relative_path": "src/training/__init__.py",
+      "role": "current_source",
+      "bytes": 76,
+      "sha256": "f0544d19d6955dda4cdcef9861c82323793e2fa8743cfd8e668c247ddd9c8b73"
+    },
+    {
+      "path": "D:/My_project_li/src/utils/__init__.py",
+      "relative_path": "src/utils/__init__.py",
+      "role": "current_source",
+      "bytes": 28,
+      "sha256": "cb7b963905b57f0d262e510efa08bb1c29c3163cf34a0840d8432e07035c71ec"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_artifact_evaluation_paths.py",
+      "relative_path": "tests/test_artifact_evaluation_paths.py",
+      "role": "current_tests",
+      "bytes": 12604,
+      "sha256": "35f827c50096da05b00a8fa128a82189f058886dbfcbd79fbb91bdb18405500a"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_artifact_nonoverwrite.py",
+      "relative_path": "tests/test_artifact_nonoverwrite.py",
+      "role": "current_tests",
+      "bytes": 15712,
+      "sha256": "35bf74c1efd46f7c5c6564591dee864ed6ad8317b6c0f388bef996d97d29c7c3"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_candidate_aware_route_decoder_v1.py",
+      "relative_path": "tests/test_candidate_aware_route_decoder_v1.py",
+      "role": "current_tests",
+      "bytes": 18980,
+      "sha256": "e6655dc771522aa0b73ef9cbd21e376cb6b25210848037bd91e568902fb65038"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_candidate_cpu_frequency_decoder.py",
+      "relative_path": "tests/test_candidate_cpu_frequency_decoder.py",
+      "role": "current_tests",
+      "bytes": 20859,
+      "sha256": "800bcba4f25f883e9e78b4d8f7f2c00396b6a87a122157b695cf3d5c69d16ee5"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_ca_gat_mappo_action_distribution.py",
+      "relative_path": "tests/test_ca_gat_mappo_action_distribution.py",
+      "role": "current_tests",
+      "bytes": 16220,
+      "sha256": "4c7bb769e3798a4bd9904b8c5f0ab9da6291b3dfd96e98ef47886312813a3029"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_ca_gat_mappo_agent_credit.py",
+      "relative_path": "tests/test_ca_gat_mappo_agent_credit.py",
+      "role": "current_tests",
+      "bytes": 33048,
+      "sha256": "31e357317f0fd268ec95183bf98d0621df997a045a920e2e0177e64112bb690d"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_ca_gat_mappo_branch_specific_ppo.py",
+      "relative_path": "tests/test_ca_gat_mappo_branch_specific_ppo.py",
+      "role": "current_tests",
+      "bytes": 21247,
+      "sha256": "e54a7497a9940c91518b48aa193031bfac4c9444bb4abceacc04910962064b8a"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_ca_gat_mappo_checkpoint.py",
+      "relative_path": "tests/test_ca_gat_mappo_checkpoint.py",
+      "role": "current_tests",
+      "bytes": 32628,
+      "sha256": "d680b2293c27239ac05fb66ec132c47469266b259bcfdcc74d6efa1a9ad7913c"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_ca_gat_mappo_checkpoint_contract.py",
+      "relative_path": "tests/test_ca_gat_mappo_checkpoint_contract.py",
+      "role": "current_tests",
+      "bytes": 19090,
+      "sha256": "230c27d80043a82c635d5869339ba01ef2485ef80287a487a6d2af46c435ec4a"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_ca_gat_mappo_gae.py",
+      "relative_path": "tests/test_ca_gat_mappo_gae.py",
+      "role": "current_tests",
+      "bytes": 17070,
+      "sha256": "2a550ed1e09a4848efe6a12311914293638b16173df70dae9e4994d5862a9c67"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_ca_gat_mappo_network.py",
+      "relative_path": "tests/test_ca_gat_mappo_network.py",
+      "role": "current_tests",
+      "bytes": 10154,
+      "sha256": "4ab9ad1ba34751d611a21697a9adca111510f8d148aba9a55ed5e9f8e752f00d"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_ca_gat_mappo_ppo.py",
+      "relative_path": "tests/test_ca_gat_mappo_ppo.py",
+      "role": "current_tests",
+      "bytes": 19734,
+      "sha256": "8840460e7f2e9ad09ff7760df4c8ba40bb27dc41b83532cccf09587a127ba074"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_ca_gat_mappo_rollout_buffer.py",
+      "relative_path": "tests/test_ca_gat_mappo_rollout_buffer.py",
+      "role": "current_tests",
+      "bytes": 25881,
+      "sha256": "186b9cfeaa1ac99f3c14c862d33d927688379c088dd62cccc5c65ddb82199559"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_ca_gat_mappo_route_credit_package3.py",
+      "relative_path": "tests/test_ca_gat_mappo_route_credit_package3.py",
+      "role": "current_tests",
+      "bytes": 25298,
+      "sha256": "8414146f317262bf61dc28bb3a20a4854e6e7446a109ab4f6ce3450b8f5c5249"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_ca_gat_mappo_route_credit_package31.py",
+      "relative_path": "tests/test_ca_gat_mappo_route_credit_package31.py",
+      "role": "current_tests",
+      "bytes": 11121,
+      "sha256": "0fcbe6866ab6b814c872296981cd26596b256483d768653779b8d8bf21aa125d"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_ca_gat_mappo_route_specific_gae.py",
+      "relative_path": "tests/test_ca_gat_mappo_route_specific_gae.py",
+      "role": "current_tests",
+      "bytes": 26693,
+      "sha256": "402e2ddd1375109a71d93fea28d2ae94e899c9f85e0295f67636cf6fa3939cb3"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_ca_gat_mappo_route_telemetry.py",
+      "relative_path": "tests/test_ca_gat_mappo_route_telemetry.py",
+      "role": "current_tests",
+      "bytes": 29630,
+      "sha256": "1ef1ebe20d30f9c3ea34d846e44cf721c98678c7b02ab4a1644555d995ec4c44"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_ca_gat_mappo_trainer.py",
+      "relative_path": "tests/test_ca_gat_mappo_trainer.py",
+      "role": "current_tests",
+      "bytes": 26720,
+      "sha256": "300cf812a0c56e81aeb46602ee09279386342c33a89eefb4c082e2c54bf2942d"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_ca_gat_mappo_trainer_contract.py",
+      "relative_path": "tests/test_ca_gat_mappo_trainer_contract.py",
+      "role": "current_tests",
+      "bytes": 10311,
+      "sha256": "fd5a21654d0e6bd54bc146ab7044e00dce926fdb4c2c09b7a5d32f342503621f"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_ca_gat_mappo_training_artifacts.py",
+      "relative_path": "tests/test_ca_gat_mappo_training_artifacts.py",
+      "role": "current_tests",
+      "bytes": 10710,
+      "sha256": "d0add0af24346b7553ee940f9b27829b5f36afc09e374f86e892b7dfc4c78124"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_ca_gat_mappo_training_contract.py",
+      "relative_path": "tests/test_ca_gat_mappo_training_contract.py",
+      "role": "current_tests",
+      "bytes": 3846,
+      "sha256": "de29638dbb95cc309dd9de550826114b138d49c5f41ce3dd702d020807f6a5bb"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_ca_gat_mappo_update.py",
+      "relative_path": "tests/test_ca_gat_mappo_update.py",
+      "role": "current_tests",
+      "bytes": 31449,
+      "sha256": "30e5561f87d02a5ab01382646f25e3d46e544e0733665dde0f6a4fde813d0556"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_config_cli_runner.py",
+      "relative_path": "tests/test_config_cli_runner.py",
+      "role": "current_tests",
+      "bytes": 33599,
+      "sha256": "2b33d05a9585c600e113f2cbe792fde35cd103c73b6de9715788594ce954a79d"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_cpu_anti_starvation.py",
+      "relative_path": "tests/test_cpu_anti_starvation.py",
+      "role": "current_tests",
+      "bytes": 22415,
+      "sha256": "955e0e9f5b5760bf5beadbeca8404d4d1277954f2feffeb0795e6504cd35e8f0"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_e10_q_target_semantics.py",
+      "relative_path": "tests/test_e10_q_target_semantics.py",
+      "role": "current_tests",
+      "bytes": 2952,
+      "sha256": "1632070e051372664e3978701c15d9812243cd2a04ddd5d2722b5d56a43deea9"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_e15_destination_ranking.py",
+      "relative_path": "tests/test_e15_destination_ranking.py",
+      "role": "current_tests",
+      "bytes": 24775,
+      "sha256": "e71a34c63b9aa756003b0e30a55149f2fe912475e3484c20ed6c5204bfe4ac6e"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_e16_destination_pretraining.py",
+      "relative_path": "tests/test_e16_destination_pretraining.py",
+      "role": "current_tests",
+      "bytes": 19636,
+      "sha256": "79d47fffec79d34b7e46e5989ad0653ddf7475b6b071cc6ecbb481db5a3e33e1"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_e3_branchwise_ppo_aggregation.py",
+      "relative_path": "tests/test_e3_branchwise_ppo_aggregation.py",
+      "role": "current_tests",
+      "bytes": 11598,
+      "sha256": "44ce9e7f1b566f892bfd9243fa06807e51f83644c257fd2466c6f0e08132a9cd"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_e9_entropy_runtime_plumbing.py",
+      "relative_path": "tests/test_e9_entropy_runtime_plumbing.py",
+      "role": "current_tests",
+      "bytes": 8847,
+      "sha256": "541dcb76b1442855c59821fe0620c5fba8c0508fb66b1d59bac6fa44a6bcf1c1"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_environment_api.py",
+      "relative_path": "tests/test_environment_api.py",
+      "role": "current_tests",
+      "bytes": 10114,
+      "sha256": "abdb226b6c862772600f51307d069a6817f0a1add1f32e22457259db699e4222"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_environment_gate0.py",
+      "relative_path": "tests/test_environment_gate0.py",
+      "role": "current_tests",
+      "bytes": 35010,
+      "sha256": "cc0607a22ae6e76c79f9003fc63d7c1dbf2809281ad341e48a7a869af8833abd"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_environment_learnability.py",
+      "relative_path": "tests/test_environment_learnability.py",
+      "role": "current_tests",
+      "bytes": 10812,
+      "sha256": "a2f72fbaf9e428d23a7628761a01efbca190b02919adcef5ce702a6078293294"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_evaluation_service_telemetry.py",
+      "relative_path": "tests/test_evaluation_service_telemetry.py",
+      "role": "current_tests",
+      "bytes": 15035,
+      "sha256": "86fbe382d8c4707ce1074bf270e52da692821fac3195e3a8f539781a0e79f706"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_executor_service_energy.py",
+      "relative_path": "tests/test_executor_service_energy.py",
+      "role": "current_tests",
+      "bytes": 27356,
+      "sha256": "f666e7b70bd82c5b0dbeeceb4e9202ac645ce7e87f9f376b4eccf7bbcfada96a"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_formal_evaluation.py",
+      "relative_path": "tests/test_formal_evaluation.py",
+      "role": "current_tests",
+      "bytes": 31044,
+      "sha256": "4745473f13dd9e720491c653efbf6f8eb223c218c2ce0f78ae8efa0430f96d8c"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_formal_route_oracle_checkpoint_identity.py",
+      "relative_path": "tests/test_formal_route_oracle_checkpoint_identity.py",
+      "role": "current_tests",
+      "bytes": 4975,
+      "sha256": "e2daa45b48e19d3a39007e29885139e7740628cc3774f13f6d6feada53e4849f"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_formal_route_oracle_probe_v1.py",
+      "relative_path": "tests/test_formal_route_oracle_probe_v1.py",
+      "role": "current_tests",
+      "bytes": 12682,
+      "sha256": "3ff89609442e5538e252fbfcc655f75ec754b5488d43c8f82e43420e10e6c5e4"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_hierarchical_tx_decoder.py",
+      "relative_path": "tests/test_hierarchical_tx_decoder.py",
+      "role": "current_tests",
+      "bytes": 15055,
+      "sha256": "112f59353d08f4d9befdd09b102d48fbc1d9a3465ffcf2be95a6aad9ccbc23e0"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_integrated_scheduler.py",
+      "relative_path": "tests/test_integrated_scheduler.py",
+      "role": "current_tests",
+      "bytes": 22573,
+      "sha256": "eae79b8e54aae74aa6fabdaa0ba7e9b7654af9a837132622422e9f44982e9587"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_mobility_topology_channel.py",
+      "relative_path": "tests/test_mobility_topology_channel.py",
+      "role": "current_tests",
+      "bytes": 23247,
+      "sha256": "1645af21742f1da2765b08af48a3fd071756ac204a114a679d49443d82714898"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_option_aware_route_decoder_v1.py",
+      "relative_path": "tests/test_option_aware_route_decoder_v1.py",
+      "role": "current_tests",
+      "bytes": 17868,
+      "sha256": "4e3854d1a1d585442422e49ef6447e33c7cd7c2b0694c71fbc9c47a32be42b16"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_policy_rollout.py",
+      "relative_path": "tests/test_policy_rollout.py",
+      "role": "current_tests",
+      "bytes": 53788,
+      "sha256": "2c9c45eefe0aec9a202af69a5b7f2285711e1d5cc570ea0f0f03affceb2fed21"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_radius_revision.py",
+      "relative_path": "tests/test_radius_revision.py",
+      "role": "current_tests",
+      "bytes": 3100,
+      "sha256": "120c2e3538203b7b1a78fa4bc49b3124ee90c6f5891db47b69fa6f270e9e656f"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_remote_stress_scenario.py",
+      "relative_path": "tests/test_remote_stress_scenario.py",
+      "role": "current_tests",
+      "bytes": 5605,
+      "sha256": "3c77ef11890ccd6e6ef0b3af148ba6f5a4c024e9ca0ed9aaca7910cc9ab31748"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_remote_stress_v2_scenario.py",
+      "relative_path": "tests/test_remote_stress_v2_scenario.py",
+      "role": "current_tests",
+      "bytes": 4758,
+      "sha256": "e5a500c0173c3457507e5495af82346ad9d591c610a3eb01298275ed11d4a3dd"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_rollout_capped_route_event_nstep.py",
+      "relative_path": "tests/test_rollout_capped_route_event_nstep.py",
+      "role": "current_tests",
+      "bytes": 33871,
+      "sha256": "6b8b38a4fd55823a0fe40916b29e5e43328e9cd19bdc0eb1e07898d46036e60b"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_route_actor_credit_source.py",
+      "relative_path": "tests/test_route_actor_credit_source.py",
+      "role": "current_tests",
+      "bytes": 21840,
+      "sha256": "4df1fcd856fb887cf4531275f70ef611cf60eee578ac1c90ad6bc4bcecc2456d"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_route_choice_stability.py",
+      "relative_path": "tests/test_route_choice_stability.py",
+      "role": "current_tests",
+      "bytes": 18652,
+      "sha256": "bcf1f95bccbea1e482c1a31fe73ad7eb1198d624dac08b5f92305c8f12edbbf7"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_route_counterfactual_oracle.py",
+      "relative_path": "tests/test_route_counterfactual_oracle.py",
+      "role": "current_tests",
+      "bytes": 7056,
+      "sha256": "cc838f925c05ea375cb82183284d5c55531814f8142949b7f016d7d271a42db8"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_route_diagnostic_instrumentation.py",
+      "relative_path": "tests/test_route_diagnostic_instrumentation.py",
+      "role": "current_tests",
+      "bytes": 16277,
+      "sha256": "34d27fdde1da72085f03eee1973bd5c9156cffabc89fb3af7db1b6716eefdb06"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_route_entropy_schedule_parameterization.py",
+      "relative_path": "tests/test_route_entropy_schedule_parameterization.py",
+      "role": "current_tests",
+      "bytes": 27416,
+      "sha256": "b93861393275f56555bacb06a05dd23d129ef03d950cc54fbdc5e972d1ec0888"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_route_exploration.py",
+      "relative_path": "tests/test_route_exploration.py",
+      "role": "current_tests",
+      "bytes": 25976,
+      "sha256": "2add21e1ffc934809ecaa598cf6870166df8d40a307c4736737f073795618277"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_route_head_lr_isolation.py",
+      "relative_path": "tests/test_route_head_lr_isolation.py",
+      "role": "current_tests",
+      "bytes": 15806,
+      "sha256": "e62015f730f0d629b7cfb8d13e929721737fd94439fb47ed0d6e0a95a55fb3eb"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_route_only_entropy_regularization.py",
+      "relative_path": "tests/test_route_only_entropy_regularization.py",
+      "role": "current_tests",
+      "bytes": 7184,
+      "sha256": "3f22d845f14d831bcdad5259c09fb3632e5ed23b997b5bd08fde0423b10e9460"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_route_option_q.py",
+      "relative_path": "tests/test_route_option_q.py",
+      "role": "current_tests",
+      "bytes": 30664,
+      "sha256": "8f20f2d9efe580a8aca5f6fe1bfce41601475b9ae7edd926b57595c85f2e3161"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_route_oracle_diagnostic.py",
+      "relative_path": "tests/test_route_oracle_diagnostic.py",
+      "role": "current_tests",
+      "bytes": 46306,
+      "sha256": "de6083f0d865c467d52b30629469b7e6f9d43e93424c0cb2367f64fafd49336b"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_route_oracle_probe_v1.py",
+      "relative_path": "tests/test_route_oracle_probe_v1.py",
+      "role": "current_tests",
+      "bytes": 12062,
+      "sha256": "c7272382e361a34277fa86d5153fd899dd252a3db1fad049ecb06630be3062c2"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_route_private_backbone.py",
+      "relative_path": "tests/test_route_private_backbone.py",
+      "role": "current_tests",
+      "bytes": 20192,
+      "sha256": "f4563ac92ef0e17c9897034f18aca2a38760a661fdc6649f90bd8e6c38ca5722"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_route_q_inputs.py",
+      "relative_path": "tests/test_route_q_inputs.py",
+      "role": "current_tests",
+      "bytes": 16536,
+      "sha256": "ce0a6de1763414e8b24f50d1e2399fbd891cf6948d26c834c3f9d9967cf1ef7b"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_route_sidecar_repair.py",
+      "relative_path": "tests/test_route_sidecar_repair.py",
+      "role": "current_tests",
+      "bytes": 12317,
+      "sha256": "cab6b16a144b9a7b4862a27cff28344f5bac167c84e8bed33f190f53b78c75a4"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_route_slot_workload_timing.py",
+      "relative_path": "tests/test_route_slot_workload_timing.py",
+      "role": "current_tests",
+      "bytes": 20611,
+      "sha256": "9780db4ad00eea325e75c05ba024f74689ff0d033caacaa905fec1fc75851d97"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_route_task_credit.py",
+      "relative_path": "tests/test_route_task_credit.py",
+      "role": "current_tests",
+      "bytes": 26153,
+      "sha256": "bb59b0cf67d6815f22b83c04cea82067113bfe2db7ace65683148b818c258112"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_task_queue_lifecycle.py",
+      "relative_path": "tests/test_task_queue_lifecycle.py",
+      "role": "current_tests",
+      "bytes": 15704,
+      "sha256": "a59d1217bc6d9c240f83a5cfb6fcc89c6df756e52d87bfef8ed1cd67b98e5e10"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_trajectory_credit_telemetry.py",
+      "relative_path": "tests/test_trajectory_credit_telemetry.py",
+      "role": "current_tests",
+      "bytes": 43416,
+      "sha256": "04ce3670843c05259d60f0d3c80a1bfe63de2c2b0680543de8fcfc1070373556"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_tx_paired_shadow_credit.py",
+      "relative_path": "tests/test_tx_paired_shadow_credit.py",
+      "role": "current_tests",
+      "bytes": 26727,
+      "sha256": "5d1b947dd24a9c6605ba0183636322142aaaa6bf0bc58f4a72400b7a68248530"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_tx_paired_shadow_pilot.py",
+      "relative_path": "tests/test_tx_paired_shadow_pilot.py",
+      "role": "current_tests",
+      "bytes": 10784,
+      "sha256": "505525d5e2368cc5811950a275c8a25d1f05b00e6682b17a42fcab50a72c3fdc"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_tx_power_mask.py",
+      "relative_path": "tests/test_tx_power_mask.py",
+      "role": "current_tests",
+      "bytes": 4459,
+      "sha256": "ccd2bdc5625bf40ef7cc8cee6684e50b01993bc23cf7af7d40d2a5d93ae9339f"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_tx_q_popart.py",
+      "relative_path": "tests/test_tx_q_popart.py",
+      "role": "current_tests",
+      "bytes": 20859,
+      "sha256": "a7fa0684d2bdfed52bcbb29a1e1e32c42fbc75531b50c5a85a4f3203d5a55b88"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_tx_upper_counterfactual.py",
+      "relative_path": "tests/test_tx_upper_counterfactual.py",
+      "role": "current_tests",
+      "bytes": 21341,
+      "sha256": "72f0a1a1133297ab891fd168c9867cbfe29709aa5350c47d16e123f31879eb97"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_tx_upper_factual_credit.py",
+      "relative_path": "tests/test_tx_upper_factual_credit.py",
+      "role": "current_tests",
+      "bytes": 24172,
+      "sha256": "c0e380d6cf874c91da00dec2fb16073d3a2b8a0f782903f42df2610b689dd766"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_tx_upper_stability.py",
+      "relative_path": "tests/test_tx_upper_stability.py",
+      "role": "current_tests",
+      "bytes": 19538,
+      "sha256": "4b02eeff0503952386e0076cbab803dd1efe044f807911b44994fddab23b4417"
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_full.json",
+      "relative_path": "experiments/environment-learnability/configs/remote_stress_v2_full.json",
+      "role": "existing_config",
+      "bytes": 11042,
+      "sha256": "b631a970b5b34387c831488775a81eb663d9a10e4f770b143faf652393f2cd69"
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_ladder_l1.json",
+      "relative_path": "experiments/environment-learnability/configs/remote_stress_v2_ladder_l1.json",
+      "role": "existing_config",
+      "bytes": 11295,
+      "sha256": "be3888d1a5bfd3396fb1fe2e412132662d18d90480a75f6536fbdcacb434d140"
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_ladder_l2.json",
+      "relative_path": "experiments/environment-learnability/configs/remote_stress_v2_ladder_l2.json",
+      "role": "existing_config",
+      "bytes": 11178,
+      "sha256": "0d7e56730ee97ae5f00cba30810ae097ad6eb0e8c50339a5e1dab59e0743d77a"
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_ladder_l3.json",
+      "relative_path": "experiments/environment-learnability/configs/remote_stress_v2_ladder_l3.json",
+      "role": "existing_config",
+      "bytes": 11148,
+      "sha256": "3ace18b7d9486975a832b2857b628aad2a33598e3499d3b03d1c2ea910974289"
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_ladder_l4.json",
+      "relative_path": "experiments/environment-learnability/configs/remote_stress_v2_ladder_l4.json",
+      "role": "existing_config",
+      "bytes": 11103,
+      "sha256": "437cb66e99ae2ed0480e9e66002526c736126c63232c88e3c09206893ff152f2"
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_ladder_l5.json",
+      "relative_path": "experiments/environment-learnability/configs/remote_stress_v2_ladder_l5.json",
+      "role": "existing_config",
+      "bytes": 11057,
+      "sha256": "4a46692652439ec2361175aca268411e19daa144f3f2fb108a65c080b15dfa2b"
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_learnability_easy.json",
+      "relative_path": "experiments/environment-learnability/configs/remote_stress_v2_learnability_easy.json",
+      "role": "existing_config",
+      "bytes": 11320,
+      "sha256": "fde2b3e727911c5806a4ce6bdd83fe3a45f750a074a5681361f3d7a7aba1d8cd"
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_low_load.json",
+      "relative_path": "experiments/environment-learnability/configs/remote_stress_v2_low_load.json",
+      "role": "existing_config",
+      "bytes": 11171,
+      "sha256": "3a7d8391fd11287fd2eec2f164d086e2730d6df57f99aab5ce7e632acd9a8423"
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_no_interference.json",
+      "relative_path": "experiments/environment-learnability/configs/remote_stress_v2_no_interference.json",
+      "role": "existing_config",
+      "bytes": 11121,
+      "sha256": "0738662cf7e89bb543be9b81c016ee2d60719f233604ba900bef5ecb7879581b"
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_no_stochastic_channel.json",
+      "relative_path": "experiments/environment-learnability/configs/remote_stress_v2_no_stochastic_channel.json",
+      "role": "existing_config",
+      "bytes": 11138,
+      "sha256": "40787f7ec8913ead5aa19e1200e2aca1cf41a79f0c1ecc567b09443c21431122"
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_perfect_csi.json",
+      "relative_path": "experiments/environment-learnability/configs/remote_stress_v2_perfect_csi.json",
+      "role": "existing_config",
+      "bytes": 11063,
+      "sha256": "72b6c8faacb39b52f4aaf9e18a8ed986944f740b7b41dffe621cb721561b972b"
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_relaxed_deadline.json",
+      "relative_path": "experiments/environment-learnability/configs/remote_stress_v2_relaxed_deadline.json",
+      "role": "existing_config",
+      "bytes": 11079,
+      "sha256": "6c5b0c33f1459d6af92a9d14053a13f6577b581fe94a123a789d29d7dd15a46e"
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_static.json",
+      "relative_path": "experiments/environment-learnability/configs/remote_stress_v2_static.json",
+      "role": "existing_config",
+      "bytes": 11078,
+      "sha256": "fcbb4b59e67da3b278b5bc28b29e65e77cb92d65e0d6eb9ef3f29a57675a13bb"
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e13-v1-tx-paired-shadow-seed42-32k.json",
+      "relative_path": "experiments/cooperative-load/configs/e13-v1-tx-paired-shadow-seed42-32k.json",
+      "role": "existing_config",
+      "bytes": 9862,
+      "sha256": "ef38feebd065fadad0d7dac70db5acf8d0f4590cb7ab9b96688642f893333c6d"
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e13-v1-tx-paired-shadow-seed43-32k.json",
+      "relative_path": "experiments/cooperative-load/configs/e13-v1-tx-paired-shadow-seed43-32k.json",
+      "role": "existing_config",
+      "bytes": 9862,
+      "sha256": "1a2ef7836882ab7312bd456570949679a1d459711bcba7a15b5a469e5fa2aa42"
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e14a-v1-cpu-feasibility-seed42-8k-dev.json",
+      "relative_path": "experiments/cooperative-load/configs/e14a-v1-cpu-feasibility-seed42-8k-dev.json",
+      "role": "existing_config",
+      "bytes": 10403,
+      "sha256": "362418440e3411b3d0db6efd884ac77009300dd31c0057129d86f2854a7e57e1"
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e14b-v1-route-log-barrier-seed42-8k-dev.json",
+      "relative_path": "experiments/cooperative-load/configs/e14b-v1-route-log-barrier-seed42-8k-dev.json",
+      "role": "existing_config",
+      "bytes": 10252,
+      "sha256": "0692b5e12054231bc9acf54119da07fedd3de6cbae21a34382ca4d63df66ca63"
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e14c-v1-route-task-credit-seed42-8k-dev.json",
+      "relative_path": "experiments/cooperative-load/configs/e14c-v1-route-task-credit-seed42-8k-dev.json",
+      "role": "existing_config",
+      "bytes": 10769,
+      "sha256": "a5f22c5f7d79fd2cf9ce84430b55b0675856c48c5bf329f9268de07bb1b2f77e"
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e14d-p0-dual-branch-seed42-8k-dev.json",
+      "relative_path": "experiments/cooperative-load/configs/e14d-p0-dual-branch-seed42-8k-dev.json",
+      "role": "existing_config",
+      "bytes": 10965,
+      "sha256": "585f986f416788a76c152551037a1b8308bc7944c5a6731d8ec252581bb17415"
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e14d-p0-legacy-seed42-8k-dev.json",
+      "relative_path": "experiments/cooperative-load/configs/e14d-p0-legacy-seed42-8k-dev.json",
+      "role": "existing_config",
+      "bytes": 10945,
+      "sha256": "19ddcc13b5c580a9524d3bdf6627b9943401fd889535977b852a644230380781"
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e14d-p0-normalized-seed42-8k-dev.json",
+      "relative_path": "experiments/cooperative-load/configs/e14d-p0-normalized-seed42-8k-dev.json",
+      "role": "existing_config",
+      "bytes": 10961,
+      "sha256": "009e5521d5f9dfeafd2a2af39ac064e803950c6b5b4b73dba15560743344d218"
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e14d-v1-route-counterfactual-q-seed42-8k-dev.json",
+      "relative_path": "experiments/cooperative-load/configs/e14d-v1-route-counterfactual-q-seed42-8k-dev.json",
+      "role": "existing_config",
+      "bytes": 10945,
+      "sha256": "6893e98aeb6e2f3af426fed9147cb23c1b7c20df16df06a5d5b88d3e103a43e1"
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e14e-p1a-task-event-credit-seed42-8k-dev.json",
+      "relative_path": "experiments/cooperative-load/configs/e14e-p1a-task-event-credit-seed42-8k-dev.json",
+      "role": "existing_config",
+      "bytes": 11035,
+      "sha256": "d4442ef7284c2894f37fff518fbe9fba0b2501b6eeebb4e3e852976eae4f378d"
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e15-system-aware-destination-ranking-seed42-8k-dev.json",
+      "relative_path": "experiments/cooperative-load/configs/e15-system-aware-destination-ranking-seed42-8k-dev.json",
+      "role": "existing_config",
+      "bytes": 11185,
+      "sha256": "f9cb0e16a0c82dcdcf271d8f700000a63ac5a8ddd88d468a12bf8e1b8127e20a"
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e16-destination-dataset-settings.json",
+      "relative_path": "experiments/cooperative-load/configs/e16-destination-dataset-settings.json",
+      "role": "existing_config",
+      "bytes": 818,
+      "sha256": "2529fa1ffa988356fef152935ae3d92e1a73733e722d161f2216ce2af979ff4a"
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e16-destination-distillation-settings.json",
+      "relative_path": "experiments/cooperative-load/configs/e16-destination-distillation-settings.json",
+      "role": "existing_config",
+      "bytes": 662,
+      "sha256": "fea14aa2be334b03894f9b5caf98afbf41da5675680ff3719253b1247c5b5f06"
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e16-destination-pretrain-seed42-ft2k-dev.json",
+      "relative_path": "experiments/cooperative-load/configs/e16-destination-pretrain-seed42-ft2k-dev.json",
+      "role": "existing_config",
+      "bytes": 11198,
+      "sha256": "84c5e05c0ca92f53741cf857b06a607baec781d5efe13766dd7ee93748f32e73"
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e16-destination-pretrain-seed42-ft4k-dev.json",
+      "relative_path": "experiments/cooperative-load/configs/e16-destination-pretrain-seed42-ft4k-dev.json",
+      "role": "existing_config",
+      "bytes": 11198,
+      "sha256": "245cc4f26fa415371ebb2055daf3ba07ac4ee81bc833cc41eb54df196df97621"
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/templates/e13-v1-future-seed-template.json",
+      "relative_path": "experiments/cooperative-load/templates/e13-v1-future-seed-template.json",
+      "role": "existing_config",
+      "bytes": 10603,
+      "sha256": "4476e0350a8ddf70d08f5d639fe936ae31f5e274d68de96528334f768897fef8"
+    },
+    {
+      "path": "D:/My_project_li/main.py",
+      "relative_path": "main.py",
+      "role": "entry_or_repository_contract",
+      "bytes": 293,
+      "sha256": "a109d100fad65414b3f6119fa4074e4da2eaeae9b7726d313468a0ea9cf37295"
+    },
+    {
+      "path": "D:/My_project_li/AGENTS.md",
+      "relative_path": "AGENTS.md",
+      "role": "entry_or_repository_contract",
+      "bytes": 1773,
+      "sha256": "2bc0874025a5c0c891139809d1e2e0a6df62708360993881adce206bc544372a"
+    },
+    {
+      "path": "D:/My_project_li/metadata/E13_BASELINE_IDENTITY.json",
+      "relative_path": "metadata/E13_BASELINE_IDENTITY.json",
+      "role": "historical_identity_record",
+      "bytes": 32568,
+      "sha256": "a60f12d3772ebdb13989c80f57ce91efbc31b8021cf14675a3e6e6254adaeb31"
+    },
+    {
+      "path": "D:/My_project_li/metadata/E13_VERSIONED_SOURCE_MANIFEST.json",
+      "relative_path": "metadata/E13_VERSIONED_SOURCE_MANIFEST.json",
+      "role": "historical_identity_record",
+      "bytes": 177178,
+      "sha256": "826d74bdb82e8a26099183ffb26db952b1ff9cfb0b938de7ea09bafaaeae2cc1"
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2f143a85c0e3__git-eb1140cefc4a/checkpoints/final.pt",
+      "relative_path": "logs/development/e14e_p1a_task_event_credit_seed42_8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2f143a85c0e3__git-eb1140cefc4a/checkpoints/final.pt",
+      "role": "historical_final_checkpoint",
+      "bytes": 18588279,
+      "sha256": "d303878ed57dcfca0ee9d04354ab678046fbf22b3546aef38a853b53bae7a062"
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2f143a85c0e3__git-eb1140cefc4a/config_snapshot.yaml",
+      "relative_path": "logs/development/e14e_p1a_task_event_credit_seed42_8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2f143a85c0e3__git-eb1140cefc4a/config_snapshot.yaml",
+      "role": "historical_config_snapshot",
+      "bytes": 11555,
+      "sha256": "b1a1e052638d46f5eb8d7ec623071fddd5c9feb52b30fb8542cff3bc116a7dbd"
+    },
+    {
+      "path": "D:/My_project_li/logs/gate_m/ca_gat_mappo__remote_stress_v2__seed-42__cfg-16ed37e1f161__git-21624c6cd274/checkpoints/final.pt",
+      "relative_path": "logs/gate_m/ca_gat_mappo__remote_stress_v2__seed-42__cfg-16ed37e1f161__git-21624c6cd274/checkpoints/final.pt",
+      "role": "historical_final_checkpoint",
+      "bytes": 10384221,
+      "sha256": "8d0f66bfbf46949f7c5236383b9d76d93502c6c3fe9b438a717db972fd22e7ea"
+    },
+    {
+      "path": "D:/My_project_li/logs/gate_m/ca_gat_mappo__remote_stress_v2__seed-42__cfg-16ed37e1f161__git-21624c6cd274/config_snapshot.yaml",
+      "relative_path": "logs/gate_m/ca_gat_mappo__remote_stress_v2__seed-42__cfg-16ed37e1f161__git-21624c6cd274/config_snapshot.yaml",
+      "role": "historical_config_snapshot",
+      "bytes": 10718,
+      "sha256": "a1bb9eed5dfe1d84a72173f9c12a9cad6f3868c543a3bd8ad074502777823fb2"
+    },
+    {
+      "path": "D:/My_project_li/logs/gate_m/ca_gat_mappo__remote_stress_v2__seed-43__cfg-411dcce4948d__git-21624c6cd274/checkpoints/final.pt",
+      "relative_path": "logs/gate_m/ca_gat_mappo__remote_stress_v2__seed-43__cfg-411dcce4948d__git-21624c6cd274/checkpoints/final.pt",
+      "role": "historical_final_checkpoint",
+      "bytes": 10384221,
+      "sha256": "25c576fe6974b4e3c3a7a518cbe5e1eff738322411dd3daaa16e645ffe41d679"
+    },
+    {
+      "path": "D:/My_project_li/logs/gate_m/ca_gat_mappo__remote_stress_v2__seed-43__cfg-411dcce4948d__git-21624c6cd274/config_snapshot.yaml",
+      "relative_path": "logs/gate_m/ca_gat_mappo__remote_stress_v2__seed-43__cfg-411dcce4948d__git-21624c6cd274/config_snapshot.yaml",
+      "role": "historical_config_snapshot",
+      "bytes": 10718,
+      "sha256": "d96704ef5875b939b18bd0c878bf05f2517d5857a5a0fe5b4e933134a39e1a42"
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2f143a85c0e3__git-eb1140cefc4a/checkpoints/step_4000.pt",
+      "relative_path": "logs/development/e14e_p1a_task_event_credit_seed42_8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2f143a85c0e3__git-eb1140cefc4a/checkpoints/step_4000.pt",
+      "role": "historical_diagnostic_checkpoint",
+      "bytes": 25867348,
+      "sha256": "edfd24a233d52f1c2d1db3b63675a20e76ca9ea0b6ec2f2bb4e863b233647f55"
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k/p1a_evaluation_integrity.json",
+      "relative_path": "logs/development/e14e_p1a_task_event_credit_seed42_8k/p1a_evaluation_integrity.json",
+      "role": "historical_evaluation_identity",
+      "bytes": 3053,
+      "sha256": "88d7bd607554b4bb1be4898a4f42fc2c093571204da4aa44ee4c9ef049edbe75"
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k/eval1044_4k/evaluations/development-service-eval__remote_stress_v2__chk-edfd24a233d5__cfg-2e7a1dd6b92d__eval-252be728cc0f/evaluation_manifest.json",
+      "relative_path": "logs/development/e14e_p1a_task_event_credit_seed42_8k/eval1044_4k/evaluations/development-service-eval__remote_stress_v2__chk-edfd24a233d5__cfg-2e7a1dd6b92d__eval-252be728cc0f/evaluation_manifest.json",
+      "role": "historical_evaluation_manifest",
+      "bytes": 14658,
+      "sha256": "47cf5db4282440187f9f8f1748e8e41b15b017f8d63cabac6e9bcf635bc356ba"
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k/eval1044_8k/evaluations/development-service-eval__remote_stress_v2__chk-d303878ed57d__cfg-2e7a1dd6b92d__eval-302b95721c5e/evaluation_manifest.json",
+      "relative_path": "logs/development/e14e_p1a_task_event_credit_seed42_8k/eval1044_8k/evaluations/development-service-eval__remote_stress_v2__chk-d303878ed57d__cfg-2e7a1dd6b92d__eval-302b95721c5e/evaluation_manifest.json",
+      "role": "historical_evaluation_manifest",
+      "bytes": 14654,
+      "sha256": "9f720a8a5492d9f31f550a1f50c15b78b28cad0af772c9a83f0b6bc9d1828154"
+    },
+    {
+      "path": "D:/My_project_li/src/models/route_candidates.py",
+      "relative_path": "src/models/route_candidates.py",
+      "role": "step02_new_source_or_test",
+      "bytes": 10487,
+      "sha256": "595411fa64a2e4ec9d33cf4d9b4ac5bfd7ff941c82f9d8a57544bd2f63851d36"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_route_candidate_interface.py",
+      "relative_path": "tests/test_route_candidate_interface.py",
+      "role": "step02_new_source_or_test",
+      "bytes": 18550,
+      "sha256": "820d32c75a380105a4cb21f0a0b345c697fad9935b88b9cb822424a25d06b2a7"
+    },
+    {
+      "path": "D:/My_project_li/src/models/unified_route.py",
+      "relative_path": "src/models/unified_route.py",
+      "role": "current_source",
+      "bytes": 3518,
+      "sha256": "f73498e55b2c2cf31edb13d7ba0fb828ffba9cbca370a2f8e319706f0e33441e"
+    },
+    {
+      "path": "D:/My_project_li/tests/test_unified_route.py",
+      "relative_path": "tests/test_unified_route.py",
+      "role": "current_test",
+      "bytes": 14007,
+      "sha256": "020a643e28aeb3d004eb0a7212a47b5435b04fcf0b2b1c20a772b6a5f7f8fecc"
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "scope": "Current C seed42 16k checkpoint versus existing heuristic; five development evaluation seeds only; descriptive diagnosis, no convergence or causal superiority claim",
+  "checkpoint_path": "D:\\My_project_li\\logs\\C\\seed42\\16k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a\\checkpoints\\final.pt",
+  "checkpoint_sha256": "dc8754d7871161233d65ee488e2125dbc4258b555b0a3efb7d579c264800c087",
+  "evaluation_run_id": "development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e",
+  "evaluation_config_sha256": "d2463e1929ea867212edec4774f54b2c5a6dbc9ef957f00dd2978402aec4849a",
+  "task_pairing": {
+    "key": [
+      "evaluation_seed",
+      "task_id"
+    ],
+    "matched_tasks": 605,
+    "identical_exogenous_fields": [
+      "source_uav",
+      "generation_slot",
+      "deadline_slot",
+      "input_bits",
+      "required_cycles"
+    ],
+    "counts": {
+      "both_done": 310,
+      "C_only_done": 78,
+      "neither_done": 156,
+      "heuristic_only_done": 61
+    },
+    "net_DONE_delta": 17
+  },
+  "aggregate": {
+    "C": {
+      "generated": 605,
+      "completed": 388,
+      "expired": 175,
+      "truncated": 42,
+      "completion_pct": 64.13223140495867,
+      "mean_reward": 33.48417908594455,
+      "cpu_energy_j": 175.26455542965041,
+      "tx_energy_j": 4.047250786779842,
+      "total_energy_j": 179.31180621643026,
+      "energy_per_done_j": 0.46214383045471713,
+      "positive_cpu_service_slots": 6224,
+      "frequency_level_counts_on_positive_service": {
+        "1.0": 6212,
+        "0.25": 8,
+        "0.5": 4
+      },
+      "max_frequency_fraction_on_positive_service": 0.9980719794344473,
+      "per_uav": [
+        {
+          "uav_id": 0,
+          "profile": "Balanced",
+          "max_frequency_hz": 1972371380.024,
+          "cpu_coefficient": 1.033901094602e-28,
+          "cpu_energy_j": 31.5136975822441,
+          "served_cycles": 78350718551.04153
+        },
+        {
+          "uav_id": 1,
+          "profile": "Resource-poor",
+          "max_frequency_hz": 1434027346.2676,
+          "cpu_coefficient": 1.1646215852687998e-28,
+          "cpu_energy_j": 9.760740679566963,
+          "served_cycles": 40755204171.56896
+        },
+        {
+          "uav_id": 2,
+          "profile": "Compute-rich",
+          "max_frequency_hz": 3997595437.468,
+          "cpu_coefficient": 9.310325338278e-29,
+          "cpu_energy_j": 103.3546465030199,
+          "served_cycles": 69735065970.98021
+        },
+        {
+          "uav_id": 3,
+          "profile": "Energy-limited",
+          "max_frequency_hz": 1998951144.562,
+          "cpu_coefficient": 1.0988403871137e-28,
+          "cpu_energy_j": 30.635470664817287,
+          "served_cycles": 69772708799.79527
+        }
+      ]
+    },
+    "heuristic": {
+      "generated": 605,
+      "completed": 371,
+      "expired": 190,
+      "truncated": 44,
+      "completion_pct": 61.32231404958678,
+      "mean_reward": 26.022282434158512,
+      "cpu_energy_j": 108.59256812073245,
+      "tx_energy_j": 0.5742825100428339,
+      "total_energy_j": 109.16685063077529,
+      "energy_per_done_j": 0.2942502712419819,
+      "positive_cpu_service_slots": 8370,
+      "frequency_level_counts_on_positive_service": {
+        "0.5": 2006,
+        "1.0": 5434,
+        "0.25": 930
+      },
+      "max_frequency_fraction_on_positive_service": 0.6492234169653525,
+      "per_uav": [
+        {
+          "uav_id": 0,
+          "profile": "Balanced",
+          "max_frequency_hz": 1972371380.024,
+          "cpu_coefficient": 1.033901094602e-28,
+          "cpu_energy_j": 22.70591287645527,
+          "served_cycles": 67394572825.065956
+        },
+        {
+          "uav_id": 1,
+          "profile": "Resource-poor",
+          "max_frequency_hz": 1434027346.2676,
+          "cpu_coefficient": 1.1646215852687998e-28,
+          "cpu_energy_j": 15.278041178255958,
+          "served_cycles": 65814236543.835785
+        },
+        {
+          "uav_id": 2,
+          "profile": "Compute-rich",
+          "max_frequency_hz": 3997595437.468,
+          "cpu_coefficient": 9.310325338278e-29,
+          "cpu_energy_j": 43.87360311513108,
+          "served_cycles": 61119670506.34152
+        },
+        {
+          "uav_id": 3,
+          "profile": "Energy-limited",
+          "max_frequency_hz": 1998951144.562,
+          "cpu_coefficient": 1.0988403871137e-28,
+          "cpu_energy_j": 26.735010950889603,
+          "served_cycles": 69492060393.93755
+        }
+      ]
+    }
+  },
+  "paired_outcome_groups": {
+    "both_done": {
+      "count": 310,
+      "source_uav_counts": {
+        "0": 72,
+        "1": 115,
+        "2": 42,
+        "3": 81
+      },
+      "C": {
+        "status_counts": {
+          "DONE": 310
+        },
+        "failure_stage_counts": {},
+        "failure_status_and_stage": {},
+        "route_counts": {
+          "local": 103,
+          "remote": 207
+        },
+        "destination_counts": {
+          "0": 74,
+          "2": 103,
+          "3": 75,
+          "1": 58
+        },
+        "cpu_energy_j": 121.68547488704148,
+        "served_cycles": 162559936184.19736,
+        "mean_done_delay_s": 0.37232258064516127
+      },
+      "heuristic": {
+        "status_counts": {
+          "DONE": 310
+        },
+        "failure_stage_counts": {},
+        "failure_status_and_stage": {},
+        "route_counts": {
+          "local": 253,
+          "remote": 57
+        },
+        "destination_counts": {
+          "0": 78,
+          "1": 65,
+          "2": 84,
+          "3": 83
+        },
+        "cpu_energy_j": 68.10504882379516,
+        "served_cycles": 162559936184.19736,
+        "mean_done_delay_s": 0.5151612903225806
+      },
+      "C_minus_heuristic_cpu_energy_j": 53.58042606324632
+    },
+    "C_only_done": {
+      "count": 78,
+      "source_uav_counts": {
+        "0": 3,
+        "1": 61,
+        "2": 1,
+        "3": 13
+      },
+      "C": {
+        "status_counts": {
+          "DONE": 78
+        },
+        "failure_stage_counts": {},
+        "failure_status_and_stage": {},
+        "route_counts": {
+          "remote": 68,
+          "local": 10
+        },
+        "destination_counts": {
+          "2": 21,
+          "0": 35,
+          "3": 20,
+          "1": 2
+        },
+        "cpu_energy_j": 32.76637358070883,
+        "served_cycles": 46954266438.36212,
+        "mean_done_delay_s": 0.537948717948718
+      },
+      "heuristic": {
+        "status_counts": {
+          "EXPIRED": 72,
+          "TRUNCATED": 6
+        },
+        "failure_stage_counts": {
+          "CPU_SERVICE": 74,
+          "CPU_WAIT": 4
+        },
+        "failure_status_and_stage": {
+          "EXPIRED:CPU_SERVICE": 69,
+          "EXPIRED:CPU_WAIT": 3,
+          "TRUNCATED:CPU_SERVICE": 5,
+          "TRUNCATED:CPU_WAIT": 1
+        },
+        "route_counts": {
+          "local": 76,
+          "remote": 2
+        },
+        "destination_counts": {
+          "1": 59,
+          "0": 3,
+          "3": 14,
+          "2": 2
+        },
+        "cpu_energy_j": 8.55702271151995,
+        "served_cycles": 29777712163.044895,
+        "mean_done_delay_s": null
+      },
+      "C_minus_heuristic_cpu_energy_j": 24.20935086918888
+    },
+    "heuristic_only_done": {
+      "count": 61,
+      "source_uav_counts": {
+        "0": 20,
+        "1": 20,
+        "2": 7,
+        "3": 14
+      },
+      "C": {
+        "status_counts": {
+          "EXPIRED": 57,
+          "TRUNCATED": 4
+        },
+        "failure_stage_counts": {
+          "CPU_WAIT": 25,
+          "CPU_SERVICE": 29,
+          "TX_WAIT": 7
+        },
+        "failure_status_and_stage": {
+          "EXPIRED:CPU_WAIT": 23,
+          "EXPIRED:CPU_SERVICE": 29,
+          "EXPIRED:TX_WAIT": 5,
+          "TRUNCATED:CPU_WAIT": 2,
+          "TRUNCATED:TX_WAIT": 2
+        },
+        "route_counts": {
+          "remote": 61
+        },
+        "destination_counts": {
+          "2": 27,
+          "1": 24,
+          "3": 8,
+          "0": 2
+        },
+        "cpu_energy_j": 3.6061404530020305,
+        "served_cycles": 9019342159.199814,
+        "mean_done_delay_s": null
+      },
+      "heuristic": {
+        "status_counts": {
+          "DONE": 61
+        },
+        "failure_stage_counts": {},
+        "failure_status_and_stage": {},
+        "route_counts": {
+          "remote": 16,
+          "local": 45
+        },
+        "destination_counts": {
+          "2": 17,
+          "1": 7,
+          "3": 16,
+          "0": 21
+        },
+        "cpu_energy_j": 21.41354974835072,
+        "served_cycles": 38539585421.496735,
+        "mean_done_delay_s": 0.6134426229508197
+      },
+      "C_minus_heuristic_cpu_energy_j": -17.80740929534869
+    },
+    "neither_done": {
+      "count": 156,
+      "source_uav_counts": {
+        "0": 25,
+        "1": 102,
+        "2": 1,
+        "3": 28
+      },
+      "C": {
+        "status_counts": {
+          "EXPIRED": 118,
+          "TRUNCATED": 38
+        },
+        "failure_stage_counts": {
+          "CPU_SERVICE": 115,
+          "CPU_WAIT": 39,
+          "TX_WAIT": 1,
+          "UNBOUND": 1
+        },
+        "failure_status_and_stage": {
+          "EXPIRED:CPU_SERVICE": 105,
+          "EXPIRED:CPU_WAIT": 13,
+          "TRUNCATED:CPU_WAIT": 26,
+          "TRUNCATED:TX_WAIT": 1,
+          "TRUNCATED:CPU_SERVICE": 10,
+          "TRUNCATED:UNBOUND": 1
+        },
+        "route_counts": {
+          "remote": 130,
+          "local": 25,
+          "unbound": 1
+        },
+        "destination_counts": {
+          "2": 20,
+          "3": 41,
+          "1": 26,
+          "0": 68,
+          "None": 1
+        },
+        "cpu_energy_j": 17.206566508895584,
+        "served_cycles": 40080152711.627426,
+        "mean_done_delay_s": null
+      },
+      "heuristic": {
+        "status_counts": {
+          "EXPIRED": 118,
+          "TRUNCATED": 38
+        },
+        "failure_stage_counts": {
+          "CPU_SERVICE": 123,
+          "CPU_WAIT": 32,
+          "UNBOUND": 1
+        },
+        "failure_status_and_stage": {
+          "EXPIRED:CPU_SERVICE": 113,
+          "EXPIRED:CPU_WAIT": 5,
+          "TRUNCATED:CPU_WAIT": 27,
+          "TRUNCATED:CPU_SERVICE": 10,
+          "TRUNCATED:UNBOUND": 1
+        },
+        "route_counts": {
+          "local": 151,
+          "remote": 4,
+          "unbound": 1
+        },
+        "destination_counts": {
+          "1": 99,
+          "3": 28,
+          "2": 3,
+          "0": 25,
+          "None": 1
+        },
+        "cpu_energy_j": 10.516946837066344,
+        "served_cycles": 32943306500.441383,
+        "mean_done_delay_s": null
+      },
+      "C_minus_heuristic_cpu_energy_j": 6.68961967182924
+    }
+  },
+  "per_seed": [
+    {
+      "evaluation_seed": 1042,
+      "generated": 135,
+      "both_done": 85,
+      "C_only_done": 15,
+      "heuristic_only_done": 15,
+      "neither_done": 20,
+      "C_done": 100,
+      "heuristic_done": 100,
+      "C_minus_heuristic_done": 0,
+      "C_minus_heuristic_completion_pp": 0.0,
+      "C_cpu_energy_j": 48.186694113183904,
+      "heuristic_cpu_energy_j": 34.0294858617597,
+      "C_tx_energy_j": 0.4335016513899257,
+      "heuristic_tx_energy_j": 0.20123356913847082
+    },
+    {
+      "evaluation_seed": 1043,
+      "generated": 122,
+      "both_done": 51,
+      "C_only_done": 27,
+      "heuristic_only_done": 13,
+      "neither_done": 31,
+      "C_done": 78,
+      "heuristic_done": 64,
+      "C_minus_heuristic_done": 14,
+      "C_minus_heuristic_completion_pp": 11.475409836065573,
+      "C_cpu_energy_j": 32.168937747341765,
+      "heuristic_cpu_energy_j": 14.381040333729928,
+      "C_tx_energy_j": 1.168730015297189,
+      "heuristic_tx_energy_j": 0.0770791242094181
+    },
+    {
+      "evaluation_seed": 1044,
+      "generated": 117,
+      "both_done": 66,
+      "C_only_done": 14,
+      "heuristic_only_done": 26,
+      "neither_done": 11,
+      "C_done": 80,
+      "heuristic_done": 92,
+      "C_minus_heuristic_done": -12,
+      "C_minus_heuristic_completion_pp": -10.256410256410257,
+      "C_cpu_energy_j": 43.91362975545753,
+      "heuristic_cpu_energy_j": 30.271979603422214,
+      "C_tx_energy_j": 1.2359566894797884,
+      "heuristic_tx_energy_j": 0.20886253579251873
+    },
+    {
+      "evaluation_seed": 1045,
+      "generated": 102,
+      "both_done": 50,
+      "C_only_done": 9,
+      "heuristic_only_done": 3,
+      "neither_done": 40,
+      "C_done": 59,
+      "heuristic_done": 53,
+      "C_minus_heuristic_done": 6,
+      "C_minus_heuristic_completion_pp": 5.882352941176471,
+      "C_cpu_energy_j": 26.38935798812523,
+      "heuristic_cpu_energy_j": 14.18568027938937,
+      "C_tx_energy_j": 0.4720429895234195,
+      "heuristic_tx_energy_j": 0.02936222995594965
+    },
+    {
+      "evaluation_seed": 1046,
+      "generated": 129,
+      "both_done": 58,
+      "C_only_done": 13,
+      "heuristic_only_done": 4,
+      "neither_done": 54,
+      "C_done": 71,
+      "heuristic_done": 62,
+      "C_minus_heuristic_done": 9,
+      "C_minus_heuristic_completion_pp": 6.976744186046512,
+      "C_cpu_energy_j": 24.605935825541998,
+      "heuristic_cpu_energy_j": 15.724382042431243,
+      "C_tx_energy_j": 0.7370194410895196,
+      "heuristic_tx_energy_j": 0.05774505094647663
+    }
+  ],
+  "energy_delta": {
+    "cpu_j": 66.67198730891796,
+    "tx_j": 3.4729682767370083,
+    "total_j": 70.14495558565497,
+    "cpu_fraction_of_total_delta": 0.9504886951921138,
+    "tx_fraction_of_total_delta": 0.04951130480788628,
+    "uav2_cpu_delta_j": 59.48104338788881,
+    "same_done_tasks_cpu_delta_j": 53.58042606324632
+  },
+  "accounting_notes": {
+    "CPU": "Actual cpu_energy_j assigned to served_task_id. This is an accounting decomposition, not a counterfactual causal estimate.",
+    "TX": "Sum tx_energy_j only where link_summary=true; multi-task link rows repeat the same link debit. No task-level TX energy allocation invented.",
+    "CPU_frequency": "Positive CPU service slots only; frequency normalized by each UAV physical maximum from the original configuration.",
+    "latency": "(done_slot-generation_slot)*slot_duration_s; same-task latency uses the 310 tasks completed by both.",
+    "CPU_WAIT": "No positive CPU service before termination.",
+    "CPU_SERVICE": "Some positive CPU service before termination; not necessarily continuous service.",
+    "truncation": "Episode ended before completion; reported separately from deadline expiration."
+  },
+  "source_files": {
+    "service_diagnostic_manifest.json": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\16k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e\\service_diagnostic_manifest.json",
+    "task_lifecycle.jsonl": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\16k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e\\task_lifecycle.jsonl",
+    "cpu_service_trace.jsonl": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\16k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e\\cpu_service_trace.jsonl",
+    "tx_service_trace.jsonl": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\16k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e\\tx_service_trace.jsonl",
+    "evaluation_manifest.json": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\16k\\evaluations\\development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e\\evaluation_manifest.json",
+    "episode_metrics.jsonl": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\16k\\evaluations\\development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e\\episode_metrics.jsonl",
+    "aggregate_metrics.json": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\16k\\evaluations\\development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e\\aggregate_metrics.json",
+    "evaluation_metrics.csv": "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261013_4k8k12k16k\\16k\\evaluations\\development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e\\evaluation_metrics.csv"
+  },
+  "next_step_plan": "Read-only timeline review of the 61 tasks completed only by heuristic, prioritizing the 54 failing in C CPU stage and evaluation seed1044; compare CPU queue arrival, service selection, waiting, and destination workload. Preserve reward, environment and training settings."
+}

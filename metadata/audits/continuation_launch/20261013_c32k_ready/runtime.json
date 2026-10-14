@@ -1,0 +1,14 @@
+{
+  "python": "3.13.11",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "torch": "2.7.1+cu118",
+    "matplotlib": "3.10.8",
+    "PyYAML": "6.0.3",
+    "pytest": "9.1.1"
+  },
+  "cuda_available": true,
+  "cuda_version": "11.8",
+  "gpu": "NVIDIA GeForce MX450",
+  "free_disk_gib": 149.12
+}

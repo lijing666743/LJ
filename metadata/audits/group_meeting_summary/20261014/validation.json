@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "table_rows": 10,
+  "C_checkpoints": 8,
+  "fixed_baselines": 2,
+  "saved_episode_rows_verified": 160,
+  "baseline_episode_rows_verified": 120,
+  "scalar_values_crosschecked_with_existing_summaries": 92,
+  "source_files_unchanged": 19,
+  "source_sha256_checks_passed": true,
+  "completion_ratio": "sum DONE / sum generated; not mean of scene ratios",
+  "energy_per_DONE": "sum energy / sum DONE",
+  "reward": "arithmetic mean of five evaluation episode rewards; not training reward",
+  "scene_metric": "per-scene completion percentage; bar-top labels are raw completed counts",
+  "risk_metric": "only12k onward, as previously reconstructed; missing early diagnostics never filled with zeros",
+  "tests": {
+    "passed": 6,
+    "failures": 0,
+    "errors": 0,
+    "junit": "logs/group_meeting_summary/20261014/aggregation_tests.xml"
+  },
+  "figures": [
+    {
+      "figure": "01_completion_and_reward",
+      "png_size": [
+        3168,
+        1176
+      ],
+      "png_sha256": "781dde1d08ccee235b100ad6fe6292fbc2a247ed2de704b039293bf8ddc93106",
+      "svg_sha256": "588e6952e34fc911d7e0135460773d6fef99daa35cd33199dd341edf65dd7335",
+      "visually_inspected": true
+    },
+    {
+      "figure": "02_energy_cost",
+      "png_size": [
+        3168,
+        1176
+      ],
+      "png_sha256": "01b51661a398a91bdd30bd1ef837d7afdd19346458e9e798ea7f64aa862ef5a5",
+      "svg_sha256": "4ae7ef20d3eaa9501e0dfa845317e02d05f80ae99c0e14e62b96ff36c6586cc1",
+      "visually_inspected": true
+    },
+    {
+      "figure": "03_scene_comparison",
+      "png_size": [
+        2832,
+        1176
+      ],
+      "png_sha256": "13ad000c810027789c949e103448150b3ac9f7bcc0dc82ac6643a169093c6066",
+      "svg_sha256": "a3e4bbf2439bc28c0502439a5148e5288134ce1776289608541919daff2147d5",
+      "visually_inspected": true
+    },
+    {
+      "figure": "04_energy_risk",
+      "png_size": [
+        3600,
+        1104
+      ],
+      "png_sha256": "31b49685fd3310bed833d0348badbe12b9266a4b79e56c333d0e4abf0302a1a4",
+      "svg_sha256": "f509eb9eb4b849eb7b45aa2348328c1ec2e51c1686e0a6b3fc9b0b53c0191665",
+      "visually_inspected": true
+    },
+    {
+      "figure": "00_summary_table",
+      "png_size": [
+        3840,
+        1488
+      ],
+      "png_sha256": "894d81174aa4794da6276646ae2a95ad83e8b51e8a57f18f6673345d42a42269",
+      "svg_sha256": "5b611bd082e45225d4ca0548065119cfaa630acb9071d846ea8fa10ffe05eeaa",
+      "visually_inspected": true
+    }
+  ],
+  "smoothing": null,
+  "invented_error_bars": false,
+  "new_training_started": false,
+  "new_evaluation_started": false,
+  "held_out_used": false,
+  "manuscript_evidence_claimed": false,
+  "claim_limits": [
+    "One training seed42 and five development scenes",
+    "No convergence claim",
+    "No energy-efficiency advantage claim",
+    "No unmatched-budget ABC ranking"
+  ]
+}

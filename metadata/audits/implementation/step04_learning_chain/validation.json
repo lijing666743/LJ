@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "scope": "Step04 P1a learning-chain engineering; no experiment training/pretraining/config release",
+  "starting_file_count": 218,
+  "unchanged_previous_files": 205,
+  "changed_existing_files": [
+    "src/config.py",
+    "src/evaluation/route_telemetry.py",
+    "src/models/ca_gat_mappo.py",
+    "src/models/ca_gat_mappo_actions.py",
+    "src/models/ca_gat_mappo_checkpoint.py",
+    "src/models/ca_gat_mappo_trainer.py",
+    "src/models/route_exploration.py",
+    "src/models/route_option_q.py",
+    "src/models/route_task_credit.py",
+    "tests/test_candidate_aware_route_decoder_v1.py",
+    "tests/test_route_candidate_interface.py",
+    "src/models/unified_route.py",
+    "tests/test_unified_route.py"
+  ],
+  "new_source_test_files": [
+    "src/models/route_decision.py",
+    "tests/test_unified_route_learning.py"
+  ],
+  "protected_after_count": 220,
+  "tests": [
+    {
+      "file": "learning_final.xml",
+      "suites": [
+        {
+          "name": "pytest",
+          "errors": "0",
+          "failures": "0",
+          "skipped": "0",
+          "tests": "28",
+          "time": "100.204",
+          "timestamp": "2026-10-12T13:44:02.779420+08:00",
+          "hostname": "DESKTOP-4RBUISE"
+        }
+      ]
+    },
+    {
+      "file": "strengthened.xml",
+      "suites": [
+        {
+          "name": "pytest",
+          "errors": "0",
+          "failures": "0",
+          "skipped": "0",
+          "tests": "3",
+          "time": "101.026",
+          "timestamp": "2026-10-12T13:52:33.912892+08:00",
+          "hostname": "DESKTOP-4RBUISE"
+        }
+      ]
+    },
+    {
+      "file": "regression.xml",
+      "suites": [
+        {
+          "name": "pytest",
+          "errors": "0",
+          "failures": "0",
+          "skipped": "0",
+          "tests": "312",
+          "time": "530.490",
+          "timestamp": "2026-10-12T13:40:56.573806+08:00",
+          "hostname": "DESKTOP-4RBUISE"
+        }
+      ]
+    }
+  ],
+  "unique_pytest_tests_passed": 287,
+  "subtests_passed": 53,
+  "strengthened_affected_test_rerun_count": 3,
+  "historical_models": 3,
+  "legacy_checks": "historical_compatibility.json",
+  "common_initialization_and_config": "formal_configuration_and_initialization.json",
+  "new_actor_loader": "synthetic_actor_loader_check.json",
+  "formal_experiment_training_started": false,
+  "experiment_config_release": false,
+  "next_step": 5
+}

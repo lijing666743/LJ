@@ -1,0 +1,18 @@
+{
+  "scope": "seed42 + fixed development seeds1042-1046 only; one training seed; not held-out evidence",
+  "A": "8k→12k五个场景DONE与reward均下降；12k→16k部分恢复，但16k仍低于8k。后期下降后回升，非平台证据。",
+  "B": "8k→12k五个场景全部改善；12k→16k五个场景DONE/completion/reward全部下降。存在明确的开发场景late degradation，12k仍只作为诊断checkpoint，不替换16k final。",
+  "C": "8k→12k均值改善但场景方向混合；12k→16k DONE为4升1平、reward为5升，仍在改善。C-B的mean DONE差由8k+2.4变为12k−11.0、16k+9.0，恢复信号并非持续优势或稳定因果证据。",
+  "empirical_plateau_candidates": [],
+  "plateau_reason": "未预定义等效界值，不事后选阈值；A/B有明显反转，C仍有增长。一个training seed和四个固定checkpoint不能证明收敛。",
+  "late_degradation_12k_greater_than_16k_mean_DONE": {
+    "A": false,
+    "B": true,
+    "C": false
+  },
+  "32k_decision": "没有必须将三组统一延至32k的证据。C持续改善提供后续定向观察动机，不证明32k必要或必然有益；A/B应先复核后期退化并检验多training-seed重复性。本轮不训练。",
+  "reward_modification_evidence": false,
+  "reward_reason": "未发现reward公式失效或可归因于reward设计的受控证据；训练rollout波动与checkpoint反转不足以支持修改reward。",
+  "final_checkpoint_definition": "16k FINAL_COMPLETED仍是预定final；不将B-12k重新定义为最终模型或paper结果。",
+  "energy_tradeoff": "B的12k→16k总能耗178.1162→131.6814 J，池化每DONE能耗0.436559→0.383911 J/task，故其late degradation指完成数/完成率/reward，不表示所有指标都变差。"
+}

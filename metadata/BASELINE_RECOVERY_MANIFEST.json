@@ -1,0 +1,1665 @@
+{
+  "baseline_tag": "baseline-c32k-20261014",
+  "target_repository": "lijing666743/LJ",
+  "created_date": "2026-10-14",
+  "restore_rule": "Git tag supplies code and curated artifacts; extract all verified recovery ZIPs into an empty directory to restore full experimental outputs; do not overwrite later experiments blindly.",
+  "source_git_head": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+  "assets": [
+    {
+      "name": "baseline-c32k-20261014-A-recovery.zip",
+      "bytes": 249244667,
+      "sha256": "7cc2342faa99c2ee38e787d1a069aea9c02e6ac03db86dd7a56d0d1247814b76",
+      "original_bytes": 1868310852,
+      "file_count": 63
+    },
+    {
+      "name": "baseline-c32k-20261014-B-recovery.zip",
+      "bytes": 247424119,
+      "sha256": "5de807fb1ae0ca81547265752efeb1a1fbbfea0f4890822b9de6eda69784b851",
+      "original_bytes": 1813409813,
+      "file_count": 62
+    },
+    {
+      "name": "baseline-c32k-20261014-C-recovery.zip",
+      "bytes": 480298152,
+      "sha256": "6c6bdc909a6c4c3f35202dcf949c4305b7d7ccfc810c9e040953754e23158558",
+      "original_bytes": 3497346808,
+      "file_count": 134
+    },
+    {
+      "name": "baseline-c32k-20261014-support-recovery.zip",
+      "bytes": 14609905,
+      "sha256": "9b3151ce667de9238d05996880e50821abbc541a85668dfda6abd159ecff8d0d",
+      "original_bytes": 18752828,
+      "file_count": 10
+    }
+  ],
+  "members": [
+    {
+      "path": "dashboard_logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a_metrics.csv",
+      "bytes": 38519482,
+      "sha256": "cffcca89c6d6cb745638d4d44bc357869ba8a425d2e176acad7754207e24ce06",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "dashboard_logs/A/seed42/8k/training_metrics.csv",
+      "bytes": 28217612,
+      "sha256": "5a490ba9fe04afb84718b6ac27d6869957c89dddd33175ad3e9c9402193a7ee7",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/aggregate_metrics.json",
+      "bytes": 35651,
+      "sha256": "f1847f4587d7dbf2749abdb28ff04a506e48be45b92befad85d3da009e511553",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/checkpoints/continuation_from_4000.json",
+      "bytes": 825,
+      "sha256": "6feb26bf600fd5ddae983efe8ade769dc4728509c0525922d4e39fea04d75078",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/checkpoints/final.pt",
+      "bytes": 18615543,
+      "sha256": "c94352238cdcb77d97571842bf9ecc2952393a05e222c044348d6e5cb092b7eb",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/checkpoints/step_12000.pt",
+      "bytes": 28555092,
+      "sha256": "2ee8be084711488c125eebc52bbd8cd97d0c7cef5590d697afcbfe8a4a73232e",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/checkpoints/step_8000.pt",
+      "bytes": 21511188,
+      "sha256": "cdc8194e0547303e7a88f53125724c3abdd941744112e7a401259de712bc129e",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/config_snapshot.yaml",
+      "bytes": 11371,
+      "sha256": "58b467b8cfd85e1b0531d86e958fdfc59030af56fb46d640072b11fa75be715d",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+      "bytes": 613208,
+      "sha256": "104eb8705a5e18e46df61c92a0e8a2b9cb663ebecbc82b5d8ae7baca2dc333d0",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/raw_metrics.jsonl",
+      "bytes": 735061335,
+      "sha256": "96186107227f31c1b060e9827ccb2b52147e340aa79bff700b9da1410d7ac2e6",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+      "bytes": 60329651,
+      "sha256": "9840895170a9473482cba10612057e2045abeeb1c4b5949829c2439d6435d542",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+      "bytes": 52192216,
+      "sha256": "35706603ea41b2919bca46936ddd90de7a1817c791bb135b7e42f7ff95f37dde",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+      "bytes": 36255399,
+      "sha256": "c7f8dd73b9f910b2b23a11777ecc94d8fbcec597ab533ea44be528d47d54b4c6",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+      "bytes": 1946944,
+      "sha256": "a0140e6d30a0464551a37a0fbbb70a4f0bfcb9e88c82c2d254625169ea8aaadb",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-dc026714f6e0__cfg-d2463e1929ea__eval-78f388ab7bcb/route_decision_trace.jsonl",
+      "bytes": 4425775,
+      "sha256": "c57fcbbdc632eaa6fe7b55937e19c1010f35cd3083073303673fd1af414789da",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-dc026714f6e0__cfg-d2463e1929ea__eval-78f388ab7bcb/summary.json",
+      "bytes": 1317,
+      "sha256": "8236279c508271381bce33c00df961dc0c9fe44f1a99e790435950160f21ddbf",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-dc026714f6e0__cfg-d2463e1929ea__eval-78f388ab7bcb/cpu_service_trace.jsonl",
+      "bytes": 19028467,
+      "sha256": "fa28183bf01278278f2b16848cd57a3950395aed2c996b82f9600a0b3cd36a2a",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-dc026714f6e0__cfg-d2463e1929ea__eval-78f388ab7bcb/service_diagnostic_manifest.json",
+      "bytes": 1416,
+      "sha256": "7eccba5dee617e3fb52ce745c377c1eccaa84f374cb0264ba72a6ceb07e52d91",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-dc026714f6e0__cfg-d2463e1929ea__eval-78f388ab7bcb/task_lifecycle.jsonl",
+      "bytes": 1596282,
+      "sha256": "893f01cd249b0b76597f5aaa96c194763936e6a8c44a5ac178fdd4335cafaf9f",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-dc026714f6e0__cfg-d2463e1929ea__eval-78f388ab7bcb/tx_service_trace.jsonl",
+      "bytes": 25103643,
+      "sha256": "18db96c3c76b3a99091f60252d926ea486877f1c3d1235a4b2f09841171b5b01",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/checkpoint_progress/20261013_4k8k/evaluation_tests.xml",
+      "bytes": 4434,
+      "sha256": "353746af0b803a906db672b2972c4c562cbb96a3dd805d985fc09c831f28bcbb",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/checkpoint_progress/20261013_4k8k/evaluations/development-service-eval__remote_stress_v2__chk-dc026714f6e0__cfg-d2463e1929ea__eval-78f388ab7bcb/aggregate_metrics.json",
+      "bytes": 16442,
+      "sha256": "4b62f37ef00b0deeff16b2b8b461ce76b4cb3f33e64b58cd2c084d9f97567cf4",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/checkpoint_progress/20261013_4k8k/evaluations/development-service-eval__remote_stress_v2__chk-dc026714f6e0__cfg-d2463e1929ea__eval-78f388ab7bcb/episode_metrics.jsonl",
+      "bytes": 199260,
+      "sha256": "729b16a9dba2051bb4c2d1d90bdca2fafb4d4aea8ebcd120840a6e630b34aa99",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/checkpoint_progress/20261013_4k8k/evaluations/development-service-eval__remote_stress_v2__chk-dc026714f6e0__cfg-d2463e1929ea__eval-78f388ab7bcb/evaluation_manifest.json",
+      "bytes": 16654,
+      "sha256": "225e57390945dc7507f4c25b8fa75d4a1928b264791c66eb6caf8ee897da398e",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/checkpoint_progress/20261013_4k8k/evaluations/development-service-eval__remote_stress_v2__chk-dc026714f6e0__cfg-d2463e1929ea__eval-78f388ab7bcb/evaluation_metrics.csv",
+      "bytes": 10656,
+      "sha256": "754b99d13cf5bf5589c84794d7adcf22b2f6ad7d93dd4811b48b2d7f2fb9b922",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/diagnostics/route_decision_trace.jsonl",
+      "bytes": 739650,
+      "sha256": "023ac080c8a572b113a36be73e94c5ca8ec843ae325fef4444b0ae1c1027ba0c",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/diagnostics/summary.json",
+      "bytes": 1299,
+      "sha256": "50ec04cd1135c5154ab23cd0bc87ad7c65925040b282fd9b73bae6e95b67c321",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/evaluation/aggregate_metrics.json",
+      "bytes": 16418,
+      "sha256": "547955062603f5d52deec963241edf75b16b4e7d056215a7d1eae956c7219a75",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/evaluation/episode_metrics.jsonl",
+      "bytes": 199004,
+      "sha256": "b6c58a03defc40107e347e2cb57ff178d3a3b89ce41cc4ff7639c532e3a2c7bb",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/evaluation/evaluation_manifest.json",
+      "bytes": 16499,
+      "sha256": "0364c0e8c188597bff34e665e6d9675f59a6b4791ab7aa6286973a8974c8f665",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/evaluation/evaluation_metrics.csv",
+      "bytes": 10398,
+      "sha256": "b01fb95804ca0d5ab9d2b93ccffcffea1813afbb111af6058ea12e39253dc9d5",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/training/aggregate_metrics.json",
+      "bytes": 35920,
+      "sha256": "244f083174871c6b743f1f0f835bf0fb1a3d8b8265f3e583af27c79c269e3e65",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/training/checkpoints/final.pt",
+      "bytes": 18588151,
+      "sha256": "5da08bb0309948ab8bbd9423364d6f76b07daf1a8dcdb7786c7dee141f958199",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/training/checkpoints/step_4000.pt",
+      "bytes": 25867284,
+      "sha256": "dc026714f6e0d5b588e1fea83020e5ec8a0e6b817757c01b46855efe59609777",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/training/config_snapshot.yaml",
+      "bytes": 11440,
+      "sha256": "cf45bcd9a9e876c3dbe666abe51034068ae16480a08c1f50667cbb3ab873caca",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/training/integrated_scheduler_updates_v1.jsonl",
+      "bytes": 401529,
+      "sha256": "2f52ca7ed03edaa60de5f45078bdc7cbf8d7329cbd8bdd10ec4a7eec06cbe9b5",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/training/raw_metrics.jsonl",
+      "bytes": 537972305,
+      "sha256": "0afa4519e3afff9ccebd7b0f02c458a07e8f69992fadb4e9e3c21531cdba3533",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/training/route_diagnostic_samples_v1.jsonl",
+      "bytes": 47244092,
+      "sha256": "ea893d09c9fd2b74d412ce45a237fd91c4be571766ba3ee3478f0c83363cb626",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/training/route_option_q_updates_v1.jsonl",
+      "bytes": 40293387,
+      "sha256": "8a17ded31242b177bcc97ddda535ea15b883ecb193daf36eee587c0feec5de69",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/training/route_task_credit_updates_v1.jsonl",
+      "bytes": 27920864,
+      "sha256": "77654975e78ac6588957936d703ede547c4d6aa416666ce0cbf508d32c710de0",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/8k/training/route_training_rollouts_v1.jsonl",
+      "bytes": 1486759,
+      "sha256": "5876d243c677d707036a335e1000de04c1b8765f5dc0e3c6045c15b9a58c834e",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-2ee8be084711__cfg-d2463e1929ea__eval-d893cd3c1376/route_decision_trace.jsonl",
+      "bytes": 751235,
+      "sha256": "9c180b1280ef58e3f911a88b9696b192fd55f4d53b318c3d011b6da3a1975168",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-2ee8be084711__cfg-d2463e1929ea__eval-d893cd3c1376/summary.json",
+      "bytes": 1311,
+      "sha256": "ae65ebe9e7518fdb8ce2bdabb53b30a3daea50d68be45f9133504a7383ac4293",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-2ee8be084711__cfg-d2463e1929ea__eval-d893cd3c1376/cpu_service_trace.jsonl",
+      "bytes": 19038037,
+      "sha256": "fc77b7061d99354abbe4d0dd320df8e97f0f4e122eec5806fb4410c5c9d99ac6",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-2ee8be084711__cfg-d2463e1929ea__eval-d893cd3c1376/service_diagnostic_manifest.json",
+      "bytes": 1416,
+      "sha256": "aeb71c427b8121bccc40ca4ff088e432059640373aad7a1390667afbf8407a01",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-2ee8be084711__cfg-d2463e1929ea__eval-d893cd3c1376/task_lifecycle.jsonl",
+      "bytes": 1593621,
+      "sha256": "b1a2af9305622705d58a75fffe2176771759c2d388d207ede50438321c3d38a5",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-2ee8be084711__cfg-d2463e1929ea__eval-d893cd3c1376/tx_service_trace.jsonl",
+      "bytes": 25143684,
+      "sha256": "f10c38b156451cec1ad05bf87473268ce3d46586cdaf0d1781ce3f789258f5eb",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-2ee8be084711__cfg-d2463e1929ea__eval-d893cd3c1376/aggregate_metrics.json",
+      "bytes": 16491,
+      "sha256": "8cd6a79f3d00b1cdf436656ba4689f0f6b1d11ac59f898beb684ce29cf4fe3a9",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-2ee8be084711__cfg-d2463e1929ea__eval-d893cd3c1376/episode_metrics.jsonl",
+      "bytes": 199244,
+      "sha256": "43015b06153e9fe335406c4448ecac9751c7e60df6fdb9f89a1e1de8e0e9cc57",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-2ee8be084711__cfg-d2463e1929ea__eval-d893cd3c1376/evaluation_manifest.json",
+      "bytes": 17666,
+      "sha256": "e8a9d288ade2736a9cd5c4d5a6feb6eb126a3624fb5faccffc09032e4233c061",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-2ee8be084711__cfg-d2463e1929ea__eval-d893cd3c1376/evaluation_metrics.csv",
+      "bytes": 10658,
+      "sha256": "9201396b8b58118e87ad176e5555f9ed0c7354a685ba7ac9b7cc373d2baa6b70",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-c94352238cdc__cfg-d2463e1929ea__eval-a72d8cc2e9a5/route_decision_trace.jsonl",
+      "bytes": 750454,
+      "sha256": "3cd0e9192a14cf6bed6250b115b545279ed731b4f47a4ac15c46169b292e56ba",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-c94352238cdc__cfg-d2463e1929ea__eval-a72d8cc2e9a5/summary.json",
+      "bytes": 1311,
+      "sha256": "65bef940fbb16f1960491ae6a05caf1c33ac9520e0d3f85c904099fc5971976a",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-c94352238cdc__cfg-d2463e1929ea__eval-a72d8cc2e9a5/cpu_service_trace.jsonl",
+      "bytes": 19027348,
+      "sha256": "e06d1a1e29e531cb2728481cd167a69e65be68190ea9ceb1cc95ec69ad66480c",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-c94352238cdc__cfg-d2463e1929ea__eval-a72d8cc2e9a5/service_diagnostic_manifest.json",
+      "bytes": 1416,
+      "sha256": "c94051c2819ceac3ea7557204b568508ca086a8773686985fbcd4187ed423003",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-c94352238cdc__cfg-d2463e1929ea__eval-a72d8cc2e9a5/task_lifecycle.jsonl",
+      "bytes": 1592812,
+      "sha256": "b997472359bcc2bdc19574db01d03a932518581b21958855b37943f72d29d272",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-c94352238cdc__cfg-d2463e1929ea__eval-a72d8cc2e9a5/tx_service_trace.jsonl",
+      "bytes": 25165313,
+      "sha256": "2a3d3bd059d6a9a420b0e4a0d5658743818a8f65afafe91dca9676c74d89b472",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-c94352238cdc__cfg-d2463e1929ea__eval-a72d8cc2e9a5/aggregate_metrics.json",
+      "bytes": 16515,
+      "sha256": "dc0361fa04d6da8225872e826ae20f72cfc10d479b3cf878a60e59d97717f059",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-c94352238cdc__cfg-d2463e1929ea__eval-a72d8cc2e9a5/episode_metrics.jsonl",
+      "bytes": 199307,
+      "sha256": "627b07a12f26fff84a64a2bc3e3104e059fa58f9d1d90d730de85b8e86d57325",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-c94352238cdc__cfg-d2463e1929ea__eval-a72d8cc2e9a5/evaluation_manifest.json",
+      "bytes": 17661,
+      "sha256": "fbcedee7064b65a667a15d199235e00e4078596a4d40bac5a547d365112e395d",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "logs/A/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-c94352238cdc__cfg-d2463e1929ea__eval-a72d8cc2e9a5/evaluation_metrics.csv",
+      "bytes": 10684,
+      "sha256": "ed0dfdc060c5119b58e5387034a89e70cff1a6aef9e87971f99d3da917c7023e",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "plots/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a_dashboard.png",
+      "bytes": 868107,
+      "sha256": "ecaf186d426e2dee800fecd1530533c5e9c38c83dddf7b3f4e49e893092ffeba",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "plots/A/seed42/8k/training_dashboard.png",
+      "bytes": 811699,
+      "sha256": "15da1cb7dc28dadbe181ac233dcf8338b454c5d0ec914cb22386399fd8baa815",
+      "asset": "baseline-c32k-20261014-A-recovery.zip"
+    },
+    {
+      "path": "dashboard_logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a_metrics.csv",
+      "bytes": 36152734,
+      "sha256": "8c156ac498e6a21a24011bc89cafee6b361b45c374b170b7ebba04c3a30f05c2",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "dashboard_logs/B/seed42/8k/training_metrics.csv",
+      "bytes": 26134514,
+      "sha256": "1f77f16cc30ce6652f319dd805adf8c811d1c26830dca152781ef20feaa16950",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/aggregate_metrics.json",
+      "bytes": 34843,
+      "sha256": "6b670aa656171489b1d6ad9e3bf58a6d54acd7c557cc7c7b268624204a70a17f",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/checkpoints/continuation_from_4000.json",
+      "bytes": 825,
+      "sha256": "a73e0a51c9ccebdef07c93ddcd784e289627e070dde1a9b16f12d1c74f42f9df",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/checkpoints/final.pt",
+      "bytes": 18300167,
+      "sha256": "49f962672e2a429194a553fb41d72f8d84090e4621de6ecfbd6c286dd286e9be",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/checkpoints/step_12000.pt",
+      "bytes": 28282652,
+      "sha256": "d0b1d9fa22ba3f8910cbd2f10808f7bc9c50fdc64ed8eabe2245506c28e98703",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/checkpoints/step_8000.pt",
+      "bytes": 21220764,
+      "sha256": "8d46f0025f19b2ea43f9bffed1a9ae0f33ecb8f5fe92e321834c0743a609a2c2",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/config_snapshot.yaml",
+      "bytes": 11358,
+      "sha256": "34b8306f28598880ebbe6d4a76d022aa3f568b7e9b2b56b254664d8223b1a974",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+      "bytes": 606797,
+      "sha256": "2dd6def3acc10b2f3b987bb0f46700146c5683126e023ef1929eddb3bf92f9b1",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/raw_metrics.jsonl",
+      "bytes": 691621019,
+      "sha256": "1f993aa7ac78a64286b73d233daea17e0ae5e4b2d76d014310438ffa5cf27f67",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+      "bytes": 54505562,
+      "sha256": "54fbe16b9bf023407731f7a0c3b54c29b13b0841aabc4d8b03d36a53fe66ae7a",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+      "bytes": 61340415,
+      "sha256": "6e476acc6dccb17c0bcc2ef5d93f920a80c3bc8d1235008bfe04a72afb9663eb",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+      "bytes": 46847295,
+      "sha256": "7037a7ed5a96d88d2b08c31f394361b8b888ea18416162182efd5224b31181cb",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+      "bytes": 4836792,
+      "sha256": "f021443b661d6388d6d88a73fd437db3e3ecaf5f57139b5fe76c2db6c369bc0a",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-482e62078f94__cfg-d2463e1929ea__eval-b6ea042ce89d/route_decision_trace.jsonl",
+      "bytes": 7495665,
+      "sha256": "319bfcd50d55beeccb18f0bd4d6700af76961b31996461b93152dc0f9c72b40a",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-482e62078f94__cfg-d2463e1929ea__eval-b6ea042ce89d/summary.json",
+      "bytes": 1338,
+      "sha256": "f0af747e2aa4e0c331ed4a3c57730149afcd0138d1a20d82d3207b44f428eb66",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-482e62078f94__cfg-d2463e1929ea__eval-b6ea042ce89d/cpu_service_trace.jsonl",
+      "bytes": 19004843,
+      "sha256": "00543ee8ed16e28b6df2e0ed31c5aeb53e25618e3060f33bcd21cb0fff295367",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-482e62078f94__cfg-d2463e1929ea__eval-b6ea042ce89d/service_diagnostic_manifest.json",
+      "bytes": 1416,
+      "sha256": "ab0f0155d8a12ea6108ed39223ff87086b03e10203e91a04144388467221763a",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-482e62078f94__cfg-d2463e1929ea__eval-b6ea042ce89d/task_lifecycle.jsonl",
+      "bytes": 1598625,
+      "sha256": "a3229fb594e88fa993150a06350f7a883a09e0f201f75fc8202c6d0412c7f971",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-482e62078f94__cfg-d2463e1929ea__eval-b6ea042ce89d/tx_service_trace.jsonl",
+      "bytes": 25098817,
+      "sha256": "5c941021308054ba211c47e21e5f651fd24216793efedbf1be75caf4870eea03",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/checkpoint_progress/20261013_4k8k/evaluations/development-service-eval__remote_stress_v2__chk-482e62078f94__cfg-d2463e1929ea__eval-b6ea042ce89d/aggregate_metrics.json",
+      "bytes": 16468,
+      "sha256": "855a3c51d63b555e0cdac89d0cd7adfcfc248c5283b080032a17bef5a730f9c5",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/checkpoint_progress/20261013_4k8k/evaluations/development-service-eval__remote_stress_v2__chk-482e62078f94__cfg-d2463e1929ea__eval-b6ea042ce89d/episode_metrics.jsonl",
+      "bytes": 199276,
+      "sha256": "f8c5608b0c3eb9508f9790f2cf2e8f66cdf7f0a20b6adb6919107a42257ce641",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/checkpoint_progress/20261013_4k8k/evaluations/development-service-eval__remote_stress_v2__chk-482e62078f94__cfg-d2463e1929ea__eval-b6ea042ce89d/evaluation_manifest.json",
+      "bytes": 16509,
+      "sha256": "e15f6b7fae1fc5425d54456763d3d56a23f0786a9611fa87a0528bbf9a9e9abd",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/checkpoint_progress/20261013_4k8k/evaluations/development-service-eval__remote_stress_v2__chk-482e62078f94__cfg-d2463e1929ea__eval-b6ea042ce89d/evaluation_metrics.csv",
+      "bytes": 10690,
+      "sha256": "b6bbd3bd4dbcbee15b0dc99e4301dde016170e55fb9a129e4f9f0f293a7d9a4d",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/diagnostics/route_decision_trace.jsonl",
+      "bytes": 1193632,
+      "sha256": "ae47eefa1989c98034c2005c3391bc3472b2f32c5b8de8daa550ddb87cd690ca",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/diagnostics/summary.json",
+      "bytes": 1323,
+      "sha256": "8ef4ee1a34991ee50d091ca27a794668b2539e2a07416cdff5c99842134cde5b",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/evaluation/aggregate_metrics.json",
+      "bytes": 16409,
+      "sha256": "1b993159592ee752f20534d4bbf00334f95a79bbca76b7de0306a3856123a56c",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/evaluation/episode_metrics.jsonl",
+      "bytes": 199040,
+      "sha256": "c87689b1f04b6f923e3d7314726b13b66329c0523255096ff672765031472419",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/evaluation/evaluation_manifest.json",
+      "bytes": 16356,
+      "sha256": "a838c69a981bcc109338976d0acf559735bd02229ec1dc639fbb82652f3c11fe",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/evaluation/evaluation_metrics.csv",
+      "bytes": 10395,
+      "sha256": "9c9f9234badecceef56de6dbdf958596007ff9835cd5cbdf01f0e05837397630",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/training/aggregate_metrics.json",
+      "bytes": 35208,
+      "sha256": "8fa2554ca288e670a72b70275ab6174b76498a94da1405be22cf6cb22d706fbd",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/training/checkpoints/final.pt",
+      "bytes": 18272775,
+      "sha256": "2cab254ff8d527726779b7ec18383ffc0cd7710f5edb6d0ac229da2c554feec5",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/training/checkpoints/step_4000.pt",
+      "bytes": 25609820,
+      "sha256": "482e62078f944d3800db2b205afb5b71f48d31d5212f54e5b73cbf58065953e0",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/training/config_snapshot.yaml",
+      "bytes": 11427,
+      "sha256": "b8129aefd034abb4a2730fbd7e9a6a1d77d16493a095dccdc1743bf5bb738486",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/training/integrated_scheduler_updates_v1.jsonl",
+      "bytes": 399171,
+      "sha256": "7375ad3567606264df013303f05b2ca26f25301cf62f2fdb3364802168f27516",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/training/raw_metrics.jsonl",
+      "bytes": 499825099,
+      "sha256": "91c639cebac24eb5cf2ce66388446fdd3ccb3326bce606a9ed8fd2a9f225b34f",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/training/route_diagnostic_samples_v1.jsonl",
+      "bytes": 42188709,
+      "sha256": "4c0a3f0cf6b41caea1bf74c688f3f892f40ac833da943d33cf473862ad6a63b7",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/training/route_option_q_updates_v1.jsonl",
+      "bytes": 46762909,
+      "sha256": "9b7ff7d9e46d28e78682d0591d8fdd2d80e6925f417696bc81a91823d9fcd113",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/training/route_task_credit_updates_v1.jsonl",
+      "bytes": 35694900,
+      "sha256": "7d494a5c49c607c0234085233b6fabc0cd72cd10091c0bc0cc80b9ed3d2f94c2",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/8k/training/route_training_rollouts_v1.jsonl",
+      "bytes": 3677338,
+      "sha256": "a16fc7a06fcd5c0478d788bd491b05d56bf830163730f31e6353c3e32319dfe8",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-d0b1d9fa22ba__cfg-d2463e1929ea__eval-eeb8813de801/route_decision_trace.jsonl",
+      "bytes": 1187187,
+      "sha256": "1f60e2b1e70b78500c9ccded16578dcd5d1c5c6166e84b1cfc45c75eb4bf7ef3",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-d0b1d9fa22ba__cfg-d2463e1929ea__eval-eeb8813de801/summary.json",
+      "bytes": 1332,
+      "sha256": "6cec6c48813394873a1282451a41dcdef8d8bf97b3a3457bd15d29f4e245ad81",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-d0b1d9fa22ba__cfg-d2463e1929ea__eval-eeb8813de801/cpu_service_trace.jsonl",
+      "bytes": 19076589,
+      "sha256": "4f896394c829315f1723c153a7c423d2e3d510da0ec7b188d2c2175e34d4f0a4",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-d0b1d9fa22ba__cfg-d2463e1929ea__eval-eeb8813de801/service_diagnostic_manifest.json",
+      "bytes": 1416,
+      "sha256": "b6a5b0515dd35905de74f1dc8bf6a7536f4ce816f66ef17fc3efb4fdfa3d5f60",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-d0b1d9fa22ba__cfg-d2463e1929ea__eval-eeb8813de801/task_lifecycle.jsonl",
+      "bytes": 1591349,
+      "sha256": "35abc6a0ba4591f51447bdca07eaae7516e115177d493bdee5410750e4535d06",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-d0b1d9fa22ba__cfg-d2463e1929ea__eval-eeb8813de801/tx_service_trace.jsonl",
+      "bytes": 25110121,
+      "sha256": "a36da3dcc5afacd4e146eb220aaff6f1775c0f29dca062dc9ba0721dfa25c4fa",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-d0b1d9fa22ba__cfg-d2463e1929ea__eval-eeb8813de801/aggregate_metrics.json",
+      "bytes": 16437,
+      "sha256": "7484031076576a7aac97d28441b7718c73d9b908cc5438432974e3ad2cea5971",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-d0b1d9fa22ba__cfg-d2463e1929ea__eval-eeb8813de801/episode_metrics.jsonl",
+      "bytes": 199252,
+      "sha256": "1483d2f067c5686865e94c26b4b7189e3be9489b79f9738b7653a7807ed6d074",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-d0b1d9fa22ba__cfg-d2463e1929ea__eval-eeb8813de801/evaluation_manifest.json",
+      "bytes": 17521,
+      "sha256": "6605f1e1895707c4321360f36c315639a89d575660345374845f425fd2ffb926",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-d0b1d9fa22ba__cfg-d2463e1929ea__eval-eeb8813de801/evaluation_metrics.csv",
+      "bytes": 10666,
+      "sha256": "94bf62870ede21593a804bdc46365b4150776a32473e5e034a0b7c0aa832cdcc",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-49f962672e2a__cfg-d2463e1929ea__eval-c575e2bbe14f/route_decision_trace.jsonl",
+      "bytes": 1194897,
+      "sha256": "0ac89d42bcff531d19e81c107bf9da968d1835ede84cfcad599fc2e80f1c478e",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-49f962672e2a__cfg-d2463e1929ea__eval-c575e2bbe14f/summary.json",
+      "bytes": 1333,
+      "sha256": "6098345ca7e37916f3291b026f66dbe320f59dc2a149d280274d53a6175af7b9",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-49f962672e2a__cfg-d2463e1929ea__eval-c575e2bbe14f/cpu_service_trace.jsonl",
+      "bytes": 19038212,
+      "sha256": "34611beb4812a6b8cae2458a1694c895fdbb44d746f02a47bf82037d9587837b",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-49f962672e2a__cfg-d2463e1929ea__eval-c575e2bbe14f/service_diagnostic_manifest.json",
+      "bytes": 1416,
+      "sha256": "f3d4159ea03a67e9aa6507ca9b0e0f476c485df137c1fb243d99f3f4a6ff1a82",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-49f962672e2a__cfg-d2463e1929ea__eval-c575e2bbe14f/task_lifecycle.jsonl",
+      "bytes": 1593092,
+      "sha256": "7110371b048ce2358f3f4145e25d6afc1803854e87155887d471a1a2d59d2932",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-49f962672e2a__cfg-d2463e1929ea__eval-c575e2bbe14f/tx_service_trace.jsonl",
+      "bytes": 25172141,
+      "sha256": "70b924586cc0c653623d76b50b2b54493da57deaa2a0dcd7cab0cb6103447393",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-49f962672e2a__cfg-d2463e1929ea__eval-c575e2bbe14f/aggregate_metrics.json",
+      "bytes": 16489,
+      "sha256": "e24f1dd501c2e6a5288e2cde86417d9334b89c705ba7ed28083b53da6482fe13",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-49f962672e2a__cfg-d2463e1929ea__eval-c575e2bbe14f/episode_metrics.jsonl",
+      "bytes": 199297,
+      "sha256": "b0b32fe24f41818eaae5bda54ab104a11b1e354189af53d41fee1f82a63f2e0d",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-49f962672e2a__cfg-d2463e1929ea__eval-c575e2bbe14f/evaluation_manifest.json",
+      "bytes": 17516,
+      "sha256": "02e3eb7fab0ece92e8ca436f966654aca0b80d3a30abf2482d8d42e9052b2c4d",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "logs/B/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-49f962672e2a__cfg-d2463e1929ea__eval-c575e2bbe14f/evaluation_metrics.csv",
+      "bytes": 10691,
+      "sha256": "aee99374450d1afba546548ec02c3136c3d0eadc70407be0f4c449125ba09fb8",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "plots/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a_dashboard.png",
+      "bytes": 877819,
+      "sha256": "11536f76f936d04f103705d40a218a261250968a86b9cf523ca2e1d5aff10cbe",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "plots/B/seed42/8k/training_dashboard.png",
+      "bytes": 821145,
+      "sha256": "4eb7cf3315dd7e6680a64c85f7ef6ad789c402559db5ce902c3359349a948545",
+      "asset": "baseline-c32k-20261014-B-recovery.zip"
+    },
+    {
+      "path": "dashboard_logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a_metrics.csv",
+      "bytes": 36189947,
+      "sha256": "c72a3c8e2d5fbed6c3cdca47e91052da671c86170b31e157b3b456874ae4bbaf",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "dashboard_logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a_metrics.csv",
+      "bytes": 56977587,
+      "sha256": "4d6fde41c6fd8f7f0824946e8badb80df29887f1029cf3e6efac1d0dcffee73a",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "dashboard_logs/C/seed42/8k/training_metrics.csv",
+      "bytes": 25379190,
+      "sha256": "f384c46a3774fb5800377b7cc0247fe0c30af58fcef453f2c40cd7226c6e3d1f",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "dashboard_logs/C/seed42/checkpoint_progress/20261014_16k32k/progress_metrics.csv",
+      "bytes": 1387,
+      "sha256": "039732ced852f9496e857a148301b8aca0fa8a482cf263c15be9abfe69e1ca43",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "dashboard_logs/C/seed42/group_meeting/20261014_scene_fix/per_scene_metrics.csv",
+      "bytes": 5432,
+      "sha256": "b7477b3af81ecd6734962409e9adbd629feb10ceebe8fb4284bdd2f7b125d1a7",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "dashboard_logs/C/seed42/group_meeting/20261014_scene_fix/summary_metrics.csv",
+      "bytes": 1928,
+      "sha256": "0c008be225cb5de7bb455144e2a0a4a357242afb6d93576758255c1ad107d32c",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/aggregate_metrics.json",
+      "bytes": 34853,
+      "sha256": "d6c38d3d42ff60660cb10a646510e1ae6864a88c327cfd10522f6358f724367f",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/checkpoints/continuation_from_4000.json",
+      "bytes": 825,
+      "sha256": "8c30772d73f03d0f53f6249df60924de7acb5506c685a54251c2b455175938c4",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/checkpoints/final.pt",
+      "bytes": 18399527,
+      "sha256": "dc8754d7871161233d65ee488e2125dbc4258b555b0a3efb7d579c264800c087",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/checkpoints/step_12000.pt",
+      "bytes": 28389452,
+      "sha256": "7c9034e00432c2545f8be8a972ac65580bec6602a7c3e061ef39fa76c91d3690",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/checkpoints/step_8000.pt",
+      "bytes": 21320012,
+      "sha256": "34d5989ad5664934e5e957213c2dd87198f314a1bf84ab246626d88836db6b71",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/config_snapshot.yaml",
+      "bytes": 11411,
+      "sha256": "cd5ee4d6120d2f568a3af48d958411a0aeab8067d592b208b58761197888be51",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+      "bytes": 613839,
+      "sha256": "f8b57efcc3800df956503943305434d53df08a97b6df6fd3ade85c12d8e56f5e",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/raw_metrics.jsonl",
+      "bytes": 692510588,
+      "sha256": "7c35024e989004a0b78c8fe73b2d3bcbe35041e825c24906e8b926c17eac87f4",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+      "bytes": 54598292,
+      "sha256": "7597c1198652ea1ee397e0c5401871a6d0fca096178b18daabe28f5f7f556b7e",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+      "bytes": 61284729,
+      "sha256": "b249d5cfb87987da631588d90497c161bffeda7b14f1a836a58e7aab2998d2c1",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+      "bytes": 46791253,
+      "sha256": "e5b14cd4cfcd995d0550078f22fa6006333eb45aa953f5b7dc84f913ce557517",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+      "bytes": 4819545,
+      "sha256": "ba90e45e3c24a8af5dea5a5b97dc16cdb4516d4e7613549166750dbb11399019",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/aggregate_metrics.json",
+      "bytes": 34964,
+      "sha256": "9304a01b500128452e46ecb5f6dcf5cab2f9b319472e6cb0a28072075f8f338d",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/continuation_from_12000.json",
+      "bytes": 1853,
+      "sha256": "014c703b7e9648ff4d27aee471efbc37dd5bbe0ef2e96bc317f64374b0710c35",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/final.pt",
+      "bytes": 18454247,
+      "sha256": "7b1191d87095e6dd08a6c5523475cfc9c9c67494cffed4f7ef287379efa656b2",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/step_16000.pt",
+      "bytes": 24303052,
+      "sha256": "2c5594728c974c3cffebda7eff8c4b26cc6fda9f693eabedada0a39dc84b6249",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/step_20000.pt",
+      "bytes": 19913804,
+      "sha256": "afd9b73163e61d8fb9891986f9be509fd8b80e2ec38fbb95cbf2eed23027d79e",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/step_24000.pt",
+      "bytes": 27048844,
+      "sha256": "ceb8caf8beebcba021eb8b8f19061c8a74b748d1c49629f4870a739becbd4a0a",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/step_28000.pt",
+      "bytes": 22775308,
+      "sha256": "940cef6a89ffa43bcb23747f0e9f2740411afc5c526053193df24eb00cba360c",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/config_snapshot.yaml",
+      "bytes": 11411,
+      "sha256": "eecc265d6c3ff8299dc16023988a3bdd2d5cf52e1644f191382efc0730f28a98",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/integrated_scheduler_updates_v1.jsonl",
+      "bytes": 1047861,
+      "sha256": "b007f4a3a9e02504fec1ffb75b6793c2c50432f5d45ea99ae0257a2d87002bef",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/raw_metrics.jsonl",
+      "bytes": 1089595608,
+      "sha256": "0c6b8a780d945204fbcd1439b209af0407d78fbf5a45f3b1035422f6902d1db3",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/route_diagnostic_samples_v1.jsonl",
+      "bytes": 81783079,
+      "sha256": "5b1bc032dab427a6e34aba74ed8e5d49699c4d43415e44730012e26fb4285c47",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/route_option_q_updates_v1.jsonl",
+      "bytes": 92403525,
+      "sha256": "041593e3b076037d1ea35afc2f1471870b8177dc52ec0bfc82585c4d3cb250e6",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/route_task_credit_updates_v1.jsonl",
+      "bytes": 70372343,
+      "sha256": "bc58d425b2be44cab3eb63cc8b2d3a896f82a3086b15c8410a93d7f3cf7e79f3",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/route_training_rollouts_v1.jsonl",
+      "bytes": 7164766,
+      "sha256": "ed5ed8fc57c3da8e8e68f859823ec41040934f2f65fcab5bb817071823625dcb",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-2a92745919ef__cfg-d2463e1929ea__eval-b43a8e43300f/route_decision_trace.jsonl",
+      "bytes": 6272478,
+      "sha256": "af88c0a3a5663a10326a2f8a0031852b7da4b905b0a05ec98055e4a00483b2d2",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-2a92745919ef__cfg-d2463e1929ea__eval-b43a8e43300f/summary.json",
+      "bytes": 1338,
+      "sha256": "eded5b6703d9808c44d55632838b450a1b3b73a9a05e59b6e7d2122c6c307446",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-2a92745919ef__cfg-d2463e1929ea__eval-b43a8e43300f/cpu_service_trace.jsonl",
+      "bytes": 19018821,
+      "sha256": "fc75510cd35734555855901e2bd25379e3368d4a704a4e249ef96b8b6862a9c7",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-2a92745919ef__cfg-d2463e1929ea__eval-b43a8e43300f/service_diagnostic_manifest.json",
+      "bytes": 1416,
+      "sha256": "d3bccfa376f8ce623d96ce40e85ce4978fced8d897626f2f6b5a55d76a1a87d9",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-2a92745919ef__cfg-d2463e1929ea__eval-b43a8e43300f/task_lifecycle.jsonl",
+      "bytes": 1598087,
+      "sha256": "eebf8c587026878c6255e6a7f3c777cfdcc6ce5f7cfb6f51ddd4d290c04a9b49",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/checkpoint_progress/20261013_4k8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-2a92745919ef__cfg-d2463e1929ea__eval-b43a8e43300f/tx_service_trace.jsonl",
+      "bytes": 25110631,
+      "sha256": "0abd98709db2527d39a96ca50c9270e1993393f0d9f1db9d2c4c3ba60b7dd1cd",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/checkpoint_progress/20261013_4k8k/evaluations/development-service-eval__remote_stress_v2__chk-2a92745919ef__cfg-d2463e1929ea__eval-b43a8e43300f/aggregate_metrics.json",
+      "bytes": 16440,
+      "sha256": "f1d45428ee7384d445c10ab47e19c1a35dd35d966d6ca04061ee7567c33c3967",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/checkpoint_progress/20261013_4k8k/evaluations/development-service-eval__remote_stress_v2__chk-2a92745919ef__cfg-d2463e1929ea__eval-b43a8e43300f/episode_metrics.jsonl",
+      "bytes": 199272,
+      "sha256": "6545cd7fd8edd8371b69d9544864ed963582992a086e0f762c728c68c23c79ee",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/checkpoint_progress/20261013_4k8k/evaluations/development-service-eval__remote_stress_v2__chk-2a92745919ef__cfg-d2463e1929ea__eval-b43a8e43300f/evaluation_manifest.json",
+      "bytes": 16806,
+      "sha256": "6ae559c7e3d76cf61473143245c0a384050833ff43c90d349f1ef6d3cf961d96",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/checkpoint_progress/20261013_4k8k/evaluations/development-service-eval__remote_stress_v2__chk-2a92745919ef__cfg-d2463e1929ea__eval-b43a8e43300f/evaluation_metrics.csv",
+      "bytes": 10650,
+      "sha256": "17c8517987850122a3cf0323572c4832ed1d035079d30386a6369d7747994837",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/diagnostics/route_decision_trace.jsonl",
+      "bytes": 1278700,
+      "sha256": "7fd212341e5e0b4b76e8d9a3f0ff6530a18b782336fef29352b0af71f8a9031c",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/diagnostics/summary.json",
+      "bytes": 1322,
+      "sha256": "c827e3cbdf020cf2c4bbc1a11d42e7ff4472827495472dc57cdce76b82e44438",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/evaluation/aggregate_metrics.json",
+      "bytes": 16471,
+      "sha256": "3b61d52a10c29bb15ab6478a5aeeacb5702a765b0b9132ca1968c1f36d1156dc",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/evaluation/episode_metrics.jsonl",
+      "bytes": 199034,
+      "sha256": "3069ef82394e81f23cf1a624ed21b832d86f3ab0761533169b53ad0256c3bd2d",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/evaluation/evaluation_manifest.json",
+      "bytes": 16649,
+      "sha256": "eb5a1334f67e057150752bc1d549d061fea1352980376732cea3a48f43043a06",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/evaluation/evaluation_metrics.csv",
+      "bytes": 10428,
+      "sha256": "8ccb9b61026da6ac21c6b97c7dd07b8f24ddd1d42ee02d1d08f7a9782771a512",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/training/aggregate_metrics.json",
+      "bytes": 35146,
+      "sha256": "6fd9e03db302a2f1779f45e0aadee1ec0335fdd234151748425e8a4671df3c22",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/training/checkpoints/final.pt",
+      "bytes": 18372199,
+      "sha256": "58da11c49bde4a517471e1386842b90568fdb1ffe51d9c290caa7e3d442ff1b5",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/training/checkpoints/step_4000.pt",
+      "bytes": 25701068,
+      "sha256": "2a92745919ef42316131ab70dd67c6cbb9fa91cfb1cb08ebd2931e5913b50325",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/training/config_snapshot.yaml",
+      "bytes": 11480,
+      "sha256": "1659ed4498a39b3b2424b8d81e4ee9d36628c50ecd8b21e52bba7eeaac12bc49",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/training/integrated_scheduler_updates_v1.jsonl",
+      "bytes": 399328,
+      "sha256": "8d1cc106053d840cabba5e4e11842bc136672b9b2d859a953b04ba9d1ce3bba1",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/training/raw_metrics.jsonl",
+      "bytes": 485676531,
+      "sha256": "880cf63e43f76ca94b396a7f66fa04473d5dd574f7525a3174e9cba370e54687",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/training/route_diagnostic_samples_v1.jsonl",
+      "bytes": 40358626,
+      "sha256": "6f55b8044bda1e6486ba6089a11483afcc229da9f02ca1d4ebcdb63d30464325",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/training/route_option_q_updates_v1.jsonl",
+      "bytes": 44610548,
+      "sha256": "9f02f898dd8d00414b58534925f9619b16b9e9f03352d60189a94fd2f3214fb4",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/training/route_task_credit_updates_v1.jsonl",
+      "bytes": 34040848,
+      "sha256": "7470c7fdddd2210b63a430dddc0dd353aa6149fb778116dfd9fb2d380a446b38",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/8k/training/route_training_rollouts_v1.jsonl",
+      "bytes": 3500299,
+      "sha256": "a7411c8e4226f3a2e0bc35f138f507998e6ffbfda036efa1518b9542ae372d75",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/route_decision_trace.jsonl",
+      "bytes": 1187231,
+      "sha256": "0f476fc277d0631be1aedb9c56d3a8fbe97b7c5bddee61bfa4f81d70e6ffc3b0",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/summary.json",
+      "bytes": 1334,
+      "sha256": "436f15a8ee8144db79bb225edce76b9b0328e38221ea9054894cb5a9c0e2970c",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/cpu_service_trace.jsonl",
+      "bytes": 19027793,
+      "sha256": "dc0fb5ab50f498cdb0187a8d500a64110275749fe410238564f14c410c130675",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/service_diagnostic_manifest.json",
+      "bytes": 1416,
+      "sha256": "f3c4233cbaaa7426e56467470ae8f19e5f0c95e9d48ac1bc07e7016202196dfd",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/task_lifecycle.jsonl",
+      "bytes": 1592579,
+      "sha256": "27ad9708f6b1207c94cccb3ff0a77efbcee5f40182aa3e78bfef053ec4a3cf55",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/tx_service_trace.jsonl",
+      "bytes": 25126438,
+      "sha256": "beae56efc9664f55a9a3cb40bd8b5d2d005a8b8d78a1d9e52c5f41432e8387d8",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/aggregate_metrics.json",
+      "bytes": 16492,
+      "sha256": "0331fa58ada06bc5ccb73c50485eca92aa75339720108351ab61e71141976900",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/episode_metrics.jsonl",
+      "bytes": 199267,
+      "sha256": "77df2bdeda07d1185e2654443737d24d09edaf80ae674a324eb1943cbeb3da2f",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/evaluation_manifest.json",
+      "bytes": 17818,
+      "sha256": "54d9c94dc142e8a8bde92419271f63f3b3f612e4c2a655ac2c0231874680b620",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/evaluation_metrics.csv",
+      "bytes": 10662,
+      "sha256": "cab49908ed29ff2e540b2f53f62f726b2c85f671408d8ccd3d80de83173b26b3",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/route_decision_trace.jsonl",
+      "bytes": 1186032,
+      "sha256": "785cb0c585668c4907fe81e31903136bc8afca82c208ab152835818873fcde5f",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/summary.json",
+      "bytes": 1333,
+      "sha256": "b102a699441860bbcf76c6656e95e724175bc5de356637eb63cb369610c0ab2d",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/cpu_service_trace.jsonl",
+      "bytes": 19070940,
+      "sha256": "c7d91b6dd43bc1ac7a1eb6d4a587925d6d047d966d3206e7f18480eb95827a62",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/service_diagnostic_manifest.json",
+      "bytes": 1416,
+      "sha256": "caeb727f67325f43a287035f593890e5d5e32a2c02462c4992bd8418a0d1ac06",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/task_lifecycle.jsonl",
+      "bytes": 1591822,
+      "sha256": "977747cd9b5946bacd3028c2168af0146f7fd137450c205248d6756f4b102d56",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/tx_service_trace.jsonl",
+      "bytes": 25126654,
+      "sha256": "ec5dd3d5974175e43f4f33afe330adc8d650793944a46d5dc7be5b06e04ad3bf",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/aggregate_metrics.json",
+      "bytes": 16485,
+      "sha256": "0ae2da8eb18fae8bd5843632764573c0934fd2d867bb23c3a2b3558862324855",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/episode_metrics.jsonl",
+      "bytes": 199270,
+      "sha256": "146e46a2764885b55aec66ef8775cda49ba7c5c98b428f27567ea17efd6585da",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/evaluation_manifest.json",
+      "bytes": 17813,
+      "sha256": "6e7204615d8cc9f6659b8e9f040fefe703c4251e3209daeec2c3f58edfe5fd72",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/evaluation_metrics.csv",
+      "bytes": 10664,
+      "sha256": "ab88d264250ea81a6962518fc6883746a591f4d133cc6b7ce1d6dadd076a44a8",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/route_decision_trace.jsonl",
+      "bytes": 1187504,
+      "sha256": "1d1f6dba109a2864b31b2c71189a0410bd0db2565f72f0d586f0dc5a5f3fa5c9",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/summary.json",
+      "bytes": 1333,
+      "sha256": "9bae0ce7df15d154db3de99a1e608f547778ed9dcc762ff5422cada7ce7a5524",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/cpu_service_trace.jsonl",
+      "bytes": 19089234,
+      "sha256": "f9fc38ce5645d986e303ef89808ffb438e6c856ba0e42f7f0f8105b2998a5b4c",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/service_diagnostic_manifest.json",
+      "bytes": 1416,
+      "sha256": "6e1c81322b6c74c749e489d72888f05fa984ca75b8ddf1f4603cefdf8e3a2ff7",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/task_lifecycle.jsonl",
+      "bytes": 1591002,
+      "sha256": "ba1a9228f12553acbf31a3fd67fc12630f3a323849d94ddd10d735ed3d588a47",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/tx_service_trace.jsonl",
+      "bytes": 25138609,
+      "sha256": "90cf1f94d8f0afa567a7ce40a1f6bbfb8f671d97f49d9d954b55ee46c1d41b4c",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/evaluations/development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/aggregate_metrics.json",
+      "bytes": 16424,
+      "sha256": "85e62cdace773a5fa42fe67850d3de0cbb961036937bb50686d97f22f72f1182",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/evaluations/development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/episode_metrics.jsonl",
+      "bytes": 199235,
+      "sha256": "a854e46620be086c5d56770376959c29adcdca404be51e4644b7eef71233f4cd",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/evaluations/development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/evaluation_manifest.json",
+      "bytes": 18914,
+      "sha256": "522870721564f01e2d30a695e95f73185d59dfaa9158cd2ded8ac536bc282c33",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/evaluations/development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/evaluation_metrics.csv",
+      "bytes": 10649,
+      "sha256": "e58767bf458b1955b8c140aed3007d9a8dbd4211590821d052c16586f7deaa47",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/route_decision_trace.jsonl",
+      "bytes": 1184326,
+      "sha256": "33c683b92be2e9137adf1adb6ebc3e2aa967cba0ff53628dae081d00dc4ca95a",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/summary.json",
+      "bytes": 1332,
+      "sha256": "51f6658f6b8cf9ce01fd7a48c23e33b5c75596caa31282c7d44327f9ddc1c292",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/cpu_service_trace.jsonl",
+      "bytes": 19088606,
+      "sha256": "aa8dca6d37b4094268c5d3b6da24e7e503edea8ca2cc9067f2f01d3066ac04df",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/service_diagnostic_manifest.json",
+      "bytes": 1416,
+      "sha256": "95a9ed5f3585467e8e7e48695cbfe007988926e406fa9bccf60e16cccd2c372d",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/task_lifecycle.jsonl",
+      "bytes": 1591079,
+      "sha256": "89ea73300e1e91d27f936de6d92e7a6025ec66f0d1d9888fcfe040a12f63ec84",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/tx_service_trace.jsonl",
+      "bytes": 25129109,
+      "sha256": "bfca9777139bb777dd4269cf82d93af742be269f2f5d64fe5518b6771d7f14de",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/evaluations/development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/aggregate_metrics.json",
+      "bytes": 16490,
+      "sha256": "c846f3dd25eefcb2724fb99933727a03aa32255ffeebe513873b2d8b1c71320e",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/evaluations/development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/episode_metrics.jsonl",
+      "bytes": 199299,
+      "sha256": "a3c2faefbb26d9176aa4aa6273546b3364bb67701061a671e0dc8121136fcb71",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/evaluations/development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/evaluation_manifest.json",
+      "bytes": 18914,
+      "sha256": "25915f593ad67306a6450494cba972580f491573dde8c7eec8062292f467952e",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/evaluations/development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/evaluation_metrics.csv",
+      "bytes": 10677,
+      "sha256": "fca9c0416397ffc4ee5bfb60ec84bcc2a38de995a8aab0859586abb10e05d14d",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/route_decision_trace.jsonl",
+      "bytes": 1286143,
+      "sha256": "0096214a2bbe6067999b966b778b78309c777e32db2aa7a2df06df0e2bfd702b",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/summary.json",
+      "bytes": 1333,
+      "sha256": "7372949cecd993b3b063999be44eee725371cee755f12d8f7318e5d3e2214f74",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/cpu_service_trace.jsonl",
+      "bytes": 19090485,
+      "sha256": "d9cd141c6a1da31c4e619ef167896c1a736c79fc4cfaaa531a6e0594832a4f00",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/service_diagnostic_manifest.json",
+      "bytes": 1416,
+      "sha256": "a802241d1dfefd6ec688e46c8bc1c9cc934581630a23aa2f401c29b39082fbd1",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/task_lifecycle.jsonl",
+      "bytes": 1591128,
+      "sha256": "ca5af9dbb610a84d5f62ed26c7c24d1ac87b41b2ef940e982cb9a139301cacca",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/tx_service_trace.jsonl",
+      "bytes": 25139270,
+      "sha256": "91983ab024bd706890ee29048799f94a93d00d4235415168a5c2803822bbf699",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/evaluations/development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/aggregate_metrics.json",
+      "bytes": 16423,
+      "sha256": "17dc5b457951f10c38d056a66804603ac07fea8c33347f0334f8f6d7eabd3e1f",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/evaluations/development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/episode_metrics.jsonl",
+      "bytes": 199266,
+      "sha256": "b1d535fc4ed68d8083c54ba0c04ace54722433f6e3ef0255df76f4705e462e40",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/evaluations/development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/evaluation_manifest.json",
+      "bytes": 18914,
+      "sha256": "36e74ad28795768ad1936d3058c2d17773590e4a5df18e9b183202a905e96f0d",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/evaluations/development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/evaluation_metrics.csv",
+      "bytes": 10643,
+      "sha256": "b1d0c6098bab3ebc12f78e8049f745ee04a00986ff0b9709ebbf855acad004dc",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/route_decision_trace.jsonl",
+      "bytes": 1186157,
+      "sha256": "925e129ec1be2bea5b133a66748b5cc560682f8bec80c586bf62cd947a5e01bd",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/summary.json",
+      "bytes": 1331,
+      "sha256": "7f851183d4b61bedbe475e527c51a3f3bfce14bf41fc68f1040d10b1477f23ed",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/cpu_service_trace.jsonl",
+      "bytes": 19089478,
+      "sha256": "4cfd08adcc7c07f8a665f83c7a4aba1d9865b72bdb43159108eb9118f9d4332d",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/service_diagnostic_manifest.json",
+      "bytes": 1416,
+      "sha256": "8b7edfec3444c9280ecb24a1bd61f9b4a37e258673b96259bac73758b7c9ca80",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/task_lifecycle.jsonl",
+      "bytes": 1590928,
+      "sha256": "c0d28f97821ac9b4cc0ffdff8bd41c1e0aa8a5187028c186312a782e1dc478ca",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/tx_service_trace.jsonl",
+      "bytes": 25137914,
+      "sha256": "fb571f3b3b2d590c47fdf10d94074171604a4d196a67e68b39400f0432709a97",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/evaluations/development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/aggregate_metrics.json",
+      "bytes": 16421,
+      "sha256": "986ef57ac0c40ea83c700100fa4e25f4143f8344b6b7fae468bc8f4a45b267a9",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/evaluations/development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/episode_metrics.jsonl",
+      "bytes": 199260,
+      "sha256": "ea6c37f5f16651ab914ae3e625539c3701302d5cc032088ef98529673c71d95b",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/evaluations/development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/evaluation_manifest.json",
+      "bytes": 18909,
+      "sha256": "7b157dafd8f1173932a08c7c932f6a1e42d3a4ca47fe4c938b2653bab6cbac0d",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/evaluations/development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/evaluation_metrics.csv",
+      "bytes": 10654,
+      "sha256": "8d22b7a3c14fa5fde9197f6fc6c446185352c928376f9f40ebe76b9243f0a6f5",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "plots/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a_dashboard.png",
+      "bytes": 868584,
+      "sha256": "a7f7c2eab2682b8db80269f12244689cd5f177dbaec83d84503b709cccb9e963",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "plots/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a_dashboard.png",
+      "bytes": 964655,
+      "sha256": "7608dd5932b69bc1e205be814be917e31d58120cafcf5e93986202c9eaf436c5",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "plots/C/seed42/8k/training_dashboard.png",
+      "bytes": 834159,
+      "sha256": "5a2a3584f43aed0a91b144e857b5137bf0b7effb951b2f8346a110aafc7a146f",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014_scene_fix/00_summary_table.png",
+      "bytes": 326946,
+      "sha256": "894d81174aa4794da6276646ae2a95ad83e8b51e8a57f18f6673345d42a42269",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014_scene_fix/00_summary_table.svg",
+      "bytes": 40838,
+      "sha256": "b01d1148760b5a470f0ebfa02753660f67fc05905671f0d4f7d11256ab3646aa",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014_scene_fix/01_completion_and_reward.png",
+      "bytes": 219907,
+      "sha256": "781dde1d08ccee235b100ad6fe6292fbc2a247ed2de704b039293bf8ddc93106",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014_scene_fix/01_completion_and_reward.svg",
+      "bytes": 27928,
+      "sha256": "65c07613d2d0169c6687c2e654a04c7246128acd8d78c9f45596e204ce1389dd",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014_scene_fix/02_energy_cost.png",
+      "bytes": 196923,
+      "sha256": "01b51661a398a91bdd30bd1ef837d7afdd19346458e9e798ea7f64aa862ef5a5",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014_scene_fix/02_energy_cost.svg",
+      "bytes": 24815,
+      "sha256": "1a2cb62183b6490eb387f011f8e823a1226b9a17738516bb844a766be29b40b3",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014_scene_fix/03_scene_comparison.png",
+      "bytes": 154988,
+      "sha256": "65a54c4ec61c4dc53c22e9b445bde2ecd50dec5f9aa4f208b8d0b5fc0620b8e2",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014_scene_fix/03_scene_comparison.svg",
+      "bytes": 16846,
+      "sha256": "b98953604eb3583c6ec821587fe1175386ba4b80174f0ad5ea6bf0b70745bb07",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014_scene_fix/04_energy_risk.png",
+      "bytes": 266798,
+      "sha256": "31b49685fd3310bed833d0348badbe12b9266a4b79e56c333d0e4abf0302a1a4",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014_scene_fix/04_energy_risk.svg",
+      "bytes": 32950,
+      "sha256": "a3ca2943dbcc66662d82b8387bd7a299d5739364b237a1b317fc2a6fa7f65657",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014_scene_fix/C_group_meeting_figures_corrected.zip",
+      "bytes": 1086625,
+      "sha256": "573ed68606e4ee4d49e22a8af124bbe4f13106d70fdc20070446d33701567d36",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014_scene_fix/figure_data.json",
+      "bytes": 45908,
+      "sha256": "3495cd89f2512a2264f648065bf05d7f45c79cac5a0d22aaa71740ce07fa44b0",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014_scene_fix/figure_recipe.json",
+      "bytes": 16344,
+      "sha256": "4ab28cf3703998f38fd3dc57ae7d4c44c9d056dd4624aba4051425dc9bbb367f",
+      "asset": "baseline-c32k-20261014-C-recovery.zip"
+    },
+    {
+      "path": "logs/engineering/cleanup_20261014/collection.log",
+      "bytes": 151690,
+      "sha256": "3de8d0c8baa4c4944cd3d18168d633777bc26f7a5b54b323e6f542c3665e5600",
+      "asset": "baseline-c32k-20261014-support-recovery.zip"
+    },
+    {
+      "path": "logs/engineering/cleanup_20261014/regression.log",
+      "bytes": 2850,
+      "sha256": "d1b2ce217ad014f9fd96798a399b668d1f0582e2e9944df87eaa9d9425289dc5",
+      "asset": "baseline-c32k-20261014-support-recovery.zip"
+    },
+    {
+      "path": "logs/engineering/cleanup_20261014/regression_verified.log",
+      "bytes": 410,
+      "sha256": "d961677dc4c3eecca8c5121a0de0c1270af461c3ee7bbd83d73fa847e7436e4f",
+      "asset": "baseline-c32k-20261014-support-recovery.zip"
+    },
+    {
+      "path": "logs/engineering/cleanup_20261014/restore_A16k.log",
+      "bytes": 1455,
+      "sha256": "fa56b42e67e22b5392c74eee16e39f1d80597f7aad9f5ac8c0cbbd394987c565",
+      "asset": "baseline-c32k-20261014-support-recovery.zip"
+    },
+    {
+      "path": "logs/engineering/cleanup_20261014/restore_B16k.log",
+      "bytes": 1455,
+      "sha256": "4b26a2ca3ae3f27c0d9901c8810943583c3b4f98f59a2ac5fbafb38d21b84cd8",
+      "asset": "baseline-c32k-20261014-support-recovery.zip"
+    },
+    {
+      "path": "logs/engineering/cleanup_20261014/restore_C16k.log",
+      "bytes": 1455,
+      "sha256": "a7ec59b87dbeedf29460766d02141456d7af69b83d5dfdcf809d4ca08a2f8f29",
+      "asset": "baseline-c32k-20261014-support-recovery.zip"
+    },
+    {
+      "path": "logs/engineering/cleanup_20261014/restore_C32k.log",
+      "bytes": 2539,
+      "sha256": "57f6b96cf50e206fc7d37aeea12ddb26535c294c3e0efc5ab8dbbae31d8eedd3",
+      "asset": "baseline-c32k-20261014-support-recovery.zip"
+    },
+    {
+      "path": "logs/group_meeting_summary/20261014/aggregation_tests.xml",
+      "bytes": 1078,
+      "sha256": "439c08264f81558eaf307f8daddba3e07dd49324b7e3d99cc4be02977222d8c1",
+      "asset": "baseline-c32k-20261014-support-recovery.zip"
+    },
+    {
+      "path": "logs/group_meeting_summary/20261014_scene_fix/aggregation_tests.xml",
+      "bytes": 1617,
+      "sha256": "fc71842ccc951cca12c86334bfb802f548f5d370a069abcd0269fc76adb1cd2a",
+      "asset": "baseline-c32k-20261014-support-recovery.zip"
+    },
+    {
+      "path": "metadata/reference/p1a_seed42_1044/training/checkpoints/final.pt",
+      "bytes": 18588279,
+      "sha256": "d303878ed57dcfca0ee9d04354ab678046fbf22b3546aef38a853b53bae7a062",
+      "asset": "baseline-c32k-20261014-support-recovery.zip"
+    }
+  ],
+  "excluded_local_directories": [
+    ".agents",
+    "knowledge",
+    ".idea",
+    ".git",
+    "tmp",
+    "metadata/local_backups"
+  ],
+  "excluded_nonexperiment_outputs": [
+    "plots/literature_review_20261013"
+  ],
+  "future_clone_resume_identity_migration_required": true
+}

@@ -1,0 +1,925 @@
+{
+  "schema": "task_allocation.seed_usage_audit.v1",
+  "created_at_utc": "2026-10-12T04:13:33.583861+00:00",
+  "candidate_seeds": [
+    20042,
+    20043,
+    20044,
+    20045,
+    20046,
+    20047,
+    20048,
+    20049,
+    20050,
+    20051,
+    20052,
+    20053,
+    20054,
+    20055,
+    20056,
+    20057,
+    20058,
+    20059,
+    20060,
+    20061
+  ],
+  "candidate_hits": [],
+  "parse_errors": [],
+  "scanned_file_count": 84,
+  "scanned_files": [
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e13-v1-tx-paired-shadow-seed42-32k.json",
+      "sha256": "ef38feebd065fadad0d7dac70db5acf8d0f4590cb7ab9b96688642f893333c6d",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e13-v1-tx-paired-shadow-seed43-32k.json",
+      "sha256": "1a2ef7836882ab7312bd456570949679a1d459711bcba7a15b5a469e5fa2aa42",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e14a-v1-cpu-feasibility-seed42-8k-dev.json",
+      "sha256": "362418440e3411b3d0db6efd884ac77009300dd31c0057129d86f2854a7e57e1",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e14b-v1-route-log-barrier-seed42-8k-dev.json",
+      "sha256": "0692b5e12054231bc9acf54119da07fedd3de6cbae21a34382ca4d63df66ca63",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e14c-v1-route-task-credit-seed42-8k-dev.json",
+      "sha256": "a5f22c5f7d79fd2cf9ce84430b55b0675856c48c5bf329f9268de07bb1b2f77e",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e14d-p0-dual-branch-seed42-8k-dev.json",
+      "sha256": "585f986f416788a76c152551037a1b8308bc7944c5a6731d8ec252581bb17415",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e14d-p0-legacy-seed42-8k-dev.json",
+      "sha256": "19ddcc13b5c580a9524d3bdf6627b9943401fd889535977b852a644230380781",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e14d-p0-normalized-seed42-8k-dev.json",
+      "sha256": "009e5521d5f9dfeafd2a2af39ac064e803950c6b5b4b73dba15560743344d218",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e14d-v1-route-counterfactual-q-seed42-8k-dev.json",
+      "sha256": "6893e98aeb6e2f3af426fed9147cb23c1b7c20df16df06a5d5b88d3e103a43e1",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e14e-p1a-task-event-credit-seed42-8k-dev.json",
+      "sha256": "d4442ef7284c2894f37fff518fbe9fba0b2501b6eeebb4e3e852976eae4f378d",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e15-system-aware-destination-ranking-seed42-8k-dev.json",
+      "sha256": "f9cb0e16a0c82dcdcf271d8f700000a63ac5a8ddd88d468a12bf8e1b8127e20a",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e16-destination-dataset-settings.json",
+      "sha256": "2529fa1ffa988356fef152935ae3d92e1a73733e722d161f2216ce2af979ff4a",
+      "declared_seed_values": []
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e16-destination-distillation-settings.json",
+      "sha256": "fea14aa2be334b03894f9b5caf98afbf41da5675680ff3719253b1247c5b5f06",
+      "declared_seed_values": [
+        42
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e16-destination-pretrain-seed42-ft2k-dev.json",
+      "sha256": "84c5e05c0ca92f53741cf857b06a607baec781d5efe13766dd7ee93748f32e73",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/configs/e16-destination-pretrain-seed42-ft4k-dev.json",
+      "sha256": "245cc4f26fa415371ebb2055daf3ba07ac4ee81bc833cc41eb54df196df97621",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/cooperative-load/templates/e13-v1-future-seed-template.json",
+      "sha256": "4476e0350a8ddf70d08f5d639fe936ae31f5e274d68de96528334f768897fef8",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_full.json",
+      "sha256": "b631a970b5b34387c831488775a81eb663d9a10e4f770b143faf652393f2cd69",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        2042
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_ladder_l1.json",
+      "sha256": "be3888d1a5bfd3396fb1fe2e412132662d18d90480a75f6536fbdcacb434d140",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        2042
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_ladder_l2.json",
+      "sha256": "0d7e56730ee97ae5f00cba30810ae097ad6eb0e8c50339a5e1dab59e0743d77a",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        2042
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_ladder_l3.json",
+      "sha256": "3ace18b7d9486975a832b2857b628aad2a33598e3499d3b03d1c2ea910974289",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        2042
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_ladder_l4.json",
+      "sha256": "437cb66e99ae2ed0480e9e66002526c736126c63232c88e3c09206893ff152f2",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        2042
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_ladder_l5.json",
+      "sha256": "4a46692652439ec2361175aca268411e19daa144f3f2fb108a65c080b15dfa2b",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        2042
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_learnability_easy.json",
+      "sha256": "fde2b3e727911c5806a4ce6bdd83fe3a45f750a074a5681361f3d7a7aba1d8cd",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        2042
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_low_load.json",
+      "sha256": "3a7d8391fd11287fd2eec2f164d086e2730d6df57f99aab5ce7e632acd9a8423",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        2042
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_no_interference.json",
+      "sha256": "0738662cf7e89bb543be9b81c016ee2d60719f233604ba900bef5ecb7879581b",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        2042
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_no_stochastic_channel.json",
+      "sha256": "40787f7ec8913ead5aa19e1200e2aca1cf41a79f0c1ecc567b09443c21431122",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        2042
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_perfect_csi.json",
+      "sha256": "72b6c8faacb39b52f4aaf9e18a8ed986944f740b7b41dffe621cb721561b972b",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        2042
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_relaxed_deadline.json",
+      "sha256": "6c5b0c33f1459d6af92a9d14053a13f6577b581fe94a123a789d29d7dd15a46e",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        2042
+      ]
+    },
+    {
+      "path": "D:/My_project_li/experiments/environment-learnability/configs/remote_stress_v2_static.json",
+      "sha256": "fcbb4b59e67da3b278b5bc28b29e65e77cb92d65e0d6eb9ef3f29a57675a13bb",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        2042
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14a_cpu_feasibility_seed42_8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-4f38ccf24177__git-eb1140cefc4a/config_snapshot.yaml",
+      "sha256": "a3239ff6c868e803859ab5bd1997398373ba2c5b21374ae33f72f1a8e6240e20",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14a_cpu_feasibility_seed42_8k/eval1044_4k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-373466e20bad__cfg-2e7a1dd6b92d__eval-64b0bfe85f52/service_diagnostic_manifest.json",
+      "sha256": "e14178c607d9d968c580f967237551e19d985e1d48134950536e87bac245c87c",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14a_cpu_feasibility_seed42_8k/eval1044_4k/evaluations/development-service-eval__remote_stress_v2__chk-373466e20bad__cfg-2e7a1dd6b92d__eval-64b0bfe85f52/evaluation_manifest.json",
+      "sha256": "213f700fa2a8f2d37e890c840902e23ab122de1a0e3b4af06d461a8ec5abda26",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14a_cpu_feasibility_seed42_8k/eval1044_8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-272a38928692__cfg-2e7a1dd6b92d__eval-58ae27b4004e/service_diagnostic_manifest.json",
+      "sha256": "797b53b618d818bf77dc14698d1fd34beae391ee6ea2d8bce68068f71f96b1d7",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14a_cpu_feasibility_seed42_8k/eval1044_8k/evaluations/development-service-eval__remote_stress_v2__chk-272a38928692__cfg-2e7a1dd6b92d__eval-58ae27b4004e/evaluation_manifest.json",
+      "sha256": "50ac3ed28b4c2854258bc8f6b84c73e9ee57fa13bc63c0fa793f878cc8d52ca3",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14b_route_log_barrier_seed42_8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-3688fe21edd9__git-eb1140cefc4a/config_snapshot.yaml",
+      "sha256": "3e0c1a37fdc7b38a7dd0beb5f6f5ce6ad9e8caeca0c053c31e5140d505dcc667",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14b_route_log_barrier_seed42_8k/eval1044_4k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-05fb8bebd2e7__cfg-2e7a1dd6b92d__eval-b7023af0311f/service_diagnostic_manifest.json",
+      "sha256": "7499283bfbf1b116a0d1dfe904153bbd8d9cdd1f254baa45b3ef90057e7fe491",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14b_route_log_barrier_seed42_8k/eval1044_4k/evaluations/development-service-eval__remote_stress_v2__chk-05fb8bebd2e7__cfg-2e7a1dd6b92d__eval-b7023af0311f/evaluation_manifest.json",
+      "sha256": "399f5f95f8a60784d40f26ce308ff8d2965026c219dddfebe56d0a4430318c7f",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14b_route_log_barrier_seed42_8k/eval1044_8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-864974379c97__cfg-2e7a1dd6b92d__eval-c6b30da20a8e/service_diagnostic_manifest.json",
+      "sha256": "7531a8be3d1cbb1274420c5a56b8d01f1d8c718218f21a3f27fe70685d04a06f",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14b_route_log_barrier_seed42_8k/eval1044_8k/evaluations/development-service-eval__remote_stress_v2__chk-864974379c97__cfg-2e7a1dd6b92d__eval-c6b30da20a8e/evaluation_manifest.json",
+      "sha256": "87c92680ea80cdaf170c47c488f979c1ec9a2bba38fee4c099ad627ad12fd9b2",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14c_route_task_credit_seed42_8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-998dfd95b691__git-eb1140cefc4a/config_snapshot.yaml",
+      "sha256": "ac52c2e7dbbd887401833844ce32ccc47921a6f8a79e9acaec06f3a6474e223c",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14c_route_task_credit_seed42_8k/eval1044_4k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-93d52527e31f__cfg-2e7a1dd6b92d__eval-d61c3938bfae/service_diagnostic_manifest.json",
+      "sha256": "7e4e0b1aa0ad29028e6552a8a96c08fe2a9b3820d9e074eb5c38f5902eb61027",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14c_route_task_credit_seed42_8k/eval1044_4k/evaluations/development-service-eval__remote_stress_v2__chk-93d52527e31f__cfg-2e7a1dd6b92d__eval-d61c3938bfae/evaluation_manifest.json",
+      "sha256": "092324e8916ae53abfd67f8e5d80106151595050b7d248335820a6e71ae8ee39",
+      "declared_seed_values": [
+        42,
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14c_route_task_credit_seed42_8k/eval1044_8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-1138ab1550ea__cfg-2e7a1dd6b92d__eval-087699e375c3/service_diagnostic_manifest.json",
+      "sha256": "76e221df44302012933219ec9762c888b3a4a7555982eff5dfbb646fd18d2993",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14c_route_task_credit_seed42_8k/eval1044_8k/evaluations/development-service-eval__remote_stress_v2__chk-1138ab1550ea__cfg-2e7a1dd6b92d__eval-087699e375c3/evaluation_manifest.json",
+      "sha256": "5409da28e0fc2f75754428762bf840da397bd108cbee56a7023c109c788b3c5e",
+      "declared_seed_values": [
+        42,
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14d_p0_normalized_seed42_8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-c155c181a5bb__git-eb1140cefc4a/config_snapshot.yaml",
+      "sha256": "71a71b5552ed09f9ece8423bc4d859fcc6ec6930ba577363c567706d0842a411",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14d_p0_normalized_seed42_8k/eval1044_4k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-39786b3db2fc__cfg-2e7a1dd6b92d__eval-55b5c69c1a2d/service_diagnostic_manifest.json",
+      "sha256": "4bc222c29e7f3806d33766a4b1c4ffc99da80e47ddfefd3dc224883c5ef446e9",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14d_p0_normalized_seed42_8k/eval1044_4k/evaluations/development-service-eval__remote_stress_v2__chk-39786b3db2fc__cfg-2e7a1dd6b92d__eval-55b5c69c1a2d/evaluation_manifest.json",
+      "sha256": "f2ea565c7543e80dc6efe1a2f071c4fbd2f2ab51bfc2f748c2162dedca102d42",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14d_p0_normalized_seed42_8k/eval1044_8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-4aec71238a04__cfg-2e7a1dd6b92d__eval-a8f7c80db0fb/service_diagnostic_manifest.json",
+      "sha256": "56789598b63dc04ff05c7035b6553e729494b95523bb82de46f8d92e05e33aef",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14d_p0_normalized_seed42_8k/eval1044_8k/evaluations/development-service-eval__remote_stress_v2__chk-4aec71238a04__cfg-2e7a1dd6b92d__eval-a8f7c80db0fb/evaluation_manifest.json",
+      "sha256": "6ff6b0d025a424ef54173f6d87f41314589773f3ed4c0984d8e869bde37cc276",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14d_route_counterfactual_q_seed42_8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2cd92efd656e__git-eb1140cefc4a/config_snapshot.yaml",
+      "sha256": "7d9c59ab5fe816d3b4e37150c7df64874b2e8fa66192e7f539898af67e02693a",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14d_route_counterfactual_q_seed42_8k/eval1044_4k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-eb3a309b63f4__cfg-2e7a1dd6b92d__eval-0cc65b978f37/service_diagnostic_manifest.json",
+      "sha256": "b3c5bf686d15def2e4aa77da4d35464a870cb1355986d805098194efc9421493",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14d_route_counterfactual_q_seed42_8k/eval1044_4k/evaluations/development-service-eval__remote_stress_v2__chk-eb3a309b63f4__cfg-2e7a1dd6b92d__eval-0cc65b978f37/evaluation_manifest.json",
+      "sha256": "0e34cfbfb2adb783ca0c976e64310545613885f51bf3f4ceff09b58e0dc98bcf",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14d_route_counterfactual_q_seed42_8k/eval1044_8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-7e290d812c4e__cfg-2e7a1dd6b92d__eval-ffcecccbc6c0/service_diagnostic_manifest.json",
+      "sha256": "564fedb5c889d6c9a1212b1e27fc0361b6c20a8d5a950af1c86113642cbea85f",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14d_route_counterfactual_q_seed42_8k/eval1044_8k/evaluations/development-service-eval__remote_stress_v2__chk-7e290d812c4e__cfg-2e7a1dd6b92d__eval-ffcecccbc6c0/evaluation_manifest.json",
+      "sha256": "798ce43ee8fa13586f398937a3ed74dd9e3381ce38a1a791cf016ad753d5035f",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14e_p1a_engineering/integrity_manifest.json",
+      "sha256": "afe4f19053a823e31d0d35b3e42a16ab211816ffa26e9b4d5d536f565bc467db",
+      "declared_seed_values": []
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2f143a85c0e3__git-eb1140cefc4a/config_snapshot.yaml",
+      "sha256": "b1a1e052638d46f5eb8d7ec623071fddd5c9feb52b30fb8542cff3bc116a7dbd",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k/eval1044_4k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-edfd24a233d5__cfg-2e7a1dd6b92d__eval-252be728cc0f/service_diagnostic_manifest.json",
+      "sha256": "42f8c30701e6aabe4cd156727374e8bcf75bab3436d056948d3fe2ad81080e8c",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k/eval1044_4k/evaluations/development-service-eval__remote_stress_v2__chk-edfd24a233d5__cfg-2e7a1dd6b92d__eval-252be728cc0f/evaluation_manifest.json",
+      "sha256": "47cf5db4282440187f9f8f1748e8e41b15b017f8d63cabac6e9bcf635bc356ba",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k/eval1044_8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-d303878ed57d__cfg-2e7a1dd6b92d__eval-302b95721c5e/service_diagnostic_manifest.json",
+      "sha256": "7643251b874b57f4ff6525ef7f21535551e0e6e94493be118a624cc4d1cbce2a",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k/eval1044_8k/evaluations/development-service-eval__remote_stress_v2__chk-d303878ed57d__cfg-2e7a1dd6b92d__eval-302b95721c5e/evaluation_manifest.json",
+      "sha256": "9f720a8a5492d9f31f550a1f50c15b78b28cad0af772c9a83f0b6bc9d1828154",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e15_engineering/integrity_manifest.json",
+      "sha256": "59c4d13170bef3598fddc253d6b56e2deccf533fd340333f710c7bb5721adfad",
+      "declared_seed_values": [
+        42
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/e16_engineering/integrity_manifest.json",
+      "sha256": "61997afe169e72db37e341d7f81066de91b2ad24552cbac1914c072fb78cca28",
+      "declared_seed_values": []
+    },
+    {
+      "path": "D:/My_project_li/logs/development/environment_learnability/remote_stress_v2_full_seed42_2k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-22d3be9255f4__git-eb1140cefc4a/config_snapshot.yaml",
+      "sha256": "48d8acbf65834a0b0a959a56fbe99f18dafcf072bbaba9c0f8390d275a4ef73f",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        2042
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/environment_learnability_audit/before_manifest.json",
+      "sha256": "a110f17bb2b84d4150b6ed1ad3ca2985db770fa2d5b114d4d140f4091570cec4",
+      "declared_seed_values": []
+    },
+    {
+      "path": "D:/My_project_li/logs/development/environment_learnability_audit/config_manifest.json",
+      "sha256": "1861743d96fa44457c9bf86095cd2fd0d19cf090051442ef3bc107e49ae5cc20",
+      "declared_seed_values": []
+    },
+    {
+      "path": "D:/My_project_li/logs/development/environment_learnability_audit/integrity_manifest.json",
+      "sha256": "13ab1ad80e7d8a6ebf746a0d2ebef936e4f4852bbe799b67f983f3211397d10b",
+      "declared_seed_values": []
+    },
+    {
+      "path": "D:/My_project_li/logs/development/environment_learnability_eval/remote_stress_v2_full-seed2042-1k/evaluations/development-service-eval__remote_stress_v2__chk-402b2ac433ce__cfg-22607173eaa2__eval-0f71d8528374/evaluation_manifest.json",
+      "sha256": "77624966505e45ee4657a3483c4b86fc507a6cd2d7ff4b77668db47004391dc4",
+      "declared_seed_values": [
+        2042
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/environment_learnability_eval/remote_stress_v2_full-seed2042-1k-artifactfix-v1/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-402b2ac433ce__cfg-22607173eaa2__eval-0f71d8528374/service_diagnostic_manifest.json",
+      "sha256": "eb96cdc9813024643c7879e56a0db5e5e61b176863dd8c19658545284edf2e3d",
+      "declared_seed_values": [
+        2042
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/environment_learnability_eval/remote_stress_v2_full-seed2042-1k-artifactfix-v1/evaluations/development-service-eval__remote_stress_v2__chk-402b2ac433ce__cfg-22607173eaa2__eval-0f71d8528374/evaluation_manifest.json",
+      "sha256": "77624966505e45ee4657a3483c4b86fc507a6cd2d7ff4b77668db47004391dc4",
+      "declared_seed_values": [
+        2042
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/environment_learnability_eval/remote_stress_v2_full-seed2042-1k-retry/evaluations/development-service-eval__remote_stress_v2__chk-402b2ac433ce__cfg-22607173eaa2__eval-0f71d8528374/evaluation_manifest.json",
+      "sha256": "77624966505e45ee4657a3483c4b86fc507a6cd2d7ff4b77668db47004391dc4",
+      "declared_seed_values": [
+        2042
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/environment_learnability_eval/remote_stress_v2_full-seed2042-2k-artifactfix-v1/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-20e8ed827d8b__cfg-22607173eaa2__eval-a5d3182ed4ef/service_diagnostic_manifest.json",
+      "sha256": "ebb0902f8d64e80543bcefcd62cd3a788d0e5c0968f8863516bb0880b2cbb541",
+      "declared_seed_values": [
+        2042
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/environment_learnability_eval/remote_stress_v2_full-seed2042-2k-artifactfix-v1/evaluations/development-service-eval__remote_stress_v2__chk-20e8ed827d8b__cfg-22607173eaa2__eval-a5d3182ed4ef/evaluation_manifest.json",
+      "sha256": "2b948170e88cc0cb5bb996ad5e3b5430e395750618ca4a0c1cb6ad2f92b5c99f",
+      "declared_seed_values": [
+        2042
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/development/route_local_remote_oracle_eval1044/paired_verified/oracle_summary.json",
+      "sha256": "e49380c1cb4020a8a69f5460491b25d5bac6512cc8535e9a4180c7b2a3005562",
+      "declared_seed_values": []
+    },
+    {
+      "path": "D:/My_project_li/logs/gate_m/ca_gat_mappo__remote_stress_v2__seed-42__cfg-16ed37e1f161__git-21624c6cd274/config_snapshot.yaml",
+      "sha256": "a1bb9eed5dfe1d84a72173f9c12a9cad6f3868c543a3bd8ad074502777823fb2",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/gate_m/ca_gat_mappo__remote_stress_v2__seed-43__cfg-411dcce4948d__git-21624c6cd274/config_snapshot.yaml",
+      "sha256": "d96704ef5875b939b18bd0c878bf05f2517d5857a5a0fe5b4e933134a39e1a42",
+      "declared_seed_values": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/gate_m/evaluations/formal-eval__remote_stress_v2__chk-25c576fe6974__cfg-d6d90df7321f__eval-180b3eccf4b7/evaluation_manifest.json",
+      "sha256": "abfce37d6acc02476253dfafb6acc740db1ba4afecbf95d461edb8bdcc1e6752",
+      "declared_seed_values": [
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/gate_m/evaluations/formal-eval__remote_stress_v2__chk-8d0f66bfbf46__cfg-d6d90df7321f__eval-c985e1f96d80/evaluation_manifest.json",
+      "sha256": "d8f6019501e9ac9fd963ef530676d76d458cf42fa72e2ea088860330b44c481e",
+      "declared_seed_values": [
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/gate_m/service_stage_1044_seed42/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-8d0f66bfbf46__cfg-2e7a1dd6b92d__eval-735c23c98eac/service_diagnostic_manifest.json",
+      "sha256": "d4a94364d67f5b91e7ba32378e32b161abafdd9fbf8c3a65e38f8b21c0f73d84",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/gate_m/service_stage_1044_seed42/evaluations/formal-eval__remote_stress_v2__chk-8d0f66bfbf46__cfg-2e7a1dd6b92d__eval-735c23c98eac/evaluation_manifest.json",
+      "sha256": "f318a9c2c3c9be53f6cd8f5413bf759f1bc4b2994b4f9e12e656a3efe039dddd",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/gate_m/service_stage_1044_seed43/diagnostics/task-service-eval__formal-eval__remote_stress_v2__chk-25c576fe6974__cfg-2e7a1dd6b92d__eval-3354fd5b1a1a/service_diagnostic_manifest.json",
+      "sha256": "441fd73de0ba669692d48d9266d0fea6e358de2e33ae2441245c24f5495d35f4",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/logs/gate_m/service_stage_1044_seed43/evaluations/formal-eval__remote_stress_v2__chk-25c576fe6974__cfg-2e7a1dd6b92d__eval-3354fd5b1a1a/evaluation_manifest.json",
+      "sha256": "d34fb6237e1158f52e8499872242e2de0885f2b061d914e3620624110b4c6dda",
+      "declared_seed_values": [
+        1044
+      ]
+    },
+    {
+      "path": "D:/My_project_li/metadata/E13_BASELINE_IDENTITY.json",
+      "sha256": "a60f12d3772ebdb13989c80f57ce91efbc31b8021cf14675a3e6e6254adaeb31",
+      "declared_seed_values": [
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "path": "D:/My_project_li/metadata/E13_REPRODUCIBILITY_READINESS.json",
+      "sha256": "904c315f5c666959f98ee073bbebfea95ef5966eb445eae5e08ff577829a929f",
+      "declared_seed_values": []
+    },
+    {
+      "path": "D:/My_project_li/metadata/E13_VERSIONED_SOURCE_MANIFEST.json",
+      "sha256": "826d74bdb82e8a26099183ffb26db952b1ff9cfb0b938de7ea09bafaaeae2cc1",
+      "declared_seed_values": []
+    }
+  ],
+  "observed_seed_values": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    1042,
+    1043,
+    1044,
+    1045,
+    1046,
+    2042
+  ],
+  "frozen_holdout_seeds": [
+    20042,
+    20043,
+    20044,
+    20045,
+    20046,
+    20047,
+    20048,
+    20049,
+    20050,
+    20051,
+    20052,
+    20053,
+    20054,
+    20055,
+    20056,
+    20057,
+    20058,
+    20059,
+    20060,
+    20061
+  ],
+  "scope": "Structured seed fields in existing logs manifests, config snapshots, oracle summary, experiment JSON configs and top-level metadata JSON; no result-based method selection. Configuration occurrence is conservatively treated as prior exposure.",
+  "limitations": [
+    "Does not establish absence of seed use outside this repository or in deleted/unrecorded runs.",
+    "Does not inspect numeric values in scientific metrics as seed evidence.",
+    "No claim of statistically sufficient data is implied."
+  ],
+  "status": "NO_RESERVED_SEED_OCCURRENCE_IN_SCANNED_RECORDS"
+}

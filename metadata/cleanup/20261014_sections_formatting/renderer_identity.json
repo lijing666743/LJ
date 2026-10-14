@@ -1,0 +1,7 @@
+{
+  "url": "https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-svg.js",
+  "version": "3.2.2",
+  "bytes": 2108580,
+  "sha256": "d4295dc33744836935c1399feece5159577b34c5c8ffb9f1c6324cd82e03a882",
+  "purpose": "temporary math syntax and visual rendering validation; removed after static reading-view generation"
+}

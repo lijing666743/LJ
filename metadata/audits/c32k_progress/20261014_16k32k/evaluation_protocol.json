@@ -1,0 +1,49 @@
+{
+  "purpose": "C seed42 bounded development checkpoint progress and energy-risk diagnosis",
+  "source_training_seed": 42,
+  "evaluation_seeds": [
+    1042,
+    1043,
+    1044,
+    1045,
+    1046
+  ],
+  "new_checkpoint_steps": [
+    20000,
+    24000,
+    28000,
+    32000
+  ],
+  "reused_checkpoints": [
+    12000,
+    16000
+  ],
+  "device": "cpu",
+  "dtype": "torch.float32",
+  "inference": "masked_argmax",
+  "update_network": false,
+  "methods": [
+    "ca_gat_mappo",
+    "local_only",
+    "heuristic",
+    "random"
+  ],
+  "expected_evaluation_config_sha256": "d2463e1929ea867212edec4774f54b2c5a6dbc9ef957f00dd2978402aec4849a",
+  "collect_route_telemetry": true,
+  "collect_service_telemetry": true,
+  "development_checkpoint": true,
+  "held_out_seeds_used": [],
+  "training_started": false,
+  "new_episodes_expected": 80,
+  "new_learned_policy_episodes": 20,
+  "new_baseline_episodes": 60,
+  "metrics_protocol_source": "metadata/audits/c_energy_progress/20261013_12k16k/comparison_summary.json",
+  "energy_metrics": [
+    "completion DONE/generated pooled and per scene separately",
+    "total energy and energy per DONE",
+    "valid published energy below minimum-frequency completion lower bound / all selected remote bindings; missing messages separately",
+    "CPU backlog with no energy-feasible positive-frequency queue head",
+    "post-persistent-blockage assignments and outcomes"
+  ],
+  "claim_scope": "One training seed, fixed development scenes, C-only training-length comparison. No unequal-budget ABC ranking, retrospective final selection or convergence claim."
+}

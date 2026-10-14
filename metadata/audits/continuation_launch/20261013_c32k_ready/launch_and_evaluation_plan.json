@@ -1,0 +1,105 @@
+{
+  "scope": "C seed42 bounded training-length diagnostic, existing science frozen, no training launched during preparation",
+  "launch_executable": "D:\\Miniconda\\python.exe",
+  "launch_python_flags": [
+    "-u",
+    "-B",
+    "-X",
+    "utf8"
+  ],
+  "launch_entrypoint": "main.py",
+  "launch_arguments": [
+    "--config",
+    "experiments/task-allocation/configs/c-seed42-32k-resume.json",
+    "--resume-from",
+    "logs\\C\\seed42\\16k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a\\checkpoints\\step_12000.pt",
+    "--extend-training-budget",
+    "--verify-replay-against",
+    "logs\\C\\seed42\\16k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a\\checkpoints\\final.pt"
+  ],
+  "replay_protocol": {
+    "restore_steps": 12000,
+    "restore_pending": 224,
+    "restore_optimized": 11776,
+    "restore_updates": 46,
+    "replay_boundary": 16000,
+    "reference_optimized": 15872,
+    "reference_updates": 62,
+    "exact_fields": [
+      "actor",
+      "critic",
+      "actor Adam",
+      "critic Adam",
+      "policy RNG",
+      "saved diagnostic history",
+      "PPO and episode counters"
+    ],
+    "keep_regenerated_pending": 128,
+    "first_post_boundary_update": 16128,
+    "failure_behavior": "Abort at 16k before collecting any transition beyond the boundary; changed reference hash also aborts",
+    "actual_12k_to_16k_replay_executed_during_preparation": false,
+    "expected_pass_message": "Replay verification passed at 16000; pending tail retained"
+  },
+  "accounting": {
+    "target_total_environment_steps": 32000,
+    "target_episodes": 64,
+    "target_optimized": 32000,
+    "target_updates": 125,
+    "target_unused_tail": 0,
+    "steps_executed_by_launch": 20000,
+    "replay_steps_included": 4000,
+    "new_steps_after_original_16k": 16000,
+    "warning": "Replay recomputes environment actions, PPO and paired-shadow work; it is not a weight-only shortcut"
+  },
+  "rng_contract": {
+    "policy_generator": "Exact saved state restored",
+    "environment": "Original per-episode seed sequence reconstructed at completed episode boundary",
+    "paired_shadow": "Existing slot-addressed stream and serialized pending selection metadata",
+    "global_python_numpy_torch_rng_saved": false,
+    "scope": "Fixed current C pipeline, seed sequence, source and same CUDA runtime; not a generic full-process snapshot. Exact actual-prefix equality remains pending until launch"
+  },
+  "output_contract": {
+    "previous_runs_overwritten": false,
+    "new_output_roots_created_during_preparation": false,
+    "diagnostic_sidecars_start_at_environment_step": 12000,
+    "prefix_saved_reward_episode_ppo_history_restored": true,
+    "optional_prior_sidecar_records_regenerated_before_12k": false
+  },
+  "subsequent_evaluation_plan": {
+    "checkpoints": [
+      20000,
+      24000,
+      28000,
+      32000
+    ],
+    "automatically_runs_frozen_development_evaluation": false,
+    "seeds": [
+      1042,
+      1043,
+      1044,
+      1045,
+      1046
+    ],
+    "device": "cpu",
+    "inference": "masked_argmax",
+    "update_network": false,
+    "fixed_baselines": [
+      "local_only",
+      "heuristic",
+      "random"
+    ],
+    "metrics": [
+      "completion DONE/generated (pooled and per-seed, distinguished)",
+      "reward",
+      "total energy",
+      "energy per DONE",
+      "published-energy-infeasible remote assignment count and fraction, missing-public separately",
+      "energy-blocked CPU UAV-slots",
+      "post-persistent-blockage assignments",
+      "per-scene UAV2 blockage onset"
+    ],
+    "interpretation": "Evaluate all declared checkpoints without choosing a winning final retrospectively. Single C seed and unequal ABC budgets do not establish convergence or method superiority",
+    "held_out_used": false
+  },
+  "test_environment_note": "Initial retry reproduced Windows sandbox Temp-directory cleanup PermissionError; use workspace TEMP/TMP for tests. No production-code workaround."
+}

@@ -1,0 +1,70 @@
+{
+  "config_version": "section4.v1",
+  "mode": "rl",
+  "method_id": "ca_gat_mappo",
+  "launch_profile": "rl-formal",
+  "scenario_id": "small",
+  "seed": 42,
+  "environment": {
+    "channel_ablation_mode": "full",
+    "episode_horizon": 500,
+    "candidate_neighbor_radius_m": 525.0,
+    "reference_cpu_frequency_hz": 2000000000.0,
+    "task_data_bits_min": 250000.0,
+    "task_data_bits_max": 1500000.0,
+    "workload_timing_mode": "legacy_post_route",
+    "uav_count": 4,
+    "arrival_probabilities": [0.04, 0.09, 0.02, 0.05],
+    "profile_assignment": [
+      "Balanced",
+      "Resource-poor",
+      "Compute-rich",
+      "Energy-limited"
+    ],
+    "profile_perturbations": [
+      [-0.013814309988, 0.044593840641, 0.044559189965, 0.033901094602],
+      [0.024305247334, -0.014446956216, 0.005750819819, -0.029482012276],
+      [-0.000601140633, -0.015719950799, 0.049877636039, 0.034480593142],
+      [-0.000524427719, 0.006763643213, -0.028161367743, -0.001054193533]
+    ],
+    "profile_ratios": {
+      "Resource-poor": [0.7, 0.8, 0.8, 1.2],
+      "Balanced": [1.0, 1.0, 1.0, 1.0],
+      "Compute-rich": [2.0, 1.0, 1.1, 0.9],
+      "Energy-limited": [1.0, 0.8, 0.5, 1.1],
+      "Communication-rich": [1.0, 1.5, 1.1, 1.0]
+    }
+  },
+  "training": {
+    "formal_rl_enabled": true,
+    "mappo": {
+      "max_training_episodes": 64,
+      "max_training_environment_steps": 32000,
+      "evaluation_interval_steps": 4000,
+      "checkpoint_interval_steps": 4000,
+      "actor_ratio_mode": "branch_specific",
+      "agent_credit_mode": "role_decomposed",
+      "route_decoder_mode": "hierarchical_option_aware_v1",
+      "route_credit_mode": "shared_gae",
+      "trajectory_credit_telemetry_enabled": true,
+      "route_diagnostic_samples_enabled": true,
+      "gamma": 0.99,
+      "gae_lambda": 0.95,
+      "ppo_clip_epsilon": 0.2,
+      "advantage_normalization": false,
+      "entropy_coefficient": 0.01,
+      "entropy_coefficient_schedule_enabled": true,
+      "route_entropy_start_coefficient": 0.03,
+      "route_entropy_schedule_start_step": 3072,
+      "route_entropy_schedule_end_step": 32768,
+      "rollout_length_slots": 256,
+      "discard_final_partial_rollout": true,
+      "training_device": "cuda"
+    }
+  },
+  "reward": {
+    "credit_assignment_mode": "responsibility_terminal",
+    "beta_completion_credit": 0.5,
+    "mu_expiration_credit": 0.5
+  }
+}

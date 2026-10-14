@@ -1,0 +1,999 @@
+{
+  "status": "PASS_RECORDED_IDENTITIES",
+  "records": {
+    "A": {
+      "config_path": "D:/My_project_li/experiments/task-allocation/configs/a-seed42-8k.json",
+      "config_hash": "81cb1ad596cb6dcd6f212e2d08a7edc50e9b210b0a5cf226ba4a7a2cb1651ae5",
+      "run_id": "ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a",
+      "run_path": "D:/My_project_li/logs/development/task_allocation/experiments/A/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a",
+      "checkpoint_path": "D:/My_project_li/logs/development/task_allocation/experiments/A/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a/checkpoints/final.pt",
+      "checkpoint_sha256": "5da08bb0309948ab8bbd9423364d6f76b07daf1a8dcdb7786c7dee141f958199",
+      "checkpoint_kind": "FINAL_COMPLETED",
+      "training_state": {
+        "policy_version": 31,
+        "started_episodes": 16,
+        "completed_episodes": 16,
+        "next_episode_index": 16,
+        "collected_environment_transitions": 8000,
+        "optimized_transitions": 7936,
+        "ppo_update_count": 31,
+        "unused_final_tail_transitions": 64,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "config_snapshot_metadata": {
+        "source_config_path": "experiments\\task-allocation\\configs\\a-seed42-8k.json",
+        "cli_overrides": {},
+        "interactive_overrides": {},
+        "run_id": "ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a",
+        "config_hash": "81cb1ad596cb6dcd6f212e2d08a7edc50e9b210b0a5cf226ba4a7a2cb1651ae5",
+        "git_branch": "codex/e2-hierarchical-tx-v1",
+        "git_commit": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+        "git_dirty": true,
+        "derived_stream_ids": {
+          "reset_mobility": 10,
+          "task_arrival": 20,
+          "task_workload": 30,
+          "channel_fading": 40,
+          "csi_error": 50,
+          "interference_measurement": 60,
+          "python_utility": 70,
+          "torch_initialization": 100,
+          "torch_policy_sampling": 110,
+          "qmix_epsilon": 120
+        },
+        "runtime_versions": {
+          "python": "3.13.11",
+          "numpy": "2.3.5",
+          "torch": "2.7.1+cu118",
+          "cuda": "11.8",
+          "miniconda": "25.11.1"
+        }
+      },
+      "checkpoint_top_level_fields": [
+        "schema_version",
+        "checkpoint_kind",
+        "method_id",
+        "git_commit",
+        "config_hash",
+        "config_snapshot",
+        "runtime_provenance",
+        "training_state",
+        "model_state",
+        "optimizer_state",
+        "policy_rng_state",
+        "active_rollout_state",
+        "diagnostics_state"
+      ],
+      "evaluation_path": "D:/My_project_li/logs/development/task_allocation/experiments/A/seed42/8k/evaluations/formal-eval__remote_stress_v2__chk-5da08bb03099__cfg-d2463e1929ea__eval-1f1e83d20fc9",
+      "evaluation_run_id": "formal-eval__remote_stress_v2__chk-5da08bb03099__cfg-d2463e1929ea__eval-1f1e83d20fc9",
+      "evaluation_config_sha256": "d2463e1929ea867212edec4774f54b2c5a6dbc9ef957f00dd2978402aec4849a",
+      "source_training_git_commit": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+      "evaluator_git_commit": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+      "evaluator_git_dirty": true,
+      "actor_architecture_identity": {
+        "network_config": {
+          "attention_head_count": 4,
+          "cpu_anti_starvation_mode": "deadline_feasibility_v1",
+          "cpu_frequency_decoder_mode": "legacy",
+          "cpu_scheduler_mode": "deadline_joint_v1",
+          "destination_decoder_mode": "legacy",
+          "encoder_hidden_dimension": 128,
+          "gat_layer_count": 1,
+          "gru_hidden_dimension": 128,
+          "route_decoder_mode": "hierarchical_option_aware_v1",
+          "route_private_backbone": true,
+          "tx_decoder_mode": "hierarchical_candidate_aware_v1",
+          "tx_upper_decoder_mode": "private_candidate_binary_v1"
+        },
+        "tensor_spec": {
+          "action_dimensions": {
+            "cpu_frequency": 4,
+            "cpu_queue": 5,
+            "power_level": 4,
+            "resource_group": 6,
+            "resource_width": 2,
+            "route": 6,
+            "tx_select": 4
+          },
+          "attention_head_count": 4,
+          "centralized_state_dim": 2469,
+          "edge_feature_dim": 130,
+          "encoder_hidden_dimension": 128,
+          "gat_layer_count": 1,
+          "gru_hidden_dimension": 128,
+          "neighbor_public_feature_dim": 17,
+          "route_private_backbone": true,
+          "ru_count": 20,
+          "self_feature_dim": 145,
+          "uav_count": 4
+        }
+      },
+      "runtime_provenance": {
+        "python_version": "3.13.11",
+        "torch_version": "2.7.1+cu118",
+        "cuda_runtime_version": "11.8",
+        "device_type": "cuda",
+        "device_name": "NVIDIA GeForce MX450",
+        "dtype": "torch.float32"
+      },
+      "fresh_initialization_evidence": "legacy/no-oracle configuration; initial_policy_version=0; no warmstart/pretraining provenance fields. Launch command and initial-weight digest absent, so final artifacts alone cannot prove all initialization history."
+    },
+    "B": {
+      "config_path": "D:/My_project_li/experiments/task-allocation/configs/b-seed42-8k.json",
+      "config_hash": "1bd1c1aa959695e150ef3734a625f5d87de87e4f4325d470f6ea3845e8cdfda4",
+      "run_id": "ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a",
+      "run_path": "D:/My_project_li/logs/development/task_allocation/experiments/B/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a",
+      "checkpoint_path": "D:/My_project_li/logs/development/task_allocation/experiments/B/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a/checkpoints/final.pt",
+      "checkpoint_sha256": "2cab254ff8d527726779b7ec18383ffc0cd7710f5edb6d0ac229da2c554feec5",
+      "checkpoint_kind": "FINAL_COMPLETED",
+      "training_state": {
+        "policy_version": 31,
+        "started_episodes": 16,
+        "completed_episodes": 16,
+        "next_episode_index": 16,
+        "collected_environment_transitions": 8000,
+        "optimized_transitions": 7936,
+        "ppo_update_count": 31,
+        "unused_final_tail_transitions": 64,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "config_snapshot_metadata": {
+        "source_config_path": "experiments\\task-allocation\\configs\\b-seed42-8k.json",
+        "cli_overrides": {},
+        "interactive_overrides": {},
+        "run_id": "ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a",
+        "config_hash": "1bd1c1aa959695e150ef3734a625f5d87de87e4f4325d470f6ea3845e8cdfda4",
+        "git_branch": "codex/e2-hierarchical-tx-v1",
+        "git_commit": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+        "git_dirty": true,
+        "derived_stream_ids": {
+          "reset_mobility": 10,
+          "task_arrival": 20,
+          "task_workload": 30,
+          "channel_fading": 40,
+          "csi_error": 50,
+          "interference_measurement": 60,
+          "python_utility": 70,
+          "torch_initialization": 100,
+          "torch_policy_sampling": 110,
+          "qmix_epsilon": 120
+        },
+        "runtime_versions": {
+          "python": "3.13.11",
+          "numpy": "2.3.5",
+          "torch": "2.7.1+cu118",
+          "cuda": "11.8",
+          "miniconda": "25.11.1"
+        }
+      },
+      "checkpoint_top_level_fields": [
+        "schema_version",
+        "checkpoint_kind",
+        "method_id",
+        "git_commit",
+        "config_hash",
+        "config_snapshot",
+        "runtime_provenance",
+        "training_state",
+        "model_state",
+        "optimizer_state",
+        "policy_rng_state",
+        "active_rollout_state",
+        "diagnostics_state",
+        "route_decoder_identity"
+      ],
+      "evaluation_path": "D:/My_project_li/logs/development/task_allocation/experiments/B/seed42/8k/evaluations/formal-eval__remote_stress_v2__chk-2cab254ff8d5__cfg-d2463e1929ea__eval-a4b04e518632",
+      "evaluation_run_id": "formal-eval__remote_stress_v2__chk-2cab254ff8d5__cfg-d2463e1929ea__eval-a4b04e518632",
+      "evaluation_config_sha256": "d2463e1929ea867212edec4774f54b2c5a6dbc9ef957f00dd2978402aec4849a",
+      "source_training_git_commit": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+      "evaluator_git_commit": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+      "evaluator_git_dirty": true,
+      "actor_architecture_identity": {
+        "network_config": {
+          "attention_head_count": 4,
+          "cpu_anti_starvation_mode": "deadline_feasibility_v1",
+          "cpu_frequency_decoder_mode": "legacy",
+          "cpu_scheduler_mode": "deadline_joint_v1",
+          "destination_decoder_mode": "legacy",
+          "encoder_hidden_dimension": 128,
+          "gat_layer_count": 1,
+          "gru_hidden_dimension": 128,
+          "route_decoder_mode": "unified_node_v1",
+          "route_private_backbone": true,
+          "tx_decoder_mode": "hierarchical_candidate_aware_v1",
+          "tx_upper_decoder_mode": "private_candidate_binary_v1"
+        },
+        "tensor_spec": {
+          "action_dimensions": {
+            "cpu_frequency": 4,
+            "cpu_queue": 5,
+            "power_level": 4,
+            "resource_group": 6,
+            "resource_width": 2,
+            "route": 6,
+            "tx_select": 4
+          },
+          "attention_head_count": 4,
+          "centralized_state_dim": 2469,
+          "edge_feature_dim": 130,
+          "encoder_hidden_dimension": 128,
+          "gat_layer_count": 1,
+          "gru_hidden_dimension": 128,
+          "neighbor_public_feature_dim": 17,
+          "route_private_backbone": true,
+          "ru_count": 20,
+          "self_feature_dim": 145,
+          "uav_count": 4
+        }
+      },
+      "runtime_provenance": {
+        "python_version": "3.13.11",
+        "torch_version": "2.7.1+cu118",
+        "cuda_runtime_version": "11.8",
+        "device_type": "cuda",
+        "device_name": "NVIDIA GeForce MX450",
+        "dtype": "torch.float32"
+      },
+      "fresh_initialization_evidence": "legacy/no-oracle configuration; initial_policy_version=0; no warmstart/pretraining provenance fields. Launch command and initial-weight digest absent, so final artifacts alone cannot prove all initialization history."
+    },
+    "C": {
+      "config_path": "D:/My_project_li/experiments/task-allocation/configs/c-seed42-8k.json",
+      "config_hash": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15",
+      "run_id": "ca_gat_mappo__remote_stress_v2__seed-42__cfg-9e76466588b6__git-eb1140cefc4a",
+      "run_path": "D:/My_project_li/logs/development/task_allocation/experiments/C/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9e76466588b6__git-eb1140cefc4a",
+      "checkpoint_path": "D:/My_project_li/logs/development/task_allocation/experiments/C/seed42/8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-9e76466588b6__git-eb1140cefc4a/checkpoints/final.pt",
+      "checkpoint_sha256": "58da11c49bde4a517471e1386842b90568fdb1ffe51d9c290caa7e3d442ff1b5",
+      "checkpoint_kind": "FINAL_COMPLETED",
+      "training_state": {
+        "policy_version": 31,
+        "started_episodes": 16,
+        "completed_episodes": 16,
+        "next_episode_index": 16,
+        "collected_environment_transitions": 8000,
+        "optimized_transitions": 7936,
+        "ppo_update_count": 31,
+        "unused_final_tail_transitions": 64,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "config_snapshot_metadata": {
+        "source_config_path": "experiments\\task-allocation\\configs\\c-seed42-8k.json",
+        "cli_overrides": {},
+        "interactive_overrides": {},
+        "run_id": "ca_gat_mappo__remote_stress_v2__seed-42__cfg-9e76466588b6__git-eb1140cefc4a",
+        "config_hash": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15",
+        "git_branch": "codex/e2-hierarchical-tx-v1",
+        "git_commit": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+        "git_dirty": true,
+        "derived_stream_ids": {
+          "reset_mobility": 10,
+          "task_arrival": 20,
+          "task_workload": 30,
+          "channel_fading": 40,
+          "csi_error": 50,
+          "interference_measurement": 60,
+          "python_utility": 70,
+          "torch_initialization": 100,
+          "torch_policy_sampling": 110,
+          "qmix_epsilon": 120
+        },
+        "runtime_versions": {
+          "python": "3.13.11",
+          "numpy": "2.3.5",
+          "torch": "2.7.1+cu118",
+          "cuda": "11.8",
+          "miniconda": "25.11.1"
+        }
+      },
+      "checkpoint_top_level_fields": [
+        "schema_version",
+        "checkpoint_kind",
+        "method_id",
+        "git_commit",
+        "config_hash",
+        "config_snapshot",
+        "runtime_provenance",
+        "training_state",
+        "model_state",
+        "optimizer_state",
+        "policy_rng_state",
+        "active_rollout_state",
+        "diagnostics_state",
+        "route_decoder_identity"
+      ],
+      "evaluation_path": "D:/My_project_li/logs/development/task_allocation/experiments/C/seed42/8k/evaluations/formal-eval__remote_stress_v2__chk-58da11c49bde__cfg-d2463e1929ea__eval-e866f9e0ccb7",
+      "evaluation_run_id": "formal-eval__remote_stress_v2__chk-58da11c49bde__cfg-d2463e1929ea__eval-e866f9e0ccb7",
+      "evaluation_config_sha256": "d2463e1929ea867212edec4774f54b2c5a6dbc9ef957f00dd2978402aec4849a",
+      "source_training_git_commit": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+      "evaluator_git_commit": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+      "evaluator_git_dirty": true,
+      "actor_architecture_identity": {
+        "network_config": {
+          "attention_head_count": 4,
+          "cpu_anti_starvation_mode": "deadline_feasibility_v1",
+          "cpu_frequency_decoder_mode": "legacy",
+          "cpu_scheduler_mode": "deadline_joint_v1",
+          "destination_decoder_mode": "legacy",
+          "encoder_hidden_dimension": 128,
+          "gat_layer_count": 1,
+          "gru_hidden_dimension": 128,
+          "route_decoder_mode": "unified_node_v1",
+          "route_feature_mode": "physical_relations_v1",
+          "route_private_backbone": true,
+          "tx_decoder_mode": "hierarchical_candidate_aware_v1",
+          "tx_upper_decoder_mode": "private_candidate_binary_v1"
+        },
+        "tensor_spec": {
+          "action_dimensions": {
+            "cpu_frequency": 4,
+            "cpu_queue": 5,
+            "power_level": 4,
+            "resource_group": 6,
+            "resource_width": 2,
+            "route": 6,
+            "tx_select": 4
+          },
+          "attention_head_count": 4,
+          "centralized_state_dim": 2469,
+          "edge_feature_dim": 130,
+          "encoder_hidden_dimension": 128,
+          "gat_layer_count": 1,
+          "gru_hidden_dimension": 128,
+          "neighbor_public_feature_dim": 17,
+          "route_private_backbone": true,
+          "ru_count": 20,
+          "self_feature_dim": 145,
+          "uav_count": 4
+        }
+      },
+      "runtime_provenance": {
+        "python_version": "3.13.11",
+        "torch_version": "2.7.1+cu118",
+        "cuda_runtime_version": "11.8",
+        "device_type": "cuda",
+        "device_name": "NVIDIA GeForce MX450",
+        "dtype": "torch.float32"
+      },
+      "fresh_initialization_evidence": "legacy/no-oracle configuration; initial_policy_version=0; no warmstart/pretraining provenance fields. Launch command and initial-weight digest absent, so final artifacts alone cannot prove all initialization history."
+    },
+    "Historical_P1a": {
+      "checkpoint_path": "D:/My_project_li/logs/development/e14e_p1a_task_event_credit_seed42_8k/ca_gat_mappo__remote_stress_v2__seed-42__cfg-2f143a85c0e3__git-eb1140cefc4a/checkpoints/final.pt",
+      "checkpoint_sha256": "d303878ed57dcfca0ee9d04354ab678046fbf22b3546aef38a853b53bae7a062",
+      "config_path": "D:/My_project_li/experiments/cooperative-load/configs/e14e-p1a-task-event-credit-seed42-8k-dev.json",
+      "config_hash": "2f143a85c0e37f605bbf38b59b3a31267a305464179593d9828c7c0a1518e3fa",
+      "training_state": {
+        "policy_version": 31,
+        "started_episodes": 16,
+        "completed_episodes": 16,
+        "next_episode_index": 16,
+        "collected_environment_transitions": 8000,
+        "optimized_transitions": 7936,
+        "ppo_update_count": 31,
+        "unused_final_tail_transitions": 64,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "git_commit": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+      "runtime_provenance": {
+        "python_version": "3.13.11",
+        "torch_version": "2.7.1+cu118",
+        "cuda_runtime_version": "11.8",
+        "device_type": "cuda",
+        "device_name": "NVIDIA GeForce MX450",
+        "dtype": "torch.float32"
+      },
+      "config_snapshot_metadata": {
+        "source_config_path": "D:\\My_project_li\\experiments\\cooperative-load\\configs\\e14e-p1a-task-event-credit-seed42-8k-dev.json",
+        "cli_overrides": {
+          "mode": "rl"
+        },
+        "interactive_overrides": {},
+        "run_id": "ca_gat_mappo__remote_stress_v2__seed-42__cfg-2f143a85c0e3__git-eb1140cefc4a",
+        "config_hash": "2f143a85c0e37f605bbf38b59b3a31267a305464179593d9828c7c0a1518e3fa",
+        "git_branch": "codex/e2-hierarchical-tx-v1",
+        "git_commit": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+        "git_dirty": true,
+        "derived_stream_ids": {
+          "reset_mobility": 10,
+          "task_arrival": 20,
+          "task_workload": 30,
+          "channel_fading": 40,
+          "csi_error": 50,
+          "interference_measurement": 60,
+          "python_utility": 70,
+          "torch_initialization": 100,
+          "torch_policy_sampling": 110,
+          "qmix_epsilon": 120
+        },
+        "runtime_versions": {
+          "python": "3.13.11",
+          "numpy": "2.3.5",
+          "torch": "2.7.1+cu118",
+          "cuda": "11.8",
+          "miniconda": "25.11.1"
+        }
+      },
+      "top_level_fields": [
+        "schema_version",
+        "checkpoint_kind",
+        "method_id",
+        "git_commit",
+        "config_hash",
+        "config_snapshot",
+        "runtime_provenance",
+        "training_state",
+        "model_state",
+        "optimizer_state",
+        "policy_rng_state",
+        "active_rollout_state",
+        "diagnostics_state"
+      ],
+      "environment_reward_equal_current_A": true,
+      "architecture_definition_config_equal": true
+    }
+  },
+  "historical_current_A_tensor_comparison": {
+    "actor": {
+      "historical_tensor_count": 158,
+      "current_tensor_count": 158,
+      "name_sets_equal": true,
+      "historical_numel": 522462,
+      "current_numel": 522462,
+      "equal_tensor_count": 158,
+      "common_tensor_count": 158,
+      "differing_tensors": [],
+      "shape_dtype_equal": true
+    },
+    "critic": {
+      "historical_tensor_count": 21,
+      "current_tensor_count": 21,
+      "name_sets_equal": true,
+      "historical_numel": 1009873,
+      "current_numel": 1009873,
+      "equal_tensor_count": 21,
+      "common_tensor_count": 21,
+      "differing_tensors": [],
+      "shape_dtype_equal": true
+    }
+  },
+  "current_source_inventory": [
+    {
+      "path": "D:/My_project_li/src/artifacts.py",
+      "sha256": "381a76012e965758195bedb5d17dd67a750c75a0bd194adc751dec1c74940d6c",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/cli.py",
+      "sha256": "b575661208079a2977f58b17be1f2774d120b23b76b9fe750271aebda8a7623d",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/config.py",
+      "sha256": "e6ee52760bf7ac604d98ab0fbd4365786577cd3a960e74d60a20fe4b5e072cde",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/execution.py",
+      "sha256": "f10b93f60d7fad40d0872af10a00e52c249b3006d168fed05079e7315b36f643",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/matched_short_diagnostics.py",
+      "sha256": "a4ed470780541bb075561e72db819dc7ae030f7a2512d58bda3a392aa5ca6cc5",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/registry.py",
+      "sha256": "b2f7bbcf28f601dc753d9ba25b170b62ac9504b4614ef5b76d4c383ebd36c987",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/rollout.py",
+      "sha256": "3d04f0df61d9d01326a7ccde60ae6f42498582428ebde16501eca5867734b87c",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/runner.py",
+      "sha256": "109acaf5a6999a6b911c0abf59708ca4c14f997e6f4cd34c553f7ee8d3562d11",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/training_artifacts.py",
+      "sha256": "3e3613d81dbec30117a30a8b8c20d3981111f43cd32f61f8830dccaf8aba863e",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/__init__.py",
+      "sha256": "7481327b50ff0104059ca4dff637fd03aba7cd9eb953d4adefbeb40a8206f9be",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/algorithms/__init__.py",
+      "sha256": "fdf240818db8a7523f67abe22c8652429b07cbd9935917727ee451340638501e",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/baselines/__init__.py",
+      "sha256": "a81112bee2f572ab9d7eba7d7e4fd4812cea868e869c1fc50124174652ab9eab",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/channel/__init__.py",
+      "sha256": "33e8bb8c5358b01979119c4dbd39def7c00bf7818c9a3c95fa304de02e5591d1",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/env/actions.py",
+      "sha256": "7f6b9eeda2c6674bc4bcd1dd698f3d85c60a520a1632916e59a7e052da435d1e",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/env/action_history.py",
+      "sha256": "64921079b0768bdec87749b39bd5b14e0a4a93885f839c8855189da4d29864b6",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/env/channel.py",
+      "sha256": "8121e5f6bb81b88538b237d10951578482029c1df9fecf39158bde99e1bfacc2",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/env/energy.py",
+      "sha256": "aad51548bf7422a5f717b8c413380ea44e31efa2b2db89f027571b071bf96841",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/env/environment.py",
+      "sha256": "3d9a47d925fc8187a2e39c5207bc0f4632f9e1dffe6be574284bff40d77e8ff5",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/env/executor.py",
+      "sha256": "4d79fc77b225bb5fe497a70489cb4be17c3016b4b4c01510300916db2f8548a4",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/env/history.py",
+      "sha256": "4bb0536b18036fbe5a64d3269679a5ad193b98e5400c27c4fb4f8f5a62a29a9f",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/env/lifecycle.py",
+      "sha256": "0c65b4ddd202a1ebaab292d2b4f0ad77369dc97581318027a3e6ccb10b659196",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/env/metrics.py",
+      "sha256": "f79c61bc3195f93d6a7a6808471b9fff2cf9c9d765b338fc7f3c8ec573ae7ecd",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/env/mobility.py",
+      "sha256": "fa779fe22ac4179c8afcb8074946f091cdf8ee3d6a7e0909105bd0a73f0bd3ea",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/env/observation.py",
+      "sha256": "39dfd220351849a7047fdaea71d27e267bdaf06d867484b4620bc17e8df51a79",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/env/outage.py",
+      "sha256": "206124a3da29f35b88fed54d0411495626e9545e24a8a6536edfd616d042745c",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/env/public_history.py",
+      "sha256": "be87558825dc7b3b74589bc566cc14d47a66534da3c98eda09679b63115c0dab",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/env/queues.py",
+      "sha256": "c4edab7b8c458a40adf245035435a29cba4d84c3d05467a7ff5f2e8205b96767",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/env/randomness.py",
+      "sha256": "0863cc52f7e93da1469f1b74e837239256b1e77c686f6337f8001dd129beaf04",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/env/reward.py",
+      "sha256": "424957a87c6b16836cd7ec73535098b70c3da25728d476a35969b28d7cde19cf",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/env/service.py",
+      "sha256": "6d0b177c95606245971d0e7f652a08589e4aa64fe75aac8d002486ae1a970ce9",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/env/state.py",
+      "sha256": "2d62584b6f919767f6c2711c73e2ad49f37e4f8eb931a6ca12cf3b894d202523",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/env/task.py",
+      "sha256": "12a4bcf99ffc5cb42b8cdde89330498fe1d89852ed28935a02436be506df0e25",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/env/tasks.py",
+      "sha256": "b691e9fa1647c931f194333ecab2bfbbf2db5bf0965ea7b3defe1e85ae9a98bf",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/env/topology.py",
+      "sha256": "e9276c4f39aa73f57849c99c2f10cb8ff5b16fad1a2946d87be917f7c463b115",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/env/traffic.py",
+      "sha256": "cdd85684b7d271e22c233f0454b17a26c31c1e46c5cc81decea25cba6d812223",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/env/validation.py",
+      "sha256": "4076aa7caef6a6a07bea2db3e323382f0e55f9f4ab6c1cfe56e160a21b942c37",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/env/__init__.py",
+      "sha256": "c8118cc330c2e54103bc6374f4bbbfcd4afc664b3d9785fd9527dfa4375fcfbb",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/actor_loader.py",
+      "sha256": "de0c371370c7fb398bbe0288e855ba72d6bca4505202b048b709b12ba6153c51",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/actor_only_route_oracle.py",
+      "sha256": "512fb36b79e40bd71968856c716849b07264b5d2de81d25b924a215791a8c76c",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/destination_calibration.py",
+      "sha256": "5172d6c0dce63439d2f92546616a04e5f83a1c0ba6a5b5fc015c1f861f2302c8",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/destination_gradient_probe.py",
+      "sha256": "1c5b1480e54c0692e110d4730ff19bb6a452718ec25a69f13e45de8e8749cda4",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/destination_oracle_dataset.py",
+      "sha256": "74376acac3c96150295e41d32f057c0132a525b930860b99f13fa59bcb43a241",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/destination_system_oracle.py",
+      "sha256": "a1d20fddcdd6d224dd620d7927c89c9b35437e8b9dcf84a800662964558a40d3",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/e4_defer_localization.py",
+      "sha256": "97dce1388f1f5f908d6cf05a106a0b7a720785edf4ba28056f4ad02fc1b8f4ac",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/e4_v1_audit_figures.py",
+      "sha256": "e695193c971c31d3754d74997555951ade3a323bfe57a11dca1d2c19624bafc7",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/e4_v1_audit_report.py",
+      "sha256": "fe0dabb8ff83b3077cf137bfb1fd749a09d909943599fd61e7fdcd26f39ad218",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/e4_v1_matched_audit.py",
+      "sha256": "099c88287f32206f9001d82f4157457930abe837bbea9fc4cdbfe15a62bdcea5",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/e5_v1_final_audit.py",
+      "sha256": "dd40973416f378b6100f86b521e96a1e0e15509efd00e098fe28ee4b9d06982b",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/handler.py",
+      "sha256": "06cef5a931171c22d794470ffe3ea4df4e8ef7ae4242aa369b7c3a11453bb53c",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/learnability_sanity.py",
+      "sha256": "13ae6d79a9bfbf5dc0ce95595f07a26f608a1f2a26fef9f19e043027e3bf7226",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/metrics.py",
+      "sha256": "0d52b4174f1983ca6f856b8bd152fa636ff3c6ef69479238644cd5f7d7c669b9",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/route_counterfactual_analysis.py",
+      "sha256": "f632a0163f4e4a24405a11fd832f784a9472886496ccd150a4a5825cc7c3f035",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/route_counterfactual_oracle.py",
+      "sha256": "b581c8cd94c9579e296c79446131800c5649070fba928c68a91fef839ae6a228",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/route_credit_probe.py",
+      "sha256": "a31a103bfec2a70e8b1696a7e46f6b820849278fd9285f3085271670d1ed810a",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/route_option_alignment.py",
+      "sha256": "c5a9bc01323a6e4e62598f55cdc052a7ba0d60488dfd54d30f7f785ef84deb34",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/route_oracle.py",
+      "sha256": "eabfa0b467342e53fff3758e7cd1b5cb143621923b06a310d38caad43fbfa0c0",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/route_oracle_probe.py",
+      "sha256": "cc8b20f24f3b335ef966ef0814b7c053e21006d579a123c25e6397378f55757c",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/route_q_probe.py",
+      "sha256": "168f8073b3a58786b5fcea59031fa14e23d6662c209ae2cceef3d821d4b84072",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/route_service_factorial.py",
+      "sha256": "130bb287f9df34363350b65dc53386ce03fce52f6d6c67d21e44bd2908cc2d50",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/route_sidecar_repair.py",
+      "sha256": "bbe987257db75256a1bb7e870be7c271be8e1c2dd5beac610c63f5bf89ddf84a",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/route_telemetry.py",
+      "sha256": "020981ea64897c211e15fa2e4aab7009450ae30cda79f65a0fea42d3fd4e3a38",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/runner.py",
+      "sha256": "8ee3f99fb380c3e17fd34131c14fcf746afae5340304edf09a5d6769c670d54d",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/service_diagnostics.py",
+      "sha256": "115ca9d0b8d13667d66a51ddd1bdf8649703d866e3348db90344c3dad9cff1e5",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/service_telemetry.py",
+      "sha256": "0cd1a0cb57aa8dd1e02f4eef0bb6483c096dbd8ce7bdd1eeb44bf5f934a5886c",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/tx_paired_shadow_pilot.py",
+      "sha256": "8945b430dd590c10d78943b29d87079454504d73e540e885ca372bec4ba19f01",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/evaluation/__init__.py",
+      "sha256": "ae869484a57b6a3e423f63b89ba4e852882c24f36631255f8b8314ecab4a0a51",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/mobility/__init__.py",
+      "sha256": "26d8bf2f3d3dfa6b113fa99b7e1e3c6a6a3dfec56e8e12f3b54c91db1a4914cf",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/ca_gat_mappo.py",
+      "sha256": "3e79786c34d9065f829a5bfc2d55ded668ef235376795a2220d1d7fa36d2c056",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/ca_gat_mappo_actions.py",
+      "sha256": "b547c68f3bef4970ccc31c04abe4915527c326b0f0103f9a913ca332ce6bab58",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/ca_gat_mappo_checkpoint.py",
+      "sha256": "d4dd28a72e684f854f597cb376e1ab153c94d4eded319c768fa6db8a566d24ef",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/ca_gat_mappo_credit_telemetry.py",
+      "sha256": "db323176dcd7247b73fe2d7bb69d5699f3b04689746facc692711953f90a4f26",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/ca_gat_mappo_gae.py",
+      "sha256": "2664b9cbd5f67b844214f263a25cd53912be7ed7eea9e96b237ba6092c11a2fb",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/ca_gat_mappo_ppo.py",
+      "sha256": "2957b3fc15ab2c1a89a3be35063198ef40f5531bffd5de5fc63d64fcddcf0fad",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/ca_gat_mappo_rollout.py",
+      "sha256": "8059de772ab97c78f4a2f7e172125f4edc62a609e80b578753437ebb164e47af",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/ca_gat_mappo_route_nstep.py",
+      "sha256": "d1ac55ef02022dc77cd25ef35cd59e97a87fd53239f75578401764e3e4ac5b8a",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/ca_gat_mappo_route_telemetry.py",
+      "sha256": "2fdcf39753878a0d61e5596695e0ae8f0d23809cc6c86d159b2984284d4019d5",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/ca_gat_mappo_runtime.py",
+      "sha256": "773d04035b808b68eaf1fece7baeee8fd11abf5010ffe0b2209aa0bbd8d340ee",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/ca_gat_mappo_trainer.py",
+      "sha256": "5273adf9cc4d81745016bac6353c87cbcc26a4afc55107ebdd5e186fa5bbb02f",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/ca_gat_mappo_update.py",
+      "sha256": "c7aa6268d52822ed373e3d01e34f254f573db4bdf783eef80f25a17cc5bed770",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/destination_pretraining.py",
+      "sha256": "82b9d1c05ba07b08e32281e499766c294c199b1c3b70fe56f5ffbf899b2b8540",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/destination_ranking.py",
+      "sha256": "f486626e14580b9a91c18b91612ae4498d8bac9cdb9d07729d8858575aa9b243",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/integrated_scheduler.py",
+      "sha256": "2f38b04ca1d249c8c59dfbd5e2f9bd0d710837a505929aad363fe2a0c62b5312",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/route_exploration.py",
+      "sha256": "1d70dcc969c91e8396b2c357d89c68e1521b09cbc658d2aa57f054b023ada957",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/route_option_q.py",
+      "sha256": "86aecbd4f4206ec7a27c8aea15242d4250b54ccff6688ded14bbdfd5f67f5cd4",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/route_q_inputs.py",
+      "sha256": "1903480b30b4ca9bb595d06a29f2695d71a1b27f18746a43eba29f3753e34094",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/route_task_credit.py",
+      "sha256": "345fcbedce1b509a2efb0cd402da0bf17b6c5df2a02c52f3befeda8e5e27a3a7",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/tx_paired_shadow.py",
+      "sha256": "d713e1f600ae8e9027cc8ba81ca67b3c30cc52afba746ce1651eae2c20ade2c7",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/tx_upper_counterfactual.py",
+      "sha256": "43dcb861a88075890682bb330954a85970e2ceb66985d931d707aa6afdf3a988",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/tx_upper_factual_credit.py",
+      "sha256": "a8576148685278e196748403f90fb375874a6b6ef89141243c53c03bbcecd858",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/tx_upper_stability.py",
+      "sha256": "00820f11218ee33ab6f88e49c9caaea74bab207c94bb2f0c55c7a9b564014a39",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/__init__.py",
+      "sha256": "e74fb35aa384328a4e16093b7f10b51829cb687c02e85fd3af6436e0d5cb2eef",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/policies/base.py",
+      "sha256": "679768c62a43f209141da545ae53a2cb4d7b1986fc0c56909fefb9c1e57f482d",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/policies/heuristic_policy.py",
+      "sha256": "9f909b19c8f2e3fd9e5f756caf56ff8c4651e40a03c5627c3d8064afb13fd9c5",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/policies/local_only_policy.py",
+      "sha256": "738d1d05d4c8f5d36a92b5d3bc586e9fdaf93f3b4107e162fb82ced7d841d713",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/policies/random_policy.py",
+      "sha256": "813627b0de07f2769e0bfd4a6cf1bd52a5515b60c178a06a20ee7e17e619364e",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/policies/__init__.py",
+      "sha256": "0c5aaac6c8db7166e2d60328f4c7e4e37527dcf882f0ab7cbf34282336a72ff0",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/queues/__init__.py",
+      "sha256": "1003520713a9875325c2335da68151ff28286475a050fe23a019de2081d00a8e",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/training/destination_distillation.py",
+      "sha256": "70652663b302c1959089453fe7e473f331a91d3778b129c6bf9dda9d5213ac05",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/training/__init__.py",
+      "sha256": "f0544d19d6955dda4cdcef9861c82323793e2fa8743cfd8e668c247ddd9c8b73",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/utils/__init__.py",
+      "sha256": "cb7b963905b57f0d262e510efa08bb1c29c3163cf34a0840d8432e07035c71ec",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/main.py",
+      "sha256": "a109d100fad65414b3f6119fa4074e4da2eaeae9b7726d313468a0ea9cf37295",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/AGENTS.md",
+      "sha256": "2bc0874025a5c0c891139809d1e2e0a6df62708360993881adce206bc544372a",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/route_candidates.py",
+      "sha256": "595411fa64a2e4ec9d33cf4d9b4ac5bfd7ff941c82f9d8a57544bd2f63851d36",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/unified_route.py",
+      "sha256": "427dbd561abbcda38086e65bd612762fc5e37dd876d937c4b790e24471a50ab8",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/route_decision.py",
+      "sha256": "d0269971a956c231e0caf4c808274d0bdcb4d7b253d2f0b62e76ace4ae7389db",
+      "matches_step06": true
+    },
+    {
+      "path": "D:/My_project_li/src/models/route_physical_relations.py",
+      "sha256": "95226f1cd4511c7551dd1aa3dddf266a4fe69960a28f4110a5acd0a9d23b6f25",
+      "matches_step06": true
+    }
+  ],
+  "random_initialization_direct_launch_evidence": "NOT_AVAILABLE_IN_SELECTED_ARTIFACTS",
+  "no_new_training_or_evaluation": true
+}

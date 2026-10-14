@@ -1,0 +1,47 @@
+[
+  {
+    "old": "sections/e14c_route_task_credit.md",
+    "new": "sections/methods/e14c_route_task_credit.md",
+    "sha256_before": "6ce41a545f4f077e69214c75db6ade273a2123d8be27636a41b8eb27a4b14c01"
+  },
+  {
+    "old": "sections/e14d_p0_input_repair.md",
+    "new": "sections/methods/e14d_p0_input_repair.md",
+    "sha256_before": "60dca1b01941100d7e30e697b091232982eb997d7a0998cdbabee20773a6cc30"
+  },
+  {
+    "old": "sections/e14e_p1a_task_event_credit.md",
+    "new": "sections/methods/e14e_p1a_task_event_credit.md",
+    "sha256_before": "61518def649f75c257ac9aeec7349bfeb96a86409b6ee5322d54b800e294ec60"
+  },
+  {
+    "old": "sections/route_candidate_interface_cpu_audit.md",
+    "new": "sections/methods/route_candidate_interface_cpu_audit.md",
+    "sha256_before": "a2d3132a9e52b0f2894252b76461b31860ff3b57ea225a25ffc7af90c7588e69"
+  },
+  {
+    "old": "sections/unified_route_scoring_step03.md",
+    "new": "sections/methods/unified_route_scoring_step03.md",
+    "sha256_before": "434407ca20f738ee4aee696eaa82ffa14ae87be757715b41d9f1bbd04ef9d81f"
+  },
+  {
+    "old": "sections/unified_route_learning_step04.md",
+    "new": "sections/methods/unified_route_learning_step04.md",
+    "sha256_before": "25395f69c8986c11d0510d726b54c989cac6f51fa9e6bfdfc55b5acba4b896e6"
+  },
+  {
+    "old": "sections/unified_route_physical_relations_step05.md",
+    "new": "sections/methods/unified_route_physical_relations_step05.md",
+    "sha256_before": "dc8f15c4a65855a11d6d189907df9b72c93856d9516a00729e03dbfa243740d8"
+  },
+  {
+    "old": "sections/cooperative_task_allocation_implementation_plan.md",
+    "new": "sections/history/cooperative_task_allocation_implementation_plan.md",
+    "sha256_before": "e4f92d71b7b8a53269e8cb9e1f0614214f57aad21f394a2b624e1496cdd24b34"
+  },
+  {
+    "old": "sections/task_allocation_experiment_handoff_step06.md",
+    "new": "sections/history/task_allocation_experiment_handoff_step06.md",
+    "sha256_before": "03bf5e9d24944daec00cbb00e82440f4505c3df9e59abdd16f0bf9e2e26ebef4"
+  }
+]

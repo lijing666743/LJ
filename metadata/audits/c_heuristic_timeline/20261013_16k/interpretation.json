@@ -1,0 +1,111 @@
+{
+  "scope": "C seed42 16k versus heuristic on the same five development scenes; fixed-checkpoint descriptive evidence only.",
+  "completed_step": "Existing-trace timeline review of 54 C CPU-stage noncompletions among 61 heuristic-only completions; seven TX-stage cases kept separate.",
+  "findings": [
+    "54 CPU-stage cases consist of 52 deadline expirations and two horizon truncations. None lacks sufficient isolated full-frequency time capacity at CPU eligibility; this calculation ignores energy and competing jobs.",
+    "21 cases encounter slots with no energy-feasible positive CPU frequency for any currently eligible queue head; 18 are blocked this way throughout their observed CPU window.",
+    "19 cases have less remaining destination energy at CPU eligibility than even the quarter-frequency completion-energy lower bound.",
+    "The other 33 cases have waiting slots occupied by other tasks, either preceding EDF heads in the same source queue or service of another source queue. Across the reconstructed traces, no backlog slot with any energy-feasible CPU head is left without positive CPU service.",
+    "C UAV2 has no energy-feasible positive CPU head at slots332-499 in seed1042 and371-499 in seed1044. Final energies are0.001299 J and0.000426 J; heuristic retains13.9494 J and16.2714 J at the same node.",
+    "After those blocks start, C binds20 and12 additional tasks to UAV2. All32 terminate in CPU_WAIT:24 EXPIRED and8 TRUNCATED. Of these,18 are completed by heuristic.",
+    "A task can wait because of earlier EDF jobs, cross-source queue selection, energy infeasibility, or a combination; one final-stage label is insufficient to identify the mechanism."
+  ],
+  "examples": [
+    {
+      "seed": 1044,
+      "task_id": 14,
+      "source": 3,
+      "destination": 2,
+      "C_final_status": "EXPIRED",
+      "C_terminal_stage": "CPU_SERVICE",
+      "generation_slot": 70,
+      "route_bind_slot": 71,
+      "tx_complete_slot": 75,
+      "CPU_eligible_slot": 76,
+      "deadline_slot": 114,
+      "required_cycles": 635095808.7137456,
+      "heuristic_destination": 3,
+      "heuristic_CPU_eligible_slot": 72,
+      "heuristic_done_slot": 104,
+      "observed_CPU_window_slots": 39,
+      "deadline_CPU_window_slots": 39,
+      "min_full_frequency_service_slots": 8,
+      "deadline_capacity_shortfall": false,
+      "observed_capacity_shortfall": false,
+      "energy_at_CPU_eligibility_j": 31.914173388850852,
+      "minimum_completion_energy_lower_bound_j": 0.05905841709535614,
+      "arrival_energy_below_completion_lower_bound": false,
+      "first_CPU_service_slot": 108,
+      "positive_CPU_service_slots": 5,
+      "served_cycles_fraction": 0.6294476176065933,
+      "first_service_wait_observed_slots": 32,
+      "wait_right_censored": false,
+      "service_kind_counts": {
+        "behind_same_source_EDF_head": 21,
+        "other_source_queue_served": 13,
+        "target_served": 5
+      },
+      "observed_any_all_heads_energy_blocked": false,
+      "energy_blocked_entire_observed_CPU_window": false,
+      "other_queue_later_deadline_while_target_head_slots": 4,
+      "maximum_queue_length_during_wait": 6,
+      "mean_queue_length_during_window": 4
+    },
+    {
+      "seed": 1044,
+      "task_id": 89,
+      "source": 1,
+      "destination": 2,
+      "C_final_status": "EXPIRED",
+      "C_terminal_stage": "CPU_WAIT",
+      "generation_slot": 372,
+      "route_bind_slot": 373,
+      "tx_complete_slot": 374,
+      "CPU_eligible_slot": 375,
+      "deadline_slot": 430,
+      "required_cycles": 740951469.700058,
+      "heuristic_destination": 1,
+      "heuristic_CPU_eligible_slot": 374,
+      "heuristic_done_slot": 423,
+      "observed_CPU_window_slots": 56,
+      "deadline_CPU_window_slots": 56,
+      "min_full_frequency_service_slots": 10,
+      "deadline_capacity_shortfall": false,
+      "observed_capacity_shortfall": false,
+      "energy_at_CPU_eligibility_j": 0.0004255489234453573,
+      "minimum_completion_energy_lower_bound_j": 0.0689020779929075,
+      "arrival_energy_below_completion_lower_bound": true,
+      "first_CPU_service_slot": null,
+      "positive_CPU_service_slots": 0,
+      "served_cycles_fraction": 0.0,
+      "first_service_wait_observed_slots": 56,
+      "wait_right_censored": true,
+      "service_kind_counts": {
+        "all_heads_energy_blocked": 56
+      },
+      "observed_any_all_heads_energy_blocked": true,
+      "energy_blocked_entire_observed_CPU_window": true,
+      "other_queue_later_deadline_while_target_head_slots": 0,
+      "maximum_queue_length_during_wait": 6,
+      "mean_queue_length_during_window": 4.053571428571429
+    }
+  ],
+  "interpretation": "The current C checkpoint exhibits an energy-sustainability problem at the compute-rich destination in two scenes, plus contention and queue-allocation losses elsewhere. The energy masks correctly leave no positive CPU action for depleted nodes. This does not establish a source-code fault, a reward-design fault, or that more training cannot improve the behavior.",
+  "limits": [
+    "Capacity bounds are arithmetic checks, not oracle rollouts or a claim that all tasks could jointly finish.",
+    "No alternate policy was simulated; the counterfactual benefit of changing route or frequency is not quantified.",
+    "The seven TX_WAIT tasks have not yet received a transmission-selection timeline diagnosis.",
+    "Actual actor-visible neighbor energy snapshots at each route decision have not been established by this task.",
+    "C remains a single training-seed checkpoint that has not shown a development-performance plateau."
+  ],
+  "next_step_plan": {
+    "scope": "Read-only audit of C route energy inputs and feasibility contract; no training, reward changes, or new evaluation.",
+    "questions": [
+      "Which of the35 physical relation features encode neighbor energy or sustainable CPU capacity?",
+      "How is neighbor energy refreshed, and what age/staleness information reaches the actor?",
+      "Can current route legality admit a destination with insufficient future CPU energy, and is this the intended mask contract?",
+      "Do existing logs contain the actual energy features seen for the32 post-depletion assignments? If absent, record the evidence gap rather than inventing values."
+    ],
+    "decision_boundary": "After this input-contract audit, decide whether the evidence points to expected learning behavior, stale or insufficient inputs, or a concrete implementation mismatch; only then discuss any code change or subsequent training."
+  }
+}

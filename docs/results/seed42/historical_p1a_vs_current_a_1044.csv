@@ -1,0 +1,11 @@
+﻿metric,unit,Historical_P1a_1044,Current_A_1044,difference_current_minus_history,comparison
+generated,tasks,117,117,0,exact_equal
+completed,tasks,94,94,0,exact_equal
+expired,tasks,19,19,0,exact_equal
+truncated,tasks,4,4,0,exact_equal
+completion_ratio,percent,80.34188034188034,80.34188034188034,0.0,exact_equal
+Local,decisions,0,0,0,exact_equal
+Remote,decisions,117,117,0,exact_equal
+Defer,decisions,0,0,0,exact_equal
+remote_ratio,percent,100.0,100.0,0.0,exact_equal
+total_reward,dimensionless,69.63241863141643,69.63241863141643,0.0,exact_equal

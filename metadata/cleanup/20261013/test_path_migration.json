@@ -1,0 +1,37 @@
+[
+  {
+    "path": "tests/test_cpu_anti_starvation.py",
+    "before_sha256": "955e0e9f5b5760bf5beadbeca8404d4d1277954f2feffeb0795e6504cd35e8f0",
+    "after_sha256": "e94bab076ffbc98ffff050e62bc5b6e92389ddc22540113cae17ae8f19384779",
+    "change": "path references only; assertions and algorithms unchanged",
+    "hash_unit": "raw file bytes"
+  },
+  {
+    "path": "tests/test_route_exploration.py",
+    "before_sha256": "2add21e1ffc934809ecaa598cf6870166df8d40a307c4736737f073795618277",
+    "after_sha256": "d8a7d53a7c2af99b442a329508b742924234d67e674fc27da632a6faca58fc3a",
+    "change": "path references only; assertions and algorithms unchanged",
+    "hash_unit": "raw file bytes"
+  },
+  {
+    "path": "tests/test_route_actor_credit_source.py",
+    "before_sha256": "4df1fcd856fb887cf4531275f70ef611cf60eee578ac1c90ad6bc4bcecc2456d",
+    "after_sha256": "755546a87df5ef652557fd99758072cefc185152467f918dff3ad281d3e59ed2",
+    "change": "path references only; assertions and algorithms unchanged",
+    "hash_unit": "raw file bytes"
+  },
+  {
+    "path": "tests/test_route_q_inputs.py",
+    "before_sha256": "ce0a6de1763414e8b24f50d1e2399fbd891cf6948d26c834c3f9d9967cf1ef7b",
+    "after_sha256": "5e4f1e6fddcf5ed95ecda6d368d908907ecb859482202570844286d3a7226bb0",
+    "change": "path references only; assertions and algorithms unchanged",
+    "hash_unit": "raw file bytes"
+  },
+  {
+    "path": "tests/test_route_candidate_interface.py",
+    "before_sha256": "6603a72ebfc8a03fd7cac0f86ac36c1167c2227f0a568ad7be3a2807a0537846",
+    "after_sha256": "56a7ae9dcc87c46af25aa57aea4702c91964c6a03f18fa08d818bb5d557d04b4",
+    "change": "path references only; assertions and algorithms unchanged",
+    "hash_unit": "raw file bytes"
+  }
+]

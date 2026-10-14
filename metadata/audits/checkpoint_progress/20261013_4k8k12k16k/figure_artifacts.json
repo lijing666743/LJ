@@ -1,0 +1,9 @@
+{
+  "purpose": "single-training-seed development diagnostic",
+  "source": "D:\\My_project_li\\metadata\\audits\\checkpoint_progress\\20261013_4k8k12k16k\\comparison_summary.json",
+  "outputs": [
+    "D:\\My_project_li\\plots\\checkpoint_progress\\20261013_4k8k12k16k\\checkpoint_progress_dashboard.png",
+    "D:\\My_project_li\\plots\\checkpoint_progress\\20261013_4k8k12k16k\\checkpoint_progress_dashboard.svg",
+    "D:\\My_project_li\\plots\\checkpoint_progress\\20261013_4k8k12k16k\\figure_data_and_recipe.json"
+  ]
+}

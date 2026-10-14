@@ -1,0 +1,367 @@
+{
+  "status": "AUDIT_COMPLETE",
+  "scheme1_exact_resume_from_existing_final": "UNSUPPORTED",
+  "recommended_scheme": 2,
+  "training_started": false,
+  "optimizer_updates_executed": 0,
+  "environment_steps_executed": 0,
+  "production_source_modified": false,
+  "frozen_input_count": 117,
+  "frozen_inputs_unchanged": true,
+  "records": [
+    {
+      "method": "A",
+      "checkpoint_path": "D:\\My_project_li\\logs\\A\\seed42\\8k\\training\\checkpoints\\final.pt",
+      "sha256": "5da08bb0309948ab8bbd9423364d6f76b07daf1a8dcdb7786c7dee141f958199",
+      "kind": "FINAL_COMPLETED",
+      "training_state": {
+        "policy_version": 31,
+        "started_episodes": 16,
+        "completed_episodes": 16,
+        "next_episode_index": 16,
+        "collected_environment_transitions": 8000,
+        "optimized_transitions": 7936,
+        "ppo_update_count": 31,
+        "unused_final_tail_transitions": 64,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "actor_state_tensors": 158,
+      "critic_state_tensors": 21,
+      "optimizers": {
+        "actor_adam": {
+          "state_entries": 158,
+          "param_groups": 2,
+          "adam_step_min": 124.0,
+          "adam_step_max": 124.0,
+          "moments_present_and_finite": true
+        },
+        "critic_adam": {
+          "state_entries": 18,
+          "param_groups": 1,
+          "adam_step_min": 124.0,
+          "adam_step_max": 124.0,
+          "moments_present_and_finite": true
+        }
+      },
+      "policy_rng": {
+        "fields": [
+          "generator_state",
+          "device_type"
+        ],
+        "device_type": "cuda",
+        "state_bytes": 16,
+        "roundtrip_tested": true,
+        "global_python_numpy_torch_rng_states_stored": false
+      },
+      "pending_rollout": {
+        "length": 0,
+        "policy_version": null,
+        "transition_records": 0
+      },
+      "actual_final_resume_rejection": "training already complete",
+      "rejected_before_actor_construction": true,
+      "4k_periodic_resume_with_changed_budget_rejection": "checkpoint canonical config_hash mismatch",
+      "proposed_fresh16k_config_hash": "da988917026d76b7416825f340ba1a3c745791e9c4d885eadfd5995b9c2d281a",
+      "proposed_config_changed_leaves": [
+        "output.dashboard_logs_dir",
+        "output.logs_dir",
+        "output.plots_dir",
+        "training.mappo.max_training_environment_steps",
+        "training.mappo.max_training_episodes"
+      ]
+    },
+    {
+      "method": "B",
+      "checkpoint_path": "D:\\My_project_li\\logs\\B\\seed42\\8k\\training\\checkpoints\\final.pt",
+      "sha256": "2cab254ff8d527726779b7ec18383ffc0cd7710f5edb6d0ac229da2c554feec5",
+      "kind": "FINAL_COMPLETED",
+      "training_state": {
+        "policy_version": 31,
+        "started_episodes": 16,
+        "completed_episodes": 16,
+        "next_episode_index": 16,
+        "collected_environment_transitions": 8000,
+        "optimized_transitions": 7936,
+        "ppo_update_count": 31,
+        "unused_final_tail_transitions": 64,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "actor_state_tensors": 156,
+      "critic_state_tensors": 21,
+      "optimizers": {
+        "actor_adam": {
+          "state_entries": 156,
+          "param_groups": 2,
+          "adam_step_min": 124.0,
+          "adam_step_max": 124.0,
+          "moments_present_and_finite": true
+        },
+        "critic_adam": {
+          "state_entries": 18,
+          "param_groups": 1,
+          "adam_step_min": 124.0,
+          "adam_step_max": 124.0,
+          "moments_present_and_finite": true
+        }
+      },
+      "policy_rng": {
+        "fields": [
+          "generator_state",
+          "device_type"
+        ],
+        "device_type": "cuda",
+        "state_bytes": 16,
+        "roundtrip_tested": true,
+        "global_python_numpy_torch_rng_states_stored": false
+      },
+      "pending_rollout": {
+        "length": 0,
+        "policy_version": null,
+        "transition_records": 0
+      },
+      "actual_final_resume_rejection": "training already complete",
+      "rejected_before_actor_construction": true,
+      "4k_periodic_resume_with_changed_budget_rejection": "checkpoint canonical config_hash mismatch",
+      "proposed_fresh16k_config_hash": "fdbc6d3eebc8e67fbc23ab6fc1345c485d1d7ca79f85adc01488bac166d3e724",
+      "proposed_config_changed_leaves": [
+        "output.dashboard_logs_dir",
+        "output.logs_dir",
+        "output.plots_dir",
+        "training.mappo.max_training_environment_steps",
+        "training.mappo.max_training_episodes"
+      ]
+    },
+    {
+      "method": "C",
+      "checkpoint_path": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\final.pt",
+      "sha256": "58da11c49bde4a517471e1386842b90568fdb1ffe51d9c290caa7e3d442ff1b5",
+      "kind": "FINAL_COMPLETED",
+      "training_state": {
+        "policy_version": 31,
+        "started_episodes": 16,
+        "completed_episodes": 16,
+        "next_episode_index": 16,
+        "collected_environment_transitions": 8000,
+        "optimized_transitions": 7936,
+        "ppo_update_count": 31,
+        "unused_final_tail_transitions": 64,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "actor_state_tensors": 160,
+      "critic_state_tensors": 21,
+      "optimizers": {
+        "actor_adam": {
+          "state_entries": 160,
+          "param_groups": 2,
+          "adam_step_min": 124.0,
+          "adam_step_max": 124.0,
+          "moments_present_and_finite": true
+        },
+        "critic_adam": {
+          "state_entries": 18,
+          "param_groups": 1,
+          "adam_step_min": 124.0,
+          "adam_step_max": 124.0,
+          "moments_present_and_finite": true
+        }
+      },
+      "policy_rng": {
+        "fields": [
+          "generator_state",
+          "device_type"
+        ],
+        "device_type": "cuda",
+        "state_bytes": 16,
+        "roundtrip_tested": true,
+        "global_python_numpy_torch_rng_states_stored": false
+      },
+      "pending_rollout": {
+        "length": 0,
+        "policy_version": null,
+        "transition_records": 0
+      },
+      "actual_final_resume_rejection": "training already complete",
+      "rejected_before_actor_construction": true,
+      "4k_periodic_resume_with_changed_budget_rejection": "checkpoint canonical config_hash mismatch",
+      "proposed_fresh16k_config_hash": "4da4253eead686ff78f6759c3b2ac07b514b088512cff41055e158c9a30d145f",
+      "proposed_config_changed_leaves": [
+        "output.dashboard_logs_dir",
+        "output.logs_dir",
+        "output.plots_dir",
+        "training.mappo.max_training_environment_steps",
+        "training.mappo.max_training_episodes"
+      ]
+    }
+  ],
+  "commands": [
+    {
+      "method": "A",
+      "executable": "D:\\Miniconda\\python.exe",
+      "entrypoint": "D:\\My_project_li\\main.py",
+      "training_args_not_executed": [
+        "--config",
+        "D:\\My_project_li\\experiments\\task-allocation\\configs\\a-seed42-8k.json",
+        "--mode",
+        "rl",
+        "--profile",
+        "rl-formal",
+        "--seed",
+        "42",
+        "--set",
+        "training.mappo.max_training_environment_steps=16000",
+        "--set",
+        "training.mappo.max_training_episodes=32",
+        "--set",
+        "training.mappo.checkpoint_interval_steps=4000",
+        "--set",
+        "training.mappo.evaluation_interval_steps=4000",
+        "--set",
+        "output.logs_dir=D:\\My_project_li/logs/A/seed42/16k/runs/fresh16k_20261013_v1",
+        "--set",
+        "output.plots_dir=D:\\My_project_li/plots/A/seed42/16k/runs/fresh16k_20261013_v1",
+        "--set",
+        "output.dashboard_logs_dir=D:\\My_project_li/dashboard_logs/A/seed42/16k/runs/fresh16k_20261013_v1"
+      ],
+      "safe_inspection_args": [
+        "--config",
+        "D:\\My_project_li\\experiments\\task-allocation\\configs\\a-seed42-8k.json",
+        "--mode",
+        "rl",
+        "--profile",
+        "rl-formal",
+        "--seed",
+        "42",
+        "--set",
+        "training.mappo.max_training_environment_steps=16000",
+        "--set",
+        "training.mappo.max_training_episodes=32",
+        "--set",
+        "training.mappo.checkpoint_interval_steps=4000",
+        "--set",
+        "training.mappo.evaluation_interval_steps=4000",
+        "--set",
+        "output.logs_dir=D:\\My_project_li/logs/A/seed42/16k/runs/fresh16k_20261013_v1",
+        "--set",
+        "output.plots_dir=D:\\My_project_li/plots/A/seed42/16k/runs/fresh16k_20261013_v1",
+        "--set",
+        "output.dashboard_logs_dir=D:\\My_project_li/dashboard_logs/A/seed42/16k/runs/fresh16k_20261013_v1",
+        "--show-config"
+      ]
+    },
+    {
+      "method": "B",
+      "executable": "D:\\Miniconda\\python.exe",
+      "entrypoint": "D:\\My_project_li\\main.py",
+      "training_args_not_executed": [
+        "--config",
+        "D:\\My_project_li\\experiments\\task-allocation\\configs\\b-seed42-8k.json",
+        "--mode",
+        "rl",
+        "--profile",
+        "rl-formal",
+        "--seed",
+        "42",
+        "--set",
+        "training.mappo.max_training_environment_steps=16000",
+        "--set",
+        "training.mappo.max_training_episodes=32",
+        "--set",
+        "training.mappo.checkpoint_interval_steps=4000",
+        "--set",
+        "training.mappo.evaluation_interval_steps=4000",
+        "--set",
+        "output.logs_dir=D:\\My_project_li/logs/B/seed42/16k/runs/fresh16k_20261013_v1",
+        "--set",
+        "output.plots_dir=D:\\My_project_li/plots/B/seed42/16k/runs/fresh16k_20261013_v1",
+        "--set",
+        "output.dashboard_logs_dir=D:\\My_project_li/dashboard_logs/B/seed42/16k/runs/fresh16k_20261013_v1"
+      ],
+      "safe_inspection_args": [
+        "--config",
+        "D:\\My_project_li\\experiments\\task-allocation\\configs\\b-seed42-8k.json",
+        "--mode",
+        "rl",
+        "--profile",
+        "rl-formal",
+        "--seed",
+        "42",
+        "--set",
+        "training.mappo.max_training_environment_steps=16000",
+        "--set",
+        "training.mappo.max_training_episodes=32",
+        "--set",
+        "training.mappo.checkpoint_interval_steps=4000",
+        "--set",
+        "training.mappo.evaluation_interval_steps=4000",
+        "--set",
+        "output.logs_dir=D:\\My_project_li/logs/B/seed42/16k/runs/fresh16k_20261013_v1",
+        "--set",
+        "output.plots_dir=D:\\My_project_li/plots/B/seed42/16k/runs/fresh16k_20261013_v1",
+        "--set",
+        "output.dashboard_logs_dir=D:\\My_project_li/dashboard_logs/B/seed42/16k/runs/fresh16k_20261013_v1",
+        "--show-config"
+      ]
+    },
+    {
+      "method": "C",
+      "executable": "D:\\Miniconda\\python.exe",
+      "entrypoint": "D:\\My_project_li\\main.py",
+      "training_args_not_executed": [
+        "--config",
+        "D:\\My_project_li\\experiments\\task-allocation\\configs\\c-seed42-8k.json",
+        "--mode",
+        "rl",
+        "--profile",
+        "rl-formal",
+        "--seed",
+        "42",
+        "--set",
+        "training.mappo.max_training_environment_steps=16000",
+        "--set",
+        "training.mappo.max_training_episodes=32",
+        "--set",
+        "training.mappo.checkpoint_interval_steps=4000",
+        "--set",
+        "training.mappo.evaluation_interval_steps=4000",
+        "--set",
+        "output.logs_dir=D:\\My_project_li/logs/C/seed42/16k/runs/fresh16k_20261013_v1",
+        "--set",
+        "output.plots_dir=D:\\My_project_li/plots/C/seed42/16k/runs/fresh16k_20261013_v1",
+        "--set",
+        "output.dashboard_logs_dir=D:\\My_project_li/dashboard_logs/C/seed42/16k/runs/fresh16k_20261013_v1"
+      ],
+      "safe_inspection_args": [
+        "--config",
+        "D:\\My_project_li\\experiments\\task-allocation\\configs\\c-seed42-8k.json",
+        "--mode",
+        "rl",
+        "--profile",
+        "rl-formal",
+        "--seed",
+        "42",
+        "--set",
+        "training.mappo.max_training_environment_steps=16000",
+        "--set",
+        "training.mappo.max_training_episodes=32",
+        "--set",
+        "training.mappo.checkpoint_interval_steps=4000",
+        "--set",
+        "training.mappo.evaluation_interval_steps=4000",
+        "--set",
+        "output.logs_dir=D:\\My_project_li/logs/C/seed42/16k/runs/fresh16k_20261013_v1",
+        "--set",
+        "output.plots_dir=D:\\My_project_li/plots/C/seed42/16k/runs/fresh16k_20261013_v1",
+        "--set",
+        "output.dashboard_logs_dir=D:\\My_project_li/dashboard_logs/C/seed42/16k/runs/fresh16k_20261013_v1",
+        "--show-config"
+      ]
+    }
+  ],
+  "tail_conclusion": "64 is a count only. FINAL_COMPLETED stores zero rollout records. Exact pending-tail continuation cannot be recovered from final.pt alone."
+}

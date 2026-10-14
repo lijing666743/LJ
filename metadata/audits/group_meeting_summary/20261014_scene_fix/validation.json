@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "correction": "Unify scene bar heights and labels as completion percentages",
+  "previous_bar_metric": "completion_pct",
+  "previous_label_metric": "completed task count",
+  "new_bar_metric": "completion_pct",
+  "new_label_metric": "completion_pct",
+  "all_15_bars_crosschecked_with_original_episode_records": true,
+  "source_data_and_overall_table_unchanged": true,
+  "experiment_source_hashes_unchanged": 19,
+  "label_overlap_check": {
+    "label_count": 15,
+    "overlap_pairs": 0
+  },
+  "svg_percentage_labels_verified": true,
+  "corrected_figure_visually_inspected": true,
+  "tests_passed": 10,
+  "training_started": false,
+  "new_evaluation_started": false,
+  "original_assets_preserved": true,
+  "updated_script_sha256": "1c5111afdf410213d8aded5bf0e185347c60aaffb234f6941ea296086cccfd3f",
+  "original_figure_sha256": "13ad000c810027789c949e103448150b3ac9f7bcc0dc82ac6643a169093c6066",
+  "corrected_figure_sha256": "65a54c4ec61c4dc53c22e9b445bde2ecd50dec5f9aa4f208b8d0b5fc0620b8e2"
+}

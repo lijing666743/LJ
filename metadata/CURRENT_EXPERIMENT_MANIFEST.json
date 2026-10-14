@@ -1,0 +1,750 @@
+{
+  "snapshot_date": "2026-10-14",
+  "purpose": "current local experiment navigation and identities after cleanup; not a new training release",
+  "training_seed": 42,
+  "completed_training_budgets": {
+    "A": 16000,
+    "B": 16000,
+    "C": 32000
+  },
+  "evaluation_seeds": [
+    1042,
+    1043,
+    1044,
+    1045,
+    1046
+  ],
+  "generated_by_scene": [
+    135,
+    122,
+    117,
+    102,
+    129
+  ],
+  "training_seeds_43_44_completed": false,
+  "held_out_final_evaluation_completed": false,
+  "source_sha256": {
+    "src/artifacts.py": "381a76012e965758195bedb5d17dd67a750c75a0bd194adc751dec1c74940d6c",
+    "src/cli.py": "5b14d9cc0f35d6f9440ea447c6e7361cc0bcad405707e83f93930dc33af3ad79",
+    "src/config.py": "e6ee52760bf7ac604d98ab0fbd4365786577cd3a960e74d60a20fe4b5e072cde",
+    "src/execution.py": "c670eca782b0914e3e66fce6cdf27a9dfaa7cd41fd33db01f6b8626ad2e97481",
+    "src/matched_short_diagnostics.py": "a4ed470780541bb075561e72db819dc7ae030f7a2512d58bda3a392aa5ca6cc5",
+    "src/registry.py": "6d4e68da163b2a6cb13435508c4af163a199cfcc6d9950138b3ef0ab47281e45",
+    "src/rollout.py": "3d04f0df61d9d01326a7ccde60ae6f42498582428ebde16501eca5867734b87c",
+    "src/runner.py": "109acaf5a6999a6b911c0abf59708ca4c14f997e6f4cd34c553f7ee8d3562d11",
+    "src/training_artifacts.py": "3e3613d81dbec30117a30a8b8c20d3981111f43cd32f61f8830dccaf8aba863e",
+    "src/__init__.py": "7481327b50ff0104059ca4dff637fd03aba7cd9eb953d4adefbeb40a8206f9be",
+    "src/algorithms/__init__.py": "fdf240818db8a7523f67abe22c8652429b07cbd9935917727ee451340638501e",
+    "src/baselines/__init__.py": "a81112bee2f572ab9d7eba7d7e4fd4812cea868e869c1fc50124174652ab9eab",
+    "src/channel/__init__.py": "33e8bb8c5358b01979119c4dbd39def7c00bf7818c9a3c95fa304de02e5591d1",
+    "src/env/actions.py": "7f6b9eeda2c6674bc4bcd1dd698f3d85c60a520a1632916e59a7e052da435d1e",
+    "src/env/action_history.py": "64921079b0768bdec87749b39bd5b14e0a4a93885f839c8855189da4d29864b6",
+    "src/env/channel.py": "8121e5f6bb81b88538b237d10951578482029c1df9fecf39158bde99e1bfacc2",
+    "src/env/energy.py": "aad51548bf7422a5f717b8c413380ea44e31efa2b2db89f027571b071bf96841",
+    "src/env/environment.py": "3d9a47d925fc8187a2e39c5207bc0f4632f9e1dffe6be574284bff40d77e8ff5",
+    "src/env/executor.py": "4d79fc77b225bb5fe497a70489cb4be17c3016b4b4c01510300916db2f8548a4",
+    "src/env/history.py": "4bb0536b18036fbe5a64d3269679a5ad193b98e5400c27c4fb4f8f5a62a29a9f",
+    "src/env/lifecycle.py": "0c65b4ddd202a1ebaab292d2b4f0ad77369dc97581318027a3e6ccb10b659196",
+    "src/env/metrics.py": "f79c61bc3195f93d6a7a6808471b9fff2cf9c9d765b338fc7f3c8ec573ae7ecd",
+    "src/env/mobility.py": "fa779fe22ac4179c8afcb8074946f091cdf8ee3d6a7e0909105bd0a73f0bd3ea",
+    "src/env/observation.py": "39dfd220351849a7047fdaea71d27e267bdaf06d867484b4620bc17e8df51a79",
+    "src/env/outage.py": "206124a3da29f35b88fed54d0411495626e9545e24a8a6536edfd616d042745c",
+    "src/env/public_history.py": "be87558825dc7b3b74589bc566cc14d47a66534da3c98eda09679b63115c0dab",
+    "src/env/queues.py": "c4edab7b8c458a40adf245035435a29cba4d84c3d05467a7ff5f2e8205b96767",
+    "src/env/randomness.py": "0863cc52f7e93da1469f1b74e837239256b1e77c686f6337f8001dd129beaf04",
+    "src/env/reward.py": "424957a87c6b16836cd7ec73535098b70c3da25728d476a35969b28d7cde19cf",
+    "src/env/service.py": "6d0b177c95606245971d0e7f652a08589e4aa64fe75aac8d002486ae1a970ce9",
+    "src/env/state.py": "2d62584b6f919767f6c2711c73e2ad49f37e4f8eb931a6ca12cf3b894d202523",
+    "src/env/task.py": "12a4bcf99ffc5cb42b8cdde89330498fe1d89852ed28935a02436be506df0e25",
+    "src/env/tasks.py": "b691e9fa1647c931f194333ecab2bfbbf2db5bf0965ea7b3defe1e85ae9a98bf",
+    "src/env/topology.py": "e9276c4f39aa73f57849c99c2f10cb8ff5b16fad1a2946d87be917f7c463b115",
+    "src/env/traffic.py": "cdd85684b7d271e22c233f0454b17a26c31c1e46c5cc81decea25cba6d812223",
+    "src/env/validation.py": "4076aa7caef6a6a07bea2db3e323382f0e55f9f4ab6c1cfe56e160a21b942c37",
+    "src/env/__init__.py": "c8118cc330c2e54103bc6374f4bbbfcd4afc664b3d9785fd9527dfa4375fcfbb",
+    "src/evaluation/actor_loader.py": "de0c371370c7fb398bbe0288e855ba72d6bca4505202b048b709b12ba6153c51",
+    "src/evaluation/actor_only_route_oracle.py": "512fb36b79e40bd71968856c716849b07264b5d2de81d25b924a215791a8c76c",
+    "src/evaluation/checkpoint_energy_audit.py": "e4b2ed9b8b842e59bda9e54947af8a0936130e7f0e8a744a7db98296b41fe524",
+    "src/evaluation/destination_calibration.py": "5172d6c0dce63439d2f92546616a04e5f83a1c0ba6a5b5fc015c1f861f2302c8",
+    "src/evaluation/destination_gradient_probe.py": "1c5b1480e54c0692e110d4730ff19bb6a452718ec25a69f13e45de8e8749cda4",
+    "src/evaluation/destination_oracle_dataset.py": "74376acac3c96150295e41d32f057c0132a525b930860b99f13fa59bcb43a241",
+    "src/evaluation/destination_system_oracle.py": "a1d20fddcdd6d224dd620d7927c89c9b35437e8b9dcf84a800662964558a40d3",
+    "src/evaluation/e4_defer_localization.py": "97dce1388f1f5f908d6cf05a106a0b7a720785edf4ba28056f4ad02fc1b8f4ac",
+    "src/evaluation/e4_v1_audit_figures.py": "e695193c971c31d3754d74997555951ade3a323bfe57a11dca1d2c19624bafc7",
+    "src/evaluation/e4_v1_audit_report.py": "fe0dabb8ff83b3077cf137bfb1fd749a09d909943599fd61e7fdcd26f39ad218",
+    "src/evaluation/e4_v1_matched_audit.py": "099c88287f32206f9001d82f4157457930abe837bbea9fc4cdbfe15a62bdcea5",
+    "src/evaluation/e5_v1_final_audit.py": "dd40973416f378b6100f86b521e96a1e0e15509efd00e098fe28ee4b9d06982b",
+    "src/evaluation/group_meeting_figures.py": "1c5111afdf410213d8aded5bf0e185347c60aaffb234f6941ea296086cccfd3f",
+    "src/evaluation/handler.py": "06cef5a931171c22d794470ffe3ea4df4e8ef7ae4242aa369b7c3a11453bb53c",
+    "src/evaluation/learnability_sanity.py": "13ae6d79a9bfbf5dc0ce95595f07a26f608a1f2a26fef9f19e043027e3bf7226",
+    "src/evaluation/metrics.py": "0d52b4174f1983ca6f856b8bd152fa636ff3c6ef69479238644cd5f7d7c669b9",
+    "src/evaluation/route_counterfactual_analysis.py": "f632a0163f4e4a24405a11fd832f784a9472886496ccd150a4a5825cc7c3f035",
+    "src/evaluation/route_counterfactual_oracle.py": "b581c8cd94c9579e296c79446131800c5649070fba928c68a91fef839ae6a228",
+    "src/evaluation/route_credit_probe.py": "a31a103bfec2a70e8b1696a7e46f6b820849278fd9285f3085271670d1ed810a",
+    "src/evaluation/route_option_alignment.py": "c5a9bc01323a6e4e62598f55cdc052a7ba0d60488dfd54d30f7f785ef84deb34",
+    "src/evaluation/route_oracle.py": "eabfa0b467342e53fff3758e7cd1b5cb143621923b06a310d38caad43fbfa0c0",
+    "src/evaluation/route_oracle_probe.py": "cc8b20f24f3b335ef966ef0814b7c053e21006d579a123c25e6397378f55757c",
+    "src/evaluation/route_q_probe.py": "168f8073b3a58786b5fcea59031fa14e23d6662c209ae2cceef3d821d4b84072",
+    "src/evaluation/route_service_factorial.py": "130bb287f9df34363350b65dc53386ce03fce52f6d6c67d21e44bd2908cc2d50",
+    "src/evaluation/route_sidecar_repair.py": "bbe987257db75256a1bb7e870be7c271be8e1c2dd5beac610c63f5bf89ddf84a",
+    "src/evaluation/route_telemetry.py": "020981ea64897c211e15fa2e4aab7009450ae30cda79f65a0fea42d3fd4e3a38",
+    "src/evaluation/runner.py": "8ee3f99fb380c3e17fd34131c14fcf746afae5340304edf09a5d6769c670d54d",
+    "src/evaluation/service_diagnostics.py": "115ca9d0b8d13667d66a51ddd1bdf8649703d866e3348db90344c3dad9cff1e5",
+    "src/evaluation/service_telemetry.py": "0cd1a0cb57aa8dd1e02f4eef0bb6483c096dbd8ce7bdd1eeb44bf5f934a5886c",
+    "src/evaluation/tx_paired_shadow_pilot.py": "8945b430dd590c10d78943b29d87079454504d73e540e885ca372bec4ba19f01",
+    "src/evaluation/__init__.py": "ae869484a57b6a3e423f63b89ba4e852882c24f36631255f8b8314ecab4a0a51",
+    "src/mobility/__init__.py": "26d8bf2f3d3dfa6b113fa99b7e1e3c6a6a3dfec56e8e12f3b54c91db1a4914cf",
+    "src/models/ca_gat_mappo.py": "3e79786c34d9065f829a5bfc2d55ded668ef235376795a2220d1d7fa36d2c056",
+    "src/models/ca_gat_mappo_actions.py": "b547c68f3bef4970ccc31c04abe4915527c326b0f0103f9a913ca332ce6bab58",
+    "src/models/ca_gat_mappo_checkpoint.py": "dbc3b9e704355dda143e6064eee7f4ef0f00c4061737947ff67ecf7f0df5d7d6",
+    "src/models/ca_gat_mappo_continuation.py": "b749c940c1c3ef9e8cb337dc75386f38ea181e2a8c6f5f1aa672b88811f1ba4c",
+    "src/models/ca_gat_mappo_credit_telemetry.py": "db323176dcd7247b73fe2d7bb69d5699f3b04689746facc692711953f90a4f26",
+    "src/models/ca_gat_mappo_gae.py": "2664b9cbd5f67b844214f263a25cd53912be7ed7eea9e96b237ba6092c11a2fb",
+    "src/models/ca_gat_mappo_ppo.py": "2957b3fc15ab2c1a89a3be35063198ef40f5531bffd5de5fc63d64fcddcf0fad",
+    "src/models/ca_gat_mappo_rollout.py": "8059de772ab97c78f4a2f7e172125f4edc62a609e80b578753437ebb164e47af",
+    "src/models/ca_gat_mappo_route_nstep.py": "d1ac55ef02022dc77cd25ef35cd59e97a87fd53239f75578401764e3e4ac5b8a",
+    "src/models/ca_gat_mappo_route_telemetry.py": "2fdcf39753878a0d61e5596695e0ae8f0d23809cc6c86d159b2984284d4019d5",
+    "src/models/ca_gat_mappo_runtime.py": "773d04035b808b68eaf1fece7baeee8fd11abf5010ffe0b2209aa0bbd8d340ee",
+    "src/models/ca_gat_mappo_trainer.py": "0f4e08a658268e8e231c7bbb6159aff488951526e704195face32ee8bcda7ce7",
+    "src/models/ca_gat_mappo_update.py": "c7aa6268d52822ed373e3d01e34f254f573db4bdf783eef80f25a17cc5bed770",
+    "src/models/destination_pretraining.py": "82b9d1c05ba07b08e32281e499766c294c199b1c3b70fe56f5ffbf899b2b8540",
+    "src/models/destination_ranking.py": "f486626e14580b9a91c18b91612ae4498d8bac9cdb9d07729d8858575aa9b243",
+    "src/models/integrated_scheduler.py": "2f38b04ca1d249c8c59dfbd5e2f9bd0d710837a505929aad363fe2a0c62b5312",
+    "src/models/route_candidates.py": "595411fa64a2e4ec9d33cf4d9b4ac5bfd7ff941c82f9d8a57544bd2f63851d36",
+    "src/models/route_decision.py": "d0269971a956c231e0caf4c808274d0bdcb4d7b253d2f0b62e76ace4ae7389db",
+    "src/models/route_exploration.py": "1d70dcc969c91e8396b2c357d89c68e1521b09cbc658d2aa57f054b023ada957",
+    "src/models/route_option_q.py": "86aecbd4f4206ec7a27c8aea15242d4250b54ccff6688ded14bbdfd5f67f5cd4",
+    "src/models/route_physical_relations.py": "95226f1cd4511c7551dd1aa3dddf266a4fe69960a28f4110a5acd0a9d23b6f25",
+    "src/models/route_q_inputs.py": "1903480b30b4ca9bb595d06a29f2695d71a1b27f18746a43eba29f3753e34094",
+    "src/models/route_task_credit.py": "345fcbedce1b509a2efb0cd402da0bf17b6c5df2a02c52f3befeda8e5e27a3a7",
+    "src/models/tx_paired_shadow.py": "d713e1f600ae8e9027cc8ba81ca67b3c30cc52afba746ce1651eae2c20ade2c7",
+    "src/models/tx_upper_counterfactual.py": "43dcb861a88075890682bb330954a85970e2ceb66985d931d707aa6afdf3a988",
+    "src/models/tx_upper_factual_credit.py": "a8576148685278e196748403f90fb375874a6b6ef89141243c53c03bbcecd858",
+    "src/models/tx_upper_stability.py": "00820f11218ee33ab6f88e49c9caaea74bab207c94bb2f0c55c7a9b564014a39",
+    "src/models/unified_route.py": "427dbd561abbcda38086e65bd612762fc5e37dd876d937c4b790e24471a50ab8",
+    "src/models/__init__.py": "e74fb35aa384328a4e16093b7f10b51829cb687c02e85fd3af6436e0d5cb2eef",
+    "src/policies/base.py": "679768c62a43f209141da545ae53a2cb4d7b1986fc0c56909fefb9c1e57f482d",
+    "src/policies/heuristic_policy.py": "9f909b19c8f2e3fd9e5f756caf56ff8c4651e40a03c5627c3d8064afb13fd9c5",
+    "src/policies/local_only_policy.py": "738d1d05d4c8f5d36a92b5d3bc586e9fdaf93f3b4107e162fb82ced7d841d713",
+    "src/policies/random_policy.py": "813627b0de07f2769e0bfd4a6cf1bd52a5515b60c178a06a20ee7e17e619364e",
+    "src/policies/__init__.py": "0c5aaac6c8db7166e2d60328f4c7e4e37527dcf882f0ab7cbf34282336a72ff0",
+    "src/queues/__init__.py": "1003520713a9875325c2335da68151ff28286475a050fe23a019de2081d00a8e",
+    "src/training/destination_distillation.py": "70652663b302c1959089453fe7e473f331a91d3778b129c6bf9dda9d5213ac05",
+    "src/training/__init__.py": "f0544d19d6955dda4cdcef9861c82323793e2fa8743cfd8e668c247ddd9c8b73",
+    "src/utils/__init__.py": "cb7b963905b57f0d262e510efa08bb1c29c3163cf34a0840d8432e07035c71ec"
+  },
+  "config_sha256": {
+    "experiments/task-allocation/configs/a-seed42-16k-resume.json": "570e95b46a65f53768c69beacd007debe24e0673f9ba4c87a6565b22c553dc0d",
+    "experiments/task-allocation/configs/a-seed42-8k.json": "6e1b96dc204ffa8c42e79db9dba56fc5fcec674c25bc048677beea256893f5f6",
+    "experiments/task-allocation/configs/a-seed43-8k.json": "13acb3fbc1670f7462b7bbbb29981b3e71b235aec81842284b2a5e8ab293b78d",
+    "experiments/task-allocation/configs/a-seed44-8k.json": "f1383d7d611480e6f268b7c8de1238317b7e9de66032fda1438a0cb99b1313d1",
+    "experiments/task-allocation/configs/b-seed42-16k-resume.json": "9d5c1bd0ff6dd15f280f8bb8c9befcb0faf0fe679e2b44e1cc482c356c6731b8",
+    "experiments/task-allocation/configs/b-seed42-8k.json": "23379d3f9c6976055f15d9425d8aea4997c1f8aa52d8e770ae2ea93b1590c9ae",
+    "experiments/task-allocation/configs/b-seed43-8k.json": "ae10238cda19fcf35c74ea7d74b2ccc6dc9f032b67ac70a9295bc0d0fdbbe5cb",
+    "experiments/task-allocation/configs/b-seed44-8k.json": "ecc415191d83cb7c4ef3053c86d54166fadb8eee740b5afb25477d686e532aa3",
+    "experiments/task-allocation/configs/c-seed42-16k-resume.json": "c035898f6d3ecedc9bdf059a00d0bd0fab9ffd82e1e83aa2bf8b815dd12890c3",
+    "experiments/task-allocation/configs/c-seed42-32k-resume.json": "a971a3f20a1db5e326469570b2c7ddab6535a45069c386663f5bf0e8537a30b3",
+    "experiments/task-allocation/configs/c-seed42-8k.json": "ed0abc153552ea10dcc7a3099ce0f623c53c9e0d22324974a9bde876d31e9ff5",
+    "experiments/task-allocation/configs/c-seed43-8k.json": "30120075b3d1089f864525ffb4134d80524f81ade9bc8cc1a8702530fa8d3f98",
+    "experiments/task-allocation/configs/c-seed44-8k.json": "aacd8ff8bba0e09ace36d12294bf9042e5ef6fb7f5d0131e05464cfdf36c49de"
+  },
+  "checkpoints": [
+    {
+      "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/checkpoints/final.pt",
+      "sha256": "c94352238cdcb77d97571842bf9ecc2952393a05e222c044348d6e5cb092b7eb",
+      "kind": "FINAL_COMPLETED",
+      "training_state": {
+        "policy_version": 62,
+        "started_episodes": 32,
+        "completed_episodes": 32,
+        "next_episode_index": 32,
+        "collected_environment_transitions": 16000,
+        "optimized_transitions": 15872,
+        "ppo_update_count": 62,
+        "unused_final_tail_transitions": 128,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "config_hash": "04d52c3c96635e1e984547506be0197b2c7f3fc3410102e44fce9dd08fcc7cbc",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true,
+      "strict_actor_load": "PASS",
+      "actor_training_mode": false
+    },
+    {
+      "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/checkpoints/step_12000.pt",
+      "sha256": "2ee8be084711488c125eebc52bbd8cd97d0c7cef5590d697afcbfe8a4a73232e",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 46,
+        "started_episodes": 24,
+        "completed_episodes": 24,
+        "next_episode_index": 24,
+        "collected_environment_transitions": 12000,
+        "optimized_transitions": 11776,
+        "ppo_update_count": 46,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 224,
+        "active_rollout_policy_version": 46
+      },
+      "config_hash": "04d52c3c96635e1e984547506be0197b2c7f3fc3410102e44fce9dd08fcc7cbc",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    },
+    {
+      "path": "logs/A/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-04d52c3c9663__git-eb1140cefc4a/checkpoints/step_8000.pt",
+      "sha256": "cdc8194e0547303e7a88f53125724c3abdd941744112e7a401259de712bc129e",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 31,
+        "started_episodes": 16,
+        "completed_episodes": 16,
+        "next_episode_index": 16,
+        "collected_environment_transitions": 8000,
+        "optimized_transitions": 7936,
+        "ppo_update_count": 31,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 64,
+        "active_rollout_policy_version": 31
+      },
+      "config_hash": "04d52c3c96635e1e984547506be0197b2c7f3fc3410102e44fce9dd08fcc7cbc",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    },
+    {
+      "path": "logs/A/seed42/8k/training/checkpoints/final.pt",
+      "sha256": "5da08bb0309948ab8bbd9423364d6f76b07daf1a8dcdb7786c7dee141f958199",
+      "kind": "FINAL_COMPLETED",
+      "training_state": {
+        "policy_version": 31,
+        "started_episodes": 16,
+        "completed_episodes": 16,
+        "next_episode_index": 16,
+        "collected_environment_transitions": 8000,
+        "optimized_transitions": 7936,
+        "ppo_update_count": 31,
+        "unused_final_tail_transitions": 64,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "config_hash": "81cb1ad596cb6dcd6f212e2d08a7edc50e9b210b0a5cf226ba4a7a2cb1651ae5",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true,
+      "strict_actor_load": "PASS",
+      "actor_training_mode": false
+    },
+    {
+      "path": "logs/A/seed42/8k/training/checkpoints/step_4000.pt",
+      "sha256": "dc026714f6e0d5b588e1fea83020e5ec8a0e6b817757c01b46855efe59609777",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 15,
+        "started_episodes": 8,
+        "completed_episodes": 8,
+        "next_episode_index": 8,
+        "collected_environment_transitions": 4000,
+        "optimized_transitions": 3840,
+        "ppo_update_count": 15,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 160,
+        "active_rollout_policy_version": 15
+      },
+      "config_hash": "81cb1ad596cb6dcd6f212e2d08a7edc50e9b210b0a5cf226ba4a7a2cb1651ae5",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    },
+    {
+      "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/checkpoints/final.pt",
+      "sha256": "49f962672e2a429194a553fb41d72f8d84090e4621de6ecfbd6c286dd286e9be",
+      "kind": "FINAL_COMPLETED",
+      "training_state": {
+        "policy_version": 62,
+        "started_episodes": 32,
+        "completed_episodes": 32,
+        "next_episode_index": 32,
+        "collected_environment_transitions": 16000,
+        "optimized_transitions": 15872,
+        "ppo_update_count": 62,
+        "unused_final_tail_transitions": 128,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "config_hash": "309c76095f8ff67442d51ddae7a3998509d203b53cdbd0d694717b45466319cb",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true,
+      "strict_actor_load": "PASS",
+      "actor_training_mode": false
+    },
+    {
+      "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/checkpoints/step_12000.pt",
+      "sha256": "d0b1d9fa22ba3f8910cbd2f10808f7bc9c50fdc64ed8eabe2245506c28e98703",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 46,
+        "started_episodes": 24,
+        "completed_episodes": 24,
+        "next_episode_index": 24,
+        "collected_environment_transitions": 12000,
+        "optimized_transitions": 11776,
+        "ppo_update_count": 46,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 224,
+        "active_rollout_policy_version": 46
+      },
+      "config_hash": "309c76095f8ff67442d51ddae7a3998509d203b53cdbd0d694717b45466319cb",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    },
+    {
+      "path": "logs/B/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-309c76095f8f__git-eb1140cefc4a/checkpoints/step_8000.pt",
+      "sha256": "8d46f0025f19b2ea43f9bffed1a9ae0f33ecb8f5fe92e321834c0743a609a2c2",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 31,
+        "started_episodes": 16,
+        "completed_episodes": 16,
+        "next_episode_index": 16,
+        "collected_environment_transitions": 8000,
+        "optimized_transitions": 7936,
+        "ppo_update_count": 31,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 64,
+        "active_rollout_policy_version": 31
+      },
+      "config_hash": "309c76095f8ff67442d51ddae7a3998509d203b53cdbd0d694717b45466319cb",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    },
+    {
+      "path": "logs/B/seed42/8k/training/checkpoints/final.pt",
+      "sha256": "2cab254ff8d527726779b7ec18383ffc0cd7710f5edb6d0ac229da2c554feec5",
+      "kind": "FINAL_COMPLETED",
+      "training_state": {
+        "policy_version": 31,
+        "started_episodes": 16,
+        "completed_episodes": 16,
+        "next_episode_index": 16,
+        "collected_environment_transitions": 8000,
+        "optimized_transitions": 7936,
+        "ppo_update_count": 31,
+        "unused_final_tail_transitions": 64,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "config_hash": "1bd1c1aa959695e150ef3734a625f5d87de87e4f4325d470f6ea3845e8cdfda4",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true,
+      "strict_actor_load": "PASS",
+      "actor_training_mode": false
+    },
+    {
+      "path": "logs/B/seed42/8k/training/checkpoints/step_4000.pt",
+      "sha256": "482e62078f944d3800db2b205afb5b71f48d31d5212f54e5b73cbf58065953e0",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 15,
+        "started_episodes": 8,
+        "completed_episodes": 8,
+        "next_episode_index": 8,
+        "collected_environment_transitions": 4000,
+        "optimized_transitions": 3840,
+        "ppo_update_count": 15,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 160,
+        "active_rollout_policy_version": 15
+      },
+      "config_hash": "1bd1c1aa959695e150ef3734a625f5d87de87e4f4325d470f6ea3845e8cdfda4",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    },
+    {
+      "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/checkpoints/final.pt",
+      "sha256": "dc8754d7871161233d65ee488e2125dbc4258b555b0a3efb7d579c264800c087",
+      "kind": "FINAL_COMPLETED",
+      "training_state": {
+        "policy_version": 62,
+        "started_episodes": 32,
+        "completed_episodes": 32,
+        "next_episode_index": 32,
+        "collected_environment_transitions": 16000,
+        "optimized_transitions": 15872,
+        "ppo_update_count": 62,
+        "unused_final_tail_transitions": 128,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true,
+      "strict_actor_load": "PASS",
+      "actor_training_mode": false
+    },
+    {
+      "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/checkpoints/step_12000.pt",
+      "sha256": "7c9034e00432c2545f8be8a972ac65580bec6602a7c3e061ef39fa76c91d3690",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 46,
+        "started_episodes": 24,
+        "completed_episodes": 24,
+        "next_episode_index": 24,
+        "collected_environment_transitions": 12000,
+        "optimized_transitions": 11776,
+        "ppo_update_count": 46,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 224,
+        "active_rollout_policy_version": 46
+      },
+      "config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    },
+    {
+      "path": "logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a/checkpoints/step_8000.pt",
+      "sha256": "34d5989ad5664934e5e957213c2dd87198f314a1bf84ab246626d88836db6b71",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 31,
+        "started_episodes": 16,
+        "completed_episodes": 16,
+        "next_episode_index": 16,
+        "collected_environment_transitions": 8000,
+        "optimized_transitions": 7936,
+        "ppo_update_count": 31,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 64,
+        "active_rollout_policy_version": 31
+      },
+      "config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    },
+    {
+      "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/final.pt",
+      "sha256": "7b1191d87095e6dd08a6c5523475cfc9c9c67494cffed4f7ef287379efa656b2",
+      "kind": "FINAL_COMPLETED",
+      "training_state": {
+        "policy_version": 125,
+        "started_episodes": 64,
+        "completed_episodes": 64,
+        "next_episode_index": 64,
+        "collected_environment_transitions": 32000,
+        "optimized_transitions": 32000,
+        "ppo_update_count": 125,
+        "unused_final_tail_transitions": 0,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "config_hash": "02c7757520b8decc37e6c93d044675c7a002b7c4ab452968768595d872830cdd",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true,
+      "strict_actor_load": "PASS",
+      "actor_training_mode": false
+    },
+    {
+      "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/step_16000.pt",
+      "sha256": "2c5594728c974c3cffebda7eff8c4b26cc6fda9f693eabedada0a39dc84b6249",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 62,
+        "started_episodes": 32,
+        "completed_episodes": 32,
+        "next_episode_index": 32,
+        "collected_environment_transitions": 16000,
+        "optimized_transitions": 15872,
+        "ppo_update_count": 62,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 128,
+        "active_rollout_policy_version": 62
+      },
+      "config_hash": "02c7757520b8decc37e6c93d044675c7a002b7c4ab452968768595d872830cdd",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    },
+    {
+      "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/step_20000.pt",
+      "sha256": "afd9b73163e61d8fb9891986f9be509fd8b80e2ec38fbb95cbf2eed23027d79e",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 78,
+        "started_episodes": 40,
+        "completed_episodes": 40,
+        "next_episode_index": 40,
+        "collected_environment_transitions": 20000,
+        "optimized_transitions": 19968,
+        "ppo_update_count": 78,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 32,
+        "active_rollout_policy_version": 78
+      },
+      "config_hash": "02c7757520b8decc37e6c93d044675c7a002b7c4ab452968768595d872830cdd",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    },
+    {
+      "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/step_24000.pt",
+      "sha256": "ceb8caf8beebcba021eb8b8f19061c8a74b748d1c49629f4870a739becbd4a0a",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 93,
+        "started_episodes": 48,
+        "completed_episodes": 48,
+        "next_episode_index": 48,
+        "collected_environment_transitions": 24000,
+        "optimized_transitions": 23808,
+        "ppo_update_count": 93,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 192,
+        "active_rollout_policy_version": 93
+      },
+      "config_hash": "02c7757520b8decc37e6c93d044675c7a002b7c4ab452968768595d872830cdd",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    },
+    {
+      "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/step_28000.pt",
+      "sha256": "940cef6a89ffa43bcb23747f0e9f2740411afc5c526053193df24eb00cba360c",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 109,
+        "started_episodes": 56,
+        "completed_episodes": 56,
+        "next_episode_index": 56,
+        "collected_environment_transitions": 28000,
+        "optimized_transitions": 27904,
+        "ppo_update_count": 109,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 96,
+        "active_rollout_policy_version": 109
+      },
+      "config_hash": "02c7757520b8decc37e6c93d044675c7a002b7c4ab452968768595d872830cdd",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    },
+    {
+      "path": "logs/C/seed42/8k/training/checkpoints/final.pt",
+      "sha256": "58da11c49bde4a517471e1386842b90568fdb1ffe51d9c290caa7e3d442ff1b5",
+      "kind": "FINAL_COMPLETED",
+      "training_state": {
+        "policy_version": 31,
+        "started_episodes": 16,
+        "completed_episodes": 16,
+        "next_episode_index": 16,
+        "collected_environment_transitions": 8000,
+        "optimized_transitions": 7936,
+        "ppo_update_count": 31,
+        "unused_final_tail_transitions": 64,
+        "training_complete": true,
+        "active_rollout_length": 0,
+        "active_rollout_policy_version": null
+      },
+      "config_hash": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true,
+      "strict_actor_load": "PASS",
+      "actor_training_mode": false
+    },
+    {
+      "path": "logs/C/seed42/8k/training/checkpoints/step_4000.pt",
+      "sha256": "2a92745919ef42316131ab70dd67c6cbb9fa91cfb1cb08ebd2931e5913b50325",
+      "kind": "PERIODIC_RESUME",
+      "training_state": {
+        "policy_version": 15,
+        "started_episodes": 8,
+        "completed_episodes": 8,
+        "next_episode_index": 8,
+        "collected_environment_transitions": 4000,
+        "optimized_transitions": 3840,
+        "ppo_update_count": 15,
+        "unused_final_tail_transitions": 0,
+        "training_complete": false,
+        "active_rollout_length": 160,
+        "active_rollout_policy_version": 15
+      },
+      "config_hash": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15",
+      "optimizer_names": [
+        "actor_adam",
+        "critic_adam"
+      ],
+      "model_names": [
+        "actor",
+        "critic"
+      ],
+      "policy_rng_present": true
+    }
+  ],
+  "current_figures": "plots/C/seed42/group_meeting/20261014_scene_fix/",
+  "current_result_document": "docs/results/CURRENT_EXPERIMENT_STATUS.md",
+  "reproduction_document": "docs/reproduction/REPRODUCE_ABC.md",
+  "cleanup_validation": "metadata/cleanup/20261014/validation.json",
+  "c_continuation_inputs_retained": true,
+  "future_c_budget_not_set": true,
+  "new_formal_training_or_evaluation_executed": false,
+  "documentation_navigation": {
+    "date": "2026-10-14",
+    "index": "sections/README.md",
+    "offline_reading_view": null,
+    "relocation_receipt": "metadata/cleanup/20261014_sections_formatting/relocation_receipt.json",
+    "validation": "metadata/cleanup/20261014_sections_formatting/validation.json",
+    "offline_reading_view_status": "not present at repository-management review; retained Markdown index is the current entry"
+  },
+  "saved_baseline": {
+    "repository": "https://github.com/lijing666743/LJ",
+    "tag": "baseline-c32k-20261014",
+    "release": "https://github.com/lijing666743/LJ/releases/tag/baseline-c32k-20261014",
+    "source_training_git_head": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+    "restore_guide": "docs/reproduction/RESTORE_BASELINE.md",
+    "recovery_manifest": "metadata/BASELINE_RECOVERY_MANIFEST.json",
+    "current_workspace_head_preserved": true
+  }
+}

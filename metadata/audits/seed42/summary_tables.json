@@ -1,0 +1,891 @@
+{
+  "training": [
+    {
+      "metric": "collected_transitions",
+      "label": "Collected transitions",
+      "unit": "transitions",
+      "aggregation": "training.total_environment_transitions",
+      "A": 8000,
+      "B": 8000,
+      "C": 8000
+    },
+    {
+      "metric": "optimized_transitions",
+      "label": "Optimized transitions",
+      "unit": "transitions",
+      "aggregation": "training.optimized_transitions",
+      "A": 7936,
+      "B": 7936,
+      "C": 7936
+    },
+    {
+      "metric": "unused_tail",
+      "label": "Unused tail",
+      "unit": "transitions",
+      "aggregation": "training.unused_final_tail_transitions",
+      "A": 64,
+      "B": 64,
+      "C": 64
+    },
+    {
+      "metric": "ppo_updates",
+      "label": "PPO updates",
+      "unit": "updates",
+      "aggregation": "training.ppo_update_count",
+      "A": 31,
+      "B": 31,
+      "C": 31
+    },
+    {
+      "metric": "episodes",
+      "label": "Episodes",
+      "unit": "episodes",
+      "aggregation": "training.completed_episode_count",
+      "A": 16,
+      "B": 16,
+      "C": 16
+    },
+    {
+      "metric": "training_reward_mean",
+      "label": "Training reward_mean（全8000步）",
+      "unit": "dimensionless",
+      "aggregation": "reward.mean_per_transition",
+      "A": -0.16421289599007413,
+      "B": -0.15262602360036703,
+      "C": -0.1573969395060989
+    },
+    {
+      "metric": "smoke_gate",
+      "label": "Smoke gate",
+      "unit": "status",
+      "aggregation": "smoke_training_gate_status",
+      "A": "pass",
+      "B": "pass",
+      "C": "pass"
+    },
+    {
+      "metric": "signal_gate",
+      "label": "Signal gate",
+      "unit": "status",
+      "aggregation": "signal_gate_status",
+      "A": "signal-watch",
+      "B": "signal-watch",
+      "C": "signal-watch"
+    },
+    {
+      "metric": "all16_reward",
+      "label": "all16平均episode_reward",
+      "unit": "dimensionless",
+      "aggregation": "arithmetic mean; episode_index=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",
+      "A": -82.10644799503687,
+      "B": -76.31301180018335,
+      "C": -78.69846975304922
+    },
+    {
+      "metric": "first8_reward",
+      "label": "first8平均episode_reward",
+      "unit": "dimensionless",
+      "aggregation": "arithmetic mean; episode_index=[0, 1, 2, 3, 4, 5, 6, 7]",
+      "A": -79.32642942683887,
+      "B": -77.82685666853202,
+      "C": -83.30629649645795
+    },
+    {
+      "metric": "last8_reward",
+      "label": "last8平均episode_reward",
+      "unit": "dimensionless",
+      "aggregation": "arithmetic mean; episode_index=[8, 9, 10, 11, 12, 13, 14, 15]",
+      "A": -84.88646656323488,
+      "B": -74.79916693183468,
+      "C": -74.09064300964052
+    },
+    {
+      "metric": "all16_completed_task_count",
+      "label": "all16平均completion_count",
+      "unit": "tasks",
+      "aggregation": "arithmetic mean; episode_index=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",
+      "A": 22.375,
+      "B": 25.125,
+      "C": 24.0
+    },
+    {
+      "metric": "first8_completed_task_count",
+      "label": "first8平均completion_count",
+      "unit": "tasks",
+      "aggregation": "arithmetic mean; episode_index=[0, 1, 2, 3, 4, 5, 6, 7]",
+      "A": 23.75,
+      "B": 24.5,
+      "C": 21.875
+    },
+    {
+      "metric": "last8_completed_task_count",
+      "label": "last8平均completion_count",
+      "unit": "tasks",
+      "aggregation": "arithmetic mean; episode_index=[8, 9, 10, 11, 12, 13, 14, 15]",
+      "A": 21.0,
+      "B": 25.75,
+      "C": 26.125
+    },
+    {
+      "metric": "all16_expired_task_count",
+      "label": "all16平均expiration_count",
+      "unit": "tasks",
+      "aggregation": "arithmetic mean; episode_index=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",
+      "A": 90.375,
+      "B": 87.6875,
+      "C": 88.9375
+    },
+    {
+      "metric": "first8_expired_task_count",
+      "label": "first8平均expiration_count",
+      "unit": "tasks",
+      "aggregation": "arithmetic mean; episode_index=[0, 1, 2, 3, 4, 5, 6, 7]",
+      "A": 89.375,
+      "B": 88.75,
+      "C": 91.375
+    },
+    {
+      "metric": "last8_expired_task_count",
+      "label": "last8平均expiration_count",
+      "unit": "tasks",
+      "aggregation": "arithmetic mean; episode_index=[8, 9, 10, 11, 12, 13, 14, 15]",
+      "A": 91.375,
+      "B": 86.625,
+      "C": 86.5
+    },
+    {
+      "metric": "max_completed_task_count",
+      "label": "最高单episode completion",
+      "unit": "tasks",
+      "aggregation": "max(16 episodes)",
+      "A": 36.0,
+      "B": 42.0,
+      "C": 36.0
+    },
+    {
+      "metric": "min_completed_task_count",
+      "label": "最低单episode completion",
+      "unit": "tasks",
+      "aggregation": "min(16 episodes)",
+      "A": 10.0,
+      "B": 13.0,
+      "C": 15.0
+    },
+    {
+      "metric": "max_reward",
+      "label": "最好episode reward",
+      "unit": "dimensionless",
+      "aggregation": "max(16 episodes)",
+      "A": -42.8761566175739,
+      "B": -29.567087217935036,
+      "C": -40.25920630452414
+    },
+    {
+      "metric": "min_reward",
+      "label": "最差episode reward",
+      "unit": "dimensionless",
+      "aggregation": "min(16 episodes)",
+      "A": -109.98286214554199,
+      "B": -103.24783590645653,
+      "C": -102.02337539696649
+    },
+    {
+      "metric": "final_actor_loss",
+      "label": "final_actor_loss",
+      "unit": "dimensionless",
+      "aggregation": "last PPO epoch: update_index=30, ppo_epoch_index=3, series_index=124",
+      "A": 0.29637792706489563,
+      "B": 0.22190812230110168,
+      "C": 0.20308171212673187
+    },
+    {
+      "metric": "all124_mean_actor_loss",
+      "label": "all124_mean_actor_loss",
+      "unit": "dimensionless",
+      "aggregation": "124 PPO epoch arithmetic mean",
+      "A": 0.2590263897643214,
+      "B": 0.3166629212547935,
+      "C": 0.3325196588712354
+    },
+    {
+      "metric": "final_critic_loss",
+      "label": "final_critic_loss",
+      "unit": "dimensionless",
+      "aggregation": "last PPO epoch: update_index=30, ppo_epoch_index=3, series_index=124",
+      "A": 0.2665236294269562,
+      "B": 0.2651093602180481,
+      "C": 0.2626119554042816
+    },
+    {
+      "metric": "all124_mean_critic_loss",
+      "label": "all124_mean_critic_loss",
+      "unit": "dimensionless",
+      "aggregation": "124 PPO epoch arithmetic mean",
+      "A": 0.39173700179784526,
+      "B": 0.39980199212028134,
+      "C": 0.40677705743620474
+    },
+    {
+      "metric": "final_entropy",
+      "label": "final_entropy",
+      "unit": "dimensionless",
+      "aggregation": "last PPO epoch: update_index=30, ppo_epoch_index=3, series_index=124",
+      "A": 1.5449007749557495,
+      "B": 1.7405357360839844,
+      "C": 1.643701434135437
+    },
+    {
+      "metric": "all124_mean_entropy",
+      "label": "all124_mean_entropy",
+      "unit": "dimensionless",
+      "aggregation": "124 PPO epoch arithmetic mean",
+      "A": 1.4914054418763807,
+      "B": 1.5079030711804666,
+      "C": 1.526025774017457
+    },
+    {
+      "metric": "last_episode_reward_mean",
+      "label": "末episode reward_mean",
+      "unit": "dimensionless",
+      "aggregation": "episode_index=15",
+      "A": -0.18248077662710466,
+      "B": -0.17146920477601468,
+      "C": -0.16655695603288642
+    }
+  ],
+  "evaluation": [
+    {
+      "metric": "generated",
+      "label": "Generated",
+      "unit": "tasks",
+      "aggregation": "5 evaluation-episode arithmetic mean (non-null)",
+      "higher_is_better": 0,
+      "A": 121.0,
+      "B": 121.0,
+      "C": 121.0,
+      "best": "相同"
+    },
+    {
+      "metric": "completed",
+      "label": "DONE",
+      "unit": "tasks",
+      "aggregation": "5 evaluation-episode arithmetic mean (non-null)",
+      "higher_is_better": 1,
+      "A": 79.4,
+      "B": 63.4,
+      "C": 65.8,
+      "best": "A"
+    },
+    {
+      "metric": "completion_ratio",
+      "label": "Completion Ratio",
+      "unit": "percent",
+      "aggregation": "5 evaluation-episode arithmetic mean (non-null)",
+      "higher_is_better": 1,
+      "A": 65.43567905344945,
+      "B": 52.41911795853175,
+      "C": 53.81747904234505,
+      "best": "A"
+    },
+    {
+      "metric": "expired",
+      "label": "EXPIRED",
+      "unit": "tasks",
+      "aggregation": "5 evaluation-episode arithmetic mean (non-null)",
+      "higher_is_better": -1,
+      "A": 33.2,
+      "B": 49.0,
+      "C": 46.6,
+      "best": "A"
+    },
+    {
+      "metric": "expiration_ratio",
+      "label": "Expiration Ratio",
+      "unit": "percent",
+      "aggregation": "5 evaluation-episode arithmetic mean (non-null)",
+      "higher_is_better": -1,
+      "A": 27.85080338609077,
+      "B": 40.6736322872763,
+      "C": 39.25891347640131,
+      "best": "A"
+    },
+    {
+      "metric": "truncated",
+      "label": "TRUNCATED",
+      "unit": "tasks",
+      "aggregation": "5 evaluation-episode arithmetic mean (non-null)",
+      "higher_is_better": -1,
+      "A": 8.4,
+      "B": 8.6,
+      "C": 8.6,
+      "best": "A"
+    },
+    {
+      "metric": "truncation_ratio",
+      "label": "Truncation Ratio",
+      "unit": "percent",
+      "aggregation": "5 evaluation-episode arithmetic mean (non-null)",
+      "higher_is_better": -1,
+      "A": 6.713517560459768,
+      "B": 6.9072497541919615,
+      "C": 6.923607481253644,
+      "best": "A"
+    },
+    {
+      "metric": "total_reward",
+      "label": "Total Reward",
+      "unit": "dimensionless",
+      "aggregation": "5 evaluation-episode arithmetic mean (non-null)",
+      "higher_is_better": 1,
+      "A": 37.29070017944867,
+      "B": 2.426579414948246,
+      "C": 7.76408965357673,
+      "best": "A"
+    },
+    {
+      "metric": "completed_task_e2e_delay_s",
+      "label": "Completed Task E2E Delay",
+      "unit": "s",
+      "aggregation": "pooled DONE-task weighted mean",
+      "higher_is_better": -1,
+      "A": 0.41108312342569275,
+      "B": 0.42397476340694007,
+      "C": 0.4299696048632219,
+      "best": "A"
+    },
+    {
+      "metric": "total_energy_j",
+      "label": "Total Energy",
+      "unit": "J",
+      "aggregation": "5 evaluation-episode arithmetic mean (non-null)",
+      "higher_is_better": -1,
+      "A": 34.82429129468737,
+      "B": 25.52960485309354,
+      "C": 29.823456867714913,
+      "best": "B"
+    },
+    {
+      "metric": "cpu_energy_j",
+      "label": "CPU Energy",
+      "unit": "J",
+      "aggregation": "5 evaluation-episode arithmetic mean (non-null)",
+      "higher_is_better": -1,
+      "A": 34.34860593537,
+      "B": 25.441837210594308,
+      "C": 29.446828713988918,
+      "best": "B"
+    },
+    {
+      "metric": "tx_energy_j",
+      "label": "TX Energy",
+      "unit": "J",
+      "aggregation": "5 evaluation-episode arithmetic mean (non-null)",
+      "higher_is_better": -1,
+      "A": 0.47568535931736083,
+      "B": 0.08776764249923438,
+      "C": 0.37662815372599423,
+      "best": "B"
+    },
+    {
+      "metric": "energy_per_completed_task_j",
+      "label": "Energy per Completed Task",
+      "unit": "J/task",
+      "aggregation": "5 evaluation-episode arithmetic mean (non-null)",
+      "higher_is_better": -1,
+      "A": 0.4314810017953727,
+      "B": 0.4052648891548107,
+      "C": 0.44783176066097774,
+      "best": "B"
+    },
+    {
+      "metric": "executor_rejection",
+      "label": "Executor Rejection",
+      "unit": "events",
+      "aggregation": "5 evaluation-episode arithmetic mean (non-null)",
+      "higher_is_better": -1,
+      "A": 11.0,
+      "B": 0.8,
+      "C": 3.2,
+      "best": "B"
+    },
+    {
+      "metric": "executor_downgrade",
+      "label": "Executor Downgrade",
+      "unit": "events",
+      "aggregation": "5 evaluation-episode arithmetic mean (non-null)",
+      "higher_is_better": -1,
+      "A": 0.0,
+      "B": 0.0,
+      "C": 0.0,
+      "best": "A/B/C"
+    },
+    {
+      "metric": "backlog_final_tasks",
+      "label": "Backlog Final Tasks",
+      "unit": "tasks",
+      "aggregation": "5 evaluation-episode arithmetic mean (non-null)",
+      "higher_is_better": -1,
+      "A": 8.8,
+      "B": 8.8,
+      "C": 8.8,
+      "best": "A/B/C"
+    },
+    {
+      "metric": "backlog_mean_tasks",
+      "label": "Backlog Mean Tasks",
+      "unit": "tasks",
+      "aggregation": "5 evaluation-episode arithmetic mean (non-null)",
+      "higher_is_better": -1,
+      "A": 6.5132,
+      "B": 7.1575999999999995,
+      "C": 7.091200000000001,
+      "best": "A"
+    },
+    {
+      "metric": "backlog_max_tasks",
+      "label": "Backlog Max Tasks",
+      "unit": "tasks",
+      "aggregation": "5 evaluation-episode arithmetic mean (non-null)",
+      "higher_is_better": -1,
+      "A": 14.2,
+      "B": 14.2,
+      "C": 15.0,
+      "best": "A/B"
+    },
+    {
+      "metric": "workload_penalty",
+      "label": "Workload Penalty",
+      "unit": "dimensionless",
+      "aggregation": "5 evaluation-episode arithmetic mean (non-null)",
+      "higher_is_better": -1,
+      "A": 8.892669044770564,
+      "B": 11.961228603009948,
+      "C": 11.421667781657849,
+      "best": "A"
+    },
+    {
+      "metric": "outage_rate",
+      "label": "Outage Rate",
+      "unit": "percent",
+      "aggregation": "5 evaluation-episode arithmetic mean (non-null)",
+      "higher_is_better": -1,
+      "A": 0.0,
+      "B": 0.0,
+      "C": 0.17699115044247787,
+      "best": "A/B"
+    }
+  ],
+  "pooled": [
+    {
+      "metric": "generated",
+      "unit": "tasks",
+      "A": 605,
+      "B": 605,
+      "C": 605
+    },
+    {
+      "metric": "completed",
+      "unit": "tasks",
+      "A": 397,
+      "B": 317,
+      "C": 329
+    },
+    {
+      "metric": "expired",
+      "unit": "tasks",
+      "A": 166,
+      "B": 245,
+      "C": 233
+    },
+    {
+      "metric": "truncated",
+      "unit": "tasks",
+      "A": 42,
+      "B": 43,
+      "C": 43
+    },
+    {
+      "metric": "completion_ratio",
+      "unit": "percent",
+      "A": 65.6198347107438,
+      "B": 52.396694214876035,
+      "C": 54.3801652892562
+    },
+    {
+      "metric": "expiration_ratio",
+      "unit": "percent",
+      "A": 27.43801652892562,
+      "B": 40.49586776859504,
+      "C": 38.51239669421488
+    },
+    {
+      "metric": "truncation_ratio",
+      "unit": "percent",
+      "A": 6.9421487603305785,
+      "B": 7.107438016528926,
+      "C": 7.107438016528926
+    }
+  ],
+  "per_seed": [
+    {
+      "evaluation_seed": 1042,
+      "generated": 135,
+      "A_completed": 100,
+      "A_completion_ratio": 74.07407407407408,
+      "A_expired": 23,
+      "A_truncated": 12,
+      "A_total_reward": 68.8700365991466,
+      "B_completed": 81,
+      "B_completion_ratio": 60.0,
+      "B_expired": 43,
+      "B_truncated": 11,
+      "B_total_reward": 27.31923437238369,
+      "C_completed": 104,
+      "C_completion_ratio": 77.03703703703704,
+      "C_expired": 19,
+      "C_truncated": 12,
+      "C_total_reward": 77.66505206159451,
+      "best_by_done": "C"
+    },
+    {
+      "evaluation_seed": 1043,
+      "generated": 122,
+      "A_completed": 74,
+      "A_completion_ratio": 60.65573770491803,
+      "A_expired": 37,
+      "A_truncated": 11,
+      "A_total_reward": 27.54850312810816,
+      "B_completed": 56,
+      "B_completion_ratio": 45.90163934426229,
+      "B_expired": 55,
+      "B_truncated": 11,
+      "B_total_reward": -13.057931429241954,
+      "C_completed": 71,
+      "C_completion_ratio": 58.19672131147541,
+      "C_expired": 42,
+      "C_truncated": 9,
+      "C_total_reward": 18.08318502104271,
+      "best_by_done": "A"
+    },
+    {
+      "evaluation_seed": 1044,
+      "generated": 117,
+      "A_completed": 94,
+      "A_completion_ratio": 80.34188034188034,
+      "A_expired": 19,
+      "A_truncated": 4,
+      "A_total_reward": 69.63241863141643,
+      "B_completed": 65,
+      "B_completion_ratio": 55.55555555555556,
+      "B_expired": 46,
+      "B_truncated": 6,
+      "B_total_reward": 6.499018466056238,
+      "C_completed": 53,
+      "C_completion_ratio": 45.2991452991453,
+      "C_expired": 58,
+      "C_truncated": 6,
+      "C_total_reward": -16.71628197505571,
+      "best_by_done": "A"
+    },
+    {
+      "evaluation_seed": 1045,
+      "generated": 102,
+      "A_completed": 59,
+      "A_completion_ratio": 57.84313725490197,
+      "A_expired": 40,
+      "A_truncated": 3,
+      "A_total_reward": 10.379328311711237,
+      "B_completed": 56,
+      "B_completion_ratio": 54.90196078431373,
+      "B_expired": 43,
+      "B_truncated": 3,
+      "B_total_reward": 3.5979750541282494,
+      "C_completed": 50,
+      "C_completion_ratio": 49.01960784313725,
+      "C_expired": 48,
+      "C_truncated": 4,
+      "C_total_reward": -9.48421684661281,
+      "best_by_done": "A"
+    },
+    {
+      "evaluation_seed": 1046,
+      "generated": 129,
+      "A_completed": 70,
+      "A_completion_ratio": 54.263565891472865,
+      "A_expired": 47,
+      "A_truncated": 12,
+      "A_total_reward": 10.023214226860906,
+      "B_completed": 59,
+      "B_completion_ratio": 45.73643410852713,
+      "B_expired": 58,
+      "B_truncated": 12,
+      "B_total_reward": -12.225399388584995,
+      "C_completed": 51,
+      "C_completion_ratio": 39.53488372093023,
+      "C_expired": 66,
+      "C_truncated": 12,
+      "C_total_reward": -30.727289993085044,
+      "best_by_done": "A"
+    }
+  ],
+  "wins": {
+    "A": 4,
+    "B": 0,
+    "C": 1
+  },
+  "route": [
+    {
+      "method": "A",
+      "route_total": 604,
+      "Local_count": 131,
+      "Local_percent": 21.688741721854306,
+      "Local_leaf_argmax_percent": "NA",
+      "mean_P_Local_percent": 26.02958059222098,
+      "Local_group_mass_argmax_count": "NA",
+      "Remote_count": 473,
+      "Remote_percent": 78.3112582781457,
+      "Remote_leaf_argmax_percent": "NA",
+      "mean_P_Remote_percent": 39.84802051243798,
+      "Remote_group_mass_argmax_count": "NA",
+      "Defer_count": 0,
+      "Defer_percent": 0.0,
+      "Defer_leaf_argmax_percent": "NA",
+      "mean_P_Defer_percent": 34.1223988879398,
+      "Defer_group_mass_argmax_count": "NA",
+      "local_with_legal_remote_count": 0,
+      "chosen_vs_group_mass_argmax_disagreements": "NA"
+    },
+    {
+      "method": "B",
+      "route_total": 614,
+      "Local_count": 529,
+      "Local_percent": 86.15635179153094,
+      "Local_leaf_argmax_percent": 86.15635179153094,
+      "mean_P_Local_percent": 42.3814600982767,
+      "Local_group_mass_argmax_count": 369,
+      "Remote_count": 75,
+      "Remote_percent": 12.214983713355048,
+      "Remote_leaf_argmax_percent": 12.214983713355048,
+      "mean_P_Remote_percent": 34.522807326301304,
+      "Remote_group_mass_argmax_count": 237,
+      "Defer_count": 10,
+      "Defer_percent": 1.6286644951140066,
+      "Defer_leaf_argmax_percent": 1.6286644951140066,
+      "mean_P_Defer_percent": 23.095732340012777,
+      "Defer_group_mass_argmax_count": 8,
+      "local_with_legal_remote_count": 398,
+      "chosen_vs_group_mass_argmax_disagreements": 162
+    },
+    {
+      "method": "C",
+      "route_total": 654,
+      "Local_count": 273,
+      "Local_percent": 41.74311926605505,
+      "Local_leaf_argmax_percent": 41.74311926605505,
+      "mean_P_Local_percent": 39.20236643665792,
+      "Local_group_mass_argmax_count": 233,
+      "Remote_count": 330,
+      "Remote_percent": 50.45871559633027,
+      "Remote_leaf_argmax_percent": 50.45871559633027,
+      "mean_P_Remote_percent": 37.27933429067652,
+      "Remote_group_mass_argmax_count": 417,
+      "Defer_count": 51,
+      "Defer_percent": 7.798165137614679,
+      "Defer_leaf_argmax_percent": 7.798165137614679,
+      "mean_P_Defer_percent": 23.51829922026086,
+      "Defer_group_mass_argmax_count": 4,
+      "local_with_legal_remote_count": 142,
+      "chosen_vs_group_mass_argmax_disagreements": 87
+    }
+  ],
+  "destinations": [
+    {
+      "method": "A",
+      "remote_to_UAV0": 152,
+      "remote_to_UAV1": 120,
+      "remote_to_UAV2": 129,
+      "remote_to_UAV3": 72,
+      "other_or_NA": 0,
+      "illegal_self_excluded_count": 0
+    },
+    {
+      "method": "B",
+      "remote_to_UAV0": 14,
+      "remote_to_UAV1": 15,
+      "remote_to_UAV2": 39,
+      "remote_to_UAV3": 7,
+      "other_or_NA": 0,
+      "illegal_self_excluded_count": 0
+    },
+    {
+      "method": "C",
+      "remote_to_UAV0": 103,
+      "remote_to_UAV1": 63,
+      "remote_to_UAV2": 121,
+      "remote_to_UAV3": 43,
+      "other_or_NA": 0,
+      "illegal_self_excluded_count": 0
+    }
+  ],
+  "deltas": [
+    {
+      "comparison": "A->B",
+      "delta_completed": -16.000000000000007,
+      "delta_completion_ratio_pp": -13.0165610949177,
+      "delta_expired": 15.799999999999997,
+      "delta_total_reward": -34.86412076450043,
+      "delta_total_energy_j": -9.294686441593829,
+      "delta_executor_rejection": -10.2
+    },
+    {
+      "comparison": "B->C",
+      "delta_completed": 2.3999999999999986,
+      "delta_completion_ratio_pp": 1.3983610838133043,
+      "delta_expired": -2.3999999999999986,
+      "delta_total_reward": 5.337510238628484,
+      "delta_total_energy_j": 4.293852014621372,
+      "delta_executor_rejection": 2.4000000000000004
+    },
+    {
+      "comparison": "A->C",
+      "delta_completed": -13.600000000000009,
+      "delta_completion_ratio_pp": -11.618200011104395,
+      "delta_expired": 13.399999999999999,
+      "delta_total_reward": -29.52661052587194,
+      "delta_total_energy_j": -5.000834426972457,
+      "delta_executor_rejection": -7.8
+    }
+  ],
+  "historical": [
+    {
+      "metric": "generated",
+      "unit": "tasks",
+      "Historical_P1a_1044": 117,
+      "Current_A_1044": 117,
+      "difference_current_minus_history": 0,
+      "comparison": "exact_equal"
+    },
+    {
+      "metric": "completed",
+      "unit": "tasks",
+      "Historical_P1a_1044": 94,
+      "Current_A_1044": 94,
+      "difference_current_minus_history": 0,
+      "comparison": "exact_equal"
+    },
+    {
+      "metric": "expired",
+      "unit": "tasks",
+      "Historical_P1a_1044": 19,
+      "Current_A_1044": 19,
+      "difference_current_minus_history": 0,
+      "comparison": "exact_equal"
+    },
+    {
+      "metric": "truncated",
+      "unit": "tasks",
+      "Historical_P1a_1044": 4,
+      "Current_A_1044": 4,
+      "difference_current_minus_history": 0,
+      "comparison": "exact_equal"
+    },
+    {
+      "metric": "completion_ratio",
+      "unit": "percent",
+      "Historical_P1a_1044": 80.34188034188034,
+      "Current_A_1044": 80.34188034188034,
+      "difference_current_minus_history": 0.0,
+      "comparison": "exact_equal"
+    },
+    {
+      "metric": "Local",
+      "unit": "decisions",
+      "Historical_P1a_1044": 0,
+      "Current_A_1044": 0,
+      "difference_current_minus_history": 0,
+      "comparison": "exact_equal"
+    },
+    {
+      "metric": "Remote",
+      "unit": "decisions",
+      "Historical_P1a_1044": 117,
+      "Current_A_1044": 117,
+      "difference_current_minus_history": 0,
+      "comparison": "exact_equal"
+    },
+    {
+      "metric": "Defer",
+      "unit": "decisions",
+      "Historical_P1a_1044": 0,
+      "Current_A_1044": 0,
+      "difference_current_minus_history": 0,
+      "comparison": "exact_equal"
+    },
+    {
+      "metric": "remote_ratio",
+      "unit": "percent",
+      "Historical_P1a_1044": 100.0,
+      "Current_A_1044": 100.0,
+      "difference_current_minus_history": 0.0,
+      "comparison": "exact_equal"
+    },
+    {
+      "metric": "total_reward",
+      "unit": "dimensionless",
+      "Historical_P1a_1044": 69.63241863141643,
+      "Current_A_1044": 69.63241863141643,
+      "difference_current_minus_history": 0.0,
+      "comparison": "exact_equal"
+    }
+  ],
+  "ranking": [
+    {
+      "method": "A",
+      "completed": 79.4,
+      "completion_ratio": 65.43567905344945,
+      "expired": 33.2,
+      "total_reward": 37.29070017944867,
+      "total_energy_j": 34.82429129468737
+    },
+    {
+      "method": "heuristic",
+      "completed": 74.2,
+      "completion_ratio": 61.03767378351937,
+      "expired": 38.0,
+      "total_reward": 26.022282434158512,
+      "total_energy_j": 21.83337012615506
+    },
+    {
+      "method": "C",
+      "completed": 65.8,
+      "completion_ratio": 53.81747904234505,
+      "expired": 46.6,
+      "total_reward": 7.76408965357673,
+      "total_energy_j": 29.823456867714913
+    },
+    {
+      "method": "local_only",
+      "completed": 64.6,
+      "completion_ratio": 53.724763489828185,
+      "expired": 48.6,
+      "total_reward": 4.867831322473131,
+      "total_energy_j": 23.732643287098295
+    },
+    {
+      "method": "B",
+      "completed": 63.4,
+      "completion_ratio": 52.41911795853175,
+      "expired": 49.0,
+      "total_reward": 2.426579414948246,
+      "total_energy_j": 25.52960485309354
+    },
+    {
+      "method": "random",
+      "completed": 5.4,
+      "completion_ratio": 4.537718284214214,
+      "expired": 105.4,
+      "total_reward": -118.51917230644008,
+      "total_energy_j": 9.667003376716975
+    }
+  ]
+}

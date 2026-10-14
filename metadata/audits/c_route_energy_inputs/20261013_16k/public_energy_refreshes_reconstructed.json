@@ -1,0 +1,3579 @@
+[
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 3,
+    "published_uav": 2,
+    "visible_from_actor_slot": 4,
+    "published_energy_j": 34.645961989287
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 4,
+    "published_uav": 2,
+    "visible_from_actor_slot": 5,
+    "published_energy_j": 34.52700461347808
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 8,
+    "published_uav": 2,
+    "visible_from_actor_slot": 9,
+    "published_energy_j": 34.09767414694938
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 11,
+    "published_uav": 2,
+    "visible_from_actor_slot": 12,
+    "published_energy_j": 33.740802019522604
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 13,
+    "published_uav": 2,
+    "visible_from_actor_slot": 14,
+    "published_energy_j": 33.502887267904754
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 15,
+    "published_uav": 2,
+    "visible_from_actor_slot": 16,
+    "published_energy_j": 33.28898266196472
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 36,
+    "published_uav": 2,
+    "visible_from_actor_slot": 37,
+    "published_energy_j": 31.214876067781184
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 39,
+    "published_uav": 2,
+    "visible_from_actor_slot": 40,
+    "published_energy_j": 30.85800394035442
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 40,
+    "published_uav": 2,
+    "visible_from_actor_slot": 41,
+    "published_energy_j": 30.739046564545497
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 41,
+    "published_uav": 2,
+    "visible_from_actor_slot": 42,
+    "published_energy_j": 30.620089188736575
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 47,
+    "published_uav": 2,
+    "visible_from_actor_slot": 48,
+    "published_energy_j": 30.016248419193463
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 56,
+    "published_uav": 1,
+    "visible_from_actor_slot": 57,
+    "published_energy_j": 24.084797778095396
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 59,
+    "published_uav": 2,
+    "visible_from_actor_slot": 60,
+    "published_energy_j": 28.69281550394545
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 60,
+    "published_uav": 1,
+    "visible_from_actor_slot": 61,
+    "published_energy_j": 24.053620716287256
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 74,
+    "published_uav": 2,
+    "visible_from_actor_slot": 75,
+    "published_energy_j": 26.967018781233506
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 76,
+    "published_uav": 1,
+    "visible_from_actor_slot": 77,
+    "published_energy_j": 23.940831538975416
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 78,
+    "published_uav": 2,
+    "visible_from_actor_slot": 79,
+    "published_energy_j": 26.486806565186885
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 90,
+    "published_uav": 2,
+    "visible_from_actor_slot": 91,
+    "published_energy_j": 25.304201579301697
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 98,
+    "published_uav": 2,
+    "visible_from_actor_slot": 99,
+    "published_energy_j": 24.690895375561436
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 110,
+    "published_uav": 2,
+    "visible_from_actor_slot": 111,
+    "published_energy_j": 24.046845876134
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 113,
+    "published_uav": 2,
+    "visible_from_actor_slot": 114,
+    "published_energy_j": 23.689973748707235
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 120,
+    "published_uav": 2,
+    "visible_from_actor_slot": 121,
+    "published_energy_j": 22.897172683222145
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 121,
+    "published_uav": 2,
+    "visible_from_actor_slot": 122,
+    "published_energy_j": 22.778215307413223
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 122,
+    "published_uav": 2,
+    "visible_from_actor_slot": 123,
+    "published_energy_j": 22.6592579316043
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 132,
+    "published_uav": 2,
+    "visible_from_actor_slot": 133,
+    "published_energy_j": 21.570173015796268
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 142,
+    "published_uav": 2,
+    "visible_from_actor_slot": 143,
+    "published_energy_j": 20.49206897955073
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 149,
+    "published_uav": 2,
+    "visible_from_actor_slot": 150,
+    "published_energy_j": 19.700480819278933
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 151,
+    "published_uav": 2,
+    "visible_from_actor_slot": 152,
+    "published_energy_j": 19.46256606766109
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 161,
+    "published_uav": 2,
+    "visible_from_actor_slot": 162,
+    "published_energy_j": 18.379862682922006
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 167,
+    "published_uav": 2,
+    "visible_from_actor_slot": 168,
+    "published_energy_j": 17.726521176355792
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 174,
+    "published_uav": 1,
+    "visible_from_actor_slot": 175,
+    "published_energy_j": 23.71304989136975
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 177,
+    "published_uav": 2,
+    "visible_from_actor_slot": 178,
+    "published_energy_j": 16.577623685821194
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 186,
+    "published_uav": 2,
+    "visible_from_actor_slot": 187,
+    "published_energy_j": 15.607116271347756
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 190,
+    "published_uav": 2,
+    "visible_from_actor_slot": 191,
+    "published_energy_j": 15.131286768112062
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 193,
+    "published_uav": 2,
+    "visible_from_actor_slot": 194,
+    "published_energy_j": 14.824817387036733
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 194,
+    "published_uav": 2,
+    "visible_from_actor_slot": 195,
+    "published_energy_j": 14.70586001122781
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 209,
+    "published_uav": 2,
+    "visible_from_actor_slot": 210,
+    "published_energy_j": 13.063191664928118
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 213,
+    "published_uav": 2,
+    "visible_from_actor_slot": 214,
+    "published_energy_j": 12.617135611422656
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 223,
+    "published_uav": 2,
+    "visible_from_actor_slot": 224,
+    "published_energy_j": 11.547907205855507
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 228,
+    "published_uav": 2,
+    "visible_from_actor_slot": 229,
+    "published_energy_j": 10.95312032681089
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 241,
+    "published_uav": 2,
+    "visible_from_actor_slot": 242,
+    "published_energy_j": 9.557837138181457
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 254,
+    "published_uav": 2,
+    "visible_from_actor_slot": 255,
+    "published_energy_j": 8.099847051314622
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 261,
+    "published_uav": 1,
+    "visible_from_actor_slot": 262,
+    "published_energy_j": 23.507095763042972
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 264,
+    "published_uav": 2,
+    "visible_from_actor_slot": 265,
+    "published_energy_j": 7.00501195118128
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 272,
+    "published_uav": 2,
+    "visible_from_actor_slot": 273,
+    "published_energy_j": 6.166074592875857
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 282,
+    "published_uav": 2,
+    "visible_from_actor_slot": 283,
+    "published_energy_j": 5.054387151419448
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 284,
+    "published_uav": 2,
+    "visible_from_actor_slot": 285,
+    "published_energy_j": 4.816472399801603
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 289,
+    "published_uav": 2,
+    "visible_from_actor_slot": 290,
+    "published_energy_j": 4.246965694984422
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 291,
+    "published_uav": 2,
+    "visible_from_actor_slot": 292,
+    "published_energy_j": 4.009050943366577
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 298,
+    "published_uav": 2,
+    "visible_from_actor_slot": 299,
+    "published_energy_j": 3.1806825708602116
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 308,
+    "published_uav": 1,
+    "visible_from_actor_slot": 309,
+    "published_energy_j": 23.17795246234619
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 314,
+    "published_uav": 2,
+    "visible_from_actor_slot": 315,
+    "published_energy_j": 1.3292129672451138
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 317,
+    "published_uav": 2,
+    "visible_from_actor_slot": 318,
+    "published_energy_j": 0.9723408398183447
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 318,
+    "published_uav": 2,
+    "visible_from_actor_slot": 319,
+    "published_energy_j": 0.8533834640094218
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 327,
+    "published_uav": 2,
+    "visible_from_actor_slot": 328,
+    "published_energy_j": 0.008733841808344156
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 335,
+    "published_uav": 2,
+    "visible_from_actor_slot": 336,
+    "published_energy_j": 0.001299005820286468
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 341,
+    "published_uav": 2,
+    "visible_from_actor_slot": 342,
+    "published_energy_j": 0.001299005820286468
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 343,
+    "published_uav": 2,
+    "visible_from_actor_slot": 344,
+    "published_energy_j": 0.001299005820286468
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 345,
+    "published_uav": 2,
+    "visible_from_actor_slot": 346,
+    "published_energy_j": 0.001299005820286468
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 368,
+    "published_uav": 2,
+    "visible_from_actor_slot": 369,
+    "published_energy_j": 0.001299005820286468
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 383,
+    "published_uav": 2,
+    "visible_from_actor_slot": 384,
+    "published_energy_j": 0.001299005820286468
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 393,
+    "published_uav": 2,
+    "visible_from_actor_slot": 394,
+    "published_energy_j": 0.001299005820286468
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 403,
+    "published_uav": 2,
+    "visible_from_actor_slot": 404,
+    "published_energy_j": 0.001299005820286468
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 424,
+    "published_uav": 2,
+    "visible_from_actor_slot": 425,
+    "published_energy_j": 0.001299005820286468
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 428,
+    "published_uav": 2,
+    "visible_from_actor_slot": 429,
+    "published_energy_j": 0.001299005820286468
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 448,
+    "published_uav": 2,
+    "visible_from_actor_slot": 449,
+    "published_energy_j": 0.001299005820286468
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 455,
+    "published_uav": 2,
+    "visible_from_actor_slot": 456,
+    "published_energy_j": 0.001299005820286468
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 460,
+    "published_uav": 2,
+    "visible_from_actor_slot": 461,
+    "published_energy_j": 0.001299005820286468
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 466,
+    "published_uav": 2,
+    "visible_from_actor_slot": 467,
+    "published_energy_j": 0.001299005820286468
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 479,
+    "published_uav": 2,
+    "visible_from_actor_slot": 480,
+    "published_energy_j": 0.001299005820286468
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 483,
+    "published_uav": 2,
+    "visible_from_actor_slot": 484,
+    "published_energy_j": 0.001299005820286468
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 487,
+    "published_uav": 2,
+    "visible_from_actor_slot": 488,
+    "published_energy_j": 0.001299005820286468
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 492,
+    "published_uav": 2,
+    "visible_from_actor_slot": 493,
+    "published_energy_j": 0.001299005820286468
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 493,
+    "published_uav": 2,
+    "visible_from_actor_slot": 494,
+    "published_energy_j": 0.001299005820286468
+  },
+  {
+    "seed": 1042,
+    "completed_measurement_slot": 499,
+    "published_uav": 2,
+    "visible_from_actor_slot": 500,
+    "published_energy_j": 0.001299005820286468
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 4,
+    "published_uav": 0,
+    "visible_from_actor_slot": 5,
+    "published_energy_j": 31.33677569895
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 8,
+    "published_uav": 0,
+    "visible_from_actor_slot": 9,
+    "published_energy_j": 31.273310585838665
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 18,
+    "published_uav": 1,
+    "visible_from_actor_slot": 19,
+    "published_energy_j": 24.125574704478936
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 34,
+    "published_uav": 1,
+    "visible_from_actor_slot": 35,
+    "published_energy_j": 24.060359967047635
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 36,
+    "published_uav": 0,
+    "visible_from_actor_slot": 37,
+    "published_energy_j": 30.84067517426728
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 42,
+    "published_uav": 0,
+    "visible_from_actor_slot": 43,
+    "published_energy_j": 30.756262250691414
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 45,
+    "published_uav": 3,
+    "visible_from_actor_slot": 46,
+    "published_energy_j": 14.56799541207717
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 46,
+    "published_uav": 3,
+    "visible_from_actor_slot": 47,
+    "published_energy_j": 14.56799541207717
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 52,
+    "published_uav": 1,
+    "visible_from_actor_slot": 53,
+    "published_energy_j": 23.922090657749987
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 54,
+    "published_uav": 1,
+    "visible_from_actor_slot": 55,
+    "published_energy_j": 23.90835285975452
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 55,
+    "published_uav": 3,
+    "visible_from_actor_slot": 56,
+    "published_energy_j": 14.410011211140336
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 56,
+    "published_uav": 1,
+    "visible_from_actor_slot": 57,
+    "published_energy_j": 23.889477088202728
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 57,
+    "published_uav": 3,
+    "visible_from_actor_slot": 58,
+    "published_energy_j": 14.37490361093215
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 58,
+    "published_uav": 3,
+    "visible_from_actor_slot": 59,
+    "published_energy_j": 14.357349810828058
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 61,
+    "published_uav": 0,
+    "visible_from_actor_slot": 62,
+    "published_energy_j": 30.4449854141023
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 64,
+    "published_uav": 3,
+    "visible_from_actor_slot": 65,
+    "published_energy_j": 14.252027010203502
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 73,
+    "published_uav": 3,
+    "visible_from_actor_slot": 74,
+    "published_energy_j": 14.105888073288282
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 74,
+    "published_uav": 3,
+    "visible_from_actor_slot": 75,
+    "published_energy_j": 14.08833427318419
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 84,
+    "published_uav": 0,
+    "visible_from_actor_slot": 85,
+    "published_energy_j": 30.208487961887883
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 88,
+    "published_uav": 1,
+    "visible_from_actor_slot": 89,
+    "published_energy_j": 23.62736857411807
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 89,
+    "published_uav": 0,
+    "visible_from_actor_slot": 90,
+    "published_energy_j": 30.129156570498715
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 103,
+    "published_uav": 3,
+    "visible_from_actor_slot": 104,
+    "published_energy_j": 13.592490525586308
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 104,
+    "published_uav": 0,
+    "visible_from_actor_slot": 105,
+    "published_energy_j": 29.89501482383319
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 105,
+    "published_uav": 1,
+    "visible_from_actor_slot": 106,
+    "published_energy_j": 23.546243890493525
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 110,
+    "published_uav": 3,
+    "visible_from_actor_slot": 111,
+    "published_energy_j": 13.461304007257565
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 113,
+    "published_uav": 0,
+    "visible_from_actor_slot": 114,
+    "published_energy_j": 29.752218319332687
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 117,
+    "published_uav": 3,
+    "visible_from_actor_slot": 118,
+    "published_energy_j": 13.351075716469074
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 128,
+    "published_uav": 0,
+    "visible_from_actor_slot": 129,
+    "published_energy_j": 29.527401000482225
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 130,
+    "published_uav": 3,
+    "visible_from_actor_slot": 131,
+    "published_energy_j": 13.12287631511587
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 133,
+    "published_uav": 1,
+    "visible_from_actor_slot": 134,
+    "published_energy_j": 23.34123417366071
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 140,
+    "published_uav": 1,
+    "visible_from_actor_slot": 141,
+    "published_energy_j": 23.29315188067657
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 141,
+    "published_uav": 1,
+    "visible_from_actor_slot": 142,
+    "published_energy_j": 23.286282981678838
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 142,
+    "published_uav": 0,
+    "visible_from_actor_slot": 143,
+    "published_energy_j": 29.302910794210078
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 143,
+    "published_uav": 1,
+    "visible_from_actor_slot": 144,
+    "published_energy_j": 23.263277101214
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 144,
+    "published_uav": 3,
+    "visible_from_actor_slot": 145,
+    "published_energy_j": 12.874220179714339
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 149,
+    "published_uav": 3,
+    "visible_from_actor_slot": 150,
+    "published_energy_j": 12.792538061637517
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 151,
+    "published_uav": 1,
+    "visible_from_actor_slot": 152,
+    "published_energy_j": 23.198235702581197
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 153,
+    "published_uav": 0,
+    "visible_from_actor_slot": 154,
+    "published_energy_j": 29.121210827144818
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 155,
+    "published_uav": 3,
+    "visible_from_actor_slot": 156,
+    "published_energy_j": 12.695266446808033
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 157,
+    "published_uav": 1,
+    "visible_from_actor_slot": 158,
+    "published_energy_j": 23.146322872425255
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 168,
+    "published_uav": 3,
+    "visible_from_actor_slot": 169,
+    "published_energy_j": 12.467067045454828
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 170,
+    "published_uav": 0,
+    "visible_from_actor_slot": 171,
+    "published_energy_j": 28.84911149631956
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 174,
+    "published_uav": 0,
+    "visible_from_actor_slot": 175,
+    "published_energy_j": 28.785646383208224
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 175,
+    "published_uav": 1,
+    "visible_from_actor_slot": 176,
+    "published_energy_j": 23.009851239302687
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 177,
+    "published_uav": 1,
+    "visible_from_actor_slot": 178,
+    "published_energy_j": 22.99611344130722
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 178,
+    "published_uav": 1,
+    "visible_from_actor_slot": 179,
+    "published_energy_j": 22.989244542309486
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 186,
+    "published_uav": 0,
+    "visible_from_actor_slot": 187,
+    "published_energy_j": 28.59904406139807
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 190,
+    "published_uav": 1,
+    "visible_from_actor_slot": 191,
+    "published_energy_j": 22.906765987958092
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 194,
+    "published_uav": 2,
+    "visible_from_actor_slot": 195,
+    "published_energy_j": 34.031707341669296
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 195,
+    "published_uav": 2,
+    "visible_from_actor_slot": 196,
+    "published_energy_j": 34.031707341669296
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 205,
+    "published_uav": 1,
+    "visible_from_actor_slot": 206,
+    "published_energy_j": 22.80483818402964
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 206,
+    "published_uav": 3,
+    "visible_from_actor_slot": 207,
+    "published_energy_j": 11.754396340580012
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 207,
+    "published_uav": 3,
+    "visible_from_actor_slot": 208,
+    "published_energy_j": 11.73684254047592
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 212,
+    "published_uav": 0,
+    "visible_from_actor_slot": 213,
+    "published_energy_j": 28.196105048689137
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 215,
+    "published_uav": 3,
+    "visible_from_actor_slot": 216,
+    "published_energy_j": 11.596412139643178
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 218,
+    "published_uav": 1,
+    "visible_from_actor_slot": 219,
+    "published_energy_j": 22.67776094738975
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 230,
+    "published_uav": 1,
+    "visible_from_actor_slot": 231,
+    "published_energy_j": 22.595334159416943
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 240,
+    "published_uav": 2,
+    "visible_from_actor_slot": 241,
+    "published_energy_j": 31.36406160813073
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 241,
+    "published_uav": 2,
+    "visible_from_actor_slot": 242,
+    "published_energy_j": 31.36406160813073
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 246,
+    "published_uav": 2,
+    "visible_from_actor_slot": 247,
+    "published_energy_j": 30.76927472908612
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 250,
+    "published_uav": 3,
+    "visible_from_actor_slot": 251,
+    "published_energy_j": 10.944003953351439
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 253,
+    "published_uav": 0,
+    "visible_from_actor_slot": 254,
+    "published_energy_j": 27.664385475875278
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 254,
+    "published_uav": 1,
+    "visible_from_actor_slot": 255,
+    "published_energy_j": 22.432023448273405
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 254,
+    "published_uav": 2,
+    "visible_from_actor_slot": 255,
+    "published_energy_j": 29.837594749912096
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 255,
+    "published_uav": 2,
+    "visible_from_actor_slot": 256,
+    "published_energy_j": 29.837594749912096
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 257,
+    "published_uav": 1,
+    "visible_from_actor_slot": 258,
+    "published_energy_j": 22.411416751280203
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 258,
+    "published_uav": 2,
+    "visible_from_actor_slot": 259,
+    "published_energy_j": 29.48072262248533
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 259,
+    "published_uav": 0,
+    "visible_from_actor_slot": 260,
+    "published_energy_j": 27.55494492979497
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 259,
+    "published_uav": 2,
+    "visible_from_actor_slot": 260,
+    "published_energy_j": 29.36176524667641
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 260,
+    "published_uav": 2,
+    "visible_from_actor_slot": 261,
+    "published_energy_j": 29.242807870867487
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 261,
+    "published_uav": 2,
+    "visible_from_actor_slot": 262,
+    "published_energy_j": 29.123850495058566
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 262,
+    "published_uav": 3,
+    "visible_from_actor_slot": 263,
+    "published_energy_j": 10.65930378940016
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 263,
+    "published_uav": 1,
+    "visible_from_actor_slot": 264,
+    "published_energy_j": 22.3560611493372
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 267,
+    "published_uav": 2,
+    "visible_from_actor_slot": 268,
+    "published_energy_j": 28.410106240205035
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 268,
+    "published_uav": 0,
+    "visible_from_actor_slot": 269,
+    "published_energy_j": 27.40517962784285
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 273,
+    "published_uav": 1,
+    "visible_from_actor_slot": 274,
+    "published_energy_j": 22.27763020898934
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 274,
+    "published_uav": 0,
+    "visible_from_actor_slot": 275,
+    "published_energy_j": 27.30436719681553
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 275,
+    "published_uav": 0,
+    "visible_from_actor_slot": 276,
+    "published_energy_j": 27.288500918537697
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 277,
+    "published_uav": 2,
+    "visible_from_actor_slot": 278,
+    "published_energy_j": 27.283528053911386
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 278,
+    "published_uav": 2,
+    "visible_from_actor_slot": 279,
+    "published_energy_j": 27.164570678102464
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 279,
+    "published_uav": 2,
+    "visible_from_actor_slot": 280,
+    "published_energy_j": 27.159240319042045
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 292,
+    "published_uav": 3,
+    "visible_from_actor_slot": 293,
+    "published_energy_j": 10.074085089084328
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 295,
+    "published_uav": 3,
+    "visible_from_actor_slot": 296,
+    "published_energy_j": 10.02142368877205
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 298,
+    "published_uav": 2,
+    "visible_from_actor_slot": 299,
+    "published_energy_j": 25.0064985952681
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 299,
+    "published_uav": 2,
+    "visible_from_actor_slot": 300,
+    "published_energy_j": 24.887541219459177
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 300,
+    "published_uav": 3,
+    "visible_from_actor_slot": 301,
+    "published_energy_j": 9.936821361851056
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 315,
+    "published_uav": 3,
+    "visible_from_actor_slot": 316,
+    "published_energy_j": 9.679875872622075
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 320,
+    "published_uav": 3,
+    "visible_from_actor_slot": 321,
+    "published_energy_j": 9.592106872101612
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 323,
+    "published_uav": 3,
+    "visible_from_actor_slot": 324,
+    "published_energy_j": 9.539445471789334
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 334,
+    "published_uav": 3,
+    "visible_from_actor_slot": 335,
+    "published_energy_j": 9.370454690670849
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 337,
+    "published_uav": 0,
+    "visible_from_actor_slot": 338,
+    "published_energy_j": 26.324956842053304
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 352,
+    "published_uav": 2,
+    "visible_from_actor_slot": 353,
+    "published_energy_j": 23.788139084245177
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 353,
+    "published_uav": 0,
+    "visible_from_actor_slot": 354,
+    "published_energy_j": 26.07620907758053
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 353,
+    "published_uav": 2,
+    "visible_from_actor_slot": 354,
+    "published_energy_j": 23.788139084245177
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 354,
+    "published_uav": 2,
+    "visible_from_actor_slot": 355,
+    "published_energy_j": 23.788139084245177
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 355,
+    "published_uav": 3,
+    "visible_from_actor_slot": 356,
+    "published_energy_j": 8.984514872479133
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 372,
+    "published_uav": 0,
+    "visible_from_actor_slot": 373,
+    "published_energy_j": 25.779629891187845
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 373,
+    "published_uav": 1,
+    "visible_from_actor_slot": 374,
+    "published_energy_j": 21.89231551409974
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 375,
+    "published_uav": 3,
+    "visible_from_actor_slot": 376,
+    "published_energy_j": 8.706307557716027
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 376,
+    "published_uav": 2,
+    "visible_from_actor_slot": 377,
+    "published_energy_j": 23.150784860760325
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 381,
+    "published_uav": 1,
+    "visible_from_actor_slot": 382,
+    "published_energy_j": 21.82862042646045
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 387,
+    "published_uav": 1,
+    "visible_from_actor_slot": 388,
+    "published_energy_j": 21.787407032474047
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 390,
+    "published_uav": 1,
+    "visible_from_actor_slot": 391,
+    "published_energy_j": 21.766800335480845
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 394,
+    "published_uav": 2,
+    "visible_from_actor_slot": 395,
+    "published_energy_j": 22.75992793467401
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 395,
+    "published_uav": 2,
+    "visible_from_actor_slot": 396,
+    "published_energy_j": 22.75992793467401
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 400,
+    "published_uav": 2,
+    "visible_from_actor_slot": 401,
+    "published_energy_j": 22.1651410556294
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 401,
+    "published_uav": 2,
+    "visible_from_actor_slot": 402,
+    "published_energy_j": 22.04618367982048
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 403,
+    "published_uav": 1,
+    "visible_from_actor_slot": 404,
+    "published_energy_j": 21.6882868310725
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 410,
+    "published_uav": 3,
+    "visible_from_actor_slot": 411,
+    "published_energy_j": 8.289860725061573
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 417,
+    "published_uav": 3,
+    "visible_from_actor_slot": 418,
+    "published_energy_j": 8.166984124332924
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 418,
+    "published_uav": 3,
+    "visible_from_actor_slot": 419,
+    "published_energy_j": 8.149430324228831
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 419,
+    "published_uav": 3,
+    "visible_from_actor_slot": 420,
+    "published_energy_j": 8.131876524124738
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 424,
+    "published_uav": 0,
+    "visible_from_actor_slot": 425,
+    "published_energy_j": 25.23704622865456
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 426,
+    "published_uav": 0,
+    "visible_from_actor_slot": 427,
+    "published_energy_j": 25.205313672098892
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 427,
+    "published_uav": 0,
+    "visible_from_actor_slot": 428,
+    "published_energy_j": 25.18944739382106
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 429,
+    "published_uav": 2,
+    "visible_from_actor_slot": 430,
+    "published_energy_j": 21.196770712505746
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 430,
+    "published_uav": 2,
+    "visible_from_actor_slot": 431,
+    "published_energy_j": 21.196770712505746
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 441,
+    "published_uav": 3,
+    "visible_from_actor_slot": 442,
+    "published_energy_j": 7.730530442041316
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 442,
+    "published_uav": 1,
+    "visible_from_actor_slot": 443,
+    "published_energy_j": 21.380828706130586
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 443,
+    "published_uav": 3,
+    "visible_from_actor_slot": 444,
+    "published_energy_j": 7.695422841833131
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 444,
+    "published_uav": 3,
+    "visible_from_actor_slot": 445,
+    "published_energy_j": 7.677869041729038
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 446,
+    "published_uav": 0,
+    "visible_from_actor_slot": 447,
+    "published_energy_j": 24.88039515194242
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 452,
+    "published_uav": 0,
+    "visible_from_actor_slot": 453,
+    "published_energy_j": 24.785197482275418
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 453,
+    "published_uav": 0,
+    "visible_from_actor_slot": 454,
+    "published_energy_j": 24.769331203997584
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 455,
+    "published_uav": 3,
+    "visible_from_actor_slot": 456,
+    "published_energy_j": 7.497949069412447
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 456,
+    "published_uav": 3,
+    "visible_from_actor_slot": 457,
+    "published_energy_j": 7.480395269308354
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 463,
+    "published_uav": 3,
+    "visible_from_actor_slot": 464,
+    "published_energy_j": 7.359363577920792
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 469,
+    "published_uav": 3,
+    "visible_from_actor_slot": 470,
+    "published_energy_j": 7.254040777296236
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 482,
+    "published_uav": 0,
+    "visible_from_actor_slot": 483,
+    "published_energy_j": 24.337274829909425
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 484,
+    "published_uav": 2,
+    "visible_from_actor_slot": 485,
+    "published_energy_j": 20.64718918239531
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 488,
+    "published_uav": 3,
+    "visible_from_actor_slot": 489,
+    "published_energy_j": 6.906964622355932
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 489,
+    "published_uav": 3,
+    "visible_from_actor_slot": 490,
+    "published_energy_j": 6.889410822251839
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 494,
+    "published_uav": 0,
+    "visible_from_actor_slot": 495,
+    "published_energy_j": 24.160167837018907
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 495,
+    "published_uav": 0,
+    "visible_from_actor_slot": 496,
+    "published_energy_j": 24.144301558741073
+  },
+  {
+    "seed": 1043,
+    "completed_measurement_slot": 496,
+    "published_uav": 2,
+    "visible_from_actor_slot": 497,
+    "published_energy_j": 19.863295992943716
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 2,
+    "published_uav": 0,
+    "visible_from_actor_slot": 3,
+    "published_energy_j": 31.33677569895
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 5,
+    "published_uav": 0,
+    "visible_from_actor_slot": 6,
+    "published_energy_j": 31.2891768641165
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 8,
+    "published_uav": 1,
+    "visible_from_actor_slot": 9,
+    "published_energy_j": 24.123210708574916
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 21,
+    "published_uav": 0,
+    "visible_from_actor_slot": 22,
+    "published_energy_j": 31.034071207266507
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 23,
+    "published_uav": 1,
+    "visible_from_actor_slot": 24,
+    "published_energy_j": 24.067258545370166
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 31,
+    "published_uav": 0,
+    "visible_from_actor_slot": 32,
+    "published_energy_j": 30.884112836902283
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 34,
+    "published_uav": 2,
+    "visible_from_actor_slot": 35,
+    "published_energy_j": 34.63932927878982
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 45,
+    "published_uav": 2,
+    "visible_from_actor_slot": 46,
+    "published_energy_j": 33.99112791351605
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 58,
+    "published_uav": 2,
+    "visible_from_actor_slot": 59,
+    "published_energy_j": 33.824338999616245
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 59,
+    "published_uav": 2,
+    "visible_from_actor_slot": 60,
+    "published_energy_j": 33.70538162380732
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 60,
+    "published_uav": 2,
+    "visible_from_actor_slot": 61,
+    "published_energy_j": 33.586424247998394
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 61,
+    "published_uav": 2,
+    "visible_from_actor_slot": 62,
+    "published_energy_j": 33.46746687218947
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 64,
+    "published_uav": 1,
+    "visible_from_actor_slot": 65,
+    "published_energy_j": 24.004374571531436
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 65,
+    "published_uav": 2,
+    "visible_from_actor_slot": 66,
+    "published_energy_j": 33.04796713399567
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 72,
+    "published_uav": 2,
+    "visible_from_actor_slot": 73,
+    "published_energy_j": 32.271045516277624
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 73,
+    "published_uav": 1,
+    "visible_from_actor_slot": 74,
+    "published_energy_j": 23.93188398148604
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 74,
+    "published_uav": 2,
+    "visible_from_actor_slot": 75,
+    "published_energy_j": 32.033130764659774
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 75,
+    "published_uav": 2,
+    "visible_from_actor_slot": 76,
+    "published_energy_j": 31.914173388850852
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 77,
+    "published_uav": 2,
+    "visible_from_actor_slot": 78,
+    "published_energy_j": 31.67625863723301
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 83,
+    "published_uav": 1,
+    "visible_from_actor_slot": 84,
+    "published_energy_j": 23.8613853249431
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 86,
+    "published_uav": 3,
+    "visible_from_actor_slot": 87,
+    "published_energy_j": 14.531246665326409
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 87,
+    "published_uav": 3,
+    "visible_from_actor_slot": 88,
+    "published_energy_j": 14.531246665326409
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 88,
+    "published_uav": 2,
+    "visible_from_actor_slot": 89,
+    "published_energy_j": 30.394569177393137
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 89,
+    "published_uav": 2,
+    "visible_from_actor_slot": 90,
+    "published_energy_j": 30.275611801584215
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 100,
+    "published_uav": 3,
+    "visible_from_actor_slot": 101,
+    "published_energy_j": 14.283991854431635
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 104,
+    "published_uav": 1,
+    "visible_from_actor_slot": 105,
+    "published_energy_j": 23.713428739380518
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 106,
+    "published_uav": 3,
+    "visible_from_actor_slot": 107,
+    "published_energy_j": 14.178669053807079
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 108,
+    "published_uav": 1,
+    "visible_from_actor_slot": 109,
+    "published_energy_j": 23.67211046604519
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 112,
+    "published_uav": 2,
+    "visible_from_actor_slot": 113,
+    "published_energy_j": 27.707651760340433
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 119,
+    "published_uav": 2,
+    "visible_from_actor_slot": 120,
+    "published_energy_j": 26.888465549171542
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 122,
+    "published_uav": 2,
+    "visible_from_actor_slot": 123,
+    "published_energy_j": 26.531593421744777
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 125,
+    "published_uav": 2,
+    "visible_from_actor_slot": 126,
+    "published_energy_j": 26.21209226901528
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 126,
+    "published_uav": 2,
+    "visible_from_actor_slot": 127,
+    "published_energy_j": 26.093134893206358
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 127,
+    "published_uav": 2,
+    "visible_from_actor_slot": 128,
+    "published_energy_j": 25.974177517397436
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 130,
+    "published_uav": 1,
+    "visible_from_actor_slot": 131,
+    "published_energy_j": 23.515852351845698
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 131,
+    "published_uav": 1,
+    "visible_from_actor_slot": 132,
+    "published_energy_j": 23.515852351845698
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 131,
+    "published_uav": 2,
+    "visible_from_actor_slot": 132,
+    "published_energy_j": 25.49834801416175
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 132,
+    "published_uav": 1,
+    "visible_from_actor_slot": 133,
+    "published_energy_j": 23.515852351845698
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 133,
+    "published_uav": 1,
+    "visible_from_actor_slot": 134,
+    "published_energy_j": 23.508983452847964
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 134,
+    "published_uav": 2,
+    "visible_from_actor_slot": 135,
+    "published_energy_j": 25.15610531772269
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 136,
+    "published_uav": 3,
+    "visible_from_actor_slot": 137,
+    "published_energy_j": 13.728120509037675
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 138,
+    "published_uav": 2,
+    "visible_from_actor_slot": 139,
+    "published_energy_j": 24.70361131739524
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 140,
+    "published_uav": 3,
+    "visible_from_actor_slot": 141,
+    "published_energy_j": 13.657905308621304
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 141,
+    "published_uav": 3,
+    "visible_from_actor_slot": 142,
+    "published_energy_j": 13.640351508517211
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 142,
+    "published_uav": 3,
+    "visible_from_actor_slot": 143,
+    "published_energy_j": 13.622797708413119
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 143,
+    "published_uav": 1,
+    "visible_from_actor_slot": 144,
+    "published_energy_j": 23.374974464309076
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 144,
+    "published_uav": 0,
+    "visible_from_actor_slot": 145,
+    "published_energy_j": 30.119646838565572
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 145,
+    "published_uav": 1,
+    "visible_from_actor_slot": 146,
+    "published_energy_j": 23.35705234901155
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 147,
+    "published_uav": 2,
+    "visible_from_actor_slot": 148,
+    "published_energy_j": 23.632994935114944
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 148,
+    "published_uav": 0,
+    "visible_from_actor_slot": 149,
+    "published_energy_j": 30.041154721072424
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 149,
+    "published_uav": 0,
+    "visible_from_actor_slot": 150,
+    "published_energy_j": 30.02528844279459
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 153,
+    "published_uav": 2,
+    "visible_from_actor_slot": 154,
+    "published_energy_j": 22.99833899294157
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 159,
+    "published_uav": 0,
+    "visible_from_actor_slot": 160,
+    "published_energy_j": 29.87204124623679
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 160,
+    "published_uav": 0,
+    "visible_from_actor_slot": 161,
+    "published_energy_j": 29.856174967958957
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 161,
+    "published_uav": 2,
+    "visible_from_actor_slot": 162,
+    "published_energy_j": 22.040771407533622
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 171,
+    "published_uav": 2,
+    "visible_from_actor_slot": 172,
+    "published_energy_j": 20.96811773256977
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 176,
+    "published_uav": 2,
+    "visible_from_actor_slot": 177,
+    "published_energy_j": 20.470945075778754
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 189,
+    "published_uav": 2,
+    "visible_from_actor_slot": 190,
+    "published_energy_j": 18.947659168741254
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 193,
+    "published_uav": 3,
+    "visible_from_actor_slot": 194,
+    "published_energy_j": 13.123786316775446
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 194,
+    "published_uav": 3,
+    "visible_from_actor_slot": 195,
+    "published_energy_j": 13.123786316775446
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 198,
+    "published_uav": 2,
+    "visible_from_actor_slot": 199,
+    "published_energy_j": 17.893524079747365
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 199,
+    "published_uav": 2,
+    "visible_from_actor_slot": 200,
+    "published_energy_j": 17.774566703938444
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 202,
+    "published_uav": 2,
+    "visible_from_actor_slot": 203,
+    "published_energy_j": 17.486964612982412
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 203,
+    "published_uav": 2,
+    "visible_from_actor_slot": 204,
+    "published_energy_j": 17.36800723717349
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 205,
+    "published_uav": 0,
+    "visible_from_actor_slot": 206,
+    "published_energy_j": 29.611946175864187
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 206,
+    "published_uav": 0,
+    "visible_from_actor_slot": 207,
+    "published_energy_j": 29.611946175864187
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 209,
+    "published_uav": 2,
+    "visible_from_actor_slot": 210,
+    "published_energy_j": 16.64994772748356
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 223,
+    "published_uav": 2,
+    "visible_from_actor_slot": 224,
+    "published_energy_j": 14.990860335772803
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 231,
+    "published_uav": 2,
+    "visible_from_actor_slot": 232,
+    "published_energy_j": 14.069482764422903
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 240,
+    "published_uav": 0,
+    "visible_from_actor_slot": 241,
+    "published_energy_j": 29.414941637300583
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 241,
+    "published_uav": 2,
+    "visible_from_actor_slot": 242,
+    "published_energy_j": 13.112556643054326
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 245,
+    "published_uav": 2,
+    "visible_from_actor_slot": 246,
+    "published_energy_j": 12.636727139818632
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 246,
+    "published_uav": 2,
+    "visible_from_actor_slot": 247,
+    "published_energy_j": 12.517769764009708
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 253,
+    "published_uav": 2,
+    "visible_from_actor_slot": 254,
+    "published_energy_j": 11.699475171783588
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 260,
+    "published_uav": 2,
+    "visible_from_actor_slot": 261,
+    "published_energy_j": 10.889490932336608
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 261,
+    "published_uav": 0,
+    "visible_from_actor_slot": 262,
+    "published_energy_j": 29.216442774971807
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 262,
+    "published_uav": 0,
+    "visible_from_actor_slot": 263,
+    "published_energy_j": 29.216442774971807
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 270,
+    "published_uav": 2,
+    "visible_from_actor_slot": 271,
+    "published_energy_j": 9.716492643233337
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 282,
+    "published_uav": 2,
+    "visible_from_actor_slot": 283,
+    "published_energy_j": 9.216724174398568
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 283,
+    "published_uav": 2,
+    "visible_from_actor_slot": 284,
+    "published_energy_j": 9.097766798589644
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 289,
+    "published_uav": 2,
+    "visible_from_actor_slot": 290,
+    "published_energy_j": 8.43840666788842
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 291,
+    "published_uav": 2,
+    "visible_from_actor_slot": 292,
+    "published_energy_j": 8.200491916270574
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 292,
+    "published_uav": 2,
+    "visible_from_actor_slot": 293,
+    "published_energy_j": 8.08153454046165
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 296,
+    "published_uav": 2,
+    "visible_from_actor_slot": 297,
+    "published_energy_j": 7.693831196273065
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 297,
+    "published_uav": 2,
+    "visible_from_actor_slot": 298,
+    "published_energy_j": 7.574873820464142
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 302,
+    "published_uav": 0,
+    "visible_from_actor_slot": 303,
+    "published_energy_j": 28.839590279748332
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 303,
+    "published_uav": 0,
+    "visible_from_actor_slot": 304,
+    "published_energy_j": 28.839590279748332
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 306,
+    "published_uav": 3,
+    "visible_from_actor_slot": 307,
+    "published_energy_j": 12.582922998053046
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 307,
+    "published_uav": 1,
+    "visible_from_actor_slot": 308,
+    "published_energy_j": 23.06562076661663
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 308,
+    "published_uav": 1,
+    "visible_from_actor_slot": 309,
+    "published_energy_j": 23.06562076661663
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 308,
+    "published_uav": 2,
+    "visible_from_actor_slot": 309,
+    "published_energy_j": 6.310154410494615
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 309,
+    "published_uav": 2,
+    "visible_from_actor_slot": 310,
+    "published_energy_j": 6.191197034685692
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 310,
+    "published_uav": 3,
+    "visible_from_actor_slot": 311,
+    "published_energy_j": 12.565373908882195
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 311,
+    "published_uav": 3,
+    "visible_from_actor_slot": 312,
+    "published_energy_j": 12.547820108778103
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 312,
+    "published_uav": 3,
+    "visible_from_actor_slot": 313,
+    "published_energy_j": 12.53026630867401
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 313,
+    "published_uav": 1,
+    "visible_from_actor_slot": 314,
+    "published_energy_j": 23.00727643318523
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 314,
+    "published_uav": 1,
+    "visible_from_actor_slot": 315,
+    "published_energy_j": 23.000407534187495
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 314,
+    "published_uav": 2,
+    "visible_from_actor_slot": 315,
+    "published_energy_j": 5.648016608533224
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 315,
+    "published_uav": 3,
+    "visible_from_actor_slot": 316,
+    "published_energy_j": 12.448972273398914
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 316,
+    "published_uav": 2,
+    "visible_from_actor_slot": 317,
+    "published_energy_j": 5.410101856915379
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 316,
+    "published_uav": 3,
+    "visible_from_actor_slot": 317,
+    "published_energy_j": 12.431418473294821
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 317,
+    "published_uav": 2,
+    "visible_from_actor_slot": 318,
+    "published_energy_j": 5.291144481106456
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 318,
+    "published_uav": 2,
+    "visible_from_actor_slot": 319,
+    "published_energy_j": 5.206681322882279
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 329,
+    "published_uav": 3,
+    "visible_from_actor_slot": 330,
+    "published_energy_j": 12.202860122921024
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 330,
+    "published_uav": 3,
+    "visible_from_actor_slot": 331,
+    "published_energy_j": 12.185306322816931
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 331,
+    "published_uav": 2,
+    "visible_from_actor_slot": 332,
+    "published_energy_j": 3.6988013985598003
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 332,
+    "published_uav": 0,
+    "visible_from_actor_slot": 333,
+    "published_energy_j": 28.50024674036948
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 333,
+    "published_uav": 0,
+    "visible_from_actor_slot": 334,
+    "published_energy_j": 28.50024674036948
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 334,
+    "published_uav": 2,
+    "visible_from_actor_slot": 335,
+    "published_energy_j": 3.341929271133031
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 352,
+    "published_uav": 1,
+    "visible_from_actor_slot": 353,
+    "published_energy_j": 22.849786223595835
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 353,
+    "published_uav": 0,
+    "visible_from_actor_slot": 354,
+    "published_energy_j": 28.263955656143626
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 354,
+    "published_uav": 0,
+    "visible_from_actor_slot": 355,
+    "published_energy_j": 28.263955656143626
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 356,
+    "published_uav": 2,
+    "visible_from_actor_slot": 357,
+    "published_energy_j": 0.8873702183777278
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 361,
+    "published_uav": 2,
+    "visible_from_actor_slot": 362,
+    "published_energy_j": 0.29258333933311287
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 362,
+    "published_uav": 2,
+    "visible_from_actor_slot": 363,
+    "published_energy_j": 0.18443773962787313
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 374,
+    "published_uav": 2,
+    "visible_from_actor_slot": 375,
+    "published_energy_j": 0.0004255489234453573
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 380,
+    "published_uav": 3,
+    "visible_from_actor_slot": 381,
+    "published_energy_j": 11.286439052383944
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 391,
+    "published_uav": 2,
+    "visible_from_actor_slot": 392,
+    "published_energy_j": 0.0004255489234453573
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 392,
+    "published_uav": 2,
+    "visible_from_actor_slot": 393,
+    "published_energy_j": 0.0004255489234453573
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 393,
+    "published_uav": 0,
+    "visible_from_actor_slot": 394,
+    "published_energy_j": 27.983849687783007
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 393,
+    "published_uav": 2,
+    "visible_from_actor_slot": 394,
+    "published_energy_j": 0.0004255489234453573
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 397,
+    "published_uav": 1,
+    "visible_from_actor_slot": 398,
+    "published_energy_j": 22.688210919445282
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 398,
+    "published_uav": 1,
+    "visible_from_actor_slot": 399,
+    "published_energy_j": 22.688210919445282
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 399,
+    "published_uav": 3,
+    "visible_from_actor_slot": 400,
+    "published_energy_j": 10.9169232532335
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 403,
+    "published_uav": 2,
+    "visible_from_actor_slot": 404,
+    "published_energy_j": 0.0004255489234453573
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 407,
+    "published_uav": 1,
+    "visible_from_actor_slot": 408,
+    "published_energy_j": 22.610870068082964
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 408,
+    "published_uav": 1,
+    "visible_from_actor_slot": 409,
+    "published_energy_j": 22.60400116908523
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 411,
+    "published_uav": 2,
+    "visible_from_actor_slot": 412,
+    "published_energy_j": 0.0004255489234453573
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 412,
+    "published_uav": 2,
+    "visible_from_actor_slot": 413,
+    "published_energy_j": 0.0004255489234453573
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 420,
+    "published_uav": 2,
+    "visible_from_actor_slot": 421,
+    "published_energy_j": 0.0004255489234453573
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 427,
+    "published_uav": 2,
+    "visible_from_actor_slot": 428,
+    "published_energy_j": 0.0004255489234453573
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 429,
+    "published_uav": 0,
+    "visible_from_actor_slot": 430,
+    "published_energy_j": 27.86875261719001
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 430,
+    "published_uav": 1,
+    "visible_from_actor_slot": 431,
+    "published_energy_j": 22.46427876261861
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 431,
+    "published_uav": 1,
+    "visible_from_actor_slot": 432,
+    "published_energy_j": 22.46427876261861
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 446,
+    "published_uav": 2,
+    "visible_from_actor_slot": 447,
+    "published_energy_j": 0.0004255489234453573
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 447,
+    "published_uav": 0,
+    "visible_from_actor_slot": 448,
+    "published_energy_j": 27.814290568759926
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 451,
+    "published_uav": 3,
+    "visible_from_actor_slot": 452,
+    "published_energy_j": 10.29997244430368
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 453,
+    "published_uav": 2,
+    "visible_from_actor_slot": 454,
+    "published_energy_j": 0.0004255489234453573
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 460,
+    "published_uav": 2,
+    "visible_from_actor_slot": 461,
+    "published_energy_j": 0.0004255489234453573
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 470,
+    "published_uav": 2,
+    "visible_from_actor_slot": 471,
+    "published_energy_j": 0.0004255489234453573
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 471,
+    "published_uav": 2,
+    "visible_from_actor_slot": 472,
+    "published_energy_j": 0.0004255489234453573
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 477,
+    "published_uav": 0,
+    "visible_from_actor_slot": 478,
+    "published_energy_j": 27.670042139796646
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 478,
+    "published_uav": 0,
+    "visible_from_actor_slot": 479,
+    "published_energy_j": 27.670042139796646
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 479,
+    "published_uav": 3,
+    "visible_from_actor_slot": 480,
+    "published_energy_j": 10.134598169609824
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 480,
+    "published_uav": 3,
+    "visible_from_actor_slot": 481,
+    "published_energy_j": 10.134598169609824
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 488,
+    "published_uav": 3,
+    "visible_from_actor_slot": 489,
+    "published_energy_j": 9.994167768777082
+  },
+  {
+    "seed": 1044,
+    "completed_measurement_slot": 497,
+    "published_uav": 0,
+    "visible_from_actor_slot": 498,
+    "published_energy_j": 27.507780903781057
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 4,
+    "published_uav": 1,
+    "visible_from_actor_slot": 5,
+    "published_energy_j": 24.138019675655997
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 16,
+    "published_uav": 0,
+    "visible_from_actor_slot": 17,
+    "published_energy_j": 31.325435672886176
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 30,
+    "published_uav": 1,
+    "visible_from_actor_slot": 31,
+    "published_energy_j": 23.951309639364656
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 39,
+    "published_uav": 0,
+    "visible_from_actor_slot": 40,
+    "published_energy_j": 31.035415732896723
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 57,
+    "published_uav": 1,
+    "visible_from_actor_slot": 58,
+    "published_energy_j": 23.762726849628482
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 63,
+    "published_uav": 0,
+    "visible_from_actor_slot": 64,
+    "published_energy_j": 30.764499605819353
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 70,
+    "published_uav": 1,
+    "visible_from_actor_slot": 71,
+    "published_energy_j": 23.665931529177136
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 71,
+    "published_uav": 0,
+    "visible_from_actor_slot": 72,
+    "published_energy_j": 30.631016712825932
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 77,
+    "published_uav": 1,
+    "visible_from_actor_slot": 78,
+    "published_energy_j": 23.60254019079732
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 85,
+    "published_uav": 0,
+    "visible_from_actor_slot": 86,
+    "published_energy_j": 30.41528075060256
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 109,
+    "published_uav": 1,
+    "visible_from_actor_slot": 110,
+    "published_energy_j": 23.376201646726226
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 123,
+    "published_uav": 1,
+    "visible_from_actor_slot": 124,
+    "published_energy_j": 23.28003706075795
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 124,
+    "published_uav": 1,
+    "visible_from_actor_slot": 125,
+    "published_energy_j": 23.273168161760218
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 125,
+    "published_uav": 1,
+    "visible_from_actor_slot": 126,
+    "published_energy_j": 23.266299262762484
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 133,
+    "published_uav": 0,
+    "visible_from_actor_slot": 134,
+    "published_energy_j": 29.792798035819057
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 145,
+    "published_uav": 0,
+    "visible_from_actor_slot": 146,
+    "published_energy_j": 29.602402696485054
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 157,
+    "published_uav": 0,
+    "visible_from_actor_slot": 158,
+    "published_energy_j": 29.423133602650253
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 161,
+    "published_uav": 0,
+    "visible_from_actor_slot": 162,
+    "published_energy_j": 29.35966848953892
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 166,
+    "published_uav": 1,
+    "visible_from_actor_slot": 167,
+    "published_energy_j": 22.961873275677345
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 173,
+    "published_uav": 1,
+    "visible_from_actor_slot": 174,
+    "published_energy_j": 22.913790982693207
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 174,
+    "published_uav": 1,
+    "visible_from_actor_slot": 175,
+    "published_energy_j": 22.906922083695473
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 176,
+    "published_uav": 1,
+    "visible_from_actor_slot": 177,
+    "published_energy_j": 22.893184285700006
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 178,
+    "published_uav": 0,
+    "visible_from_actor_slot": 179,
+    "published_energy_j": 29.072831931886657
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 182,
+    "published_uav": 0,
+    "visible_from_actor_slot": 183,
+    "published_energy_j": 29.009366818775323
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 183,
+    "published_uav": 1,
+    "visible_from_actor_slot": 184,
+    "published_energy_j": 22.829123463859638
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 194,
+    "published_uav": 1,
+    "visible_from_actor_slot": 195,
+    "published_energy_j": 22.75678239175493
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 204,
+    "published_uav": 0,
+    "visible_from_actor_slot": 205,
+    "published_energy_j": 28.642529906574268
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 216,
+    "published_uav": 0,
+    "visible_from_actor_slot": 217,
+    "published_energy_j": 28.458980202644838
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 224,
+    "published_uav": 0,
+    "visible_from_actor_slot": 225,
+    "published_energy_j": 28.33204997642217
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 225,
+    "published_uav": 0,
+    "visible_from_actor_slot": 226,
+    "published_energy_j": 28.316183698144336
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 227,
+    "published_uav": 0,
+    "visible_from_actor_slot": 228,
+    "published_energy_j": 28.28445114158867
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 233,
+    "published_uav": 0,
+    "visible_from_actor_slot": 234,
+    "published_energy_j": 28.189253471921667
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 236,
+    "published_uav": 1,
+    "visible_from_actor_slot": 237,
+    "published_energy_j": 22.502725802814766
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 253,
+    "published_uav": 0,
+    "visible_from_actor_slot": 254,
+    "published_energy_j": 27.866705992200988
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 261,
+    "published_uav": 0,
+    "visible_from_actor_slot": 262,
+    "published_energy_j": 27.73977576597832
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 264,
+    "published_uav": 0,
+    "visible_from_actor_slot": 265,
+    "published_energy_j": 27.692176931144818
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 269,
+    "published_uav": 0,
+    "visible_from_actor_slot": 270,
+    "published_energy_j": 27.61284553975565
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 284,
+    "published_uav": 0,
+    "visible_from_actor_slot": 285,
+    "published_energy_j": 27.374851365588146
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 286,
+    "published_uav": 0,
+    "visible_from_actor_slot": 287,
+    "published_energy_j": 27.34311880903248
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 306,
+    "published_uav": 0,
+    "visible_from_actor_slot": 307,
+    "published_energy_j": 27.025793243475807
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 319,
+    "published_uav": 0,
+    "visible_from_actor_slot": 320,
+    "published_energy_j": 26.83476023232678
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 321,
+    "published_uav": 0,
+    "visible_from_actor_slot": 322,
+    "published_energy_j": 26.803027675771112
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 338,
+    "published_uav": 0,
+    "visible_from_actor_slot": 339,
+    "published_energy_j": 26.53330094504794
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 353,
+    "published_uav": 0,
+    "visible_from_actor_slot": 354,
+    "published_energy_j": 26.295306770880437
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 354,
+    "published_uav": 1,
+    "visible_from_actor_slot": 355,
+    "published_energy_j": 22.365212204203438
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 357,
+    "published_uav": 0,
+    "visible_from_actor_slot": 358,
+    "published_energy_j": 26.22808554989978
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 371,
+    "published_uav": 1,
+    "visible_from_actor_slot": 372,
+    "published_energy_j": 22.23845090705597
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 388,
+    "published_uav": 0,
+    "visible_from_actor_slot": 389,
+    "published_energy_j": 25.74064401694366
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 397,
+    "published_uav": 1,
+    "visible_from_actor_slot": 398,
+    "published_energy_j": 22.060008773757477
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 406,
+    "published_uav": 0,
+    "visible_from_actor_slot": 407,
+    "published_energy_j": 25.444592199701578
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 415,
+    "published_uav": 1,
+    "visible_from_actor_slot": 416,
+    "published_energy_j": 21.93520786530809
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 421,
+    "published_uav": 0,
+    "visible_from_actor_slot": 422,
+    "published_energy_j": 25.21381463756975
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 424,
+    "published_uav": 0,
+    "visible_from_actor_slot": 425,
+    "published_energy_j": 25.16621580273625
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 433,
+    "published_uav": 0,
+    "visible_from_actor_slot": 434,
+    "published_energy_j": 25.034102509627797
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 435,
+    "published_uav": 0,
+    "visible_from_actor_slot": 436,
+    "published_energy_j": 25.00236995307213
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 448,
+    "published_uav": 0,
+    "visible_from_actor_slot": 449,
+    "published_energy_j": 24.80335621267741
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 455,
+    "published_uav": 0,
+    "visible_from_actor_slot": 456,
+    "published_energy_j": 24.692292264732576
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 466,
+    "published_uav": 1,
+    "visible_from_actor_slot": 467,
+    "published_energy_j": 21.696686795502323
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 469,
+    "published_uav": 0,
+    "visible_from_actor_slot": 470,
+    "published_energy_j": 24.467795805714765
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 470,
+    "published_uav": 0,
+    "visible_from_actor_slot": 471,
+    "published_energy_j": 24.45192952743693
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 478,
+    "published_uav": 0,
+    "visible_from_actor_slot": 479,
+    "published_energy_j": 24.324999301214262
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 482,
+    "published_uav": 1,
+    "visible_from_actor_slot": 483,
+    "published_energy_j": 21.5724046146368
+  },
+  {
+    "seed": 1045,
+    "completed_measurement_slot": 483,
+    "published_uav": 0,
+    "visible_from_actor_slot": 484,
+    "published_energy_j": 24.24061641820804
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 2,
+    "published_uav": 1,
+    "visible_from_actor_slot": 3,
+    "published_energy_j": 24.138019675655997
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 3,
+    "published_uav": 0,
+    "visible_from_actor_slot": 4,
+    "published_energy_j": 31.32398856674321
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 12,
+    "published_uav": 0,
+    "visible_from_actor_slot": 13,
+    "published_energy_j": 31.181192062242708
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 16,
+    "published_uav": 0,
+    "visible_from_actor_slot": 17,
+    "published_energy_j": 31.118584351406874
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 18,
+    "published_uav": 0,
+    "visible_from_actor_slot": 19,
+    "published_energy_j": 31.086851794851206
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 21,
+    "published_uav": 1,
+    "visible_from_actor_slot": 22,
+    "published_energy_j": 24.03738563603147
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 28,
+    "published_uav": 0,
+    "visible_from_actor_slot": 29,
+    "published_energy_j": 30.93285707334164
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 29,
+    "published_uav": 0,
+    "visible_from_actor_slot": 30,
+    "published_energy_j": 30.916990795063807
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 33,
+    "published_uav": 0,
+    "visible_from_actor_slot": 34,
+    "published_energy_j": 30.855079304132623
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 39,
+    "published_uav": 0,
+    "visible_from_actor_slot": 40,
+    "published_energy_j": 30.75988163446562
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 48,
+    "published_uav": 0,
+    "visible_from_actor_slot": 49,
+    "published_energy_j": 30.63059562446693
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 49,
+    "published_uav": 0,
+    "visible_from_actor_slot": 50,
+    "published_energy_j": 30.614729346189097
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 50,
+    "published_uav": 0,
+    "visible_from_actor_slot": 51,
+    "published_energy_j": 30.598863067911264
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 51,
+    "published_uav": 0,
+    "visible_from_actor_slot": 52,
+    "published_energy_j": 30.58299678963343
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 68,
+    "published_uav": 0,
+    "visible_from_actor_slot": 69,
+    "published_energy_j": 30.31327005891026
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 72,
+    "published_uav": 0,
+    "visible_from_actor_slot": 73,
+    "published_energy_j": 30.259386055698606
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 90,
+    "published_uav": 1,
+    "visible_from_actor_slot": 91,
+    "published_energy_j": 23.82374117641433
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 94,
+    "published_uav": 1,
+    "visible_from_actor_slot": 95,
+    "published_energy_j": 23.796265580423395
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 106,
+    "published_uav": 1,
+    "visible_from_actor_slot": 107,
+    "published_energy_j": 23.71626925024467
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 116,
+    "published_uav": 0,
+    "visible_from_actor_slot": 117,
+    "published_energy_j": 29.53807936809748
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 119,
+    "published_uav": 0,
+    "visible_from_actor_slot": 120,
+    "published_energy_j": 29.49048053326398
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 123,
+    "published_uav": 1,
+    "visible_from_actor_slot": 124,
+    "published_energy_j": 23.584301127077932
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 125,
+    "published_uav": 0,
+    "visible_from_actor_slot": 126,
+    "published_energy_j": 29.3858473860504
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 134,
+    "published_uav": 1,
+    "visible_from_actor_slot": 135,
+    "published_energy_j": 23.503232574321
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 148,
+    "published_uav": 0,
+    "visible_from_actor_slot": 149,
+    "published_energy_j": 29.00863992254773
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 157,
+    "published_uav": 0,
+    "visible_from_actor_slot": 158,
+    "published_energy_j": 28.865843418047227
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 161,
+    "published_uav": 0,
+    "visible_from_actor_slot": 162,
+    "published_energy_j": 28.802378304935893
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 166,
+    "published_uav": 1,
+    "visible_from_actor_slot": 167,
+    "published_energy_j": 23.278268490381055
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 171,
+    "published_uav": 0,
+    "visible_from_actor_slot": 172,
+    "published_energy_j": 28.638609973225925
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 177,
+    "published_uav": 1,
+    "visible_from_actor_slot": 178,
+    "published_energy_j": 23.20045640767029
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 180,
+    "published_uav": 0,
+    "visible_from_actor_slot": 181,
+    "published_energy_j": 28.491315713260143
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 189,
+    "published_uav": 0,
+    "visible_from_actor_slot": 190,
+    "published_energy_j": 28.34851920875964
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 190,
+    "published_uav": 0,
+    "visible_from_actor_slot": 191,
+    "published_energy_j": 28.332652930481807
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 193,
+    "published_uav": 0,
+    "visible_from_actor_slot": 194,
+    "published_energy_j": 28.285054095648306
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 194,
+    "published_uav": 0,
+    "visible_from_actor_slot": 195,
+    "published_energy_j": 28.269187817370472
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 197,
+    "published_uav": 1,
+    "visible_from_actor_slot": 198,
+    "published_energy_j": 23.036152885369226
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 198,
+    "published_uav": 0,
+    "visible_from_actor_slot": 199,
+    "published_energy_j": 28.201221706208923
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 206,
+    "published_uav": 0,
+    "visible_from_actor_slot": 207,
+    "published_energy_j": 28.077930864256185
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 207,
+    "published_uav": 1,
+    "visible_from_actor_slot": 208,
+    "published_energy_j": 22.95873746895211
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 214,
+    "published_uav": 1,
+    "visible_from_actor_slot": 215,
+    "published_energy_j": 22.91065517596797
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 217,
+    "published_uav": 0,
+    "visible_from_actor_slot": 218,
+    "published_energy_j": 27.88901120601233
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 221,
+    "published_uav": 1,
+    "visible_from_actor_slot": 222,
+    "published_energy_j": 22.856797504583987
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 222,
+    "published_uav": 0,
+    "visible_from_actor_slot": 223,
+    "published_energy_j": 27.80310956412931
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 223,
+    "published_uav": 0,
+    "visible_from_actor_slot": 224,
+    "published_energy_j": 27.787243285851478
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 229,
+    "published_uav": 0,
+    "visible_from_actor_slot": 230,
+    "published_energy_j": 27.70670040952272
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 245,
+    "published_uav": 0,
+    "visible_from_actor_slot": 246,
+    "published_energy_j": 27.461374882640015
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 255,
+    "published_uav": 1,
+    "visible_from_actor_slot": 256,
+    "published_energy_j": 22.681902133292517
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 259,
+    "published_uav": 0,
+    "visible_from_actor_slot": 260,
+    "published_energy_j": 27.221755752171873
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 263,
+    "published_uav": 1,
+    "visible_from_actor_slot": 264,
+    "published_energy_j": 22.62025294409024
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 273,
+    "published_uav": 0,
+    "visible_from_actor_slot": 274,
+    "published_energy_j": 26.99137750095119
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 275,
+    "published_uav": 0,
+    "visible_from_actor_slot": 276,
+    "published_energy_j": 26.959644944395524
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 292,
+    "published_uav": 0,
+    "visible_from_actor_slot": 293,
+    "published_energy_j": 26.689918213672353
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 304,
+    "published_uav": 1,
+    "visible_from_actor_slot": 305,
+    "published_energy_j": 22.38729473064176
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 308,
+    "published_uav": 1,
+    "visible_from_actor_slot": 309,
+    "published_energy_j": 22.359819134650824
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 316,
+    "published_uav": 0,
+    "visible_from_actor_slot": 317,
+    "published_energy_j": 26.294111669903067
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 317,
+    "published_uav": 1,
+    "visible_from_actor_slot": 318,
+    "published_energy_j": 22.292000398615173
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 325,
+    "published_uav": 1,
+    "visible_from_actor_slot": 326,
+    "published_energy_j": 22.237360203098994
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 326,
+    "published_uav": 0,
+    "visible_from_actor_slot": 327,
+    "published_energy_j": 26.105519965838436
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 330,
+    "published_uav": 0,
+    "visible_from_actor_slot": 331,
+    "published_energy_j": 26.0420548527271
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 339,
+    "published_uav": 0,
+    "visible_from_actor_slot": 340,
+    "published_energy_j": 25.90115944999193
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 341,
+    "published_uav": 1,
+    "visible_from_actor_slot": 342,
+    "published_energy_j": 22.10639816407038
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 343,
+    "published_uav": 0,
+    "visible_from_actor_slot": 344,
+    "published_energy_j": 25.831891192268547
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 344,
+    "published_uav": 1,
+    "visible_from_actor_slot": 345,
+    "published_energy_j": 22.078668348264937
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 364,
+    "published_uav": 0,
+    "visible_from_actor_slot": 365,
+    "published_energy_j": 25.50927470994194
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 365,
+    "published_uav": 0,
+    "visible_from_actor_slot": 366,
+    "published_energy_j": 25.493408431664108
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 369,
+    "published_uav": 1,
+    "visible_from_actor_slot": 370,
+    "published_energy_j": 21.894291163044443
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 371,
+    "published_uav": 1,
+    "visible_from_actor_slot": 372,
+    "published_energy_j": 21.880553365048975
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 377,
+    "published_uav": 1,
+    "visible_from_actor_slot": 378,
+    "published_energy_j": 21.84440082049252
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 379,
+    "published_uav": 0,
+    "visible_from_actor_slot": 380,
+    "published_energy_j": 25.25637095298722
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 381,
+    "published_uav": 0,
+    "visible_from_actor_slot": 382,
+    "published_energy_j": 25.22463839643155
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 389,
+    "published_uav": 0,
+    "visible_from_actor_slot": 390,
+    "published_energy_j": 25.097708170208882
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 415,
+    "published_uav": 0,
+    "visible_from_actor_slot": 416,
+    "published_energy_j": 24.68518493498521
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 419,
+    "published_uav": 1,
+    "visible_from_actor_slot": 420,
+    "published_energy_j": 21.70083873190103
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 420,
+    "published_uav": 1,
+    "visible_from_actor_slot": 421,
+    "published_energy_j": 21.70083873190103
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 429,
+    "published_uav": 1,
+    "visible_from_actor_slot": 430,
+    "published_energy_j": 21.639018640921424
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 431,
+    "published_uav": 0,
+    "visible_from_actor_slot": 432,
+    "published_energy_j": 24.40998662179796
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 437,
+    "published_uav": 0,
+    "visible_from_actor_slot": 438,
+    "published_energy_j": 24.329491825212244
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 438,
+    "published_uav": 0,
+    "visible_from_actor_slot": 439,
+    "published_energy_j": 24.31362554693441
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 439,
+    "published_uav": 0,
+    "visible_from_actor_slot": 440,
+    "published_energy_j": 24.297759268656577
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 440,
+    "published_uav": 1,
+    "visible_from_actor_slot": 441,
+    "published_energy_j": 21.52594229678359
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 455,
+    "published_uav": 0,
+    "visible_from_actor_slot": 456,
+    "published_energy_j": 24.03957139215497
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 457,
+    "published_uav": 0,
+    "visible_from_actor_slot": 458,
+    "published_energy_j": 24.0078388355993
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 463,
+    "published_uav": 0,
+    "visible_from_actor_slot": 464,
+    "published_energy_j": 23.9126411659323
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 467,
+    "published_uav": 1,
+    "visible_from_actor_slot": 468,
+    "published_energy_j": 21.32567085626611
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 468,
+    "published_uav": 0,
+    "visible_from_actor_slot": 469,
+    "published_energy_j": 23.83982961565219
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 471,
+    "published_uav": 0,
+    "visible_from_actor_slot": 472,
+    "published_energy_j": 23.792230780818688
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 472,
+    "published_uav": 0,
+    "visible_from_actor_slot": 473,
+    "published_energy_j": 23.776364502540854
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 482,
+    "published_uav": 0,
+    "visible_from_actor_slot": 483,
+    "published_energy_j": 23.62324377021178
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 483,
+    "published_uav": 0,
+    "visible_from_actor_slot": 484,
+    "published_energy_j": 23.611242028489155
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 493,
+    "published_uav": 0,
+    "visible_from_actor_slot": 494,
+    "published_energy_j": 23.46675996718776
+  },
+  {
+    "seed": 1046,
+    "completed_measurement_slot": 499,
+    "published_uav": 0,
+    "visible_from_actor_slot": 500,
+    "published_energy_j": 23.371562297520757
+  }
+]

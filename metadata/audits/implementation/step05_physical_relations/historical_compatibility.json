@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "id": "P1a_seed42_8k",
+      "config_hash": "2f143a85c0e37f605bbf38b59b3a31267a305464179593d9828c7c0a1518e3fa",
+      "checkpoint_sha256": "d303878ed57dcfca0ee9d04354ab678046fbf22b3546aef38a853b53bae7a062",
+      "fingerprints": {
+        "initial_actor": "3d6c961c830832d9d323ec95b42ab739923d9d74ace590977fce38ef515bfdf9",
+        "initial_critic": "e76a979a18c10a76846af1dfbd12c09908cf791a867f6a5e015a240f5b59d963",
+        "initial_forward": "021e8c9be2c98bbbe24319d45f020cf5b5320878c8a08a66b843ce1ea7dab37f",
+        "loaded_actor": "a53c6cb7073fb31bd335a6c3bcb5a1705d806bc1970bfd73b68fd0d1bfedca21",
+        "loaded_critic": "30b245830c0d5af244ca3513eb51698ed7ea3e1794bdcb73942d9686b56eea89",
+        "loaded_forward": "3dcb673f4e7b9b44df3d9d0944a3eab3d6f538ea5503e07fed476d5fba838a83"
+      },
+      "matches_step04": true,
+      "strict_actor_critic_load": true
+    },
+    {
+      "id": "E13_seed42_32k",
+      "config_hash": "16ed37e1f161f7bdadf44fef120e3cfe26f4142c001e0e3b0dee7e4dd99d5d27",
+      "checkpoint_sha256": "8d0f66bfbf46949f7c5236383b9d76d93502c6c3fe9b438a717db972fd22e7ea",
+      "fingerprints": {
+        "initial_actor": "3d6c961c830832d9d323ec95b42ab739923d9d74ace590977fce38ef515bfdf9",
+        "initial_critic": "23633b7ef41ff4c75914ced5a0a8247687a40d6d950b46e11e129f6e665d82e6",
+        "initial_forward": "021e8c9be2c98bbbe24319d45f020cf5b5320878c8a08a66b843ce1ea7dab37f",
+        "loaded_actor": "1fbb6b1c1b08c544879689ed7a683d89ef8d1da31da7a013bd3948f0efc1b2be",
+        "loaded_critic": "740ab51c56c694a5b47a537c05be5c0b205d364f3aa45533f467c8180af055c6",
+        "loaded_forward": "15caae09060ea1f9d2d58d04ad1dd04a3cd3821ce08481281fa64e2849584e00"
+      },
+      "matches_step04": true,
+      "strict_actor_critic_load": true
+    },
+    {
+      "id": "E13_seed43_32k",
+      "config_hash": "411dcce4948d9b9bb599a61f49f86207494ee7cb633b4809765c17b6af03eb10",
+      "checkpoint_sha256": "25c576fe6974b4e3c3a7a518cbe5e1eff738322411dd3daaa16e645ffe41d679",
+      "fingerprints": {
+        "initial_actor": "292d82efd1dfe8d20b3963a8ee98b972e394ac5ec0b1a81172d45889c16a7a76",
+        "initial_critic": "cd37625b744a2da1904f919e047c746e3848f621de2a32c9952d074886efc3c4",
+        "initial_forward": "3260790670d9fa396dd9953ee66275ad4e5aeef97135a2ca948f21c25ec1b336",
+        "loaded_actor": "be58fad2b952fd5c43b4bb2702a8a8af3be1ea973c29560377c7fbc5ff5d5d3f",
+        "loaded_critic": "42a88c28273a12fe050659f35d215f565ad8318ac0fc1f1adfbad821fb40003d",
+        "loaded_forward": "0729cdb425d4c59db9d764bd4fa75c94e338a0cf13086386cea765411afcbe76"
+      },
+      "matches_step04": true,
+      "strict_actor_critic_load": true
+    }
+  ],
+  "scope": "CPU float32 saved observations only; no historical episode evaluations."
+}

@@ -1,0 +1,37 @@
+{
+  "status": "READ_ONLY_DIAGNOSIS_COMPLETE",
+  "observed": [
+    "605 matched exogenous tasks; 310 both DONE, 78 C-only DONE, 61 heuristic-only DONE, 156 neither DONE. Net advantage is 17 tasks, not 17 universally rescued tasks.",
+    "All 78 C-only DONE tasks terminate in heuristic CPU stage: 72 expire and six are truncated.",
+    "All 61 heuristic-only DONE tasks were bound Remote by C: 54 terminate in CPU stage and seven in TX_WAIT; 57 expire and four are truncated.",
+    "CPU accounts for 95.05 percent of the total energy difference. On positive CPU service slots C uses maximum frequency in 99.81 percent versus heuristic 64.92 percent.",
+    "UAV2 (Compute-rich) accounts for 59.48 J of the 66.67 J extra CPU energy.",
+    "For the same 310 tasks completed by both, C CPU energy is 121.69 J versus heuristic 68.11 J; matched-task mean completion delay is 0.3723 s versus 0.5152 s.",
+    "C gains are concentrated among tasks originating at resource-poor UAV1: 61 of its 78 exclusive completions. Evaluation seed1044 has a net loss of 12 tasks versus heuristic."
+  ],
+  "supported_interpretation": "At this checkpoint C shifts computation to different destinations and usually uses maximum CPU frequency. The measured result is faster service for commonly completed tasks and a modest net completion gain, alongside substantially higher CPU energy and some exclusive failures after offloading. This is a joint scheduling observation, not proof that a feature, offloading, or high frequency alone caused the difference.",
+  "not_established": [
+    "C has converged or reached a performance plateau",
+    "The current energy gap persists after longer training",
+    "The reward design is faulty",
+    "All C CPU-stage failures are caused by congestion",
+    "Route features alone caused the measured advantages"
+  ],
+  "next_step": {
+    "scope": "Existing-trace timeline diagnosis only, no training or new evaluation",
+    "priority": "61 heuristic-only completions, especially 54 C CPU-stage failures and seed1044",
+    "questions": [
+      "How much deadline slack remains when each task reaches its destination CPU queue?",
+      "How long does it wait for first service and between service slots?",
+      "Which queues and tasks are actually selected while the failed task waits?",
+      "How much workload is assigned to UAV1 and UAV2 during these waits?"
+    ],
+    "preserve": [
+      "reward",
+      "environment",
+      "model weights",
+      "training hyperparameters",
+      "held-out evaluation seeds"
+    ]
+  }
+}

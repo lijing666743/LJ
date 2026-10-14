@@ -1,0 +1,105 @@
+{
+  "artifact_count": 20,
+  "artifacts": [
+    {
+      "path": "dashboard_logs\\C\\seed42\\group_meeting\\20261014_scene_fix\\per_scene_metrics.csv",
+      "bytes": 5432,
+      "sha256": "b7477b3af81ecd6734962409e9adbd629feb10ceebe8fb4284bdd2f7b125d1a7"
+    },
+    {
+      "path": "dashboard_logs\\C\\seed42\\group_meeting\\20261014_scene_fix\\summary_metrics.csv",
+      "bytes": 1928,
+      "sha256": "0c008be225cb5de7bb455144e2a0a4a357242afb6d93576758255c1ad107d32c"
+    },
+    {
+      "path": "logs\\group_meeting_summary\\20261014_scene_fix\\aggregation_tests.xml",
+      "bytes": 1617,
+      "sha256": "fc71842ccc951cca12c86334bfb802f548f5d370a069abcd0269fc76adb1cd2a"
+    },
+    {
+      "path": "metadata\\audits\\group_meeting_summary\\20261014_scene_fix\\data_validation.json",
+      "bytes": 4965,
+      "sha256": "68ca6a5bb8deedd6a72b2aeac96f4834451a0214d92c98f5ff6c92dfd2c703da"
+    },
+    {
+      "path": "metadata\\audits\\group_meeting_summary\\20261014_scene_fix\\validation.json",
+      "bytes": 1038,
+      "sha256": "07b91f732afd46ecc8a3df772e58973935d09633810d3a5f77a36b40fee299a2"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014_scene_fix\\00_summary_table.png",
+      "bytes": 326946,
+      "sha256": "894d81174aa4794da6276646ae2a95ad83e8b51e8a57f18f6673345d42a42269"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014_scene_fix\\00_summary_table.svg",
+      "bytes": 40838,
+      "sha256": "b01d1148760b5a470f0ebfa02753660f67fc05905671f0d4f7d11256ab3646aa"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014_scene_fix\\01_completion_and_reward.png",
+      "bytes": 219907,
+      "sha256": "781dde1d08ccee235b100ad6fe6292fbc2a247ed2de704b039293bf8ddc93106"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014_scene_fix\\01_completion_and_reward.svg",
+      "bytes": 27928,
+      "sha256": "65c07613d2d0169c6687c2e654a04c7246128acd8d78c9f45596e204ce1389dd"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014_scene_fix\\02_energy_cost.png",
+      "bytes": 196923,
+      "sha256": "01b51661a398a91bdd30bd1ef837d7afdd19346458e9e798ea7f64aa862ef5a5"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014_scene_fix\\02_energy_cost.svg",
+      "bytes": 24815,
+      "sha256": "1a2cb62183b6490eb387f011f8e823a1226b9a17738516bb844a766be29b40b3"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014_scene_fix\\03_scene_comparison.png",
+      "bytes": 154988,
+      "sha256": "65a54c4ec61c4dc53c22e9b445bde2ecd50dec5f9aa4f208b8d0b5fc0620b8e2"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014_scene_fix\\03_scene_comparison.svg",
+      "bytes": 16846,
+      "sha256": "b98953604eb3583c6ec821587fe1175386ba4b80174f0ad5ea6bf0b70745bb07"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014_scene_fix\\04_energy_risk.png",
+      "bytes": 266798,
+      "sha256": "31b49685fd3310bed833d0348badbe12b9266a4b79e56c333d0e4abf0302a1a4"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014_scene_fix\\04_energy_risk.svg",
+      "bytes": 32950,
+      "sha256": "a3ca2943dbcc66662d82b8387bd7a299d5739364b237a1b317fc2a6fa7f65657"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014_scene_fix\\C_group_meeting_figures_corrected.zip",
+      "bytes": 1086625,
+      "sha256": "573ed68606e4ee4d49e22a8af124bbe4f13106d70fdc20070446d33701567d36"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014_scene_fix\\figure_data.json",
+      "bytes": 45908,
+      "sha256": "3495cd89f2512a2264f648065bf05d7f45c79cac5a0d22aaa71740ce07fa44b0"
+    },
+    {
+      "path": "plots\\C\\seed42\\group_meeting\\20261014_scene_fix\\figure_recipe.json",
+      "bytes": 16344,
+      "sha256": "4ab28cf3703998f38fd3dc57ae7d4c44c9d056dd4624aba4051425dc9bbb367f"
+    },
+    {
+      "path": "src\\evaluation\\group_meeting_figures.py",
+      "bytes": 19661,
+      "sha256": "1c5111afdf410213d8aded5bf0e185347c60aaffb234f6941ea296086cccfd3f"
+    },
+    {
+      "path": "tests\\test_group_meeting_figures.py",
+      "bytes": 3845,
+      "sha256": "fb44588f6d2260a61d27b809dca350967d8125e9c09f6960a8c39b281e2595c9"
+    }
+  ]
+}

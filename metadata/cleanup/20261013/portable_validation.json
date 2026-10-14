@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "isolated_copy_has_own_real_git_commit": true,
+  "original_repository_git_untouched": true,
+  "checks": [
+    {
+      "group": "A",
+      "config_hash": "81cb1ad596cb6dcd6f212e2d08a7edc50e9b210b0a5cf226ba4a7a2cb1651ae5",
+      "show_config_exit_code": 0,
+      "real_evaluator_git_commit": "2debda2a22e32168dacc6ffaf89b376d9047237e",
+      "source_training_git_commit": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+      "final_actor_strict_loaded": true,
+      "checkpoint_sha256": "5da08bb0309948ab8bbd9423364d6f76b07daf1a8dcdb7786c7dee141f958199",
+      "environment_constructed": false,
+      "evaluation_episode_executed": false
+    },
+    {
+      "group": "B",
+      "config_hash": "1bd1c1aa959695e150ef3734a625f5d87de87e4f4325d470f6ea3845e8cdfda4",
+      "show_config_exit_code": 0,
+      "real_evaluator_git_commit": "2debda2a22e32168dacc6ffaf89b376d9047237e",
+      "source_training_git_commit": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+      "final_actor_strict_loaded": true,
+      "checkpoint_sha256": "2cab254ff8d527726779b7ec18383ffc0cd7710f5edb6d0ac229da2c554feec5",
+      "environment_constructed": false,
+      "evaluation_episode_executed": false
+    },
+    {
+      "group": "C",
+      "config_hash": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15",
+      "show_config_exit_code": 0,
+      "real_evaluator_git_commit": "2debda2a22e32168dacc6ffaf89b376d9047237e",
+      "source_training_git_commit": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+      "final_actor_strict_loaded": true,
+      "checkpoint_sha256": "58da11c49bde4a517471e1386842b90568fdb1ffe51d9c290caa7e3d442ff1b5",
+      "environment_constructed": false,
+      "evaluation_episode_executed": false
+    }
+  ]
+}

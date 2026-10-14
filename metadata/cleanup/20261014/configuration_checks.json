@@ -1,0 +1,67 @@
+[
+  {
+    "config": "experiments/task-allocation/configs/a-seed42-16k-resume.json",
+    "exit_code": 0,
+    "stdout_sha256": "941ed688c31f25934e45771bb4fe227f5bfecf5d62789eddbe3bc0d84282ccb4"
+  },
+  {
+    "config": "experiments/task-allocation/configs/a-seed42-8k.json",
+    "exit_code": 0,
+    "stdout_sha256": "9106a93ccd20cb0a065244f348b40d6f811ca6efc3a1fb19197c9197fe3001c6"
+  },
+  {
+    "config": "experiments/task-allocation/configs/a-seed43-8k.json",
+    "exit_code": 0,
+    "stdout_sha256": "64afedfdf83ec7962b62887407a2dccc0f324298e2a41c07ec731c929fc2199b"
+  },
+  {
+    "config": "experiments/task-allocation/configs/a-seed44-8k.json",
+    "exit_code": 0,
+    "stdout_sha256": "519d7bdd39c4363633e1e77953432a5de54699c04df1dffb0dfdc2345305412c"
+  },
+  {
+    "config": "experiments/task-allocation/configs/b-seed42-16k-resume.json",
+    "exit_code": 0,
+    "stdout_sha256": "421ceb25b8a8559103e34d579e56549291986bbd399674d4595d0515ffe6381c"
+  },
+  {
+    "config": "experiments/task-allocation/configs/b-seed42-8k.json",
+    "exit_code": 0,
+    "stdout_sha256": "e56fa41f15ada22eade04d7da66b6bf51726f082eccd606ae4851fcc707055be"
+  },
+  {
+    "config": "experiments/task-allocation/configs/b-seed43-8k.json",
+    "exit_code": 0,
+    "stdout_sha256": "997b946765176d4cb6680af95de160a0883de4b78b13acd83e8f188fb677a27f"
+  },
+  {
+    "config": "experiments/task-allocation/configs/b-seed44-8k.json",
+    "exit_code": 0,
+    "stdout_sha256": "2e5c9eabb194797e70831874890affd92bb26beace405ce2d42e18a1dbfdb00a"
+  },
+  {
+    "config": "experiments/task-allocation/configs/c-seed42-16k-resume.json",
+    "exit_code": 0,
+    "stdout_sha256": "9900f9c403fdc03a06b817968c0aa0b8cda6d68b27da7e33149042b12b5f802f"
+  },
+  {
+    "config": "experiments/task-allocation/configs/c-seed42-32k-resume.json",
+    "exit_code": 0,
+    "stdout_sha256": "791e69f8e292635b5183f0585eab484455ad9ba0b0f54e2251328bcf62f4c1eb"
+  },
+  {
+    "config": "experiments/task-allocation/configs/c-seed42-8k.json",
+    "exit_code": 0,
+    "stdout_sha256": "1dfeef415c5fe1f724962c4f91e42ae7e2aad8e1e38990c0068be51b479358ae"
+  },
+  {
+    "config": "experiments/task-allocation/configs/c-seed43-8k.json",
+    "exit_code": 0,
+    "stdout_sha256": "276c9847f1bb2f793dbebfaf3dbcf6746a2b881dff2d0bdb53b202840164c758"
+  },
+  {
+    "config": "experiments/task-allocation/configs/c-seed44-8k.json",
+    "exit_code": 0,
+    "stdout_sha256": "86a85ee936535d226a3db3021e143374576b3fed3461673a8d0d9b09e43aeff0"
+  }
+]
