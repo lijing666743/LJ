@@ -3,8 +3,10 @@
   "previous_main": "2dc941a7f6e253bef820e9dff9120252c5f53ae3",
   "planned_tag": "cd-40k-20261021",
   "training_git_identity": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
-  "status": "prepared_pending_remote_push",
+  "status": "source_snapshot_published_and_readback_verified",
   "scope": "C/D code, tests, configurations, research materials, compact original evaluation/training evidence and existing scientific plots. Full models and raw trajectories remain local; not a new complete recovery archive.",
   "original_workspace_HEAD_and_index_preserved": true,
-  "old_tag_and_release_preserved": "baseline-c32k-20261014"
+  "old_tag_and_release_preserved": "baseline-c32k-20261014",
+  "source_snapshot_commit": "fdb3cdea1e35d72a9648cc5aca7b6911e43a5452",
+  "source_snapshot_tree": "90aa50d5dea49ca66b0b19b2b8189e6cca0434a9"
 }

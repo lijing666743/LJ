@@ -40,8 +40,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8827,
-      "sha256": "2be955daca889703509f68cab00b6fe3a5818580b970a6f304ab64c0364cb6cc"
+      "bytes": 9233,
+      "sha256": "f4772958834fb10374e27d0f61c8c244a2988ec34e2dc794761c22e5f717300c"
     },
     {
       "path": "requirements.txt",
@@ -5165,8 +5165,8 @@
     },
     {
       "path": "metadata/publication/20261021_cd40k/publication_scope.json",
-      "bytes": 606,
-      "sha256": "9d50bf9777fec855d998a50a1bd5e0a985be5ee81fd954881256382d699fc2f1"
+      "bytes": 769,
+      "sha256": "ca616ec40ece560da574ea0bd677e7d1b7e88c6897d73d8e8156369db7d7b3d1"
     },
     {
       "path": "metadata/reference/p1a_seed42_1044/original_config.json",
@@ -6992,10 +6992,15 @@
       "path": "metadata/cleanup/20261021_cd_publish/format_check.json",
       "bytes": 2039,
       "sha256": "b1b594997e8285c79bba4f4bc3e962c236d028d7abfa6c69c0b423d844e0420d"
+    },
+    {
+      "path": "metadata/publication/20261021_cd40k/remote_snapshot_receipt.json",
+      "bytes": 1206,
+      "sha256": "934cae331d3c9ea5aa0d3a0515f003d324dc26a8c4dad74e7759601d36749691"
     }
   ],
   "manifest_self_not_hashed": true,
-  "export_file_count_including_this_manifest": 1396,
+  "export_file_count_including_this_manifest": 1397,
   "excluded_local_artifacts": [
     {
       "path": "dashboard_logs/C/seed42/16k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a_metrics.csv",
@@ -8388,5 +8393,7 @@
       "reason": "Full trained model remains local; Git snapshot is not a complete model recovery package"
     }
   ],
-  "current_full_model_recovery_assets_uploaded": false
+  "current_full_model_recovery_assets_uploaded": false,
+  "source_snapshot_commit": "fdb3cdea1e35d72a9648cc5aca7b6911e43a5452",
+  "receipt_update_scope": "Publication receipt and navigation only after original snapshot upload"
 }

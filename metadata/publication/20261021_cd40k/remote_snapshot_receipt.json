@@ -1,0 +1,23 @@
+{
+  "schema": "cd40k_remote_snapshot_publication_receipt.v1",
+  "repository": "lijing666743/LJ",
+  "checked_at_utc": "2026-10-20T23:58:08.370989+00:00",
+  "status": "source_snapshot_published_and_readback_verified",
+  "previous_main": "2dc941a7f6e253bef820e9dff9120252c5f53ae3",
+  "source_snapshot_commit": "fdb3cdea1e35d72a9648cc5aca7b6911e43a5452",
+  "source_snapshot_tree": "90aa50d5dea49ca66b0b19b2b8189e6cca0434a9",
+  "README_blob_sha": "b3944a473e6dff694e9d4f15742b6086b1af4a2b",
+  "publication_manifest_blob_sha": "32b61c6c1f378df6cebbf55b50adafdd28ee3fd2",
+  "independent_GitHub_contents_readback_matches_local": true,
+  "version_tag": "cd-40k-20261021",
+  "old_baseline_tag_and_release_retained": "baseline-c32k-20261014",
+  "ordinary_git_snapshot_scope": "C/D source, configuration, tests, research materials, compact original records and existing scientific plots",
+  "full_model_recovery_release_uploaded_this_round": false,
+  "models_and_large_raw_traces_preserved_local": true,
+  "protected_trees_not_processed": [
+    ".agents",
+    "knowledge"
+  ],
+  "original_training_HEAD": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+  "original_worktree_index_unchanged": true
+}
