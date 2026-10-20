@@ -1,0 +1,22 @@
+[
+  {
+    "key": "seed",
+    "from": 43,
+    "to": 44
+  },
+  {
+    "key": "output.dashboard_logs_dir",
+    "from": "dashboard_logs/C/seed43/40k",
+    "to": "dashboard_logs/C/seed44/40k"
+  },
+  {
+    "key": "output.plots_dir",
+    "from": "plots/C/seed43/40k",
+    "to": "plots/C/seed44/40k"
+  },
+  {
+    "key": "output.logs_dir",
+    "from": "logs/C/seed43/40k",
+    "to": "logs/C/seed44/40k"
+  }
+]

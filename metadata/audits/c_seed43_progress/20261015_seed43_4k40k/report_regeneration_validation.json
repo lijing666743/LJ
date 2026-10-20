@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "csvs_byte_exact": [
+    "checkpoint_metrics_seed42_seed43.csv",
+    "per_scene_metrics_seed42_seed43.csv",
+    "training_windows_seed42_seed43.csv"
+  ],
+  "primary_endpoint": 40000,
+  "source_seed42_data_hashes": "PASS",
+  "new_C43_final_energy_reconstruction": "PASS for all5 scenes",
+  "scene_heights_and_labels_verified": true,
+  "visual_inspection": "PASS",
+  "training_started": false
+}

@@ -336,6 +336,7 @@ def build_default_registry() -> Registry:
 
     registry = Registry()
     from .evaluation.handler import formal_evaluation_handler
+    from .training.qmix_handlers import qmix_training_handler, qmix_evaluation_handler
 
     pairs: Iterable[tuple[str, str]] = (
         ("environment_sanity", "environment"),
@@ -351,6 +352,8 @@ def build_default_registry() -> Registry:
         ("evaluation", "heuristic"),
         ("evaluation", "ca_gat_mappo"),
         ("evaluation", "factorized_action_gat_qmix"),
+        ("rl", "c_feature_credit_qmix"),
+        ("evaluation", "c_feature_credit_qmix"),
         ("ablation", "ca_gat_mappo"),
         ("plot", "environment"),
     )
@@ -361,7 +364,11 @@ def build_default_registry() -> Registry:
         ("heuristic", "heuristic"): heuristic_rollout_handler,
         ("baseline", "local_only"): local_only_rollout_handler,
         ("rl", "ca_gat_mappo"): ca_gat_mappo_training_handler,
+        ("rl", "factorized_action_gat_qmix"): qmix_training_handler,
+        ("rl", "c_feature_credit_qmix"): qmix_training_handler,
         ("evaluation", "ca_gat_mappo"): formal_evaluation_handler,
+        ("evaluation", "factorized_action_gat_qmix"): qmix_evaluation_handler,
+        ("evaluation", "c_feature_credit_qmix"): qmix_evaluation_handler,
     }
     for mode, method_id in pairs:
         handler = implemented_handlers.get((mode, method_id), unavailable_handler)

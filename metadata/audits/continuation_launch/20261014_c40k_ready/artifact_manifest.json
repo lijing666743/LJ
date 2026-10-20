@@ -1,0 +1,77 @@
+[
+  {
+    "path": "metadata/audits/continuation_launch/20261014_c40k_ready/checkpoint_audit.json",
+    "sha256": "494b62a01943cd923d9420f792dbd5454dbd40e659320e1695e696793c5910d5",
+    "bytes": 6387
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261014_c40k_ready/config_changes.json",
+    "sha256": "a0165b6bc0ea12f19fbfa65524fd6bcd762445061e8ddf3e3afd55c927a59f6c",
+    "bytes": 673
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261014_c40k_ready/expected_checkpoint_accounting.json",
+    "sha256": "41fd551c281c0ab9bf12be507f428df754cfbea7bd46ce526ac17078a1b047d3",
+    "bytes": 907
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261014_c40k_ready/inputs_after.json",
+    "sha256": "e475b40d746049c9dd66a23208a877a648e4044dedbc70d6389c747d588701fe",
+    "bytes": 86101
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261014_c40k_ready/inputs_before.json",
+    "sha256": "e475b40d746049c9dd66a23208a877a648e4044dedbc70d6389c747d588701fe",
+    "bytes": 86101
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261014_c40k_ready/launch_command.json",
+    "sha256": "cb5f59badfdbf32b6d99f3bd56785b567cdaa1cafd5e271d7c289af9edb72033",
+    "bytes": 700
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261014_c40k_ready/preflight_summary.json",
+    "sha256": "c3699003b94398c223cee304d48da1a2e02c8120329cf9d4e6f3674abf532cf3",
+    "bytes": 10593
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261014_c40k_ready/restore_check.json",
+    "sha256": "623a94e7b92ac9ac77448ae8dc00c300924a0d45ac0544036d89e435d1017962",
+    "bytes": 3751
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261014_c40k_ready/runtime.json",
+    "sha256": "cff6531032de43e67a5d6e5826b586f998cb78d264429117abda5f0f78b8d11a",
+    "bytes": 394
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261014_c40k_ready/target_identity.json",
+    "sha256": "c57141f13b26f31cbaca710510127ed1311aba8f880a075c9391af7d04909d34",
+    "bytes": 2362
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261014_c40k_ready/tests.xml",
+    "sha256": "db105331d64422de88496315f2cd65a3345378bab9fca175c411cf1187ca5a70",
+    "bytes": 10355
+  },
+  {
+    "path": "metadata/audits/continuation_launch/20261014_c40k_ready/validation.json",
+    "sha256": "68d0dd5bc350d9f5d4021b7133be220af43ce7594c83558919b467a6e3b71779",
+    "bytes": 715
+  },
+  {
+    "path": "experiments/task-allocation/configs/c-seed42-40k-resume.json",
+    "sha256": "394ed4f6ba198ec8b7ba7fc4e2f3f04dc4708b440ac6f09e71b86864015be05f",
+    "bytes": 10957
+  },
+  {
+    "path": "docs/reproduction/C40K_CONTINUATION.md",
+    "sha256": "145467232a39a319d5d4079c6e36e9bddc9e8d324503b83129b4c896d3aafec5",
+    "bytes": 7129
+  },
+  {
+    "path": "README.md",
+    "sha256": "ad6b9ed38fa631d29056618801f184a9e05d0674c3fde0b667e897ef6b0e6966",
+    "bytes": 27371
+  }
+]

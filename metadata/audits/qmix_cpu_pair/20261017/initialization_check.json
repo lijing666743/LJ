@@ -1,0 +1,38 @@
+{
+  "schema": "qmix_cpu_pair_initialization_check.v1",
+  "old_v8_config_scientific_settings_equal": true,
+  "nonfrequency_initial_weights_equal_v8": true,
+  "cpu_pair_parameters": 1143660,
+  "parameter_increase": 1548,
+  "parameter_increase_pct": 0.13553837101790367,
+  "new_steps": 0,
+  "new_updates": 0,
+  "new_episodes": 0,
+  "new_optimizer_replay_empty": true,
+  "online_target_equal": true,
+  "old_checkpoint_loaded_into_trainer": false,
+  "actual_old_v8_load_rejections": [
+    {
+      "loader": "load_checkpoint",
+      "reason": "checkpoint is not a Factorized-Action GAT-QMIX checkpoint"
+    },
+    {
+      "loader": "load_continuation_checkpoint",
+      "reason": "continuation requires a current QMIX checkpoint schema"
+    }
+  ],
+  "cpu_utility": {
+    "kind": "queue_conditioned_frequency_pair_q_v1",
+    "utility": "queue_q_plus_selected_queue_frequency_q",
+    "idle": "queue_q_only",
+    "rows": "nonidle_cpu_queue_domain_order",
+    "frequencies": "original_full_domain_including_zero",
+    "legality": "original_conditional_masks_unchanged"
+  },
+  "development_8k16k_budget_extension_valid": true,
+  "8k_output_roots_absent": true,
+  "cuda_available": true,
+  "runtime": "2.7.1+cu118",
+  "config8k_hash": "ce44bb693b2b3db39069ebbdb1ce098b8dc82b97a1da0a35291426eb46da3d77",
+  "config16k_hash": "f0ff191b165f4f830581d005e1a0603919730225db9743586ee4f0e51c7a4cda"
+}

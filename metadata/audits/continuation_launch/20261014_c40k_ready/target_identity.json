@@ -1,0 +1,20 @@
+{
+  "config": "experiments/task-allocation/configs/c-seed42-40k-resume.json",
+  "config_hash": "708b8aaa4d67e8ff24a3c8ae4c44d97f89ab79b28fc1b7927547f83c1916ba4a",
+  "run_id": "ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a",
+  "artifact_paths": {
+    "config_snapshot": "logs\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a\\config_snapshot.yaml",
+    "raw_metrics": "logs\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a\\raw_metrics.jsonl",
+    "aggregate_metrics": "logs\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a\\aggregate_metrics.json",
+    "trajectory_credit_events": "logs\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a\\trajectory_credit_events.jsonl",
+    "conditional_credit_trace": "logs\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a\\conditional_credit_trace_v1.jsonl",
+    "route_diagnostic_samples": "logs\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a\\route_diagnostic_samples_v1.jsonl",
+    "route_oracle_counterfactual": "logs\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a\\route_oracle_counterfactual_v1.jsonl",
+    "dashboard_csv": "dashboard_logs\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a_metrics.csv",
+    "figure_input": "plots\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a_figure_input.csv",
+    "dashboard_png": "plots\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a_dashboard.png",
+    "checkpoint_directory": "logs\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a\\checkpoints",
+    "final_checkpoint": "logs\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a\\checkpoints\\final.pt"
+  },
+  "config_sha256": "394ed4f6ba198ec8b7ba7fc4e2f3f04dc4708b440ac6f09e71b86864015be05f"
+}

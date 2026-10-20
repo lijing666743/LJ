@@ -1,0 +1,75 @@
+"""Matched-QMIX resume launch checks without collection or optimizer updates."""
+from pathlib import Path
+from types import SimpleNamespace
+from unittest.mock import patch
+
+import pytest
+
+from src.cli import main
+from src.config import ConfigError, load_run_config
+from src.execution import ExecutionContext, validate_execution_context
+from src.models.qmix_continuation import validate_budget_extension
+
+
+ROOT = Path(__file__).resolve().parents[1]
+PROFILES = ROOT / "experiments/strong-baselines/configs"
+TARGET = PROFILES / "c-feature-credit-qmix-seed42-16k.json"
+
+
+def test_matched_16k_preserves_scientific_settings_and_checkpoint_spacing():
+    source = load_run_config(PROFILES / "c-feature-credit-qmix-seed42-8k.json")
+    target = load_run_config(TARGET)
+    validate_budget_extension(source, target)
+    assert target.training.qmix.max_training_environment_steps == 16000
+    assert target.training.qmix.max_training_episodes == 32
+    assert target.training.qmix.checkpoint_interval_steps == 4000
+
+
+@pytest.mark.parametrize("check_resume", [False, True])
+def test_matched_resume_accepts_explicit_full_state_context(tmp_path, check_resume):
+    checkpoint = tmp_path / "final.pt"
+    checkpoint.write_bytes(b"path-only fixture; never loaded")
+    context = ExecutionContext(resume_from=checkpoint, extend_training_budget=True,
+                               check_resume=check_resume)
+    assert validate_execution_context(load_run_config(TARGET), context) is context
+
+
+def test_matched_cli_check_dispatches_to_qmix_restore_without_training(tmp_path):
+    checkpoint = tmp_path / "final.pt"
+    checkpoint.write_bytes(b"mocked restore; never loaded")
+    verification = {"source_steps": 8000, "source_optimizer_updates": 225,
+                    "target_steps": 16000, "environment_steps_executed": 0,
+                    "optimizer_updates_executed": 0}
+    trainer = SimpleNamespace(restore_verification=verification)
+    messages = []
+    with patch("src.models.qmix_continuation.QMIXContinuationTrainer.from_checkpoint",
+               return_value=trainer) as restore, \
+         patch("src.models.qmix_trainer.QMIXTrainer.train",
+               side_effect=AssertionError("resume check must never train")), \
+         patch("src.models.qmix_trainer.U2UMECEnvironment",
+               side_effect=AssertionError("resume check must never create an environment")), \
+         patch("src.models.ca_gat_mappo_trainer.CAGATMAPPOTrainer.resume_from_checkpoint",
+               side_effect=AssertionError("matched QMIX must not use the PPO loader")):
+        assert main(["--config", str(TARGET), "--resume-from", str(checkpoint),
+                     "--extend-training-budget", "--check-resume",
+                     "--set", f"output.logs_dir={tmp_path / 'logs'}",
+                     "--set", f"output.plots_dir={tmp_path / 'plots'}",
+                     "--set", f"output.dashboard_logs_dir={tmp_path / 'dashboard'}"],
+                    output_fn=messages.append) == 0
+    restore.assert_called_once()
+    assert restore.call_args.args[0].method_id == "c_feature_credit_qmix"
+    assert restore.call_args.args[1] == checkpoint
+    assert restore.call_args.kwargs == {"extend": True}
+    assert restore.call_args.args[0].output.logs_dir == str(tmp_path / "logs")
+    assert all(not (tmp_path / name).exists() for name in ("logs", "plots", "dashboard"))
+    assert any("QMIX resume_check_passed:" in message for message in messages)
+
+
+@pytest.mark.parametrize("option", ["warm_start_from", "verify_replay_against",
+                                   "pause_at_periodic", "oracle_probe_states"])
+def test_matched_resume_still_rejects_mappo_only_instructions(tmp_path, option):
+    value = True if option == "pause_at_periodic" else 1 if option == "oracle_probe_states" else tmp_path / "unused.pt"
+    context = ExecutionContext(resume_from=tmp_path / "final.pt",
+                               extend_training_budget=True, **{option: value})
+    with pytest.raises(ConfigError, match="MAPPO-specific"):
+        validate_execution_context(load_run_config(TARGET), context)

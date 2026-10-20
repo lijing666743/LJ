@@ -1,0 +1,14 @@
+{
+  "metadata/audits/training_launch/20261015_c_seed44_40k_ready/config_changes.json": "45c79b59521795646a2e2efbf4b30393b1b41d27537c34c254c58826ba84bac7",
+  "metadata/audits/training_launch/20261015_c_seed44_40k_ready/expected_checkpoint_accounting.json": "e58a90b1ec501f495e3dfe8bf441d6bf2d27ea6667899f708701a98765cfcde2",
+  "metadata/audits/training_launch/20261015_c_seed44_40k_ready/fresh_initialization_check.json": "bbe7c187a51dd0b50f7d89c5dab22d33ba87b82e738e27311f6e988a28ddfe4e",
+  "metadata/audits/training_launch/20261015_c_seed44_40k_ready/inputs_after.json": "58f85211ffc7d6a96f7342b5fc86cfba0515add0a4436af2730f505c190640b7",
+  "metadata/audits/training_launch/20261015_c_seed44_40k_ready/inputs_before.json": "58f85211ffc7d6a96f7342b5fc86cfba0515add0a4436af2730f505c190640b7",
+  "metadata/audits/training_launch/20261015_c_seed44_40k_ready/runtime.json": "af3b67ba79b281f97b4cfefee9bc25e3b3badba91c873a21d45f488f1ed5c9d5",
+  "metadata/audits/training_launch/20261015_c_seed44_40k_ready/show_config.json": "be88a55a3b47d991bbae1c67cd5365b21eb56925ba04cb60a15e6abd466fcc9a",
+  "metadata/audits/training_launch/20261015_c_seed44_40k_ready/target_identity.json": "6ded9175b5e4cd023535a0d2bfa5724a8293d2348e064c8144981e35831bb5b0",
+  "metadata/audits/training_launch/20261015_c_seed44_40k_ready/tests.xml": "e935ea99eca94e4e093411a085eddcfbd6b3c43e4e5120246d2c3fabb1e418ce",
+  "metadata/audits/training_launch/20261015_c_seed44_40k_ready/validation.json": "1fc53685e95074e217b1eea9c0906605b6f4158c230a3d6a2f4d17f4152e2a1c",
+  "docs/reproduction/C_SEED44_40K.md": "ac45a9ea5827f26cff3a04aa00b8fc1a63d9785e0e5fcb582b67b82abf16ef40",
+  "experiments/task-allocation/configs/c-seed44-40k.json": "332b7c0743f8d3c250a4da61d29ee283e2cfbf57fecd11fac32087627aceda22"
+}

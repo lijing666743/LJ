@@ -1,0 +1,9 @@
+{
+  "source": "logs/C/seed42/8k/training/config_snapshot.yaml",
+  "ignored": [
+    "metadata",
+    "output roots"
+  ],
+  "training_environment_reward_model_differences": {},
+  "match": true
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "csvs_reproduced_byte_exact": [
+    "summary_metrics.csv",
+    "per_scene_metrics.csv",
+    "paired_changed_tasks.csv",
+    "training_reward_windows.csv"
+  ],
+  "existing_analysis_audit_reused_without_changes": true,
+  "scene_bar_heights_match_labels_and_denominators": true,
+  "outputs": [
+    "C_40k_development_dashboard.png",
+    "C_40k_development_dashboard.svg"
+  ],
+  "classification": "development_diagnostic_only"
+}

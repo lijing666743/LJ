@@ -1,0 +1,53 @@
+{
+  "schema": "qmix_episode_return_initialization.v1",
+  "new_config_hash": "0f3441f8ff9554fecac9e055799fe041314a0ec180d7a00d1664a2e1dcc39634",
+  "new_run_id": "factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-0f3441f8ff95__git-eb1140cefc4a",
+  "old_checkpoint_rejected": [
+    {
+      "loader": "load_checkpoint",
+      "reason": "checkpoint is not a Factorized-Action GAT-QMIX checkpoint"
+    },
+    {
+      "loader": "load_continuation_checkpoint",
+      "reason": "continuation requires a current QMIX checkpoint schema"
+    }
+  ],
+  "empty_replay_optimizer": true,
+  "zero_updates_steps_episodes": true,
+  "online_equals_target": true,
+  "budget_extension_valid": true,
+  "development_outputs_absent": true,
+  "core_fingerprints": {
+    "src/config.py": "e6ee52760bf7ac604d98ab0fbd4365786577cd3a960e74d60a20fe4b5e072cde",
+    "src/env/__init__.py": "c8118cc330c2e54103bc6374f4bbbfcd4afc664b3d9785fd9527dfa4375fcfbb",
+    "src/env/action_history.py": "64921079b0768bdec87749b39bd5b14e0a4a93885f839c8855189da4d29864b6",
+    "src/env/actions.py": "7f6b9eeda2c6674bc4bcd1dd698f3d85c60a520a1632916e59a7e052da435d1e",
+    "src/env/channel.py": "8121e5f6bb81b88538b237d10951578482029c1df9fecf39158bde99e1bfacc2",
+    "src/env/energy.py": "aad51548bf7422a5f717b8c413380ea44e31efa2b2db89f027571b071bf96841",
+    "src/env/environment.py": "3d9a47d925fc8187a2e39c5207bc0f4632f9e1dffe6be574284bff40d77e8ff5",
+    "src/env/executor.py": "4d79fc77b225bb5fe497a70489cb4be17c3016b4b4c01510300916db2f8548a4",
+    "src/env/history.py": "4bb0536b18036fbe5a64d3269679a5ad193b98e5400c27c4fb4f8f5a62a29a9f",
+    "src/env/lifecycle.py": "0c65b4ddd202a1ebaab292d2b4f0ad77369dc97581318027a3e6ccb10b659196",
+    "src/env/metrics.py": "f79c61bc3195f93d6a7a6808471b9fff2cf9c9d765b338fc7f3c8ec573ae7ecd",
+    "src/env/mobility.py": "fa779fe22ac4179c8afcb8074946f091cdf8ee3d6a7e0909105bd0a73f0bd3ea",
+    "src/env/observation.py": "39dfd220351849a7047fdaea71d27e267bdaf06d867484b4620bc17e8df51a79",
+    "src/env/outage.py": "206124a3da29f35b88fed54d0411495626e9545e24a8a6536edfd616d042745c",
+    "src/env/public_history.py": "be87558825dc7b3b74589bc566cc14d47a66534da3c98eda09679b63115c0dab",
+    "src/env/queues.py": "c4edab7b8c458a40adf245035435a29cba4d84c3d05467a7ff5f2e8205b96767",
+    "src/env/randomness.py": "0863cc52f7e93da1469f1b74e837239256b1e77c686f6337f8001dd129beaf04",
+    "src/env/reward.py": "424957a87c6b16836cd7ec73535098b70c3da25728d476a35969b28d7cde19cf",
+    "src/env/service.py": "6d0b177c95606245971d0e7f652a08589e4aa64fe75aac8d002486ae1a970ce9",
+    "src/env/state.py": "2d62584b6f919767f6c2711c73e2ad49f37e4f8eb931a6ca12cf3b894d202523",
+    "src/env/task.py": "12a4bcf99ffc5cb42b8cdde89330498fe1d89852ed28935a02436be506df0e25",
+    "src/env/tasks.py": "b691e9fa1647c931f194333ecab2bfbbf2db5bf0965ea7b3defe1e85ae9a98bf",
+    "src/env/topology.py": "e9276c4f39aa73f57849c99c2f10cb8ff5b16fad1a2946d87be917f7c463b115",
+    "src/env/traffic.py": "cdd85684b7d271e22c233f0454b17a26c31c1e46c5cc81decea25cba6d812223",
+    "src/env/validation.py": "4076aa7caef6a6a07bea2db3e323382f0e55f9f4ab6c1cfe56e160a21b942c37",
+    "src/models/ca_gat_mappo.py": "3e79786c34d9065f829a5bfc2d55ded668ef235376795a2220d1d7fa36d2c056",
+    "src/models/factorized_gat_qmix.py": "fe09c89adae4e20fcf61fa71754703c8e4f290502a87c3f17d94789d225b0114",
+    "src/models/qmix_recurrent.py": "c394ccbf1b232e3e55de242afd38f404310d33f18f57f8a0848e618f25efb439",
+    "src/models/qmix_replay.py": "04e76cd457b3f2c02543e636bb666caffb81aba70f60989c18644425f6d052eb",
+    "src/models/qmix_targets.py": "881a5117974c97e739b72e98f828397c93f978bd6da99acee1292ee2f7e44ea1",
+    "src/models/qmix_trainer.py": "6e6eb0f8b11913fafc9b401c197bece191a854759acf2100a04b54a06c0237d6"
+  }
+}

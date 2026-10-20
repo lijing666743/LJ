@@ -1,0 +1,112 @@
+{
+  "schema": "qmix_v10_real_replay_target_probe.v1",
+  "source_checkpoint_sha256": "1c6b397e970fbb6abe57ff033267b0285d5f209ae5aceb52b052879a5e15e026",
+  "source_is_v9_frozen_weights_not_resumed_training": true,
+  "source_network_architecture_unchanged": true,
+  "optimizer_updates": 0,
+  "parameters_rng_checkpoint_unchanged": true,
+  "seconds": 5.036604699998861,
+  "rows": [
+    {
+      "episode": 0,
+      "chunk_length": 32,
+      "context_length": 500,
+      "old_chunk_lambda06": {
+        "count": 32,
+        "mean": 0.8881185911595821,
+        "min": 0.4603634476661682,
+        "max": 1.8772934675216675
+      },
+      "full_suffix_lambda06": {
+        "count": 32,
+        "mean": 0.8913374580442905,
+        "min": 0.46039193868637085,
+        "max": 1.8772934675216675
+      },
+      "full_suffix_lambda095": {
+        "count": 32,
+        "mean": -0.7048336350562749,
+        "min": -2.209047555923462,
+        "max": 0.42982763051986694
+      },
+      "mean_absolute_change_context_only": 0.0032188668847084045,
+      "mean_absolute_change_full_candidate": 1.5929522514343262
+    },
+    {
+      "episode": 4,
+      "chunk_length": 32,
+      "context_length": 500,
+      "old_chunk_lambda06": {
+        "count": 32,
+        "mean": 1.1590646973345429,
+        "min": -0.8429878950119019,
+        "max": 2.4586946964263916
+      },
+      "full_suffix_lambda06": {
+        "count": 32,
+        "mean": 1.1202415155712515,
+        "min": -1.1425962448120117,
+        "max": 2.4586946964263916
+      },
+      "full_suffix_lambda095": {
+        "count": 32,
+        "mean": -1.6431459567975253,
+        "min": -3.7270760536193848,
+        "max": 0.33678218722343445
+      },
+      "mean_absolute_change_context_only": 0.03882317990064621,
+      "mean_absolute_change_full_candidate": 2.8022103309631348
+    },
+    {
+      "episode": 8,
+      "chunk_length": 32,
+      "context_length": 500,
+      "old_chunk_lambda06": {
+        "count": 32,
+        "mean": 1.8845040164887905,
+        "min": 0.7544792890548706,
+        "max": 2.158729076385498
+      },
+      "full_suffix_lambda06": {
+        "count": 32,
+        "mean": 1.8882721811532974,
+        "min": 0.7580994367599487,
+        "max": 2.158729076385498
+      },
+      "full_suffix_lambda095": {
+        "count": 32,
+        "mean": 0.39271877623104956,
+        "min": -0.6898407936096191,
+        "max": 1.2388088703155518
+      },
+      "mean_absolute_change_context_only": 0.0037681646645069122,
+      "mean_absolute_change_full_candidate": 1.4917852878570557
+    },
+    {
+      "episode": 12,
+      "chunk_length": 32,
+      "context_length": 500,
+      "old_chunk_lambda06": {
+        "count": 32,
+        "mean": 1.1318528054980561,
+        "min": 0.05873226746916771,
+        "max": 1.919782280921936
+      },
+      "full_suffix_lambda06": {
+        "count": 32,
+        "mean": 1.1332388402661309,
+        "min": 0.05901135131716728,
+        "max": 1.9197824001312256
+      },
+      "full_suffix_lambda095": {
+        "count": 32,
+        "mean": -0.6392244729067897,
+        "min": -2.34535551071167,
+        "max": 0.7130893468856812
+      },
+      "mean_absolute_change_context_only": 0.001386034768074751,
+      "mean_absolute_change_full_candidate": 1.7710773944854736
+    }
+  ],
+  "claim_boundary": "Target-formula comparison on old replay; no new trained policy performance."
+}

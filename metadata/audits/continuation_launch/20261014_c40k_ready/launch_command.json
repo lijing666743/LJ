@@ -1,0 +1,6 @@
+{
+  "shell": "PowerShell",
+  "executed": false,
+  "command": "Set-Location 'D:\\My_project_li'\n$env:OMP_NUM_THREADS = '1'\n$env:MKL_NUM_THREADS = '1'\n$cp = 'logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints'\n$runArgs = @(\n    '--config', 'experiments/task-allocation/configs/c-seed42-40k-resume.json',\n    '--resume-from', \"$cp/step_28000.pt\",\n    '--extend-training-budget',\n    '--verify-replay-against', \"$cp/final.pt\"\n)\n& 'D:\\Miniconda\\python.exe' -u -B -X utf8 main.py @runArgs\nif ($LASTEXITCODE -ne 0) { throw 'C 40k continuation failed. Inspect the error before restarting.' }",
+  "syntax_errors": 0
+}

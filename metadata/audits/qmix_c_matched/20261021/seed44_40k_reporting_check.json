@@ -1,0 +1,46 @@
+{
+  "schema": "seed44_40k_three_seed_reporting_check.v1",
+  "checked_at_utc": "2026-10-20T17:21:13.889741+00:00",
+  "status": "PASS",
+  "training_audit_status": "PASS",
+  "evaluation_record_count": 200,
+  "network_updates": 0,
+  "actual_dashboard_png_visually_reviewed": true,
+  "statistics": {
+    "C": {
+      "completed_values": [
+        412,
+        391,
+        370
+      ],
+      "completed_mean": 391,
+      "completed_sample_sd": 21.0,
+      "completion_percent_mean": 64.62809917355372,
+      "completion_percent_sample_sd": 3.4710743801652946,
+      "total_energy_j_mean": 183.87144630691114,
+      "pooled_j_per_completed": 0.47025945347036097
+    },
+    "D": {
+      "completed_values": [
+        425,
+        419,
+        409
+      ],
+      "completed_mean": 417.6666666666667,
+      "completed_sample_sd": 8.082903768654761,
+      "completion_percent_mean": 69.0358126721763,
+      "completion_percent_sample_sd": 1.336017151843764,
+      "total_energy_j_mean": 179.46413088088067,
+      "pooled_j_per_completed": 0.4296826756924517
+    }
+  },
+  "final_checkpoint_sha256": "7200a3210bff4b205f244a21b979c8c2dd13bed58e2f246c02053176942eaea7",
+  "analysis_environment_steps": 0,
+  "analysis_optimizer_updates": 0,
+  "report": "sections/results/20261018_C_FEATURE_CREDIT_QMIX.md",
+  "no_new_images_or_runtime_instructions": true,
+  "automation_status_verified": "PAUSED",
+  "automation_id": "13-11-qmix",
+  "report_numeric_values_checked_against_evaluation_audit": true,
+  "operational_status_and_index_synchronized": true
+}

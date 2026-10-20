@@ -1,0 +1,120 @@
+{
+  "source_sha256": {
+    "logs\\C\\seed44\\checkpoint_progress\\20261015_seed44_4k40k\\32k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-e128bbb52ce5__cfg-d2463e1929ea__eval-2008fc9c30a9\\task_lifecycle.jsonl": "6b0b25f5ed4508ac5786b01ea86c4e46444725bc564cf45195aa6d437be10663",
+    "logs\\C\\seed44\\checkpoint_progress\\20261015_seed44_4k40k\\36k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-c0fe9d0f11e7__cfg-d2463e1929ea__eval-f385392bd966\\task_lifecycle.jsonl": "7a2448eb6fda59a503caa5d0f024e752d1be6ae7d3d1aa8fad4892f98fcd7250",
+    "logs\\C\\seed44\\checkpoint_progress\\20261015_seed44_4k40k\\40k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-8567019d7330__cfg-d2463e1929ea__eval-e782fdbb969d\\task_lifecycle.jsonl": "f76ea4b4ea06076457ec8c3f7f4b7375009d1020ab95cf1b0263443a82f0281d",
+    "logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\40k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-bb2cff17b356__cfg-d2463e1929ea__eval-a9653a49fce5\\task_lifecycle.jsonl": "08a119934f6c28eb076076b1d9eb2ad76fbd9119157f96cc38701c6c9dde84b2",
+    "logs\\C\\seed43\\checkpoint_progress\\20261015_seed43_4k40k\\40k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-5f4de43d4f69__cfg-d2463e1929ea__eval-263e0cc17927\\task_lifecycle.jsonl": "e42e9bb1e763e5efa618cb24f10113b1ef0558cb1c25bbc5adb169671ad62c3e"
+  },
+  "task_identity_and_workload_exact": true,
+  "tasks_per_comparison": 605,
+  "comparisons": {
+    "C44_32k_to_36k": {
+      "counts": {
+        "both_done": 302,
+        "old_only_done": 86,
+        "neither_done": 199,
+        "new_only_done": 18,
+        "net_completed_change": -68
+      },
+      "lost_tasks_new_terminal_outcome": {
+        "EXPIRED/UNBOUND": 49,
+        "EXPIRED/CPU_SERVICE": 23,
+        "EXPIRED/CPU_WAIT": 13,
+        "TRUNCATED/CPU_WAIT": 1
+      },
+      "gained_tasks_old_terminal_outcome": {
+        "EXPIRED/CPU_SERVICE": 9,
+        "TRUNCATED/CPU_WAIT": 2,
+        "EXPIRED/CPU_WAIT": 6,
+        "TRUNCATED/CPU_SERVICE": 1
+      }
+    },
+    "C44_36k_to_40k": {
+      "counts": {
+        "both_done": 287,
+        "neither_done": 202,
+        "new_only_done": 83,
+        "old_only_done": 33,
+        "net_completed_change": 50
+      },
+      "lost_tasks_new_terminal_outcome": {
+        "EXPIRED/CPU_SERVICE": 21,
+        "EXPIRED/CPU_WAIT": 10,
+        "TRUNCATED/CPU_WAIT": 2
+      },
+      "gained_tasks_old_terminal_outcome": {
+        "EXPIRED/UNBOUND": 40,
+        "EXPIRED/CPU_WAIT": 19,
+        "EXPIRED/CPU_SERVICE": 23,
+        "TRUNCATED/UNBOUND": 1
+      }
+    },
+    "C42_40k_to_C44_40k": {
+      "counts": {
+        "both_done": 347,
+        "old_only_done": 65,
+        "neither_done": 170,
+        "new_only_done": 23,
+        "net_completed_change": -42
+      },
+      "lost_tasks_new_terminal_outcome": {
+        "EXPIRED/UNBOUND": 18,
+        "EXPIRED/CPU_SERVICE": 28,
+        "EXPIRED/CPU_WAIT": 18,
+        "TRUNCATED/UNBOUND": 1
+      },
+      "gained_tasks_old_terminal_outcome": {
+        "EXPIRED/CPU_WAIT": 10,
+        "EXPIRED/CPU_SERVICE": 12,
+        "TRUNCATED/CPU_WAIT": 1
+      }
+    },
+    "C43_40k_to_C44_40k": {
+      "counts": {
+        "both_done": 329,
+        "neither_done": 173,
+        "old_only_done": 62,
+        "new_only_done": 41,
+        "net_completed_change": -21
+      },
+      "lost_tasks_new_terminal_outcome": {
+        "EXPIRED/UNBOUND": 14,
+        "EXPIRED/CPU_SERVICE": 31,
+        "EXPIRED/CPU_WAIT": 17
+      },
+      "gained_tasks_old_terminal_outcome": {
+        "EXPIRED/UNBOUND": 6,
+        "EXPIRED/CPU_WAIT": 9,
+        "EXPIRED/CPU_SERVICE": 22,
+        "TRUNCATED/CPU_SERVICE": 3,
+        "TRUNCATED/CPU_WAIT": 1
+      }
+    },
+    "Heuristic_to_C44_40k": {
+      "counts": {
+        "both_done": 286,
+        "old_only_done": 85,
+        "new_only_done": 84,
+        "neither_done": 150,
+        "net_completed_change": -1
+      },
+      "lost_tasks_new_terminal_outcome": {
+        "EXPIRED/UNBOUND": 16,
+        "EXPIRED/CPU_SERVICE": 31,
+        "EXPIRED/CPU_WAIT": 30,
+        "TRUNCATED/CPU_WAIT": 3,
+        "EXPIRED/TX_WAIT": 3,
+        "TRUNCATED/UNBOUND": 1,
+        "TRUNCATED/TX_WAIT": 1
+      },
+      "gained_tasks_old_terminal_outcome": {
+        "EXPIRED/CPU_SERVICE": 74,
+        "EXPIRED/CPU_WAIT": 3,
+        "TRUNCATED/CPU_SERVICE": 6,
+        "TRUNCATED/CPU_WAIT": 1
+      }
+    }
+  },
+  "interpretation": "Describes task outcomes; terminal stage does not establish root cause"
+}

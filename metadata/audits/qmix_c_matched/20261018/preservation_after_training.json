@@ -1,0 +1,7 @@
+{
+  "schema": "c_feature_credit_qmix_input_preservation_after_training.v1",
+  "files": 894,
+  "all_SHA256_identical": true,
+  "C_A_B_and_sources_preserved": true,
+  "protected_directories_not_enumerated": true
+}

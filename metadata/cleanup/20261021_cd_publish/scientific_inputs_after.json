@@ -1,0 +1,17 @@
+{
+  "checked_at_utc": "2026-10-20T23:50:41.750990+00:00",
+  "status": "FAIL",
+  "scientific_inputs_count": 864,
+  "bytes": 32867348763,
+  "changed": [
+    {
+      "path": "experiments/README.md",
+      "reason": "hash_changed"
+    },
+    {
+      "path": "experiments/strong-baselines/README.md",
+      "reason": "hash_changed"
+    }
+  ],
+  "original_HEAD_and_index_unchanged": true
+}

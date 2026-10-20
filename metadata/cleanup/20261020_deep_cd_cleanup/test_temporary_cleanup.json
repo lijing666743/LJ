@@ -1,0 +1,11 @@
+{
+  "owned_root": ".tcd20",
+  "created_fresh_for_this_regression_run": true,
+  "files_removed": 284,
+  "bytes_removed": 2710859842.0,
+  "directories_removed": 265,
+  "reparse_points": false,
+  "all_resolved_paths_in_workspace": true,
+  "root_absent": true,
+  "real_experiment_outputs_touched": false
+}

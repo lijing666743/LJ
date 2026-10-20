@@ -1,0 +1,94 @@
+{
+  "schema": "C_feature_credit_QMIX_development_task_completion.v1",
+  "finished_at_utc": "2026-10-18T06:03:27.947194+00:00",
+  "status": "8k_training_and_frozen_evaluation_completed",
+  "method_id": "c_feature_credit_qmix",
+  "config_hash": "1b3cae3cdac58f3000fa17685e3e4b5bbe60cdb26e84cf75b177c15bec5c4988",
+  "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-1b3cae3cdac5__git-eb1140cefc4a",
+  "tests": {
+    "passed_parent_tests": 379,
+    "passed_subtests": 32
+  },
+  "training": {
+    "factual_steps": 8000,
+    "episodes": 16,
+    "updates": 225,
+    "extra_shadow_steps": 29656,
+    "paired_labels": 54,
+    "wall_seconds": 8697.7257016,
+    "source_unchanged_at_finish": true
+  },
+  "evaluation": {
+    "series_id": "qmix-checkpoints__seed-42__0a1f6dadea501032",
+    "episodes": 40,
+    "network_updates": 0,
+    "primary_report_step": 8000,
+    "primary_metrics": {
+      "training_steps": 8000,
+      "training_seed": 42,
+      "method_id": "c_feature_credit_qmix",
+      "generated": 605,
+      "completed": 352,
+      "completion_ratio": 0.5818181818181818,
+      "expired": 210,
+      "truncated": 43,
+      "total_energy_j": 160.12935341114445,
+      "cpu_energy_j": 157.52729174066133,
+      "tx_energy_j": 2.602061670483139,
+      "energy_per_completed_task_j": 0.4549129358271149,
+      "mean_reward": 16.92942317281794,
+      "checkpoint_sha256": "073792c7e89eb88533a32c83fa0c40a36ec2df336fbf1087503e6c1b0362670d",
+      "completed_task_delay_s": 0.4439772727272727
+    },
+    "all_consistency_checks_pass": true
+  },
+  "preservation": {
+    "retained_input_count": 894,
+    "input_hash_check": "preservation_after_training.json",
+    "new_checkpoint_hashes": [
+      {
+        "step": 4000,
+        "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed42\\8k\\c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-1b3cae3cdac5__git-eb1140cefc4a\\checkpoints\\step_004000.pt",
+        "sha256": "270cd969a4a29a2e1357168ae3c82a9c81a7c3334b5223a5733db482d07f7e98",
+        "bytes": 148366831
+      },
+      {
+        "step": 8000,
+        "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed42\\8k\\c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-1b3cae3cdac5__git-eb1140cefc4a\\checkpoints\\final.pt",
+        "sha256": "073792c7e89eb88533a32c83fa0c40a36ec2df336fbf1087503e6c1b0362670d",
+        "bytes": 270371591
+      }
+    ],
+    "no_model_or_source_deleted": true
+  },
+  "test_fixture_cleanup": {
+    "files": 607,
+    "bytes": 6758159082,
+    "no_additional_cleanup_after_training": true
+  },
+  "recommendation": {
+    "retain_current_algorithm": true,
+    "proposed_next_budget": 16000,
+    "proposed_evaluation_steps": [
+      12000,
+      16000
+    ],
+    "purpose": "Limited stability and energy validation, not proof of convergence or original-QMIX reproduction.",
+    "historical_v6_gate_pass": false,
+    "historical_energy_threshold_still_unmet": true,
+    "future_training_owner": "human_user_local",
+    "proposal_only_not_executed": true,
+    "new_training_steps_executed_after_8k": 0,
+    "new_16k_configuration_created": false
+  },
+  "automation": {
+    "id": "13-11-qmix",
+    "status": "PAUSED"
+  },
+  "reports": [
+    "sections/results/20261018_C_FEATURE_CREDIT_QMIX.md",
+    "docs/results/CURRENT_EXPERIMENT_STATUS.md",
+    "README.md"
+  ],
+  "claim_boundary": "Single-seed development result; no significance, stable-plateau, original-paper-reproduction or single-variable causal claim."
+}

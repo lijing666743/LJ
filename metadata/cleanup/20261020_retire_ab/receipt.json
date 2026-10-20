@@ -1,0 +1,50 @@
+{
+  "schema": "ab_retirement_receipt.v1",
+  "completed_at_utc": "2026-10-20T02:32:23.795093+00:00",
+  "status": "completed",
+  "authorization": "User requested retiring A/B and their dedicated material, retaining C/D and planning fresh ablations from the complete methods.",
+  "active_learning_methods": [
+    "C",
+    "D"
+  ],
+  "retired_methods": [
+    "A",
+    "B"
+  ],
+  "deleted_file_count": 146,
+  "deleted_bytes": 3682303646,
+  "deleted_GiB": 3.4294125121086836,
+  "deleted_model_files": 10,
+  "dedicated_runnable_configs_deleted": 8,
+  "remaining_C_runnable_configs": 8,
+  "all_remaining_experiment_configs_validated": 31,
+  "protected_files_byte_identical": 907,
+  "preservation_manifest": "protected_before.json",
+  "preservation_result": "preservation_after.json",
+  "deletion_manifest": "plan.json",
+  "historical_AB_metric_summaries_retained": 8,
+  "retirement_is_not_failure_or_same_budget_superiority_claim": true,
+  "shared_source_and_learning_configuration_changed": false,
+  "paper_frozen_sections_0_to_7_unchanged": true,
+  "C_D_models_and_all_source_checkpoints_unchanged": true,
+  "shared_runtime_regression_inputs_and_original_mixed_identity_manifests_retained": true,
+  "new_ablation_implemented_or_launched": false,
+  "tests": {
+    "C_D_core_passed": 34,
+    "CLI_passed_after_temp_fix": 29,
+    "total_distinct_tests_passed": 63,
+    "final_CLI_subtests_passed": 17,
+    "initial_run_report": "tests.xml",
+    "final_CLI_report": "cli_tests_pass.xml",
+    "initial_failures": "11 failures included standard tempfile directory PermissionError in Windows sandbox; C/D core tests passed. Reran the entire CLI module with TEMP/TMP in a freshly created workspace directory, without editing tests or runtime.",
+    "all_agent_created_workspace_test_temporaries_removed": true,
+    "generated_test_temporary_bytes_removed": 211773382
+  },
+  "current_sources": {
+    "C_8k_summary": "docs/results/seed42/C_SEED42_8K_HISTORICAL_SUMMARY.md",
+    "C_D_recovery_evidence": "docs/reproduction/REPRODUCE_C_D.md"
+  },
+  "scientific_boundary": "New C/D ablations must use stated single-mechanism changes and independent matched-budget training. Historical A/B labels in shared C/D provenance and source contracts are retained, not active A/B runs.",
+  "new_experiment_training_or_evaluation_launched": false,
+  "engineering_unit_and_CLI_regression_tests_executed": true
+}

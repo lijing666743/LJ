@@ -1,0 +1,192 @@
+[
+  {
+    "step": 4000,
+    "path": "D:\\My_project_li\\logs\\C\\seed43\\40k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-ec33289ec8c8__git-eb1140cefc4a\\checkpoints\\step_4000.pt",
+    "sha256": "29f39901ffba603f39e07f8d6e3d762e7817db13f6749e4c397f5839d5bfcd47",
+    "checkpoint_kind": "PERIODIC_RESUME",
+    "training_state": {
+      "policy_version": 15,
+      "started_episodes": 8,
+      "completed_episodes": 8,
+      "next_episode_index": 8,
+      "collected_environment_transitions": 4000,
+      "optimized_transitions": 3840,
+      "ppo_update_count": 15,
+      "unused_final_tail_transitions": 0,
+      "training_complete": false,
+      "active_rollout_length": 160,
+      "active_rollout_policy_version": 15
+    }
+  },
+  {
+    "step": 8000,
+    "path": "D:\\My_project_li\\logs\\C\\seed43\\40k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-ec33289ec8c8__git-eb1140cefc4a\\checkpoints\\step_8000.pt",
+    "sha256": "19e49192bba9ce932b1252f00e019fee960214d8a594c2ccd742b1c1ee9dbe1f",
+    "checkpoint_kind": "PERIODIC_RESUME",
+    "training_state": {
+      "policy_version": 31,
+      "started_episodes": 16,
+      "completed_episodes": 16,
+      "next_episode_index": 16,
+      "collected_environment_transitions": 8000,
+      "optimized_transitions": 7936,
+      "ppo_update_count": 31,
+      "unused_final_tail_transitions": 0,
+      "training_complete": false,
+      "active_rollout_length": 64,
+      "active_rollout_policy_version": 31
+    }
+  },
+  {
+    "step": 12000,
+    "path": "D:\\My_project_li\\logs\\C\\seed43\\40k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-ec33289ec8c8__git-eb1140cefc4a\\checkpoints\\step_12000.pt",
+    "sha256": "312b7c43cef9c6bcd2e2b2015c21e524e15692bb6d604441c288018a2c994eb2",
+    "checkpoint_kind": "PERIODIC_RESUME",
+    "training_state": {
+      "policy_version": 46,
+      "started_episodes": 24,
+      "completed_episodes": 24,
+      "next_episode_index": 24,
+      "collected_environment_transitions": 12000,
+      "optimized_transitions": 11776,
+      "ppo_update_count": 46,
+      "unused_final_tail_transitions": 0,
+      "training_complete": false,
+      "active_rollout_length": 224,
+      "active_rollout_policy_version": 46
+    }
+  },
+  {
+    "step": 16000,
+    "path": "D:\\My_project_li\\logs\\C\\seed43\\40k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-ec33289ec8c8__git-eb1140cefc4a\\checkpoints\\step_16000.pt",
+    "sha256": "eaca4b5a3f87e1adb83ada5f307ddaba6767b3facf934148eb8ccf9f1e217512",
+    "checkpoint_kind": "PERIODIC_RESUME",
+    "training_state": {
+      "policy_version": 62,
+      "started_episodes": 32,
+      "completed_episodes": 32,
+      "next_episode_index": 32,
+      "collected_environment_transitions": 16000,
+      "optimized_transitions": 15872,
+      "ppo_update_count": 62,
+      "unused_final_tail_transitions": 0,
+      "training_complete": false,
+      "active_rollout_length": 128,
+      "active_rollout_policy_version": 62
+    }
+  },
+  {
+    "step": 20000,
+    "path": "D:\\My_project_li\\logs\\C\\seed43\\40k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-ec33289ec8c8__git-eb1140cefc4a\\checkpoints\\step_20000.pt",
+    "sha256": "574c2d1932007f4a2cb117f33fa112edf94117e039235ad1c81d3168dc206636",
+    "checkpoint_kind": "PERIODIC_RESUME",
+    "training_state": {
+      "policy_version": 78,
+      "started_episodes": 40,
+      "completed_episodes": 40,
+      "next_episode_index": 40,
+      "collected_environment_transitions": 20000,
+      "optimized_transitions": 19968,
+      "ppo_update_count": 78,
+      "unused_final_tail_transitions": 0,
+      "training_complete": false,
+      "active_rollout_length": 32,
+      "active_rollout_policy_version": 78
+    }
+  },
+  {
+    "step": 24000,
+    "path": "D:\\My_project_li\\logs\\C\\seed43\\40k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-ec33289ec8c8__git-eb1140cefc4a\\checkpoints\\step_24000.pt",
+    "sha256": "fb267a5746ff94990b468a7263d251b7747961d4ef282431f1d4ff9a60e80d85",
+    "checkpoint_kind": "PERIODIC_RESUME",
+    "training_state": {
+      "policy_version": 93,
+      "started_episodes": 48,
+      "completed_episodes": 48,
+      "next_episode_index": 48,
+      "collected_environment_transitions": 24000,
+      "optimized_transitions": 23808,
+      "ppo_update_count": 93,
+      "unused_final_tail_transitions": 0,
+      "training_complete": false,
+      "active_rollout_length": 192,
+      "active_rollout_policy_version": 93
+    }
+  },
+  {
+    "step": 28000,
+    "path": "D:\\My_project_li\\logs\\C\\seed43\\40k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-ec33289ec8c8__git-eb1140cefc4a\\checkpoints\\step_28000.pt",
+    "sha256": "3a5b7943c9a0c363d2646e6196106340094a58e2e7b3fd6d2370e694d678b6c5",
+    "checkpoint_kind": "PERIODIC_RESUME",
+    "training_state": {
+      "policy_version": 109,
+      "started_episodes": 56,
+      "completed_episodes": 56,
+      "next_episode_index": 56,
+      "collected_environment_transitions": 28000,
+      "optimized_transitions": 27904,
+      "ppo_update_count": 109,
+      "unused_final_tail_transitions": 0,
+      "training_complete": false,
+      "active_rollout_length": 96,
+      "active_rollout_policy_version": 109
+    }
+  },
+  {
+    "step": 32000,
+    "path": "D:\\My_project_li\\logs\\C\\seed43\\40k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-ec33289ec8c8__git-eb1140cefc4a\\checkpoints\\step_32000.pt",
+    "sha256": "3765043060ef60a8f09a6b7633e37055d101820af56e8ca625700a693b443b75",
+    "checkpoint_kind": "PERIODIC_RESUME",
+    "training_state": {
+      "policy_version": 125,
+      "started_episodes": 64,
+      "completed_episodes": 64,
+      "next_episode_index": 64,
+      "collected_environment_transitions": 32000,
+      "optimized_transitions": 32000,
+      "ppo_update_count": 125,
+      "unused_final_tail_transitions": 0,
+      "training_complete": false,
+      "active_rollout_length": 0,
+      "active_rollout_policy_version": null
+    }
+  },
+  {
+    "step": 36000,
+    "path": "D:\\My_project_li\\logs\\C\\seed43\\40k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-ec33289ec8c8__git-eb1140cefc4a\\checkpoints\\step_36000.pt",
+    "sha256": "5adb86986134f74630db3a578dbc482eeb6cd261e0d3516e6a986fd1d2e9f836",
+    "checkpoint_kind": "PERIODIC_RESUME",
+    "training_state": {
+      "policy_version": 140,
+      "started_episodes": 72,
+      "completed_episodes": 72,
+      "next_episode_index": 72,
+      "collected_environment_transitions": 36000,
+      "optimized_transitions": 35840,
+      "ppo_update_count": 140,
+      "unused_final_tail_transitions": 0,
+      "training_complete": false,
+      "active_rollout_length": 160,
+      "active_rollout_policy_version": 140
+    }
+  },
+  {
+    "step": 40000,
+    "path": "D:\\My_project_li\\logs\\C\\seed43\\40k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-ec33289ec8c8__git-eb1140cefc4a\\checkpoints\\final.pt",
+    "sha256": "5f4de43d4f698355edec1ae08c01c34e6a600eb5b78323049b306ce5c642d707",
+    "checkpoint_kind": "FINAL_COMPLETED",
+    "training_state": {
+      "policy_version": 156,
+      "started_episodes": 80,
+      "completed_episodes": 80,
+      "next_episode_index": 80,
+      "collected_environment_transitions": 40000,
+      "optimized_transitions": 39936,
+      "ppo_update_count": 156,
+      "unused_final_tail_transitions": 64,
+      "training_complete": true,
+      "active_rollout_length": 0,
+      "active_rollout_policy_version": null
+    }
+  }
+]

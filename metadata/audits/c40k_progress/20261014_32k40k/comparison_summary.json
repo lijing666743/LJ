@@ -1,0 +1,291 @@
+{
+  "checkpoint_metrics": {
+    "4000": {
+      "method": "C",
+      "checkpoint_steps": 4000,
+      "generated": 605,
+      "completed": 280,
+      "expired": 284,
+      "truncated": 41,
+      "total_energy_j": 142.68592995692717,
+      "cpu_energy_j": 139.72596565523088,
+      "tx_energy_j": 2.959964301696276,
+      "completion_pct": 46.28099173553719,
+      "mean_per_scene_completion_pct": 46.410012982191226,
+      "mean_episode_reward": -12.702765359479882,
+      "energy_per_DONE_j": 0.5095926069890256,
+      "completed_task_delay_s": 0.47471428571428576
+    },
+    "8000": {
+      "method": "C",
+      "checkpoint_steps": 8000,
+      "generated": 605,
+      "completed": 329,
+      "expired": 233,
+      "truncated": 43,
+      "total_energy_j": 149.11728433857456,
+      "cpu_energy_j": 147.2341435699446,
+      "tx_energy_j": 1.8831407686299713,
+      "completion_pct": 54.3801652892562,
+      "mean_per_scene_completion_pct": 53.81747904234505,
+      "mean_episode_reward": 7.764089653576731,
+      "energy_per_DONE_j": 0.45324402534521147,
+      "completed_task_delay_s": 0.4299696048632219
+    },
+    "12000": {
+      "method": "C",
+      "checkpoint_steps": 12000,
+      "generated": 605,
+      "completed": 353,
+      "expired": 208,
+      "truncated": 44,
+      "total_energy_j": 162.17042920232436,
+      "cpu_energy_j": 159.41341866747572,
+      "tx_energy_j": 2.7570105348486416,
+      "completion_pct": 58.34710743801653,
+      "mean_per_scene_completion_pct": 57.93836874189412,
+      "mean_episode_reward": 17.92776194850105,
+      "energy_per_DONE_j": 0.4594063150207489,
+      "completed_task_delay_s": 0.43178470254957513
+    },
+    "16000": {
+      "method": "C",
+      "checkpoint_steps": 16000,
+      "generated": 605,
+      "completed": 388,
+      "expired": 175,
+      "truncated": 42,
+      "total_energy_j": 179.31180621642775,
+      "cpu_energy_j": 175.2645554296479,
+      "tx_energy_j": 4.047250786779842,
+      "completion_pct": 64.13223140495867,
+      "mean_per_scene_completion_pct": 63.85329312489502,
+      "mean_episode_reward": 33.48417908594455,
+      "energy_per_DONE_j": 0.4621438304547107,
+      "completed_task_delay_s": 0.4056185567010309
+    },
+    "20000": {
+      "method": "C",
+      "checkpoint_steps": 20000,
+      "generated": 605,
+      "completed": 414,
+      "expired": 149,
+      "truncated": 42,
+      "total_energy_j": 190.45762927936954,
+      "cpu_energy_j": 184.55729395492358,
+      "tx_energy_j": 5.900335324445965,
+      "completion_pct": 68.4297520661157,
+      "mean_per_scene_completion_pct": 68.44279769511319,
+      "mean_episode_reward": 44.53362980810205,
+      "energy_per_DONE_j": 0.4600425828004095,
+      "completed_task_delay_s": 0.4166666666666667
+    },
+    "24000": {
+      "method": "C",
+      "checkpoint_steps": 24000,
+      "generated": 605,
+      "completed": 415,
+      "expired": 147,
+      "truncated": 43,
+      "total_energy_j": 189.32384072282557,
+      "cpu_energy_j": 184.05558759605532,
+      "tx_energy_j": 5.268253126770259,
+      "completion_pct": 68.59504132231405,
+      "mean_per_scene_completion_pct": 68.54213589662447,
+      "mean_episode_reward": 45.25329332404057,
+      "energy_per_DONE_j": 0.4562020258381339,
+      "completed_task_delay_s": 0.4108915662650602
+    },
+    "28000": {
+      "method": "C",
+      "checkpoint_steps": 28000,
+      "generated": 605,
+      "completed": 410,
+      "expired": 151,
+      "truncated": 44,
+      "total_energy_j": 189.824368949893,
+      "cpu_energy_j": 183.667997567629,
+      "tx_energy_j": 6.156371382263998,
+      "completion_pct": 67.76859504132231,
+      "mean_per_scene_completion_pct": 67.80805971795185,
+      "mean_episode_reward": 43.402496203229035,
+      "energy_per_DONE_j": 0.46298626573144636,
+      "completed_task_delay_s": 0.42346341463414633
+    },
+    "32000": {
+      "method": "C",
+      "checkpoint_steps": 32000,
+      "generated": 605,
+      "completed": 416,
+      "expired": 146,
+      "truncated": 43,
+      "total_energy_j": 192.23415894392812,
+      "cpu_energy_j": 186.25971401721947,
+      "tx_energy_j": 5.97444492670865,
+      "completion_pct": 68.7603305785124,
+      "mean_per_scene_completion_pct": 68.78780426671257,
+      "mean_episode_reward": 45.70197812286557,
+      "energy_per_DONE_j": 0.4621013436152118,
+      "completed_task_delay_s": 0.42091346153846154
+    },
+    "36000": {
+      "method": "C",
+      "checkpoint_steps": 36000,
+      "generated": 605,
+      "completed": 413,
+      "expired": 151,
+      "truncated": 41,
+      "total_energy_j": 188.55139077556208,
+      "cpu_energy_j": 182.56940180514033,
+      "tx_energy_j": 5.981988970421754,
+      "completion_pct": 68.26446280991736,
+      "mean_per_scene_completion_pct": 68.25553276532173,
+      "mean_episode_reward": 43.611297237366365,
+      "energy_per_DONE_j": 0.4565408977616515,
+      "completed_task_delay_s": 0.4247457627118644
+    },
+    "40000": {
+      "method": "C",
+      "checkpoint_steps": 40000,
+      "generated": 605,
+      "completed": 412,
+      "expired": 151,
+      "truncated": 42,
+      "total_energy_j": 187.70649261883867,
+      "cpu_energy_j": 182.3333111956157,
+      "tx_energy_j": 5.373181423222952,
+      "completion_pct": 68.09917355371901,
+      "mean_per_scene_completion_pct": 68.01129378438701,
+      "mean_episode_reward": 43.432818552967895,
+      "energy_per_DONE_j": 0.45559828305543365,
+      "completed_task_delay_s": 0.4148058252427185
+    }
+  },
+  "baselines": [
+    {
+      "method": "local_only",
+      "checkpoint_steps": null,
+      "generated": 605,
+      "completed": 323,
+      "expired": 243,
+      "truncated": 39,
+      "total_energy_j": 118.66321643549148,
+      "cpu_energy_j": 118.66321643549148,
+      "tx_energy_j": 0.0,
+      "completion_pct": 53.388429752066116,
+      "mean_per_scene_completion_pct": 53.72476348982819,
+      "mean_episode_reward": 4.867831322473131,
+      "energy_per_DONE_j": 0.3673783790572492,
+      "completed_task_delay_s": 0.3977089783281734
+    },
+    {
+      "method": "heuristic",
+      "checkpoint_steps": null,
+      "generated": 605,
+      "completed": 371,
+      "expired": 190,
+      "truncated": 44,
+      "total_energy_j": 109.1668506307753,
+      "cpu_energy_j": 108.59256812073247,
+      "tx_energy_j": 0.5742825100428339,
+      "completion_pct": 61.32231404958678,
+      "mean_per_scene_completion_pct": 61.03767378351936,
+      "mean_episode_reward": 26.022282434158512,
+      "energy_per_DONE_j": 0.29425027124198194,
+      "completed_task_delay_s": 0.5313207547169811
+    }
+  ],
+  "last_four_completion_span_pp": 0.9917355371900811,
+  "descriptive_2pp_tolerance_met": true,
+  "training_signal_gate": "signal-watch",
+  "scope": "one training seed, fixed development scenes",
+  "paired_changes": [
+    {
+      "old_checkpoint": 32000,
+      "new_checkpoint": 36000,
+      "both_done": 387,
+      "neither_done": 163,
+      "new_only_done": 26,
+      "old_only_done": 29,
+      "net_DONE_change": -3
+    },
+    {
+      "old_checkpoint": 36000,
+      "new_checkpoint": 40000,
+      "both_done": 385,
+      "neither_done": 165,
+      "old_only_done": 28,
+      "new_only_done": 27,
+      "net_DONE_change": -1
+    },
+    {
+      "old_checkpoint": 32000,
+      "new_checkpoint": 40000,
+      "both_done": 385,
+      "neither_done": 162,
+      "new_only_done": 27,
+      "old_only_done": 31,
+      "net_DONE_change": -4
+    }
+  ],
+  "new_checkpoint_sources": {
+    "36000": {
+      "method": "C",
+      "checkpoint_steps": 36000,
+      "evaluation_run_id": "development-service-eval__remote_stress_v2__chk-978e17ee04bf__cfg-d2463e1929ea__eval-88394a17cfc6",
+      "source_checkpoint_path": "D:\\My_project_li\\logs\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a\\checkpoints\\step_36000.pt",
+      "source_checkpoint_sha256": "978e17ee04bf21909a916b427f49dd8d23db8d2b41ed0c9927b50ee92de3bdb7",
+      "evaluation_config_sha256": "d2463e1929ea867212edec4774f54b2c5a6dbc9ef957f00dd2978402aec4849a",
+      "duration_seconds": 205.80790110002272,
+      "new_episode_count": 20,
+      "baseline_episodes_exactly_matched": 15,
+      "external_traces_matched": 20,
+      "network_updates": 0,
+      "evaluation_artifacts": [
+        "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\36k\\evaluations\\development-service-eval__remote_stress_v2__chk-978e17ee04bf__cfg-d2463e1929ea__eval-88394a17cfc6\\evaluation_manifest.json",
+        "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\36k\\evaluations\\development-service-eval__remote_stress_v2__chk-978e17ee04bf__cfg-d2463e1929ea__eval-88394a17cfc6\\episode_metrics.jsonl",
+        "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\36k\\evaluations\\development-service-eval__remote_stress_v2__chk-978e17ee04bf__cfg-d2463e1929ea__eval-88394a17cfc6\\aggregate_metrics.json",
+        "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\36k\\evaluations\\development-service-eval__remote_stress_v2__chk-978e17ee04bf__cfg-d2463e1929ea__eval-88394a17cfc6\\evaluation_metrics.csv"
+      ],
+      "route_artifacts": [
+        "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\36k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-978e17ee04bf__cfg-d2463e1929ea__eval-88394a17cfc6\\summary.json",
+        "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\36k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-978e17ee04bf__cfg-d2463e1929ea__eval-88394a17cfc6\\route_decision_trace.jsonl"
+      ],
+      "service_artifacts": [
+        "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\36k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-978e17ee04bf__cfg-d2463e1929ea__eval-88394a17cfc6\\service_diagnostic_manifest.json",
+        "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\36k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-978e17ee04bf__cfg-d2463e1929ea__eval-88394a17cfc6\\task_lifecycle.jsonl",
+        "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\36k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-978e17ee04bf__cfg-d2463e1929ea__eval-88394a17cfc6\\cpu_service_trace.jsonl",
+        "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\36k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-978e17ee04bf__cfg-d2463e1929ea__eval-88394a17cfc6\\tx_service_trace.jsonl"
+      ]
+    },
+    "40000": {
+      "method": "C",
+      "checkpoint_steps": 40000,
+      "evaluation_run_id": "development-service-eval__remote_stress_v2__chk-bb2cff17b356__cfg-d2463e1929ea__eval-a9653a49fce5",
+      "source_checkpoint_path": "D:\\My_project_li\\logs\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "source_checkpoint_sha256": "bb2cff17b356112f5c9044e26b459259e77bdb648f2a019966e1969e499a49d7",
+      "evaluation_config_sha256": "d2463e1929ea867212edec4774f54b2c5a6dbc9ef957f00dd2978402aec4849a",
+      "duration_seconds": 204.45547799998894,
+      "new_episode_count": 20,
+      "baseline_episodes_exactly_matched": 15,
+      "external_traces_matched": 20,
+      "network_updates": 0,
+      "evaluation_artifacts": [
+        "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\40k\\evaluations\\development-service-eval__remote_stress_v2__chk-bb2cff17b356__cfg-d2463e1929ea__eval-a9653a49fce5\\evaluation_manifest.json",
+        "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\40k\\evaluations\\development-service-eval__remote_stress_v2__chk-bb2cff17b356__cfg-d2463e1929ea__eval-a9653a49fce5\\episode_metrics.jsonl",
+        "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\40k\\evaluations\\development-service-eval__remote_stress_v2__chk-bb2cff17b356__cfg-d2463e1929ea__eval-a9653a49fce5\\aggregate_metrics.json",
+        "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\40k\\evaluations\\development-service-eval__remote_stress_v2__chk-bb2cff17b356__cfg-d2463e1929ea__eval-a9653a49fce5\\evaluation_metrics.csv"
+      ],
+      "route_artifacts": [
+        "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\40k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-bb2cff17b356__cfg-d2463e1929ea__eval-a9653a49fce5\\summary.json",
+        "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\40k\\diagnostics\\hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-bb2cff17b356__cfg-d2463e1929ea__eval-a9653a49fce5\\route_decision_trace.jsonl"
+      ],
+      "service_artifacts": [
+        "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\40k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-bb2cff17b356__cfg-d2463e1929ea__eval-a9653a49fce5\\service_diagnostic_manifest.json",
+        "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\40k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-bb2cff17b356__cfg-d2463e1929ea__eval-a9653a49fce5\\task_lifecycle.jsonl",
+        "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\40k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-bb2cff17b356__cfg-d2463e1929ea__eval-a9653a49fce5\\cpu_service_trace.jsonl",
+        "D:\\My_project_li\\logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\40k\\diagnostics\\task-service-eval__development-service-eval__remote_stress_v2__chk-bb2cff17b356__cfg-d2463e1929ea__eval-a9653a49fce5\\tx_service_trace.jsonl"
+      ]
+    }
+  }
+}

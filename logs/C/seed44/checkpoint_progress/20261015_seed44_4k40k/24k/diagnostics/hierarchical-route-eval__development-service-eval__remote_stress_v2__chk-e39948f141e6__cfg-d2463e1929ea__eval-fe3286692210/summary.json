@@ -1,0 +1,41 @@
+{
+  "action_trace_sha256_by_episode": [
+    {
+      "action_trace_sha256": "72c144be3d20789158025c5ccdad97fefe10407ace5ebdcfcaa99e837b568749",
+      "episode_id": 0,
+      "evaluation_seed": 1042
+    },
+    {
+      "action_trace_sha256": "eda807b87ebdc6185d0162d9f678daf2f2cf32f0819d13460eeedfb881f6309b",
+      "episode_id": 1,
+      "evaluation_seed": 1043
+    },
+    {
+      "action_trace_sha256": "e69e96ccff7ba0b1556895b268b5746c8b889c0b1ad056c28ee7a786ec1e45f3",
+      "episode_id": 2,
+      "evaluation_seed": 1044
+    },
+    {
+      "action_trace_sha256": "58c11f2a70ff7f849bac6914374d82838e3c33425caa4ab64bd10976d691b7b4",
+      "episode_id": 3,
+      "evaluation_seed": 1045
+    },
+    {
+      "action_trace_sha256": "9ef88a50b40a66e39289c4698c9920f1e5e30063e9e5bc9b71e9982499fbbf41",
+      "episode_id": 4,
+      "evaluation_seed": 1046
+    }
+  ],
+  "decision_mode": "flat_leaf_v1",
+  "decoder_mode": "unified_node_v1",
+  "defer_count": 5,
+  "evaluation_run_id": "development-service-eval__remote_stress_v2__chk-e39948f141e6__cfg-d2463e1929ea__eval-fe3286692210",
+  "idle_count": 0,
+  "local_count": 189,
+  "outage_denominator": 541,
+  "remote_count": 415,
+  "remote_ratio": 0.6814449917898193,
+  "route_decision_count": 609,
+  "schema_version": "evaluation_route_telemetry.v2",
+  "tx_energy_total_j": 2.412460506125919
+}

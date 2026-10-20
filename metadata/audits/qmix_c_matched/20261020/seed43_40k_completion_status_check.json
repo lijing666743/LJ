@@ -1,0 +1,31 @@
+{
+  "checked_at_utc": "2026-10-20T00:21:42.294236+00:00",
+  "method": "c_feature_credit_qmix",
+  "training_seed": 43,
+  "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed43-40k.json",
+  "config_hash": "57723678881306cd31af85c02f6e682b4c898a812afaf7fc52ba3c18520b6cf9",
+  "check_scope": "training completion files and JSON/CSV consistency; not full checkpoint tensor/ancestry audit or frozen performance evaluation",
+  "environment_steps": 40000,
+  "episodes": 80,
+  "optimizer_updates": 1249,
+  "training_json_csv_match": true,
+  "training_metrics_finite": true,
+  "checkpoint_zip_structure_present": true,
+  "checkpoint_size_bytes": 1233640839,
+  "checkpoint": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\40k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-577236788813__git-eb1140cefc4a\\checkpoints\\final.pt",
+  "full_checkpoint_audit_performed": false,
+  "frozen_evaluation_completed_through_steps": 8000,
+  "later_stage_evaluation_directories_present": false,
+  "automation_id": "13-11-qmix",
+  "automation_status": "PAUSED",
+  "automation_stop_reason": "explicit user cancellation",
+  "shadow_steps": 135738,
+  "paired_labels": 240,
+  "training_or_evaluation_started_by_agent": false,
+  "paths": {
+    "raw_metrics": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\40k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-577236788813__git-eb1140cefc4a\\raw_metrics.jsonl",
+    "aggregate_metrics": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\40k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-577236788813__git-eb1140cefc4a\\aggregate_metrics.json",
+    "dashboard_csv": "dashboard_logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\40k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-577236788813__git-eb1140cefc4a_metrics.csv",
+    "dashboard_png": "plots\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\40k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-577236788813__git-eb1140cefc4a_dashboard.png"
+  }
+}

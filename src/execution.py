@@ -84,6 +84,11 @@ def validate_execution_context(
     """Fail fast on incompatible training/evaluation launch instructions."""
 
     resolved = context or ExecutionContext()
+    if config.method_id in {"factorized_action_gat_qmix", "c_feature_credit_qmix"} and any((
+            resolved.verify_replay_against is not None, resolved.warm_start_from is not None,
+            resolved.pause_at_periodic, resolved.oracle_probe_states is not None,
+            resolved.oracle_probe_mode is not None)):
+        raise ConfigError("QMIX supports full-state resume/budget extension; MAPPO-specific replay/oracle instructions are unsupported")
     if (resolved.extend_training_budget or resolved.check_resume
             or resolved.verify_replay_against is not None) and resolved.resume_from is None:
         raise ConfigError("budget extension, replay verification and resume check require --resume-from")
@@ -129,9 +134,9 @@ def validate_execution_context(
             raise ConfigError("--resume-from and --evaluate-from are mutually exclusive")
         if config.mode != "evaluation":
             raise ConfigError("--evaluate-from requires mode='evaluation'")
-        if config.method_id != "ca_gat_mappo":
+        if config.method_id not in {"ca_gat_mappo", "factorized_action_gat_qmix", "c_feature_credit_qmix"}:
             raise ConfigError(
-                "--evaluate-from requires method_id='ca_gat_mappo'"
+                "--evaluate-from requires a supported learned method_id"
             )
         if resolved.evaluation_device not in {"cpu", "cuda"}:
             raise ConfigError(
@@ -162,9 +167,9 @@ def validate_execution_context(
         return resolved
     if config.mode != "rl":
         raise ConfigError("--resume-from requires mode='rl'")
-    if config.method_id != "ca_gat_mappo":
-        raise ConfigError("--resume-from requires method_id='ca_gat_mappo'")
-    if config.launch_profile != "rl-formal":
+    if config.method_id not in {"ca_gat_mappo", "factorized_action_gat_qmix", "c_feature_credit_qmix"}:
+        raise ConfigError("--resume-from requires a supported learned method_id")
+    if config.method_id == "ca_gat_mappo" and config.launch_profile != "rl-formal":
         raise ConfigError("--resume-from requires launch_profile='rl-formal'")
 
     path = resolved.resume_from

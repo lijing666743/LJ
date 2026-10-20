@@ -1,0 +1,92 @@
+[
+  {
+    "step": 4000,
+    "kind": "PERIODIC_RESUME",
+    "episodes": 8,
+    "optimized": 3840,
+    "PPO_updates": 15,
+    "pending": 160,
+    "unused_tail": 0
+  },
+  {
+    "step": 8000,
+    "kind": "PERIODIC_RESUME",
+    "episodes": 16,
+    "optimized": 7936,
+    "PPO_updates": 31,
+    "pending": 64,
+    "unused_tail": 0
+  },
+  {
+    "step": 12000,
+    "kind": "PERIODIC_RESUME",
+    "episodes": 24,
+    "optimized": 11776,
+    "PPO_updates": 46,
+    "pending": 224,
+    "unused_tail": 0
+  },
+  {
+    "step": 16000,
+    "kind": "PERIODIC_RESUME",
+    "episodes": 32,
+    "optimized": 15872,
+    "PPO_updates": 62,
+    "pending": 128,
+    "unused_tail": 0
+  },
+  {
+    "step": 20000,
+    "kind": "PERIODIC_RESUME",
+    "episodes": 40,
+    "optimized": 19968,
+    "PPO_updates": 78,
+    "pending": 32,
+    "unused_tail": 0
+  },
+  {
+    "step": 24000,
+    "kind": "PERIODIC_RESUME",
+    "episodes": 48,
+    "optimized": 23808,
+    "PPO_updates": 93,
+    "pending": 192,
+    "unused_tail": 0
+  },
+  {
+    "step": 28000,
+    "kind": "PERIODIC_RESUME",
+    "episodes": 56,
+    "optimized": 27904,
+    "PPO_updates": 109,
+    "pending": 96,
+    "unused_tail": 0
+  },
+  {
+    "step": 32000,
+    "kind": "PERIODIC_RESUME",
+    "episodes": 64,
+    "optimized": 32000,
+    "PPO_updates": 125,
+    "pending": 0,
+    "unused_tail": 0
+  },
+  {
+    "step": 36000,
+    "kind": "PERIODIC_RESUME",
+    "episodes": 72,
+    "optimized": 35840,
+    "PPO_updates": 140,
+    "pending": 160,
+    "unused_tail": 0
+  },
+  {
+    "step": 40000,
+    "kind": "FINAL_COMPLETED",
+    "episodes": 80,
+    "optimized": 39936,
+    "PPO_updates": 156,
+    "pending": 0,
+    "unused_tail": 64
+  }
+]

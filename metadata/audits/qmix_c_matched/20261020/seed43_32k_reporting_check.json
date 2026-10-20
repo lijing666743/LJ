@@ -1,0 +1,15 @@
+{
+  "checked_at_utc": "2026-10-20T01:28:48.378315+00:00",
+  "report": "sections/results/20261018_C_FEATURE_CREDIT_QMIX.md",
+  "evaluation_audit": "metadata/audits/qmix_c_matched/20261020/seed43_32k_evaluation_check.json",
+  "progress_table_rows_verified": 8,
+  "same_budget_comparison_rows_verified": 6,
+  "scenario_table_rows_verified": 5,
+  "current_status_and_readme_updated": true,
+  "workspace_index_json_valid": true,
+  "automation_status": "PAUSED",
+  "final40k_evaluation_root_present_at_final_check": false,
+  "final40k_summary_present_at_final_check": false,
+  "final40k_comparison_workbook_created": false,
+  "no_training_evaluation_or_learning_code_changes": true
+}

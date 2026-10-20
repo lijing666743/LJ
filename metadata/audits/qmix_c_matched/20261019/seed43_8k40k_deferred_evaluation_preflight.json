@@ -1,0 +1,92 @@
+{
+  "schema": "seed43_8k_to_40k_deferred_evaluation_command_preflight.v1",
+  "checked_at_utc": "2026-10-19T10:56:39.978622+00:00",
+  "status": "PASS",
+  "source_budget": 8000,
+  "source_checkpoint_sha256": "76d2433bb9e50a82e05100a366b1fda2af3a900101bf9cd51e0d1976600a7092",
+  "source_training_and_completed_8k_evaluation_audits_passed": true,
+  "configurations": [
+    {
+      "budget": 8000,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed43-8k.json",
+      "config_hash": "ecd40c89f4ab8e07b29254da99af0a9fea3dc0a71641eda327900a454f81dfab",
+      "final_checkpoint": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\8k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-ecd40c89f4ab__git-eb1140cefc4a\\checkpoints\\final.pt"
+    },
+    {
+      "budget": 16000,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed43-16k.json",
+      "config_hash": "9e7047a6d882f2659b94650e199f53d36d214242baeea33c49587ec96e8b2d34",
+      "final_checkpoint": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\16k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-9e7047a6d882__git-eb1140cefc4a\\checkpoints\\final.pt"
+    },
+    {
+      "budget": 24000,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed43-24k.json",
+      "config_hash": "c375bbf551b46497c6a08112baf299c7e4d934d17b985e3a2e87891fedeaad87",
+      "final_checkpoint": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\24k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-c375bbf551b4__git-eb1140cefc4a\\checkpoints\\final.pt"
+    },
+    {
+      "budget": 32000,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed43-32k.json",
+      "config_hash": "96005352b13dae8652e07de8f3d3047f832946a029dca612f77ab24c3cfbbb32",
+      "final_checkpoint": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\32k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-96005352b13d__git-eb1140cefc4a\\checkpoints\\final.pt"
+    },
+    {
+      "budget": 40000,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed43-40k.json",
+      "config_hash": "57723678881306cd31af85c02f6e682b4c898a812afaf7fc52ba3c18520b6cf9",
+      "final_checkpoint": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\40k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-577236788813__git-eb1140cefc4a\\checkpoints\\final.pt"
+    }
+  ],
+  "static_budget_extension_edges_checked": 4,
+  "cli_training_argument_parses_checked": 4,
+  "source_python_files_unchanged": 138,
+  "target_output_roots_absent": 12,
+  "training_stage_sequence": [
+    16000,
+    24000,
+    32000,
+    40000
+  ],
+  "evaluation_stage_sequence_after_all_training": [
+    16000,
+    24000,
+    32000,
+    40000
+  ],
+  "evaluation_interval_steps": 4000,
+  "fixed_primary_report_step": 40000,
+  "expected_final_episodes": 80,
+  "expected_final_updates": 1249,
+  "expected_final_series_checkpoint_count": 10,
+  "expected_final_series_method_scene_records": 200,
+  "expected_new_training_environment_steps": 32000,
+  "expected_new_optimizer_updates": 1024,
+  "full_state_restore_check_executed_in_this_preparation": false,
+  "full_state_restore_automatically_checked_before_each_training_stage": true,
+  "training_phase_caps_match_seed42": true,
+  "training_does_not_read_frozen_evaluation_results": true,
+  "prior_milestone_evaluation_required_by_continuation_evaluator": true,
+  "all_training_before_evaluation_supported_by_chronological_evaluation_phase": true,
+  "learning_code_or_parameters_changed": false,
+  "training_started": false,
+  "evaluation_started": false,
+  "analysis_environment_steps": 0,
+  "analysis_optimizer_updates": 0,
+  "powershell_parser_validation": {
+    "status": "PASS",
+    "syntax_errors": 0,
+    "workflow_executed": false,
+    "workflow_sha256": "5202e16361ae8bde687086de87510e400ba6d3a95a9bf4cd966a5ab1eb5338d6"
+  },
+  "runtime_commands_saved": false,
+  "execution_owner": "user_local",
+  "scope": "Existing checkpoint audit reused after byte identity check; static configuration, budget contracts, CLI argument parsing and PowerShell AST syntax only. No new full-state restore, training, inference or performance evaluation executed. Timing-only scheduling change for frozen evaluation, while retaining all stage caps and outputs.",
+  "checkpoint_path_expression_executed_read_only": true,
+  "navigation_validation": {
+    "status": "PASS",
+    "documents": 4,
+    "local_links_checked": 44,
+    "training_and_evaluation_not_started": true,
+    "completed_budget_still_8000": true
+  }
+}

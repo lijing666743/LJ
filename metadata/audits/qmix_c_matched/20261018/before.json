@@ -1,0 +1,24 @@
+{
+  "schema": "c_matched_pre_edit.v1",
+  "c_config_hash": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15",
+  "c_actor_initial_state_sha256": "c161fe274db124be9d1e45139c65ab00bdcbea9fb509b2087c6a43d5b06f0f01",
+  "c_registered_parameters": 504233,
+  "original_modified_source": {
+    "src/config.py": "e6ee52760bf7ac604d98ab0fbd4365786577cd3a960e74d60a20fe4b5e072cde",
+    "src/registry.py": "69934b1bd6b46b93c99a1a1b1be4d4e3bf72559c66d5d542cd706856788d2a2c",
+    "src/execution.py": "036a294409014fdb45bd084cd6b173185c877e6af7e9ff615959f5787af6a12b",
+    "src/models/factorized_gat_qmix.py": "fe09c89adae4e20fcf61fa71754703c8e4f290502a87c3f17d94789d225b0114",
+    "src/models/qmix_replay.py": "04e76cd457b3f2c02543e636bb666caffb81aba70f60989c18644425f6d052eb",
+    "src/models/qmix_trainer.py": "6e6eb0f8b11913fafc9b401c197bece191a854759acf2100a04b54a06c0237d6",
+    "src/models/qmix_continuation.py": "57f31eff4a4160c763383bb0719cc52aa2a48ad2f7e9100a71a427c2c10a78a0",
+    "src/evaluation/qmix_runner.py": "493827d9ce95619964c620f483eeb92e6d49d8505f41cdc48e92e7c33c256a02",
+    "src/evaluation/qmix_checkpoint_progress.py": "7c3d2cf247b7dd5d8a333754934bebbce26092074468bf708104f6e2af7f2a6a",
+    "src/training/qmix_handlers.py": "fc19886f8b097315f264aa0b1078ddc66c08a88a21608b73bde59270f8467b0e"
+  },
+  "c_source_sha256": {
+    "src/models/ca_gat_mappo.py": "3e79786c34d9065f829a5bfc2d55ded668ef235376795a2220d1d7fa36d2c056",
+    "src/models/route_physical_relations.py": "95226f1cd4511c7551dd1aa3dddf266a4fe69960a28f4110a5acd0a9d23b6f25",
+    "src/models/integrated_scheduler.py": "2f38b04ca1d249c8c59dfbd5e2f9bd0d710837a505929aad363fe2a0c62b5312",
+    "src/env/reward.py": "424957a87c6b16836cd7ec73535098b70c3da25728d476a35969b28d7cde19cf"
+  }
+}

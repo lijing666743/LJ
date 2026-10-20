@@ -1,0 +1,119 @@
+{
+  "schema": "c_feature_credit_qmix_24k_training_validation.v1",
+  "checked_at_utc": "2026-10-18T23:35:15.804075+00:00",
+  "status": "PASS",
+  "environment_steps": 24000,
+  "optimizer_updates": 737,
+  "new_environment_steps": 8000,
+  "new_optimizer_updates": 256,
+  "episodes": 48,
+  "original_32_episodes_and_481_updates_preserved": true,
+  "training_json_raw_csv_equal": true,
+  "source_python_files_unchanged": 138,
+  "checkpoint_contract_ancestry_and_model_optimizer_finite_values": true,
+  "responsibility_records_conserved": 24000,
+  "loss_decomposition_finite_and_conserved_updates": 737,
+  "loss_decomposition_absolute_tolerance": 1e-07,
+  "loss_decomposition_max_absolute_residual": 4.577406054195876e-08,
+  "loss_audit_note": "Initial 1e-9 diagnostic threshold was below the float32 component rounding residual. Actual maximum was 4.5774e-8; final explicit tolerance is 1e-7, without changing training code or records.",
+  "checkpoints": [
+    {
+      "steps": 20000,
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed42\\24k\\c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-f76b44e1144b__git-eb1140cefc4a\\checkpoints\\step_020000.pt",
+      "sha256": "5b7cf2e7ed7db705ee69841fa8dd5e20c797e421d5e0920ad44e028ceea6dbba",
+      "bytes": 635722951,
+      "episodes": 40,
+      "updates": 609,
+      "replay_chunks": 640,
+      "responsibility_records": 20000,
+      "paired_labels": 136,
+      "total_shadow_steps": 74554,
+      "nonidle_positive_frequency_cpu_proposals": 48566
+    },
+    {
+      "steps": 24000,
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed42\\24k\\c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-f76b44e1144b__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "sha256": "8c78b64d2665aa5f812f7970cad526edfec3602e4a0d1413b191ea51abc7c875",
+      "bytes": 756344775,
+      "episodes": 48,
+      "updates": 737,
+      "replay_chunks": 768,
+      "responsibility_records": 24000,
+      "paired_labels": 162,
+      "total_shadow_steps": 91160,
+      "nonidle_positive_frequency_cpu_proposals": 58222
+    }
+  ],
+  "parameter_changes": {
+    "16000_to_20000": {
+      "changed_tensor_count": 182,
+      "changed_component_tensor_counts": {
+        "physical_35": 4,
+        "route_scoring": 37,
+        "route_private_graph": 37,
+        "route_private_GRU": 4,
+        "tx_private": 8,
+        "cpu_joint": 10
+      }
+    },
+    "20000_to_24000": {
+      "changed_tensor_count": 182,
+      "changed_component_tensor_counts": {
+        "physical_35": 4,
+        "route_scoring": 37,
+        "route_private_graph": 37,
+        "route_private_GRU": 4,
+        "tx_private": 8,
+        "cpu_joint": 10
+      }
+    }
+  },
+  "target_copies": [
+    {
+      "update": 200,
+      "environment_steps": 7224
+    },
+    {
+      "update": 400,
+      "environment_steps": 13480
+    },
+    {
+      "update": 600,
+      "environment_steps": 19724
+    }
+  ],
+  "total_shadow_steps": 91160,
+  "new_shadow_steps": 29650,
+  "paired_labels": 162,
+  "new_paired_labels": 56,
+  "factual_plus_shadow_simulation_steps": 115160,
+  "training_epsilon_at_24k": 0.2875000000000001,
+  "training_wall_time_available": false,
+  "analysis_environment_steps": 0,
+  "analysis_optimizer_updates": 0,
+  "optimizer_constructions": 0,
+  "dashboard_png_visually_inspected": true,
+  "input_sha256": [
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed42\\24k\\c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-f76b44e1144b__git-eb1140cefc4a\\config_snapshot.yaml",
+      "sha256": "1c3326aaa31184ef138845c824d1dc35fec76950784bda18df88585373543ce7"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed42\\24k\\c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-f76b44e1144b__git-eb1140cefc4a\\raw_metrics.jsonl",
+      "sha256": "a8570d0881459dc13771783cba350e199a4dc92c241600df6d681d1d85f6351f"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed42\\24k\\c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-f76b44e1144b__git-eb1140cefc4a\\aggregate_metrics.json",
+      "sha256": "59832a8a52baf5549e2b42629c6c8c1b2437765ab9ad1e6d939d4a3034025286"
+    },
+    {
+      "path": "dashboard_logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed42\\24k\\c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-f76b44e1144b__git-eb1140cefc4a_metrics.csv",
+      "sha256": "1fe8eea3a3261718bfef07f5e7e29ceba23fb273996e4ce5842b67978d06a92d"
+    },
+    {
+      "path": "plots\\strong_baselines\\development\\c_feature_credit_qmix\\seed42\\24k\\c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-f76b44e1144b__git-eb1140cefc4a_dashboard.png",
+      "sha256": "fecf26191b9feb9084ec50dfb66ebeeeb18987a9cbc2bf6e587b58e8ec0deb73"
+    }
+  ],
+  "validation_wall_time_seconds": 177.7441528999916
+}

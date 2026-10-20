@@ -1,0 +1,120 @@
+{
+  "schema": "qmix_checkpoint_progress.v1",
+  "series_id": "qmix-checkpoints__seed-43__78c5e1fb33979d89",
+  "training_seed": 43,
+  "training_config_hash": "96005352b13dae8652e07de8f3d3047f832946a029dca612f77ab24c3cfbbb32",
+  "checkpoints": [
+    {
+      "training_steps": 4000,
+      "kind": "periodic",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\8k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-ecd40c89f4ab__git-eb1140cefc4a\\checkpoints\\step_004000.pt",
+      "sha256": "13484476dce0e4375ab06d853927b19e70bd11315f3896d3a7a47887a3624a34",
+      "evaluation_run_id": "qmix-eval__23e48e3a2fdf8b16",
+      "source_training_config_hash": "ecd40c89f4ab8e07b29254da99af0a9fea3dc0a71641eda327900a454f81dfab",
+      "inherited": true,
+      "continuation_evaluator_sha256": "72a65cb42ea37ee742feb7a63e12df59855bd9824b703ca3f3f274669cf9b9b9"
+    },
+    {
+      "training_steps": 8000,
+      "kind": "final",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\8k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-ecd40c89f4ab__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "sha256": "76d2433bb9e50a82e05100a366b1fda2af3a900101bf9cd51e0d1976600a7092",
+      "evaluation_run_id": "qmix-eval__0ddb32c0fbc503c1",
+      "source_training_config_hash": "ecd40c89f4ab8e07b29254da99af0a9fea3dc0a71641eda327900a454f81dfab",
+      "inherited": true,
+      "continuation_evaluator_sha256": "72a65cb42ea37ee742feb7a63e12df59855bd9824b703ca3f3f274669cf9b9b9"
+    },
+    {
+      "training_steps": 12000,
+      "kind": "periodic",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\16k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-9e7047a6d882__git-eb1140cefc4a\\checkpoints\\step_012000.pt",
+      "sha256": "2d192eead74613529e585107780926dfaeb27e93f35740991991c9f2e4a9a61a",
+      "evaluation_run_id": "qmix-eval__e8de299b23330160",
+      "source_training_config_hash": "9e7047a6d882f2659b94650e199f53d36d214242baeea33c49587ec96e8b2d34",
+      "inherited": true,
+      "continuation_evaluator_sha256": "72a65cb42ea37ee742feb7a63e12df59855bd9824b703ca3f3f274669cf9b9b9"
+    },
+    {
+      "training_steps": 16000,
+      "kind": "final",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\16k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-9e7047a6d882__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "sha256": "6f4775bd136852cdcef7b21b27e49a4e519b618b3ac3e6993321193d234045d2",
+      "evaluation_run_id": "qmix-eval__e5219fafc6d2ac86",
+      "source_training_config_hash": "9e7047a6d882f2659b94650e199f53d36d214242baeea33c49587ec96e8b2d34",
+      "inherited": true,
+      "continuation_evaluator_sha256": "72a65cb42ea37ee742feb7a63e12df59855bd9824b703ca3f3f274669cf9b9b9"
+    },
+    {
+      "training_steps": 20000,
+      "kind": "periodic",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\24k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-c375bbf551b4__git-eb1140cefc4a\\checkpoints\\step_020000.pt",
+      "sha256": "21361039fefeaeb3e61f6355e005e055a77554592ecd1f4be567d57b4c7688fa",
+      "evaluation_run_id": "qmix-eval__023ea6335a5893b7",
+      "source_training_config_hash": "c375bbf551b46497c6a08112baf299c7e4d934d17b985e3a2e87891fedeaad87",
+      "inherited": true,
+      "continuation_evaluator_sha256": "72a65cb42ea37ee742feb7a63e12df59855bd9824b703ca3f3f274669cf9b9b9"
+    },
+    {
+      "training_steps": 24000,
+      "kind": "final",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\24k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-c375bbf551b4__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "sha256": "1aea2a4ea1cf2e67b5eb7bf51b9acb608756ae1e2d6d91ebe22a08125ee8ca49",
+      "evaluation_run_id": "qmix-eval__94e614a7339fca05",
+      "source_training_config_hash": "c375bbf551b46497c6a08112baf299c7e4d934d17b985e3a2e87891fedeaad87",
+      "inherited": true,
+      "continuation_evaluator_sha256": "72a65cb42ea37ee742feb7a63e12df59855bd9824b703ca3f3f274669cf9b9b9"
+    },
+    {
+      "training_steps": 28000,
+      "kind": "periodic",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\32k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-96005352b13d__git-eb1140cefc4a\\checkpoints\\step_028000.pt",
+      "sha256": "032fee7760e94ffc498701ba864a3f36a0900085c0c8cfcc5fce53e0a17066af",
+      "evaluation_run_id": "qmix-eval__6b95db15ce4ee18c",
+      "source_training_config_hash": "96005352b13dae8652e07de8f3d3047f832946a029dca612f77ab24c3cfbbb32",
+      "inherited": false,
+      "continuation_evaluator_sha256": "72a65cb42ea37ee742feb7a63e12df59855bd9824b703ca3f3f274669cf9b9b9"
+    },
+    {
+      "training_steps": 32000,
+      "kind": "final",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\32k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-96005352b13d__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "sha256": "42a4c83ce5b145cd212f70d41a4f0cd0b1c8ec22dd9f6401ec9186ca7787b10e",
+      "evaluation_run_id": "qmix-eval__d39403f9b6bd7b8f",
+      "source_training_config_hash": "96005352b13dae8652e07de8f3d3047f832946a029dca612f77ab24c3cfbbb32",
+      "inherited": false,
+      "continuation_evaluator_sha256": "72a65cb42ea37ee742feb7a63e12df59855bd9824b703ca3f3f274669cf9b9b9"
+    }
+  ],
+  "evaluation_seeds": [
+    1042,
+    1043,
+    1044,
+    1045,
+    1046
+  ],
+  "method_suite": [
+    "c_feature_credit_qmix",
+    "local_only",
+    "heuristic",
+    "random"
+  ],
+  "primary_report_step": 32000,
+  "checkpoint_selection": "fixed_budget_end; intermediate points describe learning only",
+  "network_updates": 0,
+  "exploration": false,
+  "device": "cpu",
+  "evaluation_source_sha256": {
+    "src/evaluation/metrics.py": "0d52b4174f1983ca6f856b8bd152fa636ff3c6ef69479238644cd5f7d7c669b9",
+    "src/evaluation/qmix_checkpoint_progress.py": "fb881427f666b261c218c52afab5a90976b6496e24bab64f71886b09e3024603",
+    "src/evaluation/qmix_runner.py": "3fad5966a4ac2aa53925278710dae090a86a71ec9b7bd0b489bcad2948072ff3",
+    "src/evaluation/runner.py": "8ee3f99fb380c3e17fd34131c14fcf746afae5340304edf09a5d6769c670d54d",
+    "src/policies/__init__.py": "0c5aaac6c8db7166e2d60328f4c7e4e37527dcf882f0ab7cbf34282336a72ff0",
+    "src/policies/base.py": "679768c62a43f209141da545ae53a2cb4d7b1986fc0c56909fefb9c1e57f482d",
+    "src/policies/heuristic_policy.py": "9f909b19c8f2e3fd9e5f756caf56ff8c4651e40a03c5627c3d8064afb13fd9c5",
+    "src/policies/local_only_policy.py": "738d1d05d4c8f5d36a92b5d3bc586e9fdaf93f3b4107e162fb82ced7d841d713",
+    "src/policies/random_policy.py": "813627b0de07f2769e0bfd4a6cf1bd52a5515b60c178a06a20ee7e17e619364e"
+  },
+  "fixed_baseline_repeat_matches": 105,
+  "episode_count": 160,
+  "claim_boundary": "Development evaluation; no held-out or superiority claim"
+}

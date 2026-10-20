@@ -1,0 +1,7 @@
+{
+  "python": "3.13.11",
+  "torch": "2.7.1+cu118",
+  "cuda": "11.8",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce MX450"
+}

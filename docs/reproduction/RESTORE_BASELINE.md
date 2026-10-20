@@ -41,4 +41,4 @@ git diff baseline-c32k-20261014 -- src tests experiments
 
 C的8k、16k、32k训练链、全部periodic、final、配置快照和训练侧日志完整保存。下一次更长预算续训，优先审计从28k periodic恢复、重放核对32k final再继续的路线；28k保存96条pending，32k final用于边界参照。目标预算、配置和正式命令另行准备，本次不启动训练。
 
-当前方法/结果入口见[当前状态](../results/CURRENT_EXPERIMENT_STATUS.md)；既有16k/32k恢复边界见[完整复现说明](REPRODUCE_ABC.md)。保存本身不替代新的续训恢复检查。
+当前方法/结果入口见[当前状态](../results/CURRENT_EXPERIMENT_STATUS.md)；既有16k/32k恢复边界见[完整复现说明](REPRODUCE_C_D.md)。保存本身不替代新的续训恢复检查。

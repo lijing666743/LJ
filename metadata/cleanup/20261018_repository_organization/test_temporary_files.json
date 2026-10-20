@@ -1,0 +1,32 @@
+[
+  {
+    "path": "metadata/cleanup/20261018_repository_organization/test_tmp/pytest_final/test_matched_cli_check_dispatc0/final.pt",
+    "bytes": 28,
+    "sha256": "8b289df945e4558626b9948fd1f2bb738c0642922b20672093ec4a44a424241c"
+  },
+  {
+    "path": "metadata/cleanup/20261018_repository_organization/test_tmp/pytest_final/test_matched_resume_accepts_ex0/final.pt",
+    "bytes": 31,
+    "sha256": "596733220718c5e4fea093835ce9a60f1b4c40a6577f26b10767b8ac364801bf"
+  },
+  {
+    "path": "metadata/cleanup/20261018_repository_organization/test_tmp/pytest_final/test_matched_resume_accepts_ex1/final.pt",
+    "bytes": 31,
+    "sha256": "596733220718c5e4fea093835ce9a60f1b4c40a6577f26b10767b8ac364801bf"
+  },
+  {
+    "path": "metadata/cleanup/20261018_repository_organization/test_tmp/pytest/test_matched_cli_check_dispatc0/final.pt",
+    "bytes": 28,
+    "sha256": "8b289df945e4558626b9948fd1f2bb738c0642922b20672093ec4a44a424241c"
+  },
+  {
+    "path": "metadata/cleanup/20261018_repository_organization/test_tmp/pytest/test_matched_resume_accepts_ex0/final.pt",
+    "bytes": 31,
+    "sha256": "596733220718c5e4fea093835ce9a60f1b4c40a6577f26b10767b8ac364801bf"
+  },
+  {
+    "path": "metadata/cleanup/20261018_repository_organization/test_tmp/pytest/test_matched_resume_accepts_ex1/final.pt",
+    "bytes": 31,
+    "sha256": "596733220718c5e4fea093835ce9a60f1b4c40a6577f26b10767b8ac364801bf"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "schema": "qmix_cpu_pair_cleanup_gate.v1",
+  "all_required_checks_passed": true,
+  "tests": 230,
+  "subtests": 22,
+  "cuda_engineering_and_frozen_passed": true,
+  "fresh_8k_initialization_passed": true,
+  "new_development_training_started": false
+}

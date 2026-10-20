@@ -1,0 +1,72 @@
+[
+  {
+    "path": "docs/reproduction/C_SEED43_40K.md",
+    "bytes": 3879,
+    "sha256": "a0350b688453f299d253ee45b7fd89c446c74eb00d8c9b5ceb05bcf0c51d5d99"
+  },
+  {
+    "path": "experiments/task-allocation/configs/c-seed43-40k.json",
+    "bytes": 10918,
+    "sha256": "50d7de1ca36b53bcc237b3ae53abebdaa4de9dbcd13dc880b15c25b0b829588c"
+  },
+  {
+    "path": "metadata/audits/training_launch/20261014_c_seed43_40k_ready/config_changes.json",
+    "bytes": 1348,
+    "sha256": "7866723feb4f5fcc237f33d75217f2d9f301be3b4e914e006cfb459524a5aaa0"
+  },
+  {
+    "path": "metadata/audits/training_launch/20261014_c_seed43_40k_ready/expected_checkpoint_accounting.json",
+    "bytes": 1756,
+    "sha256": "355c5891c430ec5ac64c80de4e7a2b6cc361c3bae4c7b59a3278985b1ca6e8f5"
+  },
+  {
+    "path": "metadata/audits/training_launch/20261014_c_seed43_40k_ready/fresh_initialization_check.json",
+    "bytes": 678,
+    "sha256": "55dbc724034e13f48d221337da025cdcc215cf8ec9246a86717bfba51a87d95f"
+  },
+  {
+    "path": "metadata/audits/training_launch/20261014_c_seed43_40k_ready/inputs_after.json",
+    "bytes": 89020,
+    "sha256": "36697639c0398a17f1da84fddaea921e84161c7551df8a67e5a5155c6334fb1b"
+  },
+  {
+    "path": "metadata/audits/training_launch/20261014_c_seed43_40k_ready/inputs_before.json",
+    "bytes": 89020,
+    "sha256": "36697639c0398a17f1da84fddaea921e84161c7551df8a67e5a5155c6334fb1b"
+  },
+  {
+    "path": "metadata/audits/training_launch/20261014_c_seed43_40k_ready/launch_command.json",
+    "bytes": 401,
+    "sha256": "c710a230d71fd7d772e8a8b463c57c4d81e569c633087a5a6b1df1eab9d42325"
+  },
+  {
+    "path": "metadata/audits/training_launch/20261014_c_seed43_40k_ready/preflight_summary.json",
+    "bytes": 3370,
+    "sha256": "10d0fd55fa796c99a386b89cbb007137521f8aa253d0933b146e590aaf4e5405"
+  },
+  {
+    "path": "metadata/audits/training_launch/20261014_c_seed43_40k_ready/runtime.json",
+    "bytes": 221,
+    "sha256": "cf3a1f804584576dea4155d9d86c71fc9502be6283e496f8e07937230e56f47d"
+  },
+  {
+    "path": "metadata/audits/training_launch/20261014_c_seed43_40k_ready/target_identity.json",
+    "bytes": 2362,
+    "sha256": "69c2b34eddef169866a33259c6eb8c5d582f4a7586727ed0b3ac7578dd5e30d2"
+  },
+  {
+    "path": "metadata/audits/training_launch/20261014_c_seed43_40k_ready/tests.xml",
+    "bytes": 10199,
+    "sha256": "5f8f6c7b6fc9828c45f9223a099b72628611aef31598d7c48523b6fcdf844d8a"
+  },
+  {
+    "path": "metadata/audits/training_launch/20261014_c_seed43_40k_ready/validation.json",
+    "bytes": 439,
+    "sha256": "d0dfa42e13401833c6c07d0cf63d38d2fb8aec147ceb158dca0b42c812dce22d"
+  },
+  {
+    "path": "README.md",
+    "bytes": 29409,
+    "sha256": "627dd862441590933294e4f7fa79e4be1cb2d21e40e6d97b432fd27f344e7981"
+  }
+]

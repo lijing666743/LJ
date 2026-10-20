@@ -661,6 +661,8 @@ $$
 
 inactive branch 的 Q 值不进入 $Q_i$。条件 head 可以使用已经选择的前置分支，但不能创建指数级的 flat joint action table。无效 action 不参与 argmax 或 target max；至少一个 canonical valid action 始终保留。
 
+2026-10-16 实现修正：当前基线采用上式的前缀独立特例，七个原始 Q 分数仅依赖 GRU 表征，前置动作只影响既有条件 mask。合法提案可分为 Route、TX 参数组合及 CPU 队列/频率组合；TX 与 CPU 组内对完整合法后缀求最大值，再按固定顺序输出七分支。不得用忽略后缀贡献的逐头 argmax 代替对同一个 $Q_i$ 的最大化。修正不改变 C、环境、reward 或 action mask。
+
 ### 3.10.2 QMIX 单调混合
 
 每个 agent 的 factorized utility 由共享 mixer 与 centralized state 混合：
@@ -675,13 +677,13 @@ $$
 \frac{\partial Q_{\mathrm{tot}}}{\partial Q_i}\ge0,\qquad \forall i\in\mathcal{U}.
 $$
 
-该关系只定义 QMIX 的 monotonic mixing 结构，不宣称全局最优或收敛保证。执行时每个 UAV 根据有效 mask 对七个分支按固定 order 做 decentralized valid argmax，形成 proposal 后仍交给同一个 deterministic executor。
+该关系只定义 QMIX 的 monotonic mixing 结构，不宣称真实环境回报全局最优或收敛保证。执行时每个 UAV 根据有效 mask 对自身完整 factorized utility 求最大值；当前实现通过 Route、TX、CPU 分组后缀最大化完成该操作，随后按固定 order 输出七分支 proposal 并交给同一个 deterministic executor。
 
 ### 3.10.3 序列 replay、target 与 TD 接口
 
 基线使用 recurrent sequence replay，而非独立随机 transition。replay item 至少保存 actor-visible observation/graph、七分支 proposal、masks、active indicators、executed-action summary、reward、critic/mixer state、next-state 信息、episode boundary 和 chunk 初始 GRU hidden。禁止用当前真实 SINR 或未来状态替换上述 actor-visible input。
 
-令 $Q_{\mathrm{tot}}^-$ 为 target encoder、target branch heads 和 target mixer 的组合，$\widetilde{\mathbf{a}}_{t+1}^{\star}$ 为对有效分支逐步 greedy 得到的下一时刻 proposal，固定 horizon 的 TD target 为：
+令 $Q_{\mathrm{tot}}^-$ 为 target encoder、target branch heads 和 target mixer 的组合，$\widetilde{\mathbf{a}}_{t+1}^{\star}$ 为按同一完整 factorized utility 最大化规则得到的下一时刻合法 proposal，固定 horizon 的 TD target 为：
 
 $$
 y_t^Q=r_t+\gamma b_t^{\mathrm{boot}}Q_{\mathrm{tot}}^-\left(\widetilde{\mathbf{a}}_{t+1}^{\star},s_{t+1}\right).
@@ -849,7 +851,7 @@ $$
 |---|---|
 | Input | 与主方法相同的 actor-visible observation、动态图、masks、active indicators、recurrent state；训练 mixer 另接当前 centralized state $s_t$ |
 | Encoder | CA-GATv2 + GRU 的 agent-local representation；参数与主方法独立，capacity 由 Section 4 配置 |
-| Branch output | 七个 masked branch-wise Q heads，保持同一 fixed domain、sampling/selection order 和 inactive canonical semantics |
+| Branch output | 七个前缀独立 Q heads；使用原条件 masks 与组内后缀最大化，保持 fixed domain、sampling/selection order 和 inactive canonical semantics |
 | Local utility | $Q_i=\sum_k b_i^{(k)}Q_{i,k}$，不枚举 flat joint action |
 | Mixer | $Q_{\mathrm{tot}}=f_\omega(Q_1,\ldots,Q_N;s_t)$；通过 non-negative mixing weights 保持 $\partial Q_{\mathrm{tot}}/\partial Q_i\ge0$ |
 | Replay | recurrent contiguous sequence replay，保存 proposal、masks、active indicators、reward、boundary、hidden、next-state 和 executed summary |

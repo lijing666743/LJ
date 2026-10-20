@@ -1,0 +1,183 @@
+{
+  "schema": "repository_navigation_validation.v1",
+  "status": "PASS",
+  "checked_markdown_files": [
+    "README.md",
+    "docs/DIRECTORY_GUIDE.md",
+    "docs/results/CURRENT_EXPERIMENT_STATUS.md",
+    "experiments/README.md",
+    "metadata/README.md",
+    "logs/README.md",
+    "sections/README.md",
+    "docs/results/README.md",
+    "experiments/strong-baselines/README.md"
+  ],
+  "checked_local_links": 70,
+  "broken_links": [],
+  "pending_receipt_links": 0,
+  "configuration_count": 26,
+  "configurations": [
+    {
+      "path": "experiments/strong-baselines/configs/c-feature-credit-qmix-engineering.json",
+      "method_id": "c_feature_credit_qmix",
+      "mode": "rl",
+      "config_hash": "0055505a02ccae44bcb1c0c7532f96505754858ee6588f8bec2ffa2e4af0abab"
+    },
+    {
+      "path": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed42-16k.json",
+      "method_id": "c_feature_credit_qmix",
+      "mode": "rl",
+      "config_hash": "f3b23eca17eca71c882a08c8ade83868a01b3858218207822fe108189dd4caf4"
+    },
+    {
+      "path": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed42-8k.json",
+      "method_id": "c_feature_credit_qmix",
+      "mode": "rl",
+      "config_hash": "1b3cae3cdac58f3000fa17685e3e4b5bbe60cdb26e84cf75b177c15bec5c4988"
+    },
+    {
+      "path": "experiments/strong-baselines/configs/fa-gat-qmix-episode-return-engineering.json",
+      "method_id": "factorized_action_gat_qmix",
+      "mode": "rl",
+      "config_hash": "29c637e3016c5d95358a681ef289603acdda33eabe66dc574361d3a8f6fe9881"
+    },
+    {
+      "path": "experiments/strong-baselines/configs/fa-gat-qmix-seed42-16k-episode-return-development.json",
+      "method_id": "factorized_action_gat_qmix",
+      "mode": "rl",
+      "config_hash": "aac88702da1804ec87fa75217011456493ef8538e90ca5477430b5542e3d97ff"
+    },
+    {
+      "path": "experiments/strong-baselines/configs/fa-gat-qmix-seed42-40k.draft.json",
+      "method_id": "factorized_action_gat_qmix",
+      "mode": "rl",
+      "config_hash": "d1bb871e54433cfca2a7e549c53963fbada6d43c77c618c69071659712383318"
+    },
+    {
+      "path": "experiments/strong-baselines/configs/fa-gat-qmix-seed42-40k.json",
+      "method_id": "factorized_action_gat_qmix",
+      "mode": "rl",
+      "config_hash": "0ccd8913530c4a861707352159d951ae336695e7e7a9d54bfb76f9d942aa8c6e"
+    },
+    {
+      "path": "experiments/strong-baselines/configs/fa-gat-qmix-seed42-8k-episode-return-development.json",
+      "method_id": "factorized_action_gat_qmix",
+      "mode": "rl",
+      "config_hash": "0f3441f8ff9554fecac9e055799fe041314a0ec180d7a00d1664a2e1dcc39634"
+    },
+    {
+      "path": "experiments/strong-baselines/configs/fa-gat-qmix-seed43-40k.draft.json",
+      "method_id": "factorized_action_gat_qmix",
+      "mode": "rl",
+      "config_hash": "77db946326c75fa1069f8a902b86ee05e432d43118cbe714f7e82ed62cea8303"
+    },
+    {
+      "path": "experiments/strong-baselines/configs/fa-gat-qmix-seed44-40k.draft.json",
+      "method_id": "factorized_action_gat_qmix",
+      "mode": "rl",
+      "config_hash": "db07be77458167145909297a761230fc5c4330ba81c7f62e59aa0a095160beac"
+    },
+    {
+      "path": "experiments/task-allocation/configs/a-seed42-16k-resume.json",
+      "method_id": "ca_gat_mappo",
+      "mode": "rl",
+      "config_hash": "04d52c3c96635e1e984547506be0197b2c7f3fc3410102e44fce9dd08fcc7cbc"
+    },
+    {
+      "path": "experiments/task-allocation/configs/a-seed42-8k.json",
+      "method_id": "ca_gat_mappo",
+      "mode": "rl",
+      "config_hash": "81cb1ad596cb6dcd6f212e2d08a7edc50e9b210b0a5cf226ba4a7a2cb1651ae5"
+    },
+    {
+      "path": "experiments/task-allocation/configs/a-seed43-8k.json",
+      "method_id": "ca_gat_mappo",
+      "mode": "rl",
+      "config_hash": "99959a2ccf1b58858e0ee00fab239540562ef593f21ccf9e8fe27dc3bfd9f91d"
+    },
+    {
+      "path": "experiments/task-allocation/configs/a-seed44-8k.json",
+      "method_id": "ca_gat_mappo",
+      "mode": "rl",
+      "config_hash": "5355c2bc052071ed7d32ab9af947976efff1a5bbf390433e77cdf41378775083"
+    },
+    {
+      "path": "experiments/task-allocation/configs/b-seed42-16k-resume.json",
+      "method_id": "ca_gat_mappo",
+      "mode": "rl",
+      "config_hash": "309c76095f8ff67442d51ddae7a3998509d203b53cdbd0d694717b45466319cb"
+    },
+    {
+      "path": "experiments/task-allocation/configs/b-seed42-8k.json",
+      "method_id": "ca_gat_mappo",
+      "mode": "rl",
+      "config_hash": "1bd1c1aa959695e150ef3734a625f5d87de87e4f4325d470f6ea3845e8cdfda4"
+    },
+    {
+      "path": "experiments/task-allocation/configs/b-seed43-8k.json",
+      "method_id": "ca_gat_mappo",
+      "mode": "rl",
+      "config_hash": "73e98e7f163770aa8c1de1936878840fe649759a30e3be862a4a397fbf6393bf"
+    },
+    {
+      "path": "experiments/task-allocation/configs/b-seed44-8k.json",
+      "method_id": "ca_gat_mappo",
+      "mode": "rl",
+      "config_hash": "d77c196ba23690fb5e01d0bee72b60b44e2c21bbfd60f8147ecaea5fff882895"
+    },
+    {
+      "path": "experiments/task-allocation/configs/c-seed42-16k-resume.json",
+      "method_id": "ca_gat_mappo",
+      "mode": "rl",
+      "config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb"
+    },
+    {
+      "path": "experiments/task-allocation/configs/c-seed42-32k-resume.json",
+      "method_id": "ca_gat_mappo",
+      "mode": "rl",
+      "config_hash": "02c7757520b8decc37e6c93d044675c7a002b7c4ab452968768595d872830cdd"
+    },
+    {
+      "path": "experiments/task-allocation/configs/c-seed42-40k-resume.json",
+      "method_id": "ca_gat_mappo",
+      "mode": "rl",
+      "config_hash": "708b8aaa4d67e8ff24a3c8ae4c44d97f89ab79b28fc1b7927547f83c1916ba4a"
+    },
+    {
+      "path": "experiments/task-allocation/configs/c-seed42-8k.json",
+      "method_id": "ca_gat_mappo",
+      "mode": "rl",
+      "config_hash": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15"
+    },
+    {
+      "path": "experiments/task-allocation/configs/c-seed43-40k.json",
+      "method_id": "ca_gat_mappo",
+      "mode": "rl",
+      "config_hash": "ec33289ec8c832909c6f6cc4f6160e7a452da4097cf94efa57a8e0f02032786c"
+    },
+    {
+      "path": "experiments/task-allocation/configs/c-seed43-8k.json",
+      "method_id": "ca_gat_mappo",
+      "mode": "rl",
+      "config_hash": "277148336eaa2429a74dea4052b985fb311c4b6383b5f3dba27e0873abf5df61"
+    },
+    {
+      "path": "experiments/task-allocation/configs/c-seed44-40k.json",
+      "method_id": "ca_gat_mappo",
+      "mode": "rl",
+      "config_hash": "4e86aa1bef240fb077be7f1135aa69232837197ebc873d9074f8bcff81279532"
+    },
+    {
+      "path": "experiments/task-allocation/configs/c-seed44-8k.json",
+      "method_id": "ca_gat_mappo",
+      "mode": "rl",
+      "config_hash": "438fcaa33e6465c0f56d90a93ef1ef688bf1fa1fd60c7a2bc22b646aa2e7278a"
+    }
+  ],
+  "current_index_paths_and_hashes": true,
+  "future_24k_not_started": true,
+  "environment_steps_executed": 0,
+  "optimizer_updates_executed": 0,
+  "all_local_targets_exist": true,
+  "final_checked_at_utc": "2026-10-18T11:12:05.130318+00:00"
+}

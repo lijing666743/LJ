@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="7" failures="0" skipped="0" tests="8" time="3.888" timestamp="2026-10-19T16:24:19.210936+08:00" hostname="DESKTOP-4RBUISE"><testcase classname="tests.test_c_feature_qmix_continuation_cli" name="test_matched_16k_preserves_scientific_settings_and_checkpoint_spacing" time="0.341" /><testcase classname="tests.test_c_feature_qmix_continuation_cli" name="test_matched_resume_accepts_explicit_full_state_context[False]" time="0.002"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:\\My_project_li\\logs\\engineering\\ms431019\\pytest'&quot;">self = WindowsPath('D:/My_project_li/logs/engineering/ms431019/pytest')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:\\My_project_li\\logs\\engineering\\ms431019\\pytest'
+
+D:\Miniconda\Lib\pathlib\_local.py:722: FileNotFoundError</error></testcase><testcase classname="tests.test_c_feature_qmix_continuation_cli" name="test_matched_resume_accepts_explicit_full_state_context[True]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:\\My_project_li\\logs\\engineering\\ms431019\\pytest'&quot;">self = WindowsPath('D:/My_project_li/logs/engineering/ms431019/pytest')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:\\My_project_li\\logs\\engineering\\ms431019\\pytest'
+
+D:\Miniconda\Lib\pathlib\_local.py:722: FileNotFoundError</error></testcase><testcase classname="tests.test_c_feature_qmix_continuation_cli" name="test_matched_cli_check_dispatches_to_qmix_restore_without_training" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:\\My_project_li\\logs\\engineering\\ms431019\\pytest'&quot;">self = WindowsPath('D:/My_project_li/logs/engineering/ms431019/pytest')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:\\My_project_li\\logs\\engineering\\ms431019\\pytest'
+
+D:\Miniconda\Lib\pathlib\_local.py:722: FileNotFoundError</error></testcase><testcase classname="tests.test_c_feature_qmix_continuation_cli" name="test_matched_resume_still_rejects_mappo_only_instructions[warm_start_from]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:\\My_project_li\\logs\\engineering\\ms431019\\pytest'&quot;">self = WindowsPath('D:/My_project_li/logs/engineering/ms431019/pytest')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:\\My_project_li\\logs\\engineering\\ms431019\\pytest'
+
+D:\Miniconda\Lib\pathlib\_local.py:722: FileNotFoundError</error></testcase><testcase classname="tests.test_c_feature_qmix_continuation_cli" name="test_matched_resume_still_rejects_mappo_only_instructions[verify_replay_against]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:\\My_project_li\\logs\\engineering\\ms431019\\pytest'&quot;">self = WindowsPath('D:/My_project_li/logs/engineering/ms431019/pytest')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:\\My_project_li\\logs\\engineering\\ms431019\\pytest'
+
+D:\Miniconda\Lib\pathlib\_local.py:722: FileNotFoundError</error></testcase><testcase classname="tests.test_c_feature_qmix_continuation_cli" name="test_matched_resume_still_rejects_mappo_only_instructions[pause_at_periodic]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:\\My_project_li\\logs\\engineering\\ms431019\\pytest'&quot;">self = WindowsPath('D:/My_project_li/logs/engineering/ms431019/pytest')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:\\My_project_li\\logs\\engineering\\ms431019\\pytest'
+
+D:\Miniconda\Lib\pathlib\_local.py:722: FileNotFoundError</error></testcase><testcase classname="tests.test_c_feature_qmix_continuation_cli" name="test_matched_resume_still_rejects_mappo_only_instructions[oracle_probe_states]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:\\My_project_li\\logs\\engineering\\ms431019\\pytest'&quot;">self = WindowsPath('D:/My_project_li/logs/engineering/ms431019/pytest')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'D:\\My_project_li\\logs\\engineering\\ms431019\\pytest'
+
+D:\Miniconda\Lib\pathlib\_local.py:722: FileNotFoundError</error></testcase></testsuite></testsuites>

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "formal_training_or_replay_started": false,
+  "full_restore_observed_environment_steps": 0,
+  "full_restore_observed_adam_updates": 0,
+  "full_restore_observed_training_calls": 0,
+  "config_only_five_allowlisted_changes": true,
+  "frozen_original_inputs": 512,
+  "changed_original_inputs": 0,
+  "powershell_command_syntax_errors": 0,
+  "new_training_outputs_absent": true,
+  "tests": {
+    "passed": 64,
+    "subtests_passed": 14,
+    "junit_testcases": 78,
+    "failures": 0,
+    "errors": 0,
+    "new_real_ppo_training_test_run": false
+  },
+  "source_git_identity_preserved": true,
+  "actual_replay_equality": "Pending launch-time 32k gate; not claimed by preflight"
+}

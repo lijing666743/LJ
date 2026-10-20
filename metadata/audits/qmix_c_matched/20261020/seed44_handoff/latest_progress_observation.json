@@ -1,0 +1,28 @@
+{
+  "epoch": 80,
+  "stage_epochs": 80,
+  "steps": 40000,
+  "raw_line": "epoch=80/80 steps=40000 lr=0.0003 eps=0.0500 loss=2.0536333684633927 reward=5.3511 done=70/134",
+  "schema": "seed44_actual_stdout_progress_observation.v1",
+  "observed_at_utc": "2026-10-20T17:21:13.889741+00:00",
+  "source": "Actual new stdout returned by exec session 31250, not a timestep estimate",
+  "training_seed": 44,
+  "stage_target_steps": 40000,
+  "total_target_steps": 40000,
+  "last_confirmed_checkpoint_steps": 40000,
+  "training_completed_stage_steps": 40000,
+  "evaluation_completed_through_steps": 40000,
+  "run_state": "metadata/audits/qmix_c_matched/20261020/seed44_handoff/run_state.json",
+  "not_precise_live_step_counter": true,
+  "current_status": "completed_and_independently_verified",
+  "new_error_observed": false,
+  "latest_completed_evaluation_summary": {
+    "training_steps": 40000,
+    "generated": 605,
+    "completed": 409,
+    "completion_ratio": 0.6760330578512397,
+    "total_energy_j": 177.54413331438207,
+    "independent_final_audit_completed": true
+  },
+  "last_completed_stage_optimizer_updates": 1249
+}

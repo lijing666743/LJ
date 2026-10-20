@@ -330,14 +330,14 @@ class RunnerAndCliTests(unittest.TestCase):
             "status=completed" in line for line in interactive_output
         ))
 
-    def test_unavailable_runner_does_not_fabricate_artifacts(self) -> None:
+    def test_disabled_qmix_runner_does_not_fabricate_artifacts(self) -> None:
         config = load_run_config(cli_overrides={
             "mode": "rl",
             "method_id": "factorized_action_gat_qmix",
         })
         result = Runner().run(config)
-        self.assertEqual(result.status, "unavailable")
-        self.assertIn("not implemented", result.message)
+        self.assertEqual(result.status, "failed")
+        self.assertIn("formal RL training is disabled", result.message)
         for artifact in config.artifact_paths().values():
             self.assertFalse(Path(artifact).exists())
 
@@ -347,7 +347,7 @@ class RunnerAndCliTests(unittest.TestCase):
             output_fn=output.append,
         )
         self.assertEqual(status, 1)
-        self.assertTrue(any("status=unavailable" in line for line in output))
+        self.assertTrue(any("status=failed" in line for line in output))
 
     def test_rl_smoke_and_formal_profiles_resolve_frozen_devices_and_budgets(self) -> None:
         smoke_output: list[str] = []
@@ -550,7 +550,6 @@ class RunnerAndCliTests(unittest.TestCase):
                 (["--profile", "long-smoke"], "launch_profile"),
                 (["--profile", "rl-long-smoke"], "launch_profile"),
                 (["--mode", "rl", "--method-id", "ca_gat_mappo", "--set", "training.formal_rl_enabled=true"], "launch_profile"),
-                (["--profile", "rl-formal", "--method-id", "factorized_action_gat_qmix"], "method_id"),
             )
             for base_args, expected_text in rejected:
                 with self.subTest(base_args=base_args):

@@ -1,0 +1,54 @@
+{
+  "schema": "qmix_checkpoint_progress.v1",
+  "series_id": "qmix-checkpoints__seed-43__5b0eb1adbd3e38d3",
+  "training_seed": 43,
+  "training_config_hash": "ecd40c89f4ab8e07b29254da99af0a9fea3dc0a71641eda327900a454f81dfab",
+  "checkpoints": [
+    {
+      "training_steps": 4000,
+      "kind": "periodic",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\8k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-ecd40c89f4ab__git-eb1140cefc4a\\checkpoints\\step_004000.pt",
+      "sha256": "13484476dce0e4375ab06d853927b19e70bd11315f3896d3a7a47887a3624a34",
+      "evaluation_run_id": "qmix-eval__23e48e3a2fdf8b16"
+    },
+    {
+      "training_steps": 8000,
+      "kind": "final",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\8k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-ecd40c89f4ab__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "sha256": "76d2433bb9e50a82e05100a366b1fda2af3a900101bf9cd51e0d1976600a7092",
+      "evaluation_run_id": "qmix-eval__0ddb32c0fbc503c1"
+    }
+  ],
+  "evaluation_seeds": [
+    1042,
+    1043,
+    1044,
+    1045,
+    1046
+  ],
+  "method_suite": [
+    "c_feature_credit_qmix",
+    "local_only",
+    "heuristic",
+    "random"
+  ],
+  "primary_report_step": 8000,
+  "checkpoint_selection": "fixed_budget_end; intermediate points describe learning only",
+  "network_updates": 0,
+  "exploration": false,
+  "device": "cpu",
+  "evaluation_source_sha256": {
+    "src/evaluation/metrics.py": "0d52b4174f1983ca6f856b8bd152fa636ff3c6ef69479238644cd5f7d7c669b9",
+    "src/evaluation/qmix_checkpoint_progress.py": "fb881427f666b261c218c52afab5a90976b6496e24bab64f71886b09e3024603",
+    "src/evaluation/qmix_runner.py": "3fad5966a4ac2aa53925278710dae090a86a71ec9b7bd0b489bcad2948072ff3",
+    "src/evaluation/runner.py": "8ee3f99fb380c3e17fd34131c14fcf746afae5340304edf09a5d6769c670d54d",
+    "src/policies/__init__.py": "0c5aaac6c8db7166e2d60328f4c7e4e37527dcf882f0ab7cbf34282336a72ff0",
+    "src/policies/base.py": "679768c62a43f209141da545ae53a2cb4d7b1986fc0c56909fefb9c1e57f482d",
+    "src/policies/heuristic_policy.py": "9f909b19c8f2e3fd9e5f756caf56ff8c4651e40a03c5627c3d8064afb13fd9c5",
+    "src/policies/local_only_policy.py": "738d1d05d4c8f5d36a92b5d3bc586e9fdaf93f3b4107e162fb82ced7d841d713",
+    "src/policies/random_policy.py": "813627b0de07f2769e0bfd4a6cf1bd52a5515b60c178a06a20ee7e17e619364e"
+  },
+  "fixed_baseline_repeat_matches": 15,
+  "episode_count": 40,
+  "claim_boundary": "Development evaluation; no held-out or superiority claim"
+}

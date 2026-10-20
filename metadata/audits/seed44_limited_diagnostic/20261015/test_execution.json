@@ -1,0 +1,29 @@
+{
+  "argv": [
+    "D:\\Miniconda\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "-m",
+    "pytest",
+    "-p",
+    "no:cacheprovider",
+    "--basetemp",
+    "D:\\My_project_li\\tmp\\ld_l8kb1fif\\pytest",
+    "-q",
+    "tests/test_limited_route_diagnostic.py",
+    "tests/test_limited_cpu_diagnostic.py",
+    "tests/test_limited_training_diagnostic.py",
+    "tests/test_seed44_limited_report.py",
+    "tests/test_checkpoint_energy_audit.py",
+    "tests/test_evaluation_service_telemetry.py",
+    "tests/test_route_diagnostic_instrumentation.py",
+    "tests/test_environment_gate0.py",
+    "--junitxml",
+    "D:\\My_project_li\\metadata\\audits\\seed44_limited_diagnostic\\20261015\\diagnostic_tests.xml"
+  ],
+  "returncode": 0,
+  "duration_seconds": 19.904168700100854,
+  "workspace_temp": "D:\\My_project_li\\tmp\\ld_l8kb1fif",
+  "note": "Engineering fixtures only; not formal evaluation episodes or training results"
+}

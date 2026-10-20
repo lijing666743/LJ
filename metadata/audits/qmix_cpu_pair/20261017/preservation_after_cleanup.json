@@ -1,0 +1,15 @@
+{
+  "schema": "qmix_cpu_pair_cleanup_postcheck.v1",
+  "checked_at": "2026-10-17T16:20:07.699423+08:00",
+  "status": "passed",
+  "deletion_targets_exactly_match_explicit_plan": true,
+  "deleted_targets": 14,
+  "deleted_files": 389,
+  "deleted_bytes": 3291311470.0,
+  "preserved_files_verified": 872,
+  "all_retained_hashes_match": true,
+  "C_AB_shared_environment_reward_preserved": true,
+  "new_profiles_load": 7,
+  "new_8k16k_outputs_absent": true,
+  "path_filter_error_audit": "The PowerShell regex exclusion expression raised a nonterminating error. Independent pre-created explicit whitelist, resolved inventory, retained-input overlap and reparse checks remained in place. This postcheck independently verifies every actual target/child against the exact whitelist and workspace, and verifies every retained file hash. No further deletion was required."
+}

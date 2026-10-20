@@ -1,0 +1,43 @@
+{
+  "check": "git diff --cached --check with CR-at-EOL acknowledged; raw source bytes preserved",
+  "exit_code": 2,
+  "diagnostic_lines": 1584,
+  "first_messages": [
+    "metadata/audits/qmix_c_matched/20261018/continuation_cli_tests.xml:14: trailing whitespace.",
+    "+    ",
+    "metadata/audits/qmix_c_matched/20261018/continuation_cli_tests.xml:30: trailing whitespace.",
+    "+D:\\Miniconda\\Lib\\site-packages\\_pytest\\runner.py:361: ",
+    "metadata/audits/qmix_c_matched/20261018/continuation_cli_tests.xml:135: trailing whitespace.",
+    "+    ",
+    "metadata/audits/qmix_c_matched/20261018/continuation_cli_tests.xml:151: trailing whitespace.",
+    "+D:\\Miniconda\\Lib\\site-packages\\_pytest\\runner.py:361: ",
+    "metadata/audits/qmix_c_matched/20261018/continuation_cli_tests.xml:256: trailing whitespace.",
+    "+    ",
+    "metadata/audits/qmix_c_matched/20261018/continuation_cli_tests.xml:272: trailing whitespace.",
+    "+D:\\Miniconda\\Lib\\site-packages\\_pytest\\runner.py:361: ",
+    "metadata/audits/qmix_c_matched/20261018/continuation_cli_tests.xml:377: trailing whitespace.",
+    "+    ",
+    "metadata/audits/qmix_c_matched/20261018/continuation_cli_tests.xml:393: trailing whitespace.",
+    "+D:\\Miniconda\\Lib\\site-packages\\_pytest\\runner.py:361: ",
+    "metadata/audits/qmix_c_matched/20261018/continuation_cli_tests.xml:498: trailing whitespace.",
+    "+    "
+  ],
+  "utf8_json_validation_passed": true,
+  "source_line_endings_not_normalized": true,
+  "historical_raw_audit_whitespace_preserved": true,
+  "navigation_format_status": "PASS",
+  "checked_navigation_files": [
+    "README.md",
+    ".gitignore",
+    ".gitattributes",
+    "docs/DIRECTORY_GUIDE.md",
+    "docs/PUBLICATION_PREPARATION.md",
+    "docs/reproduction/REPRODUCE_C_D.md",
+    "docs/results/README.md",
+    "docs/results/CURRENT_EXPERIMENT_STATUS.md",
+    "environment/README.md",
+    "experiments/README.md",
+    "experiments/strong-baselines/README.md",
+    "metadata/README.md"
+  ]
+}

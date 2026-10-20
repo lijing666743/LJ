@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "training_state": {
+    "policy_version": 0,
+    "started_episodes": 0,
+    "completed_episodes": 0,
+    "next_episode_index": 0,
+    "collected_environment_transitions": 0,
+    "optimized_transitions": 0,
+    "ppo_update_count": 0,
+    "unused_final_tail_transitions": 0,
+    "training_complete": false,
+    "active_rollout_length": 0,
+    "active_rollout_policy_version": null
+  },
+  "actor_and_critic_initialized": true,
+  "both_Adam_states_empty": true,
+  "checkpoint_loaded": false,
+  "training_calls": 0,
+  "environment_steps": 0,
+  "optimizer_updates": 0,
+  "device": "cuda:0"
+}

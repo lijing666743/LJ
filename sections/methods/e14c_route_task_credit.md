@@ -1,6 +1,6 @@
 # E14c：任务事件 Route credit 与独立 task value
 
-> 阅读定位：本文保留当前方法所继承的定义及原阶段验证记录。旧进度、预算和命令属于历史状态；当前结果与C续训入口见[复现说明](../../docs/reproduction/REPRODUCE_ABC.md)。
+> 阅读定位：本文保留当前方法所继承的定义及原阶段验证记录。旧进度、预算和命令属于历史状态；当前结果与C续训入口见[复现说明](../../docs/reproduction/REPRODUCE_C_D.md)。
 
 本文件记录开发方法，不包含 E14c 训练结果，也不宣称已证明 Local 应优于 Remote。
 

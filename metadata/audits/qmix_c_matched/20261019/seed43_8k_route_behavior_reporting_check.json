@@ -1,0 +1,22 @@
+{
+  "schema": "seed43_8k_route_behavior_reporting_check.v1",
+  "checked_at_utc": "2026-10-19T10:47:23.351224+00:00",
+  "status": "PASS",
+  "raw_task_rows": 1210,
+  "D_active_route_rows": 875,
+  "paired_task_rows": 605,
+  "both_local_remote_legal_decisions": 702,
+  "source_python_files_unchanged": 138,
+  "original_evaluation_and_checkpoints_hashes_unchanged": 12,
+  "diagnostic_outputs_sha256_verified": 4,
+  "local_links_checked": 50,
+  "new_optimizer_updates": 0,
+  "per_state_route_accuracy_claimed": false,
+  "documents_sha256": {
+    "README.md": "6919b973a7825114155f1a563a75d1e7fa45ed0744f3440b9a6f8aec483291c7",
+    "docs/results/CURRENT_EXPERIMENT_STATUS.md": "e6eb1eb50bd4a0d8f797378f8f318bf0ae75beda0f91585929aef0ab04fc3f05",
+    "docs/results/README.md": "9a8b642f7ca99571fdde698c354f8d0264f3243ec18cc1ef29703ee7e238b1c6",
+    "sections/results/20261018_C_FEATURE_CREDIT_QMIX.md": "e6883e7f3886ce257d6e7fb3c04643647cbf8f2a8ccff385d29aeee7a1ea9eca",
+    "metadata/CURRENT_WORKSPACE_INDEX.json": "903c79aefe170127cadee414cc85c0e47e2450c3bd69dd02b99838223680def7"
+  }
+}

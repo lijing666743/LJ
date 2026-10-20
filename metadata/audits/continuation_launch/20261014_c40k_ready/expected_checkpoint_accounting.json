@@ -1,0 +1,38 @@
+[
+  {
+    "environment_steps": 28000,
+    "checkpoint_kind": "PERIODIC_RESUME",
+    "episodes": 56,
+    "optimized_transitions": 27904,
+    "ppo_updates": 109,
+    "pending_rollout": 96,
+    "unused_final_tail": 0
+  },
+  {
+    "environment_steps": 32000,
+    "checkpoint_kind": "PERIODIC_RESUME",
+    "episodes": 64,
+    "optimized_transitions": 32000,
+    "ppo_updates": 125,
+    "pending_rollout": 0,
+    "unused_final_tail": 0
+  },
+  {
+    "environment_steps": 36000,
+    "checkpoint_kind": "PERIODIC_RESUME",
+    "episodes": 72,
+    "optimized_transitions": 35840,
+    "ppo_updates": 140,
+    "pending_rollout": 160,
+    "unused_final_tail": 0
+  },
+  {
+    "environment_steps": 40000,
+    "checkpoint_kind": "FINAL_COMPLETED",
+    "episodes": 80,
+    "optimized_transitions": 39936,
+    "ppo_updates": 156,
+    "pending_rollout": 0,
+    "unused_final_tail": 64
+  }
+]

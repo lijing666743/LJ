@@ -1,0 +1,47 @@
+[
+  {
+    "argv": [
+      "D:\\Miniconda\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "-m",
+      "src.evaluation.limited_route_diagnostic",
+      "--output",
+      "D:\\My_project_li\\metadata\\audits\\seed44_limited_diagnostic\\20261015\\rebuild_route\\route_diagnostic.json"
+    ],
+    "returncode": 0,
+    "duration_seconds": 8.890537800034508,
+    "stdout": "D:\\My_project_li\\metadata\\audits\\seed44_limited_diagnostic\\20261015\\rebuild_1_stdout.txt"
+  },
+  {
+    "argv": [
+      "D:\\Miniconda\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "-m",
+      "src.evaluation.limited_cpu_diagnostic",
+      "--output",
+      "D:\\My_project_li\\metadata\\audits\\seed44_limited_diagnostic\\20261015\\rebuild_cpu\\cpu_diagnostic.json"
+    ],
+    "returncode": 0,
+    "duration_seconds": 20.418985399999656,
+    "stdout": "D:\\My_project_li\\metadata\\audits\\seed44_limited_diagnostic\\20261015\\rebuild_2_stdout.txt"
+  },
+  {
+    "argv": [
+      "D:\\Miniconda\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "-m",
+      "src.evaluation.limited_training_diagnostic",
+      "--output",
+      "D:\\My_project_li\\metadata\\audits\\seed44_limited_diagnostic\\20261015\\rebuild_training\\training_diagnostic.json"
+    ],
+    "returncode": 0,
+    "duration_seconds": 34.60801910003647,
+    "stdout": "D:\\My_project_li\\metadata\\audits\\seed44_limited_diagnostic\\20261015\\rebuild_3_stdout.txt"
+  }
+]

@@ -1,35 +1,24 @@
-# A/B/C 实验日志
+# 实验日志与模型索引
 
-本目录只保留当前A/B/C实际产物。每组目录结构相同：
+当前结论见[实验状态](../docs/results/CURRENT_EXPERIMENT_STATUS.md)，报告见[结果索引](../docs/results/README.md)。本轮保留C/D真实模型、日志、评估和来源路径。
 
-```text
-A/（B、C同样）
-└─ seed42/
-   └─ 8k/
-      ├─ training/       原始训练指标、学习链诊断、配置快照、checkpoints
-      ├─ evaluation/     final模型的1042—1046评估指标与身份
-      └─ diagnostics/    对应评估的Route逐决策trace与汇总
-```
+A/B独立日志与模型已按用户范围调整删除，不再作为活动实验。C/D全部来源模型保留，退役身份、文件哈希及最小真实历史指标见[回执](../metadata/cleanup/20261020_retire_ab/receipt.json)；不能将退役解释为算法失败。
 
 | 位置 | 内容 |
-|---|---|
-| `training/checkpoints/final.pt` | 当前预算终点模型，用于冻结策略评估 |
-| `training/checkpoints/step_4000.pt` | 原训练中期恢复点；跨源码身份的exact-resume另有一致性要求 |
-| `training/raw_metrics.jsonl` | 全8000步原始指标，体积较大但保留供核对 |
-| `training/route_*` 与 `integrated_scheduler_updates_v1.jsonl` | 同一次训练的Route、信用、Q及调度诊断，不是其他方法 |
-| `evaluation/aggregate_metrics.json` | 评估汇总 |
-| `evaluation/episode_metrics.jsonl`、`evaluation_metrics.csv` | 逐episode评估指标 |
-| `evaluation/evaluation_manifest.json` | 模型、协议、seed及来源身份 |
-| `diagnostics/route_decision_trace.jsonl`、`summary.json` | 同一组评估的Route行为 |
+| --- | --- |
+| `C/seed42/` | 原 8k、16k/32k/40k 连续训练、评估与诊断 |
+| `C/seed43/`、`C/seed44/` | 独立 40k 与每 4k 开发评估 |
+| `strong_baselines/development/c_feature_credit_qmix/seed42/8k/` | D（CFC-QMIX）原 8k 和 4k/8k 评估 |
+| `strong_baselines/development/c_feature_credit_qmix/seed42/16k/` | 8k→16k 完整续训、新增 12k/16k 评估及四检查点系列 |
+| `strong_baselines/development/c_feature_credit_qmix/seed42/24k/` | 16k→24k 完整续训、新增 20k/24k 评估及六检查点系列 |
+| `strong_baselines/development/c_feature_credit_qmix/seed42/32k/` | 24k→32k完整续训、新增28k/32k评估及八检查点系列 |
+| `strong_baselines/development/c_feature_credit_qmix/seed42/40k/` | 32k→40k完整续训、新增36k/40k评估及十检查点系列 |
+| `strong_baselines/development/c_feature_credit_qmix/seed43/8k/` | 独立8k、4k/8k冻结评估及两个检查点系列 |
+| `strong_baselines/development/c_feature_credit_qmix/seed43/16k/`、`24k/`、`32k/`、`40k/` | 用户本地完整续训及有序补评已完成；最终40k、十检查点、200条方法/场景记录已核验 |
+| `engineering/`、`group_meeting_summary/` | 既有工程与汇报统计检查，不作为开发性能结果 |
 
-训练CSV对应 `../dashboard_logs/{A,B,C}/seed42/8k/training_metrics.csv`，图对应 `../plots/{A,B,C}/seed42/8k/training_dashboard.png`。
+`config_snapshot.yaml` 记录实际配置；`raw_metrics.jsonl`、`aggregate_metrics.json` 记录真实运行；`checkpoints/` 保存模型；评估及系列 manifest 记录身份。CSV 在 `dashboard_logs/`，图片在 `plots/`。
 
-汇总比较见 [seed42报告](../docs/results/seed42/seed42_abc_comparison_report.md)。历史对齐与工程记录在 [metadata](../metadata/README.md)，不混入三组日志。
+D的内部标识仍为`c_feature_credit_qmix`，模型与日志不重命名；40k系列按来源复用原8k目录的4k/8k、原16k目录的12k/16k、原24k目录的20k/24k和原32k目录的28k/32k评估，不复制模型或改写来源。C三个seed、中间模型和续训来源全部保留；体积大、表现弱或日期早不自动构成删除理由。缓存和测试临时文件按明确清单单独清理。
 
-目录名缩短，文件内容和实验身份保留。旧路径到当前位置见 [路径对照表](../metadata/DIRECTORY_RELOCATION.json)。后续实验进入 `组别/seed/8k/runs/时间标签/`；命令见 [后续实验说明](../docs/reproduction/REPRODUCE_ABC.md#后续实验怎样放置)。不要直接覆盖当前结果。
-
-## 2026-10-14 补充
-
-上表描述原8k层级。现在A/B/C各有`seed42/16k_continuation/`，C另有`seed42/32k_continuation/`；checkpoint_progress保存各阶段开发评估。训练日志可能超过1GB，属于真实复核依据，未因体积大而删除。
-
-C全部中期模型与final、两次continuation来源、配置快照和侧日志继续保留，供后续完整续训使用。28k periodic有96条pending；32k final虽无unused tail，仍按当前规则使用periodic恢复与final核对。`engineering/continuation_tests_tmp/`旧测试输出已清理，真实训练和开发评估均保留。`group_meeting_summary/`仅保存图表统计测试记录。当前结果导航见[最新状态](../docs/results/CURRENT_EXPERIMENT_STATUS.md)。
+D 的旧 256 步工程模型、图表和工程评估输出已清理；其[工程验收记录](../metadata/audits/qmix_c_matched/20261018/engineering_validation.json)与[清理前恢复依赖核对](../metadata/cleanup/20261018_method_d_cleanup/engineering_retention.json)保留。正式 8k/16k 模型和评估不受影响。

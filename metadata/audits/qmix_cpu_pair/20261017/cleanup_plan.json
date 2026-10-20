@@ -1,0 +1,22 @@
+{
+  "schema": "qmix_cpu_pair_cleanup_plan.v1",
+  "status": "pending_until_cuda_validation_and_preservation_pass",
+  "authorization": "Standing user authorization to remove failed QMIX experiment material and temporary validation files after diagnosis and validated replacement.",
+  "targets": [
+    "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\agent_exploration_v8",
+    "D:\\My_project_li\\dashboard_logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\agent_exploration_v8",
+    "D:\\My_project_li\\plots\\strong_baselines\\development\\fa_gat_qmix\\seed42\\agent_exploration_v8",
+    "D:\\My_project_li\\experiments\\strong-baselines\\configs\\fa-gat-qmix-seed42-8k-agent-exploration-development.json",
+    "D:\\My_project_li\\experiments\\strong-baselines\\configs\\fa-gat-qmix-seed42-16k-agent-exploration-development.json",
+    "D:\\My_project_li\\experiments\\strong-baselines\\configs\\fa-gat-qmix-agent-exploration-engineering.json",
+    "D:\\My_project_li\\metadata\\audits\\qmix_agent_exploration",
+    "D:\\My_project_li\\sections\\planning\\20261017_QMIX_AGENT_EXPLORATION_TRIAL.md",
+    "D:\\My_project_li\\sections\\results\\20261017_QMIX_V8_8K_DEVELOPMENT_ANALYSIS.md",
+    "D:\\My_project_li\\logs\\strong_baselines\\engineering\\cpu_pair_q_v9",
+    "D:\\My_project_li\\dashboard_logs\\strong_baselines\\engineering\\cpu_pair_q_v9",
+    "D:\\My_project_li\\plots\\strong_baselines\\engineering\\cpu_pair_q_v9",
+    "D:\\My_project_li\\logs\\q9_unit_test_tmp",
+    "D:\\My_project_li\\logs\\q9_regression_tmp"
+  ],
+  "retained": "C/A/B; shared environment/reward/C source; current QMIX implementation/tests/new profiles; compact actual v8 evidence and current validation receipts; current CPU-pair scientific protocol."
+}

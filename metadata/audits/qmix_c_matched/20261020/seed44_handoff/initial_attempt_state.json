@@ -1,0 +1,19 @@
+{
+  "status": "handoff_or_execution_error_preserved",
+  "seed": 44,
+  "current_budget_steps": 8000,
+  "target_budget_steps": 40000,
+  "original_process_id": 27304,
+  "original_parent_process_id": 26356,
+  "original_process_command_line": "\"D:\\Miniconda\\python.exe\" -u -B -X utf8 main.py --config D:\\My_project_li\\experiments\\strong-baselines\\configs\\c-feature-credit-qmix-seed44-8k.json",
+  "original_process_creation_utc": "2026-10-20T02:57:36.6125430Z",
+  "execution_owner": "agent_local_MX450",
+  "new_training_started": false,
+  "original_process_stopped_by_agent": false,
+  "source_reward_configuration_changed": false,
+  "saved_handoff_steps": null,
+  "interrupted_unsaved_suffix_cost": "Unknown until interruption; any work after the last saved 4k state is excluded from the restored run counters and must not be claimed as zero extra cost.",
+  "created_at_utc": "2026-10-20T03:09:08.7602927Z",
+  "updated_at_utc": "2026-10-20T03:53:31.8724741Z",
+  "error": "Original process is still present; will not start a second trainer."
+}

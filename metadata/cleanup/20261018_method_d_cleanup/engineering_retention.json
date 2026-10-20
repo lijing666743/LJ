@@ -1,0 +1,70 @@
+{
+  "schema": "method_d_engineering_retention.v1",
+  "classification": "completed_engineering_validation_not_failed_training",
+  "engineering_validation_record": "metadata/audits/qmix_c_matched/20261018/engineering_validation.json",
+  "engineering_validation_record_sha256": "a382b7a0ad064269b164230c839cf5bc067b7ecae0f6532fb6f851c26d29405f",
+  "recorded_validation_summary": {
+    "schema": "c_feature_credit_qmix_engineering.v1",
+    "config_hash": "0055505a02ccae44bcb1c0c7532f96505754858ee6588f8bec2ffa2e4af0abab",
+    "device": "cuda",
+    "steps": 256,
+    "updates": 63,
+    "changed_parameter_tensors": 182,
+    "target_copy_count": 15,
+    "paired_labels": 2,
+    "shadow_steps": 74,
+    "responsibility_conservation": true,
+    "raw_checkpoint_csv_consistency": true,
+    "PNG_decode": true,
+    "exact_CUDA_resume": true,
+    "evaluation_episodes": 40,
+    "evaluation_updates": 0,
+    "checkpoint_unchanged": true,
+    "validation_script_correction": "First CSV check incorrectly parsed 64-bit integer environment_seed as float; corrected integer parsing, without altering artifacts or training code.",
+    "claim_boundary": "Engineering only, not learning performance evidence"
+  },
+  "retired_engineering_checkpoints": [
+    {
+      "path": "logs\\strong_baselines\\engineering\\c_feature_credit_qmix\\c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0055505a02cc__git-eb1140cefc4a\\checkpoints\\step_000128.pt",
+      "sha256": "4e7c5c666d881afdcaa9b9fe01efca52750e43964152f1c789890a29a213a02d",
+      "schema": "factorized_gat_qmix.checkpoint.v10",
+      "method_id": "c_feature_credit_qmix",
+      "config_hash": "0055505a02ccae44bcb1c0c7532f96505754858ee6588f8bec2ffa2e4af0abab",
+      "steps": 128,
+      "updates": 31,
+      "runtime": {
+        "torch": "2.7.1+cu118",
+        "device": "cuda"
+      }
+    },
+    {
+      "path": "logs\\strong_baselines\\engineering\\c_feature_credit_qmix\\c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0055505a02cc__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "sha256": "0d3fa35cfc470cca82b018b009e3fe48e72ab1ae77a94c503e7959697efe1f8a",
+      "schema": "factorized_gat_qmix.checkpoint.v10",
+      "method_id": "c_feature_credit_qmix",
+      "config_hash": "0055505a02ccae44bcb1c0c7532f96505754858ee6588f8bec2ffa2e4af0abab",
+      "steps": 256,
+      "updates": 63,
+      "runtime": {
+        "torch": "2.7.1+cu118",
+        "device": "cuda"
+      }
+    }
+  ],
+  "current_16k_continuation_contract_verified": {
+    "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed42\\16k\\c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-f3b23eca17ec__git-eb1140cefc4a\\checkpoints\\final.pt",
+    "sha256": "4b244e1f92dda0efc3e916d000205eb91dc1ba475914e6584cffe78130623cbf",
+    "steps": 16000,
+    "updates": 481,
+    "ancestors": [
+      {
+        "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed42\\8k\\c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-1b3cae3cdac5__git-eb1140cefc4a\\checkpoints\\final.pt",
+        "sha256": "073792c7e89eb88533a32c83fa0c40a36ec2df336fbf1087503e6c1b0362670d",
+        "steps": 8000
+      }
+    ],
+    "engineering_outputs_needed": false
+  },
+  "training_or_environment_steps_executed": 0,
+  "optimizer_updates_executed": 0
+}

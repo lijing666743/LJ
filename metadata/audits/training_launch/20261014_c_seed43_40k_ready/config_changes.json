@@ -1,0 +1,51 @@
+{
+  "versus_C42_40k": [
+    {
+      "field": "seed",
+      "before": 42,
+      "after": 43
+    },
+    {
+      "field": "output.logs_dir",
+      "before": "logs/C/seed42/40k_continuation",
+      "after": "logs/C/seed43/40k"
+    },
+    {
+      "field": "output.plots_dir",
+      "before": "plots/C/seed42/40k_continuation",
+      "after": "plots/C/seed43/40k"
+    },
+    {
+      "field": "output.dashboard_logs_dir",
+      "before": "dashboard_logs/C/seed42/40k_continuation",
+      "after": "dashboard_logs/C/seed43/40k"
+    }
+  ],
+  "versus_original_C43_8k": [
+    {
+      "field": "training.mappo.max_training_episodes",
+      "before": 16,
+      "after": 80
+    },
+    {
+      "field": "training.mappo.max_training_environment_steps",
+      "before": 8000,
+      "after": 40000
+    },
+    {
+      "field": "output.logs_dir",
+      "before": "logs/development/task_allocation/experiments/C/seed43/8k",
+      "after": "logs/C/seed43/40k"
+    },
+    {
+      "field": "output.plots_dir",
+      "before": "plots/development/task_allocation/experiments/C/seed43/8k",
+      "after": "plots/C/seed43/40k"
+    },
+    {
+      "field": "output.dashboard_logs_dir",
+      "before": "dashboard_logs/development/task_allocation/experiments/C/seed43/8k",
+      "after": "dashboard_logs/C/seed43/40k"
+    }
+  ]
+}

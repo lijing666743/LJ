@@ -1,0 +1,10 @@
+{
+  "repository": "lijing666743/LJ",
+  "previous_main": "2dc941a7f6e253bef820e9dff9120252c5f53ae3",
+  "planned_tag": "cd-40k-20261021",
+  "training_git_identity": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+  "status": "prepared_pending_remote_push",
+  "scope": "C/D code, tests, configurations, research materials, compact original evaluation/training evidence and existing scientific plots. Full models and raw trajectories remain local; not a new complete recovery archive.",
+  "original_workspace_HEAD_and_index_preserved": true,
+  "old_tag_and_release_preserved": "baseline-c32k-20261014"
+}

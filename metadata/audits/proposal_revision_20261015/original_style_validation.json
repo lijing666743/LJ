@@ -1,0 +1,18 @@
+{
+  "proposal_only": true,
+  "slides": 19,
+  "source_master_layout_theme_identical": true,
+  "single_hop_arrows": "one directed task path per scene",
+  "notes": "no speech",
+  "spoken_characters": 2269,
+  "outputs": {
+    "D:\\My_project_li\\docs\\presentations\\proposal_revision_20261015\\exports\\李静_开题答辩_原风格修订版.pptx": {
+      "bytes": 6091971,
+      "sha256": "5dfb36c3bc60f272ab67d7fdd243e1d0bb15d99bd5bbfb0540972f6851130c06"
+    },
+    "D:\\My_project_li\\sections\\defense_20261015\\李静_逐页答辩稿_开题版_8至10分钟.docx": {
+      "bytes": 42330,
+      "sha256": "083761f920e4d169fb067fae50266ad1e2a5c3c237c656fb5e90699e1ecb4d6c"
+    }
+  }
+}

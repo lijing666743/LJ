@@ -1,0 +1,41 @@
+{
+  "schema": "seed44_agent_handoff_confirmation.v1",
+  "checked_at_utc": "2026-10-20T03:59:34.597849+00:00",
+  "status": "exact_restore_verified_and_training_process_started",
+  "source_steps": 4000,
+  "source_episodes": 8,
+  "source_optimizer_updates": 97,
+  "checkpoint_sha256": "f88827fc618f25a799401543bf60f19f058f7d3b7eb99c058f3c9d64c956d001",
+  "restore_cli_stdout": {
+    "environment_steps_executed": 0,
+    "full_state_sha256": "f4d456a70212f2e6b586d9d9605cc20f5a1195d63620f312a0474f77eaf91d66",
+    "optimizer_updates_executed": 0,
+    "replayed_environment_steps": 0,
+    "source_optimizer_updates": 97,
+    "source_steps": 4000,
+    "target_steps": 8000
+  },
+  "original_process_id": 27304,
+  "original_process_absence_verified_via_fresh_CIM_and_DotNet": true,
+  "original_local_terminal_error_triggered_by_supervisor_stop": true,
+  "initial_handoff_guard_error": "Immediate CIM presence check after Stop-Process blocked new training; preserved in initial_attempt_state.json",
+  "precise_OS_timing_cause_proven": false,
+  "recovery_management_change": "Inspect live process using .NET HasExited as well as CIM; no training source change",
+  "agent_training_process": {
+    "process_id": 8104,
+    "parent_process_id": 26100,
+    "created_at_local": "2026-10-20T11:58:11.794438+08:00",
+    "resume_checkpoint_kind": "periodic",
+    "source_steps": 4000,
+    "current_stage_budget": 8000,
+    "device": "cuda",
+    "cuda_runtime_version": "11.8"
+  },
+  "live_seed44_Python_instances_observed": 1,
+  "agent_exec_session_id": 31250,
+  "training_complete": false,
+  "evaluation_started": false,
+  "learning_source_reward_config_changed": false,
+  "unsaved_postcheckpoint_extra_work_cost_known": false,
+  "failure_evidence_retained": true
+}

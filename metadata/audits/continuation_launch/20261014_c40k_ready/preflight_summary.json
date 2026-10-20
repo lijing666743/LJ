@@ -1,0 +1,199 @@
+{
+  "status": "READY_FOR_USER_TO_START_C40K_CONTINUATION",
+  "formal_training_started": false,
+  "actual_28k_to_32k_replay_executed": false,
+  "method": "C",
+  "training_seed": 42,
+  "target_config": {
+    "config": "experiments/task-allocation/configs/c-seed42-40k-resume.json",
+    "config_hash": "708b8aaa4d67e8ff24a3c8ae4c44d97f89ab79b28fc1b7927547f83c1916ba4a",
+    "run_id": "ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a",
+    "artifact_paths": {
+      "config_snapshot": "logs\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a\\config_snapshot.yaml",
+      "raw_metrics": "logs\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a\\raw_metrics.jsonl",
+      "aggregate_metrics": "logs\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a\\aggregate_metrics.json",
+      "trajectory_credit_events": "logs\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a\\trajectory_credit_events.jsonl",
+      "conditional_credit_trace": "logs\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a\\conditional_credit_trace_v1.jsonl",
+      "route_diagnostic_samples": "logs\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a\\route_diagnostic_samples_v1.jsonl",
+      "route_oracle_counterfactual": "logs\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a\\route_oracle_counterfactual_v1.jsonl",
+      "dashboard_csv": "dashboard_logs\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a_metrics.csv",
+      "figure_input": "plots\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a_figure_input.csv",
+      "dashboard_png": "plots\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a_dashboard.png",
+      "checkpoint_directory": "logs\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a\\checkpoints",
+      "final_checkpoint": "logs\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a\\checkpoints\\final.pt"
+    },
+    "config_sha256": "394ed4f6ba198ec8b7ba7fc4e2f3f04dc4708b440ac6f09e71b86864015be05f"
+  },
+  "source_checkpoint": {
+    "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/step_28000.pt",
+    "sha256": "940cef6a89ffa43bcb23747f0e9f2740411afc5c526053193df24eb00cba360c",
+    "checkpoint_kind": "PERIODIC_RESUME",
+    "training_state": {
+      "policy_version": 109,
+      "started_episodes": 56,
+      "completed_episodes": 56,
+      "next_episode_index": 56,
+      "collected_environment_transitions": 28000,
+      "optimized_transitions": 27904,
+      "ppo_update_count": 109,
+      "unused_final_tail_transitions": 0,
+      "training_complete": false,
+      "active_rollout_length": 96,
+      "active_rollout_policy_version": 109
+    },
+    "config_hash": "02c7757520b8decc37e6c93d044675c7a002b7c4ab452968768595d872830cdd",
+    "runtime_provenance": {
+      "python_version": "3.13.11",
+      "torch_version": "2.7.1+cu118",
+      "cuda_runtime_version": "11.8",
+      "device_type": "cuda",
+      "device_name": "NVIDIA GeForce MX450",
+      "dtype": "torch.float32"
+    },
+    "source_git_commit": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+    "continuation": {
+      "schema_version": 1,
+      "source_checkpoint": "D:\\My_project_li\\logs\\C\\seed42\\16k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a\\checkpoints\\step_12000.pt",
+      "source_sha256": "7c9034e00432c2545f8be8a972ac65580bec6602a7c3e061ef39fa76c91d3690",
+      "source_config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+      "target_config_hash": "02c7757520b8decc37e6c93d044675c7a002b7c4ab452968768595d872830cdd",
+      "restored_environment_steps": 12000,
+      "restored_pending_transitions": 224,
+      "target_environment_steps": 32000,
+      "diagnostic_sidecars_start_at": 12000,
+      "previous": {
+        "schema_version": 1,
+        "source_checkpoint": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\step_4000.pt",
+        "source_sha256": "2a92745919ef42316131ab70dd67c6cbb9fa91cfb1cb08ebd2931e5913b50325",
+        "source_config_hash": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15",
+        "target_config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+        "restored_environment_steps": 4000,
+        "restored_pending_transitions": 160,
+        "target_environment_steps": 16000,
+        "diagnostic_sidecars_start_at": 4000,
+        "previous": null,
+        "replay_reference": {
+          "path": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\final.pt",
+          "sha256": "58da11c49bde4a517471e1386842b90568fdb1ffe51d9c290caa7e3d442ff1b5",
+          "environment_steps": 8000,
+          "status": "verified_exact"
+        }
+      },
+      "replay_reference": {
+        "path": "D:\\My_project_li\\logs\\C\\seed42\\16k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a\\checkpoints\\final.pt",
+        "sha256": "dc8754d7871161233d65ee488e2125dbc4258b555b0a3efb7d579c264800c087",
+        "environment_steps": 16000,
+        "status": "verified_exact"
+      }
+    }
+  },
+  "replay_reference": {
+    "path": "logs/C/seed42/32k_continuation/ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a/checkpoints/final.pt",
+    "sha256": "7b1191d87095e6dd08a6c5523475cfc9c9c67494cffed4f7ef287379efa656b2",
+    "checkpoint_kind": "FINAL_COMPLETED",
+    "training_state": {
+      "policy_version": 125,
+      "started_episodes": 64,
+      "completed_episodes": 64,
+      "next_episode_index": 64,
+      "collected_environment_transitions": 32000,
+      "optimized_transitions": 32000,
+      "ppo_update_count": 125,
+      "unused_final_tail_transitions": 0,
+      "training_complete": true,
+      "active_rollout_length": 0,
+      "active_rollout_policy_version": null
+    },
+    "config_hash": "02c7757520b8decc37e6c93d044675c7a002b7c4ab452968768595d872830cdd",
+    "runtime_provenance": {
+      "python_version": "3.13.11",
+      "torch_version": "2.7.1+cu118",
+      "cuda_runtime_version": "11.8",
+      "device_type": "cuda",
+      "device_name": "NVIDIA GeForce MX450",
+      "dtype": "torch.float32"
+    },
+    "source_git_commit": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+    "continuation": {
+      "schema_version": 1,
+      "source_checkpoint": "D:\\My_project_li\\logs\\C\\seed42\\16k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a\\checkpoints\\step_12000.pt",
+      "source_sha256": "7c9034e00432c2545f8be8a972ac65580bec6602a7c3e061ef39fa76c91d3690",
+      "source_config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+      "target_config_hash": "02c7757520b8decc37e6c93d044675c7a002b7c4ab452968768595d872830cdd",
+      "restored_environment_steps": 12000,
+      "restored_pending_transitions": 224,
+      "target_environment_steps": 32000,
+      "diagnostic_sidecars_start_at": 12000,
+      "previous": {
+        "schema_version": 1,
+        "source_checkpoint": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\step_4000.pt",
+        "source_sha256": "2a92745919ef42316131ab70dd67c6cbb9fa91cfb1cb08ebd2931e5913b50325",
+        "source_config_hash": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15",
+        "target_config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+        "restored_environment_steps": 4000,
+        "restored_pending_transitions": 160,
+        "target_environment_steps": 16000,
+        "diagnostic_sidecars_start_at": 4000,
+        "previous": null,
+        "replay_reference": {
+          "path": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\final.pt",
+          "sha256": "58da11c49bde4a517471e1386842b90568fdb1ffe51d9c290caa7e3d442ff1b5",
+          "environment_steps": 8000,
+          "status": "verified_exact"
+        }
+      },
+      "replay_reference": {
+        "path": "D:\\My_project_li\\logs\\C\\seed42\\16k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a\\checkpoints\\final.pt",
+        "sha256": "dc8754d7871161233d65ee488e2125dbc4258b555b0a3efb7d579c264800c087",
+        "environment_steps": 16000,
+        "status": "verified_exact"
+      }
+    }
+  },
+  "restored_components": [
+    "actor",
+    "critic",
+    "actor Adam",
+    "critic Adam",
+    "policy RNG",
+    "pending rollout",
+    "persisted diagnostics",
+    "training counters"
+  ],
+  "execution_accounting": {
+    "source_step": 28000,
+    "replay_boundary": 32000,
+    "target_step": 40000,
+    "replay_steps": 4000,
+    "new_steps": 8000,
+    "total_steps_this_launch": 12000,
+    "source_pending": 96,
+    "first_post_restore_ppo_update_step": 28160,
+    "boundary_pending": 0,
+    "final_optimized_transitions": 39936,
+    "final_ppo_updates": 156,
+    "final_unused_tail": 64,
+    "new_evaluation_checkpoints": [
+      36000,
+      40000
+    ]
+  },
+  "tests": {
+    "passed": 64,
+    "subtests_passed": 14,
+    "junit_testcases": 78,
+    "failures": 0,
+    "errors": 0,
+    "new_real_ppo_training_test_run": false
+  },
+  "frozen_original_inputs": 512,
+  "changed_original_inputs": 0,
+  "scope": "Only budget and three output roots change; science and trained inputs frozen.",
+  "launch_mode": "User executes reviewed command; no launch by Codex.",
+  "evaluation_mode": "After training, separately evaluate 36k periodic and 40k final on fixed development protocol; not automatic during training.",
+  "limits": [
+    "Actual CUDA 28k-to-32k equality is checked at launch and is not yet established by this preparation.",
+    "Legacy checkpoints are not arbitrary-process RNG snapshots.",
+    "Two new development points and one training seed cannot establish convergence or multi-seed stability."
+  ]
+}

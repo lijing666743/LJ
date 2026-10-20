@@ -1,0 +1,14 @@
+{
+  "schema": "qmix_v10_post_cleanup_preservation.v1",
+  "checked_at": "2026-10-17T17:55:57.632467+08:00",
+  "status": "passed",
+  "retained_files_byte_identical": 888,
+  "deleted_targets_absent": 11,
+  "deleted_files_absent": 367,
+  "bytes_deleted": 3392546325,
+  "valid_remaining_profiles": 7,
+  "core_fingerprints_equal_cuda_validated": true,
+  "new_development_outputs_absent": true,
+  "protected_directories_not_processed": true,
+  "inventory_all_files_within_explicit_allowlist": true
+}

@@ -1,0 +1,13 @@
+{
+  "schema": "deep_cd_preservation_check.v1",
+  "verified_at_utc": "2026-10-20T02:49:37.735996+00:00",
+  "protected_file_count": 916,
+  "protected_bytes": 26494827646,
+  "all_byte_identical": true,
+  "mismatches": [],
+  "source_file_count": 140,
+  "C_D_experiment_configs_unchanged": 24,
+  "test_path_updates_excluded_explicitly": "See plan.json; ten Python test modules change only fixture paths, fixture README describes this migration",
+  "original_historical_ABC_manifests_unchanged": true,
+  "C_and_support_recovery_archives_unchanged": true
+}

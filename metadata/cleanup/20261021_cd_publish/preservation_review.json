@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-10-20T23:51:40.335291+00:00",
+  "status": "PASS",
+  "initial_strict_check_file": "scientific_inputs_after.json",
+  "initial_strict_check_retained": true,
+  "authorized_navigation_changes": [
+    "experiments/README.md",
+    "experiments/strong-baselines/README.md"
+  ],
+  "scientific_files_unchanged": 862,
+  "source_python_files_unchanged": 138,
+  "active_configuration_json_unchanged": 24,
+  "models_logs_csv_png_bytes_unchanged": true,
+  "original_HEAD_and_index_unchanged": true,
+  "explanation": "The broad initial preservation set included two intentionally updated navigation READMEs; all actual learning source, scientific config and experimental bytes matched. Initial result retained, reviewed against explicit authorized documentation changes."
+}

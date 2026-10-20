@@ -1,0 +1,14 @@
+{
+  "status": "READY_FOR_USER_TO_START",
+  "formal_training_started": false,
+  "fresh_initialization": "PASS",
+  "existing_inputs_unchanged": 547,
+  "config_changes": "seed and three output roots only",
+  "tests_passed": 63,
+  "subtests_passed": 8,
+  "fresh_output_roots_absent": true,
+  "powershell_syntax_errors": 0,
+  "cli_show_config": "PASS",
+  "documentation_links": "PASS",
+  "evaluation": "after training; fixed40k endpoint"
+}

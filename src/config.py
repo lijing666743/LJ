@@ -174,6 +174,7 @@ SUPPORTED_METHODS = (
     "local_only",
     "ca_gat_mappo",
     "factorized_action_gat_qmix",
+    "c_feature_credit_qmix",
 )
 SUPPORTED_SCENARIOS = ("small", "medium", "large", "remote_stress", "remote_stress_v2")
 SUPPORTED_LAUNCH_PROFILES = (
@@ -1095,11 +1096,12 @@ class RunConfig:
             raise ConfigError("mode 'random' requires method_id 'random'")
         if self.mode == "heuristic" and self.method_id != "heuristic":
             raise ConfigError("mode 'heuristic' requires method_id 'heuristic'")
-        if self.mode == "rl" and self.method_id not in {"ca_gat_mappo", "factorized_action_gat_qmix"}:
+        if self.mode == "rl" and self.method_id not in {"ca_gat_mappo", "factorized_action_gat_qmix", "c_feature_credit_qmix"}:
             raise ConfigError("mode 'rl' requires a registered RL method")
         if self.mode == "baseline" and self.method_id not in {
             "local_only",
             "factorized_action_gat_qmix",
+            "c_feature_credit_qmix",
         }:
             raise ConfigError(
                 "mode 'baseline' requires a registered baseline method"

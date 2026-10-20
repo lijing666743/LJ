@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "formal_training_started": false,
+  "zero_step_fresh_initialization": "PASS",
+  "checkpoint_schedule": "4k through36k periodic;40k final",
+  "config_comparison": "Only seed and three output roots differ from C42 40k",
+  "existing_inputs_unchanged": 526,
+  "tests_passed": 63,
+  "subtests_passed": 8,
+  "powershell_syntax_errors": 0,
+  "fresh_output_roots_absent": true,
+  "documentation_links": "PASS"
+}

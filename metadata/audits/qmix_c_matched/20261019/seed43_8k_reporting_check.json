@@ -1,0 +1,28 @@
+{
+  "schema": "c_feature_credit_qmix_seed43_8k_reporting_check.v1",
+  "checked_at_utc": "2026-10-19T10:37:59.802901+00:00",
+  "status": "PASS",
+  "markdown_documents_checked": 8,
+  "local_links_checked": 85,
+  "new_result_table_rows_checked": 7,
+  "completed_seed43_budget": 8000,
+  "next_budget": 16000,
+  "next_training_started": false,
+  "source_python_files_unchanged": 138,
+  "multiseed_config_file_hashes_unchanged": 10,
+  "future_stage_output_roots_absent": 27,
+  "analysis_environment_steps": 0,
+  "analysis_optimizer_updates": 0,
+  "dashboard_png_visual_review_passed": true,
+  "document_sha256": {
+    "README.md": "2c46d072018481a49313f3dfbc367e808891bd1f60f5d756fb077445f6913d2e",
+    "docs/results/CURRENT_EXPERIMENT_STATUS.md": "42fb2840f7bd46ffb3c21d2e608fb8ca85dcf64b310548f8b121bbe4e0a7560a",
+    "experiments/README.md": "a8826600308dbbe42cda2c06b29983d222699c4ce2cb0f18dc41fa9da26e5ff7",
+    "experiments/strong-baselines/README.md": "07ad3ba31fb9c73076bf29bde095affe17c34ecdbbea47258ff6d8cfb47eb131",
+    "docs/results/README.md": "4bb1017cc2b87e9ea2dc2a6531af7838fab7a5be296490fcd7bbecfc2de5b26f",
+    "metadata/README.md": "f4d588bb3973c54fc40ca1ef74ddff4bfc559b321060defd7f9f0220c46b459c",
+    "logs/README.md": "339b647d58f1ceb183e71413aaed51468215118120c03b3a86c59b89d779dd76",
+    "sections/results/20261018_C_FEATURE_CREDIT_QMIX.md": "7cc2b28c5537560e28950a4e6b09df3f1c3f8d7888f1587eb5cf5d2bbb4f0fe7",
+    "metadata/CURRENT_WORKSPACE_INDEX.json": "a6eb96f8db3da88d29422cf651d8c18e6cc0736963a96db560f05a8496882398"
+  }
+}

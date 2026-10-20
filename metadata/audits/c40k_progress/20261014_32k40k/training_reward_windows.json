@@ -1,0 +1,117 @@
+{
+  "window_episodes": 8,
+  "smoothing": "nonoverlapping8episode arithmetic mean",
+  "source": "D:\\My_project_li\\logs\\C\\seed42\\40k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-708b8aaa4d67__git-eb1140cefc4a\\checkpoints\\final.pt",
+  "windows": [
+    {
+      "end_environment_steps": 4000,
+      "episodes_1_based": [
+        1,
+        8
+      ],
+      "mean_episode_reward": -83.30629649645795,
+      "sample_std_episode_reward": 18.553312570057745,
+      "mean_completed_tasks": 21.875,
+      "mean_energy_j": 16.326824442519328
+    },
+    {
+      "end_environment_steps": 8000,
+      "episodes_1_based": [
+        9,
+        16
+      ],
+      "mean_episode_reward": -74.09064300964052,
+      "sample_std_episode_reward": 19.415634183656834,
+      "mean_completed_tasks": 26.125,
+      "mean_energy_j": 15.78051048308831
+    },
+    {
+      "end_environment_steps": 12000,
+      "episodes_1_based": [
+        17,
+        24
+      ],
+      "mean_episode_reward": -78.5608236866839,
+      "sample_std_episode_reward": 15.656675596780655,
+      "mean_completed_tasks": 25.75,
+      "mean_energy_j": 17.413616269738558
+    },
+    {
+      "end_environment_steps": 16000,
+      "episodes_1_based": [
+        25,
+        32
+      ],
+      "mean_episode_reward": -89.49540917973184,
+      "sample_std_episode_reward": 22.569237175522517,
+      "mean_completed_tasks": 23.25,
+      "mean_energy_j": 16.184146072336816
+    },
+    {
+      "end_environment_steps": 20000,
+      "episodes_1_based": [
+        33,
+        40
+      ],
+      "mean_episode_reward": -65.2018341627639,
+      "sample_std_episode_reward": 24.277563720122966,
+      "mean_completed_tasks": 29.25,
+      "mean_energy_j": 20.09196868889582
+    },
+    {
+      "end_environment_steps": 24000,
+      "episodes_1_based": [
+        41,
+        48
+      ],
+      "mean_episode_reward": -59.559972959814004,
+      "sample_std_episode_reward": 17.75299585436773,
+      "mean_completed_tasks": 37.375,
+      "mean_energy_j": 23.64847675630182
+    },
+    {
+      "end_environment_steps": 28000,
+      "episodes_1_based": [
+        49,
+        56
+      ],
+      "mean_episode_reward": -45.39598537543285,
+      "sample_std_episode_reward": 22.39986554525712,
+      "mean_completed_tasks": 38.25,
+      "mean_energy_j": 21.860970633590895
+    },
+    {
+      "end_environment_steps": 32000,
+      "episodes_1_based": [
+        57,
+        64
+      ],
+      "mean_episode_reward": -39.05675147959111,
+      "sample_std_episode_reward": 25.641078820712362,
+      "mean_completed_tasks": 40.875,
+      "mean_energy_j": 24.31900659573622
+    },
+    {
+      "end_environment_steps": 36000,
+      "episodes_1_based": [
+        65,
+        72
+      ],
+      "mean_episode_reward": -30.983577856565244,
+      "sample_std_episode_reward": 28.953837377070194,
+      "mean_completed_tasks": 42.75,
+      "mean_energy_j": 24.067565987209427
+    },
+    {
+      "end_environment_steps": 40000,
+      "episodes_1_based": [
+        73,
+        80
+      ],
+      "mean_episode_reward": -26.108097808344336,
+      "sample_std_episode_reward": 29.735925450007272,
+      "mean_completed_tasks": 50.25,
+      "mean_energy_j": 28.48156716509026
+    }
+  ]
+}

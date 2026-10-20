@@ -1,0 +1,130 @@
+{
+  "schema": "repository_organization_completion.v1",
+  "completed_at_utc": "2026-10-18T11:12:05.106467+00:00",
+  "status": "completed",
+  "scope": "Navigation consolidation, byte-identical historical document snapshots, reproducible caches, confirmed redundant diagnostic copies, and one test output-isolation correction",
+  "document_line_changes": [
+    {
+      "file": "README.md",
+      "old_lines": 336,
+      "new_lines": 38
+    },
+    {
+      "file": "docs/DIRECTORY_GUIDE.md",
+      "old_lines": 269,
+      "new_lines": 54
+    },
+    {
+      "file": "docs/results/CURRENT_EXPERIMENT_STATUS.md",
+      "old_lines": 246,
+      "new_lines": 42
+    },
+    {
+      "file": "experiments/README.md",
+      "old_lines": 13,
+      "new_lines": 14
+    },
+    {
+      "file": "metadata/README.md",
+      "old_lines": 34,
+      "new_lines": 32
+    },
+    {
+      "file": "logs/README.md",
+      "old_lines": 35,
+      "new_lines": 16
+    },
+    {
+      "file": "sections/README.md",
+      "old_lines": 108,
+      "new_lines": 117
+    }
+  ],
+  "archived_original_document_count": 7,
+  "source_config_checkpoint_paths_unchanged": true,
+  "removed_file_count": 74,
+  "removed_bytes": 55412000,
+  "removed_decimal_MB": 55.412,
+  "deduplicated_diagnostic_files": [
+    {
+      "delete_path": "metadata/audits/seed44_limited_diagnostic/20261015/rebuild_route/route_diagnostic.json",
+      "retained_path": "metadata/audits/seed44_limited_diagnostic/20261015_route_v2/route_diagnostic.json",
+      "sha256": "1992d8641082262f53b280f940ba775540008cdcf572d28b9c465adf4b994ae0",
+      "bytes": 46739237,
+      "reason": "Byte-identical rebuild duplicate; current report and generator use retained canonical path. Historical execution logs remain unchanged."
+    },
+    {
+      "delete_path": "metadata/audits/seed44_limited_diagnostic/20261015/rebuild_cpu/cpu_diagnostic.json",
+      "retained_path": "metadata/audits/seed44_limited_diagnostic/20261015/cpu_diagnostic.json",
+      "sha256": "f842f356cc7f76442a4942ed8840161c0bc3ddd278621f385857348a1e1cd0fa",
+      "bytes": 5703329,
+      "reason": "Byte-identical rebuild duplicate; current report and generator use retained canonical path. Historical execution logs remain unchanged."
+    },
+    {
+      "delete_path": "metadata/audits/seed44_limited_diagnostic/20261015/rebuild_training/training_diagnostic.json",
+      "retained_path": "metadata/audits/seed44_limited_diagnostic/20261015/training_diagnostic.json",
+      "sha256": "fe23dd0d17ade308cc43d5fa1f669379523f2bd2a350aa5708cd695c4fe3b907",
+      "bytes": 811447,
+      "reason": "Byte-identical rebuild duplicate; current report and generator use retained canonical path. Historical execution logs remain unchanged."
+    }
+  ],
+  "cache_directories_removed": [
+    "src/__pycache__",
+    "src/artifact_tools/__pycache__",
+    "src/env/__pycache__",
+    "src/evaluation/__pycache__",
+    "src/models/__pycache__",
+    "src/policies/__pycache__",
+    "tests/__pycache__",
+    ".pytest_cache",
+    "logs/_tmp_cli_16k"
+  ],
+  "verification_test_temp_removed": true,
+  "preservation": {
+    "original_files": 1523,
+    "unchanged_original_files": 1512,
+    "unchanged_source_files": 140,
+    "unchanged_checkpoint_files": 52,
+    "unexpected_changes": [],
+    "protected_directories_not_enumerated": [
+      ".agents",
+      "knowledge"
+    ],
+    "local_backups_and_presentations_unchanged": true
+  },
+  "test_fixture_correction": {
+    "path": "tests/test_c_feature_qmix_continuation_cli.py",
+    "before_sha256": "65fd5cdc8e95d15c65a35c5963d40c1ec7d40df2b4453926194d327cc2c15947",
+    "after_sha256": "ec74814b1eca1ec3bfcb1f9529991c190a2b7966276e0a618f5a4d6b3935508d",
+    "original_snapshot": "metadata/cleanup/20261018_repository_organization/test_fixture_before.txt",
+    "reason": "Resume CLI test now isolates output paths in tmp_path so completed real 16k artifacts do not trigger non-overwrite preflight during mocked restore checks"
+  },
+  "tests": {
+    "passed": 44,
+    "subtests_passed": 17,
+    "xml": "metadata/cleanup/20261018_repository_organization/navigation_regression_tests_final.xml"
+  },
+  "configurations_loaded": 26,
+  "local_navigation_links_checked": 70,
+  "initial_test_result": {
+    "passed": 43,
+    "failed": 1,
+    "subtests_passed": 17,
+    "reason": "Existing mocked restore test used completed real 16k output roots; real non-overwrite protection correctly rejected the request. Test outputs were isolated into tmp_path before successful rerun."
+  },
+  "evidence": {
+    "before": "metadata/cleanup/20261018_repository_organization/before.json",
+    "preservation": "metadata/cleanup/20261018_repository_organization/preservation_final.json",
+    "navigation": "metadata/cleanup/20261018_repository_organization/navigation_validation.json",
+    "tests": "metadata/cleanup/20261018_repository_organization/navigation_regression_tests_final.xml",
+    "archive": "metadata/reference/repository_snapshots/20261018_before_organization/snapshot_manifest.json"
+  },
+  "training_or_evaluation_started": false,
+  "algorithm_reward_and_training_configuration_changes": false,
+  "new_runtime_instructions_saved": false,
+  "notes": [
+    "Historical execution logs retain original rebuild paths; use deduplicated_diagnostic_files for retained canonical byte-identical records.",
+    "The seven original navigation snapshots retain their exact bytes and original relative-link context.",
+    "The existing Git worktree was not reset, committed or uploaded."
+  ]
+}

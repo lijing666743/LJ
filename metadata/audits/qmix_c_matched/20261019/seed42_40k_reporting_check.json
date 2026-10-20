@@ -1,0 +1,25 @@
+{
+  "schema": "c_feature_credit_qmix_40k_report_navigation_check.v1",
+  "checked_at_utc": "2026-10-19T07:59:58.805781+00:00",
+  "status": "PASS",
+  "markdown_documents_checked": 10,
+  "existing_local_links_checked": 96,
+  "new_final_result_table_rows_checked_against_raw_record_audit": 7,
+  "current_index_matches_completed_40k": true,
+  "next_stage_not_started": true,
+  "new_training_or_simulation_steps": 0,
+  "changed_navigation_and_report_sha256": {
+    "README.md": "557ffc814faca321d1535e9d5b7a4718b66809ee2a1b52f4eea57c3ac5dd1b9b",
+    "docs/results/CURRENT_EXPERIMENT_STATUS.md": "fa729d3635165144214b4d67c4dacf110e4e968644e553fc522b32eb04a8b02f",
+    "experiments/README.md": "ec99b46c48b6f592d9d3409a9d9555abe8b102a0a02d28a2b01935037904a04e",
+    "experiments/strong-baselines/README.md": "d2ad3799c7cc5248c1a2adbc4d8dc6cb1a0dde66d2fecadfd3575be2094a202b",
+    "docs/results/README.md": "f8bf45759f8717b8a41e829d0b556b921fedf91f98d927b26de38566537aaa02",
+    "sections/README.md": "9a1b49d08358ec30419ee1e4f3319664ce5fa65075cab32fe129af2ab5c5734d",
+    "logs/README.md": "7c6507acf89fbcc348334907fc661345193e90a18852e4029817c0d237eef4bb",
+    "docs/DIRECTORY_GUIDE.md": "ee3f44ee20cc2daf14df7b7e435a96d935017834bd357566c066d998080791f7",
+    "metadata/README.md": "c6507b861c05785aa27100656dfbf0cc41975149c44c5ead1711a129a75d5c3c",
+    "sections/results/20261018_C_FEATURE_CREDIT_QMIX.md": "89fdabef5dfb2086619da7c8f7554af84df3c3e947d8106b1022fb176d7f82d4",
+    "metadata/CURRENT_WORKSPACE_INDEX.json": "f3fa2e6e0f6f28ef77210e30515ef56f71c6b08035c88dae3f66010b66977ab4"
+  },
+  "verification_scope": "Navigation, result-table arithmetic and source-audit references only; no new source module or algorithm implementation claimed."
+}

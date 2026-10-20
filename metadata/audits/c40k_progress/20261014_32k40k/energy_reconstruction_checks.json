@@ -1,0 +1,76 @@
+{
+  "36000": {
+    "1042": {
+      "energy_balance": 2000,
+      "CPU_queue": 2000,
+      "TX_attempt_gate": 2000,
+      "EDF_and_service_amount": 1254,
+      "final_task_cycles": 135
+    },
+    "1043": {
+      "energy_balance": 2000,
+      "CPU_queue": 2000,
+      "TX_attempt_gate": 2000,
+      "EDF_and_service_amount": 1463,
+      "final_task_cycles": 122
+    },
+    "1044": {
+      "energy_balance": 2000,
+      "CPU_queue": 2000,
+      "TX_attempt_gate": 2000,
+      "EDF_and_service_amount": 938,
+      "final_task_cycles": 117
+    },
+    "1045": {
+      "energy_balance": 2000,
+      "CPU_queue": 2000,
+      "TX_attempt_gate": 2000,
+      "EDF_and_service_amount": 1412,
+      "final_task_cycles": 102
+    },
+    "1046": {
+      "energy_balance": 2000,
+      "CPU_queue": 2000,
+      "TX_attempt_gate": 2000,
+      "EDF_and_service_amount": 1359,
+      "final_task_cycles": 129
+    }
+  },
+  "40000": {
+    "1042": {
+      "energy_balance": 2000,
+      "CPU_queue": 2000,
+      "TX_attempt_gate": 2000,
+      "EDF_and_service_amount": 1268,
+      "final_task_cycles": 135
+    },
+    "1043": {
+      "energy_balance": 2000,
+      "CPU_queue": 2000,
+      "TX_attempt_gate": 2000,
+      "EDF_and_service_amount": 1453,
+      "final_task_cycles": 122
+    },
+    "1044": {
+      "energy_balance": 2000,
+      "CPU_queue": 2000,
+      "TX_attempt_gate": 2000,
+      "EDF_and_service_amount": 898,
+      "final_task_cycles": 117
+    },
+    "1045": {
+      "energy_balance": 2000,
+      "CPU_queue": 2000,
+      "TX_attempt_gate": 2000,
+      "EDF_and_service_amount": 1379,
+      "final_task_cycles": 102
+    },
+    "1046": {
+      "energy_balance": 2000,
+      "CPU_queue": 2000,
+      "TX_attempt_gate": 2000,
+      "EDF_and_service_amount": 1360,
+      "final_task_cycles": 129
+    }
+  }
+}

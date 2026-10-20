@@ -1,0 +1,6 @@
+{
+  "shell": "PowerShell",
+  "executed": false,
+  "command": "Set-Location 'D:\\My_project_li'\n$env:OMP_NUM_THREADS = '1'\n$env:MKL_NUM_THREADS = '1'\n& 'D:\\Miniconda\\python.exe' -u -B -X utf8 main.py --config 'experiments/task-allocation/configs/c-seed43-40k.json'\nif ($LASTEXITCODE -ne 0) { throw 'C seed43 training failed. Inspect the error before restarting.' }",
+  "syntax_errors": 0
+}

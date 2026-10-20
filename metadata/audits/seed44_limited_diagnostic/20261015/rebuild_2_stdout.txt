@@ -1,0 +1,1 @@
+{"status": "PASS", "cases": 11, "output": "D:\\My_project_li\\metadata\\audits\\seed44_limited_diagnostic\\20261015\\rebuild_cpu\\cpu_diagnostic.json"}

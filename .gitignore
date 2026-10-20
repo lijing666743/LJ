@@ -30,16 +30,16 @@ logs/**
 !logs/**/episode_metrics.jsonl
 !logs/**/evaluation_metrics.csv
 !logs/**/summary.json
+!logs/**/series_manifest.json
+!logs/strong_baselines/development/c_feature_credit_qmix/**/raw_metrics.jsonl
 !logs/**/service_diagnostic_manifest.json
 !logs/**/continuation_from_*.json
 plots/*
 !plots/.gitkeep
-!plots/A/
-!plots/A/**
-!plots/B/
-!plots/B/**
 !plots/C/
 !plots/C/**
+!plots/strong_baselines/
+!plots/strong_baselines/**
 !plots/checkpoint_progress/
 !plots/checkpoint_progress/**
 !plots/documentation/
@@ -50,6 +50,7 @@ dashboard_logs/**
 !dashboard_logs/**/progress_metrics.csv
 !dashboard_logs/**/summary_metrics.csv
 !dashboard_logs/**/per_scene_metrics.csv
+!dashboard_logs/strong_baselines/**
 
 # 模型 checkpoint
 **/*.ckpt
@@ -67,3 +68,11 @@ tmp/
 
 # 本机生成的完整恢复压缩包、发布临时索引与上传状态，不进入普通Git。
 metadata/local_backups/
+
+# Protected research material and local account state are not publication inputs.
+.agents/
+knowledge/
+.codex/
+.aws/
+.env
+.env.*

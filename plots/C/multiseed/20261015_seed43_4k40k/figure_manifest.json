@@ -1,0 +1,65 @@
+{
+  "purpose": "two-training-seed development diagnostic",
+  "training_seeds": [
+    42,
+    43
+  ],
+  "evaluation_seeds": [
+    1042,
+    1043,
+    1044,
+    1045,
+    1046
+  ],
+  "denominator_per_run": 605,
+  "primary_endpoint": 40000,
+  "training_band": "episode sample SD; no inference across seeds",
+  "final_scene_heights_and_labels": [
+    {
+      "label": "纯本地",
+      "completion_pct": [
+        54.074074074074076,
+        49.18032786885246,
+        59.82905982905983,
+        59.80392156862745,
+        45.736434108527135
+      ]
+    },
+    {
+      "label": "Heuristic",
+      "completion_pct": [
+        74.07407407407408,
+        52.459016393442624,
+        78.63247863247864,
+        51.96078431372549,
+        48.06201550387597
+      ]
+    },
+    {
+      "label": "C seed42",
+      "completion_pct": [
+        74.81481481481481,
+        74.59016393442623,
+        68.37606837606837,
+        65.68627450980392,
+        56.58914728682171
+      ]
+    },
+    {
+      "label": "C seed43",
+      "completion_pct": [
+        67.4074074074074,
+        70.49180327868852,
+        72.64957264957265,
+        63.72549019607843,
+        49.6124031007752
+      ]
+    }
+  ],
+  "source_csv_hashes": {
+    "checkpoint_metrics_seed42_seed43.csv": "dc517aa58d0c764561e9b27c0a472f52bc25c0b65bdbdf99ae2080b9a9cf692f",
+    "per_scene_metrics_seed42_seed43.csv": "04a05e9ba90be9d5f0dc7e81d42385e40f9402a924ad14f687c175d34f172416",
+    "training_windows_seed42_seed43.csv": "a58b3c3a543d32c2c72cfdc1f78ebf8f5bbfc7fb0aba10abf238e95a8a3c8a22"
+  },
+  "regeneration_script": "src/evaluation/c_seed43_report.py"
+}

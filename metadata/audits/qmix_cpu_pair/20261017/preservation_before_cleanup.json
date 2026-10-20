@@ -1,0 +1,91 @@
+{
+  "schema": "qmix_cpu_pair_preservation_before_cleanup.v1",
+  "checked_at": "2026-10-17T16:17:44.272738+08:00",
+  "previous_unchanged_files_verified": 837,
+  "intentional_validated_changes": [
+    {
+      "path": "src/evaluation/qmix_limited_diagnostic.py",
+      "previous_sha256": "ece46a955e63a75f48db55670f7fb4b186a30c7cf956b6529e1dc147c5924ab7",
+      "current_sha256": "28e8b1d7f1f877bfad0691341285c1082b293b68e29d5615737694a290dc7239"
+    },
+    {
+      "path": "src/models/factorized_gat_qmix.py",
+      "previous_sha256": "81330f89ab40486215184288d146e03840d25cf93b3891128c602f659806c4ac",
+      "current_sha256": "fe09c89adae4e20fcf61fa71754703c8e4f290502a87c3f17d94789d225b0114"
+    },
+    {
+      "path": "src/models/qmix_trainer.py",
+      "previous_sha256": "73d198b24ba4fe3d942195f5abf185c1f78a88842c6d1f3ec0626ca12e32bf9f",
+      "current_sha256": "6a9243331fa23e72939496439a028f74f07ad99aae4e7b14cc4f0652afd44ea4"
+    },
+    {
+      "path": "src/models/qmix_continuation.py",
+      "previous_sha256": "62387b97d367dfa4efcbf1ab455128b7b2387c3e99b58605a40e1630c2f1f86b",
+      "current_sha256": "57f31eff4a4160c763383bb0719cc52aa2a48ad2f7e9100a71a427c2c10a78a0"
+    },
+    {
+      "path": "tests/test_qmix_agent_exploration.py",
+      "previous_sha256": "93f2548b3c69e1db3cc1d4665d520b10278e02283b88edecd69e047f1a9945f9",
+      "current_sha256": "9467990a4aa5e6b3f0a61be5c436761752e3e491ff956d40be3d8f39cdcabddc"
+    },
+    {
+      "path": "tests/test_qmix_continuation.py",
+      "previous_sha256": "4e572eaa17ad4bf7f6bb650af58f6a2db142b90d3f3131d12e133502cd4918f0",
+      "current_sha256": "e2aea7b372ee59097c923821af6152610675b531fe07de817a81fed4bd531e6d"
+    },
+    {
+      "path": "tests/test_qmix_input_scale.py",
+      "previous_sha256": "eaf5ed715394381ed0c84f8d3f7e9ab7d599416a6892055f9748db3a627751c5",
+      "current_sha256": "7da4721f9e324868c4e042f05e2cf87eafbdf7057d2c9f2370c13b2dafe96b98"
+    },
+    {
+      "path": "tests/test_qmix_joint_decoder.py",
+      "previous_sha256": "0a0d7e76f60a755b19f58aa56a9f0633151b0779b5a63b439eecb46302ae1240",
+      "current_sha256": "09f6abf9181033db88f4a3d9427b7d03492cb0a988efbc5b66527809a9323501"
+    },
+    {
+      "path": "tests/test_qmix_limited_diagnostic.py",
+      "previous_sha256": "625cd394aa21b347d0d54af27a0b3622d2102adeaac13ce2eb26ee92a10ffac0",
+      "current_sha256": "75385d6b9fe037488f0e315329632451be23658e4b9ac6ec5fb905c4d7e90fd6"
+    },
+    {
+      "path": "tests/test_qmix_recurrent.py",
+      "previous_sha256": "4b9517c8962919658540daba831c8105c0d17ff3be2aa392cf51f1370a072afb",
+      "current_sha256": "b9deabcd2256509aca6a710ce58124bed6cdf4109e9d00e8bc610640d694b97d"
+    },
+    {
+      "path": "tests/test_qmix_targets.py",
+      "previous_sha256": "1d04c00e41995081277ad50f555d0215513910c42aacb965597356532ddabf5e",
+      "current_sha256": "ea600781eb1a299b8bcbcbcba5e60ad2edfb72b84293ac3b95975ee980239774"
+    },
+    {
+      "path": "experiments/strong-baselines/configs/fa-gat-qmix-seed42-40k.json",
+      "previous_sha256": "5b7b07ecdca94447f7e6d9e88ca51bba3e9ea985a063fbc82afbd864b4fa58dd",
+      "current_sha256": "5b3e3c54ef9e3e60573e4029768cb13bad3830c1be48d57f9332b52e86f08726"
+    },
+    {
+      "path": "experiments/strong-baselines/configs/fa-gat-qmix-seed42-40k.draft.json",
+      "previous_sha256": "eacc577aac4229fc08bc01b2b94f1162453164311216824467adccdae03a7223",
+      "current_sha256": "2344a98ce3b7a44882471db57f247236bf98f928f8837cc1e9e0241d643c1400"
+    },
+    {
+      "path": "experiments/strong-baselines/configs/fa-gat-qmix-seed43-40k.draft.json",
+      "previous_sha256": "d3ab2ac33ce096f76f23a2ac6f39d7c5a8d44755f388c8025b49d14246efaa5c",
+      "current_sha256": "96081c15ad86ea51ff252e73534a6e3d1563d3cc24c9229d1d1b242befeed15b"
+    },
+    {
+      "path": "experiments/strong-baselines/configs/fa-gat-qmix-seed44-40k.draft.json",
+      "previous_sha256": "af6de5001cd972b40e79e90b6415fd0e896be860c06fbcdf6ed87a775380ea64",
+      "current_sha256": "819330e750aad0cb2312384323f790e7ba7f3e5781a1a237b177ff7dce87dfb4"
+    }
+  ],
+  "retired_old_input_paths": [
+    "experiments/strong-baselines/configs/fa-gat-qmix-seed42-8k-agent-exploration-development.json",
+    "experiments/strong-baselines/configs/fa-gat-qmix-seed42-16k-agent-exploration-development.json",
+    "experiments/strong-baselines/configs/fa-gat-qmix-agent-exploration-engineering.json",
+    "sections/planning/20261017_QMIX_AGENT_EXPLORATION_TRIAL.md"
+  ],
+  "new_preserved_file_count": 872,
+  "preserved_bytes": 15800844011,
+  "C_AB_shared_environment_reward_unchanged": true
+}

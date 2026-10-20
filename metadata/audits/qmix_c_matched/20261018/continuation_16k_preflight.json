@@ -1,0 +1,122 @@
+{
+  "schema": "C_feature_credit_QMIX_16k_preparation.v1",
+  "checked_at_utc": "2026-10-18T06:12:27.637057+00:00",
+  "status": "configuration_and_zero_step_full_state_restore_verified_waiting_for_user_local_training",
+  "source_config_hash": "1b3cae3cdac58f3000fa17685e3e4b5bbe60cdb26e84cf75b177c15bec5c4988",
+  "target_config_hash": "f3b23eca17eca71c882a08c8ade83868a01b3858218207822fe108189dd4caf4",
+  "source_checkpoint": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed42\\8k\\c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-1b3cae3cdac5__git-eb1140cefc4a\\checkpoints\\final.pt",
+  "source_checkpoint_sha256_unchanged": "073792c7e89eb88533a32c83fa0c40a36ec2df336fbf1087503e6c1b0362670d",
+  "configuration_changes": [
+    {
+      "field": "training.qmix.max_training_episodes",
+      "source": 16,
+      "target": 32
+    },
+    {
+      "field": "training.qmix.max_training_environment_steps",
+      "source": 8000,
+      "target": 16000
+    },
+    {
+      "field": "output.logs_dir",
+      "source": "logs/strong_baselines/development/c_feature_credit_qmix/seed42/8k",
+      "target": "logs/strong_baselines/development/c_feature_credit_qmix/seed42/16k"
+    },
+    {
+      "field": "output.plots_dir",
+      "source": "plots/strong_baselines/development/c_feature_credit_qmix/seed42/8k",
+      "target": "plots/strong_baselines/development/c_feature_credit_qmix/seed42/16k"
+    },
+    {
+      "field": "output.dashboard_logs_dir",
+      "source": "dashboard_logs/strong_baselines/development/c_feature_credit_qmix/seed42/8k",
+      "target": "dashboard_logs/strong_baselines/development/c_feature_credit_qmix/seed42/16k"
+    }
+  ],
+  "restore_verification": {
+    "environment_steps_executed": 0,
+    "full_state_sha256": "a95d6276d3f2baa57fd611cc5614f2f98fea25c4b6b653d6c886c710be6c02fe",
+    "optimizer_updates_executed": 0,
+    "replayed_environment_steps": 0,
+    "source_optimizer_updates": 225,
+    "source_steps": 8000,
+    "target_steps": 16000
+  },
+  "target_output_roots_absent": true,
+  "training_entry_and_environment_construction_blocked_during_check": true,
+  "evaluation_module": "src.evaluation.qmix_continuation_progress",
+  "planned_new_evaluation_steps": [
+    12000,
+    16000
+  ],
+  "inherited_evaluation_steps": [
+    4000,
+    8000
+  ],
+  "launch_fix": [
+    "src/execution.py: allow matched QMIX full-state resume",
+    "src/cli.py: dispatch matched QMIX resume check to QMIX loader"
+  ],
+  "initial_cli_check_failure": "new method was missing from launch resume allow-list; corrected without changing learning implementation",
+  "algorithm_changed": false,
+  "training_started": false,
+  "tests": {
+    "passed_parent_tests": 37,
+    "passed_subtests": 17,
+    "xml": "metadata\\audits\\qmix_c_matched\\20261018\\continuation_cli_tests_project_temp.xml",
+    "initial_system_temp_run": {
+      "failures": 11,
+      "errors": 7,
+      "xml": "metadata\\audits\\qmix_c_matched\\20261018\\continuation_cli_tests.xml",
+      "resolution": "all tests passed after using project-local temporary directories"
+    }
+  },
+  "learning_source_sha256_at_successful_restore": {
+    "src/config.py": "a3eb93e3c2e631073fad555c01fd47f99698bcd78482ed0692171d684010b4e2",
+    "src/env/__init__.py": "c8118cc330c2e54103bc6374f4bbbfcd4afc664b3d9785fd9527dfa4375fcfbb",
+    "src/env/action_history.py": "64921079b0768bdec87749b39bd5b14e0a4a93885f839c8855189da4d29864b6",
+    "src/env/actions.py": "7f6b9eeda2c6674bc4bcd1dd698f3d85c60a520a1632916e59a7e052da435d1e",
+    "src/env/channel.py": "8121e5f6bb81b88538b237d10951578482029c1df9fecf39158bde99e1bfacc2",
+    "src/env/energy.py": "aad51548bf7422a5f717b8c413380ea44e31efa2b2db89f027571b071bf96841",
+    "src/env/environment.py": "3d9a47d925fc8187a2e39c5207bc0f4632f9e1dffe6be574284bff40d77e8ff5",
+    "src/env/executor.py": "4d79fc77b225bb5fe497a70489cb4be17c3016b4b4c01510300916db2f8548a4",
+    "src/env/history.py": "4bb0536b18036fbe5a64d3269679a5ad193b98e5400c27c4fb4f8f5a62a29a9f",
+    "src/env/lifecycle.py": "0c65b4ddd202a1ebaab292d2b4f0ad77369dc97581318027a3e6ccb10b659196",
+    "src/env/metrics.py": "f79c61bc3195f93d6a7a6808471b9fff2cf9c9d765b338fc7f3c8ec573ae7ecd",
+    "src/env/mobility.py": "fa779fe22ac4179c8afcb8074946f091cdf8ee3d6a7e0909105bd0a73f0bd3ea",
+    "src/env/observation.py": "39dfd220351849a7047fdaea71d27e267bdaf06d867484b4620bc17e8df51a79",
+    "src/env/outage.py": "206124a3da29f35b88fed54d0411495626e9545e24a8a6536edfd616d042745c",
+    "src/env/public_history.py": "be87558825dc7b3b74589bc566cc14d47a66534da3c98eda09679b63115c0dab",
+    "src/env/queues.py": "c4edab7b8c458a40adf245035435a29cba4d84c3d05467a7ff5f2e8205b96767",
+    "src/env/randomness.py": "0863cc52f7e93da1469f1b74e837239256b1e77c686f6337f8001dd129beaf04",
+    "src/env/reward.py": "424957a87c6b16836cd7ec73535098b70c3da25728d476a35969b28d7cde19cf",
+    "src/env/service.py": "6d0b177c95606245971d0e7f652a08589e4aa64fe75aac8d002486ae1a970ce9",
+    "src/env/state.py": "2d62584b6f919767f6c2711c73e2ad49f37e4f8eb931a6ca12cf3b894d202523",
+    "src/env/task.py": "12a4bcf99ffc5cb42b8cdde89330498fe1d89852ed28935a02436be506df0e25",
+    "src/env/tasks.py": "b691e9fa1647c931f194333ecab2bfbbf2db5bf0965ea7b3defe1e85ae9a98bf",
+    "src/env/topology.py": "e9276c4f39aa73f57849c99c2f10cb8ff5b16fad1a2946d87be917f7c463b115",
+    "src/env/traffic.py": "cdd85684b7d271e22c233f0454b17a26c31c1e46c5cc81decea25cba6d812223",
+    "src/env/validation.py": "4076aa7caef6a6a07bea2db3e323382f0e55f9f4ab6c1cfe56e160a21b942c37",
+    "src/evaluation/route_oracle.py": "eabfa0b467342e53fff3758e7cd1b5cb143621923b06a310d38caad43fbfa0c0",
+    "src/evaluation/tx_paired_shadow_pilot.py": "8945b430dd590c10d78943b29d87079454504d73e540e885ca372bec4ba19f01",
+    "src/models/c_feature_qmix_agent.py": "4c1f4674df49732b209a045b012e49d1a438b2850f6388e9d9961bc0332e5829",
+    "src/models/c_feature_qmix_collection.py": "f472932f2ba4cedcf7cf030468fbea727a404a237a539a71b5f30f5f03529e67",
+    "src/models/c_feature_qmix_credit.py": "60c7c8e9a78494ac2f6625fe0723adc7e71bcf56313ef54482d19172ca728d56",
+    "src/models/ca_gat_mappo.py": "3e79786c34d9065f829a5bfc2d55ded668ef235376795a2220d1d7fa36d2c056",
+    "src/models/factorized_gat_qmix.py": "a015155a519ec1e7d3978040945a39eec054fa853bc5724a9bdd63e463e9432d",
+    "src/models/integrated_scheduler.py": "2f38b04ca1d249c8c59dfbd5e2f9bd0d710837a505929aad363fe2a0c62b5312",
+    "src/models/qmix_recurrent.py": "c394ccbf1b232e3e55de242afd38f404310d33f18f57f8a0848e618f25efb439",
+    "src/models/qmix_replay.py": "ea964ab73d8d50a15567bedb04aebdc21264ab70ed4a7ef5cde26e6c5835d576",
+    "src/models/qmix_targets.py": "881a5117974c97e739b72e98f828397c93f978bd6da99acee1292ee2f7e44ea1",
+    "src/models/qmix_trainer.py": "4318610d42d21bce4458a90e1d3e5f4789850300b7262046c782f1ba64928c06",
+    "src/models/route_candidates.py": "595411fa64a2e4ec9d33cf4d9b4ac5bfd7ff941c82f9d8a57544bd2f63851d36",
+    "src/models/route_physical_relations.py": "95226f1cd4511c7551dd1aa3dddf266a4fe69960a28f4110a5acd0a9d23b6f25",
+    "src/models/route_task_credit.py": "345fcbedce1b509a2efb0cd402da0bf17b6c5df2a02c52f3befeda8e5e27a3a7",
+    "src/models/tx_paired_shadow.py": "d713e1f600ae8e9027cc8ba81ca67b3c30cc52afba746ce1651eae2c20ade2c7",
+    "src/models/unified_route.py": "427dbd561abbcda38086e65bd612762fc5e37dd876d937c4b790e24471a50ab8"
+  },
+  "launcher_sha256": {
+    "src\\cli.py": "da6fa6b93dd20d6d6fc1fe360d1bd34e48c6606a25f47ed01fed58fee0ccad24",
+    "src\\execution.py": "4d517a7ffa6ee285c76c1c342aed9db11ebbcf899a0f3ee7d80e0d6cef50ff1b"
+  }
+}

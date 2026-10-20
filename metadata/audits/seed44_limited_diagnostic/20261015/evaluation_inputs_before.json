@@ -1,0 +1,1126 @@
+{
+  "scope": "Existing seed42/43/44 checkpoint development-evaluation inputs before offline analysis outputs",
+  "files": {
+    "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/route_decision_trace.jsonl": {
+      "sha256": "0f476fc277d0631be1aedb9c56d3a8fbe97b7c5bddee61bfa4f81d70e6ffc3b0",
+      "bytes": 1187231
+    },
+    "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/summary.json": {
+      "sha256": "436f15a8ee8144db79bb225edce76b9b0328e38221ea9054894cb5a9c0e2970c",
+      "bytes": 1334
+    },
+    "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/cpu_service_trace.jsonl": {
+      "sha256": "dc0fb5ab50f498cdb0187a8d500a64110275749fe410238564f14c410c130675",
+      "bytes": 19027793
+    },
+    "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/service_diagnostic_manifest.json": {
+      "sha256": "f3c4233cbaaa7426e56467470ae8f19e5f0c95e9d48ac1bc07e7016202196dfd",
+      "bytes": 1416
+    },
+    "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/task_lifecycle.jsonl": {
+      "sha256": "27ad9708f6b1207c94cccb3ff0a77efbcee5f40182aa3e78bfef053ec4a3cf55",
+      "bytes": 1592579
+    },
+    "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/tx_service_trace.jsonl": {
+      "sha256": "beae56efc9664f55a9a3cb40bd8b5d2d005a8b8d78a1d9e52c5f41432e8387d8",
+      "bytes": 25126438
+    },
+    "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/aggregate_metrics.json": {
+      "sha256": "0331fa58ada06bc5ccb73c50485eca92aa75339720108351ab61e71141976900",
+      "bytes": 16492
+    },
+    "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/episode_metrics.jsonl": {
+      "sha256": "77df2bdeda07d1185e2654443737d24d09edaf80ae674a324eb1943cbeb3da2f",
+      "bytes": 199267
+    },
+    "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/evaluation_manifest.json": {
+      "sha256": "54d9c94dc142e8a8bde92419271f63f3b3f612e4c2a655ac2c0231874680b620",
+      "bytes": 17818
+    },
+    "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/12k/evaluations/development-service-eval__remote_stress_v2__chk-7c9034e00432__cfg-d2463e1929ea__eval-f819edd6abf8/evaluation_metrics.csv": {
+      "sha256": "cab49908ed29ff2e540b2f53f62f726b2c85f671408d8ccd3d80de83173b26b3",
+      "bytes": 10662
+    },
+    "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/route_decision_trace.jsonl": {
+      "sha256": "785cb0c585668c4907fe81e31903136bc8afca82c208ab152835818873fcde5f",
+      "bytes": 1186032
+    },
+    "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/summary.json": {
+      "sha256": "b102a699441860bbcf76c6656e95e724175bc5de356637eb63cb369610c0ab2d",
+      "bytes": 1333
+    },
+    "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/cpu_service_trace.jsonl": {
+      "sha256": "c7d91b6dd43bc1ac7a1eb6d4a587925d6d047d966d3206e7f18480eb95827a62",
+      "bytes": 19070940
+    },
+    "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/service_diagnostic_manifest.json": {
+      "sha256": "caeb727f67325f43a287035f593890e5d5e32a2c02462c4992bd8418a0d1ac06",
+      "bytes": 1416
+    },
+    "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/task_lifecycle.jsonl": {
+      "sha256": "977747cd9b5946bacd3028c2168af0146f7fd137450c205248d6756f4b102d56",
+      "bytes": 1591822
+    },
+    "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/tx_service_trace.jsonl": {
+      "sha256": "ec5dd3d5974175e43f4f33afe330adc8d650793944a46d5dc7be5b06e04ad3bf",
+      "bytes": 25126654
+    },
+    "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/aggregate_metrics.json": {
+      "sha256": "0ae2da8eb18fae8bd5843632764573c0934fd2d867bb23c3a2b3558862324855",
+      "bytes": 16485
+    },
+    "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/episode_metrics.jsonl": {
+      "sha256": "146e46a2764885b55aec66ef8775cda49ba7c5c98b428f27567ea17efd6585da",
+      "bytes": 199270
+    },
+    "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/evaluation_manifest.json": {
+      "sha256": "6e7204615d8cc9f6659b8e9f040fefe703c4251e3209daeec2c3f58edfe5fd72",
+      "bytes": 17813
+    },
+    "logs/C/seed42/checkpoint_progress/20261013_4k8k12k16k/16k/evaluations/development-service-eval__remote_stress_v2__chk-dc8754d78711__cfg-d2463e1929ea__eval-fffa0489957e/evaluation_metrics.csv": {
+      "sha256": "ab88d264250ea81a6962518fc6883746a591f4d133cc6b7ce1d6dadd076a44a8",
+      "bytes": 10664
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/route_decision_trace.jsonl": {
+      "sha256": "1d1f6dba109a2864b31b2c71189a0410bd0db2565f72f0d586f0dc5a5f3fa5c9",
+      "bytes": 1187504
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/summary.json": {
+      "sha256": "9bae0ce7df15d154db3de99a1e608f547778ed9dcc762ff5422cada7ce7a5524",
+      "bytes": 1333
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/cpu_service_trace.jsonl": {
+      "sha256": "f9fc38ce5645d986e303ef89808ffb438e6c856ba0e42f7f0f8105b2998a5b4c",
+      "bytes": 19089234
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/service_diagnostic_manifest.json": {
+      "sha256": "6e1c81322b6c74c749e489d72888f05fa984ca75b8ddf1f4603cefdf8e3a2ff7",
+      "bytes": 1416
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/task_lifecycle.jsonl": {
+      "sha256": "ba1a9228f12553acbf31a3fd67fc12630f3a323849d94ddd10d735ed3d588a47",
+      "bytes": 1591002
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/tx_service_trace.jsonl": {
+      "sha256": "90cf1f94d8f0afa567a7ce40a1f6bbfb8f671d97f49d9d954b55ee46c1d41b4c",
+      "bytes": 25138609
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/evaluations/development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/aggregate_metrics.json": {
+      "sha256": "85e62cdace773a5fa42fe67850d3de0cbb961036937bb50686d97f22f72f1182",
+      "bytes": 16424
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/evaluations/development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/episode_metrics.jsonl": {
+      "sha256": "a854e46620be086c5d56770376959c29adcdca404be51e4644b7eef71233f4cd",
+      "bytes": 199235
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/evaluations/development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/evaluation_manifest.json": {
+      "sha256": "522870721564f01e2d30a695e95f73185d59dfaa9158cd2ded8ac536bc282c33",
+      "bytes": 18914
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/20k/evaluations/development-service-eval__remote_stress_v2__chk-afd9b73163e6__cfg-d2463e1929ea__eval-907f54d57ed6/evaluation_metrics.csv": {
+      "sha256": "e58767bf458b1955b8c140aed3007d9a8dbd4211590821d052c16586f7deaa47",
+      "bytes": 10649
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/route_decision_trace.jsonl": {
+      "sha256": "33c683b92be2e9137adf1adb6ebc3e2aa967cba0ff53628dae081d00dc4ca95a",
+      "bytes": 1184326
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/summary.json": {
+      "sha256": "51f6658f6b8cf9ce01fd7a48c23e33b5c75596caa31282c7d44327f9ddc1c292",
+      "bytes": 1332
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/cpu_service_trace.jsonl": {
+      "sha256": "aa8dca6d37b4094268c5d3b6da24e7e503edea8ca2cc9067f2f01d3066ac04df",
+      "bytes": 19088606
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/service_diagnostic_manifest.json": {
+      "sha256": "95a9ed5f3585467e8e7e48695cbfe007988926e406fa9bccf60e16cccd2c372d",
+      "bytes": 1416
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/task_lifecycle.jsonl": {
+      "sha256": "89ea73300e1e91d27f936de6d92e7a6025ec66f0d1d9888fcfe040a12f63ec84",
+      "bytes": 1591079
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/tx_service_trace.jsonl": {
+      "sha256": "bfca9777139bb777dd4269cf82d93af742be269f2f5d64fe5518b6771d7f14de",
+      "bytes": 25129109
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/evaluations/development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/aggregate_metrics.json": {
+      "sha256": "c846f3dd25eefcb2724fb99933727a03aa32255ffeebe513873b2d8b1c71320e",
+      "bytes": 16490
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/evaluations/development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/episode_metrics.jsonl": {
+      "sha256": "a3c2faefbb26d9176aa4aa6273546b3364bb67701061a671e0dc8121136fcb71",
+      "bytes": 199299
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/evaluations/development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/evaluation_manifest.json": {
+      "sha256": "25915f593ad67306a6450494cba972580f491573dde8c7eec8062292f467952e",
+      "bytes": 18914
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/24k/evaluations/development-service-eval__remote_stress_v2__chk-ceb8caf8beeb__cfg-d2463e1929ea__eval-bc65caa18154/evaluation_metrics.csv": {
+      "sha256": "fca9c0416397ffc4ee5bfb60ec84bcc2a38de995a8aab0859586abb10e05d14d",
+      "bytes": 10677
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/route_decision_trace.jsonl": {
+      "sha256": "0096214a2bbe6067999b966b778b78309c777e32db2aa7a2df06df0e2bfd702b",
+      "bytes": 1286143
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/summary.json": {
+      "sha256": "7372949cecd993b3b063999be44eee725371cee755f12d8f7318e5d3e2214f74",
+      "bytes": 1333
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/cpu_service_trace.jsonl": {
+      "sha256": "d9cd141c6a1da31c4e619ef167896c1a736c79fc4cfaaa531a6e0594832a4f00",
+      "bytes": 19090485
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/service_diagnostic_manifest.json": {
+      "sha256": "a802241d1dfefd6ec688e46c8bc1c9cc934581630a23aa2f401c29b39082fbd1",
+      "bytes": 1416
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/task_lifecycle.jsonl": {
+      "sha256": "ca5af9dbb610a84d5f62ed26c7c24d1ac87b41b2ef940e982cb9a139301cacca",
+      "bytes": 1591128
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/tx_service_trace.jsonl": {
+      "sha256": "91983ab024bd706890ee29048799f94a93d00d4235415168a5c2803822bbf699",
+      "bytes": 25139270
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/evaluations/development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/aggregate_metrics.json": {
+      "sha256": "17dc5b457951f10c38d056a66804603ac07fea8c33347f0334f8f6d7eabd3e1f",
+      "bytes": 16423
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/evaluations/development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/episode_metrics.jsonl": {
+      "sha256": "b1d535fc4ed68d8083c54ba0c04ace54722433f6e3ef0255df76f4705e462e40",
+      "bytes": 199266
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/evaluations/development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/evaluation_manifest.json": {
+      "sha256": "36e74ad28795768ad1936d3058c2d17773590e4a5df18e9b183202a905e96f0d",
+      "bytes": 18914
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/28k/evaluations/development-service-eval__remote_stress_v2__chk-940cef6a89ff__cfg-d2463e1929ea__eval-3c01c8197f59/evaluation_metrics.csv": {
+      "sha256": "b1d0c6098bab3ebc12f78e8049f745ee04a00986ff0b9709ebbf855acad004dc",
+      "bytes": 10643
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/route_decision_trace.jsonl": {
+      "sha256": "925e129ec1be2bea5b133a66748b5cc560682f8bec80c586bf62cd947a5e01bd",
+      "bytes": 1186157
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/summary.json": {
+      "sha256": "7f851183d4b61bedbe475e527c51a3f3bfce14bf41fc68f1040d10b1477f23ed",
+      "bytes": 1331
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/cpu_service_trace.jsonl": {
+      "sha256": "4cfd08adcc7c07f8a665f83c7a4aba1d9865b72bdb43159108eb9118f9d4332d",
+      "bytes": 19089478
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/service_diagnostic_manifest.json": {
+      "sha256": "8b7edfec3444c9280ecb24a1bd61f9b4a37e258673b96259bac73758b7c9ca80",
+      "bytes": 1416
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/task_lifecycle.jsonl": {
+      "sha256": "c0d28f97821ac9b4cc0ffdff8bd41c1e0aa8a5187028c186312a782e1dc478ca",
+      "bytes": 1590928
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/tx_service_trace.jsonl": {
+      "sha256": "fb571f3b3b2d590c47fdf10d94074171604a4d196a67e68b39400f0432709a97",
+      "bytes": 25137914
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/evaluations/development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/aggregate_metrics.json": {
+      "sha256": "986ef57ac0c40ea83c700100fa4e25f4143f8344b6b7fae468bc8f4a45b267a9",
+      "bytes": 16421
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/evaluations/development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/episode_metrics.jsonl": {
+      "sha256": "ea6c37f5f16651ab914ae3e625539c3701302d5cc032088ef98529673c71d95b",
+      "bytes": 199260
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/evaluations/development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/evaluation_manifest.json": {
+      "sha256": "7b157dafd8f1173932a08c7c932f6a1e42d3a4ca47fe4c938b2653bab6cbac0d",
+      "bytes": 18909
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_16k32k/32k/evaluations/development-service-eval__remote_stress_v2__chk-7b1191d87095__cfg-d2463e1929ea__eval-154698747fec/evaluation_metrics.csv": {
+      "sha256": "8d22b7a3c14fa5fde9197f6fc6c446185352c928376f9f40ebe76b9243f0a6f5",
+      "bytes": 10654
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_32k40k/36k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-978e17ee04bf__cfg-d2463e1929ea__eval-88394a17cfc6/route_decision_trace.jsonl": {
+      "sha256": "eee22b33a045b45f8c517bfa801e6b9ff6b3312db7ba0fdd9bf6ac1a013859f7",
+      "bytes": 1185861
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_32k40k/36k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-978e17ee04bf__cfg-d2463e1929ea__eval-88394a17cfc6/summary.json": {
+      "sha256": "ae5ea2ee629600775f764fcc6eb4ef1bfbc1d41cbe26c00ce406a3580cc37395",
+      "bytes": 1333
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_32k40k/36k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-978e17ee04bf__cfg-d2463e1929ea__eval-88394a17cfc6/cpu_service_trace.jsonl": {
+      "sha256": "ba3c0c02decb074c8c619d2b393f7a07879a38ffce0288eb5aeea65d5a01970c",
+      "bytes": 19083192
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_32k40k/36k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-978e17ee04bf__cfg-d2463e1929ea__eval-88394a17cfc6/service_diagnostic_manifest.json": {
+      "sha256": "bc9470047317157f2ecc81d2680e99beb8f1968c27b3642b8c7542e99889b964",
+      "bytes": 1416
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_32k40k/36k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-978e17ee04bf__cfg-d2463e1929ea__eval-88394a17cfc6/task_lifecycle.jsonl": {
+      "sha256": "3870c031af50007818588e961a87f491b337b3e3305773be62f4c40d0658c495",
+      "bytes": 1591028
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_32k40k/36k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-978e17ee04bf__cfg-d2463e1929ea__eval-88394a17cfc6/tx_service_trace.jsonl": {
+      "sha256": "ac28980188e477939cdf6f64f53dc500ff62301c7e045942f3c1c23c2092f2fe",
+      "bytes": 25135860
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_32k40k/36k/evaluations/development-service-eval__remote_stress_v2__chk-978e17ee04bf__cfg-d2463e1929ea__eval-88394a17cfc6/aggregate_metrics.json": {
+      "sha256": "5755ca74320df0e61835b00272d4be155874ad6ace542973ff23ef698c568b37",
+      "bytes": 16461
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_32k40k/36k/evaluations/development-service-eval__remote_stress_v2__chk-978e17ee04bf__cfg-d2463e1929ea__eval-88394a17cfc6/episode_metrics.jsonl": {
+      "sha256": "5756f1799297436e0c847e7e7a4d03ec0aff6b4c0f3632f96e38e9e5fbfc45d9",
+      "bytes": 199248
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_32k40k/36k/evaluations/development-service-eval__remote_stress_v2__chk-978e17ee04bf__cfg-d2463e1929ea__eval-88394a17cfc6/evaluation_manifest.json": {
+      "sha256": "79e06ec22ddb66f5a5cd1bce2f55bd507958c97fc0e484ad83413e4f2becdfde",
+      "bytes": 20043
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_32k40k/36k/evaluations/development-service-eval__remote_stress_v2__chk-978e17ee04bf__cfg-d2463e1929ea__eval-88394a17cfc6/evaluation_metrics.csv": {
+      "sha256": "a89f1a45d7d237074406e2739d2301be69b066a3c1e489a99e5a0806d4f4a8bc",
+      "bytes": 10662
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_32k40k/40k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-bb2cff17b356__cfg-d2463e1929ea__eval-a9653a49fce5/route_decision_trace.jsonl": {
+      "sha256": "455955715d9bd63b6b454beb2bc644d6ff26d079d3c1afa44f9bb210b57457de",
+      "bytes": 1186206
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_32k40k/40k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-bb2cff17b356__cfg-d2463e1929ea__eval-a9653a49fce5/summary.json": {
+      "sha256": "b9490bee12e67ce24d8921fdd5799f50904ece6f8b189aee9b4039a8e8a1f1da",
+      "bytes": 1333
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_32k40k/40k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-bb2cff17b356__cfg-d2463e1929ea__eval-a9653a49fce5/cpu_service_trace.jsonl": {
+      "sha256": "0f8e9bf01f5b7268ef96bc0aa9d458fd9fcb892f47b8d2c1c2150296e5e1dde0",
+      "bytes": 19079340
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_32k40k/40k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-bb2cff17b356__cfg-d2463e1929ea__eval-a9653a49fce5/service_diagnostic_manifest.json": {
+      "sha256": "7f25fd42686ac1077860cbe97a6f9beeec3091863aa4cd4bbf098e47f0fd5cc1",
+      "bytes": 1416
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_32k40k/40k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-bb2cff17b356__cfg-d2463e1929ea__eval-a9653a49fce5/task_lifecycle.jsonl": {
+      "sha256": "08a119934f6c28eb076076b1d9eb2ad76fbd9119157f96cc38701c6c9dde84b2",
+      "bytes": 1591079
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_32k40k/40k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-bb2cff17b356__cfg-d2463e1929ea__eval-a9653a49fce5/tx_service_trace.jsonl": {
+      "sha256": "df07184be4426b09cfb6e2b66d63200853a16c39dcd222a85bb703843687a68e",
+      "bytes": 25134964
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_32k40k/40k/evaluations/development-service-eval__remote_stress_v2__chk-bb2cff17b356__cfg-d2463e1929ea__eval-a9653a49fce5/aggregate_metrics.json": {
+      "sha256": "78fc9f765c1b2e1574d157cfe8ecc2d70932b87cc5e8ccd6bd2f78c7ccfd19cf",
+      "bytes": 16473
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_32k40k/40k/evaluations/development-service-eval__remote_stress_v2__chk-bb2cff17b356__cfg-d2463e1929ea__eval-a9653a49fce5/episode_metrics.jsonl": {
+      "sha256": "05da6b5a2512616c9bf8806b6a28cd389f0a2fd4a09fa701c49339524891536c",
+      "bytes": 199279
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_32k40k/40k/evaluations/development-service-eval__remote_stress_v2__chk-bb2cff17b356__cfg-d2463e1929ea__eval-a9653a49fce5/evaluation_manifest.json": {
+      "sha256": "59e78ffc4d4909ac555c99a9e81e853d09f3a3e71bd41b829e251e88f81e0857",
+      "bytes": 20038
+    },
+    "logs/C/seed42/checkpoint_progress/20261014_32k40k/40k/evaluations/development-service-eval__remote_stress_v2__chk-bb2cff17b356__cfg-d2463e1929ea__eval-a9653a49fce5/evaluation_metrics.csv": {
+      "sha256": "9d06bc9f008926652c26d7760438a5c1cd68292f058135aaca8cd6e37398d2ed",
+      "bytes": 10674
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/12k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-312b7c43cef9__cfg-d2463e1929ea__eval-feca533ff78a/route_decision_trace.jsonl": {
+      "sha256": "b1904f9be40bf0bc6fe47dafd667a02729eda5390969101ae8cb32efa313c7d2",
+      "bytes": 3587330
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/12k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-312b7c43cef9__cfg-d2463e1929ea__eval-feca533ff78a/summary.json": {
+      "sha256": "c39633a670dc3b3eff64aa0f707585b8484435a603eefc52732145bc0cb6421d",
+      "bytes": 1337
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-312b7c43cef9__cfg-d2463e1929ea__eval-feca533ff78a/cpu_service_trace.jsonl": {
+      "sha256": "32f0582a307bfc58b9aeab31978d509fd32f1779da9f6b27b4b15cdc9a8f0070",
+      "bytes": 19063827
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-312b7c43cef9__cfg-d2463e1929ea__eval-feca533ff78a/service_diagnostic_manifest.json": {
+      "sha256": "fbad88548ac2bee872b9c8dea5ae26c9074c7857b156b9a0d3d501ef4b8b63bc",
+      "bytes": 1416
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-312b7c43cef9__cfg-d2463e1929ea__eval-feca533ff78a/task_lifecycle.jsonl": {
+      "sha256": "324acf88b1ea384cd01f0c9736727d6a871fb609c5cdc6d5e724fcfe58f9508e",
+      "bytes": 1592574
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-312b7c43cef9__cfg-d2463e1929ea__eval-feca533ff78a/tx_service_trace.jsonl": {
+      "sha256": "c44224eb2b8df9dd4a43081cc194ac2a99149559eec994a9a29499feec37acfe",
+      "bytes": 25124751
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/12k/evaluations/development-service-eval__remote_stress_v2__chk-312b7c43cef9__cfg-d2463e1929ea__eval-feca533ff78a/aggregate_metrics.json": {
+      "sha256": "750ef9622cdcd02cbaab7f770d7b11ab951c317ec9bbd906adf1edd89a828a2e",
+      "bytes": 16473
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/12k/evaluations/development-service-eval__remote_stress_v2__chk-312b7c43cef9__cfg-d2463e1929ea__eval-feca533ff78a/episode_metrics.jsonl": {
+      "sha256": "a4b8a74598001a050e55b01a44b3e7f4edb63d5ad0ffeeb4171733b997dc50bc",
+      "bytes": 199321
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/12k/evaluations/development-service-eval__remote_stress_v2__chk-312b7c43cef9__cfg-d2463e1929ea__eval-feca533ff78a/evaluation_manifest.json": {
+      "sha256": "c6ca014233427ecfa06ebba48703d2025395c539aad145e6c90721f3f7753818",
+      "bytes": 16876
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/12k/evaluations/development-service-eval__remote_stress_v2__chk-312b7c43cef9__cfg-d2463e1929ea__eval-feca533ff78a/evaluation_metrics.csv": {
+      "sha256": "9f2178e158d17641a680e33c01e5875ecee89c5f2e3caee7820e69913ea161ed",
+      "bytes": 10698
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/16k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-eaca4b5a3f87__cfg-d2463e1929ea__eval-651abbffecaa/route_decision_trace.jsonl": {
+      "sha256": "114b94a61ce212571efd507ebbca759816e877b5603c806afda4b585c8544751",
+      "bytes": 1188660
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/16k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-eaca4b5a3f87__cfg-d2463e1929ea__eval-651abbffecaa/summary.json": {
+      "sha256": "43f32fd9d93168b84e85da39448031c5f3bc41ceed7b3066d5b32a0f64d8c901",
+      "bytes": 1319
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-eaca4b5a3f87__cfg-d2463e1929ea__eval-651abbffecaa/cpu_service_trace.jsonl": {
+      "sha256": "9b699176d9ccb9e1f10a8ba0a3a26346bc5e58aca415274257799d585596be69",
+      "bytes": 19064413
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-eaca4b5a3f87__cfg-d2463e1929ea__eval-651abbffecaa/service_diagnostic_manifest.json": {
+      "sha256": "d02a9fd0b5e4d6f70d4656ad7d38825a4d84f2ee6bad5046bd41511635a26678",
+      "bytes": 1416
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-eaca4b5a3f87__cfg-d2463e1929ea__eval-651abbffecaa/task_lifecycle.jsonl": {
+      "sha256": "d2060091a72a1a7bbda5b2e228c7a6cc76147fd25d6860d9856588b4ced42e71",
+      "bytes": 1592465
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-eaca4b5a3f87__cfg-d2463e1929ea__eval-651abbffecaa/tx_service_trace.jsonl": {
+      "sha256": "1f526d8b39d5bfde4d134c40566a04f68b3455bc05222085db9d44e8e57ed8cf",
+      "bytes": 25144237
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/16k/evaluations/development-service-eval__remote_stress_v2__chk-eaca4b5a3f87__cfg-d2463e1929ea__eval-651abbffecaa/aggregate_metrics.json": {
+      "sha256": "71c86ff2e0e643e27d4cb852d7dd8fda4e338b7ea9c5d808d955e9aa6fe285da",
+      "bytes": 16495
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/16k/evaluations/development-service-eval__remote_stress_v2__chk-eaca4b5a3f87__cfg-d2463e1929ea__eval-651abbffecaa/episode_metrics.jsonl": {
+      "sha256": "ad07024569a0ae5be04133f7f51c193a96d88c2bec454a43fc137f3ff83c9498",
+      "bytes": 199274
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/16k/evaluations/development-service-eval__remote_stress_v2__chk-eaca4b5a3f87__cfg-d2463e1929ea__eval-651abbffecaa/evaluation_manifest.json": {
+      "sha256": "43b7c751cb948982fba838e5990d41b91b0e0f0539a6b90de8c27b9cf909854b",
+      "bytes": 16876
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/16k/evaluations/development-service-eval__remote_stress_v2__chk-eaca4b5a3f87__cfg-d2463e1929ea__eval-651abbffecaa/evaluation_metrics.csv": {
+      "sha256": "d1a7749ee2053f0a99d9f73801db5d71e7c710446efc1e41604cb39ba9db13b9",
+      "bytes": 10669
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/20k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-574c2d193200__cfg-d2463e1929ea__eval-f9a722acfffc/route_decision_trace.jsonl": {
+      "sha256": "9fbf724655c7b3fdc6b0b4d2e2e1bd3427750d51600ada4169bbeb65a69ad807",
+      "bytes": 1188017
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/20k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-574c2d193200__cfg-d2463e1929ea__eval-f9a722acfffc/summary.json": {
+      "sha256": "08d703429ffe3cf410e32e49e870bb5c43d1fa74e88041496c80d9282817826e",
+      "bytes": 1334
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/20k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-574c2d193200__cfg-d2463e1929ea__eval-f9a722acfffc/cpu_service_trace.jsonl": {
+      "sha256": "b1a39a41bdfbc54ca4b8e814d6abd6e00d23abfd3c114bbdec7fcdbb20351fac",
+      "bytes": 19078743
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/20k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-574c2d193200__cfg-d2463e1929ea__eval-f9a722acfffc/service_diagnostic_manifest.json": {
+      "sha256": "e2f2d1db9d57aebecb68cc02026b87a8afa8cd866d75b3ca1ac669c3e026bf42",
+      "bytes": 1416
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/20k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-574c2d193200__cfg-d2463e1929ea__eval-f9a722acfffc/task_lifecycle.jsonl": {
+      "sha256": "f7e8c65a6bbc9103f98e7b96823e0b8508caa15143f5f87b1d974957f080345f",
+      "bytes": 1591780
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/20k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-574c2d193200__cfg-d2463e1929ea__eval-f9a722acfffc/tx_service_trace.jsonl": {
+      "sha256": "a5be49983d18d071f721e71d4c133710933dbe19c56e56f75f5bcb796673cf3c",
+      "bytes": 25140596
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/20k/evaluations/development-service-eval__remote_stress_v2__chk-574c2d193200__cfg-d2463e1929ea__eval-f9a722acfffc/aggregate_metrics.json": {
+      "sha256": "0aaffb0670c343ffb2bd4dcecea8f0dfa8a204947976e5e28c62786e78a96dbe",
+      "bytes": 16487
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/20k/evaluations/development-service-eval__remote_stress_v2__chk-574c2d193200__cfg-d2463e1929ea__eval-f9a722acfffc/episode_metrics.jsonl": {
+      "sha256": "332741d9a0664d25929735de0ad20abe90f0c5b2268f901ae6f3180d746a2a3b",
+      "bytes": 199273
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/20k/evaluations/development-service-eval__remote_stress_v2__chk-574c2d193200__cfg-d2463e1929ea__eval-f9a722acfffc/evaluation_manifest.json": {
+      "sha256": "a8d4da9a6b7c4bcf0ad69281286d407707829db62d24d56f787679cd334b63fe",
+      "bytes": 16876
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/20k/evaluations/development-service-eval__remote_stress_v2__chk-574c2d193200__cfg-d2463e1929ea__eval-f9a722acfffc/evaluation_metrics.csv": {
+      "sha256": "87a31d65012c1b13334a28c54137e398a6e026680063fc4ffb078bea214fdab7",
+      "bytes": 10687
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/24k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-fb267a5746ff__cfg-d2463e1929ea__eval-e3697be0c780/route_decision_trace.jsonl": {
+      "sha256": "6dcdcad755986d59a8fb25c02e23fda4610ede83dad1122954a2b4759b9837a3",
+      "bytes": 1185160
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/24k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-fb267a5746ff__cfg-d2463e1929ea__eval-e3697be0c780/summary.json": {
+      "sha256": "c2f6738864ebc03933113ae6a5c8a337014751560ca27b19b9e714eb7cf80c25",
+      "bytes": 1333
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/24k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-fb267a5746ff__cfg-d2463e1929ea__eval-e3697be0c780/cpu_service_trace.jsonl": {
+      "sha256": "7c349f6bf5ddbbea62dc381527ef3f4edce37b9181ffaf74c3cd40a5a482fd54",
+      "bytes": 19075716
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/24k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-fb267a5746ff__cfg-d2463e1929ea__eval-e3697be0c780/service_diagnostic_manifest.json": {
+      "sha256": "b863389897452758d4c703b2d2ad776d1a9d8d2b2c2ff0029d1825fb6a5a8656",
+      "bytes": 1416
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/24k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-fb267a5746ff__cfg-d2463e1929ea__eval-e3697be0c780/task_lifecycle.jsonl": {
+      "sha256": "166e64415db26e7451f0ee81d40fd7e303c29a2dbc0a12b16306051fdda5b415",
+      "bytes": 1591318
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/24k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-fb267a5746ff__cfg-d2463e1929ea__eval-e3697be0c780/tx_service_trace.jsonl": {
+      "sha256": "5d541d6b774bf5dcefb4e4eff3a3cdd0562a852e5fcf847ee2b0f2866dd58a4d",
+      "bytes": 25132852
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/24k/evaluations/development-service-eval__remote_stress_v2__chk-fb267a5746ff__cfg-d2463e1929ea__eval-e3697be0c780/aggregate_metrics.json": {
+      "sha256": "72cb8e650af4853febb9f96c10000b68bfdb8a47da05fd7741acb711bb6c2abd",
+      "bytes": 16500
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/24k/evaluations/development-service-eval__remote_stress_v2__chk-fb267a5746ff__cfg-d2463e1929ea__eval-e3697be0c780/episode_metrics.jsonl": {
+      "sha256": "356ea2f3925a8d5c7cfb207a4c15f1ebb68c2b313ffc14c326d37e30e4f6e8b5",
+      "bytes": 199272
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/24k/evaluations/development-service-eval__remote_stress_v2__chk-fb267a5746ff__cfg-d2463e1929ea__eval-e3697be0c780/evaluation_manifest.json": {
+      "sha256": "efec289d807b95adeb169c6e7d9b88be896bdb01bd73cf92c004c4c25bfafe7a",
+      "bytes": 16876
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/24k/evaluations/development-service-eval__remote_stress_v2__chk-fb267a5746ff__cfg-d2463e1929ea__eval-e3697be0c780/evaluation_metrics.csv": {
+      "sha256": "02104bba529a343f17c427f0bb0156fd50d58603f0aee1ba1050d82d75580110",
+      "bytes": 10686
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/28k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-3a5b7943c9a0__cfg-d2463e1929ea__eval-d60d66f27a7c/route_decision_trace.jsonl": {
+      "sha256": "e080e7fb56afffb261cb92d35ac7b0e02e9e422beda3c5f2fc56b169f691242b",
+      "bytes": 1186792
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/28k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-3a5b7943c9a0__cfg-d2463e1929ea__eval-d60d66f27a7c/summary.json": {
+      "sha256": "4cbbd012b3bb163db545b9322c7a7a5f0c2b30f3deaf0fe9b28ffaa1a5f7c411",
+      "bytes": 1333
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/28k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-3a5b7943c9a0__cfg-d2463e1929ea__eval-d60d66f27a7c/cpu_service_trace.jsonl": {
+      "sha256": "d5a6c0a3eda473840729ab28e2cee358de268507b41efc12a14f46896aec5536",
+      "bytes": 19061703
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/28k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-3a5b7943c9a0__cfg-d2463e1929ea__eval-d60d66f27a7c/service_diagnostic_manifest.json": {
+      "sha256": "2a7810cb9b8787a4bb270950398b805f71d7c2402bbe46f85e806ef93c385554",
+      "bytes": 1416
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/28k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-3a5b7943c9a0__cfg-d2463e1929ea__eval-d60d66f27a7c/task_lifecycle.jsonl": {
+      "sha256": "7430bc741b18ce069e54e2ee82f332b323dc55bb974b00098108c79c7e48b572",
+      "bytes": 1592082
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/28k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-3a5b7943c9a0__cfg-d2463e1929ea__eval-d60d66f27a7c/tx_service_trace.jsonl": {
+      "sha256": "6eba266271dea6a8c7eb2aed9a7ab7f68e89102c9fc9c7493c9ce9294ba6f0fe",
+      "bytes": 25127051
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/28k/evaluations/development-service-eval__remote_stress_v2__chk-3a5b7943c9a0__cfg-d2463e1929ea__eval-d60d66f27a7c/aggregate_metrics.json": {
+      "sha256": "b54ba45778a46165e1d894b2514565a32ceaac6465b8c45a2cb4acfd3da7f0f3",
+      "bytes": 16504
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/28k/evaluations/development-service-eval__remote_stress_v2__chk-3a5b7943c9a0__cfg-d2463e1929ea__eval-d60d66f27a7c/episode_metrics.jsonl": {
+      "sha256": "ad32e6f9bfc13e79ef5fa747416a618d17eb07da5c43d474726d73ca8ae2f905",
+      "bytes": 199323
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/28k/evaluations/development-service-eval__remote_stress_v2__chk-3a5b7943c9a0__cfg-d2463e1929ea__eval-d60d66f27a7c/evaluation_manifest.json": {
+      "sha256": "787e4dd629fef0741cb77277633613e328febac22ad00630bcbfb857cd2e9440",
+      "bytes": 16876
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/28k/evaluations/development-service-eval__remote_stress_v2__chk-3a5b7943c9a0__cfg-d2463e1929ea__eval-d60d66f27a7c/evaluation_metrics.csv": {
+      "sha256": "f17bcadd3eb73702af7580dcac4876bdba76af58441258c93f6c080ce3ea5b1a",
+      "bytes": 10698
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/32k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-3765043060ef__cfg-d2463e1929ea__eval-3cd325981cc7/route_decision_trace.jsonl": {
+      "sha256": "609c750d4cfb62767334bfb5fc83107a8dbffc2b53c8285421e748a97ae1d659",
+      "bytes": 1187703
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/32k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-3765043060ef__cfg-d2463e1929ea__eval-3cd325981cc7/summary.json": {
+      "sha256": "6e9d8db354bce372e40b05cf74dda48fdaaba3b99105fc2aa00c21621d3239c6",
+      "bytes": 1332
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/32k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-3765043060ef__cfg-d2463e1929ea__eval-3cd325981cc7/cpu_service_trace.jsonl": {
+      "sha256": "666bbef1d7ecc96ab57ed03bf0f1861164f3a9d750b6f691c3d067ed6f9c17ad",
+      "bytes": 19062887
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/32k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-3765043060ef__cfg-d2463e1929ea__eval-3cd325981cc7/service_diagnostic_manifest.json": {
+      "sha256": "84d91f0725a0b18dcf8ed2b4399404dbac50172aae7bb1b8d6de41aff822476e",
+      "bytes": 1416
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/32k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-3765043060ef__cfg-d2463e1929ea__eval-3cd325981cc7/task_lifecycle.jsonl": {
+      "sha256": "f41637ba8834a65c121e47864ffb6943acfddd70cc5e7608b57a573eb319e99e",
+      "bytes": 1592353
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/32k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-3765043060ef__cfg-d2463e1929ea__eval-3cd325981cc7/tx_service_trace.jsonl": {
+      "sha256": "8496e86191bc3ce6b8b6a96d72f4be80f3bdbeb869fa1478680100831a13500b",
+      "bytes": 25136719
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/32k/evaluations/development-service-eval__remote_stress_v2__chk-3765043060ef__cfg-d2463e1929ea__eval-3cd325981cc7/aggregate_metrics.json": {
+      "sha256": "bd33f758bfce5133396c85d9c0cc82276ae72bf12a46e95dcb8848b18d920a78",
+      "bytes": 16496
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/32k/evaluations/development-service-eval__remote_stress_v2__chk-3765043060ef__cfg-d2463e1929ea__eval-3cd325981cc7/episode_metrics.jsonl": {
+      "sha256": "12e5790b97fcacfe57399bf4fa8697279c74cb9a1cafd471f7a28eb691b125f3",
+      "bytes": 199323
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/32k/evaluations/development-service-eval__remote_stress_v2__chk-3765043060ef__cfg-d2463e1929ea__eval-3cd325981cc7/evaluation_manifest.json": {
+      "sha256": "7426b4c76f7ea503689ee5805b78eda8dfd44c257cf1738950ed985324cb3310",
+      "bytes": 16876
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/32k/evaluations/development-service-eval__remote_stress_v2__chk-3765043060ef__cfg-d2463e1929ea__eval-3cd325981cc7/evaluation_metrics.csv": {
+      "sha256": "f8945adb3d0d6aaccb4d7da35110b127e5d4c5ec5bb11972c9c625302cc26ee1",
+      "bytes": 10699
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/36k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-5adb86986134__cfg-d2463e1929ea__eval-fc9dfa570bb0/route_decision_trace.jsonl": {
+      "sha256": "f810ab96a59372870d42bf455f6d23a9d1123e062863bb0c08238b040b6241f8",
+      "bytes": 1644463
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/36k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-5adb86986134__cfg-d2463e1929ea__eval-fc9dfa570bb0/summary.json": {
+      "sha256": "ce28394dbc0f380c090563748cc2cea4ec285d5b2d3fd1d4971c1e1317fd1eb4",
+      "bytes": 1336
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/36k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-5adb86986134__cfg-d2463e1929ea__eval-fc9dfa570bb0/cpu_service_trace.jsonl": {
+      "sha256": "942405798cafce53efd9317b1440862bc27f901120277ed616a36f9c655dad60",
+      "bytes": 19073612
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/36k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-5adb86986134__cfg-d2463e1929ea__eval-fc9dfa570bb0/service_diagnostic_manifest.json": {
+      "sha256": "fa30bb81999ec173882e6fc4d7afdcade1e6ba3ed6d3a9929d49873dac30c536",
+      "bytes": 1416
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/36k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-5adb86986134__cfg-d2463e1929ea__eval-fc9dfa570bb0/task_lifecycle.jsonl": {
+      "sha256": "6a989d48016d94b21c5dbe26d004e58a583d6420cfd457ccf2f7c85b14361c11",
+      "bytes": 1592009
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/36k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-5adb86986134__cfg-d2463e1929ea__eval-fc9dfa570bb0/tx_service_trace.jsonl": {
+      "sha256": "703ec4ab08d0db25f52e6cf1f47cd591e5dadaa7be70c4d6813dd3e8a750f06a",
+      "bytes": 25136475
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/36k/evaluations/development-service-eval__remote_stress_v2__chk-5adb86986134__cfg-d2463e1929ea__eval-fc9dfa570bb0/aggregate_metrics.json": {
+      "sha256": "63b3ec5c7c494eb0847c8713beed412ae1e2147ddf7dd49a51fa404152b5e498",
+      "bytes": 16502
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/36k/evaluations/development-service-eval__remote_stress_v2__chk-5adb86986134__cfg-d2463e1929ea__eval-fc9dfa570bb0/episode_metrics.jsonl": {
+      "sha256": "087eca44a1dacc4d61a18c0e8ce5de6f1bac217c2ea4021ad443303937848278",
+      "bytes": 199250
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/36k/evaluations/development-service-eval__remote_stress_v2__chk-5adb86986134__cfg-d2463e1929ea__eval-fc9dfa570bb0/evaluation_manifest.json": {
+      "sha256": "2a2a8fea4511d094192d27105ff11d96c5018a71b4b713803c31b5bac42908be",
+      "bytes": 16876
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/36k/evaluations/development-service-eval__remote_stress_v2__chk-5adb86986134__cfg-d2463e1929ea__eval-fc9dfa570bb0/evaluation_metrics.csv": {
+      "sha256": "f2914c6c1e31f46dd38facd60313da8e4a844db4b7ea59253ad05f3e1585ebe8",
+      "bytes": 10664
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/40k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-5f4de43d4f69__cfg-d2463e1929ea__eval-263e0cc17927/route_decision_trace.jsonl": {
+      "sha256": "a8b91025c1b83cc349568adc6aec570e82596eff76d5d310f8eb0910c1e9775c",
+      "bytes": 2047153
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/40k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-5f4de43d4f69__cfg-d2463e1929ea__eval-263e0cc17927/summary.json": {
+      "sha256": "8a6bf9decbd933669e90bf60837fbde0d6e8840e9f5da619de30da9e52aefde0",
+      "bytes": 1337
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/40k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-5f4de43d4f69__cfg-d2463e1929ea__eval-263e0cc17927/cpu_service_trace.jsonl": {
+      "sha256": "e281f25265376214a3b647a1e766e1da05a07b83b52853434479596da8a53cc2",
+      "bytes": 19074317
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/40k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-5f4de43d4f69__cfg-d2463e1929ea__eval-263e0cc17927/service_diagnostic_manifest.json": {
+      "sha256": "57e22a79f1b23482c47a25c7a3f2ff964b16898c9528ada5e065f4883290042a",
+      "bytes": 1416
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/40k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-5f4de43d4f69__cfg-d2463e1929ea__eval-263e0cc17927/task_lifecycle.jsonl": {
+      "sha256": "e42e9bb1e763e5efa618cb24f10113b1ef0558cb1c25bbc5adb169671ad62c3e",
+      "bytes": 1592027
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/40k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-5f4de43d4f69__cfg-d2463e1929ea__eval-263e0cc17927/tx_service_trace.jsonl": {
+      "sha256": "56272351709a9b187a709c17013e1aa7e1ddab31d7227e4ca20cc52d6bd655fb",
+      "bytes": 25138297
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/40k/evaluations/development-service-eval__remote_stress_v2__chk-5f4de43d4f69__cfg-d2463e1929ea__eval-263e0cc17927/aggregate_metrics.json": {
+      "sha256": "65d41cd0a889d99ce8f6bed2802b6075946984993f1f2a3246ca5ac6a04bea28",
+      "bytes": 16489
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/40k/evaluations/development-service-eval__remote_stress_v2__chk-5f4de43d4f69__cfg-d2463e1929ea__eval-263e0cc17927/episode_metrics.jsonl": {
+      "sha256": "089676404b4097b82f19c418a18cfb707c8863f95c1b1e6e2aa2cbd01c096375",
+      "bytes": 199288
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/40k/evaluations/development-service-eval__remote_stress_v2__chk-5f4de43d4f69__cfg-d2463e1929ea__eval-263e0cc17927/evaluation_manifest.json": {
+      "sha256": "7214b03f649fa9fd49bb27166a8786e7c683261b83bf11d437e4e7d88e2c214f",
+      "bytes": 16871
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/40k/evaluations/development-service-eval__remote_stress_v2__chk-5f4de43d4f69__cfg-d2463e1929ea__eval-263e0cc17927/evaluation_metrics.csv": {
+      "sha256": "7b76d02a625cacb4e8ab41fef4d0a11f8379b00fca9a3f52ea0ed43c4dd41b83",
+      "bytes": 10683
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/4k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-29f39901ffba__cfg-d2463e1929ea__eval-8339ca86129f/route_decision_trace.jsonl": {
+      "sha256": "77a950ebefac14a778bec784ee5dd1980d1abbb631a873ce0954fd4d01625910",
+      "bytes": 7524704
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/4k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-29f39901ffba__cfg-d2463e1929ea__eval-8339ca86129f/summary.json": {
+      "sha256": "b181d47098d46fafaac27aeb4af45d9c7311902f7fe12bfe7e1cd9d3f6fd6b24",
+      "bytes": 1338
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/4k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-29f39901ffba__cfg-d2463e1929ea__eval-8339ca86129f/cpu_service_trace.jsonl": {
+      "sha256": "5fb6f41f3cee66a5760166676869d0cfed1ffd9413282aa06c2f90d2e12746a0",
+      "bytes": 19024245
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/4k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-29f39901ffba__cfg-d2463e1929ea__eval-8339ca86129f/service_diagnostic_manifest.json": {
+      "sha256": "400d8d964893ef4aaba52f554118e7c271acc298f241137de809d7e6fb4115f7",
+      "bytes": 1416
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/4k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-29f39901ffba__cfg-d2463e1929ea__eval-8339ca86129f/task_lifecycle.jsonl": {
+      "sha256": "5c773f2ac6b8b836bd1269f39c6449f62a5ece23112d255220b6f48a8a03496c",
+      "bytes": 1597823
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/4k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-29f39901ffba__cfg-d2463e1929ea__eval-8339ca86129f/tx_service_trace.jsonl": {
+      "sha256": "5ee4c19ac0afaa15b0ad88271de81b635d09bf4a159843d0df1d6e9b392e3e39",
+      "bytes": 25102378
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/4k/evaluations/development-service-eval__remote_stress_v2__chk-29f39901ffba__cfg-d2463e1929ea__eval-8339ca86129f/aggregate_metrics.json": {
+      "sha256": "4e71196ba4c0c42eb5209a4657a9f4e01f437fea55738c1b14f36003129ef4ea",
+      "bytes": 16445
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/4k/evaluations/development-service-eval__remote_stress_v2__chk-29f39901ffba__cfg-d2463e1929ea__eval-8339ca86129f/episode_metrics.jsonl": {
+      "sha256": "e6f1715269c1a78a09bee23893818ab70a8df9f9ba37d1bd6efc81fa95aeb4cd",
+      "bytes": 199258
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/4k/evaluations/development-service-eval__remote_stress_v2__chk-29f39901ffba__cfg-d2463e1929ea__eval-8339ca86129f/evaluation_manifest.json": {
+      "sha256": "91a64725693e28ee0dfe7ecbb9c02c5fb8dba7dbf9be12f41b2ec5f087dd5547",
+      "bytes": 16875
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/4k/evaluations/development-service-eval__remote_stress_v2__chk-29f39901ffba__cfg-d2463e1929ea__eval-8339ca86129f/evaluation_metrics.csv": {
+      "sha256": "0f659da63cd96ff6e4f24d7a45f1e3f8cfbfa0acd51d1896707a79c515051f89",
+      "bytes": 10654
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/8k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-19e49192bba9__cfg-d2463e1929ea__eval-333c486b1a82/route_decision_trace.jsonl": {
+      "sha256": "0cc71c594a5932c20f6c9c459965732a8dfe9bd6c9caed6a95db5966555bfa2e",
+      "bytes": 7556248
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/8k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-19e49192bba9__cfg-d2463e1929ea__eval-333c486b1a82/summary.json": {
+      "sha256": "64fa211e908305e48f7258b5242ca3092776c6e011bf5ad3931e68fa130efd33",
+      "bytes": 1337
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-19e49192bba9__cfg-d2463e1929ea__eval-333c486b1a82/cpu_service_trace.jsonl": {
+      "sha256": "9f6c4eaf46b241b2fdb04858fe18a725dcb452d6dc84f003b74ca57bc2987d01",
+      "bytes": 18927297
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-19e49192bba9__cfg-d2463e1929ea__eval-333c486b1a82/service_diagnostic_manifest.json": {
+      "sha256": "241500be4462f2ac75fb49a48ec59d1968126abb77789c4ce690fa52a484ec12",
+      "bytes": 1416
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-19e49192bba9__cfg-d2463e1929ea__eval-333c486b1a82/task_lifecycle.jsonl": {
+      "sha256": "81b1d4729847c470e30d3d2569f7a1d745e20e57d6b75c092769f4b95e79ed40",
+      "bytes": 1600736
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-19e49192bba9__cfg-d2463e1929ea__eval-333c486b1a82/tx_service_trace.jsonl": {
+      "sha256": "53c3595d4935569e016e995547a473e5cb8b5db71b2437c5d3b897b78a0e12d3",
+      "bytes": 25140094
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/8k/evaluations/development-service-eval__remote_stress_v2__chk-19e49192bba9__cfg-d2463e1929ea__eval-333c486b1a82/aggregate_metrics.json": {
+      "sha256": "a8523548ae6e4afe0d1a618760d7248c8588b29ec64d598cc3330805726ab0dc",
+      "bytes": 16418
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/8k/evaluations/development-service-eval__remote_stress_v2__chk-19e49192bba9__cfg-d2463e1929ea__eval-333c486b1a82/episode_metrics.jsonl": {
+      "sha256": "f9e9c6b73774038a623366608bd3502e2e2718fb82a20a620dec5447c6c04a21",
+      "bytes": 199283
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/8k/evaluations/development-service-eval__remote_stress_v2__chk-19e49192bba9__cfg-d2463e1929ea__eval-333c486b1a82/evaluation_manifest.json": {
+      "sha256": "f40db25c4093beee8a1579c9d7d63a80136fd24be3dd72c0450972d27ac8cdf4",
+      "bytes": 16875
+    },
+    "logs/C/seed43/checkpoint_progress/20261015_seed43_4k40k/8k/evaluations/development-service-eval__remote_stress_v2__chk-19e49192bba9__cfg-d2463e1929ea__eval-333c486b1a82/evaluation_metrics.csv": {
+      "sha256": "36e092b2b3ad60369323b5c3a70c75d41b6a6ec586b59f1c29b766883e3b9d96",
+      "bytes": 10658
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/12k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-0383c2f98441__cfg-d2463e1929ea__eval-61a1c3973558/route_decision_trace.jsonl": {
+      "sha256": "de2cf438aa7255751cc387d3f418822e5eaf66b8c8abb5eb58d279859c4d77a1",
+      "bytes": 1433074
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/12k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-0383c2f98441__cfg-d2463e1929ea__eval-61a1c3973558/summary.json": {
+      "sha256": "63b8aecaa61445fdae9263e11710453e6fd4532782eb397cef5a51cf3f1af10e",
+      "bytes": 1336
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-0383c2f98441__cfg-d2463e1929ea__eval-61a1c3973558/cpu_service_trace.jsonl": {
+      "sha256": "3b7cd0c18ed6ae573eb6a342d0ae264467d3bec34b0361abc80a7ddcff00f1ed",
+      "bytes": 18996327
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-0383c2f98441__cfg-d2463e1929ea__eval-61a1c3973558/service_diagnostic_manifest.json": {
+      "sha256": "78bc9ef2611288b64550f6ffcc3d7dfa3c7ca5637ee190086b386cce78badd96",
+      "bytes": 1416
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-0383c2f98441__cfg-d2463e1929ea__eval-61a1c3973558/task_lifecycle.jsonl": {
+      "sha256": "3515a50a617bafa5cdd07b69612222e4373d158aeeb75fac442314b1ea4b7053",
+      "bytes": 1594017
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/12k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-0383c2f98441__cfg-d2463e1929ea__eval-61a1c3973558/tx_service_trace.jsonl": {
+      "sha256": "092d440c6a2d64fb59c91ec9f5d087b851a1708fe3fb84f174b148c92a3ab853",
+      "bytes": 25118147
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/12k/evaluations/development-service-eval__remote_stress_v2__chk-0383c2f98441__cfg-d2463e1929ea__eval-61a1c3973558/aggregate_metrics.json": {
+      "sha256": "28fd30d695b51361448ef284eb08f75f6ceca84af80904366b27940c83199943",
+      "bytes": 16472
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/12k/evaluations/development-service-eval__remote_stress_v2__chk-0383c2f98441__cfg-d2463e1929ea__eval-61a1c3973558/episode_metrics.jsonl": {
+      "sha256": "395370adcec9c547e14920898db4ed70adc824cc10d244443c40ade80ba60a09",
+      "bytes": 199300
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/12k/evaluations/development-service-eval__remote_stress_v2__chk-0383c2f98441__cfg-d2463e1929ea__eval-61a1c3973558/evaluation_manifest.json": {
+      "sha256": "5fc68ec21665c0a15ffe2b0e26ff64ce89b0520de57f69355eac707371b3c13f",
+      "bytes": 16876
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/12k/evaluations/development-service-eval__remote_stress_v2__chk-0383c2f98441__cfg-d2463e1929ea__eval-61a1c3973558/evaluation_metrics.csv": {
+      "sha256": "e96e2f654ed09c22246c1b9fd9cdb398276021921d9aa0f6dd54358401a6879d",
+      "bytes": 10656
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/16k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-83ed1267acfd__cfg-d2463e1929ea__eval-da2dc3c4b3ba/route_decision_trace.jsonl": {
+      "sha256": "aced2ddcc6fe1936bd2fb964924462fc9435c348690c1796f7bc5a6eff181556",
+      "bytes": 1187707
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/16k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-83ed1267acfd__cfg-d2463e1929ea__eval-da2dc3c4b3ba/summary.json": {
+      "sha256": "a4beb8624440e50a97a060a13141f8ff84236fb9b2bfb0ea5c6f5a902b0cb3d5",
+      "bytes": 1334
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-83ed1267acfd__cfg-d2463e1929ea__eval-da2dc3c4b3ba/cpu_service_trace.jsonl": {
+      "sha256": "29a8a5b5ac60ff09b9aaa05585b993d5f2f3283cd2863d453c06c90a3960279f",
+      "bytes": 19033971
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-83ed1267acfd__cfg-d2463e1929ea__eval-da2dc3c4b3ba/service_diagnostic_manifest.json": {
+      "sha256": "d611af330dafb4e96599cc063c90f12cab95ecf2d7640f47097ba3695c8a46a1",
+      "bytes": 1416
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-83ed1267acfd__cfg-d2463e1929ea__eval-da2dc3c4b3ba/task_lifecycle.jsonl": {
+      "sha256": "52320eb88653822e6239d68417650a60c60cf5eb61213c6cff9f614b8861da86",
+      "bytes": 1593646
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/16k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-83ed1267acfd__cfg-d2463e1929ea__eval-da2dc3c4b3ba/tx_service_trace.jsonl": {
+      "sha256": "50386ff0bf307de2959332c9b7381fe36fbaef96ad67b303495240e5998ed58a",
+      "bytes": 25137117
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/16k/evaluations/development-service-eval__remote_stress_v2__chk-83ed1267acfd__cfg-d2463e1929ea__eval-da2dc3c4b3ba/aggregate_metrics.json": {
+      "sha256": "1e5adafed904fa2f5ff1c151948f4d70ffb31f0d766e5a70197ab3900cd547d9",
+      "bytes": 16520
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/16k/evaluations/development-service-eval__remote_stress_v2__chk-83ed1267acfd__cfg-d2463e1929ea__eval-da2dc3c4b3ba/episode_metrics.jsonl": {
+      "sha256": "f4a2fe0d262689297a64bfc971f00234eb308b2fdad2555e59e524fd18032e73",
+      "bytes": 199317
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/16k/evaluations/development-service-eval__remote_stress_v2__chk-83ed1267acfd__cfg-d2463e1929ea__eval-da2dc3c4b3ba/evaluation_manifest.json": {
+      "sha256": "74ea354ab0af529fde81d6222ac8dfeee1ef7d53e5526e004cd77671afdcec53",
+      "bytes": 16876
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/16k/evaluations/development-service-eval__remote_stress_v2__chk-83ed1267acfd__cfg-d2463e1929ea__eval-da2dc3c4b3ba/evaluation_metrics.csv": {
+      "sha256": "08569ee814a692442730d7df524ceb89bdc1d8a4a93b16c642a718069f929de2",
+      "bytes": 10673
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/20k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-5f9c2e9b407c__cfg-d2463e1929ea__eval-fb81bdb3157e/route_decision_trace.jsonl": {
+      "sha256": "9a7c661919f35143bc43ce2ddba7b156dccb4138670023ab78c9d77b5fc6b209",
+      "bytes": 1186708
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/20k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-5f9c2e9b407c__cfg-d2463e1929ea__eval-fb81bdb3157e/summary.json": {
+      "sha256": "3bebe6239efa3a3dcce620069443e7a4e46ed0a8a871f594dbee89fe26d866e2",
+      "bytes": 1334
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/20k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-5f9c2e9b407c__cfg-d2463e1929ea__eval-fb81bdb3157e/cpu_service_trace.jsonl": {
+      "sha256": "ba42196a6386725191540fd3b65f2fe5c78c723ad55bdf8081f66db52d419b36",
+      "bytes": 19068712
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/20k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-5f9c2e9b407c__cfg-d2463e1929ea__eval-fb81bdb3157e/service_diagnostic_manifest.json": {
+      "sha256": "c5d306785e25d276b807712e759f851cd978250d2e5449fe9f6bc8e1fb42c19f",
+      "bytes": 1416
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/20k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-5f9c2e9b407c__cfg-d2463e1929ea__eval-fb81bdb3157e/task_lifecycle.jsonl": {
+      "sha256": "3cf2f451abce3c4b5e92a80187bcbe33323d8d81e0eca92a8d46e86da3bce7c4",
+      "bytes": 1591402
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/20k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-5f9c2e9b407c__cfg-d2463e1929ea__eval-fb81bdb3157e/tx_service_trace.jsonl": {
+      "sha256": "80aa8e1fbf26a5b92961f418bb72167ecb60b08cc876e5d7ba91002c8d4c29e3",
+      "bytes": 25129591
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/20k/evaluations/development-service-eval__remote_stress_v2__chk-5f9c2e9b407c__cfg-d2463e1929ea__eval-fb81bdb3157e/aggregate_metrics.json": {
+      "sha256": "f41e4d1294911082590eb447081c34f632b37d5710c6a7d14ff35fdb84e7c758",
+      "bytes": 16512
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/20k/evaluations/development-service-eval__remote_stress_v2__chk-5f9c2e9b407c__cfg-d2463e1929ea__eval-fb81bdb3157e/episode_metrics.jsonl": {
+      "sha256": "be06a9d9f00c105bbce84bc291aac528b888b49b2d38812b38fb9b69afc6b66c",
+      "bytes": 199283
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/20k/evaluations/development-service-eval__remote_stress_v2__chk-5f9c2e9b407c__cfg-d2463e1929ea__eval-fb81bdb3157e/evaluation_manifest.json": {
+      "sha256": "6c9e715d59afdc759a277264f72edb0a5eecf0391e59087e802bae8200543571",
+      "bytes": 16876
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/20k/evaluations/development-service-eval__remote_stress_v2__chk-5f9c2e9b407c__cfg-d2463e1929ea__eval-fb81bdb3157e/evaluation_metrics.csv": {
+      "sha256": "50e3dd6a87ebc3dd01a409bb78cefb4d197c882061334f671059a533960e5002",
+      "bytes": 10679
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/24k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-e39948f141e6__cfg-d2463e1929ea__eval-fe3286692210/route_decision_trace.jsonl": {
+      "sha256": "2f82c27c8d95b51bad2cb5a9e0c7077c006e98ba6dec63e4fafb654dd2ed2ea9",
+      "bytes": 1196836
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/24k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-e39948f141e6__cfg-d2463e1929ea__eval-fe3286692210/summary.json": {
+      "sha256": "17dc0ef833ef5f8f77c1b3c3fbe0ad1326dc4eb29a8f2f985b8efcccc5ea99b8",
+      "bytes": 1333
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/24k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-e39948f141e6__cfg-d2463e1929ea__eval-fe3286692210/cpu_service_trace.jsonl": {
+      "sha256": "fb04e4a395d51a7aaa6d101b6841659ce4a05eeeec3e4f013718b73d7716be7b",
+      "bytes": 19061858
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/24k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-e39948f141e6__cfg-d2463e1929ea__eval-fe3286692210/service_diagnostic_manifest.json": {
+      "sha256": "8da5cb28a7c72c74cc95eeba0e80989e8193da7250e4c89484c257c823fbb2d1",
+      "bytes": 1416
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/24k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-e39948f141e6__cfg-d2463e1929ea__eval-fe3286692210/task_lifecycle.jsonl": {
+      "sha256": "db30cb4e97033dfb6004eb487215b9d350baa79c449b28d0cd721db5403fc75a",
+      "bytes": 1591692
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/24k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-e39948f141e6__cfg-d2463e1929ea__eval-fe3286692210/tx_service_trace.jsonl": {
+      "sha256": "e69c2f241405662a2204363c8baa8a736d5141a62681fa2887ef7b7073edb399",
+      "bytes": 25133484
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/24k/evaluations/development-service-eval__remote_stress_v2__chk-e39948f141e6__cfg-d2463e1929ea__eval-fe3286692210/aggregate_metrics.json": {
+      "sha256": "be1621954c9cd6c92ac1a2b9268fe8fa021982584ce7c48fa4aed3f014f2a99f",
+      "bytes": 16482
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/24k/evaluations/development-service-eval__remote_stress_v2__chk-e39948f141e6__cfg-d2463e1929ea__eval-fe3286692210/episode_metrics.jsonl": {
+      "sha256": "62a44ec4bb07adc07d4f32dcfef257c90c31a34c891d771dc8f2bcca93bd44dd",
+      "bytes": 199307
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/24k/evaluations/development-service-eval__remote_stress_v2__chk-e39948f141e6__cfg-d2463e1929ea__eval-fe3286692210/evaluation_manifest.json": {
+      "sha256": "2cac91c6986d734aea82d647d324dac8de3e405e4b59b558192bbc5038fa1eb4",
+      "bytes": 16876
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/24k/evaluations/development-service-eval__remote_stress_v2__chk-e39948f141e6__cfg-d2463e1929ea__eval-fe3286692210/evaluation_metrics.csv": {
+      "sha256": "a16cbca017f6b39c31dad0ef5362d0f8d3dc5aa6f63673b1f50811b7325e1aac",
+      "bytes": 10666
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/28k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-48f8c4d95741__cfg-d2463e1929ea__eval-e80822bae8a7/route_decision_trace.jsonl": {
+      "sha256": "c95bc15017a587cac0032b07c7b2c369e332f31fc3fd59daef78cdf3378d2de7",
+      "bytes": 1246503
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/28k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-48f8c4d95741__cfg-d2463e1929ea__eval-e80822bae8a7/summary.json": {
+      "sha256": "6bce5d2e3cd1b851c26bdc808ec102a754d6e24d0387b7de7ce3ec5c80a6f0ab",
+      "bytes": 1334
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/28k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-48f8c4d95741__cfg-d2463e1929ea__eval-e80822bae8a7/cpu_service_trace.jsonl": {
+      "sha256": "1f7511290937cb242586a6db06952772bdd725e2df8b7deea6ca806f887b92c8",
+      "bytes": 19044955
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/28k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-48f8c4d95741__cfg-d2463e1929ea__eval-e80822bae8a7/service_diagnostic_manifest.json": {
+      "sha256": "131640008f774eeaed8a2eef5d112e2f9af85b93de984f61a8f1d4242e3a3eaf",
+      "bytes": 1416
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/28k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-48f8c4d95741__cfg-d2463e1929ea__eval-e80822bae8a7/task_lifecycle.jsonl": {
+      "sha256": "57e3b03975b08626ec58c92771eed7d9a125d7b17bb3aaa82a7337759ff191a9",
+      "bytes": 1593278
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/28k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-48f8c4d95741__cfg-d2463e1929ea__eval-e80822bae8a7/tx_service_trace.jsonl": {
+      "sha256": "f6eda2fe5715172a44c3e0ddfba0d037c4c2ec061321c90d74e02e81de2a9a75",
+      "bytes": 25137535
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/28k/evaluations/development-service-eval__remote_stress_v2__chk-48f8c4d95741__cfg-d2463e1929ea__eval-e80822bae8a7/aggregate_metrics.json": {
+      "sha256": "5cd95a4850089b714e3b9ca9374dc276be655e1d815689d5cfc81b4317f2ed9e",
+      "bytes": 16478
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/28k/evaluations/development-service-eval__remote_stress_v2__chk-48f8c4d95741__cfg-d2463e1929ea__eval-e80822bae8a7/episode_metrics.jsonl": {
+      "sha256": "0a833c188286860d77ab0f3681c9725dcd08c3f759cc32552c8036e79a0953bf",
+      "bytes": 199315
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/28k/evaluations/development-service-eval__remote_stress_v2__chk-48f8c4d95741__cfg-d2463e1929ea__eval-e80822bae8a7/evaluation_manifest.json": {
+      "sha256": "6e7fde93c10eb467a7b331a8685f97f7361012bde43e40703651b63f7ca0e66a",
+      "bytes": 16876
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/28k/evaluations/development-service-eval__remote_stress_v2__chk-48f8c4d95741__cfg-d2463e1929ea__eval-e80822bae8a7/evaluation_metrics.csv": {
+      "sha256": "3a82bb8695139376a05d9b0c3bf42b653bd5b7cc62ecdde1d61237dd1f16fa4f",
+      "bytes": 10672
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/32k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-e128bbb52ce5__cfg-d2463e1929ea__eval-2008fc9c30a9/route_decision_trace.jsonl": {
+      "sha256": "55ceda271c9bcff30208416daa831b3a4ad1b6b9982510cf475ea4028e511fa3",
+      "bytes": 2573012
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/32k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-e128bbb52ce5__cfg-d2463e1929ea__eval-2008fc9c30a9/summary.json": {
+      "sha256": "c3f176d9554cc3ce8e472fc718768f38c1058add1c4bf3bbfcbdcca79065a305",
+      "bytes": 1337
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/32k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-e128bbb52ce5__cfg-d2463e1929ea__eval-2008fc9c30a9/cpu_service_trace.jsonl": {
+      "sha256": "24ba699ddb0069d6abdf4593ab25e5b5c9580d2c5aab8668c07923f1f23ccfd9",
+      "bytes": 19065449
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/32k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-e128bbb52ce5__cfg-d2463e1929ea__eval-2008fc9c30a9/service_diagnostic_manifest.json": {
+      "sha256": "815b79df40f6f43a3135f5ac3d96e206cfb1900236083c6bda9ccb174de83a86",
+      "bytes": 1416
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/32k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-e128bbb52ce5__cfg-d2463e1929ea__eval-2008fc9c30a9/task_lifecycle.jsonl": {
+      "sha256": "6b0b25f5ed4508ac5786b01ea86c4e46444725bc564cf45195aa6d437be10663",
+      "bytes": 1592122
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/32k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-e128bbb52ce5__cfg-d2463e1929ea__eval-2008fc9c30a9/tx_service_trace.jsonl": {
+      "sha256": "6380037e8f9e47344d8ae85430f5760ede0c07905e237c29a7529c68b2bbfc82",
+      "bytes": 25129029
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/32k/evaluations/development-service-eval__remote_stress_v2__chk-e128bbb52ce5__cfg-d2463e1929ea__eval-2008fc9c30a9/aggregate_metrics.json": {
+      "sha256": "2038756640c17ac21f8a717ee2c87e3c8239045ae384d2c96ce2825a80dda0d5",
+      "bytes": 16419
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/32k/evaluations/development-service-eval__remote_stress_v2__chk-e128bbb52ce5__cfg-d2463e1929ea__eval-2008fc9c30a9/episode_metrics.jsonl": {
+      "sha256": "ca73e33ae8e486a77fcf090b0cfc3a0ea42dc5cf7959f3ac87a7efe9ca6a382e",
+      "bytes": 199279
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/32k/evaluations/development-service-eval__remote_stress_v2__chk-e128bbb52ce5__cfg-d2463e1929ea__eval-2008fc9c30a9/evaluation_manifest.json": {
+      "sha256": "72fedca65affef676cd99210163b2e594dd0e235f69a85a7552e59c761a106df",
+      "bytes": 16876
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/32k/evaluations/development-service-eval__remote_stress_v2__chk-e128bbb52ce5__cfg-d2463e1929ea__eval-2008fc9c30a9/evaluation_metrics.csv": {
+      "sha256": "27b705b67fb3fb28941b039ab071c71aee916d719d6cd8d727baf3baf5eeb1ce",
+      "bytes": 10656
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/36k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-c0fe9d0f11e7__cfg-d2463e1929ea__eval-f385392bd966/route_decision_trace.jsonl": {
+      "sha256": "cb866e71108ff29f6859c426a95f575b59a3ea86e8650562283b4062e3af58ac",
+      "bytes": 3679566
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/36k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-c0fe9d0f11e7__cfg-d2463e1929ea__eval-f385392bd966/summary.json": {
+      "sha256": "432e293aaf78920a5bdc2eea1e5acdb8230a8f88a6f72d08608107c3c4d3dbea",
+      "bytes": 1335
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/36k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-c0fe9d0f11e7__cfg-d2463e1929ea__eval-f385392bd966/cpu_service_trace.jsonl": {
+      "sha256": "065c7a0c02c31edfc47526ed56b1f73b23176bdb5b91f0b417a84aee018de507",
+      "bytes": 19003172
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/36k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-c0fe9d0f11e7__cfg-d2463e1929ea__eval-f385392bd966/service_diagnostic_manifest.json": {
+      "sha256": "398490b88bdd1183820e43a77900fd3683e829bea8cb8a6935d9e34354281064",
+      "bytes": 1416
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/36k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-c0fe9d0f11e7__cfg-d2463e1929ea__eval-f385392bd966/task_lifecycle.jsonl": {
+      "sha256": "7a2448eb6fda59a503caa5d0f024e752d1be6ae7d3d1aa8fad4892f98fcd7250",
+      "bytes": 1595269
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/36k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-c0fe9d0f11e7__cfg-d2463e1929ea__eval-f385392bd966/tx_service_trace.jsonl": {
+      "sha256": "84a3450bf8c5e075171d96281ff1d23f4c2c8827aeb0b71ff48521bffaf50e22",
+      "bytes": 25125221
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/36k/evaluations/development-service-eval__remote_stress_v2__chk-c0fe9d0f11e7__cfg-d2463e1929ea__eval-f385392bd966/aggregate_metrics.json": {
+      "sha256": "5ad7933f3f14e8c4f890f95e3c00a6b2230ee73fcd823013776877a36d89707f",
+      "bytes": 16419
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/36k/evaluations/development-service-eval__remote_stress_v2__chk-c0fe9d0f11e7__cfg-d2463e1929ea__eval-f385392bd966/episode_metrics.jsonl": {
+      "sha256": "74ee5038f86393b49375ca71fcb2e29d9ad7a7a875453454644f6547ec00d7a3",
+      "bytes": 199291
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/36k/evaluations/development-service-eval__remote_stress_v2__chk-c0fe9d0f11e7__cfg-d2463e1929ea__eval-f385392bd966/evaluation_manifest.json": {
+      "sha256": "bd5d8e00c608d7e8ef00c0e97beef46481762fa931f69ef9e8a28ee710ff0649",
+      "bytes": 16876
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/36k/evaluations/development-service-eval__remote_stress_v2__chk-c0fe9d0f11e7__cfg-d2463e1929ea__eval-f385392bd966/evaluation_metrics.csv": {
+      "sha256": "6d6a224a0403a99847e10f0bdbe6fe796f80961e8e00c29240ccac19884efa08",
+      "bytes": 10645
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/40k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-8567019d7330__cfg-d2463e1929ea__eval-e782fdbb969d/route_decision_trace.jsonl": {
+      "sha256": "8debf6ffd6e9585db971c377013ed97277ca472f1b2bfb8c47cd4ab3fa0a6768",
+      "bytes": 2815118
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/40k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-8567019d7330__cfg-d2463e1929ea__eval-e782fdbb969d/summary.json": {
+      "sha256": "2c6d34f81b9aaefd06459c2bd34a62ba071e5ea475eb566425d340f8f52ab1e6",
+      "bytes": 1336
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/40k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-8567019d7330__cfg-d2463e1929ea__eval-e782fdbb969d/cpu_service_trace.jsonl": {
+      "sha256": "7c1279ce24979432e0766f1c19eb49ed58752678fb3f6669c555237f6fe8528a",
+      "bytes": 19039949
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/40k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-8567019d7330__cfg-d2463e1929ea__eval-e782fdbb969d/service_diagnostic_manifest.json": {
+      "sha256": "99b9bb4b4c6d5355db5ff769c8d42a5c538fe5d88441a70b484a2121198a1233",
+      "bytes": 1416
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/40k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-8567019d7330__cfg-d2463e1929ea__eval-e782fdbb969d/task_lifecycle.jsonl": {
+      "sha256": "f76ea4b4ea06076457ec8c3f7f4b7375009d1020ab95cf1b0263443a82f0281d",
+      "bytes": 1592913
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/40k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-8567019d7330__cfg-d2463e1929ea__eval-e782fdbb969d/tx_service_trace.jsonl": {
+      "sha256": "b2b486639baaeb064f226da0de56154bfda9c40e146150bf2103c61ebc05f6b9",
+      "bytes": 25138479
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/40k/evaluations/development-service-eval__remote_stress_v2__chk-8567019d7330__cfg-d2463e1929ea__eval-e782fdbb969d/aggregate_metrics.json": {
+      "sha256": "0e7a9a04fa2b8cd84cc936317856246d33b062f097f61d54915e66bbefa0f887",
+      "bytes": 16490
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/40k/evaluations/development-service-eval__remote_stress_v2__chk-8567019d7330__cfg-d2463e1929ea__eval-e782fdbb969d/episode_metrics.jsonl": {
+      "sha256": "d4bbb4119eb201854a51d4fb00c52f67d31d1cc6b6d7b8880d608f15f5df73bf",
+      "bytes": 199293
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/40k/evaluations/development-service-eval__remote_stress_v2__chk-8567019d7330__cfg-d2463e1929ea__eval-e782fdbb969d/evaluation_manifest.json": {
+      "sha256": "cfb20ae192ff89455d3d4a626b49c381f7fff5a16726873691e35d51f8d3edd3",
+      "bytes": 16871
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/40k/evaluations/development-service-eval__remote_stress_v2__chk-8567019d7330__cfg-d2463e1929ea__eval-e782fdbb969d/evaluation_metrics.csv": {
+      "sha256": "3c370fae96dd948edbb112de6508ba160a26cadc46410267be79d44f72bb19af",
+      "bytes": 10669
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/4k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-ab8d1af1e4bd__cfg-d2463e1929ea__eval-3a8b18b27a8b/route_decision_trace.jsonl": {
+      "sha256": "c775eadc1bae32a75677bb728cdda60b913038062b8571ba7c0c18ad6b05ddbf",
+      "bytes": 2881642
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/4k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-ab8d1af1e4bd__cfg-d2463e1929ea__eval-3a8b18b27a8b/summary.json": {
+      "sha256": "2bcb28d0b9f92a060d99f27abcf5b50aeb2d323dbdebc121226db336769e32a4",
+      "bytes": 1337
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/4k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-ab8d1af1e4bd__cfg-d2463e1929ea__eval-3a8b18b27a8b/cpu_service_trace.jsonl": {
+      "sha256": "0950fd1dd003407018d0eda97dd607109ee945bce377b2238aa0600208f6d4aa",
+      "bytes": 19047094
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/4k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-ab8d1af1e4bd__cfg-d2463e1929ea__eval-3a8b18b27a8b/service_diagnostic_manifest.json": {
+      "sha256": "4c2345b41f080ba145a7559d03e9824b336f7501dff73c0eb7340f53c533c94c",
+      "bytes": 1416
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/4k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-ab8d1af1e4bd__cfg-d2463e1929ea__eval-3a8b18b27a8b/task_lifecycle.jsonl": {
+      "sha256": "efb0f1b95d9ba79a0b590fb0675fb2ac81f85aff5c5327ab9d8c23d26d736cc7",
+      "bytes": 1594814
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/4k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-ab8d1af1e4bd__cfg-d2463e1929ea__eval-3a8b18b27a8b/tx_service_trace.jsonl": {
+      "sha256": "2fa79ff985efcc122fa71a35d9aea576d234934423aceec82c6c11824b9addf9",
+      "bytes": 25081381
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/4k/evaluations/development-service-eval__remote_stress_v2__chk-ab8d1af1e4bd__cfg-d2463e1929ea__eval-3a8b18b27a8b/aggregate_metrics.json": {
+      "sha256": "a0bd3db4e7132f9e29871429f5f69eef05874eeee5c76e35699622e276bd2387",
+      "bytes": 16422
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/4k/evaluations/development-service-eval__remote_stress_v2__chk-ab8d1af1e4bd__cfg-d2463e1929ea__eval-3a8b18b27a8b/episode_metrics.jsonl": {
+      "sha256": "38740a54460789b8de3270272d14e02c5943b7f234535037f58e44ab8cf443bc",
+      "bytes": 199323
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/4k/evaluations/development-service-eval__remote_stress_v2__chk-ab8d1af1e4bd__cfg-d2463e1929ea__eval-3a8b18b27a8b/evaluation_manifest.json": {
+      "sha256": "a85f1dd078fc6ceb4053f3626e4ed9e0510d28376c901e7b7ea99092fd93cfbc",
+      "bytes": 16875
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/4k/evaluations/development-service-eval__remote_stress_v2__chk-ab8d1af1e4bd__cfg-d2463e1929ea__eval-3a8b18b27a8b/evaluation_metrics.csv": {
+      "sha256": "a21fbb99bfbb15858c4b58bed0d42e8f52000cd8cf64f66286af0d6d2ccab09e",
+      "bytes": 10660
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/8k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-a6a3fae7ecc8__cfg-d2463e1929ea__eval-519c1805a2c5/route_decision_trace.jsonl": {
+      "sha256": "dab8b83db92965a1f85e0a53fa7d0aa5554814cc8278aaa80990550e228e95d0",
+      "bytes": 2115555
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/8k/diagnostics/hierarchical-route-eval__development-service-eval__remote_stress_v2__chk-a6a3fae7ecc8__cfg-d2463e1929ea__eval-519c1805a2c5/summary.json": {
+      "sha256": "6982c39ddcce02e00444e4c7446fe8792527570736222be1a196145dafefb983",
+      "bytes": 1337
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-a6a3fae7ecc8__cfg-d2463e1929ea__eval-519c1805a2c5/cpu_service_trace.jsonl": {
+      "sha256": "87c171b9f81e150d1ae55ae9dd6c7c290bac8dc407bdd08c11e30d06811bcb32",
+      "bytes": 19083711
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-a6a3fae7ecc8__cfg-d2463e1929ea__eval-519c1805a2c5/service_diagnostic_manifest.json": {
+      "sha256": "ef585815287434bf33757a1d1f10f058ab335d37586d901dcccd6fdbf83527b8",
+      "bytes": 1416
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-a6a3fae7ecc8__cfg-d2463e1929ea__eval-519c1805a2c5/task_lifecycle.jsonl": {
+      "sha256": "590071788110e4d0bdf9034ef764a3608397bbfe0dbe1647b351c6dd341f461f",
+      "bytes": 1591982
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/8k/diagnostics/task-service-eval__development-service-eval__remote_stress_v2__chk-a6a3fae7ecc8__cfg-d2463e1929ea__eval-519c1805a2c5/tx_service_trace.jsonl": {
+      "sha256": "519a117b3b2e924c27f00630e5b5babb5c7fcf9f08992b19667de0f20776700d",
+      "bytes": 25108104
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/8k/evaluations/development-service-eval__remote_stress_v2__chk-a6a3fae7ecc8__cfg-d2463e1929ea__eval-519c1805a2c5/aggregate_metrics.json": {
+      "sha256": "406d646e7de4f9b594d00ae7fbfcdf83fe7f33a26afac4fc5995d3254f0ed0f4",
+      "bytes": 16424
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/8k/evaluations/development-service-eval__remote_stress_v2__chk-a6a3fae7ecc8__cfg-d2463e1929ea__eval-519c1805a2c5/episode_metrics.jsonl": {
+      "sha256": "e8d46713b48126e21fe704aeacdf38907255da7bc49915a7b6959eec055d76d0",
+      "bytes": 199266
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/8k/evaluations/development-service-eval__remote_stress_v2__chk-a6a3fae7ecc8__cfg-d2463e1929ea__eval-519c1805a2c5/evaluation_manifest.json": {
+      "sha256": "258557ca8feec586fd55e4c0441a914aaf10eb7d2582649eac97f197d714b738",
+      "bytes": 16875
+    },
+    "logs/C/seed44/checkpoint_progress/20261015_seed44_4k40k/8k/evaluations/development-service-eval__remote_stress_v2__chk-a6a3fae7ecc8__cfg-d2463e1929ea__eval-519c1805a2c5/evaluation_metrics.csv": {
+      "sha256": "280ecbc5aa8b13a3640bde3f4eca2977e5a1e7e0d01071e36c8cbe733e38059a",
+      "bytes": 10661
+    }
+  },
+  "duration_seconds": 3.3765787000302225
+}

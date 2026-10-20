@@ -1,5 +1,16 @@
 # sections 目录说明
 
+## 当前研究入口（2026-10-20）
+
+当前活动学习方法只保留C/D。A/B独立实验及入口已按用户要求退役，后续从完整C/D重新定义组件消融；下方历史材料仍为C/D共用机制和来源提供说明，不表示继续开展旧A/B实验。
+
+- [当前状态](../docs/results/CURRENT_EXPERIMENT_STATUS.md)与[结果索引](../docs/results/README.md)：最新阶段从这里进入。
+- [D（CFC-QMIX）协议](planning/20261018_C_MATCHED_QMIX_PROTOCOL.md)与[D的4k—40k结果](results/20261018_C_FEATURE_CREDIT_QMIX.md)：当前强基线工作。
+- `planning/`、`results/`：研究规划、比较边界与研究结果；`methods/`、`history/`：既有方法及早期实施材料。
+
+下方 2026-10-13/14 的数量与阶段记录按历史原文保留，不代表当前全部材料。论文 0—7 章正文、公式与科学约束本轮未改；运行命令只在聊天提供。
+
+
 ## 从这里阅读
 
 - [C的物理关系说明](methods/unified_route_physical_relations_step05.md)：阅读当前C方法可从这里开始。
@@ -20,7 +31,7 @@ sections/
 
 ## 当前说明文件用途（2026-10-14）
 
-0—7章全部原样保留。下面列出其他保留材料的实际用途；文件里的旧日期、旧预算及旧启动命令属于历史阶段记录。当前结果和C续训入口统一见[当前状态](../docs/results/CURRENT_EXPERIMENT_STATUS.md)与[复现说明](../docs/reproduction/REPRODUCE_ABC.md)，不要把早期计划中的“尚未训练”当作今天的状态。
+0—7章全部原样保留。下面列出其他保留材料的实际用途；文件里的旧日期、旧预算及旧启动命令属于历史阶段记录。当前结果和C续训入口统一见[当前状态](../docs/results/CURRENT_EXPERIMENT_STATUS.md)与[复现说明](../docs/reproduction/REPRODUCE_C_D.md)，不要把早期计划中的“尚未训练”当作今天的状态。
 
 | 文件 | 为什么保留 |
 |---|---|
@@ -105,4 +116,4 @@ Environment Implementation
 
 0—7章在本次清理前后字节完全一致，不重写其中冻结的系统与论文接口。当前已完成的开发试验以task_allocation_experiment_handoff_step06.md定义A/B/C，统一结构、学习链与35维物理关系分别见unified_route_scoring_step03.md、unified_route_learning_step04.md、unified_route_physical_relations_step05.md。P1a/task-event与Q输入公共依赖说明保留。
 
-当前seed42结果与限制见 ../docs/results/seed42/seed42_abc_comparison_report.md，复现说明见 ../docs/reproduction/REPRODUCE_ABC.md。E15/E16及已不采用的调研材料已删除，当前不保留压缩包；没有以清理名义改变0—7章的研究边界。
+当前seed42结果与限制见 ../docs/results/seed42/C_SEED42_8K_HISTORICAL_SUMMARY.md，复现说明见 ../docs/reproduction/REPRODUCE_C_D.md。E15/E16及已不采用的调研材料已删除，当前不保留压缩包；没有以清理名义改变0—7章的研究边界。

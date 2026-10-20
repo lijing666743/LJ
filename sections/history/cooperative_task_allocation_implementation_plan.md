@@ -1,6 +1,6 @@
 # 合理任务分配：无预训练实施步骤
 
-> 历史记录：本文保存原阶段的实施计划或8k交接协议。旧进度和命令只说明当时状态；当前A/B16k、C32k与后续续训请看[当前结果](../../docs/results/CURRENT_EXPERIMENT_STATUS.md)及[复现说明](../../docs/reproduction/REPRODUCE_ABC.md)。
+> 历史记录：本文保存原阶段的实施计划或8k交接协议。旧进度和命令只说明当时状态；当前A/B16k、C32k与后续续训请看[当前结果](../../docs/results/CURRENT_EXPERIMENT_STATUS.md)及[复现说明](../../docs/reproduction/REPRODUCE_C_D.md)。
 
 日期：2026-10-12。
 

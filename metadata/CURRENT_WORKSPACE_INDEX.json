@@ -1,0 +1,639 @@
+{
+  "schema": "current_workspace_navigation.v1",
+  "updated_at_utc": "2026-10-20T17:22:17.786199+00:00",
+  "purpose": "Current navigation; historical identity manifests remain unchanged",
+  "navigation": {
+    "overview": "README.md",
+    "directory_guide": "docs/DIRECTORY_GUIDE.md",
+    "current_status": "docs/results/CURRENT_EXPERIMENT_STATUS.md",
+    "results": "docs/results/README.md",
+    "configurations": "experiments/README.md",
+    "paper": "sections/README.md",
+    "audit": "metadata/README.md",
+    "methods": "metadata/METHOD_CATALOG.json"
+  },
+  "completed_training_budgets": {
+    "C": {
+      "seed42": 40000,
+      "seed43": 40000,
+      "seed44": 40000
+    },
+    "c_feature_credit_qmix": {
+      "seed42": 40000,
+      "seed43": 40000,
+      "seed44": 40000
+    }
+  },
+  "qmix_completed_runs": [
+    {
+      "budget": 8000,
+      "seed": 42,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed42-8k.json",
+      "config_hash": "1b3cae3cdac58f3000fa17685e3e4b5bbe60cdb26e84cf75b177c15bec5c4988",
+      "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-1b3cae3cdac5__git-eb1140cefc4a",
+      "logs_root": "logs/strong_baselines/development/c_feature_credit_qmix/seed42/8k",
+      "final_checkpoint": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed42\\8k\\c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-1b3cae3cdac5__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "state": "training_and_frozen_development_evaluation_completed",
+      "comparison_label": "D",
+      "algorithm_short_name": "CFC-QMIX"
+    },
+    {
+      "budget": 16000,
+      "seed": 42,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed42-16k.json",
+      "config_hash": "f3b23eca17eca71c882a08c8ade83868a01b3858218207822fe108189dd4caf4",
+      "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-f3b23eca17ec__git-eb1140cefc4a",
+      "logs_root": "logs/strong_baselines/development/c_feature_credit_qmix/seed42/16k",
+      "final_checkpoint": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed42\\16k\\c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-f3b23eca17ec__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "state": "training_and_frozen_development_evaluation_completed",
+      "comparison_label": "D",
+      "algorithm_short_name": "CFC-QMIX"
+    },
+    {
+      "budget": 24000,
+      "seed": 42,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed42-24k.json",
+      "config_hash": "f76b44e1144b3c38314e1c51913e3fc6ce4b49d62cd7c868d0881f4775f97a48",
+      "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-f76b44e1144b__git-eb1140cefc4a",
+      "logs_root": "logs/strong_baselines/development/c_feature_credit_qmix/seed42/24k",
+      "final_checkpoint": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed42\\24k\\c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-f76b44e1144b__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "final_checkpoint_sha256": "8c78b64d2665aa5f812f7970cad526edfec3602e4a0d1413b191ea51abc7c875",
+      "state": "training_and_frozen_development_evaluation_completed",
+      "comparison_label": "D",
+      "algorithm_short_name": "CFC-QMIX",
+      "evaluation_series_id": "qmix-checkpoints__seed-42__959268bcda7bc6b0",
+      "training_audit": "metadata\\audits\\qmix_c_matched\\20261019\\seed42_24k_training_check.json",
+      "evaluation_audit": "metadata\\audits\\qmix_c_matched\\20261019\\seed42_24k_evaluation_check.json",
+      "preflight_audit": "metadata/audits/qmix_c_matched/20261018/continuation_24k_preflight.json",
+      "execution_owner": "user_local"
+    },
+    {
+      "budget": 32000,
+      "seed": 42,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed42-32k.json",
+      "config_hash": "fc8a9c13ec867fa391403297b04429eff9d72dc6aaaa74518cad1a0958a05528",
+      "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-fc8a9c13ec86__git-eb1140cefc4a",
+      "logs_root": "logs/strong_baselines/development/c_feature_credit_qmix/seed42/32k",
+      "final_checkpoint": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed42\\32k\\c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-fc8a9c13ec86__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "final_checkpoint_sha256": "1bb4c6f2dce68bc26bb196371d2063dc942794255734f270b4ae98f143416a10",
+      "state": "training_and_frozen_development_evaluation_completed",
+      "comparison_label": "D",
+      "algorithm_short_name": "CFC-QMIX",
+      "training_audit": "metadata/audits/qmix_c_matched/20261019/seed42_32k_training_completion_check.json",
+      "execution_owner": "user_local",
+      "frozen_evaluation_completed": true,
+      "evaluation_series_id": "qmix-checkpoints__seed-42__dd75e63bcf1e4e8f",
+      "evaluation_audit": "metadata/audits/qmix_c_matched/20261019/seed42_32k_evaluation_check.json"
+    },
+    {
+      "budget": 40000,
+      "seed": 42,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed42-40k.json",
+      "config_hash": "c3a332b8ec5f7ebb5ef644c9d3cd69f25cca461fcaae794c56e8ab70cb8a8ed3",
+      "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-c3a332b8ec5f__git-eb1140cefc4a",
+      "logs_root": "logs/strong_baselines/development/c_feature_credit_qmix/seed42/40k",
+      "final_checkpoint": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed42\\40k\\c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-c3a332b8ec5f__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "final_checkpoint_sha256": "f2f9a717974a9dc8dc4a171e79b72a30f4c354878423bec096023ff03ad054e7",
+      "state": "training_and_frozen_development_evaluation_completed",
+      "comparison_label": "D",
+      "algorithm_short_name": "CFC-QMIX",
+      "execution_owner": "user_local",
+      "frozen_evaluation_completed": true,
+      "evaluation_series_id": "qmix-checkpoints__seed-42__0b770181756eb1b9",
+      "training_audit": "metadata/audits/qmix_c_matched/20261019/seed42_40k_training_check.json",
+      "evaluation_audit": "metadata/audits/qmix_c_matched/20261019/seed42_40k_evaluation_check.json",
+      "preflight_audit": "metadata/audits/qmix_c_matched/20261019/continuation_40k_preflight.json"
+    },
+    {
+      "budget": 8000,
+      "seed": 43,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed43-8k.json",
+      "config_hash": "ecd40c89f4ab8e07b29254da99af0a9fea3dc0a71641eda327900a454f81dfab",
+      "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-ecd40c89f4ab__git-eb1140cefc4a",
+      "logs_root": "logs/strong_baselines/development/c_feature_credit_qmix/seed43/8k",
+      "final_checkpoint": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\8k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-ecd40c89f4ab__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "final_checkpoint_sha256": "76d2433bb9e50a82e05100a366b1fda2af3a900101bf9cd51e0d1976600a7092",
+      "state": "training_and_frozen_development_evaluation_completed",
+      "comparison_label": "D",
+      "algorithm_short_name": "CFC-QMIX",
+      "execution_owner": "user_local",
+      "frozen_evaluation_completed": true,
+      "evaluation_series_id": "qmix-checkpoints__seed-43__5b0eb1adbd3e38d3",
+      "training_audit": "metadata/audits/qmix_c_matched/20261019/seed43_8k_training_check.json",
+      "evaluation_audit": "metadata/audits/qmix_c_matched/20261019/seed43_8k_evaluation_check.json"
+    },
+    {
+      "budget": 16000,
+      "seed": 43,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed43-16k.json",
+      "config_hash": "9e7047a6d882f2659b94650e199f53d36d214242baeea33c49587ec96e8b2d34",
+      "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-9e7047a6d882__git-eb1140cefc4a",
+      "logs_root": "logs/strong_baselines/development/c_feature_credit_qmix/seed43/16k",
+      "final_checkpoint": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\16k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-9e7047a6d882__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "state": "training_and_frozen_development_evaluation_completed",
+      "comparison_label": "D",
+      "algorithm_short_name": "CFC-QMIX",
+      "execution_owner": "user_local",
+      "frozen_evaluation_completed": true,
+      "full_checkpoint_audit_performed": false,
+      "completion_status_audit": "metadata/audits/qmix_c_matched/20261020/seed43_40k_completion_status_check.json",
+      "evaluation_series_id": "qmix-checkpoints__seed-43__ce418a4eed8b0bad",
+      "evaluation_audit": "metadata/audits/qmix_c_matched/20261020/seed43_32k_evaluation_check.json"
+    },
+    {
+      "budget": 24000,
+      "seed": 43,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed43-24k.json",
+      "config_hash": "c375bbf551b46497c6a08112baf299c7e4d934d17b985e3a2e87891fedeaad87",
+      "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-c375bbf551b4__git-eb1140cefc4a",
+      "logs_root": "logs/strong_baselines/development/c_feature_credit_qmix/seed43/24k",
+      "final_checkpoint": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\24k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-c375bbf551b4__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "state": "training_and_frozen_development_evaluation_completed",
+      "comparison_label": "D",
+      "algorithm_short_name": "CFC-QMIX",
+      "execution_owner": "user_local",
+      "frozen_evaluation_completed": true,
+      "full_checkpoint_audit_performed": false,
+      "completion_status_audit": "metadata/audits/qmix_c_matched/20261020/seed43_40k_completion_status_check.json",
+      "evaluation_series_id": "qmix-checkpoints__seed-43__7ece01076e2e7e65",
+      "evaluation_audit": "metadata/audits/qmix_c_matched/20261020/seed43_32k_evaluation_check.json"
+    },
+    {
+      "budget": 32000,
+      "seed": 43,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed43-32k.json",
+      "config_hash": "96005352b13dae8652e07de8f3d3047f832946a029dca612f77ab24c3cfbbb32",
+      "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-96005352b13d__git-eb1140cefc4a",
+      "logs_root": "logs/strong_baselines/development/c_feature_credit_qmix/seed43/32k",
+      "final_checkpoint": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\32k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-96005352b13d__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "state": "training_and_frozen_development_evaluation_completed",
+      "comparison_label": "D",
+      "algorithm_short_name": "CFC-QMIX",
+      "execution_owner": "user_local",
+      "frozen_evaluation_completed": true,
+      "full_checkpoint_audit_performed": false,
+      "completion_status_audit": "metadata/audits/qmix_c_matched/20261020/seed43_40k_completion_status_check.json",
+      "evaluation_series_id": "qmix-checkpoints__seed-43__78c5e1fb33979d89",
+      "evaluation_audit": "metadata/audits/qmix_c_matched/20261020/seed43_32k_evaluation_check.json"
+    },
+    {
+      "budget": 40000,
+      "seed": 43,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed43-40k.json",
+      "config_hash": "57723678881306cd31af85c02f6e682b4c898a812afaf7fc52ba3c18520b6cf9",
+      "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-577236788813__git-eb1140cefc4a",
+      "logs_root": "logs/strong_baselines/development/c_feature_credit_qmix/seed43/40k",
+      "final_checkpoint": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\40k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-577236788813__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "state": "training_and_frozen_development_evaluation_completed",
+      "comparison_label": "D",
+      "algorithm_short_name": "CFC-QMIX",
+      "execution_owner": "user_local",
+      "frozen_evaluation_completed": true,
+      "full_checkpoint_audit_performed": true,
+      "completion_status_audit": "metadata/audits/qmix_c_matched/20261020/seed43_40k_completion_status_check.json",
+      "final_checkpoint_sha256": "2b7e797a91cc72cf9c3a0fa208b4d0fcfb6bb4bc1eb97f8e6ea400d26e6e82ff",
+      "evaluation_series_id": "qmix-checkpoints__seed-43__9901109137c80d5e",
+      "training_audit": "metadata/audits/qmix_c_matched/20261020/seed43_40k_training_check.json",
+      "evaluation_audit": "metadata/audits/qmix_c_matched/20261020/seed43_40k_evaluation_check.json"
+    },
+    {
+      "seed": 44,
+      "budget": 8000,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed44-8k.json",
+      "config_hash": "505599d604ea1d61d863184ec896f72c280ad1c2fa4978da441141c7151d994c",
+      "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-505599d604ea__git-eb1140cefc4a",
+      "logs_root": "logs/strong_baselines/development/c_feature_credit_qmix/seed44/8k",
+      "final_checkpoint": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\8k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-505599d604ea__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "final_checkpoint_sha256": "9542bdb37dd581db546af418e2bb9e02b40506cd481c8f5bcdf4040017721188",
+      "state": "training_and_frozen_development_evaluation_completed",
+      "comparison_label": "D",
+      "algorithm_short_name": "CFC-QMIX",
+      "execution_owner": "user_local_then_agent_takeover_from_4k",
+      "frozen_evaluation_completed": true,
+      "full_checkpoint_audit_performed": false,
+      "evaluation_series_id": "qmix-checkpoints__seed-44__f3e02e308c138f23",
+      "training_audit": "metadata\\audits\\qmix_c_matched\\20261021\\seed44_40k_training_check.json",
+      "evaluation_audit": "metadata\\audits\\qmix_c_matched\\20261021\\seed44_40k_evaluation_check.json"
+    },
+    {
+      "seed": 44,
+      "budget": 16000,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed44-16k.json",
+      "config_hash": "6a276b46fb09b627ef43d33707f37b48cc82a4899f19f0aa8bc4fccfd00c531d",
+      "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-6a276b46fb09__git-eb1140cefc4a",
+      "logs_root": "logs/strong_baselines/development/c_feature_credit_qmix/seed44/16k",
+      "final_checkpoint": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\16k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-6a276b46fb09__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "final_checkpoint_sha256": "dc3f28e2a3cc8bb9893246ef169e4088a56a71e49fc75b7589e87ce3fc997edf",
+      "state": "training_and_frozen_development_evaluation_completed",
+      "comparison_label": "D",
+      "algorithm_short_name": "CFC-QMIX",
+      "execution_owner": "user_local_then_agent_takeover_from_4k",
+      "frozen_evaluation_completed": true,
+      "full_checkpoint_audit_performed": false,
+      "evaluation_series_id": "qmix-checkpoints__seed-44__08a4212215cf7956",
+      "training_audit": "metadata\\audits\\qmix_c_matched\\20261021\\seed44_40k_training_check.json",
+      "evaluation_audit": "metadata\\audits\\qmix_c_matched\\20261021\\seed44_40k_evaluation_check.json"
+    },
+    {
+      "seed": 44,
+      "budget": 24000,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed44-24k.json",
+      "config_hash": "550ef31861fcf7ddc931faddf78321ed55f008cb395189feb4273f88f75ebf5b",
+      "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-550ef31861fc__git-eb1140cefc4a",
+      "logs_root": "logs/strong_baselines/development/c_feature_credit_qmix/seed44/24k",
+      "final_checkpoint": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\24k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-550ef31861fc__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "final_checkpoint_sha256": "b9b2ea77f06850f7790180f66b91e7b089850a746aea32a4745ea491ca2194b0",
+      "state": "training_and_frozen_development_evaluation_completed",
+      "comparison_label": "D",
+      "algorithm_short_name": "CFC-QMIX",
+      "execution_owner": "user_local_then_agent_takeover_from_4k",
+      "frozen_evaluation_completed": true,
+      "full_checkpoint_audit_performed": false,
+      "evaluation_series_id": "qmix-checkpoints__seed-44__1deb7446e9349776",
+      "training_audit": "metadata\\audits\\qmix_c_matched\\20261021\\seed44_40k_training_check.json",
+      "evaluation_audit": "metadata\\audits\\qmix_c_matched\\20261021\\seed44_40k_evaluation_check.json"
+    },
+    {
+      "seed": 44,
+      "budget": 32000,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed44-32k.json",
+      "config_hash": "28d708fc2cfaacd72fa717bb2dcc41837600695a4c576b15541cdf13b9c30337",
+      "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-28d708fc2cfa__git-eb1140cefc4a",
+      "logs_root": "logs/strong_baselines/development/c_feature_credit_qmix/seed44/32k",
+      "final_checkpoint": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\32k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-28d708fc2cfa__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "final_checkpoint_sha256": "c0befc6e4a5d1deeceb64e7f223ea01caccb52ced5bb2ebcf20f58fb0f544dcf",
+      "state": "training_and_frozen_development_evaluation_completed",
+      "comparison_label": "D",
+      "algorithm_short_name": "CFC-QMIX",
+      "execution_owner": "user_local_then_agent_takeover_from_4k",
+      "frozen_evaluation_completed": true,
+      "full_checkpoint_audit_performed": false,
+      "evaluation_series_id": "qmix-checkpoints__seed-44__a42466dfcc584c92",
+      "training_audit": "metadata\\audits\\qmix_c_matched\\20261021\\seed44_40k_training_check.json",
+      "evaluation_audit": "metadata\\audits\\qmix_c_matched\\20261021\\seed44_40k_evaluation_check.json"
+    },
+    {
+      "seed": 44,
+      "budget": 40000,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed44-40k.json",
+      "config_hash": "9355ac0590f8c1e027d038a1aee5673b78ad11196fdda79db7caf018468e44e3",
+      "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-9355ac0590f8__git-eb1140cefc4a",
+      "logs_root": "logs/strong_baselines/development/c_feature_credit_qmix/seed44/40k",
+      "final_checkpoint": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\40k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-9355ac0590f8__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "final_checkpoint_sha256": "7200a3210bff4b205f244a21b979c8c2dd13bed58e2f246c02053176942eaea7",
+      "state": "training_and_frozen_development_evaluation_completed",
+      "comparison_label": "D",
+      "algorithm_short_name": "CFC-QMIX",
+      "execution_owner": "user_local_then_agent_takeover_from_4k",
+      "frozen_evaluation_completed": true,
+      "full_checkpoint_audit_performed": true,
+      "evaluation_series_id": "qmix-checkpoints__seed-44__c3763bcad3bea2ef",
+      "training_audit": "metadata\\audits\\qmix_c_matched\\20261021\\seed44_40k_training_check.json",
+      "evaluation_audit": "metadata\\audits\\qmix_c_matched\\20261021\\seed44_40k_evaluation_check.json"
+    }
+  ],
+  "proposed_next_stage": {
+    "method": "c_feature_credit_qmix",
+    "comparison_label": "D",
+    "algorithm_short_name": "CFC-QMIX",
+    "independent_training_seeds": [
+      43,
+      44
+    ],
+    "initialization": "independent_from_scratch_no_trained_C_or_D_weights",
+    "cumulative_budget_per_seed": 40000,
+    "evaluation_interval_steps": 4000,
+    "primary_report_step": 40000,
+    "configuration_prepared": true,
+    "training_started": true,
+    "evaluation_started": true,
+    "execution_owner": "agent_local_for_seed44_by_latest_user_request",
+    "decision": "three_training_seed_40k_development_comparison_completed_no_new_training_authorized",
+    "algorithm_change_recommended": false,
+    "further_seed42_budget_recommended": false,
+    "subsequent_recommendation": "Summarize equal-budget C/D training-seed variability, then use held-out evaluation after protocol is fixed; report extra shadow costs separately.",
+    "stage_budgets": [
+      8000,
+      16000,
+      24000,
+      32000,
+      40000
+    ],
+    "first_launch": {
+      "seed": 43,
+      "budget": 8000,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed43-8k.json",
+      "config_hash": "ecd40c89f4ab8e07b29254da99af0a9fea3dc0a71641eda327900a454f81dfab",
+      "state": "training_and_frozen_development_evaluation_completed"
+    },
+    "preflight_audit": "metadata/audits/qmix_c_matched/20261019/multiseed_43_44_config_preflight.json",
+    "configurations": [
+      {
+        "seed": 43,
+        "budget": 8000,
+        "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed43-8k.json",
+        "config_hash": "ecd40c89f4ab8e07b29254da99af0a9fea3dc0a71641eda327900a454f81dfab"
+      },
+      {
+        "seed": 43,
+        "budget": 16000,
+        "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed43-16k.json",
+        "config_hash": "9e7047a6d882f2659b94650e199f53d36d214242baeea33c49587ec96e8b2d34"
+      },
+      {
+        "seed": 43,
+        "budget": 24000,
+        "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed43-24k.json",
+        "config_hash": "c375bbf551b46497c6a08112baf299c7e4d934d17b985e3a2e87891fedeaad87"
+      },
+      {
+        "seed": 43,
+        "budget": 32000,
+        "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed43-32k.json",
+        "config_hash": "96005352b13dae8652e07de8f3d3047f832946a029dca612f77ab24c3cfbbb32"
+      },
+      {
+        "seed": 43,
+        "budget": 40000,
+        "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed43-40k.json",
+        "config_hash": "57723678881306cd31af85c02f6e682b4c898a812afaf7fc52ba3c18520b6cf9"
+      },
+      {
+        "seed": 44,
+        "budget": 8000,
+        "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed44-8k.json",
+        "config_hash": "505599d604ea1d61d863184ec896f72c280ad1c2fa4978da441141c7151d994c"
+      },
+      {
+        "seed": 44,
+        "budget": 16000,
+        "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed44-16k.json",
+        "config_hash": "6a276b46fb09b627ef43d33707f37b48cc82a4899f19f0aa8bc4fccfd00c531d"
+      },
+      {
+        "seed": 44,
+        "budget": 24000,
+        "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed44-24k.json",
+        "config_hash": "550ef31861fcf7ddc931faddf78321ed55f008cb395189feb4273f88f75ebf5b"
+      },
+      {
+        "seed": 44,
+        "budget": 32000,
+        "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed44-32k.json",
+        "config_hash": "28d708fc2cfaacd72fa717bb2dcc41837600695a4c576b15541cdf13b9c30337"
+      },
+      {
+        "seed": 44,
+        "budget": 40000,
+        "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed44-40k.json",
+        "config_hash": "9355ac0590f8c1e027d038a1aee5673b78ad11196fdda79db7caf018468e44e3"
+      }
+    ],
+    "parameters_frozen_across_stages": true,
+    "stage_boundary_shadow_collection_matches_seed42": true,
+    "completed_seed_budgets": {
+      "43": 40000,
+      "44": 40000
+    },
+    "next_local_launch": {
+      "seed": 43,
+      "budget": 16000,
+      "resume_from_budget": 8000,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed43-16k.json",
+      "config_hash": "9e7047a6d882f2659b94650e199f53d36d214242baeea33c49587ec96e8b2d34",
+      "source_checkpoint": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed43\\8k\\c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-ecd40c89f4ab__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "source_checkpoint_sha256": "76d2433bb9e50a82e05100a366b1fda2af3a900101bf9cd51e0d1976600a7092",
+      "evaluation_steps": [
+        12000,
+        16000
+      ],
+      "training_started": true,
+      "evaluation_started": true,
+      "planned_train_through_budget": 40000,
+      "evaluate_after_all_training": true,
+      "training_completed_through_budget": 40000,
+      "evaluation_status": "all_ten_checkpoints_completed_verified",
+      "evaluation_completed_through_budget": 40000,
+      "state": "completed_historical_seed43_workflow"
+    },
+    "local_training_stage_sequence": [
+      16000,
+      24000,
+      32000,
+      40000
+    ],
+    "local_evaluation_sequence_after_all_training": [
+      16000,
+      24000,
+      32000,
+      40000
+    ],
+    "evaluation_timing": "after_all_training_stages_completed",
+    "deferred_evaluation_workflow_preflight": "metadata/audits/qmix_c_matched/20261019/seed43_8k40k_deferred_evaluation_preflight.json",
+    "next_required_action": "Specify matched C/D ablations and held-out protocol; no automatic training, budget extension or algorithm change.",
+    "frozen_evaluation_completed_seed_budgets": {
+      "43": 40000,
+      "44": 40000
+    },
+    "pending_independent_seed": null,
+    "automatic_launch_allowed": false
+  },
+  "held_out_final_evaluation_completed": false,
+  "historical_manifest": {
+    "path": "metadata/CURRENT_EXPERIMENT_MANIFEST.json",
+    "snapshot_date": "2026-10-14",
+    "is_current_navigation": false
+  },
+  "pre_organization_documents": "metadata/reference/repository_snapshots/20261018_before_organization/snapshot_manifest.json",
+  "organization_receipt": "metadata/cleanup/20261018_repository_organization/receipt.json",
+  "protected_directories": [
+    ".agents",
+    "knowledge"
+  ],
+  "runtime_commands_saved": false,
+  "method_catalog": "metadata/METHOD_CATALOG.json",
+  "latest_naming_and_cleanup_receipt": "metadata/cleanup/20261018_method_d_cleanup/receipt.json",
+  "retired_engineering_outputs": {
+    "c_feature_credit_qmix_256_steps": "metadata/cleanup/20261018_method_d_cleanup/engineering_retention.json",
+    "development_data_removed": false
+  },
+  "latest_frozen_route_behavior_diagnostic": {
+    "training_seed": 43,
+    "training_steps": 8000,
+    "audit": "metadata/audits/qmix_c_matched/20261019/seed43_8k_route_behavior_check.json",
+    "diagnostic_environment_steps": 5000,
+    "model_updates": 0,
+    "same_original_metrics_and_traces": true,
+    "per_state_route_counterfactual_executed": false,
+    "route_selection_accuracy_measured": false
+  },
+  "scheduled_completion_followup": {
+    "automation_id": "13-11-qmix",
+    "kind": "heartbeat",
+    "status": "PAUSED",
+    "purpose": "Report actual D seed44 training and frozen evaluation progress in this chat every hour until completion summary",
+    "training_seed": 44,
+    "first_check_at_utc": "2026-10-20T07:18:00+00:00",
+    "first_check_at_Asia_Shanghai": "2026-10-20T15:18:00+08:00",
+    "check_interval_minutes": 60,
+    "existing_training_exec_session_id": 31250,
+    "new_duplicate_training_or_evaluation_allowed": false,
+    "output_on_each_hourly_run_requested": true,
+    "stop_after_training_evaluation_and_summary": true,
+    "last_progress_report_checked_at_utc": "2026-10-20T17:22:17.786199+00:00",
+    "completion_audit_finished_at_utc": "2026-10-20T17:21:13.889741+00:00",
+    "completion_summary_prepared": true,
+    "stop_reason": "seed44_40k_training_ten_frozen_evaluations_independent_audit_and_three_seed_report_completed",
+    "completion_deliverables_verified": true
+  },
+  "latest_completed_comparison": {
+    "training_seeds": [
+      42,
+      43,
+      44
+    ],
+    "primary_report_step": 40000,
+    "series_id": "qmix-checkpoints__seed-44__c3763bcad3bea2ef",
+    "report": "sections/results/20261018_C_FEATURE_CREDIT_QMIX.md",
+    "training_audit": "metadata\\audits\\qmix_c_matched\\20261021\\seed44_40k_training_check.json",
+    "evaluation_audit": "metadata\\audits\\qmix_c_matched\\20261021\\seed44_40k_evaluation_check.json",
+    "scope": "Three training-seed development description, not held-out final testing or significance evidence"
+  },
+  "retired_experiments": {
+    "A": {
+      "historical_completed_training_budgets": {
+        "seed42": 16000
+      },
+      "state": "dedicated_outputs_and_runnable_configs_deleted_by_user_scope_change",
+      "receipt": "metadata/cleanup/20261020_retire_ab/receipt.json",
+      "failure_conclusion": false,
+      "dedicated_local_recovery_zip_removed": true
+    },
+    "B": {
+      "historical_completed_training_budgets": {
+        "seed42": 16000
+      },
+      "state": "dedicated_outputs_and_runnable_configs_deleted_by_user_scope_change",
+      "receipt": "metadata/cleanup/20261020_retire_ab/receipt.json",
+      "failure_conclusion": false,
+      "dedicated_local_recovery_zip_removed": true
+    }
+  },
+  "active_learning_methods": [
+    "C",
+    "c_feature_credit_qmix"
+  ],
+  "active_comparison_labels": [
+    "C",
+    "D"
+  ],
+  "latest_retirement_receipt": "metadata/cleanup/20261020_retire_ab/receipt.json",
+  "future_ablation_policy": "Start from complete C/D definitions, change one stated mechanism, independently train with matched protocol; no new ablation run authorized or started in this cleanup.",
+  "latest_cleanup_receipt": "metadata/cleanup/20261020_deep_cd_cleanup/receipt.json",
+  "active_configuration_inventory": {
+    "total": 24,
+    "C": 8,
+    "D_development_and_continuation": 15,
+    "D_engineering": 1,
+    "legacy_QMIX_candidates_in_experiments": 0,
+    "legacy_QMIX_regression_fixture_configs": [
+      {
+        "path": "experiments/strong-baselines/configs/fa-gat-qmix-seed42-8k-episode-return-development.json",
+        "destination": "tests/fixtures/configs/qmix_legacy/fa-gat-qmix-seed42-8k-episode-return-development.json",
+        "sha256": "12fc836980482aae4e11dd741d2c6429c40acd7ce417ed434c99b5dddd78bc19"
+      },
+      {
+        "path": "experiments/strong-baselines/configs/fa-gat-qmix-seed42-16k-episode-return-development.json",
+        "destination": "tests/fixtures/configs/qmix_legacy/fa-gat-qmix-seed42-16k-episode-return-development.json",
+        "sha256": "ff66f43116c6d7d3bc22d3b31db71872bdeef7ff120281aef46d4fb85be906a7"
+      },
+      {
+        "path": "experiments/strong-baselines/configs/fa-gat-qmix-seed42-40k.json",
+        "destination": "tests/fixtures/configs/qmix_legacy/fa-gat-qmix-seed42-40k.json",
+        "sha256": "0bc28d33fbf04dc1675744a823880dbda64d20853e5bd2b43126a8d736c6a931"
+      }
+    ]
+  },
+  "retained_recovery_archives": [
+    "metadata/local_backups/baseline-c32k-20261014/release_assets/baseline-c32k-20261014-C-recovery.zip",
+    "metadata/local_backups/baseline-c32k-20261014/release_assets/baseline-c32k-20261014-support-recovery.zip"
+  ],
+  "current_execution_handoff": {
+    "seed": 44,
+    "method": "c_feature_credit_qmix",
+    "comparison_label": "D",
+    "authorization": "User requested pausing the local run and agent takeover on 2026-10-20",
+    "execution_location": "same local NVIDIA GeForce MX450",
+    "status_at_registration": "waiting_for_valid_4k_checkpoint",
+    "status_source": "metadata/audits/qmix_c_matched/20261020/seed44_handoff/run_state.json",
+    "original_process_id": 27304,
+    "agent_supervisor_exec_session_id": 31250,
+    "target_steps": 40000,
+    "stage_budgets": [
+      8000,
+      16000,
+      24000,
+      32000,
+      40000
+    ],
+    "frozen_evaluation_interval_steps": 4000,
+    "training_completed_claimed": true,
+    "learning_source_reward_config_changed": false,
+    "recurring_automation_created": false,
+    "execution_log": "logs/engineering/seed44_handoff_20261020/agent_driver_recovery.log",
+    "initial_supervisor_exec_session_id": 74560,
+    "status_at_latest_check": "training_frozen_evaluation_and_independent_audit_completed",
+    "source_saved_steps": 4000,
+    "source_saved_optimizer_updates": 97,
+    "exact_CUDA_restore_check_passed": true,
+    "training_process_id_at_latest_check": 8104,
+    "confirmation": "metadata/audits/qmix_c_matched/20261020/seed44_handoff/handoff_confirmation.json",
+    "failure_evidence_retained": true,
+    "final_training_audit": "metadata\\audits\\qmix_c_matched\\20261021\\seed44_40k_training_check.json",
+    "final_evaluation_audit": "metadata\\audits\\qmix_c_matched\\20261021\\seed44_40k_evaluation_check.json"
+  },
+  "previous_seed43_scheduled_completion_followup": {
+    "automation_id": "13-11-qmix",
+    "kind": "heartbeat",
+    "status": "PAUSED",
+    "purpose": "Verify seed43 40k training and frozen evaluations after both finish, then generate comparison tables and pause",
+    "first_check_at_utc": "2026-10-19T16:30:00+00:00",
+    "check_interval_minutes": 30,
+    "automatic_training_allowed": false,
+    "automatic_evaluation_allowed": false,
+    "completion_deliverables": [
+      "Markdown comparison tables",
+      "xlsx comparison workbook",
+      "summary CSV"
+    ],
+    "results_generated": true,
+    "stop_reason": "explicit_user_cancellation_preserved_after_manual_completion_analysis",
+    "training_completed_through_steps": 40000,
+    "frozen_evaluation_completed_through_steps": 40000,
+    "completion_status_audit": "metadata/audits/qmix_c_matched/20261020/seed43_40k_completion_status_check.json",
+    "latest_evaluation_audit": "metadata/audits/qmix_c_matched/20261020/seed43_40k_evaluation_check.json",
+    "completion_deliverables_verified": true,
+    "training_audit": "metadata/audits/qmix_c_matched/20261020/seed43_40k_training_check.json",
+    "completion_outputs": {
+      "workbook": "dashboard_logs/strong_baselines/comparisons/seed43_40k/D_C_seed43_40k_comparison.xlsx",
+      "comparison_csv": "dashboard_logs/strong_baselines/comparisons/seed43_40k/fixed_40k_comparison.csv",
+      "progress_csv": "dashboard_logs/strong_baselines/comparisons/seed43_40k/seed43_checkpoint_progress.csv",
+      "scenes_csv": "dashboard_logs/strong_baselines/comparisons/seed43_40k/fixed_40k_scenes.csv"
+    }
+  },
+  "active_training_progress": {
+    "seed": 44,
+    "method": "c_feature_credit_qmix",
+    "current_stage_target_steps": 40000,
+    "last_confirmed_stdout_steps": 40000,
+    "last_confirmed_stdout_epoch": 80,
+    "last_confirmed_checkpoint_steps": 40000,
+    "training_completed_stage_steps": 40000,
+    "evaluation_completed_through_steps": 40000,
+    "observation": "metadata/audits/qmix_c_matched/20261020/seed44_handoff/latest_progress_observation.json",
+    "observed_at_utc": "2026-10-20T17:21:13.889741+00:00",
+    "independent_final_audit_completed": true,
+    "current_status": "completed_and_independently_verified",
+    "last_completed_stage_optimizer_updates": 1249
+  }
+}

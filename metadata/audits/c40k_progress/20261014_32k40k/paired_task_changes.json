@@ -1,0 +1,29 @@
+[
+  {
+    "old_checkpoint": 32000,
+    "new_checkpoint": 36000,
+    "both_done": 387,
+    "neither_done": 163,
+    "new_only_done": 26,
+    "old_only_done": 29,
+    "net_DONE_change": -3
+  },
+  {
+    "old_checkpoint": 36000,
+    "new_checkpoint": 40000,
+    "both_done": 385,
+    "neither_done": 165,
+    "old_only_done": 28,
+    "new_only_done": 27,
+    "net_DONE_change": -1
+  },
+  {
+    "old_checkpoint": 32000,
+    "new_checkpoint": 40000,
+    "both_done": 385,
+    "neither_done": 162,
+    "new_only_done": 27,
+    "old_only_done": 31,
+    "net_DONE_change": -4
+  }
+]

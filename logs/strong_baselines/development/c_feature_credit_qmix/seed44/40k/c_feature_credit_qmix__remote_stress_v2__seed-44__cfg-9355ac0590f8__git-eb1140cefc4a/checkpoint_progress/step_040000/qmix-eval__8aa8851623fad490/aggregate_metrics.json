@@ -1,0 +1,607 @@
+{
+  "evaluation_schema_version": "formal_evaluation.v1",
+  "method_suite": [
+    "c_feature_credit_qmix",
+    "local_only",
+    "heuristic",
+    "random"
+  ],
+  "methods": {
+    "c_feature_credit_qmix": {
+      "episode_count": 5,
+      "evaluation_seeds": [
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ],
+      "metrics": {
+        "generated": {
+          "mean": 121.0,
+          "std": 11.296016997154352,
+          "valid_sample_count": 5
+        },
+        "completed": {
+          "mean": 81.8,
+          "std": 12.155657119218196,
+          "valid_sample_count": 5
+        },
+        "expired": {
+          "mean": 30.2,
+          "std": 9.453041838477178,
+          "valid_sample_count": 5
+        },
+        "truncated": {
+          "mean": 9.0,
+          "std": 3.898717737923586,
+          "valid_sample_count": 5
+        },
+        "completion_ratio": {
+          "mean": 0.6768801249674071,
+          "std": 0.08720764146837048,
+          "valid_sample_count": 5
+        },
+        "expiration_ratio": {
+          "mean": 0.2510097939224893,
+          "std": 0.0794911909561929,
+          "valid_sample_count": 5
+        },
+        "truncation_ratio": {
+          "mean": 0.07211008111010353,
+          "std": 0.02599391108948208,
+          "valid_sample_count": 5
+        },
+        "completed_task_e2e_delay_s": {
+          "mean": 0.4477750611246944,
+          "std": 0.31466081908158516,
+          "valid_sample_count": 409
+        },
+        "tx_energy_j": {
+          "mean": 0.38271664564811025,
+          "std": 0.26147143620683355,
+          "valid_sample_count": 5
+        },
+        "cpu_energy_j": {
+          "mean": 35.1261100172283,
+          "std": 10.252262620431907,
+          "valid_sample_count": 5
+        },
+        "total_energy_j": {
+          "mean": 35.508826662876416,
+          "std": 10.383807315335263,
+          "valid_sample_count": 5
+        },
+        "energy_per_completed_task_j": {
+          "mean": 0.4247621722591446,
+          "std": 0.06956055422571202,
+          "valid_sample_count": 5
+        },
+        "backlog_mean_tasks": {
+          "mean": 6.5988,
+          "std": 1.0179859331051682,
+          "valid_sample_count": 5
+        },
+        "backlog_max_tasks": {
+          "mean": 14.2,
+          "std": 1.3266499161421599,
+          "valid_sample_count": 5
+        },
+        "backlog_final_tasks": {
+          "mean": 9.0,
+          "std": 4.1952353926806065,
+          "valid_sample_count": 5
+        },
+        "outage_numerator": {
+          "mean": 0.0,
+          "std": 0.0,
+          "valid_sample_count": 5
+        },
+        "outage_denominator": {
+          "mean": 61.0,
+          "std": 34.77355316903925,
+          "valid_sample_count": 5
+        },
+        "outage_rate": {
+          "mean": 0.0,
+          "std": 0.0,
+          "valid_sample_count": 5
+        },
+        "executor_rejection": {
+          "mean": 2.2,
+          "std": 2.4,
+          "valid_sample_count": 5
+        },
+        "executor_downgrade": {
+          "mean": 0.0,
+          "std": 0.0,
+          "valid_sample_count": 5
+        },
+        "completion_component": {
+          "mean": 81.8,
+          "std": 12.155657119218196,
+          "valid_sample_count": 5
+        },
+        "expiration_penalty": {
+          "mean": 30.2,
+          "std": 9.453041838477178,
+          "valid_sample_count": 5
+        },
+        "workload_penalty": {
+          "mean": 9.09281309090722,
+          "std": 2.191706141734492,
+          "valid_sample_count": 5
+        },
+        "energy_penalty": {
+          "mean": 0.016957684205869124,
+          "std": 0.0049589170315261916,
+          "valid_sample_count": 5
+        },
+        "total_reward": {
+          "mean": 42.49022922488691,
+          "std": 21.806440844274388,
+          "valid_sample_count": 5
+        }
+      },
+      "pooled": {
+        "generated": 605,
+        "completed": 409,
+        "expired": 151,
+        "truncated": 45,
+        "completion_ratio": 0.6760330578512397,
+        "expiration_ratio": 0.24958677685950414,
+        "truncation_ratio": 0.0743801652892562,
+        "outage_numerator": 0,
+        "outage_denominator": 305,
+        "outage_rate": 0.0
+      }
+    },
+    "local_only": {
+      "episode_count": 5,
+      "evaluation_seeds": [
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ],
+      "metrics": {
+        "generated": {
+          "mean": 121.0,
+          "std": 11.296016997154352,
+          "valid_sample_count": 5
+        },
+        "completed": {
+          "mean": 64.6,
+          "std": 5.748043145279966,
+          "valid_sample_count": 5
+        },
+        "expired": {
+          "mean": 48.6,
+          "std": 6.770524351924303,
+          "valid_sample_count": 5
+        },
+        "truncated": {
+          "mean": 7.8,
+          "std": 4.019950248448356,
+          "valid_sample_count": 5
+        },
+        "completion_ratio": {
+          "mean": 0.5372476348982819,
+          "std": 0.05635706096769138,
+          "valid_sample_count": 5
+        },
+        "expiration_ratio": {
+          "mean": 0.40069879955462245,
+          "std": 0.031645042110526544,
+          "valid_sample_count": 5
+        },
+        "truncation_ratio": {
+          "mean": 0.06205356554709564,
+          "std": 0.029364080714518122,
+          "valid_sample_count": 5
+        },
+        "completed_task_e2e_delay_s": {
+          "mean": 0.3977089783281734,
+          "std": 0.29829808602088614,
+          "valid_sample_count": 323
+        },
+        "tx_energy_j": {
+          "mean": 0.0,
+          "std": 0.0,
+          "valid_sample_count": 5
+        },
+        "cpu_energy_j": {
+          "mean": 23.732643287098295,
+          "std": 1.8826021933406984,
+          "valid_sample_count": 5
+        },
+        "total_energy_j": {
+          "mean": 23.732643287098295,
+          "std": 1.8826021933406984,
+          "valid_sample_count": 5
+        },
+        "energy_per_completed_task_j": {
+          "mean": 0.3689695119258645,
+          "std": 0.03129545825549797,
+          "valid_sample_count": 5
+        },
+        "backlog_mean_tasks": {
+          "mean": 7.052,
+          "std": 0.7749116078624712,
+          "valid_sample_count": 5
+        },
+        "backlog_max_tasks": {
+          "mean": 14.2,
+          "std": 1.6,
+          "valid_sample_count": 5
+        },
+        "backlog_final_tasks": {
+          "mean": 8.2,
+          "std": 4.069397989875161,
+          "valid_sample_count": 5
+        },
+        "outage_numerator": {
+          "mean": 0.0,
+          "std": 0.0,
+          "valid_sample_count": 5
+        },
+        "outage_denominator": {
+          "mean": 0.0,
+          "std": 0.0,
+          "valid_sample_count": 5
+        },
+        "outage_rate": {
+          "mean": null,
+          "std": null,
+          "valid_sample_count": 0
+        },
+        "executor_rejection": {
+          "mean": 0.0,
+          "std": 0.0,
+          "valid_sample_count": 5
+        },
+        "executor_downgrade": {
+          "mean": 0.0,
+          "std": 0.0,
+          "valid_sample_count": 5
+        },
+        "completion_component": {
+          "mean": 64.6,
+          "std": 5.748043145279966,
+          "valid_sample_count": 5
+        },
+        "expiration_penalty": {
+          "mean": 48.6,
+          "std": 6.770524351924303,
+          "valid_sample_count": 5
+        },
+        "workload_penalty": {
+          "mean": 11.120834856951664,
+          "std": 1.6964351569061815,
+          "valid_sample_count": 5
+        },
+        "energy_penalty": {
+          "mean": 0.011333820575206575,
+          "std": 0.0008990602191123432,
+          "valid_sample_count": 5
+        },
+        "total_reward": {
+          "mean": 4.867831322473131,
+          "std": 11.248059761815373,
+          "valid_sample_count": 5
+        }
+      },
+      "pooled": {
+        "generated": 605,
+        "completed": 323,
+        "expired": 243,
+        "truncated": 39,
+        "completion_ratio": 0.5338842975206611,
+        "expiration_ratio": 0.40165289256198344,
+        "truncation_ratio": 0.06446280991735537,
+        "outage_numerator": 0,
+        "outage_denominator": 0,
+        "outage_rate": null
+      }
+    },
+    "heuristic": {
+      "episode_count": 5,
+      "evaluation_seeds": [
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ],
+      "metrics": {
+        "generated": {
+          "mean": 121.0,
+          "std": 11.296016997154352,
+          "valid_sample_count": 5
+        },
+        "completed": {
+          "mean": 74.2,
+          "std": 18.356470248934027,
+          "valid_sample_count": 5
+        },
+        "expired": {
+          "mean": 38.0,
+          "std": 13.579396157414363,
+          "valid_sample_count": 5
+        },
+        "truncated": {
+          "mean": 8.8,
+          "std": 3.54400902933387,
+          "valid_sample_count": 5
+        },
+        "completion_ratio": {
+          "mean": 0.6103767378351936,
+          "std": 0.126797151629032,
+          "valid_sample_count": 5
+        },
+        "expiration_ratio": {
+          "mean": 0.31866003775626794,
+          "std": 0.11973895414145506,
+          "valid_sample_count": 5
+        },
+        "truncation_ratio": {
+          "mean": 0.07096322440853849,
+          "std": 0.0251102942199421,
+          "valid_sample_count": 5
+        },
+        "completed_task_e2e_delay_s": {
+          "mean": 0.5313207547169811,
+          "std": 0.3599477830885666,
+          "valid_sample_count": 371
+        },
+        "tx_energy_j": {
+          "mean": 0.11485650200856679,
+          "std": 0.07522798785473064,
+          "valid_sample_count": 5
+        },
+        "cpu_energy_j": {
+          "mean": 21.718513624146492,
+          "std": 8.616652756149362,
+          "valid_sample_count": 5
+        },
+        "total_energy_j": {
+          "mean": 21.83337012615506,
+          "std": 8.689347758471376,
+          "valid_sample_count": 5
+        },
+        "energy_per_completed_task_j": {
+          "mean": 0.28445751971507655,
+          "std": 0.04500793181799095,
+          "valid_sample_count": 5
+        },
+        "backlog_mean_tasks": {
+          "mean": 7.5768,
+          "std": 0.7831807964959305,
+          "valid_sample_count": 5
+        },
+        "backlog_max_tasks": {
+          "mean": 14.6,
+          "std": 1.3564659966250536,
+          "valid_sample_count": 5
+        },
+        "backlog_final_tasks": {
+          "mean": 9.0,
+          "std": 3.7416573867739413,
+          "valid_sample_count": 5
+        },
+        "outage_numerator": {
+          "mean": 0.0,
+          "std": 0.0,
+          "valid_sample_count": 5
+        },
+        "outage_denominator": {
+          "mean": 15.8,
+          "std": 11.77115117564973,
+          "valid_sample_count": 5
+        },
+        "outage_rate": {
+          "mean": 0.0,
+          "std": 0.0,
+          "valid_sample_count": 5
+        },
+        "executor_rejection": {
+          "mean": 0.2,
+          "std": 0.4,
+          "valid_sample_count": 5
+        },
+        "executor_downgrade": {
+          "mean": 0.0,
+          "std": 0.0,
+          "valid_sample_count": 5
+        },
+        "completion_component": {
+          "mean": 74.2,
+          "std": 18.356470248934027,
+          "valid_sample_count": 5
+        },
+        "expiration_penalty": {
+          "mean": 38.0,
+          "std": 13.579396157414363,
+          "valid_sample_count": 5
+        },
+        "workload_penalty": {
+          "mean": 10.16729076691444,
+          "std": 2.457924125755187,
+          "valid_sample_count": 5
+        },
+        "energy_penalty": {
+          "mean": 0.010426798927047438,
+          "std": 0.0041497066811612355,
+          "valid_sample_count": 5
+        },
+        "total_reward": {
+          "mean": 26.022282434158512,
+          "std": 33.32806803196719,
+          "valid_sample_count": 5
+        }
+      },
+      "pooled": {
+        "generated": 605,
+        "completed": 371,
+        "expired": 190,
+        "truncated": 44,
+        "completion_ratio": 0.6132231404958678,
+        "expiration_ratio": 0.3140495867768595,
+        "truncation_ratio": 0.07272727272727272,
+        "outage_numerator": 0,
+        "outage_denominator": 79,
+        "outage_rate": 0.0
+      }
+    },
+    "random": {
+      "episode_count": 5,
+      "evaluation_seeds": [
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ],
+      "metrics": {
+        "generated": {
+          "mean": 121.0,
+          "std": 11.296016997154352,
+          "valid_sample_count": 5
+        },
+        "completed": {
+          "mean": 5.4,
+          "std": 0.4898979485566356,
+          "valid_sample_count": 5
+        },
+        "expired": {
+          "mean": 105.4,
+          "std": 8.404760555780278,
+          "valid_sample_count": 5
+        },
+        "truncated": {
+          "mean": 10.2,
+          "std": 3.54400902933387,
+          "valid_sample_count": 5
+        },
+        "completion_ratio": {
+          "mean": 0.045377182842142136,
+          "std": 0.008346549760533012,
+          "valid_sample_count": 5
+        },
+        "expiration_ratio": {
+          "mean": 0.8722851729754467,
+          "std": 0.014934519540943405,
+          "valid_sample_count": 5
+        },
+        "truncation_ratio": {
+          "mean": 0.08233764418241106,
+          "std": 0.023108078889035676,
+          "valid_sample_count": 5
+        },
+        "completed_task_e2e_delay_s": {
+          "mean": 0.58,
+          "std": 0.35735654982622567,
+          "valid_sample_count": 27
+        },
+        "tx_energy_j": {
+          "mean": 0.4954644097036865,
+          "std": 0.28112458115653677,
+          "valid_sample_count": 5
+        },
+        "cpu_energy_j": {
+          "mean": 9.171538967013287,
+          "std": 2.0959592525923427,
+          "valid_sample_count": 5
+        },
+        "total_energy_j": {
+          "mean": 9.667003376716975,
+          "std": 2.226686078689212,
+          "valid_sample_count": 5
+        },
+        "energy_per_completed_task_j": {
+          "mean": 1.7884429745558053,
+          "std": 0.357229885578901,
+          "valid_sample_count": 5
+        },
+        "backlog_mean_tasks": {
+          "mean": 8.848,
+          "std": 0.7505603240246584,
+          "valid_sample_count": 5
+        },
+        "backlog_max_tasks": {
+          "mean": 17.4,
+          "std": 1.4966629547095767,
+          "valid_sample_count": 5
+        },
+        "backlog_final_tasks": {
+          "mean": 10.4,
+          "std": 3.4985711369071804,
+          "valid_sample_count": 5
+        },
+        "outage_numerator": {
+          "mean": 0.4,
+          "std": 0.8,
+          "valid_sample_count": 5
+        },
+        "outage_denominator": {
+          "mean": 78.8,
+          "std": 37.53611594184992,
+          "valid_sample_count": 5
+        },
+        "outage_rate": {
+          "mean": 0.00291970802919708,
+          "std": 0.00583941605839416,
+          "valid_sample_count": 5
+        },
+        "executor_rejection": {
+          "mean": 6.2,
+          "std": 7.678541528180986,
+          "valid_sample_count": 5
+        },
+        "executor_downgrade": {
+          "mean": 0.0,
+          "std": 0.0,
+          "valid_sample_count": 5
+        },
+        "completion_component": {
+          "mean": 5.4,
+          "std": 0.4898979485566356,
+          "valid_sample_count": 5
+        },
+        "expiration_penalty": {
+          "mean": 105.4,
+          "std": 8.404760555780278,
+          "valid_sample_count": 5
+        },
+        "workload_penalty": {
+          "mean": 18.514555708092978,
+          "std": 1.607388392267141,
+          "valid_sample_count": 5
+        },
+        "energy_penalty": {
+          "mean": 0.0046165983471039744,
+          "std": 0.0010633817812823751,
+          "valid_sample_count": 5
+        },
+        "total_reward": {
+          "mean": -118.51917230644008,
+          "std": 10.13097171669862,
+          "valid_sample_count": 5
+        }
+      },
+      "pooled": {
+        "generated": 605,
+        "completed": 27,
+        "expired": 527,
+        "truncated": 51,
+        "completion_ratio": 0.04462809917355372,
+        "expiration_ratio": 0.8710743801652893,
+        "truncation_ratio": 0.08429752066115702,
+        "outage_numerator": 2,
+        "outage_denominator": 394,
+        "outage_rate": 0.005076142131979695
+      }
+    }
+  }
+}

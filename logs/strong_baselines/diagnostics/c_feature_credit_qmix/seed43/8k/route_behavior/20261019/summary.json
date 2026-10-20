@@ -1,0 +1,197 @@
+{
+  "task_route_outcomes": {
+    "local": {
+      "done": 162,
+      "expired": 26,
+      "truncated": 11
+    },
+    "remote": {
+      "done": 155,
+      "expired": 213,
+      "truncated": 35
+    },
+    "unbound": {
+      "done": 0,
+      "expired": 2,
+      "truncated": 1
+    }
+  },
+  "active_route_decisions": {
+    "local": 199,
+    "remote": 403,
+    "defer": 273
+  },
+  "decisions_with_both_options_legal": {
+    "remote": 403,
+    "defer": 231,
+    "local": 68
+  },
+  "by_source": {
+    "0": {
+      "profile": "Balanced",
+      "generated": 120,
+      "route_outcomes": {
+        "local": {
+          "done": 51,
+          "expired": 4,
+          "truncated": 0
+        },
+        "remote": {
+          "done": 16,
+          "expired": 47,
+          "truncated": 2
+        },
+        "unbound": {
+          "done": 0,
+          "expired": 0,
+          "truncated": 0
+        }
+      }
+    },
+    "1": {
+      "profile": "Resource-poor",
+      "generated": 298,
+      "route_outcomes": {
+        "local": {
+          "done": 14,
+          "expired": 0,
+          "truncated": 2
+        },
+        "remote": {
+          "done": 110,
+          "expired": 143,
+          "truncated": 28
+        },
+        "unbound": {
+          "done": 0,
+          "expired": 0,
+          "truncated": 1
+        }
+      }
+    },
+    "2": {
+      "profile": "Compute-rich",
+      "generated": 51,
+      "route_outcomes": {
+        "local": {
+          "done": 35,
+          "expired": 2,
+          "truncated": 0
+        },
+        "remote": {
+          "done": 5,
+          "expired": 6,
+          "truncated": 3
+        },
+        "unbound": {
+          "done": 0,
+          "expired": 0,
+          "truncated": 0
+        }
+      }
+    },
+    "3": {
+      "profile": "Energy-limited",
+      "generated": 136,
+      "route_outcomes": {
+        "local": {
+          "done": 62,
+          "expired": 20,
+          "truncated": 9
+        },
+        "remote": {
+          "done": 24,
+          "expired": 17,
+          "truncated": 2
+        },
+        "unbound": {
+          "done": 0,
+          "expired": 2,
+          "truncated": 0
+        }
+      }
+    }
+  },
+  "paired_vs_local_only": {
+    "local": {
+      "generated": 199,
+      "D_done": 162,
+      "Local_done_on_same_task_ids": 157,
+      "D_done_Local_not_done": 15,
+      "Local_done_D_not_done": 10
+    },
+    "remote": {
+      "generated": 403,
+      "D_done": 155,
+      "Local_done_on_same_task_ids": 165,
+      "D_done_Local_not_done": 82,
+      "Local_done_D_not_done": 92
+    },
+    "unbound": {
+      "generated": 3,
+      "D_done": 0,
+      "Local_done_on_same_task_ids": 1,
+      "D_done_Local_not_done": 0,
+      "Local_done_D_not_done": 1
+    }
+  },
+  "total_generated": 605,
+  "D_completed": 317,
+  "Local_completed": 323,
+  "remote_outcomes_by_scene": [
+    {
+      "evaluation_seed": 1042,
+      "remote_allocated": 70,
+      "remote_completed": 43,
+      "remote_expired": 21,
+      "remote_truncated": 6,
+      "remote_expired_phase": {
+        "after_remote_CPU_entry": 19,
+        "before_remote_CPU_entry": 2
+      }
+    },
+    {
+      "evaluation_seed": 1043,
+      "remote_allocated": 100,
+      "remote_completed": 45,
+      "remote_expired": 46,
+      "remote_truncated": 9,
+      "remote_expired_phase": {
+        "before_remote_CPU_entry": 7,
+        "after_remote_CPU_entry": 39
+      }
+    },
+    {
+      "evaluation_seed": 1044,
+      "remote_allocated": 100,
+      "remote_completed": 66,
+      "remote_expired": 27,
+      "remote_truncated": 7,
+      "remote_expired_phase": {
+        "after_remote_CPU_entry": 26,
+        "before_remote_CPU_entry": 1
+      }
+    },
+    {
+      "evaluation_seed": 1045,
+      "remote_allocated": 57,
+      "remote_completed": 0,
+      "remote_expired": 54,
+      "remote_truncated": 3,
+      "remote_expired_phase": {
+        "before_remote_CPU_entry": 54
+      }
+    },
+    {
+      "evaluation_seed": 1046,
+      "remote_allocated": 76,
+      "remote_completed": 1,
+      "remote_expired": 65,
+      "remote_truncated": 10,
+      "remote_expired_phase": {
+        "before_remote_CPU_entry": 64,
+        "after_remote_CPU_entry": 1
+      }
+    }
+  ]
+}

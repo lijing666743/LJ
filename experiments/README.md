@@ -1,13 +1,14 @@
-# 当前实验入口
+# 实验配置索引
 
-当前活动入口为 task-allocation/configs/ 下A/B/C × training seeds42、43、44九份独立8k配置；已完成并交付的是seed42三组。定义与正式配置hash沿用 configuration_manifest.json，其 formal_training_started 字段是Step06发布时记录，不是当前完成状态。
+当前C/D配置内容与位置保留，完成状态以[当前实验状态](../docs/results/CURRENT_EXPERIMENT_STATUS.md)和真实产物为准。
 
-A为P1a分层baseline，B为统一leaf结构，C为B加35维物理关系。环境、reward、PPO、预算和公共学习链保持原协议。禁止预训练、历史权重初始化、warm-start或oracle标签训练。
+| 配置族 | 内容 | 当前状态 |
+| --- | --- | --- |
+| [task-allocation/configs/](task-allocation/configs/) | 8份C独立训练及续训配置 | C seed42/43/44各40k完成；A/B的8份独立配置已退役删除 |
+| [strong-baselines/](strong-baselines/README.md) | 15份D分阶段配置及1份D工程配置 | D seed42/43/44各累计40k训练及十检查点冻结评估已核验 |
 
-完整复现方法见 [A/B/C复现说明](../docs/reproduction/REPRODUCE_ABC.md)，原始结果见 [Step07A报告](../docs/results/seed42/seed42_abc_comparison_report.md)。旧实验配置已从活动入口移除；tests/fixtures/configs中的历史配置仅供共享回归。历史P1a对齐配置与最小证据集中保存在 metadata/reference/p1a_seed42_1044/，属于审计引用。
+配置数量不等于已完成实验数量。当前`task-allocation/configuration_manifest.json`只登记C活动配置；原发布身份保留在历史ABC清单中，不能将历史清单当作当前文件存在性清单。A/B不再是训练入口，后续组件消融另从完整C/D定义。清理范围见[回执](../metadata/cleanup/20261020_retire_ab/receipt.json)。
 
-## 2026-10-14 补充
+当前D seed42/43/44的五段训练及各十检查点冻结评估均已核验；固定40k分别完成425/419/409个任务，三seed同预算比较已整理。本轮不启动新训练。工程配置仅供工程验证。实验目录现共24份配置，只保留C与D；三份测试依赖的旧QMIX配置原样移至 tests/fixtures/configs/qmix_legacy/，四份无测试引用的旧工程/draft配置已删除，见[深度清理清单](../metadata/cleanup/20261020_deep_cd_cleanup/plan.json)。
 
-现有配置共13份：原9份8k配置、A/B/C各1份seed42-16k-resume配置、C的1份seed42-32k-resume配置。已完成A/B16k、C32k；43/44仍仅有8k配置。早期清单保留发布时状态，不覆盖成新的训练完成证明。
-
-完整状态续训须显式指定periodic checkpoint、延长预算和重放核对参照；只加载权重或只运行resume配置不构成连续训练。未来C续训所需中期checkpoint与全部来源已保留，下一预算尚未设置。[当前结果](../docs/results/CURRENT_EXPERIMENT_STATUS.md)与[恢复说明](../docs/reproduction/REPRODUCE_ABC.md)提供当前入口。
+完整恢复依赖配置、源码、checkpoint和来源合同。新seed配置相对seed42同预算仅改变主seed和三个输出根；同seed后续阶段只增加预算并更换输出根，既有来源身份保留。运行命令仅在聊天提供。

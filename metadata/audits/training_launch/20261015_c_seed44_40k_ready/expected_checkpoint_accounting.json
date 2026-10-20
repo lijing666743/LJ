@@ -1,0 +1,22 @@
+{
+  "derived_expectations_only": true,
+  "periodic_steps": [
+    4000,
+    8000,
+    12000,
+    16000,
+    20000,
+    24000,
+    28000,
+    32000,
+    36000
+  ],
+  "final": {
+    "collected_environment_transitions": 40000,
+    "optimized_transitions": 39936,
+    "unused_final_tail_transitions": 64,
+    "ppo_update_count": 156
+  },
+  "final_step": 40000,
+  "episodes": 80
+}

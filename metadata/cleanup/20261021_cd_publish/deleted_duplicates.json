@@ -1,0 +1,23 @@
+[
+  {
+    "path": "docs/presentations/proposal_revision_20261015/analysis/original_style_precheck_1792032837602.pptx",
+    "retained": "docs/presentations/proposal_revision_20261015/analysis/original_style_precheck.pptx",
+    "bytes": 6091685,
+    "sha256": "ca3d7dc5ac20b1127a2f1948c5e15bf6c0761832342e51d28212e53668d09e84",
+    "deleted": true
+  },
+  {
+    "path": "docs/presentations/proposal_revision_20261015/analysis/original_style_precheck_1792033761407.pptx",
+    "retained": "docs/presentations/proposal_revision_20261015/analysis/original_style_candidate.pptx",
+    "bytes": 6091971,
+    "sha256": "5dfb36c3bc60f272ab67d7fdd243e1d0bb15d99bd5bbfb0540972f6851130c06",
+    "deleted": true
+  },
+  {
+    "path": "docs/presentations/proposal_revision_20261015/analysis/original_style_precheck_1792033803854.pptx",
+    "retained": "docs/presentations/proposal_revision_20261015/analysis/original_style_candidate.pptx",
+    "bytes": 6091971,
+    "sha256": "5dfb36c3bc60f272ab67d7fdd243e1d0bb15d99bd5bbfb0540972f6851130c06",
+    "deleted": true
+  }
+]

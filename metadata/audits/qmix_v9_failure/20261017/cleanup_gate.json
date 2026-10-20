@@ -1,0 +1,36 @@
+{
+  "schema": "qmix_v10_cleanup_gate.v1",
+  "status": "passed",
+  "old_inputs_checked": 872,
+  "old_byte_identical": 857,
+  "intentional_changed_inputs": [
+    "src/evaluation/qmix_limited_diagnostic.py",
+    "src/models/qmix_replay.py",
+    "src/models/qmix_targets.py",
+    "src/models/qmix_trainer.py",
+    "tests/test_qmix_continuation.py",
+    "tests/test_qmix_input_scale.py",
+    "tests/test_qmix_limited_diagnostic.py",
+    "tests/test_qmix_recurrent.py",
+    "tests/test_qmix_targets.py",
+    "experiments/strong-baselines/configs/fa-gat-qmix-seed42-40k.json",
+    "experiments/strong-baselines/configs/fa-gat-qmix-seed42-40k.draft.json",
+    "experiments/strong-baselines/configs/fa-gat-qmix-seed43-40k.draft.json",
+    "experiments/strong-baselines/configs/fa-gat-qmix-seed44-40k.draft.json",
+    "tests/test_qmix_cpu_pair.py",
+    "tests/test_qmix_cpu_deadline_diagnostic.py"
+  ],
+  "retired_profiles": [
+    "experiments/strong-baselines/configs/fa-gat-qmix-seed42-8k-cpu-pair-development.json",
+    "experiments/strong-baselines/configs/fa-gat-qmix-seed42-16k-cpu-pair-development.json",
+    "experiments/strong-baselines/configs/fa-gat-qmix-cpu-pair-engineering.json"
+  ],
+  "new_retained_files": 888,
+  "regression_parent_tests": 255,
+  "regression_subtests": 22,
+  "cuda_224_steps_55_updates": true,
+  "frozen_4_episodes_zero_updates": true,
+  "development_training_not_started": true,
+  "cleanup_targets_no_protected_overlap": true,
+  "gate_parser_note": "Initial check incorrectly expected 277 testcase elements; pytest reports 255 parent elements and tests=277 including 22 passed subtests. Corrected parser only; no tests/code changed and no deletion occurred before this gate."
+}

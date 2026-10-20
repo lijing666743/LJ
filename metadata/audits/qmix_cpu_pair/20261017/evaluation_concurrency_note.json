@@ -1,0 +1,10 @@
+{
+  "schema": "qmix_evaluation_concurrency_note.v1",
+  "recorded_at": "2026-10-17T17:16:24.703022+08:00",
+  "agent_duplicate_evaluation_status": "stopped_by_existing_target_guard_at_4k_commit",
+  "reason": "A parallel evaluator wrote the complete 4k artifact group after the agent preflight found no evaluation directory. Sandbox process inspection did not reveal the parallel run.",
+  "existing_evaluation_artifacts_overwritten": false,
+  "agent_extra_frozen_rollouts": 20,
+  "optimizer_updates": 0,
+  "next_action": "Read-only wait for existing 8k evaluator; do not launch another run."
+}

@@ -1,0 +1,51 @@
+{
+  "status": "deleted_and_moved",
+  "deleted_files": [
+    "metadata/local_backups/baseline-c32k-20261014/release_assets/baseline-c32k-20261014-A-recovery.zip",
+    "metadata/local_backups/baseline-c32k-20261014/release_assets/baseline-c32k-20261014-B-recovery.zip",
+    "docs/results/seed42/historical_p1a_vs_current_a_1044.csv",
+    "docs/results/seed42/seed42_abc_deltas.csv",
+    "docs/results/seed42/seed42_abc_evaluation_summary.csv",
+    "docs/results/seed42/seed42_abc_per_eval_seed.csv",
+    "docs/results/seed42/seed42_abc_remote_destinations.csv",
+    "docs/results/seed42/seed42_abc_route_behavior.csv",
+    "docs/results/seed42/seed42_abc_training_summary.csv",
+    "experiments/strong-baselines/configs/fa-gat-qmix-episode-return-engineering.json",
+    "experiments/strong-baselines/configs/fa-gat-qmix-seed42-40k.draft.json",
+    "experiments/strong-baselines/configs/fa-gat-qmix-seed43-40k.draft.json",
+    "experiments/strong-baselines/configs/fa-gat-qmix-seed44-40k.draft.json",
+    "logs/engineering/cleanup_20261014/restore_A16k.log",
+    "logs/engineering/cleanup_20261014/restore_B16k.log",
+    ".pytest_cache/.gitignore",
+    ".pytest_cache/CACHEDIR.TAG",
+    ".pytest_cache/README.md",
+    ".pytest_cache/v/cache/lastfailed",
+    ".pytest_cache/v/cache/nodeids",
+    "logs/engineering/ms431019/pytest/test_matched_cli_check_dispatc0/final.pt",
+    "logs/engineering/ms431019/pytest/test_matched_resume_accepts_ex0/final.pt",
+    "logs/engineering/ms431019/pytest/test_matched_resume_accepts_ex1/final.pt"
+  ],
+  "deleted_bytes": 496732063.0,
+  "moved_files": [
+    "tests/fixtures/configs/qmix_legacy/fa-gat-qmix-seed42-8k-episode-return-development.json",
+    "tests/fixtures/configs/qmix_legacy/fa-gat-qmix-seed42-16k-episode-return-development.json",
+    "tests/fixtures/configs/qmix_legacy/fa-gat-qmix-seed42-40k.json"
+  ],
+  "empty_directories_removed": [
+    ".pytest_cache/v/cache",
+    ".pytest_cache/v",
+    ".pytest_cache",
+    "logs/engineering/ms431019/pytest/test_matched_cli_check_dispatc0",
+    "logs/engineering/ms431019/pytest/test_matched_resume_accepts_ex0",
+    "logs/engineering/ms431019/pytest/test_matched_resume_accepts_ex1",
+    "logs/engineering/ms431019/pytest/test_matched_resume_still_reje0",
+    "logs/engineering/ms431019/pytest/test_matched_resume_still_reje1",
+    "logs/engineering/ms431019/pytest/test_matched_resume_still_reje2",
+    "logs/engineering/ms431019/pytest/test_matched_resume_still_reje3",
+    "logs/engineering/ms431019/pytest",
+    "logs/engineering/ms431019"
+  ],
+  "validated_absolute_workspace_paths": true,
+  "checked_all_file_hashes_before_mutation": true,
+  "protected_directories_touched": false
+}

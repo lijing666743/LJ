@@ -1,0 +1,35 @@
+{
+  "created_at_utc": "2026-10-20T23:47:39.786324+00:00",
+  "scope": "Cleanup and publish C/D source and compact evidence; no learning code/config/reward/model changes",
+  "protected_directories_not_enumerated": [
+    ".agents",
+    "knowledge"
+  ],
+  "delete": [
+    {
+      "delete": "docs/presentations/proposal_revision_20261015/analysis/original_style_precheck_1792032837602.pptx",
+      "retain": "docs/presentations/proposal_revision_20261015/analysis/original_style_precheck.pptx",
+      "bytes": 6091685,
+      "sha256": "ca3d7dc5ac20b1127a2f1948c5e15bf6c0761832342e51d28212e53668d09e84",
+      "reason": "Byte-identical timestamped precheck duplicate; canonical copy retained; historical inventories remain unchanged"
+    },
+    {
+      "delete": "docs/presentations/proposal_revision_20261015/analysis/original_style_precheck_1792033761407.pptx",
+      "retain": "docs/presentations/proposal_revision_20261015/analysis/original_style_candidate.pptx",
+      "bytes": 6091971,
+      "sha256": "5dfb36c3bc60f272ab67d7fdd243e1d0bb15d99bd5bbfb0540972f6851130c06",
+      "reason": "Byte-identical timestamped precheck duplicate; canonical copy retained; historical inventories remain unchanged"
+    },
+    {
+      "delete": "docs/presentations/proposal_revision_20261015/analysis/original_style_precheck_1792033803854.pptx",
+      "retain": "docs/presentations/proposal_revision_20261015/analysis/original_style_candidate.pptx",
+      "bytes": 6091971,
+      "sha256": "5dfb36c3bc60f272ab67d7fdd243e1d0bb15d99bd5bbfb0540972f6851130c06",
+      "reason": "Byte-identical timestamped precheck duplicate; canonical copy retained; historical inventories remain unchanged"
+    }
+  ],
+  "caches_found_before_cleanup": 0,
+  "empty_directories_found_before_cleanup": 0,
+  "failed_current_C_D_runs_deleted": 0,
+  "protected_before": "scientific_inputs_before.json"
+}

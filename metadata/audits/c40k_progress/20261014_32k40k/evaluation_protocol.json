@@ -1,0 +1,28 @@
+{
+  "training_seed": 42,
+  "evaluation_seeds": [
+    1042,
+    1043,
+    1044,
+    1045,
+    1046
+  ],
+  "new_checkpoints": [
+    36000,
+    40000
+  ],
+  "expected_arrivals": {
+    "1042": 135,
+    "1043": 122,
+    "1044": 117,
+    "1045": 102,
+    "1046": 129
+  },
+  "device": "cpu",
+  "dtype": "torch.float32",
+  "inference": "masked_argmax",
+  "update_network": false,
+  "expected_evaluation_config_sha256": "d2463e1929ea867212edec4774f54b2c5a6dbc9ef957f00dd2978402aec4849a",
+  "held_out_seeds_used": [],
+  "purpose": "single-seed development stability diagnosis"
+}

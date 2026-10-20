@@ -1,0 +1,99 @@
+{
+  "schema": "c_feature_credit_qmix_8k_training_validation.v1",
+  "checked_at_utc": "2026-10-18T05:48:10.205402+00:00",
+  "status": "training_validated_evaluation_pending",
+  "config_hash": "1b3cae3cdac58f3000fa17685e3e4b5bbe60cdb26e84cf75b177c15bec5c4988",
+  "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-1b3cae3cdac5__git-eb1140cefc4a",
+  "device": {
+    "torch": "2.7.1+cu118",
+    "device": "cuda"
+  },
+  "factual_steps": 8000,
+  "episodes": 16,
+  "optimizer_updates": 225,
+  "four_k_updates": 97,
+  "target_copies": [
+    {
+      "update": 200,
+      "environment_steps": 7224
+    }
+  ],
+  "changed_online_tensors_from_initial": 182,
+  "changed_online_tensors_4k_8k": 182,
+  "parameter_groups": {
+    "physical_35": {
+      "initial_to_8k": 4,
+      "4k_to_8k": 4
+    },
+    "private_route_graph": {
+      "initial_to_8k": 37,
+      "4k_to_8k": 37
+    },
+    "private_route_GRU": {
+      "initial_to_8k": 4,
+      "4k_to_8k": 4
+    },
+    "TX_private": {
+      "initial_to_8k": 8,
+      "4k_to_8k": 8
+    },
+    "TX_conditional": {
+      "initial_to_8k": 2,
+      "4k_to_8k": 2
+    },
+    "CPU_joint": {
+      "initial_to_8k": 10,
+      "4k_to_8k": 10
+    },
+    "state_value": {
+      "initial_to_8k": 2,
+      "4k_to_8k": 2
+    },
+    "task_value": {
+      "initial_to_8k": 6,
+      "4k_to_8k": 6
+    },
+    "mixer": {
+      "initial_to_8k": 14,
+      "4k_to_8k": 14
+    }
+  },
+  "responsibility_conservation_all_8000": true,
+  "loss_decomposition_all_225": true,
+  "raw_checkpoint_csv_consistency": true,
+  "PNG_decode": true,
+  "training_generated": 1943,
+  "training_completed": 362,
+  "training_outcomes": {
+    "done": 362,
+    "expired": 1442,
+    "truncated": 139
+  },
+  "training_route_decisions": {
+    "3": 238,
+    "local": 883,
+    "2": 225,
+    "defer": 1157,
+    "0": 352,
+    "1": 235
+  },
+  "nonidle_positive_CPU_decisions": 19090,
+  "paired_labels": 54,
+  "extra_shadow_steps": 29656,
+  "total_factual_and_shadow_steps": 37656,
+  "per_window_pair_and_step_budget": true,
+  "training_wall_seconds": 8697.7257016,
+  "final_epsilon": 0.7625,
+  "signal_gate_status": "signal-watch",
+  "all_update_numeric_fields_finite": true,
+  "updates_with_return_context": 225,
+  "q_taken_mean_range": [
+    -5.919262759208679,
+    0.48989399021863933
+  ],
+  "td_target_mean_range": [
+    -5.130360356532037,
+    -1.6405774803608657
+  ],
+  "claim_boundary": "Training diagnostics only. Frozen 4k/8k development performance not yet measured."
+}

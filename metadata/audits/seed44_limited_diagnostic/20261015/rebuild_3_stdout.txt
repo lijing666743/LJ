@@ -1,0 +1,4 @@
+Offline training diagnostic written: D:\My_project_li\metadata\audits\seed44_limited_diagnostic\20261015\rebuild_training\training_diagnostic.json; 33 frozen inputs
+seed42: 624 logged epochs / 156 updates; late windows [16, 15, 16] updates
+seed43: 624 logged epochs / 156 updates; late windows [16, 15, 16] updates
+seed44: 624 logged epochs / 156 updates; late windows [16, 15, 16] updates

@@ -1,0 +1,110 @@
+{
+  "classification": "development_diagnostic_only",
+  "source_csv": "D:\\My_project_li\\dashboard_logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\summary_metrics.csv",
+  "script": "src/evaluation/c40k_progress_report.py",
+  "training_seed": 42,
+  "evaluation_seeds": [
+    1042,
+    1043,
+    1044,
+    1045,
+    1046
+  ],
+  "total_arrivals": 605,
+  "scene_heights_and_labels": {
+    "scenes": [
+      1042,
+      1043,
+      1044,
+      1045,
+      1046
+    ],
+    "arrival_counts": [
+      135,
+      122,
+      117,
+      102,
+      129
+    ],
+    "bar_height_metric": "completion_pct",
+    "bar_label_metric": "completion_pct",
+    "series": {
+      "local_only": {
+        "completion_pct": [
+          54.074074074074076,
+          49.18032786885246,
+          59.82905982905983,
+          59.80392156862745,
+          45.736434108527135
+        ],
+        "bar_labels": [
+          "54.07%",
+          "49.18%",
+          "59.83%",
+          "59.80%",
+          "45.74%"
+        ],
+        "completed": [
+          73,
+          60,
+          70,
+          61,
+          59
+        ]
+      },
+      "heuristic": {
+        "completion_pct": [
+          74.07407407407408,
+          52.459016393442624,
+          78.63247863247864,
+          51.96078431372549,
+          48.06201550387597
+        ],
+        "bar_labels": [
+          "74.07%",
+          "52.46%",
+          "78.63%",
+          "51.96%",
+          "48.06%"
+        ],
+        "completed": [
+          100,
+          64,
+          92,
+          53,
+          62
+        ]
+      },
+      "C": {
+        "completion_pct": [
+          74.81481481481481,
+          74.59016393442623,
+          68.37606837606837,
+          65.68627450980392,
+          56.58914728682171
+        ],
+        "bar_labels": [
+          "74.81%",
+          "74.59%",
+          "68.38%",
+          "65.69%",
+          "56.59%"
+        ],
+        "completed": [
+          101,
+          91,
+          80,
+          67,
+          73
+        ]
+      }
+    }
+  },
+  "training_band": "episode sample SD, not confidence interval",
+  "source_hashes": {
+    "dashboard_logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\paired_changed_tasks.csv": "12a27cd73f5123752a71c32b8d1ea2d03fc5bfddc6310742c8009550da525c7b",
+    "dashboard_logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\per_scene_metrics.csv": "4ac500cd117975eae50736b37921717787503c146f95fc5bdd03a580c4725d89",
+    "dashboard_logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\summary_metrics.csv": "08dcbce6c6aa0ca225f507306f019c889becb34fdcb9e05dadf2e70e67162774",
+    "dashboard_logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\training_reward_windows.csv": "72a11fd2e5cabd0f8974abf7d34f1357638b44c84cb2020083a960bbb49f6418"
+  }
+}

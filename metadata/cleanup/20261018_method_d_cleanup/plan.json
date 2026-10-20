@@ -1,0 +1,270 @@
+{
+  "schema": "method_d_naming_cleanup_plan.v1",
+  "created_at_utc": "2026-10-18T11:23:47.211489+00:00",
+  "workspace": "D:\\My_project_li",
+  "method_display_label": "D",
+  "method_short_name": "CFC-QMIX",
+  "internal_method_id_unchanged": "c_feature_credit_qmix",
+  "planned_document_edits": [
+    "README.md",
+    "docs/DIRECTORY_GUIDE.md",
+    "docs/results/CURRENT_EXPERIMENT_STATUS.md",
+    "docs/results/README.md",
+    "experiments/README.md",
+    "experiments/strong-baselines/README.md",
+    "sections/README.md",
+    "sections/results/20261018_C_FEATURE_CREDIT_QMIX.md",
+    "sections/planning/20261018_C_MATCHED_QMIX_PROTOCOL.md",
+    "logs/README.md",
+    "metadata/README.md",
+    "metadata/CURRENT_WORKSPACE_INDEX.json"
+  ],
+  "delete_files": [
+    {
+      "path": "plots/development/task_allocation/step06_engineering_gate/pytest_full/A/ca_gat_mappo__remote_stress_v2__seed-42__cfg-e2295a7a9463__git-eb1140cefc4a_dashboard.png",
+      "bytes": 580840,
+      "sha256": "7eb0ddfdf73a565cee5e03bb6f1846532f18d56aae338a83ff46cc1da33a3a01",
+      "classification": "completed_engineering_output_not_development_data"
+    },
+    {
+      "path": "plots/development/task_allocation/step06_engineering_gate/pytest_full/B/ca_gat_mappo__remote_stress_v2__seed-42__cfg-96e188836b01__git-eb1140cefc4a_dashboard.png",
+      "bytes": 586578,
+      "sha256": "b920f7318999b643d081426c8e5190459514d897b06e2dcdb28001de51db4ba5",
+      "classification": "completed_engineering_output_not_development_data"
+    },
+    {
+      "path": "plots/development/task_allocation/step06_engineering_gate/pytest_full/C/ca_gat_mappo__remote_stress_v2__seed-42__cfg-293f9a8151d6__git-eb1140cefc4a_dashboard.png",
+      "bytes": 576091,
+      "sha256": "5d1aad833c4cc0fe5e24b21731018c0691406854759ebe4e2fced02ac41e34c4",
+      "classification": "completed_engineering_output_not_development_data"
+    },
+    {
+      "path": "dashboard_logs/development/task_allocation/step06_engineering_gate/pytest_full/A/ca_gat_mappo__remote_stress_v2__seed-42__cfg-e2295a7a9463__git-eb1140cefc4a_metrics.csv",
+      "bytes": 726817,
+      "sha256": "9df863a1d72c7f89b8e438c3698b703c648fe4c342e34fbf5db7c4355021ee0e",
+      "classification": "completed_engineering_output_not_development_data"
+    },
+    {
+      "path": "dashboard_logs/development/task_allocation/step06_engineering_gate/pytest_full/B/ca_gat_mappo__remote_stress_v2__seed-42__cfg-96e188836b01__git-eb1140cefc4a_metrics.csv",
+      "bytes": 738183,
+      "sha256": "ef352adad73ddbcccb4c3996ae14903fa45990999e46162ee27da48069201bab",
+      "classification": "completed_engineering_output_not_development_data"
+    },
+    {
+      "path": "dashboard_logs/development/task_allocation/step06_engineering_gate/pytest_full/C/ca_gat_mappo__remote_stress_v2__seed-42__cfg-293f9a8151d6__git-eb1140cefc4a_metrics.csv",
+      "bytes": 738515,
+      "sha256": "bb466406f219b8bb43ce52431d635a564e9a861e60846286a01515620e9b29db",
+      "classification": "completed_engineering_output_not_development_data"
+    },
+    {
+      "path": "logs/strong_baselines/engineering/c_feature_credit_qmix/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0055505a02cc__git-eb1140cefc4a/aggregate_metrics.json",
+      "bytes": 55367,
+      "sha256": "5b6ea1a8ad04eab6776330b14c10ae1806412fc6025827c40d2652a198b8bd8a",
+      "classification": "completed_engineering_output_not_development_data"
+    },
+    {
+      "path": "logs/strong_baselines/engineering/c_feature_credit_qmix/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0055505a02cc__git-eb1140cefc4a/config_snapshot.yaml",
+      "bytes": 11492,
+      "sha256": "38ce7be581d687e2327e3f96d31e4b77805a7bcbdcfc31b185db305d2bee4325",
+      "classification": "completed_engineering_output_not_development_data"
+    },
+    {
+      "path": "logs/strong_baselines/engineering/c_feature_credit_qmix/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0055505a02cc__git-eb1140cefc4a/raw_metrics.jsonl",
+      "bytes": 6838,
+      "sha256": "1728ad17908d67459696504e42853304a7dbd49f90098094fd245dc89e3ec673",
+      "classification": "completed_engineering_output_not_development_data"
+    },
+    {
+      "path": "logs/strong_baselines/engineering/c_feature_credit_qmix/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0055505a02cc__git-eb1140cefc4a/checkpoints/final.pt",
+      "bytes": 36087215,
+      "sha256": "0d3fa35cfc470cca82b018b009e3fe48e72ab1ae77a94c503e7959697efe1f8a",
+      "classification": "completed_engineering_output_not_development_data"
+    },
+    {
+      "path": "logs/strong_baselines/engineering/c_feature_credit_qmix/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0055505a02cc__git-eb1140cefc4a/checkpoints/step_000128.pt",
+      "bytes": 31289343,
+      "sha256": "4e7c5c666d881afdcaa9b9fe01efca52750e43964152f1c789890a29a213a02d",
+      "classification": "completed_engineering_output_not_development_data"
+    },
+    {
+      "path": "logs/strong_baselines/engineering/c_feature_credit_qmix/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0055505a02cc__git-eb1140cefc4a/checkpoint_progress/series_manifest.json",
+      "bytes": 2563,
+      "sha256": "c25dcea7f9601d4d15f58e4dd1a8703c3f71d829416ce3b90d25ae5167767367",
+      "classification": "completed_engineering_output_not_development_data"
+    },
+    {
+      "path": "logs/strong_baselines/engineering/c_feature_credit_qmix/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0055505a02cc__git-eb1140cefc4a/checkpoint_progress/summary.json",
+      "bytes": 4434,
+      "sha256": "f809545f982c06d1e99a50f3fcdf0e998a6de263187b830aba06a3b332e394ef",
+      "classification": "completed_engineering_output_not_development_data"
+    },
+    {
+      "path": "logs/strong_baselines/engineering/c_feature_credit_qmix/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0055505a02cc__git-eb1140cefc4a/checkpoint_progress/step_000128/qmix-eval__0d66f4192ec8c458/aggregate_metrics.json",
+      "bytes": 15745,
+      "sha256": "c2cc1d535c240355c86125f267f7c78b80645655204e14d046024c52eafa72fd",
+      "classification": "completed_engineering_output_not_development_data"
+    },
+    {
+      "path": "logs/strong_baselines/engineering/c_feature_credit_qmix/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0055505a02cc__git-eb1140cefc4a/checkpoint_progress/step_000128/qmix-eval__0d66f4192ec8c458/episode_metrics.jsonl",
+      "bytes": 41904,
+      "sha256": "34cb11d2d761e57cd08226e3a6a673b340860b1879536007344fb51914355392",
+      "classification": "completed_engineering_output_not_development_data"
+    },
+    {
+      "path": "logs/strong_baselines/engineering/c_feature_credit_qmix/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0055505a02cc__git-eb1140cefc4a/checkpoint_progress/step_000128/qmix-eval__0d66f4192ec8c458/evaluation_manifest.json",
+      "bytes": 3850,
+      "sha256": "8540d5c873e4fe912fc227db15cb639ade1bc980ff46470bff62f62a2ed6052b",
+      "classification": "completed_engineering_output_not_development_data"
+    },
+    {
+      "path": "logs/strong_baselines/engineering/c_feature_credit_qmix/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0055505a02cc__git-eb1140cefc4a/checkpoint_progress/step_000256/qmix-eval__36e658698fb73168/aggregate_metrics.json",
+      "bytes": 15592,
+      "sha256": "e125393dab7e167faf6c4ffa7e781518bfbcafa07e5d1185a90e3a2c009b8974",
+      "classification": "completed_engineering_output_not_development_data"
+    },
+    {
+      "path": "logs/strong_baselines/engineering/c_feature_credit_qmix/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0055505a02cc__git-eb1140cefc4a/checkpoint_progress/step_000256/qmix-eval__36e658698fb73168/episode_metrics.jsonl",
+      "bytes": 41600,
+      "sha256": "d89cfbff769a927e4a62222176f497a0bb2b01392d3cac63e21e1cba1ca57f93",
+      "classification": "completed_engineering_output_not_development_data"
+    },
+    {
+      "path": "logs/strong_baselines/engineering/c_feature_credit_qmix/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0055505a02cc__git-eb1140cefc4a/checkpoint_progress/step_000256/qmix-eval__36e658698fb73168/evaluation_manifest.json",
+      "bytes": 3847,
+      "sha256": "40f051647a11ff3ee4f4efbc7b2e486f7b8dfabd1f5639087c9c05a7e60fcc08",
+      "classification": "completed_engineering_output_not_development_data"
+    },
+    {
+      "path": "plots/strong_baselines/engineering/c_feature_credit_qmix/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0055505a02cc__git-eb1140cefc4a_dashboard.png",
+      "bytes": 125496,
+      "sha256": "c7e56d7ec25e3fc1eaee73a04f6e8320778c2153f9075e5c8ed8a96bffc7a280",
+      "classification": "completed_engineering_output_not_development_data"
+    },
+    {
+      "path": "dashboard_logs/strong_baselines/engineering/c_feature_credit_qmix/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0055505a02cc__git-eb1140cefc4a_metrics.csv",
+      "bytes": 3291,
+      "sha256": "b6ed42820c011cc2ea233121b9efabfb0ee95ee56d8d0d219711758848b35bc9",
+      "classification": "completed_engineering_output_not_development_data"
+    },
+    {
+      "path": "dashboard_logs/strong_baselines/engineering/c_feature_credit_qmix/qmix-checkpoints__seed-42__3bbd2c97be64cc08_metrics.csv",
+      "bytes": 1674,
+      "sha256": "b2d63ddc5c49fa239aa3ec2d4fabc7982d7b7ac22617d4408e8f79dcdd855d31",
+      "classification": "completed_engineering_output_not_development_data"
+    },
+    {
+      "path": "dashboard_logs/strong_baselines/engineering/c_feature_credit_qmix/qmix-checkpoints__seed-42__3bbd2c97be64cc08_per_scene.csv",
+      "bytes": 16766,
+      "sha256": "bc969ff681b3561db8600fd466bd4cc93655daf97a17dbc3413c526c51e14ed5",
+      "classification": "completed_engineering_output_not_development_data"
+    },
+    {
+      "path": "plots/C/seed42/group_meeting/20261014_scene_fix/C_group_meeting_figures_corrected.zip",
+      "bytes": 1086625,
+      "sha256": "573ed68606e4ee4d49e22a8af124bbe4f13106d70fdc20070446d33701567d36",
+      "classification": "redundant_bundle_all_14_members_retained_byte_identical"
+    }
+  ],
+  "bundle_member_verification": [
+    {
+      "name": "per_scene_metrics.csv",
+      "retained_path": "dashboard_logs/C/seed42/group_meeting/20261014_scene_fix/per_scene_metrics.csv",
+      "sha256": "b7477b3af81ecd6734962409e9adbd629feb10ceebe8fb4284bdd2f7b125d1a7",
+      "bytes": 5432
+    },
+    {
+      "name": "summary_metrics.csv",
+      "retained_path": "dashboard_logs/C/seed42/group_meeting/20261014_scene_fix/summary_metrics.csv",
+      "sha256": "0c008be225cb5de7bb455144e2a0a4a357242afb6d93576758255c1ad107d32c",
+      "bytes": 1928
+    },
+    {
+      "name": "00_summary_table.png",
+      "retained_path": "plots/C/seed42/group_meeting/20261014_scene_fix/00_summary_table.png",
+      "sha256": "894d81174aa4794da6276646ae2a95ad83e8b51e8a57f18f6673345d42a42269",
+      "bytes": 326946
+    },
+    {
+      "name": "00_summary_table.svg",
+      "retained_path": "plots/C/seed42/group_meeting/20261014_scene_fix/00_summary_table.svg",
+      "sha256": "b01d1148760b5a470f0ebfa02753660f67fc05905671f0d4f7d11256ab3646aa",
+      "bytes": 40838
+    },
+    {
+      "name": "01_completion_and_reward.png",
+      "retained_path": "plots/C/seed42/group_meeting/20261014_scene_fix/01_completion_and_reward.png",
+      "sha256": "781dde1d08ccee235b100ad6fe6292fbc2a247ed2de704b039293bf8ddc93106",
+      "bytes": 219907
+    },
+    {
+      "name": "01_completion_and_reward.svg",
+      "retained_path": "plots/C/seed42/group_meeting/20261014_scene_fix/01_completion_and_reward.svg",
+      "sha256": "65c07613d2d0169c6687c2e654a04c7246128acd8d78c9f45596e204ce1389dd",
+      "bytes": 27928
+    },
+    {
+      "name": "02_energy_cost.png",
+      "retained_path": "plots/C/seed42/group_meeting/20261014_scene_fix/02_energy_cost.png",
+      "sha256": "01b51661a398a91bdd30bd1ef837d7afdd19346458e9e798ea7f64aa862ef5a5",
+      "bytes": 196923
+    },
+    {
+      "name": "02_energy_cost.svg",
+      "retained_path": "plots/C/seed42/group_meeting/20261014_scene_fix/02_energy_cost.svg",
+      "sha256": "1a2cb62183b6490eb387f011f8e823a1226b9a17738516bb844a766be29b40b3",
+      "bytes": 24815
+    },
+    {
+      "name": "03_scene_comparison.png",
+      "retained_path": "plots/C/seed42/group_meeting/20261014_scene_fix/03_scene_comparison.png",
+      "sha256": "65a54c4ec61c4dc53c22e9b445bde2ecd50dec5f9aa4f208b8d0b5fc0620b8e2",
+      "bytes": 154988
+    },
+    {
+      "name": "03_scene_comparison.svg",
+      "retained_path": "plots/C/seed42/group_meeting/20261014_scene_fix/03_scene_comparison.svg",
+      "sha256": "b98953604eb3583c6ec821587fe1175386ba4b80174f0ad5ea6bf0b70745bb07",
+      "bytes": 16846
+    },
+    {
+      "name": "04_energy_risk.png",
+      "retained_path": "plots/C/seed42/group_meeting/20261014_scene_fix/04_energy_risk.png",
+      "sha256": "31b49685fd3310bed833d0348badbe12b9266a4b79e56c333d0e4abf0302a1a4",
+      "bytes": 266798
+    },
+    {
+      "name": "04_energy_risk.svg",
+      "retained_path": "plots/C/seed42/group_meeting/20261014_scene_fix/04_energy_risk.svg",
+      "sha256": "a3ca2943dbcc66662d82b8387bd7a299d5739364b237a1b317fc2a6fa7f65657",
+      "bytes": 32950
+    },
+    {
+      "name": "figure_data.json",
+      "retained_path": "plots/C/seed42/group_meeting/20261014_scene_fix/figure_data.json",
+      "sha256": "3495cd89f2512a2264f648065bf05d7f45c79cac5a0d22aaa71740ce07fa44b0",
+      "bytes": 45908
+    },
+    {
+      "name": "figure_recipe.json",
+      "retained_path": "plots/C/seed42/group_meeting/20261014_scene_fix/figure_recipe.json",
+      "sha256": "4ab28cf3703998f38fd3dc57ae7d4c44c9d056dd4624aba4051425dc9bbb367f",
+      "bytes": 16344
+    }
+  ],
+  "directory_prune_roots": [
+    "plots",
+    "dashboard_logs",
+    "logs"
+  ],
+  "additional_empty_directory_candidates": [
+    "metadata/local_backups/baseline-c32k-20261014/test_tmp"
+  ],
+  "preserve_all_development_data": true,
+  "preserve_C_A_B_checkpoints": true,
+  "preserve_published_png_and_svg_files": true,
+  "protected_directories_not_enumerated": [
+    ".agents",
+    "knowledge"
+  ],
+  "legacy_failed_qmix_formal_data_found": false
+}

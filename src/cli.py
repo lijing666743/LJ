@@ -29,6 +29,8 @@ MENU = """U2U-MEC Experiment Launcher
 [7] Evaluation
 [8] Ablation
 [9] Plot results
+[10] Factorized-Action GAT-QMIX training (config required)
+[11] Factorized-Action GAT-QMIX evaluation (config required)
 [0] Exit"""
 
 MENU_ROUTES: dict[str, tuple[str, str]] = {
@@ -41,6 +43,8 @@ MENU_ROUTES: dict[str, tuple[str, str]] = {
     "7": ("evaluation", "ca_gat_mappo"),
     "8": ("ablation", "ca_gat_mappo"),
     "9": ("plot", "environment"),
+    "10": ("rl", "factorized_action_gat_qmix"),
+    "11": ("evaluation", "factorized_action_gat_qmix"),
 }
 
 RL_PROFILES: dict[str, dict[str, Any]] = {
@@ -127,7 +131,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
         "--resume-from",
         dest="resume_from",
         metavar="CHECKPOINT_PATH",
-        help="resume one explicit periodic checkpoint for an rl-formal run",
+        help="resume explicit full state; QMIX final requires --extend-training-budget",
     )
     parser.add_argument(
         "--evaluate-from",
@@ -136,7 +140,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
         help="evaluate one explicit FINAL_COMPLETED checkpoint",
     )
     parser.add_argument("--extend-training-budget", action="store_true",
-                        help="explicitly extend a periodic checkpoint; only caps and output roots may change")
+                        help="extend budget explicitly (MAPPO periodic or QMIX completed final); only caps/output roots may change")
     parser.add_argument("--verify-replay-against", metavar="FINAL_CHECKPOINT_PATH",
                         help="require exact replay state at the source final step before continuing")
     parser.add_argument("--check-resume", action="store_true",
@@ -263,6 +267,9 @@ def main(
 def _check_resume(config, context: ExecutionContext, output_fn) -> int:
     """Exercise the real restoration path, stopping before any collection/update."""
 
+    if config.method_id in {"factorized_action_gat_qmix", "c_feature_credit_qmix"}:
+        return _dispatch(config, execution_context=context, output_fn=output_fn)
+
     from .artifacts import preflight_formal_training_artifacts
     from .models.ca_gat_mappo_checkpoint import load_checkpoint_payload, serialize_active_rollout
     from .models.ca_gat_mappo_continuation import assert_state_equal
@@ -308,12 +315,15 @@ def interactive_main(
     output_fn: Callable[[str], None] = print,
 ) -> int:
     output_fn(MENU)
-    choice = _prompt_choice(input_fn, output_fn, "Select an option [1-9, 0]: ", tuple(MENU_ROUTES) + ("0",), "1")
+    choice = _prompt_choice(input_fn, output_fn, "Select an option [1-11, 0]: ", tuple(MENU_ROUTES) + ("0",), "1")
     if choice == "0":
         output_fn("Exiting.")
         return 0
 
     mode, method_id = MENU_ROUTES[choice]
+    if method_id == "factorized_action_gat_qmix":
+        from .training.qmix_handlers import interactive_qmix
+        return interactive_qmix(mode, input_fn=input_fn, output_fn=output_fn)
     profile_overrides: dict[str, Any] = {}
     if mode == "rl":
         profile = _prompt_choice(

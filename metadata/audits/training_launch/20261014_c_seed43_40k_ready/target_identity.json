@@ -1,0 +1,32 @@
+{
+  "config": "experiments/task-allocation/configs/c-seed43-40k.json",
+  "config_hash": "ec33289ec8c832909c6f6cc4f6160e7a452da4097cf94efa57a8e0f02032786c",
+  "config_file_sha256": "50d7de1ca36b53bcc237b3ae53abebdaa4de9dbcd13dc880b15c25b0b829588c",
+  "run_id": "ca_gat_mappo__remote_stress_v2__seed-43__cfg-ec33289ec8c8__git-eb1140cefc4a",
+  "artifact_paths": {
+    "config_snapshot": "logs\\C\\seed43\\40k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-ec33289ec8c8__git-eb1140cefc4a\\config_snapshot.yaml",
+    "raw_metrics": "logs\\C\\seed43\\40k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-ec33289ec8c8__git-eb1140cefc4a\\raw_metrics.jsonl",
+    "aggregate_metrics": "logs\\C\\seed43\\40k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-ec33289ec8c8__git-eb1140cefc4a\\aggregate_metrics.json",
+    "trajectory_credit_events": "logs\\C\\seed43\\40k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-ec33289ec8c8__git-eb1140cefc4a\\trajectory_credit_events.jsonl",
+    "conditional_credit_trace": "logs\\C\\seed43\\40k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-ec33289ec8c8__git-eb1140cefc4a\\conditional_credit_trace_v1.jsonl",
+    "route_diagnostic_samples": "logs\\C\\seed43\\40k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-ec33289ec8c8__git-eb1140cefc4a\\route_diagnostic_samples_v1.jsonl",
+    "route_oracle_counterfactual": "logs\\C\\seed43\\40k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-ec33289ec8c8__git-eb1140cefc4a\\route_oracle_counterfactual_v1.jsonl",
+    "dashboard_csv": "dashboard_logs\\C\\seed43\\40k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-ec33289ec8c8__git-eb1140cefc4a_metrics.csv",
+    "figure_input": "plots\\C\\seed43\\40k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-ec33289ec8c8__git-eb1140cefc4a_figure_input.csv",
+    "dashboard_png": "plots\\C\\seed43\\40k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-ec33289ec8c8__git-eb1140cefc4a_dashboard.png",
+    "checkpoint_directory": "logs\\C\\seed43\\40k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-ec33289ec8c8__git-eb1140cefc4a\\checkpoints",
+    "final_checkpoint": "logs\\C\\seed43\\40k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-ec33289ec8c8__git-eb1140cefc4a\\checkpoints\\final.pt"
+  },
+  "periodic_steps": [
+    4000,
+    8000,
+    12000,
+    16000,
+    20000,
+    24000,
+    28000,
+    32000,
+    36000
+  ],
+  "final_step": 40000
+}

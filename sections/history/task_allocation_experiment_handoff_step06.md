@@ -1,6 +1,6 @@
 # 合理任务分配第6步：工程验收与实验入口
 
-> 历史记录：本文保存原阶段的实施计划或8k交接协议。旧进度和命令只说明当时状态；当前A/B16k、C32k与后续续训请看[当前结果](../../docs/results/CURRENT_EXPERIMENT_STATUS.md)及[复现说明](../../docs/reproduction/REPRODUCE_ABC.md)。
+> 历史记录：本文保存原阶段的实施计划或8k交接协议。旧进度和命令只说明当时状态；当前A/B16k、C32k与后续续训请看[当前结果](../../docs/results/CURRENT_EXPERIMENT_STATUS.md)及[复现说明](../../docs/reproduction/REPRODUCE_C_D.md)。
 
 本步只验证工程链路并准备独立配置。工程验收结论与原始记录统一见 `logs/development/task_allocation/step06_engineering_gate/validation.json` 和 `step06_report.md`。工程夹具的完成率、reward、loss和图不能作为8k/32k效果证据。目标仍是在相同物理约束下增加系统完成数，不设置Local比例门槛。
 

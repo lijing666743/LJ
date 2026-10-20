@@ -1,0 +1,6 @@
+{
+  "all_916_protected_files_still_present_with_same_size": true,
+  "full_streaming_SHA256_check": "preservation_after.json",
+  "post_test_small_or_newly_modified_files_rehashed": 756,
+  "mismatches": []
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "seed43_40k_final_reporting_validation.v1",
+  "checked_at_utc": "2026-10-20T02:05:48.669954+00:00",
+  "status": "PASS",
+  "source_evaluation_series": "qmix-checkpoints__seed-43__9901109137c80d5e",
+  "final_checkpoint_sha256": "2b7e797a91cc72cf9c3a0fa208b4d0fcfb6bb4bc1eb97f8e6ea400d26e6e82ff",
+  "model_training_validation": "metadata\\audits\\qmix_c_matched\\20261020\\seed43_40k_training_check.json",
+  "evaluation_validation": "metadata\\audits\\qmix_c_matched\\20261020\\seed43_40k_evaluation_check.json",
+  "progress_rows_verified": 10,
+  "comparison_rows_verified": 6,
+  "scenario_rows_verified": 5,
+  "workbook_sheets": [
+    "40k对比",
+    "D43进展",
+    "五场景完成"
+  ],
+  "xlsx_cached_numeric_cells_independently_checked": true,
+  "xlsx_export_reimport_and_ratio_recalculation_checked": true,
+  "xlsx_formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "csv_source_values_exact": true,
+  "markdown_tables_source_values_exact": true,
+  "all_three_workbook_previews_visually_reviewed": true,
+  "training_png_visually_reviewed": true,
+  "original_evaluation_record_hashes_unchanged": true,
+  "navigation_synchronized": true,
+  "automation_status": "PAUSED",
+  "automatic_training_or_evaluation_started": false,
+  "artifacts": {
+    "dashboard_logs\\strong_baselines\\comparisons\\seed43_40k\\D_C_seed43_40k_comparison.xlsx": "2ea3674ab1006b90d4737807c32198a2a5ed6029bb734159a7a58221690bb036",
+    "dashboard_logs\\strong_baselines\\comparisons\\seed43_40k\\fixed_40k_comparison.csv": "2180111c694f35700215bf74e522bdc601ea99bb07b286a50ca451131a37d346",
+    "dashboard_logs\\strong_baselines\\comparisons\\seed43_40k\\fixed_40k_scenes.csv": "252820f7179584ce129cfe71d1d4105280aa89fe3b3dd5277c308a04b39f3325",
+    "dashboard_logs\\strong_baselines\\comparisons\\seed43_40k\\seed43_checkpoint_progress.csv": "79e2e5a563984511c49661b19789fd6ad19046a360ca2f55f71da2d8676b9343"
+  },
+  "report": {
+    "path": "sections\\results\\20261018_C_FEATURE_CREDIT_QMIX.md",
+    "sha256": "caf97f2c9c50abad47de1a50d3fd069c541eec9cfc8b39c0d60df67a76b3f359"
+  },
+  "qa_support_files_outside_repository": "C:\\Users\\李静\\.codex\\visualizations\\2026\\10\\15\\01a13e9a-deca-7702-b079-5234f9c7a55c\\seed43_40k_workbook",
+  "verification_engine": "bundled artifact-tool plus independent standard-library XLSX XML/CSV checks; native Excel UI not exercised"
+}

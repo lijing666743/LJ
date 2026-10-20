@@ -1,0 +1,2474 @@
+{
+  "schema": "C_QMIX_test_fixture_cleanup_inventory.v1",
+  "targets": [
+    {
+      "path": "D:\\My_project_li\\logs\\cq_unit_tmp",
+      "files": [
+        {
+          "path": "logs/cq_unit_tmp/fixtures/test_credit_and_architecture_c0/architecture.pt",
+          "bytes": 28864107
+        },
+        {
+          "path": "logs/cq_unit_tmp/fixtures/test_credit_and_architecture_c0/credit.pt",
+          "bytes": 28863915
+        },
+        {
+          "path": "logs/cq_unit_tmp/fixtures/test_credit_and_architecture_c1/architecture.pt",
+          "bytes": 28864107
+        },
+        {
+          "path": "logs/cq_unit_tmp/fixtures/test_credit_and_architecture_c1/credit.pt",
+          "bytes": 28863915
+        },
+        {
+          "path": "logs/cq_unit_tmp/fixtures/test_exact_resume_preserves_cr0/resume.pt",
+          "bytes": 28864427
+        },
+        {
+          "path": "logs/cq_unit_tmp/fixtures/test_new_method_checkpoint_ser0/dash/qmix-checkpoints__seed-42__fac7948c6aa546c0_metrics.csv",
+          "bytes": 1639
+        },
+        {
+          "path": "logs/cq_unit_tmp/fixtures/test_new_method_checkpoint_ser0/dash/qmix-checkpoints__seed-42__fac7948c6aa546c0_per_scene.csv",
+          "bytes": 3881
+        },
+        {
+          "path": "logs/cq_unit_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0939d14bc32d__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 36075251
+        },
+        {
+          "path": "logs/cq_unit_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0939d14bc32d__git-eb1140cefc4a/checkpoints/step_000128.pt",
+          "bytes": 31277443
+        },
+        {
+          "path": "logs/cq_unit_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0939d14bc32d__git-eb1140cefc4a/checkpoint_progress/series_manifest.json",
+          "bytes": 2537
+        },
+        {
+          "path": "logs/cq_unit_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0939d14bc32d__git-eb1140cefc4a/checkpoint_progress/summary.json",
+          "bytes": 4399
+        },
+        {
+          "path": "logs/cq_unit_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0939d14bc32d__git-eb1140cefc4a/checkpoint_progress/step_000256/qmix-eval__84756065bc73b408/aggregate_metrics.json",
+          "bytes": 14489
+        },
+        {
+          "path": "logs/cq_unit_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0939d14bc32d__git-eb1140cefc4a/checkpoint_progress/step_000256/qmix-eval__84756065bc73b408/episode_metrics.jsonl",
+          "bytes": 8383
+        },
+        {
+          "path": "logs/cq_unit_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0939d14bc32d__git-eb1140cefc4a/checkpoint_progress/step_000256/qmix-eval__84756065bc73b408/evaluation_manifest.json",
+          "bytes": 2295
+        },
+        {
+          "path": "logs/cq_unit_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0939d14bc32d__git-eb1140cefc4a/checkpoint_progress/step_000128/qmix-eval__4568ef760fd5a0a4/aggregate_metrics.json",
+          "bytes": 14554
+        },
+        {
+          "path": "logs/cq_unit_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0939d14bc32d__git-eb1140cefc4a/checkpoint_progress/step_000128/qmix-eval__4568ef760fd5a0a4/episode_metrics.jsonl",
+          "bytes": 8432
+        },
+        {
+          "path": "logs/cq_unit_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-0939d14bc32d__git-eb1140cefc4a/checkpoint_progress/step_000128/qmix-eval__4568ef760fd5a0a4/evaluation_manifest.json",
+          "bytes": 2298
+        }
+      ],
+      "file_count": 17,
+      "bytes": 211736072
+    },
+    {
+      "path": "D:\\My_project_li\\logs\\cq_unit_repair_tmp",
+      "files": [
+        {
+          "path": "logs/cq_unit_repair_tmp/fixtures/test_credit_and_architecture_c0/architecture.pt",
+          "bytes": 28864107
+        },
+        {
+          "path": "logs/cq_unit_repair_tmp/fixtures/test_credit_and_architecture_c0/credit.pt",
+          "bytes": 28863979
+        },
+        {
+          "path": "logs/cq_unit_repair_tmp/fixtures/test_credit_and_architecture_c1/architecture.pt",
+          "bytes": 28864107
+        },
+        {
+          "path": "logs/cq_unit_repair_tmp/fixtures/test_credit_and_architecture_c1/credit.pt",
+          "bytes": 28863979
+        },
+        {
+          "path": "logs/cq_unit_repair_tmp/fixtures/test_exact_resume_preserves_cr0/resume.pt",
+          "bytes": 28864491
+        },
+        {
+          "path": "logs/cq_unit_repair_tmp/fixtures/test_new_method_checkpoint_ser0/dash/qmix-checkpoints__seed-42__eb5d708609be6647_metrics.csv",
+          "bytes": 1639
+        },
+        {
+          "path": "logs/cq_unit_repair_tmp/fixtures/test_new_method_checkpoint_ser0/dash/qmix-checkpoints__seed-42__eb5d708609be6647_per_scene.csv",
+          "bytes": 3881
+        },
+        {
+          "path": "logs/cq_unit_repair_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-bf0d95149f29__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 36075315
+        },
+        {
+          "path": "logs/cq_unit_repair_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-bf0d95149f29__git-eb1140cefc4a/checkpoints/step_000128.pt",
+          "bytes": 31277443
+        },
+        {
+          "path": "logs/cq_unit_repair_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-bf0d95149f29__git-eb1140cefc4a/checkpoint_progress/series_manifest.json",
+          "bytes": 2551
+        },
+        {
+          "path": "logs/cq_unit_repair_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-bf0d95149f29__git-eb1140cefc4a/checkpoint_progress/summary.json",
+          "bytes": 4399
+        },
+        {
+          "path": "logs/cq_unit_repair_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-bf0d95149f29__git-eb1140cefc4a/checkpoint_progress/step_000256/qmix-eval__8bdf3c1d9ced2e1a/aggregate_metrics.json",
+          "bytes": 14489
+        },
+        {
+          "path": "logs/cq_unit_repair_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-bf0d95149f29__git-eb1140cefc4a/checkpoint_progress/step_000256/qmix-eval__8bdf3c1d9ced2e1a/episode_metrics.jsonl",
+          "bytes": 8383
+        },
+        {
+          "path": "logs/cq_unit_repair_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-bf0d95149f29__git-eb1140cefc4a/checkpoint_progress/step_000256/qmix-eval__8bdf3c1d9ced2e1a/evaluation_manifest.json",
+          "bytes": 2295
+        },
+        {
+          "path": "logs/cq_unit_repair_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-bf0d95149f29__git-eb1140cefc4a/checkpoint_progress/step_000128/qmix-eval__094548de6fff08ce/aggregate_metrics.json",
+          "bytes": 14554
+        },
+        {
+          "path": "logs/cq_unit_repair_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-bf0d95149f29__git-eb1140cefc4a/checkpoint_progress/step_000128/qmix-eval__094548de6fff08ce/episode_metrics.jsonl",
+          "bytes": 8432
+        },
+        {
+          "path": "logs/cq_unit_repair_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-bf0d95149f29__git-eb1140cefc4a/checkpoint_progress/step_000128/qmix-eval__094548de6fff08ce/evaluation_manifest.json",
+          "bytes": 2298
+        }
+      ],
+      "file_count": 17,
+      "bytes": 211736342
+    },
+    {
+      "path": "D:\\My_project_li\\logs\\cq_regression_tmp",
+      "files": [
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_backward_probe_changes_no0/final.pt",
+          "bytes": 18969793
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_checkpoint_loaders_reject0/load_checkpoint_missing.pt",
+          "bytes": 9229475
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_checkpoint_loaders_reject1/load_continuation_checkpoint_missing.pt",
+          "bytes": 9229475
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_checkpoint_loaders_reject2/load_checkpoint_altered.pt",
+          "bytes": 9229539
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_checkpoint_loaders_reject3/load_continuation_checkpoint_altered.pt",
+          "bytes": 9229539
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_checkpoint_loaders_reject4/load_checkpoint_v6.pt",
+          "bytes": 9229667
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_checkpoint_loaders_reject5/load_continuation_checkpoint_v6.pt",
+          "bytes": 9229667
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_checkpoint_must_declare_c0/missing_transform.pt",
+          "bytes": 9229091
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_checkpoint_must_declare_c1/missing_transform.pt",
+          "bytes": 9229091
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_checkpoint_rejects_change0/changed_source.pt",
+          "bytes": 9224995
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_checkpoint_requires_match0/incompatible.pt",
+          "bytes": 9229091
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_checkpoint_requires_match1/incompatible.pt",
+          "bytes": 9229091
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_checkpoint_requires_match2/incompatible.pt",
+          "bytes": 9229155
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_checkpoint_requires_match3/incompatible.pt",
+          "bytes": 9229155
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_checkpoint_restricted_loa0/periodic.pt",
+          "bytes": 18970113
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/training.json",
+          "bytes": 8357
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_comparison_contract_drift0/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_comparison_contract_drift1/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_comparison_contract_drift2/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_comparison_contract_drift3/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_comparison_contract_drift4/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_completion_credit_auditor0/config.json",
+          "bytes": 8364
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_completion_credit_auditor0/credit.json",
+          "bytes": 2077
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_credit_and_architecture_c0/architecture.pt",
+          "bytes": 28864107
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_credit_and_architecture_c0/credit.pt",
+          "bytes": 28863915
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_credit_and_architecture_c1/architecture.pt",
+          "bytes": 28864107
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_credit_and_architecture_c1/credit.pt",
+          "bytes": 28863915
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cross_method_checkpoint_a0/other.pt",
+          "bytes": 1249
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cross_method_checkpoint_a0/periodic.pt",
+          "bytes": 18712141
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_c_checkpoint_nonempty_ada0/synthetic_c_fixture.pt",
+          "bytes": 17208577
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_disabled_draft_is_fair_an0/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_disabled_draft_is_fair_an1/qmix43.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_disabled_draft_is_fair_an2/qmix44.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_equal_donor_group_swaps_r0/final.pt",
+          "bytes": 18969793
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_equal_donor_group_swaps_r1/final.pt",
+          "bytes": 18969793
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_equal_donor_group_swaps_r2/final.pt",
+          "bytes": 18969793
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_equal_donor_group_swaps_r3/final.pt",
+          "bytes": 18969793
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_exact_resume_preserves_cr0/resume.pt",
+          "bytes": 28864491
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_existing_output_is_preser0/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_final_evaluation_is_froze0/final.pt",
+          "bytes": 19485865
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_frozen_diagnostic_exactly0/final.pt",
+          "bytes": 18969793
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_full_state_resume_with_ev0/periodic.pt",
+          "bytes": 18676187
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_hidden_probe_uses_actual_0/final.pt",
+          "bytes": 18969793
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_invalid_qmix_values_are_r0/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_invalid_qmix_values_are_r1/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_invalid_qmix_values_are_r10/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_invalid_qmix_values_are_r11/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_invalid_qmix_values_are_r12/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_invalid_qmix_values_are_r13/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_invalid_qmix_values_are_r2/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_invalid_qmix_values_are_r3/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_invalid_qmix_values_are_r4/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_invalid_qmix_values_are_r5/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_invalid_qmix_values_are_r6/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_invalid_qmix_values_are_r7/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_invalid_qmix_values_are_r8/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_invalid_qmix_values_are_r9/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_linear_schedule_boundarie0/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_linear_schedule_boundarie1/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_linear_schedule_boundarie2/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_linear_schedule_boundarie3/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_context_identity_0/bad.pt",
+          "bytes": 19256141
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_context_identity_1/bad.pt",
+          "bytes": 19256141
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_learning_target_i0/missing.pt",
+          "bytes": 9229283
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_learning_target_i1/missing.pt",
+          "bytes": 9229283
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_no_handlers_environment_o0/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_obsolete_checkpoint_schem0/obsolete.pt",
+          "bytes": 9229155
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_obsolete_checkpoint_schem1/obsolete.pt",
+          "bytes": 9229155
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_obsolete_checkpoint_schem2/obsolete.pt",
+          "bytes": 9229155
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_obsolete_checkpoint_schem3/obsolete.pt",
+          "bytes": 9229155
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_obsolete_checkpoint_schem4/obsolete.pt",
+          "bytes": 9229155
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_obsolete_checkpoint_schem5/obsolete.pt",
+          "bytes": 9229155
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_old_chunk_return_training0/old.pt",
+          "bytes": 19256205
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_old_chunk_return_training1/old.pt",
+          "bytes": 19256205
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_old_chunk_return_training2/old.pt",
+          "bytes": 19256205
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_old_chunk_return_training3/old.pt",
+          "bytes": 19256205
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_output_alias_and_escape_r0/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_output_alias_and_escape_r1/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_output_alias_and_escape_r2/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_previous_v8_trial_schema_0/old.pt",
+          "bytes": 9229475
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_previous_v8_trial_schema_1/old.pt",
+          "bytes": 9229475
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_real_main_and_no_argument0/extension.json",
+          "bytes": 8338
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_real_main_check_resume_ha0/extension.json",
+          "bytes": 8338
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_reconstructed_zero_prefix0/final.pt",
+          "bytes": 18969793
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_registered_handler_does_n0/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_saved_metric_tampering_is0/final.pt",
+          "bytes": 18969793
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_target_lag_probe_is_zero_0/final.pt",
+          "bytes": 18969793
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_v3_weights_are_rejected_b0/obsolete.pt",
+          "bytes": 9229155
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_v3_weights_are_rejected_b1/obsolete.pt",
+          "bytes": 9229155
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_v6_backward_probe_ignores0/final.pt",
+          "bytes": 18969793
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_reuse_rejects_tampered_me0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-9bb7625f5e03__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 19999336
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_reuse_rejects_tampered_me0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-9bb7625f5e03__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_reuse_rejects_tampered_me0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-9bb7625f5e03__git-eb1140cefc4a/checkpoints/step_000008.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_reuse_rejects_tampered_me0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-9bb7625f5e03__git-eb1140cefc4a/checkpoints/step_000012.pt",
+          "bytes": 18917557
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_reuse_rejects_tampered_me0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-9bb7625f5e03__git-eb1140cefc4a/checkpoints/step_000016.pt",
+          "bytes": 19071977
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_reuse_rejects_tampered_me0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-9bb7625f5e03__git-eb1140cefc4a/checkpoints/step_000020.pt",
+          "bytes": 19226525
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_reuse_rejects_tampered_me0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-9bb7625f5e03__git-eb1140cefc4a/checkpoints/step_000024.pt",
+          "bytes": 19381073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_reuse_rejects_tampered_me0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-9bb7625f5e03__git-eb1140cefc4a/checkpoints/step_000028.pt",
+          "bytes": 19535621
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_reuse_rejects_tampered_me0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-9bb7625f5e03__git-eb1140cefc4a/checkpoints/step_000032.pt",
+          "bytes": 19690105
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_reuse_rejects_tampered_me0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-9bb7625f5e03__git-eb1140cefc4a/checkpoints/step_000036.pt",
+          "bytes": 19844718
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_reuse_rejects_tampered_me0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-9bb7625f5e03__git-eb1140cefc4a/checkpoint_progress/step_000004/qmix-eval__5a962104c3778443/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_reuse_rejects_tampered_me0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-9bb7625f5e03__git-eb1140cefc4a/checkpoint_progress/step_000004/qmix-eval__5a962104c3778443/episode_metrics.jsonl",
+          "bytes": 6363
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_renamed_checkpoint_and_fo0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-aa439aeb327b__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 19999336
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_renamed_checkpoint_and_fo0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-aa439aeb327b__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_renamed_checkpoint_and_fo0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-aa439aeb327b__git-eb1140cefc4a/checkpoints/step_000008.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_renamed_checkpoint_and_fo0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-aa439aeb327b__git-eb1140cefc4a/checkpoints/step_000008_alias.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_renamed_checkpoint_and_fo0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-aa439aeb327b__git-eb1140cefc4a/checkpoints/step_000012.pt",
+          "bytes": 18917557
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_renamed_checkpoint_and_fo0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-aa439aeb327b__git-eb1140cefc4a/checkpoints/step_000016.pt",
+          "bytes": 19071977
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_renamed_checkpoint_and_fo0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-aa439aeb327b__git-eb1140cefc4a/checkpoints/step_000020.pt",
+          "bytes": 19226525
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_renamed_checkpoint_and_fo0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-aa439aeb327b__git-eb1140cefc4a/checkpoints/step_000024.pt",
+          "bytes": 19381073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_renamed_checkpoint_and_fo0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-aa439aeb327b__git-eb1140cefc4a/checkpoints/step_000028.pt",
+          "bytes": 19535621
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_renamed_checkpoint_and_fo0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-aa439aeb327b__git-eb1140cefc4a/checkpoints/step_000032.pt",
+          "bytes": 19690105
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_renamed_checkpoint_and_fo0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-aa439aeb327b__git-eb1140cefc4a/checkpoints/step_000036.pt",
+          "bytes": 19844718
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_real_main_check_resume_ha0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-fcf1b2612c23__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_real_main_check_resume_ha0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-fcf1b2612c23__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_real_main_and_no_argument0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-9cf9102baa49__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_real_main_and_no_argument0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-9cf9102baa49__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_periodic_requires_explici0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-7801f4aa573d__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 19999336
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_periodic_requires_explici0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-7801f4aa573d__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_periodic_requires_explici0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-7801f4aa573d__git-eb1140cefc4a/checkpoints/step_000008.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_periodic_requires_explici0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-7801f4aa573d__git-eb1140cefc4a/checkpoints/step_000012.pt",
+          "bytes": 18917557
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_periodic_requires_explici0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-7801f4aa573d__git-eb1140cefc4a/checkpoints/step_000016.pt",
+          "bytes": 19071977
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_periodic_requires_explici0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-7801f4aa573d__git-eb1140cefc4a/checkpoints/step_000020.pt",
+          "bytes": 19226525
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_periodic_requires_explici0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-7801f4aa573d__git-eb1140cefc4a/checkpoints/step_000024.pt",
+          "bytes": 19381073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_periodic_requires_explici0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-7801f4aa573d__git-eb1140cefc4a/checkpoints/step_000028.pt",
+          "bytes": 19535621
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_periodic_requires_explici0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-7801f4aa573d__git-eb1140cefc4a/checkpoints/step_000032.pt",
+          "bytes": 19690105
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_periodic_requires_explici0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-7801f4aa573d__git-eb1140cefc4a/checkpoints/step_000036.pt",
+          "bytes": 19844718
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/dashboard_logs/qmix-checkpoints__seed-42__80621b469fb572d8_metrics.csv",
+          "bytes": 6723
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/dashboard_logs/qmix-checkpoints__seed-42__80621b469fb572d8_per_scene.csv",
+          "bytes": 15501
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 19999336
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoints/step_000008.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoints/step_000012.pt",
+          "bytes": 18917557
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoints/step_000016.pt",
+          "bytes": 19071977
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoints/step_000020.pt",
+          "bytes": 19226525
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoints/step_000024.pt",
+          "bytes": 19381073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoints/step_000028.pt",
+          "bytes": 19535621
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoints/step_000032.pt",
+          "bytes": 19690105
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoints/step_000036.pt",
+          "bytes": 19844718
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoint_progress/series_manifest.json",
+          "bytes": 6057
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoint_progress/summary.json",
+          "bytes": 20730
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoint_progress/step_000040/qmix-eval__0e91f5368afb146b/aggregate_metrics.json",
+          "bytes": 14224
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoint_progress/step_000040/qmix-eval__0e91f5368afb146b/episode_metrics.jsonl",
+          "bytes": 6306
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoint_progress/step_000036/qmix-eval__878552979ed99480/aggregate_metrics.json",
+          "bytes": 14224
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoint_progress/step_000036/qmix-eval__878552979ed99480/episode_metrics.jsonl",
+          "bytes": 6306
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoint_progress/step_000032/qmix-eval__ae62f046f79c1160/aggregate_metrics.json",
+          "bytes": 14224
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoint_progress/step_000032/qmix-eval__ae62f046f79c1160/episode_metrics.jsonl",
+          "bytes": 6306
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoint_progress/step_000028/qmix-eval__aa76efcc2ff56b9b/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoint_progress/step_000028/qmix-eval__aa76efcc2ff56b9b/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoint_progress/step_000024/qmix-eval__eb809c44f9c7f7d0/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoint_progress/step_000024/qmix-eval__eb809c44f9c7f7d0/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoint_progress/step_000020/qmix-eval__fd6e9048a52b6c5d/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoint_progress/step_000020/qmix-eval__fd6e9048a52b6c5d/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoint_progress/step_000016/qmix-eval__43bfe3a187a172d6/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoint_progress/step_000016/qmix-eval__43bfe3a187a172d6/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoint_progress/step_000012/qmix-eval__856e99ba925f3531/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoint_progress/step_000012/qmix-eval__856e99ba925f3531/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoint_progress/step_000008/qmix-eval__a808fb1cac564398/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoint_progress/step_000008/qmix-eval__a808fb1cac564398/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoint_progress/step_000004/qmix-eval__20f412f13528de66/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-126d95259579__git-eb1140cefc4a/checkpoint_progress/step_000004/qmix-eval__20f412f13528de66/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_milestones_reuse_old_0/da/qmix-checkpoints__seed-42__e3ede893c273b05d_metrics.csv",
+          "bytes": 1513
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_milestones_reuse_old_0/da/qmix-checkpoints__seed-42__e3ede893c273b05d_per_scene.csv",
+          "bytes": 3548
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_milestones_reuse_old_0/db/qmix-checkpoints__seed-42__298ab10ed406e4ee_metrics.csv",
+          "bytes": 2841
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_milestones_reuse_old_0/db/qmix-checkpoints__seed-42__298ab10ed406e4ee_per_scene.csv",
+          "bytes": 6576
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_milestones_reuse_old_0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-81f097f440c6__git-unknown/checkpoints/final.pt",
+          "bytes": 19085865
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_milestones_reuse_old_0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-81f097f440c6__git-unknown/checkpoints/step_000012.pt",
+          "bytes": 18931381
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_milestones_reuse_old_0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-81f097f440c6__git-unknown/checkpoint_progress/series_manifest.json",
+          "bytes": 4353
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_milestones_reuse_old_0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-81f097f440c6__git-unknown/checkpoint_progress/summary.json",
+          "bytes": 8424
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_milestones_reuse_old_0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-81f097f440c6__git-unknown/checkpoint_progress/step_000016/qmix-eval__5d849ab9a05332d4/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_milestones_reuse_old_0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-81f097f440c6__git-unknown/checkpoint_progress/step_000016/qmix-eval__5d849ab9a05332d4/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_milestones_reuse_old_0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-81f097f440c6__git-unknown/checkpoint_progress/step_000016/qmix-eval__5d849ab9a05332d4/evaluation_manifest.json",
+          "bytes": 2303
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_milestones_reuse_old_0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-81f097f440c6__git-unknown/checkpoint_progress/step_000012/qmix-eval__d6f22d375d500684/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_milestones_reuse_old_0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-81f097f440c6__git-unknown/checkpoint_progress/step_000012/qmix-eval__d6f22d375d500684/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_milestones_reuse_old_0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-81f097f440c6__git-unknown/checkpoint_progress/step_000012/qmix-eval__d6f22d375d500684/evaluation_manifest.json",
+          "bytes": 2306
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_milestones_reuse_old_0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b2d126483e8c__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_milestones_reuse_old_0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b2d126483e8c__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_milestones_reuse_old_0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b2d126483e8c__git-eb1140cefc4a/checkpoint_progress/series_manifest.json",
+          "bytes": 2552
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_milestones_reuse_old_0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b2d126483e8c__git-eb1140cefc4a/checkpoint_progress/summary.json",
+          "bytes": 4287
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_milestones_reuse_old_0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b2d126483e8c__git-eb1140cefc4a/checkpoint_progress/step_000008/qmix-eval__9fdf3c34516ea0bf/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_milestones_reuse_old_0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b2d126483e8c__git-eb1140cefc4a/checkpoint_progress/step_000008/qmix-eval__9fdf3c34516ea0bf/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_milestones_reuse_old_0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b2d126483e8c__git-eb1140cefc4a/checkpoint_progress/step_000008/qmix-eval__9fdf3c34516ea0bf/evaluation_manifest.json",
+          "bytes": 2301
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_milestones_reuse_old_0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b2d126483e8c__git-eb1140cefc4a/checkpoint_progress/step_000004/qmix-eval__437fcc176b24c622/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_milestones_reuse_old_0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b2d126483e8c__git-eb1140cefc4a/checkpoint_progress/step_000004/qmix-eval__437fcc176b24c622/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_milestones_reuse_old_0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b2d126483e8c__git-eb1140cefc4a/checkpoint_progress/step_000004/qmix-eval__437fcc176b24c622/evaluation_manifest.json",
+          "bytes": 2304
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_method_checkpoint_ser0/dash/qmix-checkpoints__seed-42__2bde5456544c2037_metrics.csv",
+          "bytes": 1639
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_method_checkpoint_ser0/dash/qmix-checkpoints__seed-42__2bde5456544c2037_per_scene.csv",
+          "bytes": 3881
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-309247a8895c__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 36075251
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-309247a8895c__git-eb1140cefc4a/checkpoints/step_000128.pt",
+          "bytes": 31277443
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-309247a8895c__git-eb1140cefc4a/checkpoint_progress/series_manifest.json",
+          "bytes": 2549
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-309247a8895c__git-eb1140cefc4a/checkpoint_progress/summary.json",
+          "bytes": 4399
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-309247a8895c__git-eb1140cefc4a/checkpoint_progress/step_000256/qmix-eval__ac6767cc35788333/aggregate_metrics.json",
+          "bytes": 14489
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-309247a8895c__git-eb1140cefc4a/checkpoint_progress/step_000256/qmix-eval__ac6767cc35788333/episode_metrics.jsonl",
+          "bytes": 8383
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-309247a8895c__git-eb1140cefc4a/checkpoint_progress/step_000256/qmix-eval__ac6767cc35788333/evaluation_manifest.json",
+          "bytes": 2295
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-309247a8895c__git-eb1140cefc4a/checkpoint_progress/step_000128/qmix-eval__c891144d45713cdf/aggregate_metrics.json",
+          "bytes": 14554
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-309247a8895c__git-eb1140cefc4a/checkpoint_progress/step_000128/qmix-eval__c891144d45713cdf/episode_metrics.jsonl",
+          "bytes": 8432
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-309247a8895c__git-eb1140cefc4a/checkpoint_progress/step_000128/qmix-eval__c891144d45713cdf/evaluation_manifest.json",
+          "bytes": 2298
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_old_evaluation_an0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-453eb6f9ea60__git-unknown/checkpoints/final.pt",
+          "bytes": 19085865
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_old_evaluation_an0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-453eb6f9ea60__git-unknown/checkpoints/step_000012.pt",
+          "bytes": 18931381
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_old_evaluation_an0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-453eb6f9ea60__git-unknown/checkpoints/tampered.pt",
+          "bytes": 19085865
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_old_evaluation_an0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b0bef3f8bead__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_old_evaluation_an0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b0bef3f8bead__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-40b37e37c885__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 19999336
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-40b37e37c885__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-40b37e37c885__git-eb1140cefc4a/checkpoints/step_000008.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-40b37e37c885__git-eb1140cefc4a/checkpoints/step_000012.pt",
+          "bytes": 18917557
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-40b37e37c885__git-eb1140cefc4a/checkpoints/step_000016.pt",
+          "bytes": 19071977
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-40b37e37c885__git-eb1140cefc4a/checkpoints/step_000020.pt",
+          "bytes": 19226525
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-40b37e37c885__git-eb1140cefc4a/checkpoints/step_000024.pt",
+          "bytes": 19381073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-40b37e37c885__git-eb1140cefc4a/checkpoints/step_000028.pt",
+          "bytes": 19535621
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-40b37e37c885__git-eb1140cefc4a/checkpoints/step_000032.pt",
+          "bytes": 19690105
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-40b37e37c885__git-eb1140cefc4a/checkpoints/step_000036.pt",
+          "bytes": 19844718
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-40b37e37c885__git-eb1140cefc4a/incomplete/final.pt",
+          "bytes": 19999336
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-40b37e37c885__git-eb1140cefc4a/incomplete/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-40b37e37c885__git-eb1140cefc4a/incomplete/step_000008.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-40b37e37c885__git-eb1140cefc4a/incomplete/step_000012.pt",
+          "bytes": 18917557
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-40b37e37c885__git-eb1140cefc4a/incomplete/step_000016.pt",
+          "bytes": 19071977
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-40b37e37c885__git-eb1140cefc4a/incomplete/step_000024.pt",
+          "bytes": 19381073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-40b37e37c885__git-eb1140cefc4a/incomplete/step_000028.pt",
+          "bytes": 19535621
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-40b37e37c885__git-eb1140cefc4a/incomplete/step_000032.pt",
+          "bytes": 19690105
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-40b37e37c885__git-eb1140cefc4a/incomplete/step_000036.pt",
+          "bytes": 19844718
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_final_requires_explicit_e0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-1db01df49908__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_final_requires_explicit_e0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-1db01df49908__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_final_extension_matches_u0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-536d423e5275__git-unknown/checkpoints/final.pt",
+          "bytes": 19085865
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_final_extension_matches_u0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-536d423e5275__git-unknown/checkpoints/step_000012.pt",
+          "bytes": 18931381
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_final_extension_matches_u0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-cdf386747173__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_final_extension_matches_u0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-cdf386747173__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_extension_rejects_any_sci5/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-dbf701e8081a__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_extension_rejects_any_sci5/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-dbf701e8081a__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_extension_rejects_any_sci4/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-c78cad8a9c73__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_extension_rejects_any_sci4/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-c78cad8a9c73__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_extension_rejects_any_sci3/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-ae6a692f7dc3__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_extension_rejects_any_sci3/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-ae6a692f7dc3__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_extension_rejects_any_sci2/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-bebd777d13b0__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_extension_rejects_any_sci2/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-bebd777d13b0__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_extension_rejects_any_sci1/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-29d57c800262__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_extension_rejects_any_sci1/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-29d57c800262__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_extension_rejects_any_sci0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f23b2b0cb4c9__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_extension_rejects_any_sci0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f23b2b0cb4c9__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_existing_output_is_preser0/logs/strong_baselines/fa_gat_qmix/seed42/40k/preserve.txt",
+          "bytes": 12
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_continued_periodic_resume0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-603733a4a260__git-unknown/checkpoints/step_000012.pt",
+          "bytes": 18931381
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_continued_periodic_resume0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-a027a4822bf1__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_continued_periodic_resume0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-a027a4822bf1__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_completion_credit_auditor0/l/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b23151233a5d__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 19256205
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/dashboard_logs/qmix-checkpoints__seed-42__311008efd2dda538_metrics.csv",
+          "bytes": 6723
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/dashboard_logs/qmix-checkpoints__seed-42__311008efd2dda538_per_scene.csv",
+          "bytes": 15501
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 19999336
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoints/step_000008.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoints/step_000012.pt",
+          "bytes": 18917557
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoints/step_000016.pt",
+          "bytes": 19071977
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoints/step_000020.pt",
+          "bytes": 19226525
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoints/step_000024.pt",
+          "bytes": 19381073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoints/step_000028.pt",
+          "bytes": 19535621
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoints/step_000032.pt",
+          "bytes": 19690105
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoints/step_000036.pt",
+          "bytes": 19844718
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoint_progress/series_manifest.json",
+          "bytes": 6057
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoint_progress/summary.json",
+          "bytes": 20730
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoint_progress/step_000040/qmix-eval__168bb12b6bdc872b/aggregate_metrics.json",
+          "bytes": 14224
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoint_progress/step_000040/qmix-eval__168bb12b6bdc872b/episode_metrics.jsonl",
+          "bytes": 6306
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoint_progress/step_000036/qmix-eval__360214613706cb9a/aggregate_metrics.json",
+          "bytes": 14224
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoint_progress/step_000036/qmix-eval__360214613706cb9a/episode_metrics.jsonl",
+          "bytes": 6306
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoint_progress/step_000032/qmix-eval__8bb6f3784be70c02/aggregate_metrics.json",
+          "bytes": 14224
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoint_progress/step_000032/qmix-eval__8bb6f3784be70c02/episode_metrics.jsonl",
+          "bytes": 6306
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoint_progress/step_000028/qmix-eval__fcd252f3dedaf15c/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoint_progress/step_000028/qmix-eval__fcd252f3dedaf15c/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoint_progress/step_000024/qmix-eval__c1f748dcb85f2407/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoint_progress/step_000024/qmix-eval__c1f748dcb85f2407/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoint_progress/step_000020/qmix-eval__d4678bdf51d0a825/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoint_progress/step_000020/qmix-eval__d4678bdf51d0a825/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoint_progress/step_000016/qmix-eval__ee34cd6b0ede4af0/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoint_progress/step_000016/qmix-eval__ee34cd6b0ede4af0/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoint_progress/step_000012/qmix-eval__aaf3e11e3190ff70/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoint_progress/step_000012/qmix-eval__aaf3e11e3190ff70/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoint_progress/step_000008/qmix-eval__d7a3c6c48251940e/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoint_progress/step_000008/qmix-eval__d7a3c6c48251940e/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoint_progress/step_000004/qmix-eval__20919aae861f9abb/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a787fdd4033__git-eb1140cefc4a/checkpoint_progress/step_000004/qmix-eval__20919aae861f9abb/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_checkpoint_publication_re0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-43__cfg-89ac6c7269f9__git-eb1140cefc4a/checkpoints/step_000008.pt",
+          "bytes": 19
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/dashboard_logs/qmix-checkpoints__seed-42__4ec33f0982235014_metrics.csv",
+          "bytes": 6723
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/dashboard_logs/qmix-checkpoints__seed-42__4ec33f0982235014_per_scene.csv",
+          "bytes": 15501
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 19999336
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoints/step_000008.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoints/step_000012.pt",
+          "bytes": 18917557
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoints/step_000016.pt",
+          "bytes": 19071977
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoints/step_000020.pt",
+          "bytes": 19226525
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoints/step_000024.pt",
+          "bytes": 19381073
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoints/step_000028.pt",
+          "bytes": 19535621
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoints/step_000032.pt",
+          "bytes": 19690105
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoints/step_000036.pt",
+          "bytes": 19844718
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoint_progress/series_manifest.json",
+          "bytes": 6057
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoint_progress/summary.json",
+          "bytes": 20730
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoint_progress/step_000040/qmix-eval__599a154f3b81b2da/aggregate_metrics.json",
+          "bytes": 14224
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoint_progress/step_000040/qmix-eval__599a154f3b81b2da/episode_metrics.jsonl",
+          "bytes": 6306
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoint_progress/step_000036/qmix-eval__7ad52240586f9379/aggregate_metrics.json",
+          "bytes": 14224
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoint_progress/step_000036/qmix-eval__7ad52240586f9379/episode_metrics.jsonl",
+          "bytes": 6306
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoint_progress/step_000032/qmix-eval__b7250d267d99f656/aggregate_metrics.json",
+          "bytes": 14224
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoint_progress/step_000032/qmix-eval__b7250d267d99f656/episode_metrics.jsonl",
+          "bytes": 6306
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoint_progress/step_000028/qmix-eval__cbb451c3282d327c/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoint_progress/step_000028/qmix-eval__cbb451c3282d327c/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoint_progress/step_000024/qmix-eval__22204905723bcf68/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoint_progress/step_000024/qmix-eval__22204905723bcf68/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoint_progress/step_000020/qmix-eval__d071ed516fe0f246/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoint_progress/step_000020/qmix-eval__d071ed516fe0f246/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoint_progress/step_000016/qmix-eval__139e2137a2849480/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoint_progress/step_000016/qmix-eval__139e2137a2849480/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoint_progress/step_000012/qmix-eval__0dc0c1b0c8e4253e/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoint_progress/step_000012/qmix-eval__0dc0c1b0c8e4253e/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoint_progress/step_000008/qmix-eval__171a0bd8e01d0fc0/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoint_progress/step_000008/qmix-eval__171a0bd8e01d0fc0/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoint_progress/step_000004/qmix-eval__b5995d3dc5d536fc/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4a108036160b__git-eb1140cefc4a/checkpoint_progress/step_000004/qmix-eval__b5995d3dc5d536fc/episode_metrics.jsonl",
+          "bytes": 6359
+        }
+      ],
+      "file_count": 313,
+      "bytes": 3061781627
+    },
+    {
+      "path": "D:\\My_project_li\\logs\\cq_final_tmp",
+      "files": [
+        {
+          "path": "logs/cq_final_tmp/fixtures/test_credit_and_architecture_c0/architecture.pt",
+          "bytes": 28869345
+        },
+        {
+          "path": "logs/cq_final_tmp/fixtures/test_credit_and_architecture_c0/credit.pt",
+          "bytes": 28869281
+        },
+        {
+          "path": "logs/cq_final_tmp/fixtures/test_credit_and_architecture_c1/architecture.pt",
+          "bytes": 28869345
+        },
+        {
+          "path": "logs/cq_final_tmp/fixtures/test_credit_and_architecture_c1/credit.pt",
+          "bytes": 28869281
+        },
+        {
+          "path": "logs/cq_final_tmp/fixtures/test_exact_resume_preserves_cr0/resume.pt",
+          "bytes": 28869793
+        },
+        {
+          "path": "logs/cq_final_tmp/fixtures/test_new_method_checkpoint_ser0/dash/qmix-checkpoints__seed-42__ac87860efef74d64_metrics.csv",
+          "bytes": 1639
+        },
+        {
+          "path": "logs/cq_final_tmp/fixtures/test_new_method_checkpoint_ser0/dash/qmix-checkpoints__seed-42__ac87860efef74d64_per_scene.csv",
+          "bytes": 3881
+        },
+        {
+          "path": "logs/cq_final_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-e9772196892d__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 36080617
+        },
+        {
+          "path": "logs/cq_final_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-e9772196892d__git-eb1140cefc4a/checkpoints/step_000128.pt",
+          "bytes": 31282809
+        },
+        {
+          "path": "logs/cq_final_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-e9772196892d__git-eb1140cefc4a/checkpoint_progress/series_manifest.json",
+          "bytes": 2539
+        },
+        {
+          "path": "logs/cq_final_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-e9772196892d__git-eb1140cefc4a/checkpoint_progress/summary.json",
+          "bytes": 4399
+        },
+        {
+          "path": "logs/cq_final_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-e9772196892d__git-eb1140cefc4a/checkpoint_progress/step_000256/qmix-eval__fc0b152091495e6d/aggregate_metrics.json",
+          "bytes": 14489
+        },
+        {
+          "path": "logs/cq_final_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-e9772196892d__git-eb1140cefc4a/checkpoint_progress/step_000256/qmix-eval__fc0b152091495e6d/episode_metrics.jsonl",
+          "bytes": 8383
+        },
+        {
+          "path": "logs/cq_final_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-e9772196892d__git-eb1140cefc4a/checkpoint_progress/step_000256/qmix-eval__fc0b152091495e6d/evaluation_manifest.json",
+          "bytes": 2295
+        },
+        {
+          "path": "logs/cq_final_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-e9772196892d__git-eb1140cefc4a/checkpoint_progress/step_000128/qmix-eval__13b7792c14a6eb67/aggregate_metrics.json",
+          "bytes": 14554
+        },
+        {
+          "path": "logs/cq_final_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-e9772196892d__git-eb1140cefc4a/checkpoint_progress/step_000128/qmix-eval__13b7792c14a6eb67/episode_metrics.jsonl",
+          "bytes": 8432
+        },
+        {
+          "path": "logs/cq_final_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-e9772196892d__git-eb1140cefc4a/checkpoint_progress/step_000128/qmix-eval__13b7792c14a6eb67/evaluation_manifest.json",
+          "bytes": 2298
+        }
+      ],
+      "file_count": 17,
+      "bytes": 211773380
+    },
+    {
+      "path": "D:\\My_project_li\\logs\\cq_final_regression_tmp",
+      "files": [
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_backward_probe_changes_no0/final.pt",
+          "bytes": 18969793
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_checkpoint_loaders_reject0/load_checkpoint_missing.pt",
+          "bytes": 9229475
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_checkpoint_loaders_reject1/load_continuation_checkpoint_missing.pt",
+          "bytes": 9229475
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_checkpoint_loaders_reject2/load_checkpoint_altered.pt",
+          "bytes": 9229539
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_checkpoint_loaders_reject3/load_continuation_checkpoint_altered.pt",
+          "bytes": 9229539
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_checkpoint_loaders_reject4/load_checkpoint_v6.pt",
+          "bytes": 9229667
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_checkpoint_loaders_reject5/load_continuation_checkpoint_v6.pt",
+          "bytes": 9229667
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_checkpoint_must_declare_c0/missing_transform.pt",
+          "bytes": 9229155
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_checkpoint_must_declare_c1/missing_transform.pt",
+          "bytes": 9229155
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_checkpoint_rejects_change0/changed_source.pt",
+          "bytes": 9224995
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_checkpoint_requires_match0/incompatible.pt",
+          "bytes": 9229091
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_checkpoint_requires_match1/incompatible.pt",
+          "bytes": 9229091
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_checkpoint_requires_match2/incompatible.pt",
+          "bytes": 9229155
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_checkpoint_requires_match3/incompatible.pt",
+          "bytes": 9229155
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_checkpoint_restricted_loa0/periodic.pt",
+          "bytes": 18970113
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/training.json",
+          "bytes": 8375
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_comparison_contract_drift0/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_comparison_contract_drift1/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_comparison_contract_drift2/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_comparison_contract_drift3/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_comparison_contract_drift4/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_completion_credit_auditor0/config.json",
+          "bytes": 8382
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_completion_credit_auditor0/credit.json",
+          "bytes": 2077
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_credit_and_architecture_c0/architecture.pt",
+          "bytes": 28869409
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_credit_and_architecture_c0/credit.pt",
+          "bytes": 28869345
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_credit_and_architecture_c1/architecture.pt",
+          "bytes": 28869409
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_credit_and_architecture_c1/credit.pt",
+          "bytes": 28869345
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_cross_method_checkpoint_a0/other.pt",
+          "bytes": 1249
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_cross_method_checkpoint_a0/periodic.pt",
+          "bytes": 18712141
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_c_checkpoint_nonempty_ada0/synthetic_c_fixture.pt",
+          "bytes": 17208577
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_disabled_draft_is_fair_an0/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_disabled_draft_is_fair_an1/qmix43.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_disabled_draft_is_fair_an2/qmix44.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_equal_donor_group_swaps_r0/final.pt",
+          "bytes": 18969793
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_equal_donor_group_swaps_r1/final.pt",
+          "bytes": 18969793
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_equal_donor_group_swaps_r2/final.pt",
+          "bytes": 18969793
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_equal_donor_group_swaps_r3/final.pt",
+          "bytes": 18969793
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_exact_resume_preserves_cr0/resume.pt",
+          "bytes": 28869857
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_existing_output_is_preser0/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_final_evaluation_is_froze0/final.pt",
+          "bytes": 19485865
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_frozen_diagnostic_exactly0/final.pt",
+          "bytes": 18969793
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_full_state_resume_with_ev0/periodic.pt",
+          "bytes": 18676251
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_hidden_probe_uses_actual_0/final.pt",
+          "bytes": 18969793
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_invalid_qmix_values_are_r0/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_invalid_qmix_values_are_r1/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_invalid_qmix_values_are_r10/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_invalid_qmix_values_are_r11/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_invalid_qmix_values_are_r12/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_invalid_qmix_values_are_r13/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_invalid_qmix_values_are_r2/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_invalid_qmix_values_are_r3/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_invalid_qmix_values_are_r4/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_invalid_qmix_values_are_r5/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_invalid_qmix_values_are_r6/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_invalid_qmix_values_are_r7/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_invalid_qmix_values_are_r8/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_invalid_qmix_values_are_r9/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_linear_schedule_boundarie0/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_linear_schedule_boundarie1/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_linear_schedule_boundarie2/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_linear_schedule_boundarie3/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_context_identity_0/bad.pt",
+          "bytes": 19256141
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_context_identity_1/bad.pt",
+          "bytes": 19256141
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_learning_target_i0/missing.pt",
+          "bytes": 9229283
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_learning_target_i1/missing.pt",
+          "bytes": 9229283
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_no_handlers_environment_o0/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_obsolete_checkpoint_schem0/obsolete.pt",
+          "bytes": 9229155
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_obsolete_checkpoint_schem1/obsolete.pt",
+          "bytes": 9229155
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_obsolete_checkpoint_schem2/obsolete.pt",
+          "bytes": 9229155
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_obsolete_checkpoint_schem3/obsolete.pt",
+          "bytes": 9229155
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_obsolete_checkpoint_schem4/obsolete.pt",
+          "bytes": 9229155
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_obsolete_checkpoint_schem5/obsolete.pt",
+          "bytes": 9229155
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_old_chunk_return_training0/old.pt",
+          "bytes": 19256205
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_old_chunk_return_training1/old.pt",
+          "bytes": 19256205
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_old_chunk_return_training2/old.pt",
+          "bytes": 19256205
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_old_chunk_return_training3/old.pt",
+          "bytes": 19256205
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_output_alias_and_escape_r0/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_output_alias_and_escape_r1/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_output_alias_and_escape_r2/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_previous_v8_trial_schema_0/old.pt",
+          "bytes": 9229475
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_previous_v8_trial_schema_1/old.pt",
+          "bytes": 9229475
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_real_main_and_no_argument0/extension.json",
+          "bytes": 8356
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_real_main_check_resume_ha0/extension.json",
+          "bytes": 8356
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_reconstructed_zero_prefix0/final.pt",
+          "bytes": 18969793
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_registered_handler_does_n0/qmix42.json",
+          "bytes": 8254
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_saved_metric_tampering_is0/final.pt",
+          "bytes": 18969793
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_target_lag_probe_is_zero_0/final.pt",
+          "bytes": 18969793
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_v3_weights_are_rejected_b0/obsolete.pt",
+          "bytes": 9229219
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_v3_weights_are_rejected_b1/obsolete.pt",
+          "bytes": 9229219
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_v6_backward_probe_ignores0/final.pt",
+          "bytes": 18969793
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_reuse_rejects_tampered_me0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b592c9b4079f__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 19999336
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_reuse_rejects_tampered_me0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b592c9b4079f__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_reuse_rejects_tampered_me0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b592c9b4079f__git-eb1140cefc4a/checkpoints/step_000008.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_reuse_rejects_tampered_me0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b592c9b4079f__git-eb1140cefc4a/checkpoints/step_000012.pt",
+          "bytes": 18917557
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_reuse_rejects_tampered_me0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b592c9b4079f__git-eb1140cefc4a/checkpoints/step_000016.pt",
+          "bytes": 19072041
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_reuse_rejects_tampered_me0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b592c9b4079f__git-eb1140cefc4a/checkpoints/step_000020.pt",
+          "bytes": 19226525
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_reuse_rejects_tampered_me0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b592c9b4079f__git-eb1140cefc4a/checkpoints/step_000024.pt",
+          "bytes": 19381073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_reuse_rejects_tampered_me0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b592c9b4079f__git-eb1140cefc4a/checkpoints/step_000028.pt",
+          "bytes": 19535621
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_reuse_rejects_tampered_me0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b592c9b4079f__git-eb1140cefc4a/checkpoints/step_000032.pt",
+          "bytes": 19690105
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_reuse_rejects_tampered_me0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b592c9b4079f__git-eb1140cefc4a/checkpoints/step_000036.pt",
+          "bytes": 19844718
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_renamed_checkpoint_and_fo0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-625168f78284__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 19999336
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_renamed_checkpoint_and_fo0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-625168f78284__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_renamed_checkpoint_and_fo0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-625168f78284__git-eb1140cefc4a/checkpoints/step_000008.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_renamed_checkpoint_and_fo0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-625168f78284__git-eb1140cefc4a/checkpoints/step_000008_alias.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_renamed_checkpoint_and_fo0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-625168f78284__git-eb1140cefc4a/checkpoints/step_000012.pt",
+          "bytes": 18917557
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_renamed_checkpoint_and_fo0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-625168f78284__git-eb1140cefc4a/checkpoints/step_000016.pt",
+          "bytes": 19072041
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_renamed_checkpoint_and_fo0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-625168f78284__git-eb1140cefc4a/checkpoints/step_000020.pt",
+          "bytes": 19226525
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_renamed_checkpoint_and_fo0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-625168f78284__git-eb1140cefc4a/checkpoints/step_000024.pt",
+          "bytes": 19381073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_renamed_checkpoint_and_fo0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-625168f78284__git-eb1140cefc4a/checkpoints/step_000028.pt",
+          "bytes": 19535621
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_renamed_checkpoint_and_fo0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-625168f78284__git-eb1140cefc4a/checkpoints/step_000032.pt",
+          "bytes": 19690105
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_renamed_checkpoint_and_fo0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-625168f78284__git-eb1140cefc4a/checkpoints/step_000036.pt",
+          "bytes": 19844718
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_real_main_check_resume_ha0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-504220a9f608__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_real_main_check_resume_ha0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-504220a9f608__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_real_main_and_no_argument0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-ee81c78e69a5__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_real_main_and_no_argument0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-ee81c78e69a5__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_periodic_requires_explici0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-deb8f649df3a__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 19999336
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_periodic_requires_explici0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-deb8f649df3a__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_periodic_requires_explici0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-deb8f649df3a__git-eb1140cefc4a/checkpoints/step_000008.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_periodic_requires_explici0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-deb8f649df3a__git-eb1140cefc4a/checkpoints/step_000012.pt",
+          "bytes": 18917557
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_periodic_requires_explici0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-deb8f649df3a__git-eb1140cefc4a/checkpoints/step_000016.pt",
+          "bytes": 19072041
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_periodic_requires_explici0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-deb8f649df3a__git-eb1140cefc4a/checkpoints/step_000020.pt",
+          "bytes": 19226525
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_periodic_requires_explici0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-deb8f649df3a__git-eb1140cefc4a/checkpoints/step_000024.pt",
+          "bytes": 19381073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_periodic_requires_explici0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-deb8f649df3a__git-eb1140cefc4a/checkpoints/step_000028.pt",
+          "bytes": 19535621
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_periodic_requires_explici0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-deb8f649df3a__git-eb1140cefc4a/checkpoints/step_000032.pt",
+          "bytes": 19690105
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_periodic_requires_explici0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-deb8f649df3a__git-eb1140cefc4a/checkpoints/step_000036.pt",
+          "bytes": 19844718
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_partial_completed_series_0/dashboard_logs/qmix-checkpoints__seed-42__707f78fe43fdea7f_metrics.csv",
+          "bytes": 6723
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_partial_completed_series_0/dashboard_logs/qmix-checkpoints__seed-42__707f78fe43fdea7f_per_scene.csv",
+          "bytes": 15501
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-75795b9301a5__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 19999336
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-75795b9301a5__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-75795b9301a5__git-eb1140cefc4a/checkpoints/step_000008.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-75795b9301a5__git-eb1140cefc4a/checkpoints/step_000012.pt",
+          "bytes": 18917557
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-75795b9301a5__git-eb1140cefc4a/checkpoints/step_000016.pt",
+          "bytes": 19072041
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-75795b9301a5__git-eb1140cefc4a/checkpoints/step_000020.pt",
+          "bytes": 19226525
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-75795b9301a5__git-eb1140cefc4a/checkpoints/step_000024.pt",
+          "bytes": 19381073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-75795b9301a5__git-eb1140cefc4a/checkpoints/step_000028.pt",
+          "bytes": 19535621
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-75795b9301a5__git-eb1140cefc4a/checkpoints/step_000032.pt",
+          "bytes": 19690105
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-75795b9301a5__git-eb1140cefc4a/checkpoints/step_000036.pt",
+          "bytes": 19844718
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-75795b9301a5__git-eb1140cefc4a/checkpoint_progress/series_manifest.json",
+          "bytes": 6117
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_partial_completed_series_0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-75795b9301a5__git-eb1140cefc4a/checkpoint_progress/summary.json",
+          "bytes": 20730
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_milestones_reuse_old_0/da/qmix-checkpoints__seed-42__223e527fdf22615c_metrics.csv",
+          "bytes": 1513
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_milestones_reuse_old_0/da/qmix-checkpoints__seed-42__223e527fdf22615c_per_scene.csv",
+          "bytes": 3548
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_milestones_reuse_old_0/db/qmix-checkpoints__seed-42__4defce98474ba5d3_metrics.csv",
+          "bytes": 2841
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_milestones_reuse_old_0/db/qmix-checkpoints__seed-42__4defce98474ba5d3_per_scene.csv",
+          "bytes": 6576
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_milestones_reuse_old_0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4b0f2f06b6d9__git-unknown/checkpoints/final.pt",
+          "bytes": 19085929
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_milestones_reuse_old_0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4b0f2f06b6d9__git-unknown/checkpoints/step_000012.pt",
+          "bytes": 18931445
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_milestones_reuse_old_0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4b0f2f06b6d9__git-unknown/checkpoint_progress/series_manifest.json",
+          "bytes": 4377
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_milestones_reuse_old_0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4b0f2f06b6d9__git-unknown/checkpoint_progress/summary.json",
+          "bytes": 8424
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_milestones_reuse_old_0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4b0f2f06b6d9__git-unknown/checkpoint_progress/step_000016/qmix-eval__a130e36e69e5db1f/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_milestones_reuse_old_0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4b0f2f06b6d9__git-unknown/checkpoint_progress/step_000016/qmix-eval__a130e36e69e5db1f/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_milestones_reuse_old_0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4b0f2f06b6d9__git-unknown/checkpoint_progress/step_000016/qmix-eval__a130e36e69e5db1f/evaluation_manifest.json",
+          "bytes": 2303
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_milestones_reuse_old_0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4b0f2f06b6d9__git-unknown/checkpoint_progress/step_000012/qmix-eval__f437fcc15cda7328/aggregate_metrics.json",
+          "bytes": 14277
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_milestones_reuse_old_0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4b0f2f06b6d9__git-unknown/checkpoint_progress/step_000012/qmix-eval__f437fcc15cda7328/episode_metrics.jsonl",
+          "bytes": 6359
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_milestones_reuse_old_0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4b0f2f06b6d9__git-unknown/checkpoint_progress/step_000012/qmix-eval__f437fcc15cda7328/evaluation_manifest.json",
+          "bytes": 2306
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_milestones_reuse_old_0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a6276772c33__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_milestones_reuse_old_0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a6276772c33__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_milestones_reuse_old_0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a6276772c33__git-eb1140cefc4a/checkpoint_progress/series_manifest.json",
+          "bytes": 2564
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_milestones_reuse_old_0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6a6276772c33__git-eb1140cefc4a/checkpoint_progress/summary.json",
+          "bytes": 4287
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_method_checkpoint_ser0/dash/qmix-checkpoints__seed-42__de883fa2be778aa7_metrics.csv",
+          "bytes": 1639
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_method_checkpoint_ser0/dash/qmix-checkpoints__seed-42__de883fa2be778aa7_per_scene.csv",
+          "bytes": 3881
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-eee02da3985f__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 36080681
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-eee02da3985f__git-eb1140cefc4a/checkpoints/step_000128.pt",
+          "bytes": 31282809
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-eee02da3985f__git-eb1140cefc4a/checkpoint_progress/series_manifest.json",
+          "bytes": 2561
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-eee02da3985f__git-eb1140cefc4a/checkpoint_progress/summary.json",
+          "bytes": 4399
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-eee02da3985f__git-eb1140cefc4a/checkpoint_progress/step_000256/qmix-eval__ba8a218e1ba3a931/aggregate_metrics.json",
+          "bytes": 14489
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-eee02da3985f__git-eb1140cefc4a/checkpoint_progress/step_000256/qmix-eval__ba8a218e1ba3a931/episode_metrics.jsonl",
+          "bytes": 8383
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-eee02da3985f__git-eb1140cefc4a/checkpoint_progress/step_000128/qmix-eval__520d76d2c1baaee8/aggregate_metrics.json",
+          "bytes": 14554
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_new_method_checkpoint_ser0/logs/c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-eee02da3985f__git-eb1140cefc4a/checkpoint_progress/step_000128/qmix-eval__520d76d2c1baaee8/episode_metrics.jsonl",
+          "bytes": 8432
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_old_evaluation_an0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-dee94e206989__git-unknown/checkpoints/final.pt",
+          "bytes": 19085929
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_old_evaluation_an0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-dee94e206989__git-unknown/checkpoints/step_000012.pt",
+          "bytes": 18931445
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_old_evaluation_an0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-dee94e206989__git-unknown/checkpoints/tampered.pt",
+          "bytes": 19085929
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_old_evaluation_an0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-70a32a392d6f__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_old_evaluation_an0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-70a32a392d6f__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f04b40df2d8b__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 19999336
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f04b40df2d8b__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f04b40df2d8b__git-eb1140cefc4a/checkpoints/step_000008.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f04b40df2d8b__git-eb1140cefc4a/checkpoints/step_000012.pt",
+          "bytes": 18917557
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f04b40df2d8b__git-eb1140cefc4a/checkpoints/step_000016.pt",
+          "bytes": 19072041
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f04b40df2d8b__git-eb1140cefc4a/checkpoints/step_000020.pt",
+          "bytes": 19226525
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f04b40df2d8b__git-eb1140cefc4a/checkpoints/step_000024.pt",
+          "bytes": 19381073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f04b40df2d8b__git-eb1140cefc4a/checkpoints/step_000028.pt",
+          "bytes": 19535621
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f04b40df2d8b__git-eb1140cefc4a/checkpoints/step_000032.pt",
+          "bytes": 19690105
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f04b40df2d8b__git-eb1140cefc4a/checkpoints/step_000036.pt",
+          "bytes": 19844718
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f04b40df2d8b__git-eb1140cefc4a/incomplete/final.pt",
+          "bytes": 19999336
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f04b40df2d8b__git-eb1140cefc4a/incomplete/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f04b40df2d8b__git-eb1140cefc4a/incomplete/step_000008.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f04b40df2d8b__git-eb1140cefc4a/incomplete/step_000012.pt",
+          "bytes": 18917557
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f04b40df2d8b__git-eb1140cefc4a/incomplete/step_000016.pt",
+          "bytes": 19072041
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f04b40df2d8b__git-eb1140cefc4a/incomplete/step_000024.pt",
+          "bytes": 19381073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f04b40df2d8b__git-eb1140cefc4a/incomplete/step_000028.pt",
+          "bytes": 19535621
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f04b40df2d8b__git-eb1140cefc4a/incomplete/step_000032.pt",
+          "bytes": 19690105
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_missing_middle_checkpoint0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f04b40df2d8b__git-eb1140cefc4a/incomplete/step_000036.pt",
+          "bytes": 19844718
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_final_requires_explicit_e0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-606103d8c965__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_final_requires_explicit_e0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-606103d8c965__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_final_extension_matches_u0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-55a898ceef9b__git-unknown/checkpoints/final.pt",
+          "bytes": 19085929
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_final_extension_matches_u0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-55a898ceef9b__git-unknown/checkpoints/step_000012.pt",
+          "bytes": 18931445
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_final_extension_matches_u0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-56b7812c05e5__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_final_extension_matches_u0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-56b7812c05e5__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_extension_rejects_any_sci5/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-72a0cea42d37__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_extension_rejects_any_sci5/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-72a0cea42d37__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_extension_rejects_any_sci4/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6927638f277a__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_extension_rejects_any_sci4/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6927638f277a__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_extension_rejects_any_sci3/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-7ae528d95fda__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_extension_rejects_any_sci3/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-7ae528d95fda__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_extension_rejects_any_sci2/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-ceaaead2819b__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_extension_rejects_any_sci2/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-ceaaead2819b__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_extension_rejects_any_sci1/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-667e50dcc76a__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_extension_rejects_any_sci1/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-667e50dcc76a__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_extension_rejects_any_sci0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-bc9fa40883e1__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_extension_rejects_any_sci0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-bc9fa40883e1__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_existing_output_is_preser0/logs/strong_baselines/fa_gat_qmix/seed42/40k/preserve.txt",
+          "bytes": 12
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_continued_periodic_resume0/b/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-bcfbf3171256__git-unknown/checkpoints/step_000012.pt",
+          "bytes": 18931445
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_continued_periodic_resume0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f468a8e24023__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_continued_periodic_resume0/a/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f468a8e24023__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_completion_credit_auditor0/l/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-389b8e5acda4__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 19256205
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/dashboard_logs/qmix-checkpoints__seed-42__6035499572f2323c_metrics.csv",
+          "bytes": 6723
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/dashboard_logs/qmix-checkpoints__seed-42__6035499572f2323c_per_scene.csv",
+          "bytes": 15501
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-940f1cd4940d__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 19999336
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-940f1cd4940d__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-940f1cd4940d__git-eb1140cefc4a/checkpoints/step_000008.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-940f1cd4940d__git-eb1140cefc4a/checkpoints/step_000012.pt",
+          "bytes": 18917557
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-940f1cd4940d__git-eb1140cefc4a/checkpoints/step_000016.pt",
+          "bytes": 19072041
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-940f1cd4940d__git-eb1140cefc4a/checkpoints/step_000020.pt",
+          "bytes": 19226525
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-940f1cd4940d__git-eb1140cefc4a/checkpoints/step_000024.pt",
+          "bytes": 19381073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-940f1cd4940d__git-eb1140cefc4a/checkpoints/step_000028.pt",
+          "bytes": 19535621
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-940f1cd4940d__git-eb1140cefc4a/checkpoints/step_000032.pt",
+          "bytes": 19690105
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-940f1cd4940d__git-eb1140cefc4a/checkpoints/step_000036.pt",
+          "bytes": 19844718
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-940f1cd4940d__git-eb1140cefc4a/checkpoint_progress/series_manifest.json",
+          "bytes": 6117
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_cli_runs_the_complete_ser0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-940f1cd4940d__git-eb1140cefc4a/checkpoint_progress/summary.json",
+          "bytes": 20730
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_checkpoint_publication_re0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-43__cfg-e83da3673ea0__git-eb1140cefc4a/checkpoints/step_000008.pt",
+          "bytes": 19
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/dashboard_logs/qmix-checkpoints__seed-42__c8571a641df1d64f_metrics.csv",
+          "bytes": 6723
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/dashboard_logs/qmix-checkpoints__seed-42__c8571a641df1d64f_per_scene.csv",
+          "bytes": 15501
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-621e761ba12f__git-eb1140cefc4a/checkpoints/final.pt",
+          "bytes": 19999336
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-621e761ba12f__git-eb1140cefc4a/checkpoints/step_000004.pt",
+          "bytes": 18608589
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-621e761ba12f__git-eb1140cefc4a/checkpoints/step_000008.pt",
+          "bytes": 18763073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-621e761ba12f__git-eb1140cefc4a/checkpoints/step_000012.pt",
+          "bytes": 18917557
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-621e761ba12f__git-eb1140cefc4a/checkpoints/step_000016.pt",
+          "bytes": 19072041
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-621e761ba12f__git-eb1140cefc4a/checkpoints/step_000020.pt",
+          "bytes": 19226525
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-621e761ba12f__git-eb1140cefc4a/checkpoints/step_000024.pt",
+          "bytes": 19381073
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-621e761ba12f__git-eb1140cefc4a/checkpoints/step_000028.pt",
+          "bytes": 19535621
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-621e761ba12f__git-eb1140cefc4a/checkpoints/step_000032.pt",
+          "bytes": 19690105
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-621e761ba12f__git-eb1140cefc4a/checkpoints/step_000036.pt",
+          "bytes": 19844718
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-621e761ba12f__git-eb1140cefc4a/checkpoint_progress/series_manifest.json",
+          "bytes": 6117
+        },
+        {
+          "path": "logs/cq_final_regression_tmp/fixtures/test_all_ten_checkpoints_evalu0/logs/factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-621e761ba12f__git-eb1140cefc4a/checkpoint_progress/summary.json",
+          "bytes": 20730
+        }
+      ],
+      "file_count": 243,
+      "bytes": 3061131661
+    }
+  ],
+  "file_count": 607,
+  "bytes": 6758159082,
+  "C_A_B_and_training_outputs_excluded": true,
+  "completed": true,
+  "actual_deleted_file_count": 607,
+  "actual_deleted_bytes": 6758159082
+}

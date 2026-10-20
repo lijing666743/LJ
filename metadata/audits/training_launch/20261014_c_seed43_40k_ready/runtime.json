@@ -1,0 +1,9 @@
+{
+  "python": "3.13.11",
+  "torch": "2.7.1+cu118",
+  "cuda": "11.8",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce MX450",
+  "git_head": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+  "free_disk_gib": 143.65
+}

@@ -1,0 +1,66 @@
+{
+  "schema": "repository_organization_final_preservation.v1",
+  "checked_at_utc": "2026-10-18T11:11:04.803734+00:00",
+  "status": "PASS",
+  "original_file_count": 1523,
+  "unchanged_original_file_count": 1512,
+  "unchanged_original_bytes": 18391385261,
+  "intentionally_edited_navigation_files": [
+    "README.md",
+    "docs/DIRECTORY_GUIDE.md",
+    "docs/results/CURRENT_EXPERIMENT_STATUS.md",
+    "experiments/README.md",
+    "metadata/README.md",
+    "logs/README.md",
+    "sections/README.md"
+  ],
+  "modified_test_fixture": {
+    "path": "tests/test_c_feature_qmix_continuation_cli.py",
+    "before_sha256": "65fd5cdc8e95d15c65a35c5963d40c1ec7d40df2b4453926194d327cc2c15947",
+    "after_sha256": "ec74814b1eca1ec3bfcb1f9529991c190a2b7966276e0a618f5a4d6b3935508d",
+    "original_snapshot": "metadata/cleanup/20261018_repository_organization/test_fixture_before.txt",
+    "reason": "Resume CLI test now isolates output paths in tmp_path so completed real 16k artifacts do not trigger non-overwrite preflight during mocked restore checks"
+  },
+  "deduplicated_files": [
+    {
+      "delete_path": "metadata/audits/seed44_limited_diagnostic/20261015/rebuild_route/route_diagnostic.json",
+      "retained_path": "metadata/audits/seed44_limited_diagnostic/20261015_route_v2/route_diagnostic.json",
+      "sha256": "1992d8641082262f53b280f940ba775540008cdcf572d28b9c465adf4b994ae0",
+      "bytes": 46739237,
+      "reason": "Byte-identical rebuild duplicate; current report and generator use retained canonical path. Historical execution logs remain unchanged."
+    },
+    {
+      "delete_path": "metadata/audits/seed44_limited_diagnostic/20261015/rebuild_cpu/cpu_diagnostic.json",
+      "retained_path": "metadata/audits/seed44_limited_diagnostic/20261015/cpu_diagnostic.json",
+      "sha256": "f842f356cc7f76442a4942ed8840161c0bc3ddd278621f385857348a1e1cd0fa",
+      "bytes": 5703329,
+      "reason": "Byte-identical rebuild duplicate; current report and generator use retained canonical path. Historical execution logs remain unchanged."
+    },
+    {
+      "delete_path": "metadata/audits/seed44_limited_diagnostic/20261015/rebuild_training/training_diagnostic.json",
+      "retained_path": "metadata/audits/seed44_limited_diagnostic/20261015/training_diagnostic.json",
+      "sha256": "fe23dd0d17ade308cc43d5fa1f669379523f2bd2a350aa5708cd695c4fe3b907",
+      "bytes": 811447,
+      "reason": "Byte-identical rebuild duplicate; current report and generator use retained canonical path. Historical execution logs remain unchanged."
+    }
+  ],
+  "archived_original_documents_byte_identical": 7,
+  "source_files_unchanged": 140,
+  "other_test_files_unchanged": 133,
+  "experiment_files_unchanged": 27,
+  "checkpoint_files_unchanged": 52,
+  "logs_csv_png_existing_backups_unchanged": true,
+  "presentations_unchanged": true,
+  "protected_directories_not_enumerated": [
+    ".agents",
+    "knowledge"
+  ],
+  "unexpected_changes": [],
+  "tests": {
+    "passed": 44,
+    "subtests_passed": 17,
+    "xml": "metadata/cleanup/20261018_repository_organization/navigation_regression_tests_final.xml"
+  },
+  "environment_steps_executed": 0,
+  "optimizer_updates_executed": 0
+}

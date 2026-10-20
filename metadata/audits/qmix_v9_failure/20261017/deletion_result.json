@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "targets_deleted": 11,
+  "files_deleted": 367,
+  "schema": "qmix_v10_deletion_result.v1",
+  "native_powershell_literal_paths": true,
+  "bytes_deleted": 3392546325,
+  "reparse_points_rejected": true,
+  "protected_overlap_checked": true,
+  "workspace_resolved_verified": true
+}

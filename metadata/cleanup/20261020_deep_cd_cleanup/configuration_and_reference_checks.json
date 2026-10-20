@@ -1,0 +1,16 @@
+{
+  "active_configs": {
+    "total": 24,
+    "C": 8,
+    "D": 16,
+    "all_parse_with_production_loader": true
+  },
+  "three_relocated_regression_configs_byte_identical_and_parse": true,
+  "ten_test_modules_changed_only_fixture_paths": true,
+  "no_runtime_or_test_references_to_removed_old_experiment_paths": true,
+  "deleted_files_and_empty_trees_absent": true,
+  "updated_navigation_links": {
+    "checked": 90,
+    "missing": []
+  }
+}

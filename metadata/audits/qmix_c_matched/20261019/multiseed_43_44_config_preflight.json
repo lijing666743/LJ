@@ -1,0 +1,256 @@
+{
+  "schema": "c_feature_credit_qmix_multiseed_configuration_preflight.v1",
+  "checked_at_utc": "2026-10-19T08:25:38.544309+00:00",
+  "status": "PASS",
+  "training_seeds": [
+    43,
+    44
+  ],
+  "stage_budgets": [
+    8000,
+    16000,
+    24000,
+    32000,
+    40000
+  ],
+  "fixed_primary_report_step": 40000,
+  "checkpoint_interval_steps": 4000,
+  "expected_updates_by_stage": {
+    "8000": 225,
+    "16000": 481,
+    "24000": 737,
+    "32000": 993,
+    "40000": 1249
+  },
+  "configuration_count_added": 10,
+  "configurations": [
+    {
+      "seed": 43,
+      "budget": 8000,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed43-8k.json",
+      "config_hash": "ecd40c89f4ab8e07b29254da99af0a9fea3dc0a71641eda327900a454f81dfab",
+      "file_sha256": "f815e92f683a77f75ee87d67805a281bb591fe69dc12246ffd306bb8c0ec546e",
+      "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-ecd40c89f4ab__git-eb1140cefc4a",
+      "output_roots": {
+        "logs_dir": "logs/strong_baselines/development/c_feature_credit_qmix/seed43/8k",
+        "plots_dir": "plots/strong_baselines/development/c_feature_credit_qmix/seed43/8k",
+        "dashboard_logs_dir": "dashboard_logs/strong_baselines/development/c_feature_credit_qmix/seed43/8k"
+      }
+    },
+    {
+      "seed": 43,
+      "budget": 16000,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed43-16k.json",
+      "config_hash": "9e7047a6d882f2659b94650e199f53d36d214242baeea33c49587ec96e8b2d34",
+      "file_sha256": "9352f6884df75146409e2975580127635d2c4325d60b30b2e37b78cd3216f70c",
+      "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-9e7047a6d882__git-eb1140cefc4a",
+      "output_roots": {
+        "logs_dir": "logs/strong_baselines/development/c_feature_credit_qmix/seed43/16k",
+        "plots_dir": "plots/strong_baselines/development/c_feature_credit_qmix/seed43/16k",
+        "dashboard_logs_dir": "dashboard_logs/strong_baselines/development/c_feature_credit_qmix/seed43/16k"
+      }
+    },
+    {
+      "seed": 43,
+      "budget": 24000,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed43-24k.json",
+      "config_hash": "c375bbf551b46497c6a08112baf299c7e4d934d17b985e3a2e87891fedeaad87",
+      "file_sha256": "1b11c256d22b1c17553a083edc909e03491f055961435b36db188dfcd902d394",
+      "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-c375bbf551b4__git-eb1140cefc4a",
+      "output_roots": {
+        "logs_dir": "logs/strong_baselines/development/c_feature_credit_qmix/seed43/24k",
+        "plots_dir": "plots/strong_baselines/development/c_feature_credit_qmix/seed43/24k",
+        "dashboard_logs_dir": "dashboard_logs/strong_baselines/development/c_feature_credit_qmix/seed43/24k"
+      }
+    },
+    {
+      "seed": 43,
+      "budget": 32000,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed43-32k.json",
+      "config_hash": "96005352b13dae8652e07de8f3d3047f832946a029dca612f77ab24c3cfbbb32",
+      "file_sha256": "86526bc228381be58d9d65e4bbed8c640c19594e9c36375415fc045ddef22d37",
+      "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-96005352b13d__git-eb1140cefc4a",
+      "output_roots": {
+        "logs_dir": "logs/strong_baselines/development/c_feature_credit_qmix/seed43/32k",
+        "plots_dir": "plots/strong_baselines/development/c_feature_credit_qmix/seed43/32k",
+        "dashboard_logs_dir": "dashboard_logs/strong_baselines/development/c_feature_credit_qmix/seed43/32k"
+      }
+    },
+    {
+      "seed": 43,
+      "budget": 40000,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed43-40k.json",
+      "config_hash": "57723678881306cd31af85c02f6e682b4c898a812afaf7fc52ba3c18520b6cf9",
+      "file_sha256": "dd600933ab31497dd240f8d572d6a810bf0f19eb1a5461edcdb3a4ccaca69f37",
+      "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-577236788813__git-eb1140cefc4a",
+      "output_roots": {
+        "logs_dir": "logs/strong_baselines/development/c_feature_credit_qmix/seed43/40k",
+        "plots_dir": "plots/strong_baselines/development/c_feature_credit_qmix/seed43/40k",
+        "dashboard_logs_dir": "dashboard_logs/strong_baselines/development/c_feature_credit_qmix/seed43/40k"
+      }
+    },
+    {
+      "seed": 44,
+      "budget": 8000,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed44-8k.json",
+      "config_hash": "505599d604ea1d61d863184ec896f72c280ad1c2fa4978da441141c7151d994c",
+      "file_sha256": "6d732261a632ca9c0d128c9e6a58d2fb567db2d65c8bfdaa39907e963a2d35bd",
+      "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-505599d604ea__git-eb1140cefc4a",
+      "output_roots": {
+        "logs_dir": "logs/strong_baselines/development/c_feature_credit_qmix/seed44/8k",
+        "plots_dir": "plots/strong_baselines/development/c_feature_credit_qmix/seed44/8k",
+        "dashboard_logs_dir": "dashboard_logs/strong_baselines/development/c_feature_credit_qmix/seed44/8k"
+      }
+    },
+    {
+      "seed": 44,
+      "budget": 16000,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed44-16k.json",
+      "config_hash": "6a276b46fb09b627ef43d33707f37b48cc82a4899f19f0aa8bc4fccfd00c531d",
+      "file_sha256": "69ac54309af11227b659122ffe350ed4ff0c23e40ea63a4243c14bf7ed6b1ad5",
+      "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-6a276b46fb09__git-eb1140cefc4a",
+      "output_roots": {
+        "logs_dir": "logs/strong_baselines/development/c_feature_credit_qmix/seed44/16k",
+        "plots_dir": "plots/strong_baselines/development/c_feature_credit_qmix/seed44/16k",
+        "dashboard_logs_dir": "dashboard_logs/strong_baselines/development/c_feature_credit_qmix/seed44/16k"
+      }
+    },
+    {
+      "seed": 44,
+      "budget": 24000,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed44-24k.json",
+      "config_hash": "550ef31861fcf7ddc931faddf78321ed55f008cb395189feb4273f88f75ebf5b",
+      "file_sha256": "578ff94943277b9c1d223ee88469d76d7d2e835bcedef57baec4fdf2282dd472",
+      "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-550ef31861fc__git-eb1140cefc4a",
+      "output_roots": {
+        "logs_dir": "logs/strong_baselines/development/c_feature_credit_qmix/seed44/24k",
+        "plots_dir": "plots/strong_baselines/development/c_feature_credit_qmix/seed44/24k",
+        "dashboard_logs_dir": "dashboard_logs/strong_baselines/development/c_feature_credit_qmix/seed44/24k"
+      }
+    },
+    {
+      "seed": 44,
+      "budget": 32000,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed44-32k.json",
+      "config_hash": "28d708fc2cfaacd72fa717bb2dcc41837600695a4c576b15541cdf13b9c30337",
+      "file_sha256": "72475a5cccf630e2e62dc91aecf4baa55853835709d7baefd2ec8b689ecd1c9a",
+      "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-28d708fc2cfa__git-eb1140cefc4a",
+      "output_roots": {
+        "logs_dir": "logs/strong_baselines/development/c_feature_credit_qmix/seed44/32k",
+        "plots_dir": "plots/strong_baselines/development/c_feature_credit_qmix/seed44/32k",
+        "dashboard_logs_dir": "dashboard_logs/strong_baselines/development/c_feature_credit_qmix/seed44/32k"
+      }
+    },
+    {
+      "seed": 44,
+      "budget": 40000,
+      "config": "experiments/strong-baselines/configs/c-feature-credit-qmix-seed44-40k.json",
+      "config_hash": "9355ac0590f8c1e027d038a1aee5673b78ad11196fdda79db7caf018468e44e3",
+      "file_sha256": "c36500d4a2860934c9626bf988cd4800226d39873fd4211d0be6d97522f763c2",
+      "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-9355ac0590f8__git-eb1140cefc4a",
+      "output_roots": {
+        "logs_dir": "logs/strong_baselines/development/c_feature_credit_qmix/seed44/40k",
+        "plots_dir": "plots/strong_baselines/development/c_feature_credit_qmix/seed44/40k",
+        "dashboard_logs_dir": "dashboard_logs/strong_baselines/development/c_feature_credit_qmix/seed44/40k"
+      }
+    }
+  ],
+  "per_budget_only_master_seed_and_three_output_roots_changed": true,
+  "budget_extension_edges_validated": 8,
+  "output_roots_distinct_and_absent": 30,
+  "fresh_cpu_initialization_checks": {
+    "42": {
+      "online_state_sha256": "ed531ea5ae8c7a7c9c9fb60638882a733081faaab14c004d9a166009895e4ca2",
+      "target_equals_online": true,
+      "empty_optimizer_and_replay": true,
+      "environment_steps": 0,
+      "optimizer_updates": 0,
+      "validation_device": "cpu",
+      "real_training_device": "cuda"
+    },
+    "43": {
+      "online_state_sha256": "18536b02eaecf6f07644ab2800e43fd2d969753ef748ba681764ee9d261e3840",
+      "target_equals_online": true,
+      "empty_optimizer_and_replay": true,
+      "environment_steps": 0,
+      "optimizer_updates": 0,
+      "validation_device": "cpu",
+      "real_training_device": "cuda"
+    },
+    "44": {
+      "online_state_sha256": "70266bfca31ca80a11388bc973ab959474749244b1e4c46efc7a8c1d25921d35",
+      "target_equals_online": true,
+      "empty_optimizer_and_replay": true,
+      "environment_steps": 0,
+      "optimizer_updates": 0,
+      "validation_device": "cpu",
+      "real_training_device": "cuda"
+    }
+  },
+  "repeat_seed43_initialization_exact": true,
+  "independent_seed_initial_parameters_differ": true,
+  "source_python_files_unchanged": 138,
+  "existing_strong_baseline_configs_unchanged": 13,
+  "existing_strong_baseline_config_sha256": {
+    "experiments/strong-baselines/configs/c-feature-credit-qmix-engineering.json": "e20bf41cbadd7ad391610e686879b4d0cd83a6d5d6f6d90c8c7b37b790115300",
+    "experiments/strong-baselines/configs/c-feature-credit-qmix-seed42-16k.json": "e28fcf0197c590bd15367d7614638e2bf757f675e7b6b76dacdbcc0f4c9512d5",
+    "experiments/strong-baselines/configs/c-feature-credit-qmix-seed42-24k.json": "d18f3ccd34a4f3367c5f10abd87babcbe3f73dc7db020a5eaa97fd5a7c726578",
+    "experiments/strong-baselines/configs/c-feature-credit-qmix-seed42-32k.json": "f3b1a721d071bfbe7c740f1655d6f29817ab483514335263a340012a4b0b9a98",
+    "experiments/strong-baselines/configs/c-feature-credit-qmix-seed42-40k.json": "dfc18cba1e688e19d0a606b4a4b41e362e577c230ec2687a2c5229f39dbcde6e",
+    "experiments/strong-baselines/configs/c-feature-credit-qmix-seed42-8k.json": "ab152f3ce180d65cb4d0f3fccb4309f980f49062a0023bee7bc885d98ea2941d",
+    "experiments/strong-baselines/configs/fa-gat-qmix-episode-return-engineering.json": "be1cb794a6a622c75c6c9c5be2da22358a2fd67d0bdfe593199ae4a20202821e",
+    "experiments/strong-baselines/configs/fa-gat-qmix-seed42-16k-episode-return-development.json": "ff66f43116c6d7d3bc22d3b31db71872bdeef7ff120281aef46d4fb85be906a7",
+    "experiments/strong-baselines/configs/fa-gat-qmix-seed42-40k.draft.json": "c1a9bd3d69e7455c19814bdbdce21eeabde70279ca796c44ccb390f35135223f",
+    "experiments/strong-baselines/configs/fa-gat-qmix-seed42-40k.json": "0bc28d33fbf04dc1675744a823880dbda64d20853e5bd2b43126a8d736c6a931",
+    "experiments/strong-baselines/configs/fa-gat-qmix-seed42-8k-episode-return-development.json": "12fc836980482aae4e11dd741d2c6429c40acd7ce417ed434c99b5dddd78bc19",
+    "experiments/strong-baselines/configs/fa-gat-qmix-seed43-40k.draft.json": "dbeee67461a899a0315db15b12c599a4242ee3c21807317e3d6b0cf6e3fdd15e",
+    "experiments/strong-baselines/configs/fa-gat-qmix-seed44-40k.draft.json": "b0d0a358fbb068ce1bc45afe79058d5e9e62430415cbaeb4418ceec83c413f52"
+  },
+  "training_started": false,
+  "evaluation_started": false,
+  "analysis_environment_steps": 0,
+  "analysis_optimizer_updates": 0,
+  "execution_owner": "user_local",
+  "runtime_commands_saved": false,
+  "scientific_protocol": "Independent initialization for each seed, then unchanged full-state stages 8k/16k/24k/32k/40k. Keep every 4k model and development record; do not select a shorter budget or alter parameters because a seed scores poorly. Fixed development scenarios 1042-1046 and separate shadow accounting.",
+  "segmentation_equivalence_boundary": "Current CFeatureCreditCollector.before_step omits paired labels when its 256-slot collection window crosses the current stage budget. Thus a single direct 40k launch is not asserted identical to the seed42 five-stage protocol; replicate the same stage caps for seeds43/44. Full-state restore equivalence alone does not erase the different collection budgets.",
+  "fresh_initialization_scope": "CPU construction only, train and environment constructors intercepted, no trained checkpoint read or restored; CUDA runtime performance not re-tested in this preflight.",
+  "cli_show_config_checks_passed": 10,
+  "existing_continuation_cli_regression_tests": {
+    "passed": 8,
+    "errors": 0,
+    "failures": 0,
+    "junit": "metadata/audits/qmix_c_matched/20261019/multiseed_cli_tests_pass.xml"
+  },
+  "test_runner_setup_retries": [
+    {
+      "attempt": 1,
+      "passed": 1,
+      "setup_errors": 7,
+      "reason": "Default sandbox temporary directory could not create pytest numbered directory; no test-body failure."
+    },
+    {
+      "attempt": 2,
+      "passed": 1,
+      "setup_errors": 7,
+      "reason": "Explicit short basetemp parent did not yet exist; test-runner setup issue, no training or source change.",
+      "junit": "metadata/audits/qmix_c_matched/20261019/multiseed_cli_tests.xml"
+    },
+    {
+      "attempt": 3,
+      "passed": 8,
+      "setup_errors": 0,
+      "reason": "Created the new workspace test parent and reran with short basetemp; all passed."
+    }
+  ],
+  "final_navigation_check": {
+    "status": "PASS",
+    "documents_checked": 6,
+    "local_links_checked": 48,
+    "existing_source_files_unchanged": 138,
+    "strong_baseline_config_count": 23,
+    "new_configuration_sha256_unchanged_after_validation": true,
+    "output_roots_still_absent": 30,
+    "no_training_started": true
+  }
+}

@@ -1,0 +1,187 @@
+[
+  {
+    "path": "dashboard_logs/C/seed42/checkpoint_progress/20261014_32k40k/paired_changed_tasks.csv",
+    "bytes": 6543,
+    "sha256": "12a27cd73f5123752a71c32b8d1ea2d03fc5bfddc6310742c8009550da525c7b"
+  },
+  {
+    "path": "dashboard_logs/C/seed42/checkpoint_progress/20261014_32k40k/per_scene_metrics.csv",
+    "bytes": 6781,
+    "sha256": "4ac500cd117975eae50736b37921717787503c146f95fc5bdd03a580c4725d89"
+  },
+  {
+    "path": "dashboard_logs/C/seed42/checkpoint_progress/20261014_32k40k/summary_metrics.csv",
+    "bytes": 2274,
+    "sha256": "08dcbce6c6aa0ca225f507306f019c889becb34fdcb9e05dadf2e70e67162774"
+  },
+  {
+    "path": "dashboard_logs/C/seed42/checkpoint_progress/20261014_32k40k/training_reward_windows.csv",
+    "bytes": 927,
+    "sha256": "72a11fd2e5cabd0f8974abf7d34f1357638b44c84cb2020083a960bbb49f6418"
+  },
+  {
+    "path": "docs/reproduction/C40K_CONTINUATION.md",
+    "bytes": 7472,
+    "sha256": "350a511a23f02892e6bf3a61a4b6bd31b82aaa4058f72c5fc7cff72c3b771886"
+  },
+  {
+    "path": "docs/results/CURRENT_EXPERIMENT_STATUS.md",
+    "bytes": 5109,
+    "sha256": "9b897f9210c13e4b27ce01f89ad3c4d4b5c8542be619c23c5fe921794711b0dd"
+  },
+  {
+    "path": "docs/results/seed42/20261014_32k40k/C40K_DEVELOPMENT_REPORT.md",
+    "bytes": 3531,
+    "sha256": "31d1463eec023a792c6f1afefdb85ccc895cdb47673a730713e9e1da4bbc1826"
+  },
+  {
+    "path": "metadata/audits/c40k_progress/20261014_32k40k/C_36k_energy_per_scene.json",
+    "bytes": 5537,
+    "sha256": "3d757ff17a4b6d4a1b3ec69862766080944acf8b94700cbfe3a1cce72a96ea31"
+  },
+  {
+    "path": "metadata/audits/c40k_progress/20261014_32k40k/C_36k_evaluation_config.json",
+    "bytes": 12074,
+    "sha256": "d9c4ce6fa594340c47fa846aa453d0831303ec9a02691fd960831f09b897b2a3"
+  },
+  {
+    "path": "metadata/audits/c40k_progress/20261014_32k40k/C_36k_metrics.json",
+    "bytes": 203785,
+    "sha256": "cc1c0cd434f348c11be8dc5cca0373e99aac5a10d5bcdfe2d456f48334c0f341"
+  },
+  {
+    "path": "metadata/audits/c40k_progress/20261014_32k40k/C_36k_run.json",
+    "bytes": 3184,
+    "sha256": "8c6ce8e9879ab3aceb84cb03fdb0f48d0ea11c6eb7f7d44333c9020e97953cd4"
+  },
+  {
+    "path": "metadata/audits/c40k_progress/20261014_32k40k/C_40k_energy_per_scene.json",
+    "bytes": 5540,
+    "sha256": "945a182b1f8ad6d4163791b2d72d78fc3ac1a3ad44313168da272d24a82beef0"
+  },
+  {
+    "path": "metadata/audits/c40k_progress/20261014_32k40k/C_40k_evaluation_config.json",
+    "bytes": 12074,
+    "sha256": "67fdf3e2710f1b08a8c3d58f645cc11d729a2be07851796898f7a220998ae8e8"
+  },
+  {
+    "path": "metadata/audits/c40k_progress/20261014_32k40k/C_40k_metrics.json",
+    "bytes": 203816,
+    "sha256": "80d99cb6c354b58ce3af42a1852d43f6fe07c859b6f06eaba0736c1ba3f56b56"
+  },
+  {
+    "path": "metadata/audits/c40k_progress/20261014_32k40k/C_40k_run.json",
+    "bytes": 3179,
+    "sha256": "b5976b2647b68c0e495beec1cd5ad965b6c0f546585403d5ad337338fe6b9f2f"
+  },
+  {
+    "path": "metadata/audits/c40k_progress/20261014_32k40k/comparison_summary.json",
+    "bytes": 14271,
+    "sha256": "5adeed1d8eeae5fc8c61444b6f61a91f525892636413fc9c390be6b3c747fb56"
+  },
+  {
+    "path": "metadata/audits/c40k_progress/20261014_32k40k/energy_reconstruction_checks.json",
+    "bytes": 1871,
+    "sha256": "77bfdc829f899f674edb83a1ca2c9f0ea4c8f2909faa42a1198ac57bedb3f51e"
+  },
+  {
+    "path": "metadata/audits/c40k_progress/20261014_32k40k/energy_risk.json",
+    "bytes": 8057,
+    "sha256": "4893d5540adb312ad192455c96e51e4550397fb2e77def4a480e088c4b502151"
+  },
+  {
+    "path": "metadata/audits/c40k_progress/20261014_32k40k/evaluation_execution.json",
+    "bytes": 6486,
+    "sha256": "812cff2b9bff696f9cd9dd535c1c868a34f4ae2f6b17a3a2cd949045896ed33b"
+  },
+  {
+    "path": "metadata/audits/c40k_progress/20261014_32k40k/evaluation_protocol.json",
+    "bytes": 597,
+    "sha256": "631bf0a7dc9ad732395eb159f6a7f88cb88e12209a0de842a325718097c399ae"
+  },
+  {
+    "path": "metadata/audits/c40k_progress/20261014_32k40k/evaluation_tests.xml",
+    "bytes": 6159,
+    "sha256": "23df1aa84cea461ebebd6f63bb0154be3521e99fd60f83e1774c524881085c22"
+  },
+  {
+    "path": "metadata/audits/c40k_progress/20261014_32k40k/figure_regeneration_validation.json",
+    "bytes": 463,
+    "sha256": "871fd70e45d150bb3002c603ed3e5e13f804fbf80d75d648b35d254909ae615b"
+  },
+  {
+    "path": "metadata/audits/c40k_progress/20261014_32k40k/final_tests.xml",
+    "bytes": 6663,
+    "sha256": "5f9446f564cdb84b912fbf12395a364a0b5b3aa077f7c1be3f30d7f8db2a30fe"
+  },
+  {
+    "path": "metadata/audits/c40k_progress/20261014_32k40k/inputs_after.json",
+    "bytes": 89022,
+    "sha256": "57e02b8fe8880c413411f5c5e2e34e1a5a5fa227d52c2bb2cb934c3f7913ecaa"
+  },
+  {
+    "path": "metadata/audits/c40k_progress/20261014_32k40k/inputs_before.json",
+    "bytes": 89022,
+    "sha256": "57e02b8fe8880c413411f5c5e2e34e1a5a5fa227d52c2bb2cb934c3f7913ecaa"
+  },
+  {
+    "path": "metadata/audits/c40k_progress/20261014_32k40k/paired_task_changes.json",
+    "bytes": 602,
+    "sha256": "d761899f889ccc9f21c24ee5da155ab078936ce88d20bbb529281d5d0122e2c0"
+  },
+  {
+    "path": "metadata/audits/c40k_progress/20261014_32k40k/summary_tests.xml",
+    "bytes": 1216,
+    "sha256": "1a3f724d4e8c22436954603125d6c6a07dbae1f31f6a347f479f80315097e5d0"
+  },
+  {
+    "path": "metadata/audits/c40k_progress/20261014_32k40k/training_integrity.json",
+    "bytes": 4295,
+    "sha256": "822603f4731822d0b11c2f9284999472b36c9d70aaff94c36b5c984fd69e5936"
+  },
+  {
+    "path": "metadata/audits/c40k_progress/20261014_32k40k/training_reward_windows.json",
+    "bytes": 3321,
+    "sha256": "cd6fa0a01472213edd12546bf1ee8bd24f1fa6ede4f93f9fe1aac4ec6da0d322"
+  },
+  {
+    "path": "metadata/audits/c40k_progress/20261014_32k40k/validation.json",
+    "bytes": 885,
+    "sha256": "36e11ca5eb5d674c872c28b14e3a8cb7ba98c05280a2e35fa35128bf22116dcf"
+  },
+  {
+    "path": "plots/C/seed42/checkpoint_progress/20261014_32k40k/C_40k_development_dashboard.png",
+    "bytes": 289598,
+    "sha256": "216c4f28e392155f854f644bf70123ab031b014797800c0bfa2c61d12c9fea89"
+  },
+  {
+    "path": "plots/C/seed42/checkpoint_progress/20261014_32k40k/C_40k_development_dashboard.svg",
+    "bytes": 54740,
+    "sha256": "8840b474329ad9dcb479105b16982c6f947b836752b8e1e0fbdcde3e80c871f4"
+  },
+  {
+    "path": "plots/C/seed42/checkpoint_progress/20261014_32k40k/figure_manifest.json",
+    "bytes": 2867,
+    "sha256": "8bd772f612a5d69cdf2f464b0fddad16d59c5b17986038c61e4bc11745396280"
+  },
+  {
+    "path": "README.md",
+    "bytes": 28633,
+    "sha256": "9122f3f91225102fafa80c6b519f41efce54852bf9467ca08f0c27079648b664"
+  },
+  {
+    "path": "src/evaluation/c40k_progress.py",
+    "bytes": 11902,
+    "sha256": "02030b0b75fcbc44091e31e39606cccc6d78598830b2d9a5bc588ee35a76972e"
+  },
+  {
+    "path": "src/evaluation/c40k_progress_report.py",
+    "bytes": 15461,
+    "sha256": "bd28545ffeae893e767a7b1b12e5760de5842de0d6d88ee49257f99616e18a24"
+  },
+  {
+    "path": "tests/test_c40k_progress.py",
+    "bytes": 3517,
+    "sha256": "e513fa4a3b3a681ddad624aca4fa489ddbe48ecc2b0bb772cc43ddd13ffb979a"
+  }
+]

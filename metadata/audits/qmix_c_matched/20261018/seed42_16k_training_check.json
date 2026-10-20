@@ -1,0 +1,107 @@
+{
+  "schema": "c_feature_credit_qmix_16k_training_validation.v1",
+  "checked_at_utc": "2026-10-18T09:21:46.738596+00:00",
+  "status": "PASS",
+  "environment_steps": 16000,
+  "optimizer_updates": 481,
+  "new_environment_steps": 8000,
+  "new_optimizer_updates": 256,
+  "episodes": 32,
+  "original_16_episodes_and_225_updates_preserved": true,
+  "training_json_csv_equal": true,
+  "learning_source_unchanged_since_8k_restore": true,
+  "checkpoint_contract_ancestry_and_finite_values": true,
+  "responsibility_records_conserved": 16000,
+  "loss_decomposition_finite_and_conserved_updates": 481,
+  "checkpoints": [
+    {
+      "steps": 8000,
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed42\\8k\\c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-1b3cae3cdac5__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "sha256": "073792c7e89eb88533a32c83fa0c40a36ec2df336fbf1087503e6c1b0362670d",
+      "bytes": 270371591,
+      "episodes": 16,
+      "updates": 225,
+      "replay_chunks": 256,
+      "responsibility_records": 8000,
+      "paired_labels": 54,
+      "total_shadow_steps": 29656
+    },
+    {
+      "steps": 12000,
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed42\\16k\\c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-f3b23eca17ec__git-eb1140cefc4a\\checkpoints\\step_012000.pt",
+      "sha256": "cc82b478d87b416b37439394f710f9640a249e1f530a14bf83e9ba4043054758",
+      "bytes": 392697095,
+      "episodes": 24,
+      "updates": 353,
+      "replay_chunks": 384,
+      "responsibility_records": 12000,
+      "paired_labels": 80,
+      "total_shadow_steps": 46164
+    },
+    {
+      "steps": 16000,
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed42\\16k\\c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-f3b23eca17ec__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "sha256": "4b244e1f92dda0efc3e916d000205eb91dc1ba475914e6584cffe78130623cbf",
+      "bytes": 514692551,
+      "episodes": 32,
+      "updates": 481,
+      "replay_chunks": 512,
+      "responsibility_records": 16000,
+      "paired_labels": 106,
+      "total_shadow_steps": 61510
+    }
+  ],
+  "parameter_changes": {
+    "8000_to_12000": {
+      "changed_tensor_count": 182,
+      "changed_component_tensor_counts": {
+        "physical_35": 4,
+        "route_scoring": 37,
+        "route_private_graph": 37,
+        "route_private_GRU": 4,
+        "tx_private": 8,
+        "cpu_joint": 10
+      }
+    },
+    "12000_to_16000": {
+      "changed_tensor_count": 182,
+      "changed_component_tensor_counts": {
+        "physical_35": 4,
+        "route_scoring": 37,
+        "route_private_graph": 37,
+        "route_private_GRU": 4,
+        "tx_private": 8,
+        "cpu_joint": 10
+      }
+    },
+    "8000_to_16000": {
+      "changed_tensor_count": 182,
+      "changed_component_tensor_counts": {
+        "physical_35": 4,
+        "route_scoring": 37,
+        "route_private_graph": 37,
+        "route_private_GRU": 4,
+        "tx_private": 8,
+        "cpu_joint": 10
+      }
+    }
+  },
+  "target_copies": [
+    {
+      "update": 200,
+      "environment_steps": 7224
+    },
+    {
+      "update": 400,
+      "environment_steps": 13480
+    }
+  ],
+  "total_shadow_steps": 61510,
+  "new_shadow_steps": 31854,
+  "paired_labels": 106,
+  "new_paired_labels": 52,
+  "training_epsilon_at_16k": 0.525,
+  "analysis_environment_steps": 0,
+  "analysis_optimizer_updates": 0,
+  "initial_audit_group_label_resolution": "Route scorer state is registered under backbone.action_heads.route, rather than its route_decoder property; corrected audit lookup only"
+}

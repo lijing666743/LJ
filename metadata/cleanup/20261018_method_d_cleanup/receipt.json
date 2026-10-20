@@ -1,0 +1,65 @@
+{
+  "schema": "method_d_naming_cleanup_completion.v1",
+  "completed_at_utc": "2026-10-18T11:32:10.208047+00:00",
+  "status": "completed",
+  "method": {
+    "comparison_label": "D",
+    "short_name": "CFC-QMIX",
+    "full_name_en": "Common Feature and Credit Augmented QMIX",
+    "name_zh": "共同特征与信用增强QMIX",
+    "runtime_method_id_unchanged": "c_feature_credit_qmix",
+    "catalog": "metadata/METHOD_CATALOG.json",
+    "existing_run_paths_renamed": false
+  },
+  "cleanup": {
+    "substantive_files_removed": 24,
+    "substantive_bytes_removed": 72760666,
+    "decimal_MB_removed": 72.760666,
+    "engineering_pngs_removed": 4,
+    "engineering_checkpoints_removed": 2,
+    "redundant_zip_removed": 1,
+    "expanded_bundle_members_retained_byte_identical": 14,
+    "empty_directories_removed": 36,
+    "verification_temporary_files_removed": 3,
+    "verification_temporary_bytes_removed": 90,
+    "failed_qmix_formal_run_data_remaining": 0,
+    "failure_audit_receipts_retained": true,
+    "engineering_acceptance_record_retained": true,
+    "remaining_empty_directories_in_output_trees": []
+  },
+  "validation": {
+    "source_files_unchanged": 140,
+    "test_files_unchanged": 134,
+    "remaining_checkpoints_unchanged": 50,
+    "unchanged_original_files": 1506,
+    "configuration_load_count": 26,
+    "local_navigation_links": 75,
+    "tests_passed": 54,
+    "subtests_passed": 17,
+    "current_D_16k_full_checkpoint_contract_verified": true,
+    "current_D_ancestry_only_requires_original_8k": true,
+    "A_B_C_D_development_data_preserved": true,
+    "published_PNG_SVG_and_backup_files_preserved": true,
+    "protected_directories_not_enumerated": [
+      ".agents",
+      "knowledge"
+    ],
+    "unexpected_changes": []
+  },
+  "evidence": {
+    "before": "metadata/cleanup/20261018_method_d_cleanup/before.json",
+    "plan": "metadata/cleanup/20261018_method_d_cleanup/plan.json",
+    "preservation": "metadata/cleanup/20261018_method_d_cleanup/preservation_after.json",
+    "engineering_dependency": "metadata/cleanup/20261018_method_d_cleanup/engineering_retention.json",
+    "tests": "metadata/cleanup/20261018_method_d_cleanup/regression_tests.xml"
+  },
+  "training_started": false,
+  "environment_or_optimizer_updates_executed": 0,
+  "runtime_source_or_configuration_changes": false,
+  "new_runtime_instructions_saved": false,
+  "notes": [
+    "Deleted short-run artifacts were completed engineering checks, not failed development experiments.",
+    "Old failed QMIX formal outputs had already been removed in earlier work; this pass removed their empty directory shells.",
+    "Historical manifests continue to record artifacts as they existed at their original execution time; the cleanup plan identifies intentionally retired files."
+  ]
+}

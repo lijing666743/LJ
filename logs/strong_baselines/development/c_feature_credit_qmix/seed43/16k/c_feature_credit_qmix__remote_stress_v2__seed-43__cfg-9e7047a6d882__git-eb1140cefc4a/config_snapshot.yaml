@@ -1,0 +1,412 @@
+{
+  "config_version": "section4.v1",
+  "mode": "rl",
+  "method_id": "c_feature_credit_qmix",
+  "launch_profile": null,
+  "scenario_id": "remote_stress_v2",
+  "seed": 43,
+  "environment": {
+    "episode_horizon": 500,
+    "slot_duration_s": 0.02,
+    "height_m": 80.0,
+    "bounds": {
+      "x_min_m": 0.0,
+      "x_max_m": 1000.0,
+      "y_min_m": 0.0,
+      "y_max_m": 1000.0
+    },
+    "boundary_rule": "coordinate-wise specular reflection",
+    "reset_safe_distance_m": 50.0,
+    "velocity_mean_mps": [
+      0.0,
+      0.0
+    ],
+    "velocity_std_mps": [
+      1.0,
+      1.0
+    ],
+    "gauss_markov_alpha": 0.85,
+    "candidate_neighbor_radius_m": 525.0,
+    "total_bandwidth_hz": 20000000.0,
+    "ru_count": 20,
+    "resource_group_count": 5,
+    "carrier_frequency_hz": 3500000000.0,
+    "reference_transmit_power_w": 1.0,
+    "reference_cpu_frequency_hz": 2000000000.0,
+    "reference_cpu_coefficient": 1e-28,
+    "reference_initial_energy_j": 30.0,
+    "reference_rate_bps": 20000000.0,
+    "antenna_gain_dbi": 2.0,
+    "noise_psd_dbm_hz": -174.0,
+    "receiver_noise_figure_db": 7.0,
+    "building_loss_db": 15.0,
+    "los_rician_k_db": 6.0,
+    "shadowing_std_db": 4.0,
+    "shadowing_correlation_distance_m": 50.0,
+    "fixed_csi_aoi_slots": 3,
+    "csi_error_std_db": 2.0,
+    "interference_ema_beta": 0.8,
+    "initial_interference_w": 0.0,
+    "outage_threshold_db": -3.0,
+    "energy_tolerance_j": 1e-12,
+    "minimum_task_slack_slots": 10,
+    "maximum_task_slack_slots": 150,
+    "task_data_bits_min": 250000.0,
+    "task_data_bits_max": 1500000.0,
+    "task_cycles_per_bit_min": 300.0,
+    "task_cycles_per_bit_max": 1000.0,
+    "task_deadline_factor_min": 1.5,
+    "task_deadline_factor_max": 3.0,
+    "arrival_history_window_slots": 500,
+    "reward_workload_reference_s": 1.0,
+    "reward_task_count_reference": 1.0,
+    "reward_completion_weight": 1.0,
+    "reward_expiration_weight": 1.0,
+    "reward_workload_weight": 0.2,
+    "reward_energy_weight": 0.05,
+    "uav_count": 4,
+    "arrival_probabilities": [
+      0.0467,
+      0.11,
+      0.02,
+      0.0633
+    ],
+    "profile_assignment": [
+      "Balanced",
+      "Resource-poor",
+      "Compute-rich",
+      "Energy-limited"
+    ],
+    "profile_perturbations": [
+      [
+        -0.013814309988,
+        0.044593840641,
+        0.044559189965,
+        0.033901094602
+      ],
+      [
+        0.024305247334,
+        -0.014446956216,
+        0.005750819819,
+        -0.029482012276
+      ],
+      [
+        -0.000601140633,
+        -0.015719950799,
+        0.049877636039,
+        0.034480593142
+      ],
+      [
+        -0.000524427719,
+        0.006763643213,
+        -0.028161367743,
+        -0.001054193533
+      ]
+    ],
+    "building_layout": [
+      {
+        "name": "B1",
+        "x_min_m": 150.0,
+        "x_max_m": 250.0,
+        "y_min_m": 150.0,
+        "y_max_m": 350.0,
+        "height_m": 120.0
+      },
+      {
+        "name": "B2",
+        "x_min_m": 400.0,
+        "x_max_m": 500.0,
+        "y_min_m": 150.0,
+        "y_max_m": 350.0,
+        "height_m": 120.0
+      },
+      {
+        "name": "B3",
+        "x_min_m": 550.0,
+        "x_max_m": 650.0,
+        "y_min_m": 650.0,
+        "y_max_m": 850.0,
+        "height_m": 120.0
+      },
+      {
+        "name": "B4",
+        "x_min_m": 750.0,
+        "x_max_m": 850.0,
+        "y_min_m": 650.0,
+        "y_max_m": 850.0,
+        "height_m": 120.0
+      }
+    ],
+    "profile_ratios": {
+      "Resource-poor": [
+        0.7,
+        0.8,
+        0.8,
+        1.2
+      ],
+      "Balanced": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "Compute-rich": [
+        2.0,
+        1.0,
+        1.1,
+        0.9
+      ],
+      "Energy-limited": [
+        1.0,
+        0.8,
+        0.5,
+        1.1
+      ],
+      "Communication-rich": [
+        1.0,
+        1.5,
+        1.1,
+        1.0
+      ]
+    },
+    "channel_ablation_mode": "full"
+  },
+  "action": {
+    "route_fixed_actions": [
+      "idle",
+      "local",
+      "defer"
+    ],
+    "tx_select_idle_action": "idle",
+    "resource_group_count": 5,
+    "resource_width_options": [
+      1,
+      2
+    ],
+    "power_levels": [
+      0.0,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "cpu_queue_idle_action": "idle",
+    "cpu_frequency_levels": [
+      0.0,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "resource_group_numbering": "one_based_contiguous",
+    "sampling_order": [
+      "route",
+      "tx_select",
+      "resource_group",
+      "resource_width",
+      "power_level",
+      "cpu_queue",
+      "cpu_frequency"
+    ],
+    "canonical_inactive_values": {
+      "route": "idle",
+      "tx_select": "idle",
+      "resource_group": "idle",
+      "resource_width": 1,
+      "power_level": 0.0,
+      "cpu_queue": "idle",
+      "cpu_frequency": 0.0
+    }
+  },
+  "reproducibility": {
+    "seed_policy": "single_seed_default_42",
+    "stream_ids": {
+      "reset_mobility": 10,
+      "task_arrival": 20,
+      "task_workload": 30,
+      "channel_fading": 40,
+      "csi_error": 50,
+      "interference_measurement": 60,
+      "python_utility": 70,
+      "torch_initialization": 100,
+      "torch_policy_sampling": 110,
+      "qmix_epsilon": 120
+    },
+    "snapshot_enabled": true,
+    "backend_schema_version": "section4.v1",
+    "python_version": "3.13.11",
+    "numpy_version": "2.3.5",
+    "torch_version": "2.7.1+cu118",
+    "cuda_version": "11.8",
+    "miniconda_version": "25.11.1"
+  },
+  "training": {
+    "mappo": {
+      "encoder_hidden_dimension": 128,
+      "gat_layer_count": 1,
+      "attention_head_count": 4,
+      "gru_hidden_dimension": 128,
+      "actor_learning_rate": 0.0003,
+      "route_head_lr_scale": 0.1,
+      "route_private_backbone": true,
+      "tx_upper_decoder_mode": "private_candidate_binary_v1",
+      "cpu_scheduler_mode": "deadline_joint_v1",
+      "cpu_anti_starvation_mode": "deadline_feasibility_v1",
+      "route_exploration_mode": "annealed_top_level_log_barrier_v1",
+      "route_exploration_initial_coefficient": 0.05,
+      "route_exploration_anneal_steps": 6000,
+      "route_training_telemetry_enabled": true,
+      "route_task_credit_coefficient": 1.0,
+      "route_task_value_coefficient": 0.5,
+      "route_value_mode": "candidate_counterfactual_q_v1",
+      "route_counterfactual_credit_coefficient": 1.0,
+      "route_q_value_loss_coefficient": 0.5,
+      "route_q_input_mode": "normalized",
+      "route_actor_credit_source": "task_event",
+      "tx_upper_credit_mode": "paired_shadow_v1",
+      "tx_shadow_max_pairs_per_rollout": 2,
+      "tx_shadow_step_budget_per_rollout": 2000,
+      "tx_shadow_selector": "cyclic_source_first_active_v1",
+      "tx_shadow_rng_mode": "slot_addressed_v1",
+      "tx_shadow_rng_seed": 130043,
+      "tx_shadow_max_conditional_draws": 128,
+      "tx_shadow_advantage_normalization": "paired_rms_v1",
+      "critic_learning_rate": 0.0003,
+      "optimizer": "Adam",
+      "optimizer_topology": "separate_actor_critic",
+      "adam_beta1": 0.9,
+      "adam_beta2": 0.999,
+      "adam_eps": 1e-08,
+      "weight_decay": 0.0,
+      "zero_grad_set_to_none": true,
+      "gamma": 0.99,
+      "gae_lambda": 0.95,
+      "ppo_clip_epsilon": 0.2,
+      "actor_ratio_mode": "branch_specific",
+      "policy_loss_aggregation_mode": "branchwise_active_mean_v1",
+      "agent_credit_mode": "role_decomposed",
+      "route_decoder_mode": "unified_node_v1",
+      "route_feature_mode": "physical_relations_v1",
+      "tx_decoder_mode": "hierarchical_candidate_aware_v1",
+      "route_credit_mode": "task_event_value_v1",
+      "entropy_coefficient": 0.01,
+      "value_coefficient": 0.5,
+      "rollout_length_slots": 256,
+      "recurrent_chunk_length_slots": 32,
+      "sequence_minibatch_size": 8,
+      "update_epochs": 4,
+      "gradient_clip_norm": 0.5,
+      "gradient_clip_scope": "separate_actor_critic_global_norm",
+      "require_full_rollout": true,
+      "chunk_shuffle": false,
+      "timestep_shuffle": false,
+      "allow_incomplete_minibatch": false,
+      "sequence_padding": false,
+      "padded_actor_forward": false,
+      "advantage_normalization": false,
+      "value_clipping": false,
+      "target_kl_enabled": false,
+      "kl_early_stopping": false,
+      "learning_rate_schedule_enabled": false,
+      "entropy_coefficient_schedule_enabled": false,
+      "gradient_accumulation": false,
+      "mixed_precision": false,
+      "training_device": "cuda",
+      "carry_hidden_across_update_boundary": true,
+      "policy_sampling_reset_each_episode": false,
+      "discard_final_partial_rollout": true,
+      "max_training_episodes": 16,
+      "max_training_environment_steps": 8000,
+      "evaluation_interval_steps": 4000,
+      "checkpoint_interval_steps": 4000,
+      "checkpoint_schema_version": 1,
+      "conditional_credit_telemetry_enabled": true,
+      "conditional_credit_telemetry_max_bytes": 2147483648,
+      "route_diagnostic_samples_enabled": true
+    },
+    "qmix": {
+      "encoder_hidden_dimension": 128,
+      "gat_layer_count": 1,
+      "attention_head_count": 4,
+      "gru_hidden_dimension": 128,
+      "learning_rate": 0.0003,
+      "gamma": 0.99,
+      "optimizer": "Adam",
+      "replay_capacity_sequences": 10000,
+      "recurrent_sequence_length_slots": 32,
+      "sequence_batch_size": 32,
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.05,
+      "epsilon_decay_steps": 32000,
+      "target_update_interval_updates": 200,
+      "max_training_episodes": 32,
+      "max_training_environment_steps": 16000,
+      "checkpoint_interval_steps": 4000
+    },
+    "formal_rl_enabled": true
+  },
+  "evaluation": {
+    "train_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "evaluation_seeds": [
+      1042,
+      1043,
+      1044,
+      1045,
+      1046
+    ],
+    "inference_rule_mappo": "masked_argmax",
+    "inference_rule_qmix": "masked_greedy",
+    "update_network": false,
+    "metric_statistics": [
+      "mean",
+      "std",
+      "valid_sample_count"
+    ]
+  },
+  "output": {
+    "logs_dir": "logs/strong_baselines/development/c_feature_credit_qmix/seed43/16k",
+    "plots_dir": "plots/strong_baselines/development/c_feature_credit_qmix/seed43/16k",
+    "dashboard_logs_dir": "dashboard_logs/strong_baselines/development/c_feature_credit_qmix/seed43/16k",
+    "snapshot_filename": "config_snapshot.yaml",
+    "raw_metrics_filename": "raw_metrics.jsonl",
+    "aggregate_metrics_filename": "aggregate_metrics.json"
+  },
+  "reward": {
+    "credit_assignment_mode": "responsibility_terminal",
+    "beta_completion_credit": 0.5,
+    "mu_expiration_credit": 0.5
+  },
+  "_metadata": {
+    "source_config_path": "D:\\My_project_li\\experiments\\strong-baselines\\configs\\c-feature-credit-qmix-seed43-16k.json",
+    "cli_overrides": {},
+    "interactive_overrides": {},
+    "run_id": "c_feature_credit_qmix__remote_stress_v2__seed-43__cfg-9e7047a6d882__git-eb1140cefc4a",
+    "config_hash": "9e7047a6d882f2659b94650e199f53d36d214242baeea33c49587ec96e8b2d34",
+    "git_branch": "codex/e2-hierarchical-tx-v1",
+    "git_commit": "eb1140cefc4a0ff79b8bd0c05e73c7a23528d7ba",
+    "git_dirty": true,
+    "derived_stream_ids": {
+      "reset_mobility": 10,
+      "task_arrival": 20,
+      "task_workload": 30,
+      "channel_fading": 40,
+      "csi_error": 50,
+      "interference_measurement": 60,
+      "python_utility": 70,
+      "torch_initialization": 100,
+      "torch_policy_sampling": 110,
+      "qmix_epsilon": 120
+    },
+    "runtime_versions": {
+      "python": "3.13.11",
+      "numpy": "2.3.5",
+      "torch": "2.7.1+cu118",
+      "cuda": "11.8",
+      "miniconda": "25.11.1"
+    }
+  }
+}

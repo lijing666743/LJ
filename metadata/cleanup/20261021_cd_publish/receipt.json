@@ -1,0 +1,79 @@
+{
+  "schema": "cd_cleanup_and_publication_preparation.v1",
+  "checked_at_utc": "2026-10-20T23:52:58.167237+00:00",
+  "status": "PASS",
+  "active_learning_labels": [
+    "C",
+    "D"
+  ],
+  "retired_independent_A_B_runs_configs_absent": true,
+  "active_config_counts": {
+    "C": 8,
+    "D_staged": 15,
+    "D_engineering": 1
+  },
+  "fixed_policies_retained": [
+    "local_only",
+    "heuristic",
+    "random"
+  ],
+  "shared_legacy_test_inputs_retained": true,
+  "deleted_files": [
+    {
+      "path": "docs/presentations/proposal_revision_20261015/analysis/original_style_precheck_1792032837602.pptx",
+      "retained": "docs/presentations/proposal_revision_20261015/analysis/original_style_precheck.pptx",
+      "bytes": 6091685,
+      "sha256": "ca3d7dc5ac20b1127a2f1948c5e15bf6c0761832342e51d28212e53668d09e84",
+      "deleted": true
+    },
+    {
+      "path": "docs/presentations/proposal_revision_20261015/analysis/original_style_precheck_1792033761407.pptx",
+      "retained": "docs/presentations/proposal_revision_20261015/analysis/original_style_candidate.pptx",
+      "bytes": 6091971,
+      "sha256": "5dfb36c3bc60f272ab67d7fdd243e1d0bb15d99bd5bbfb0540972f6851130c06",
+      "deleted": true
+    },
+    {
+      "path": "docs/presentations/proposal_revision_20261015/analysis/original_style_precheck_1792033803854.pptx",
+      "retained": "docs/presentations/proposal_revision_20261015/analysis/original_style_candidate.pptx",
+      "bytes": 6091971,
+      "sha256": "5dfb36c3bc60f272ab67d7fdd243e1d0bb15d99bd5bbfb0540972f6851130c06",
+      "deleted": true
+    }
+  ],
+  "deleted_bytes": 18275627,
+  "empty_directories_found_before_cleanup": 0,
+  "failed_C_D_experiments_deleted_this_round": 0,
+  "scientific_preservation": {
+    "checked_at_utc": "2026-10-20T23:51:40.335291+00:00",
+    "status": "PASS",
+    "initial_strict_check_file": "scientific_inputs_after.json",
+    "initial_strict_check_retained": true,
+    "authorized_navigation_changes": [
+      "experiments/README.md",
+      "experiments/strong-baselines/README.md"
+    ],
+    "scientific_files_unchanged": 862,
+    "source_python_files_unchanged": 138,
+    "active_configuration_json_unchanged": 24,
+    "models_logs_csv_png_bytes_unchanged": true,
+    "original_HEAD_and_index_unchanged": true,
+    "explanation": "The broad initial preservation set included two intentionally updated navigation READMEs; all actual learning source, scientific config and experimental bytes matched. Initial result retained, reviewed against explicit authorized documentation changes."
+  },
+  "tests": {
+    "passed": 104,
+    "subtests_passed": 17,
+    "xml": "tests_retry.xml",
+    "scope": "Configuration/CLI, strong-baseline protocol, D continuation CLI and physical relation representation; not the entire historical test suite",
+    "first_attempt": "tests.xml",
+    "first_attempt_failure_cause": "Default sandbox system tempfile directory denied writes; repeated with explicit isolated workspace tempfile root, without code changes"
+  },
+  "protected_directories_not_processed": [
+    ".agents",
+    "knowledge"
+  ],
+  "source_or_reward_or_scientific_config_changed": false,
+  "publication_target": "https://github.com/lijing666743/LJ",
+  "old_remote_main": "2dc941a7f6e253bef820e9dff9120252c5f53ae3",
+  "new_training_or_evaluation_started": false
+}

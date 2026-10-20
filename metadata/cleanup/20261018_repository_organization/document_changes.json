@@ -1,0 +1,63 @@
+{
+  "schema": "repository_document_organization.v1",
+  "archived": [
+    {
+      "original": "README.md",
+      "snapshot": "metadata/reference/repository_snapshots/20261018_before_organization/README.md",
+      "bytes": 56667,
+      "sha256": "40c39b204aade64a9e8f377b84ae58154cd291676d7afa8c5108e49adad613ed"
+    },
+    {
+      "original": "docs/DIRECTORY_GUIDE.md",
+      "snapshot": "metadata/reference/repository_snapshots/20261018_before_organization/docs/DIRECTORY_GUIDE.md",
+      "bytes": 21851,
+      "sha256": "28065065b0994b44eb53910ee0759a7ace259d5813957e96eb53ba852294569e"
+    },
+    {
+      "original": "docs/results/CURRENT_EXPERIMENT_STATUS.md",
+      "snapshot": "metadata/reference/repository_snapshots/20261018_before_organization/docs/results/CURRENT_EXPERIMENT_STATUS.md",
+      "bytes": 43081,
+      "sha256": "799425e90420961bd65180fc93ceecbb080c73510400c10e852e9a62c9bcd079"
+    },
+    {
+      "original": "experiments/README.md",
+      "snapshot": "metadata/reference/repository_snapshots/20261018_before_organization/experiments/README.md",
+      "bytes": 1585,
+      "sha256": "3df86423e4a9a2328c95879e16fa999e2d644626e3e9f23db814b20c77b55f34"
+    },
+    {
+      "original": "metadata/README.md",
+      "snapshot": "metadata/reference/repository_snapshots/20261018_before_organization/metadata/README.md",
+      "bytes": 3154,
+      "sha256": "18806da9cb0ba19119fb2492108265a6973deefa92d667fefe463c014a294161"
+    },
+    {
+      "original": "logs/README.md",
+      "snapshot": "metadata/reference/repository_snapshots/20261018_before_organization/logs/README.md",
+      "bytes": 2641,
+      "sha256": "4ea227fa6309558d5291cb1f2f30497397104cbda850f7204cb74c1ab9b7ca0b"
+    },
+    {
+      "original": "sections/README.md",
+      "snapshot": "metadata/reference/repository_snapshots/20261018_before_organization/sections/README.md",
+      "bytes": 8780,
+      "sha256": "7148aa2e99aa880500b9b2fee388cd75262aabfba9bb1d80fe2b550319325a84"
+    }
+  ],
+  "edited": [
+    "README.md",
+    "docs/DIRECTORY_GUIDE.md",
+    "docs/results/CURRENT_EXPERIMENT_STATUS.md",
+    "experiments/README.md",
+    "metadata/README.md",
+    "logs/README.md",
+    "sections/README.md"
+  ],
+  "new": [
+    "docs/results/README.md",
+    "experiments/strong-baselines/README.md",
+    "metadata/CURRENT_WORKSPACE_INDEX.json"
+  ],
+  "source_config_model_paths_changed": false,
+  "new_runtime_commands": false
+}

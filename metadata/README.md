@@ -1,34 +1,43 @@
-# 身份与工程记录
+# 身份、审计与历史索引
 
-这里的内容用于核对当前版本，不作为额外训练结果。
+最新导航为 [CURRENT_WORKSPACE_INDEX.json](CURRENT_WORKSPACE_INDEX.json)，当前指标看[实验状态](../docs/results/CURRENT_EXPERIMENT_STATUS.md)。这里的审计不是额外实验结果。当前活动学习方法C/D及退役A/B身份见 [METHOD_CATALOG.json](METHOD_CATALOG.json)。
 
-| 位置 | 用途 |
-|---|---|
-| `ABC_RELEASE_MANIFEST.json` | A/B/C配置、源码、final模型、评估及现址 |
-| `ABC_FILE_MANIFEST.json` | 当前本地文件的SHA256清单 |
-| `DIRECTORY_RELOCATION.json` | 本次文件old→new路径与迁移前后校验；删除条目另列 |
-| `audits/seed42/` | Step07A原始取证JSON，数值与原路径保留；旧路径用迁移表查找 |
-| `audits/implementation/` | Step01—06最终报告、方法初始化/兼容与保护检查；旧调试迭代和源码副本已删除 |
-| `reference/p1a_seed42_1044/` | A baseline与历史P1a-1044对齐所需的最小原始证据；不用于训练初始化 |
-| `cleanup/20261013/` | 本次清理清单、删除记录、模型加载及完整工程回归结果 |
+## 当前证据
 
-旧审计中的路径和“当时文件存在/验证通过”等状态描述的是其执行时刻，不能当作整理后路径。当前存在性和字节一致性以最终清理验证为准。清理过程中曾创建的压缩包已按用户要求删除；相关旧校验记录仅描述当时操作，不表示现在仍有归档。
+| 位置 | 内容 |
+| --- | --- |
+| [audits/qmix_c_matched/20261018/](audits/qmix_c_matched/20261018/) | C 对齐审阅、当前 QMIX 实现、8k/16k 训练与评估核验 |
+| [audits/qmix_c_matched/20261019/](audits/qmix_c_matched/20261019/) | D seed42本地24k/32k/40k、seed43独立8k训练/评估、同预算C比较及多seed配置准备核验 |
+| [audits/qmix_c_matched/20261020/](audits/qmix_c_matched/20261020/) | D seed43的32k阶段与最终40k训练/十检查点评估核验、同预算C/D比较及表格核对；早期未齐全回执按时点解释 |
+| [audits/qmix_c_matched/20261021/](audits/qmix_c_matched/20261021/) | D seed44最终40k、十检查点评估与三训练seed固定预算比较核验 |
+| `audits/c40k_progress/` | C seed42 的 40k 与检查点评估 |
+| `audits/c_seed43_progress/`、`audits/c_seed44_progress/` | C 两次独立 40k 的来源与结果 |
+| `audits/checkpoint_progress/` | 既有 A/B/C 4k—16k 比较 |
+| 其他 `audits/` 日期目录 | 当时的工程检查、诊断或旧候选记录 |
 
-论文0—7章保持原样，其他当前方法说明在sections/。测试必须使用的旧张量放在tests/fixtures/，不在logs/制造第四组实验。
+## 历史身份与备份
 
-## 2026-10-14 当前导航
+| 位置 | 如何解释 |
+| --- | --- |
+| `ABC_RELEASE_MANIFEST.json`、`ABC_FILE_MANIFEST.json` | 原 A/B/C 8k 发布身份，不覆盖后续全部结果 |
+| `CURRENT_EXPERIMENT_MANIFEST.json` | 2026-10-14、C32k 时点的历史快照 |
+| `DIRECTORY_RELOCATION.json` | 原路径与现址的历史对照 |
+| `BASELINE_RECOVERY_MANIFEST.json`、`local_backups/` | 原发布恢复身份；C和共用ZIP保留，A/B专属本地ZIP已按退役范围清理 |
+| `reference/` | 历史最小证据与原文快照 |
+| `cleanup/` | 整理清单、删除边界和保护核验 |
 
-`ABC_RELEASE_MANIFEST.json`、`ABC_FILE_MANIFEST.json`保留原8k发布身份；当前本地整理另见`cleanup/20261014/`，不得把旧清单理解为包含续训后所有文件。
+旧路径、“已完成/尚未开始”等描述按原日期解释。保留旧审计不代表已删除的旧模型仍存在，也不构成运行入口。
 
-- `audits/continuation_implementation/`与`audits/continuation_launch/`：完整恢复实现和两次续训准备证据。
-- `audits/checkpoint_progress/20261013_4k8k12k16k/`：A/B/C开发阶段比较。
-- `audits/c_heuristic_gap/`、`c_heuristic_timeline/`、`c_route_energy_inputs/`、`c_energy_progress/`：C16k任务与能耗诊断。
-- `audits/c32k_progress/20261014_16k32k/`：C32k完整性、能耗和逐场景进度。
-- `audits/group_meeting_summary/20261014_scene_fix/`：当前有效修正版图表验证；原20261014审计为历史记录。
-- `cleanup/20261014/c_continuation_retention.json`：本轮实际读取的C32k全部checkpoint状态。
+2026-10-20按用户要求退役A/B独立实验。删除清单、真实历史指标与C/D保护核验见[本次回执](cleanup/20261020_retire_ab/receipt.json)。原ABC发布清单、混合历史审计及测试夹具来源仍为C/D提供追溯，保持原文，不作为活动A/B实验入口；没有按关键词清除共用实现或改写旧结论。
 
-清理前Git工作区已有大量修改和删除，其中包括knowledge内的既有删除状态；本轮不恢复、不处理这些受保护文件，基线状态单独记录，不能归因于本轮清理。
+同日进一步检查发现上轮遗漏的A/B恢复ZIP及旧混合导出，已补清理；旧QMIX配置按测试依赖迁入夹具或删除，记录在[深度清理清单](cleanup/20261020_deep_cd_cleanup/plan.json)。原发布清单和历史审计不改写，其中已删除路径不作当前存在性承诺；C/D源码、活动配置、模型与结果保留。
 
-当前本地身份快照见[CURRENT_EXPERIMENT_MANIFEST.json](CURRENT_EXPERIMENT_MANIFEST.json)，覆盖13份正式配置、107个src模块和20个实验checkpoint；本轮结论见[清理报告](cleanup/20261014/cleanup_report.md)。该清单记录20261014时点，后续续训应创建新的身份记录。
+## 本次整理
 
-方法说明后续归类与公式排版记录见`cleanup/20261014_sections_formatting/`：旧sections根文件已移入methods/history，旧清单中的路径通过relocation_receipt.json定位，历史审计身份不覆盖。[现行材料索引](../sections/README.md)提供直接入口。此前离线HTML当前不在工作区，历史渲染校验仍保留其执行时刻的记录。
+[整理回执](cleanup/20261018_repository_organization/receipt.json)记录原文件、归档、缓存及重复副本清理和整理后核验。[整理前快照](reference/repository_snapshots/20261018_before_organization/snapshot_manifest.json)逐字保留七份旧导航文档，其相对链接按原位置解释。
+
+本次只对经哈希确认的重复诊断副本去重；保留的标准文件及旧路径映射见整理回执。历史执行日志保持原文，记录当时的重建路径。`.agents/`、`knowledge/` 不在枚举或处理范围；既有 Git 修改和删除不作恢复、提交或上传。
+
+## D 的固定命名与进一步精简
+
+当前版本固定称 D（CFC-QMIX），内部标识、配置和模型路径不改。[本轮回执](cleanup/20261018_method_d_cleanup/receipt.json)记录工程输出、重复图片包与空目录的清理。原组会 ZIP 的 14 个文件均在展开目录中逐字保留，验收记录保留；历史清单继续描述其原执行时点。

@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "original_32k_replay_boundary_exact": true,
+  "original_32k_episode_and_ppo_prefix_exact": true,
+  "final_state": {
+    "policy_version": 156,
+    "started_episodes": 80,
+    "completed_episodes": 80,
+    "next_episode_index": 80,
+    "collected_environment_transitions": 40000,
+    "optimized_transitions": 39936,
+    "ppo_update_count": 156,
+    "unused_final_tail_transitions": 64,
+    "training_complete": true,
+    "active_rollout_length": 0,
+    "active_rollout_policy_version": null
+  },
+  "continuation": {
+    "schema_version": 1,
+    "source_checkpoint": "D:\\My_project_li\\logs\\C\\seed42\\32k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a\\checkpoints\\step_28000.pt",
+    "source_sha256": "940cef6a89ffa43bcb23747f0e9f2740411afc5c526053193df24eb00cba360c",
+    "source_config_hash": "02c7757520b8decc37e6c93d044675c7a002b7c4ab452968768595d872830cdd",
+    "target_config_hash": "708b8aaa4d67e8ff24a3c8ae4c44d97f89ab79b28fc1b7927547f83c1916ba4a",
+    "restored_environment_steps": 28000,
+    "restored_pending_transitions": 96,
+    "target_environment_steps": 40000,
+    "diagnostic_sidecars_start_at": 28000,
+    "previous": {
+      "schema_version": 1,
+      "source_checkpoint": "D:\\My_project_li\\logs\\C\\seed42\\16k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a\\checkpoints\\step_12000.pt",
+      "source_sha256": "7c9034e00432c2545f8be8a972ac65580bec6602a7c3e061ef39fa76c91d3690",
+      "source_config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+      "target_config_hash": "02c7757520b8decc37e6c93d044675c7a002b7c4ab452968768595d872830cdd",
+      "restored_environment_steps": 12000,
+      "restored_pending_transitions": 224,
+      "target_environment_steps": 32000,
+      "diagnostic_sidecars_start_at": 12000,
+      "previous": {
+        "schema_version": 1,
+        "source_checkpoint": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\step_4000.pt",
+        "source_sha256": "2a92745919ef42316131ab70dd67c6cbb9fa91cfb1cb08ebd2931e5913b50325",
+        "source_config_hash": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15",
+        "target_config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+        "restored_environment_steps": 4000,
+        "restored_pending_transitions": 160,
+        "target_environment_steps": 16000,
+        "diagnostic_sidecars_start_at": 4000,
+        "previous": null,
+        "replay_reference": {
+          "path": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\final.pt",
+          "sha256": "58da11c49bde4a517471e1386842b90568fdb1ffe51d9c290caa7e3d442ff1b5",
+          "environment_steps": 8000,
+          "status": "verified_exact"
+        }
+      },
+      "replay_reference": {
+        "path": "D:\\My_project_li\\logs\\C\\seed42\\16k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-551432924db1__git-eb1140cefc4a\\checkpoints\\final.pt",
+        "sha256": "dc8754d7871161233d65ee488e2125dbc4258b555b0a3efb7d579c264800c087",
+        "environment_steps": 16000,
+        "status": "verified_exact"
+      }
+    },
+    "replay_reference": {
+      "path": "D:\\My_project_li\\logs\\C\\seed42\\32k_continuation\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-02c7757520b8__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "sha256": "7b1191d87095e6dd08a6c5523475cfc9c9c67494cffed4f7ef287379efa656b2",
+      "environment_steps": 32000,
+      "status": "verified_exact"
+    }
+  },
+  "aggregate_checks": {
+    "critic_loss_is_nonnegative": true,
+    "entropy_is_nonnegative": true,
+    "environment_budget_reached": true,
+    "ppo_epoch_count_matches": true,
+    "ppo_stability_telemetry_is_finite": true,
+    "ppo_update_accounting_matches": true,
+    "ppo_update_present": true,
+    "ppo_values_are_finite": true,
+    "ratio_is_positive": true,
+    "reward_count_matches_transitions": true,
+    "reward_formula_identity_holds": true,
+    "reward_values_are_finite": true,
+    "route_entropy_schedule_telemetry_identity_holds": true,
+    "route_telemetry_schema_is_valid": true
+  },
+  "training_started_by_this_audit": false
+}

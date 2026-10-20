@@ -1,0 +1,585 @@
+{
+  "checked_at_utc": "2026-10-20T17:15:13.986027+00:00",
+  "schema": "frozen_evaluation_readonly_audit.v1",
+  "training_seed": 44,
+  "primary_report_step": 40000,
+  "final_comparison_budget_remains": 40000,
+  "final40k_evaluation_complete": true,
+  "series_id": "qmix-checkpoints__seed-44__c3763bcad3bea2ef",
+  "checkpoints": [
+    {
+      "training_steps": 4000,
+      "kind": "periodic",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\8k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-505599d604ea__git-eb1140cefc4a\\checkpoints\\step_004000.pt",
+      "sha256": "f88827fc618f25a799401543bf60f19f058f7d3b7eb99c058f3c9d64c956d001",
+      "evaluation_run_id": "qmix-eval__072f7013137a7a4a",
+      "source_training_config_hash": "505599d604ea1d61d863184ec896f72c280ad1c2fa4978da441141c7151d994c",
+      "inherited": true,
+      "continuation_evaluator_sha256": "72a65cb42ea37ee742feb7a63e12df59855bd9824b703ca3f3f274669cf9b9b9"
+    },
+    {
+      "training_steps": 8000,
+      "kind": "final",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\8k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-505599d604ea__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "sha256": "9542bdb37dd581db546af418e2bb9e02b40506cd481c8f5bcdf4040017721188",
+      "evaluation_run_id": "qmix-eval__cdbfd5944e93359f",
+      "source_training_config_hash": "505599d604ea1d61d863184ec896f72c280ad1c2fa4978da441141c7151d994c",
+      "inherited": true,
+      "continuation_evaluator_sha256": "72a65cb42ea37ee742feb7a63e12df59855bd9824b703ca3f3f274669cf9b9b9"
+    },
+    {
+      "training_steps": 12000,
+      "kind": "periodic",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\16k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-6a276b46fb09__git-eb1140cefc4a\\checkpoints\\step_012000.pt",
+      "sha256": "33b85dd3f286582e2d144694617a6cdd8103641277520eb279328987ceb9932a",
+      "evaluation_run_id": "qmix-eval__a456202f584320b2",
+      "source_training_config_hash": "6a276b46fb09b627ef43d33707f37b48cc82a4899f19f0aa8bc4fccfd00c531d",
+      "inherited": true,
+      "continuation_evaluator_sha256": "72a65cb42ea37ee742feb7a63e12df59855bd9824b703ca3f3f274669cf9b9b9"
+    },
+    {
+      "training_steps": 16000,
+      "kind": "final",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\16k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-6a276b46fb09__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "sha256": "dc3f28e2a3cc8bb9893246ef169e4088a56a71e49fc75b7589e87ce3fc997edf",
+      "evaluation_run_id": "qmix-eval__5343dec81a8e3dbd",
+      "source_training_config_hash": "6a276b46fb09b627ef43d33707f37b48cc82a4899f19f0aa8bc4fccfd00c531d",
+      "inherited": true,
+      "continuation_evaluator_sha256": "72a65cb42ea37ee742feb7a63e12df59855bd9824b703ca3f3f274669cf9b9b9"
+    },
+    {
+      "training_steps": 20000,
+      "kind": "periodic",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\24k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-550ef31861fc__git-eb1140cefc4a\\checkpoints\\step_020000.pt",
+      "sha256": "c8119948280f0156cbfa49ce146a27d423da42b35c77b891c6dde3af17ad7e76",
+      "evaluation_run_id": "qmix-eval__100aec10ce710f20",
+      "source_training_config_hash": "550ef31861fcf7ddc931faddf78321ed55f008cb395189feb4273f88f75ebf5b",
+      "inherited": true,
+      "continuation_evaluator_sha256": "72a65cb42ea37ee742feb7a63e12df59855bd9824b703ca3f3f274669cf9b9b9"
+    },
+    {
+      "training_steps": 24000,
+      "kind": "final",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\24k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-550ef31861fc__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "sha256": "b9b2ea77f06850f7790180f66b91e7b089850a746aea32a4745ea491ca2194b0",
+      "evaluation_run_id": "qmix-eval__4567220b9a5c751c",
+      "source_training_config_hash": "550ef31861fcf7ddc931faddf78321ed55f008cb395189feb4273f88f75ebf5b",
+      "inherited": true,
+      "continuation_evaluator_sha256": "72a65cb42ea37ee742feb7a63e12df59855bd9824b703ca3f3f274669cf9b9b9"
+    },
+    {
+      "training_steps": 28000,
+      "kind": "periodic",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\32k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-28d708fc2cfa__git-eb1140cefc4a\\checkpoints\\step_028000.pt",
+      "sha256": "972f20e27bde0968b0feb48ee64015dc9ceff38520df120e9ff31ca91eabee14",
+      "evaluation_run_id": "qmix-eval__239dd51ec0fce588",
+      "source_training_config_hash": "28d708fc2cfaacd72fa717bb2dcc41837600695a4c576b15541cdf13b9c30337",
+      "inherited": true,
+      "continuation_evaluator_sha256": "72a65cb42ea37ee742feb7a63e12df59855bd9824b703ca3f3f274669cf9b9b9"
+    },
+    {
+      "training_steps": 32000,
+      "kind": "final",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\32k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-28d708fc2cfa__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "sha256": "c0befc6e4a5d1deeceb64e7f223ea01caccb52ced5bb2ebcf20f58fb0f544dcf",
+      "evaluation_run_id": "qmix-eval__28c035527e7b0e7d",
+      "source_training_config_hash": "28d708fc2cfaacd72fa717bb2dcc41837600695a4c576b15541cdf13b9c30337",
+      "inherited": true,
+      "continuation_evaluator_sha256": "72a65cb42ea37ee742feb7a63e12df59855bd9824b703ca3f3f274669cf9b9b9"
+    },
+    {
+      "training_steps": 36000,
+      "kind": "periodic",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\40k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-9355ac0590f8__git-eb1140cefc4a\\checkpoints\\step_036000.pt",
+      "sha256": "2e6480fb8e754bdd482a92bed273c692dd2676b167bfff454c7d6b439a553c7d",
+      "evaluation_run_id": "qmix-eval__97988903e7dac216",
+      "source_training_config_hash": "9355ac0590f8c1e027d038a1aee5673b78ad11196fdda79db7caf018468e44e3",
+      "inherited": false,
+      "continuation_evaluator_sha256": "72a65cb42ea37ee742feb7a63e12df59855bd9824b703ca3f3f274669cf9b9b9"
+    },
+    {
+      "training_steps": 40000,
+      "kind": "final",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\40k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-9355ac0590f8__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "sha256": "7200a3210bff4b205f244a21b979c8c2dd13bed58e2f246c02053176942eaea7",
+      "evaluation_run_id": "qmix-eval__8aa8851623fad490",
+      "source_training_config_hash": "9355ac0590f8c1e027d038a1aee5673b78ad11196fdda79db7caf018468e44e3",
+      "inherited": false,
+      "continuation_evaluator_sha256": "72a65cb42ea37ee742feb7a63e12df59855bd9824b703ca3f3f274669cf9b9b9"
+    }
+  ],
+  "checkpoint_count": 10,
+  "record_count": 200,
+  "summary_rows": 40,
+  "scene_rows": 200,
+  "network_updates": 0,
+  "fixed_baseline_repeat_matches": 135,
+  "checkpoint_bytes_verified": true,
+  "production_cached_record_validator_used": true,
+  "independent_summary_and_csv_rebuilt": true,
+  "shared_external_traces_and_fixed_baselines_verified": true,
+  "prior_stage_summary_prefixes_unchanged": true,
+  "delay_mean_and_count_checked_std_not_independently_reconstructed": true,
+  "checkpoint_tensor_or_replay_loads": 0,
+  "new_environment_or_training_steps": 0,
+  "progress": [
+    {
+      "training_steps": 4000,
+      "generated": 605,
+      "completed": 117,
+      "expired": 442,
+      "truncated": 46,
+      "total_energy_j": 72.82911780530952,
+      "cpu_energy_j": 71.71644952703224,
+      "tx_energy_j": 1.112668278277289,
+      "completion_ratio": 0.1933884297520661,
+      "energy_per_completed_task_j": 0.6224710923530729,
+      "mean_reward": -85.4690128266313,
+      "completed_task_e2e_delay_s": 0.42957264957264957
+    },
+    {
+      "training_steps": 8000,
+      "generated": 605,
+      "completed": 314,
+      "expired": 246,
+      "truncated": 45,
+      "total_energy_j": 141.93599933066062,
+      "cpu_energy_j": 140.70281718350054,
+      "tx_energy_j": 1.2331821471600637,
+      "completion_ratio": 0.5190082644628099,
+      "energy_per_completed_task_j": 0.4520254755753523,
+      "mean_reward": 0.33272482125612796,
+      "completed_task_e2e_delay_s": 0.4338216560509554
+    },
+    {
+      "training_steps": 12000,
+      "generated": 605,
+      "completed": 331,
+      "expired": 228,
+      "truncated": 46,
+      "total_energy_j": 141.69248549312215,
+      "cpu_energy_j": 140.30510933560936,
+      "tx_energy_j": 1.38737615751279,
+      "completion_ratio": 0.547107438016529,
+      "energy_per_completed_task_j": 0.4280739742994627,
+      "mean_reward": 8.443656558690007,
+      "completed_task_e2e_delay_s": 0.479939577039275
+    },
+    {
+      "training_steps": 16000,
+      "generated": 605,
+      "completed": 318,
+      "expired": 242,
+      "truncated": 45,
+      "total_energy_j": 141.46435691242252,
+      "cpu_energy_j": 140.39695600891085,
+      "tx_energy_j": 1.0674009035116465,
+      "completion_ratio": 0.5256198347107438,
+      "energy_per_completed_task_j": 0.44485646827805825,
+      "mean_reward": 2.1099414257637545,
+      "completed_task_e2e_delay_s": 0.4267924528301887
+    },
+    {
+      "training_steps": 20000,
+      "generated": 605,
+      "completed": 371,
+      "expired": 191,
+      "truncated": 43,
+      "total_energy_j": 161.20859220440892,
+      "cpu_energy_j": 159.85601871029525,
+      "tx_energy_j": 1.352573494113676,
+      "completion_ratio": 0.6132231404958678,
+      "energy_per_completed_task_j": 0.4345245072895119,
+      "mean_reward": 26.074166856961106,
+      "completed_task_e2e_delay_s": 0.4384366576819407
+    },
+    {
+      "training_steps": 24000,
+      "generated": 605,
+      "completed": 401,
+      "expired": 161,
+      "truncated": 43,
+      "total_energy_j": 173.35052422844436,
+      "cpu_energy_j": 171.28684454411112,
+      "tx_energy_j": 2.063679684333259,
+      "completion_ratio": 0.6628099173553719,
+      "energy_per_completed_task_j": 0.4322955716420059,
+      "mean_reward": 39.01179274933098,
+      "completed_task_e2e_delay_s": 0.4350623441396509
+    },
+    {
+      "training_steps": 28000,
+      "generated": 605,
+      "completed": 419,
+      "expired": 144,
+      "truncated": 42,
+      "total_energy_j": 173.60972718942216,
+      "cpu_energy_j": 171.66412763961668,
+      "tx_energy_j": 1.9455995498054985,
+      "completion_ratio": 0.6925619834710743,
+      "energy_per_completed_task_j": 0.41434302431842995,
+      "mean_reward": 46.0958470205089,
+      "completed_task_e2e_delay_s": 0.4375656324582339
+    },
+    {
+      "training_steps": 32000,
+      "generated": 605,
+      "completed": 421,
+      "expired": 143,
+      "truncated": 41,
+      "total_energy_j": 181.6217026209619,
+      "cpu_energy_j": 179.7321525186434,
+      "tx_energy_j": 1.889550102318517,
+      "completion_ratio": 0.6958677685950413,
+      "energy_per_completed_task_j": 0.4314054694084606,
+      "mean_reward": 47.02272203485033,
+      "completed_task_e2e_delay_s": 0.42204275534441804
+    },
+    {
+      "training_steps": 36000,
+      "generated": 605,
+      "completed": 423,
+      "expired": 139,
+      "truncated": 43,
+      "total_energy_j": 179.57631036802647,
+      "cpu_energy_j": 177.71859339783845,
+      "tx_energy_j": 1.8577169701880047,
+      "completion_ratio": 0.6991735537190082,
+      "energy_per_completed_task_j": 0.4245302845579822,
+      "mean_reward": 48.380850942672815,
+      "completed_task_e2e_delay_s": 0.4361229314420804
+    },
+    {
+      "training_steps": 40000,
+      "generated": 605,
+      "completed": 409,
+      "expired": 151,
+      "truncated": 45,
+      "total_energy_j": 177.54413331438207,
+      "cpu_energy_j": 175.6305500861415,
+      "tx_energy_j": 1.9135832282405512,
+      "completion_ratio": 0.6760330578512397,
+      "energy_per_completed_task_j": 0.43409323548748674,
+      "mean_reward": 42.49022922488691,
+      "completed_task_e2e_delay_s": 0.44777506112469434
+    }
+  ],
+  "comparisons_40k": [
+    {
+      "label": "D seed44 40k",
+      "generated": 605,
+      "completed": 409,
+      "expired": 151,
+      "truncated": 45,
+      "total_energy_j": 177.54413331438207,
+      "cpu_energy_j": 175.6305500861415,
+      "tx_energy_j": 1.9135832282405512,
+      "completion_ratio": 0.6760330578512397,
+      "energy_per_completed_task_j": 0.43409323548748674,
+      "mean_reward": 42.49022922488691,
+      "completed_task_e2e_delay_s": 0.44777506112469434
+    },
+    {
+      "label": "D seed42 40k",
+      "generated": 605,
+      "completed": 425,
+      "expired": 139,
+      "truncated": 41,
+      "total_energy_j": 182.37186433355242,
+      "cpu_energy_j": 180.24739952428874,
+      "tx_energy_j": 2.124464809263685,
+      "completion_ratio": 0.7024793388429752,
+      "energy_per_completed_task_j": 0.42911026902012334,
+      "mean_reward": 48.87197257368038,
+      "completed_task_e2e_delay_s": 0.4154823529411765
+    },
+    {
+      "label": "D seed43 40k",
+      "generated": 605,
+      "completed": 419,
+      "expired": 147,
+      "truncated": 39,
+      "total_energy_j": 178.4763949947075,
+      "cpu_energy_j": 176.926697669507,
+      "tx_energy_j": 1.5496973252004853,
+      "completion_ratio": 0.6925619834710743,
+      "energy_per_completed_task_j": 0.4259579832809248,
+      "mean_reward": 46.21520659996939,
+      "completed_task_e2e_delay_s": 0.41455847255369926
+    },
+    {
+      "label": "C seed44 40k",
+      "generated": 605,
+      "completed": 370,
+      "expired": 193,
+      "truncated": 42,
+      "total_energy_j": 177.07950872110348,
+      "cpu_energy_j": 171.06666482066797,
+      "tx_energy_j": 6.012843900435506,
+      "completion_ratio": 0.6115702479338843,
+      "energy_per_completed_task_j": 0.47859326681379316,
+      "mean_reward": 25.363507223347504,
+      "completed_task_e2e_delay_s": 0.3978378378378378
+    },
+    {
+      "label": "C seed43 40k",
+      "generated": 605,
+      "completed": 391,
+      "expired": 168,
+      "truncated": 46,
+      "total_energy_j": 186.82833758079127,
+      "cpu_energy_j": 181.1101496820859,
+      "tx_energy_j": 5.718187898705383,
+      "completion_ratio": 0.6462809917355372,
+      "energy_per_completed_task_j": 0.47782183524499044,
+      "mean_reward": 35.58931219363032,
+      "completed_task_e2e_delay_s": 0.4149360613810742
+    },
+    {
+      "label": "C seed42 40k",
+      "generated": 605,
+      "completed": 412,
+      "expired": 151,
+      "truncated": 42,
+      "total_energy_j": 187.70649261883867,
+      "cpu_energy_j": 182.3333111956157,
+      "tx_energy_j": 5.373181423222952,
+      "completion_ratio": 0.6809917355371901,
+      "energy_per_completed_task_j": 0.45559828305543365,
+      "mean_reward": 43.432818552967895,
+      "completed_task_e2e_delay_s": 0.4148058252427185
+    },
+    {
+      "label": "Heuristic",
+      "generated": 605,
+      "completed": 371,
+      "expired": 190,
+      "truncated": 44,
+      "total_energy_j": 109.1668506307753,
+      "cpu_energy_j": 108.59256812073247,
+      "tx_energy_j": 0.5742825100428339,
+      "completion_ratio": 0.6132231404958678,
+      "energy_per_completed_task_j": 0.29425027124198194,
+      "mean_reward": 26.022282434158512,
+      "completed_task_e2e_delay_s": 0.5313207547169811
+    },
+    {
+      "label": "Local",
+      "generated": 605,
+      "completed": 323,
+      "expired": 243,
+      "truncated": 39,
+      "total_energy_j": 118.66321643549148,
+      "cpu_energy_j": 118.66321643549148,
+      "tx_energy_j": 0.0,
+      "completion_ratio": 0.5338842975206611,
+      "energy_per_completed_task_j": 0.3673783790572492,
+      "mean_reward": 4.867831322473131,
+      "completed_task_e2e_delay_s": 0.3977089783281734
+    }
+  ],
+  "scenarios_40k": [
+    {
+      "evaluation_seed": 1042,
+      "generated": 135,
+      "D seed44 40k": 92,
+      "D seed42 40k": 105,
+      "D seed43 40k": 102,
+      "C seed44 40k": 86,
+      "C seed43 40k": 91,
+      "C seed42 40k": 101,
+      "Heuristic": 100,
+      "Local": 73,
+      "D44_32k": 105
+    },
+    {
+      "evaluation_seed": 1043,
+      "generated": 122,
+      "D seed44 40k": 87,
+      "D seed42 40k": 85,
+      "D seed43 40k": 87,
+      "C seed44 40k": 83,
+      "C seed43 40k": 86,
+      "C seed42 40k": 91,
+      "Heuristic": 64,
+      "Local": 60,
+      "D44_32k": 92
+    },
+    {
+      "evaluation_seed": 1044,
+      "generated": 117,
+      "D seed44 40k": 95,
+      "D seed42 40k": 90,
+      "D seed43 40k": 89,
+      "C seed44 40k": 74,
+      "C seed43 40k": 85,
+      "C seed42 40k": 80,
+      "Heuristic": 92,
+      "Local": 70,
+      "D44_32k": 91
+    },
+    {
+      "evaluation_seed": 1045,
+      "generated": 102,
+      "D seed44 40k": 64,
+      "D seed42 40k": 73,
+      "D seed43 40k": 70,
+      "C seed44 40k": 63,
+      "C seed43 40k": 65,
+      "C seed42 40k": 67,
+      "Heuristic": 53,
+      "Local": 61,
+      "D44_32k": 66
+    },
+    {
+      "evaluation_seed": 1046,
+      "generated": 129,
+      "D seed44 40k": 71,
+      "D seed42 40k": 72,
+      "D seed43 40k": 71,
+      "C seed44 40k": 64,
+      "C seed43 40k": 64,
+      "C seed42 40k": 73,
+      "Heuristic": 62,
+      "Local": 59,
+      "D44_32k": 67
+    }
+  ],
+  "evaluation_sources": [
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\8k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-505599d604ea__git-eb1140cefc4a\\checkpoint_progress\\step_004000\\qmix-eval__072f7013137a7a4a\\evaluation_manifest.json",
+      "sha256": "41e75ced6187e27e05299050303b4354774e2a7bf315493afa84f153110d17dc"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\8k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-505599d604ea__git-eb1140cefc4a\\checkpoint_progress\\step_004000\\qmix-eval__072f7013137a7a4a\\episode_metrics.jsonl",
+      "sha256": "f40c842cd14d45cbcafe9e25e890939818773a64361e828f5d4cd9c93e2462dc"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\8k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-505599d604ea__git-eb1140cefc4a\\checkpoint_progress\\step_004000\\qmix-eval__072f7013137a7a4a\\aggregate_metrics.json",
+      "sha256": "4934542f72a195935f80f0527a7eb1b22914dac26efd683df17839c8a49c27cc"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\8k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-505599d604ea__git-eb1140cefc4a\\checkpoint_progress\\step_008000\\qmix-eval__cdbfd5944e93359f\\evaluation_manifest.json",
+      "sha256": "6d4b327190041f01293a9fc5a54780aaeb2a8787fbb3cc1f79fb5f7090455347"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\8k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-505599d604ea__git-eb1140cefc4a\\checkpoint_progress\\step_008000\\qmix-eval__cdbfd5944e93359f\\episode_metrics.jsonl",
+      "sha256": "e2db3af3b8cf1947d395739abbbac47c5c1b4d334a804f950dc1ee1b13521a7c"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\8k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-505599d604ea__git-eb1140cefc4a\\checkpoint_progress\\step_008000\\qmix-eval__cdbfd5944e93359f\\aggregate_metrics.json",
+      "sha256": "412ce7c4157be5b97fd5ffbda31ea3a5b9ef146b8575f25648e116b6598b6310"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\16k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-6a276b46fb09__git-eb1140cefc4a\\checkpoint_progress\\step_012000\\qmix-eval__a456202f584320b2\\evaluation_manifest.json",
+      "sha256": "b1e62b064723f1cc5cab6771277cb60d7437400c42e370e18447b7b25f52939f"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\16k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-6a276b46fb09__git-eb1140cefc4a\\checkpoint_progress\\step_012000\\qmix-eval__a456202f584320b2\\episode_metrics.jsonl",
+      "sha256": "a0dd66a5e9a00742c556ccbe695f4f4a1730ba8b1c0623c2803eb7a68efd0d14"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\16k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-6a276b46fb09__git-eb1140cefc4a\\checkpoint_progress\\step_012000\\qmix-eval__a456202f584320b2\\aggregate_metrics.json",
+      "sha256": "96274d80702f7440d2518e19d7ce72a2db1212c2d6000a35174b7650b55f0870"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\16k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-6a276b46fb09__git-eb1140cefc4a\\checkpoint_progress\\step_016000\\qmix-eval__5343dec81a8e3dbd\\evaluation_manifest.json",
+      "sha256": "912555a75ef1a8e2743dfd4d97bf154cac4040436a993b7515c7b3639d92b0e7"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\16k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-6a276b46fb09__git-eb1140cefc4a\\checkpoint_progress\\step_016000\\qmix-eval__5343dec81a8e3dbd\\episode_metrics.jsonl",
+      "sha256": "218222d60aa6316b7c4fad1ac94674d731da9dc41b8e2c674cc6876de3768cd7"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\16k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-6a276b46fb09__git-eb1140cefc4a\\checkpoint_progress\\step_016000\\qmix-eval__5343dec81a8e3dbd\\aggregate_metrics.json",
+      "sha256": "e4a3bf6e24fa3d320ba2d2c5c764074d6a9d0b99ca7a6be130d1e06398f2d8b0"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\24k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-550ef31861fc__git-eb1140cefc4a\\checkpoint_progress\\step_020000\\qmix-eval__100aec10ce710f20\\evaluation_manifest.json",
+      "sha256": "66d80d3c1bad63e52fd814b615654278b4f82142eebc6b6da2510465df8bcc88"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\24k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-550ef31861fc__git-eb1140cefc4a\\checkpoint_progress\\step_020000\\qmix-eval__100aec10ce710f20\\episode_metrics.jsonl",
+      "sha256": "6799b54c74c375d55ceb1f46b351edf7f2481e02a0074a68d839248676bbd05a"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\24k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-550ef31861fc__git-eb1140cefc4a\\checkpoint_progress\\step_020000\\qmix-eval__100aec10ce710f20\\aggregate_metrics.json",
+      "sha256": "57276774ef31c56c16e9ac256fab113a098d5e865ccadb386239da75efdf7ce6"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\24k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-550ef31861fc__git-eb1140cefc4a\\checkpoint_progress\\step_024000\\qmix-eval__4567220b9a5c751c\\evaluation_manifest.json",
+      "sha256": "92fa4e29615dec1e17084d611e28c78c55144fbbb2eeefc3d3e41195384a975e"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\24k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-550ef31861fc__git-eb1140cefc4a\\checkpoint_progress\\step_024000\\qmix-eval__4567220b9a5c751c\\episode_metrics.jsonl",
+      "sha256": "043342c99f1d5eb94a9e24614e12d1af52be5f94ab140c757121a504b712a38f"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\24k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-550ef31861fc__git-eb1140cefc4a\\checkpoint_progress\\step_024000\\qmix-eval__4567220b9a5c751c\\aggregate_metrics.json",
+      "sha256": "44ed18fd1664dee932dc7d24f48c707774010fcd8cb36fc0f8f40019f0d5f56a"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\32k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-28d708fc2cfa__git-eb1140cefc4a\\checkpoint_progress\\step_028000\\qmix-eval__239dd51ec0fce588\\evaluation_manifest.json",
+      "sha256": "3a97efb2a560bba3f54a8b79992d20a6e0cfcbda018a61d9abd4ce41e466360d"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\32k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-28d708fc2cfa__git-eb1140cefc4a\\checkpoint_progress\\step_028000\\qmix-eval__239dd51ec0fce588\\episode_metrics.jsonl",
+      "sha256": "fbfe36d4852c75a3b8a8438b4c1385525a8368302655834ee5a4122711e6e88a"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\32k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-28d708fc2cfa__git-eb1140cefc4a\\checkpoint_progress\\step_028000\\qmix-eval__239dd51ec0fce588\\aggregate_metrics.json",
+      "sha256": "48b614e1f9d96c6b5fbc778409aae5fad96b51058c680c4d36eff610cc6fa30e"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\32k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-28d708fc2cfa__git-eb1140cefc4a\\checkpoint_progress\\step_032000\\qmix-eval__28c035527e7b0e7d\\evaluation_manifest.json",
+      "sha256": "fbebee9a7dbe2fd13f8f3ec3b9629980f5c930a36b9c5dd86aac59b67a7c12fe"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\32k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-28d708fc2cfa__git-eb1140cefc4a\\checkpoint_progress\\step_032000\\qmix-eval__28c035527e7b0e7d\\episode_metrics.jsonl",
+      "sha256": "1cf93778bd7a26005e60269fd89a8db473da73b2de61460851f56310afdaf3f7"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\32k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-28d708fc2cfa__git-eb1140cefc4a\\checkpoint_progress\\step_032000\\qmix-eval__28c035527e7b0e7d\\aggregate_metrics.json",
+      "sha256": "bb1e4b88969673223f18a35d5923319df859cba678f16a4c8109a053ae9fd48d"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\40k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-9355ac0590f8__git-eb1140cefc4a\\checkpoint_progress\\step_036000\\qmix-eval__97988903e7dac216\\evaluation_manifest.json",
+      "sha256": "41e7835c99f09124158431d6131bbb5cae9c75bf54b15adf36f65c015241d74e"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\40k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-9355ac0590f8__git-eb1140cefc4a\\checkpoint_progress\\step_036000\\qmix-eval__97988903e7dac216\\episode_metrics.jsonl",
+      "sha256": "b8230ff0bc9d807e45708ab29e23c75fedf565b05837250e071986743b062a7b"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\40k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-9355ac0590f8__git-eb1140cefc4a\\checkpoint_progress\\step_036000\\qmix-eval__97988903e7dac216\\aggregate_metrics.json",
+      "sha256": "5c4af80dc1387a9f4dd8ea03486863fb3d6c916822942e1ffa7259718c19dc73"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\40k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-9355ac0590f8__git-eb1140cefc4a\\checkpoint_progress\\step_040000\\qmix-eval__8aa8851623fad490\\evaluation_manifest.json",
+      "sha256": "13eabb00d5d8afcc49a8ada567cc0f27e0362087285b8c7a408a8ad8d4121dda"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\40k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-9355ac0590f8__git-eb1140cefc4a\\checkpoint_progress\\step_040000\\qmix-eval__8aa8851623fad490\\episode_metrics.jsonl",
+      "sha256": "9ffb34d122e9bf1d4a6e230c7f30d0c38a14812ce4cb713db28c0749f9e7806e"
+    },
+    {
+      "path": "logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\40k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-9355ac0590f8__git-eb1140cefc4a\\checkpoint_progress\\step_040000\\qmix-eval__8aa8851623fad490\\aggregate_metrics.json",
+      "sha256": "749618ad3937bbdc72ae55e548adb38e17501c690170dbc4b89a79cf78e0e4cd"
+    }
+  ],
+  "comparison_sources": {
+    "C seed44 40k": {
+      "path": "logs\\C\\seed44\\checkpoint_progress\\20261015_seed44_4k40k\\40k\\evaluations\\development-service-eval__remote_stress_v2__chk-8567019d7330__cfg-d2463e1929ea__eval-e782fdbb969d\\episode_metrics.jsonl",
+      "sha256": "d4bbb4119eb201854a51d4fb00c52f67d31d1cc6b6d7b8880d608f15f5df73bf"
+    },
+    "C seed43 40k": {
+      "path": "logs\\C\\seed43\\checkpoint_progress\\20261015_seed43_4k40k\\40k\\evaluations\\development-service-eval__remote_stress_v2__chk-5f4de43d4f69__cfg-d2463e1929ea__eval-263e0cc17927\\episode_metrics.jsonl",
+      "sha256": "089676404b4097b82f19c418a18cfb707c8863f95c1b1e6e2aa2cbd01c096375"
+    },
+    "C seed42 40k": {
+      "path": "logs\\C\\seed42\\checkpoint_progress\\20261014_32k40k\\40k\\evaluations\\development-service-eval__remote_stress_v2__chk-bb2cff17b356__cfg-d2463e1929ea__eval-a9653a49fce5\\episode_metrics.jsonl",
+      "sha256": "05da6b5a2512616c9bf8806b6a28cd389f0a2fd4a09fa701c49339524891536c"
+    }
+  },
+  "automation_pause_after_completion_report": true
+}

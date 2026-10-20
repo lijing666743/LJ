@@ -1,0 +1,121 @@
+{
+  "status": "PASS",
+  "completed_at": "2026-10-15T17:50:01.687898+08:00",
+  "scope": "New offline D1-D4 analysis of existing development logs; engineering tests separate from experiments",
+  "existing_input_files_verified": 834,
+  "existing_input_files_unchanged_excluding_README": 833,
+  "expected_existing_changes": [
+    "README.md"
+  ],
+  "readme_original_body_preserved": true,
+  "prior_568_inputs_included": true,
+  "fingerprint_verification_seconds": 26.922139399917796,
+  "pytest_tests_passed": 82,
+  "pytest_subtests_passed": 26,
+  "junit_tests": 108,
+  "junit_failures": 0,
+  "junit_errors": 0,
+  "independent_cli_rebuilds": 3,
+  "diagnostic_json_rebuilds_byte_exact": true,
+  "summary_numeric_regeneration_exact": true,
+  "report_regeneration_byte_exact": true,
+  "source_analysis_commands": [
+    {
+      "argv": [
+        "D:\\Miniconda\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "src.evaluation.limited_route_diagnostic",
+        "--output",
+        "D:\\My_project_li\\metadata\\audits\\seed44_limited_diagnostic\\20261015\\rebuild_route\\route_diagnostic.json"
+      ],
+      "returncode": 0,
+      "duration_seconds": 8.890537800034508,
+      "stdout": "D:\\My_project_li\\metadata\\audits\\seed44_limited_diagnostic\\20261015\\rebuild_1_stdout.txt"
+    },
+    {
+      "argv": [
+        "D:\\Miniconda\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "src.evaluation.limited_cpu_diagnostic",
+        "--output",
+        "D:\\My_project_li\\metadata\\audits\\seed44_limited_diagnostic\\20261015\\rebuild_cpu\\cpu_diagnostic.json"
+      ],
+      "returncode": 0,
+      "duration_seconds": 20.418985399999656,
+      "stdout": "D:\\My_project_li\\metadata\\audits\\seed44_limited_diagnostic\\20261015\\rebuild_2_stdout.txt"
+    },
+    {
+      "argv": [
+        "D:\\Miniconda\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "src.evaluation.limited_training_diagnostic",
+        "--output",
+        "D:\\My_project_li\\metadata\\audits\\seed44_limited_diagnostic\\20261015\\rebuild_training\\training_diagnostic.json"
+      ],
+      "returncode": 0,
+      "duration_seconds": 34.60801910003647,
+      "stdout": "D:\\My_project_li\\metadata\\audits\\seed44_limited_diagnostic\\20261015\\rebuild_3_stdout.txt"
+    }
+  ],
+  "test_execution_record": "test_execution.json",
+  "test_stdout": "diagnostic_tests_stdout.txt",
+  "test_junit": "diagnostic_tests.xml",
+  "summary_build_command": [
+    "D:/Miniconda/python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "-m",
+    "src.evaluation.seed44_limited_report",
+    "--output-dir",
+    "metadata/audits/seed44_limited_diagnostic/20261015",
+    "--report-path",
+    "docs/results/diagnostics/20261015_seed44_limited/SEED44_LIMITED_DIAGNOSTIC_REPORT.md"
+  ],
+  "active_artifacts_sha256": {
+    "metadata/audits/seed44_limited_diagnostic/20261015_route_v2/route_diagnostic.json": "1992d8641082262f53b280f940ba775540008cdcf572d28b9c465adf4b994ae0",
+    "metadata/audits/seed44_limited_diagnostic/20261015/cpu_diagnostic.json": "f842f356cc7f76442a4942ed8840161c0bc3ddd278621f385857348a1e1cd0fa",
+    "metadata/audits/seed44_limited_diagnostic/20261015/training_diagnostic.json": "fe23dd0d17ade308cc43d5fa1f669379523f2bd2a350aa5708cd695c4fe3b907",
+    "docs/results/diagnostics/20261015_seed44_limited/SEED44_LIMITED_DIAGNOSTIC_REPORT.md": "28cfdbd7c3d9b7eba275fd17dc5466da0650b4cc9e3b846a2eccfa92ee95f635",
+    "metadata/audits/seed44_limited_diagnostic/20261015/diagnostic_summary.json": "d3b192d74325745811bf9d58882bd1faba57379311e44e8e4b223501c385d2dc"
+  },
+  "new_source_and_tests_sha256": {
+    "src/evaluation/limited_route_diagnostic.py": "eada705811215a4c69af1dd333600ea9087f56bb223556000459d0175c81dbea",
+    "src/evaluation/limited_cpu_diagnostic.py": "a94a618d92538f462514fd53319cc1dcf4ce4c37f7a86eb1fe676453a2abfe6a",
+    "src/evaluation/limited_training_diagnostic.py": "d6878be33201d4337ff4a936608c1c9ee6c31ce462fe385c018553aef07f9759",
+    "src/evaluation/seed44_limited_report.py": "7b8c06334c59a6f0ce61b3e57e012673f47f37802bfa7fc5e4903c822d4c4c48",
+    "tests/test_limited_route_diagnostic.py": "5895ab84c55e24e5ecfc01ae4dad367ab44a69b36a4b5a8d5ca584ba5bbd34e7",
+    "tests/test_limited_cpu_diagnostic.py": "1801b91160e2544458cc40a6efe9c5ea52cccee66224510b4706b900b6e78d4c",
+    "tests/test_limited_training_diagnostic.py": "3e823f5d07ecb3ad0b5147db81589725449f0ef511098d57e22ebec3cc6b00ed",
+    "tests/test_seed44_limited_report.py": "5ad34cfe095ccdcec866ed6297e6d5cb40a1404c4bfd401198b227f320b744f4"
+  },
+  "superseded_artifact": {
+    "path": "metadata/audits/seed44_limited_diagnostic/20261015/route_diagnostic.json",
+    "reason": "First version used deadline-slot; current formal v2 uses inclusive deadline-slot+1, with separate post-binding service slots. Superseded artifact retained, never used by current report."
+  },
+  "formal_training_started": false,
+  "new_environment_evaluation_episodes": 0,
+  "heldout_used": false,
+  "existing_model_updates": 0,
+  "reward_or_config_changed": false,
+  "existing_production_source_changed": false,
+  "protected_directories_modified": false,
+  "new_experimental_csv_or_figures": 0,
+  "gate_note": "82 tests include engineering fixtures; they are not formal evaluation/training results",
+  "interpretation_limits": [
+    "No causal intervention has been run",
+    "No proof that replacing Defer with Local completes a task",
+    "Actual CPU frequency does not expose proposal/mask/scheduler-score causes",
+    "Matched-task energy differs jointly with execution destination, timing, and frequency",
+    "Historical optimizer LR and missing auxiliary gradient norms remain unavailable"
+  ]
+}

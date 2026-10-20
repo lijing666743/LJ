@@ -1,0 +1,39 @@
+{
+  "training_seed": 44,
+  "checkpoint_steps": [
+    4000,
+    8000,
+    12000,
+    16000,
+    20000,
+    24000,
+    28000,
+    32000,
+    36000,
+    40000
+  ],
+  "primary_endpoint": 40000,
+  "evaluation_seeds": [
+    1042,
+    1043,
+    1044,
+    1045,
+    1046
+  ],
+  "expected_arrivals": {
+    "1042": 135,
+    "1043": 122,
+    "1044": 117,
+    "1045": 102,
+    "1046": 129
+  },
+  "device": "cpu",
+  "dtype": "torch.float32",
+  "inference": "masked_argmax",
+  "update_network": false,
+  "expected_protocol_sha256": "d2463e1929ea867212edec4774f54b2c5a6dbc9ef957f00dd2978402aec4849a",
+  "held_out_seeds_used": [],
+  "expected_episodes": 200,
+  "expected_C_episodes": 50,
+  "claim_boundary": "Three independent training seeds; development scenes; not final held-out evidence."
+}

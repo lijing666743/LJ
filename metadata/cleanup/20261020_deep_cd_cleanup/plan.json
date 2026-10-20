@@ -1,0 +1,326 @@
+{
+  "schema": "deep_cd_cleanup_plan.v1",
+  "created_at_utc": "2026-10-20T02:44:43.256411+00:00",
+  "deletions": [
+    {
+      "path": "metadata/local_backups/baseline-c32k-20261014/release_assets/baseline-c32k-20261014-A-recovery.zip",
+      "bytes": 249244667,
+      "sha256": "7cc2342faa99c2ee38e787d1a069aea9c02e6ac03db86dd7a56d0d1247814b76",
+      "reason": "Retired A-only recovery ZIP; every member belongs exclusively to that retired method"
+    },
+    {
+      "path": "metadata/local_backups/baseline-c32k-20261014/release_assets/baseline-c32k-20261014-B-recovery.zip",
+      "bytes": 247424119,
+      "sha256": "5de807fb1ae0ca81547265752efeb1a1fbbfea0f4890822b9de6eda69784b851",
+      "reason": "Retired B-only recovery ZIP; every member belongs exclusively to that retired method"
+    },
+    {
+      "path": "docs/results/seed42/historical_p1a_vs_current_a_1044.csv",
+      "bytes": 559,
+      "sha256": "9ce223e106fb5e9bef50a89bc4049f9d9ba626b5540ba686533b0465f0446815",
+      "reason": "Obsolete mixed A/B/C export; original C data and current C-only summary retained"
+    },
+    {
+      "path": "docs/results/seed42/seed42_abc_deltas.csv",
+      "bytes": 470,
+      "sha256": "813cfe1b7253925a14a5f724f58c6e0aa4b2cba24fff3119d5179d243fc65325",
+      "reason": "Obsolete mixed A/B/C export; original C data and current C-only summary retained"
+    },
+    {
+      "path": "docs/results/seed42/seed42_abc_evaluation_summary.csv",
+      "bytes": 2636,
+      "sha256": "c42e925c4a65386e1ed5a849f156fc7e47668f840dc534d9737e75ec54c3d9e2",
+      "reason": "Obsolete mixed A/B/C export; original C data and current C-only summary retained"
+    },
+    {
+      "path": "docs/results/seed42/seed42_abc_per_eval_seed.csv",
+      "bytes": 973,
+      "sha256": "1e215f7b39d9921d2161332a28f78b5c680bb6fa8ecede9ec2fc4baf12f1ac1f",
+      "reason": "Obsolete mixed A/B/C export; original C data and current C-only summary retained"
+    },
+    {
+      "path": "docs/results/seed42/seed42_abc_remote_destinations.csv",
+      "bytes": 172,
+      "sha256": "981fc0a95a6184845833c3bd5727973f1c6334c41ef160948474c633dc32a8fe",
+      "reason": "Obsolete mixed A/B/C export; original C data and current C-only summary retained"
+    },
+    {
+      "path": "docs/results/seed42/seed42_abc_route_behavior.csv",
+      "bytes": 941,
+      "sha256": "8e8f66ec1768dda3c2e35e1de685506c0278838940b67d7289943361384e5e1e",
+      "reason": "Obsolete mixed A/B/C export; original C data and current C-only summary retained"
+    },
+    {
+      "path": "docs/results/seed42/seed42_abc_training_summary.csv",
+      "bytes": 3796,
+      "sha256": "f0c82aaab80b0f17f32da3693948576975774689cb9476042d4ec71afc71e057",
+      "reason": "Obsolete mixed A/B/C export; original C data and current C-only summary retained"
+    },
+    {
+      "path": "experiments/strong-baselines/configs/fa-gat-qmix-episode-return-engineering.json",
+      "bytes": 10830,
+      "sha256": "be1cb794a6a622c75c6c9c5be2da22358a2fd67d0bdfe593199ae4a20202821e",
+      "reason": "Unreferenced retired engineering/draft config; current D and regression configs retained"
+    },
+    {
+      "path": "experiments/strong-baselines/configs/fa-gat-qmix-seed42-40k.draft.json",
+      "bytes": 10876,
+      "sha256": "c1a9bd3d69e7455c19814bdbdce21eeabde70279ca796c44ccb390f35135223f",
+      "reason": "Unreferenced retired engineering/draft config; current D and regression configs retained"
+    },
+    {
+      "path": "experiments/strong-baselines/configs/fa-gat-qmix-seed43-40k.draft.json",
+      "bytes": 10876,
+      "sha256": "dbeee67461a899a0315db15b12c599a4242ee3c21807317e3d6b0cf6e3fdd15e",
+      "reason": "Unreferenced retired engineering/draft config; current D and regression configs retained"
+    },
+    {
+      "path": "experiments/strong-baselines/configs/fa-gat-qmix-seed44-40k.draft.json",
+      "bytes": 10876,
+      "sha256": "b0d0a358fbb068ce1bc45afe79058d5e9e62430415cbaeb4418ceec83c413f52",
+      "reason": "Unreferenced retired engineering/draft config; current D and regression configs retained"
+    },
+    {
+      "path": "logs/engineering/cleanup_20261014/restore_A16k.log",
+      "bytes": 1455,
+      "sha256": "fa56b42e67e22b5392c74eee16e39f1d80597f7aad9f5ac8c0cbbd394987c565",
+      "reason": "Retired method exclusive restore transcript"
+    },
+    {
+      "path": "logs/engineering/cleanup_20261014/restore_B16k.log",
+      "bytes": 1455,
+      "sha256": "4b26a2ca3ae3f27c0d9901c8810943583c3b4f98f59a2ac5fbafb38d21b84cd8",
+      "reason": "Retired method exclusive restore transcript"
+    },
+    {
+      "path": ".pytest_cache/.gitignore",
+      "bytes": 37,
+      "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+      "reason": "Disposable pytest cache"
+    },
+    {
+      "path": ".pytest_cache/CACHEDIR.TAG",
+      "bytes": 191,
+      "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+      "reason": "Disposable pytest cache"
+    },
+    {
+      "path": ".pytest_cache/README.md",
+      "bytes": 302,
+      "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+      "reason": "Disposable pytest cache"
+    },
+    {
+      "path": ".pytest_cache/v/cache/lastfailed",
+      "bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "reason": "Disposable pytest cache"
+    },
+    {
+      "path": ".pytest_cache/v/cache/nodeids",
+      "bytes": 6740,
+      "sha256": "53a2d8cd8f8126ac1444924d0077668600be4d3c834e3b4590d9a3af5a41a366",
+      "reason": "Disposable pytest cache"
+    },
+    {
+      "path": "logs/engineering/ms431019/pytest/test_matched_cli_check_dispatc0/final.pt",
+      "bytes": 28,
+      "sha256": "8b289df945e4558626b9948fd1f2bb738c0642922b20672093ec4a44a424241c",
+      "reason": "Synthetic path-only pytest placeholder; never a trained checkpoint"
+    },
+    {
+      "path": "logs/engineering/ms431019/pytest/test_matched_resume_accepts_ex0/final.pt",
+      "bytes": 31,
+      "sha256": "596733220718c5e4fea093835ce9a60f1b4c40a6577f26b10767b8ac364801bf",
+      "reason": "Synthetic path-only pytest placeholder; never a trained checkpoint"
+    },
+    {
+      "path": "logs/engineering/ms431019/pytest/test_matched_resume_accepts_ex1/final.pt",
+      "bytes": 31,
+      "sha256": "596733220718c5e4fea093835ce9a60f1b4c40a6577f26b10767b8ac364801bf",
+      "reason": "Synthetic path-only pytest placeholder; never a trained checkpoint"
+    }
+  ],
+  "moves": [
+    {
+      "path": "experiments/strong-baselines/configs/fa-gat-qmix-seed42-8k-episode-return-development.json",
+      "bytes": 10907,
+      "sha256": "12fc836980482aae4e11dd741d2c6429c40acd7ce417ed434c99b5dddd78bc19",
+      "destination": "tests/fixtures/configs/qmix_legacy/fa-gat-qmix-seed42-8k-episode-return-development.json",
+      "reason": "Byte-identical regression input; no longer an experiment entry"
+    },
+    {
+      "path": "experiments/strong-baselines/configs/fa-gat-qmix-seed42-16k-episode-return-development.json",
+      "bytes": 10911,
+      "sha256": "ff66f43116c6d7d3bc22d3b31db71872bdeef7ff120281aef46d4fb85be906a7",
+      "destination": "tests/fixtures/configs/qmix_legacy/fa-gat-qmix-seed42-16k-episode-return-development.json",
+      "reason": "Byte-identical regression input; no longer an experiment entry"
+    },
+    {
+      "path": "experiments/strong-baselines/configs/fa-gat-qmix-seed42-40k.json",
+      "bytes": 10875,
+      "sha256": "0bc28d33fbf04dc1675744a823880dbda64d20853e5bd2b43126a8d736c6a931",
+      "destination": "tests/fixtures/configs/qmix_legacy/fa-gat-qmix-seed42-40k.json",
+      "reason": "Byte-identical regression input; no longer an experiment entry"
+    }
+  ],
+  "test_reference_changes": {
+    "tests/test_qmix_checkpoint_progress.py": [
+      "fa-gat-qmix-seed42-40k.json"
+    ],
+    "tests/test_qmix_continuation.py": [
+      "fa-gat-qmix-seed42-8k-episode-return-development.json",
+      "fa-gat-qmix-seed42-16k-episode-return-development.json"
+    ],
+    "tests/test_qmix_cpu_deadline_diagnostic.py": [
+      "fa-gat-qmix-seed42-8k-episode-return-development.json"
+    ],
+    "tests/test_qmix_cpu_pair.py": [
+      "fa-gat-qmix-seed42-8k-episode-return-development.json"
+    ],
+    "tests/test_qmix_episode_return.py": [
+      "fa-gat-qmix-seed42-8k-episode-return-development.json"
+    ],
+    "tests/test_qmix_input_scale.py": [
+      "fa-gat-qmix-seed42-8k-episode-return-development.json"
+    ],
+    "tests/test_qmix_joint_decoder.py": [
+      "fa-gat-qmix-seed42-40k.json"
+    ],
+    "tests/test_qmix_limited_diagnostic.py": [
+      "fa-gat-qmix-seed42-8k-episode-return-development.json"
+    ],
+    "tests/test_qmix_recurrent.py": [
+      "fa-gat-qmix-seed42-8k-episode-return-development.json"
+    ],
+    "tests/test_qmix_targets.py": [
+      "fa-gat-qmix-seed42-8k-episode-return-development.json"
+    ]
+  },
+  "files_allowed_to_edit": {
+    "README.md": {
+      "path": "README.md",
+      "bytes": 5742,
+      "sha256": "0542c592ab30d1eb1ce45a3a913b1aee2444421f6c1f9cec20508285e72044cf"
+    },
+    "docs/DIRECTORY_GUIDE.md": {
+      "path": "docs/DIRECTORY_GUIDE.md",
+      "bytes": 3402,
+      "sha256": "7264a72a7eb4677c833af5b4d7d22fb84982a091f71f585725bc44c0b2b369de"
+    },
+    "docs/reproduction/REPRODUCE_C_D.md": {
+      "path": "docs/reproduction/REPRODUCE_C_D.md",
+      "bytes": 1924,
+      "sha256": "3fe581d164071d99c46fed1826eb5fc1c27de71cc4487ef5b2048b90c21dfaeb"
+    },
+    "docs/results/CURRENT_EXPERIMENT_STATUS.md": {
+      "path": "docs/results/CURRENT_EXPERIMENT_STATUS.md",
+      "bytes": 13637,
+      "sha256": "402d55e22dd0a8140ac4a3b55d0840e4d1f78c724bfd7f77a6103ddb64006de8"
+    },
+    "experiments/README.md": {
+      "path": "experiments/README.md",
+      "bytes": 1656,
+      "sha256": "5c0ec4bcaf3eb6bd5c80e3e7044e035f25bc5ac897f05571ffb5a5eb6a64de26"
+    },
+    "experiments/strong-baselines/README.md": {
+      "path": "experiments/strong-baselines/README.md",
+      "bytes": 5367,
+      "sha256": "ea4e6c151c4cb6c5bd4de36b20f1572bfba772ea4068db48be789d5742fe89f4"
+    },
+    "metadata/CURRENT_WORKSPACE_INDEX.json": {
+      "path": "metadata/CURRENT_WORKSPACE_INDEX.json",
+      "bytes": 23570,
+      "sha256": "c5fc1aa7496058428a915a392d48377bd739918302cc6da89ca6c6bc99be8b71"
+    },
+    "metadata/README.md": {
+      "path": "metadata/README.md",
+      "bytes": 3339,
+      "sha256": "6776535219de337613b78a6dc87f980e6c7523f7af0d7f3c6c5d40dccc5729ea"
+    },
+    "tests/fixtures/README.md": {
+      "path": "tests/fixtures/README.md",
+      "bytes": 904,
+      "sha256": "654b2933521aa6c74b88f54a320a2bdef8ba8fb2a4eafc9a4dbbe8d0d8b9d34f"
+    },
+    "tests/test_qmix_checkpoint_progress.py": {
+      "path": "tests/test_qmix_checkpoint_progress.py",
+      "bytes": 7609,
+      "sha256": "3281f8a0a2ca287b353aae12eafc998489892037f4076b3defcd47fc2bd7974a"
+    },
+    "tests/test_qmix_continuation.py": {
+      "path": "tests/test_qmix_continuation.py",
+      "bytes": 10878,
+      "sha256": "a6810b8d50036dbe82ffe251c3e3c5430102fe0ae4724cc8d6ee422065500893"
+    },
+    "tests/test_qmix_cpu_deadline_diagnostic.py": {
+      "path": "tests/test_qmix_cpu_deadline_diagnostic.py",
+      "bytes": 7595,
+      "sha256": "14c1f1b5d51cb937791dca52f4cf82928f84b5d8b86d7576d62f6ab65c73889c"
+    },
+    "tests/test_qmix_cpu_pair.py": {
+      "path": "tests/test_qmix_cpu_pair.py",
+      "bytes": 12140,
+      "sha256": "7f222ac2c45a70c5417702735c7d22f3dcea7d1eb11a94f04a1e5c9f7583598a"
+    },
+    "tests/test_qmix_episode_return.py": {
+      "path": "tests/test_qmix_episode_return.py",
+      "bytes": 10687,
+      "sha256": "afede79a4bdd6b86091bd113ed0f6adf255b61e8005dd6d0c7c9c5fe01b1ac8e"
+    },
+    "tests/test_qmix_input_scale.py": {
+      "path": "tests/test_qmix_input_scale.py",
+      "bytes": 4942,
+      "sha256": "595768a7e1df6bef8a8dd84f93499d58c2552b403a53a19c76781aaad748f2b9"
+    },
+    "tests/test_qmix_joint_decoder.py": {
+      "path": "tests/test_qmix_joint_decoder.py",
+      "bytes": 7513,
+      "sha256": "09f6abf9181033db88f4a3d9427b7d03492cb0a988efbc5b66527809a9323501"
+    },
+    "tests/test_qmix_limited_diagnostic.py": {
+      "path": "tests/test_qmix_limited_diagnostic.py",
+      "bytes": 7623,
+      "sha256": "022e9af5d6b9aae2de190549ddf9d64b9f42f2779fc7371448feee0d6ff24d4d"
+    },
+    "tests/test_qmix_recurrent.py": {
+      "path": "tests/test_qmix_recurrent.py",
+      "bytes": 6837,
+      "sha256": "c0ee281bcd1afec832426fad4cd5e47200f0e013be0ca56578bf24c2e0eb4da8"
+    },
+    "tests/test_qmix_targets.py": {
+      "path": "tests/test_qmix_targets.py",
+      "bytes": 6613,
+      "sha256": "1fba666f760338078466bb651a69e4e54e7cea8f9f250cee3660e2fb325b91bb"
+    }
+  },
+  "empty_tree_allowlist": [
+    ".pytest_cache",
+    "logs/engineering/ms431019"
+  ],
+  "protected_manifest": "protected_before.json",
+  "protected_file_count": 916,
+  "preceding_retirement_manifest": "metadata/cleanup/20261020_retire_ab/protected_before.json",
+  "preceding_files_excluded_for_explicit_test_path_or_documentation_updates": [
+    "tests/fixtures/README.md",
+    "tests/test_qmix_checkpoint_progress.py",
+    "tests/test_qmix_continuation.py",
+    "tests/test_qmix_cpu_deadline_diagnostic.py",
+    "tests/test_qmix_cpu_pair.py",
+    "tests/test_qmix_episode_return.py",
+    "tests/test_qmix_input_scale.py",
+    "tests/test_qmix_joint_decoder.py",
+    "tests/test_qmix_limited_diagnostic.py",
+    "tests/test_qmix_recurrent.py",
+    "tests/test_qmix_targets.py"
+  ],
+  "C_D_learning_source_configuration_or_results_change_allowed": false,
+  "other_kept_reasons": {
+    "C_and_support_recovery_ZIPs": "C recovery and common historical evidence; original bytes retained",
+    "P1a_and_historical_test_checkpoints": "Shared C/D regression inputs",
+    "C_D_models_and_ancestors": "Recovery and checkpoint evaluation provenance",
+    "prior_QMIX_reports_and_small_audits": "Scientific history, not current candidates",
+    "proposal_material_and_IDE_settings": "Unrelated user material unchanged",
+    "protected_directories": "Not enumerated or processed"
+  }
+}

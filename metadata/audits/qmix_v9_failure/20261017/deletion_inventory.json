@@ -1,0 +1,1855 @@
+{
+  "schema": "qmix_v10_deletion_inventory.v1",
+  "files": [
+    {
+      "target": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9\\8k\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-ce44bb693b2b__git-eb1140cefc4a\\aggregate_metrics.json",
+      "bytes": 97003
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9\\8k\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-ce44bb693b2b__git-eb1140cefc4a\\config_snapshot.yaml",
+      "bytes": 11565
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9\\8k\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-ce44bb693b2b__git-eb1140cefc4a\\raw_metrics.jsonl",
+      "bytes": 10238
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9\\8k\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-ce44bb693b2b__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "bytes": 234354183
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9\\8k\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-ce44bb693b2b__git-eb1140cefc4a\\checkpoints\\step_004000.pt",
+      "bytes": 126401031
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9\\8k\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-ce44bb693b2b__git-eb1140cefc4a\\checkpoint_progress\\series_manifest.json",
+      "bytes": 2615
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9\\8k\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-ce44bb693b2b__git-eb1140cefc4a\\checkpoint_progress\\summary.json",
+      "bytes": 4637
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9\\8k\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-ce44bb693b2b__git-eb1140cefc4a\\checkpoint_progress\\step_004000\\qmix-eval__04987127acb354c8\\aggregate_metrics.json",
+      "bytes": 16373
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9\\8k\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-ce44bb693b2b__git-eb1140cefc4a\\checkpoint_progress\\step_004000\\qmix-eval__04987127acb354c8\\episode_metrics.jsonl",
+      "bytes": 202182
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9\\8k\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-ce44bb693b2b__git-eb1140cefc4a\\checkpoint_progress\\step_004000\\qmix-eval__04987127acb354c8\\evaluation_manifest.json",
+      "bytes": 3882
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9\\8k\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-ce44bb693b2b__git-eb1140cefc4a\\checkpoint_progress\\step_008000\\qmix-eval__d6a41f6ac82a8179\\aggregate_metrics.json",
+      "bytes": 16412
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9\\8k\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-ce44bb693b2b__git-eb1140cefc4a\\checkpoint_progress\\step_008000\\qmix-eval__d6a41f6ac82a8179\\episode_metrics.jsonl",
+      "bytes": 202227
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9\\8k\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-ce44bb693b2b__git-eb1140cefc4a\\checkpoint_progress\\step_008000\\qmix-eval__d6a41f6ac82a8179\\evaluation_manifest.json",
+      "bytes": 3879
+    },
+    {
+      "target": "D:\\My_project_li\\plots\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9",
+      "path": "D:\\My_project_li\\plots\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9\\8k\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-ce44bb693b2b__git-eb1140cefc4a_dashboard.png",
+      "bytes": 114425
+    },
+    {
+      "target": "D:\\My_project_li\\dashboard_logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9",
+      "path": "D:\\My_project_li\\dashboard_logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9\\8k\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-ce44bb693b2b__git-eb1140cefc4a_metrics.csv",
+      "bytes": 4805
+    },
+    {
+      "target": "D:\\My_project_li\\dashboard_logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9",
+      "path": "D:\\My_project_li\\dashboard_logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9\\8k\\qmix-checkpoints__seed-42__63e37d0f36891045_metrics.csv",
+      "bytes": 1892
+    },
+    {
+      "target": "D:\\My_project_li\\dashboard_logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9",
+      "path": "D:\\My_project_li\\dashboard_logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9\\8k\\qmix-checkpoints__seed-42__63e37d0f36891045_per_scene.csv",
+      "bytes": 19475
+    },
+    {
+      "target": "D:\\My_project_li\\experiments\\strong-baselines\\configs\\fa-gat-qmix-seed42-8k-cpu-pair-development.json",
+      "path": "D:\\My_project_li\\experiments\\strong-baselines\\configs\\fa-gat-qmix-seed42-8k-cpu-pair-development.json",
+      "bytes": 10510
+    },
+    {
+      "target": "D:\\My_project_li\\experiments\\strong-baselines\\configs\\fa-gat-qmix-seed42-16k-cpu-pair-development.json",
+      "path": "D:\\My_project_li\\experiments\\strong-baselines\\configs\\fa-gat-qmix-seed42-16k-cpu-pair-development.json",
+      "bytes": 10514
+    },
+    {
+      "target": "D:\\My_project_li\\experiments\\strong-baselines\\configs\\fa-gat-qmix-cpu-pair-engineering.json",
+      "path": "D:\\My_project_li\\experiments\\strong-baselines\\configs\\fa-gat-qmix-cpu-pair-engineering.json",
+      "bytes": 10433
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\strong_baselines\\engineering\\episode_return_v10",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\engineering\\episode_return_v10\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-29c637e3016c__git-eb1140cefc4a\\aggregate_metrics.json",
+      "bytes": 29690
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\strong_baselines\\engineering\\episode_return_v10",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\engineering\\episode_return_v10\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-29c637e3016c__git-eb1140cefc4a\\config_snapshot.yaml",
+      "bytes": 11499
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\strong_baselines\\engineering\\episode_return_v10",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\engineering\\episode_return_v10\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-29c637e3016c__git-eb1140cefc4a\\raw_metrics.jsonl",
+      "bytes": 4363
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\strong_baselines\\engineering\\episode_return_v10",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\engineering\\episode_return_v10\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-29c637e3016c__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "bytes": 26278043
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\strong_baselines\\engineering\\episode_return_v10",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\engineering\\episode_return_v10\\qmix-eval__5ba1092e681aed02\\aggregate_metrics.json",
+      "bytes": 14499
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\strong_baselines\\engineering\\episode_return_v10",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\engineering\\episode_return_v10\\qmix-eval__5ba1092e681aed02\\episode_metrics.jsonl",
+      "bytes": 8388
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\strong_baselines\\engineering\\episode_return_v10",
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\engineering\\episode_return_v10\\qmix-eval__5ba1092e681aed02\\evaluation_manifest.json",
+      "bytes": 2296
+    },
+    {
+      "target": "D:\\My_project_li\\plots\\strong_baselines\\engineering\\episode_return_v10",
+      "path": "D:\\My_project_li\\plots\\strong_baselines\\engineering\\episode_return_v10\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-29c637e3016c__git-eb1140cefc4a_dashboard.png",
+      "bytes": 101166
+    },
+    {
+      "target": "D:\\My_project_li\\dashboard_logs\\strong_baselines\\engineering\\episode_return_v10",
+      "path": "D:\\My_project_li\\dashboard_logs\\strong_baselines\\engineering\\episode_return_v10\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-29c637e3016c__git-eb1140cefc4a_metrics.csv",
+      "bytes": 2138
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_unit_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_unit_tmp\\fixtures\\test_completion_credit_auditor0\\config.json",
+      "bytes": 8349
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_unit_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_unit_tmp\\fixtures\\test_completion_credit_auditor0\\credit.json",
+      "bytes": 2077
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_unit_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_unit_tmp\\fixtures\\test_completion_credit_auditor0\\l\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-7aa2034c5503__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "bytes": 19254733
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_unit_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_unit_tmp\\fixtures\\test_full_state_resume_with_ev0\\periodic.pt",
+      "bytes": 18674715
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_unit_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_unit_tmp\\fixtures\\test_missing_context_identity_0\\bad.pt",
+      "bytes": 19254605
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_unit_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_unit_tmp\\fixtures\\test_missing_context_identity_1\\bad.pt",
+      "bytes": 19254605
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_unit_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_unit_tmp\\fixtures\\test_missing_learning_target_i0\\missing.pt",
+      "bytes": 9227811
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_unit_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_unit_tmp\\fixtures\\test_missing_learning_target_i1\\missing.pt",
+      "bytes": 9227811
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_unit_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_unit_tmp\\fixtures\\test_old_chunk_return_training0\\old.pt",
+      "bytes": 19254733
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_unit_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_unit_tmp\\fixtures\\test_old_chunk_return_training1\\old.pt",
+      "bytes": 19254733
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_unit_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_unit_tmp\\fixtures\\test_old_chunk_return_training2\\old.pt",
+      "bytes": 19254669
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_unit_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_unit_tmp\\fixtures\\test_old_chunk_return_training3\\old.pt",
+      "bytes": 19254669
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\dashboard_logs\\qmix-checkpoints__seed-42__bbf5a5e5ae52dcbe_metrics.csv",
+      "bytes": 6723
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\dashboard_logs\\qmix-checkpoints__seed-42__bbf5a5e5ae52dcbe_per_scene.csv",
+      "bytes": 15501
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "bytes": 19997864
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoints\\step_000004.pt",
+      "bytes": 18607117
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoints\\step_000008.pt",
+      "bytes": 18761601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoints\\step_000012.pt",
+      "bytes": 18916085
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoints\\step_000016.pt",
+      "bytes": 19070505
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoints\\step_000020.pt",
+      "bytes": 19225053
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoints\\step_000024.pt",
+      "bytes": 19379601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoints\\step_000028.pt",
+      "bytes": 19534149
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoints\\step_000032.pt",
+      "bytes": 19688633
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoints\\step_000036.pt",
+      "bytes": 19843246
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\series_manifest.json",
+      "bytes": 6067
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\summary.json",
+      "bytes": 20730
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000004\\qmix-eval__790ca1a5bde298d9\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000004\\qmix-eval__790ca1a5bde298d9\\episode_metrics.jsonl",
+      "bytes": 6359
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000004\\qmix-eval__790ca1a5bde298d9\\evaluation_manifest.json",
+      "bytes": 2305
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000008\\qmix-eval__14ac3625f1106872\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000008\\qmix-eval__14ac3625f1106872\\episode_metrics.jsonl",
+      "bytes": 6359
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000008\\qmix-eval__14ac3625f1106872\\evaluation_manifest.json",
+      "bytes": 2305
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000012\\qmix-eval__c98f4d6c10b91700\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000012\\qmix-eval__c98f4d6c10b91700\\episode_metrics.jsonl",
+      "bytes": 6359
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000012\\qmix-eval__c98f4d6c10b91700\\evaluation_manifest.json",
+      "bytes": 2306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000016\\qmix-eval__7f93739a64a12189\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000016\\qmix-eval__7f93739a64a12189\\episode_metrics.jsonl",
+      "bytes": 6359
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000016\\qmix-eval__7f93739a64a12189\\evaluation_manifest.json",
+      "bytes": 2306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000020\\qmix-eval__a51c47eef32190a1\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000020\\qmix-eval__a51c47eef32190a1\\episode_metrics.jsonl",
+      "bytes": 6359
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000020\\qmix-eval__a51c47eef32190a1\\evaluation_manifest.json",
+      "bytes": 2306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000024\\qmix-eval__8201dcf2843787ac\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000024\\qmix-eval__8201dcf2843787ac\\episode_metrics.jsonl",
+      "bytes": 6359
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000024\\qmix-eval__8201dcf2843787ac\\evaluation_manifest.json",
+      "bytes": 2306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000028\\qmix-eval__5eae784908953b29\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000028\\qmix-eval__5eae784908953b29\\episode_metrics.jsonl",
+      "bytes": 6359
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000028\\qmix-eval__5eae784908953b29\\evaluation_manifest.json",
+      "bytes": 2306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000032\\qmix-eval__2d905c2babc45a27\\aggregate_metrics.json",
+      "bytes": 14224
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000032\\qmix-eval__2d905c2babc45a27\\episode_metrics.jsonl",
+      "bytes": 6306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000032\\qmix-eval__2d905c2babc45a27\\evaluation_manifest.json",
+      "bytes": 2306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000036\\qmix-eval__d0b195529338e527\\aggregate_metrics.json",
+      "bytes": 14224
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000036\\qmix-eval__d0b195529338e527\\episode_metrics.jsonl",
+      "bytes": 6306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000036\\qmix-eval__d0b195529338e527\\evaluation_manifest.json",
+      "bytes": 2306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000040\\qmix-eval__333914e2d45d0bbf\\aggregate_metrics.json",
+      "bytes": 14224
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000040\\qmix-eval__333914e2d45d0bbf\\episode_metrics.jsonl",
+      "bytes": 6306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_all_ten_checkpoints_evalu0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-695b8d3602ef__git-eb1140cefc4a\\checkpoint_progress\\step_000040\\qmix-eval__333914e2d45d0bbf\\evaluation_manifest.json",
+      "bytes": 2303
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_backward_probe_changes_no0\\final.pt",
+      "bytes": 18968321
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_checkpoint_loaders_reject0\\load_checkpoint_missing.pt",
+      "bytes": 9227939
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_checkpoint_loaders_reject1\\load_continuation_checkpoint_missing.pt",
+      "bytes": 9227939
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_checkpoint_loaders_reject2\\load_checkpoint_altered.pt",
+      "bytes": 9228003
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_checkpoint_loaders_reject3\\load_continuation_checkpoint_altered.pt",
+      "bytes": 9228003
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_checkpoint_loaders_reject4\\load_checkpoint_v6.pt",
+      "bytes": 9228195
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_checkpoint_loaders_reject5\\load_continuation_checkpoint_v6.pt",
+      "bytes": 9228195
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_checkpoint_must_declare_c0\\missing_transform.pt",
+      "bytes": 9227683
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_checkpoint_must_declare_c1\\missing_transform.pt",
+      "bytes": 9227683
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_checkpoint_publication_re0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-43__cfg-7a310b2a86ed__git-eb1140cefc4a\\checkpoints\\step_000008.pt",
+      "bytes": 19
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_checkpoint_rejects_change0\\changed_source.pt",
+      "bytes": 9224803
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_checkpoint_requires_match0\\incompatible.pt",
+      "bytes": 9227619
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_checkpoint_requires_match1\\incompatible.pt",
+      "bytes": 9227619
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_checkpoint_requires_match2\\incompatible.pt",
+      "bytes": 9227683
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_checkpoint_requires_match3\\incompatible.pt",
+      "bytes": 9227683
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_checkpoint_restricted_loa0\\periodic.pt",
+      "bytes": 18968577
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\training.json",
+      "bytes": 8360
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\dashboard_logs\\qmix-checkpoints__seed-42__d7d496b1d0824c12_metrics.csv",
+      "bytes": 6723
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\dashboard_logs\\qmix-checkpoints__seed-42__d7d496b1d0824c12_per_scene.csv",
+      "bytes": 15501
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "bytes": 19997864
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoints\\step_000004.pt",
+      "bytes": 18607117
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoints\\step_000008.pt",
+      "bytes": 18761601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoints\\step_000012.pt",
+      "bytes": 18916085
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoints\\step_000016.pt",
+      "bytes": 19070505
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoints\\step_000020.pt",
+      "bytes": 19225053
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoints\\step_000024.pt",
+      "bytes": 19379601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoints\\step_000028.pt",
+      "bytes": 19534149
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoints\\step_000032.pt",
+      "bytes": 19688633
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoints\\step_000036.pt",
+      "bytes": 19843246
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\series_manifest.json",
+      "bytes": 6067
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\summary.json",
+      "bytes": 20730
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000004\\qmix-eval__3a826ed13fec86e5\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000004\\qmix-eval__3a826ed13fec86e5\\episode_metrics.jsonl",
+      "bytes": 6359
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000004\\qmix-eval__3a826ed13fec86e5\\evaluation_manifest.json",
+      "bytes": 2305
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000008\\qmix-eval__733ef2dbe4b3de74\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000008\\qmix-eval__733ef2dbe4b3de74\\episode_metrics.jsonl",
+      "bytes": 6359
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000008\\qmix-eval__733ef2dbe4b3de74\\evaluation_manifest.json",
+      "bytes": 2305
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000012\\qmix-eval__d0bd877043fdfc96\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000012\\qmix-eval__d0bd877043fdfc96\\episode_metrics.jsonl",
+      "bytes": 6359
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000012\\qmix-eval__d0bd877043fdfc96\\evaluation_manifest.json",
+      "bytes": 2306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000016\\qmix-eval__8024e7f06be973ca\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000016\\qmix-eval__8024e7f06be973ca\\episode_metrics.jsonl",
+      "bytes": 6359
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000016\\qmix-eval__8024e7f06be973ca\\evaluation_manifest.json",
+      "bytes": 2306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000020\\qmix-eval__c4e0e5f6230f46f4\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000020\\qmix-eval__c4e0e5f6230f46f4\\episode_metrics.jsonl",
+      "bytes": 6359
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000020\\qmix-eval__c4e0e5f6230f46f4\\evaluation_manifest.json",
+      "bytes": 2306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000024\\qmix-eval__ad3bb04eb3da0fb3\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000024\\qmix-eval__ad3bb04eb3da0fb3\\episode_metrics.jsonl",
+      "bytes": 6359
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000024\\qmix-eval__ad3bb04eb3da0fb3\\evaluation_manifest.json",
+      "bytes": 2306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000028\\qmix-eval__a984cacfbaa92234\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000028\\qmix-eval__a984cacfbaa92234\\episode_metrics.jsonl",
+      "bytes": 6359
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000028\\qmix-eval__a984cacfbaa92234\\evaluation_manifest.json",
+      "bytes": 2306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000032\\qmix-eval__e7d950ca5bb3841c\\aggregate_metrics.json",
+      "bytes": 14224
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000032\\qmix-eval__e7d950ca5bb3841c\\episode_metrics.jsonl",
+      "bytes": 6306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000032\\qmix-eval__e7d950ca5bb3841c\\evaluation_manifest.json",
+      "bytes": 2306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000036\\qmix-eval__6a2e959dc2061c06\\aggregate_metrics.json",
+      "bytes": 14224
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000036\\qmix-eval__6a2e959dc2061c06\\episode_metrics.jsonl",
+      "bytes": 6306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000036\\qmix-eval__6a2e959dc2061c06\\evaluation_manifest.json",
+      "bytes": 2306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000040\\qmix-eval__ae51f6ca549d3bd8\\aggregate_metrics.json",
+      "bytes": 14224
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000040\\qmix-eval__ae51f6ca549d3bd8\\episode_metrics.jsonl",
+      "bytes": 6306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cli_runs_the_complete_ser0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-76535aca814f__git-eb1140cefc4a\\checkpoint_progress\\step_000040\\qmix-eval__ae51f6ca549d3bd8\\evaluation_manifest.json",
+      "bytes": 2303
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_comparison_contract_drift0\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_comparison_contract_drift1\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_comparison_contract_drift2\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_comparison_contract_drift3\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_comparison_contract_drift4\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_completion_credit_auditor0\\config.json",
+      "bytes": 8367
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_completion_credit_auditor0\\credit.json",
+      "bytes": 2077
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_completion_credit_auditor0\\l\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-d88f43d58698__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "bytes": 19254733
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_continued_periodic_resume0\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-dabd6c5317cd__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "bytes": 18761601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_continued_periodic_resume0\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-dabd6c5317cd__git-eb1140cefc4a\\checkpoints\\step_000004.pt",
+      "bytes": 18607117
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_continued_periodic_resume0\\b\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-fff785086ee0__git-unknown\\checkpoints\\step_000012.pt",
+      "bytes": 18929909
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cross_method_checkpoint_a0\\other.pt",
+      "bytes": 1249
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_cross_method_checkpoint_a0\\periodic.pt",
+      "bytes": 18710605
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_disabled_draft_is_fair_an0\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_disabled_draft_is_fair_an1\\qmix43.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_disabled_draft_is_fair_an2\\qmix44.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_equal_donor_group_swaps_r0\\final.pt",
+      "bytes": 18968321
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_equal_donor_group_swaps_r1\\final.pt",
+      "bytes": 18968321
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_equal_donor_group_swaps_r2\\final.pt",
+      "bytes": 18968321
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_equal_donor_group_swaps_r3\\final.pt",
+      "bytes": 18968321
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_existing_output_is_preser0\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_existing_output_is_preser0\\logs\\strong_baselines\\fa_gat_qmix\\seed42\\40k\\preserve.txt",
+      "bytes": 12
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_extension_rejects_any_sci0\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4974cf8de2e3__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "bytes": 18761601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_extension_rejects_any_sci0\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-4974cf8de2e3__git-eb1140cefc4a\\checkpoints\\step_000004.pt",
+      "bytes": 18607117
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_extension_rejects_any_sci1\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-44793717b8ed__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "bytes": 18761601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_extension_rejects_any_sci1\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-44793717b8ed__git-eb1140cefc4a\\checkpoints\\step_000004.pt",
+      "bytes": 18607117
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_extension_rejects_any_sci2\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6cec8601b680__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "bytes": 18761601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_extension_rejects_any_sci2\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-6cec8601b680__git-eb1140cefc4a\\checkpoints\\step_000004.pt",
+      "bytes": 18607117
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_extension_rejects_any_sci3\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-40af1cd00ca9__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "bytes": 18761601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_extension_rejects_any_sci3\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-40af1cd00ca9__git-eb1140cefc4a\\checkpoints\\step_000004.pt",
+      "bytes": 18607117
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_extension_rejects_any_sci4\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b2d34005ae31__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "bytes": 18761601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_extension_rejects_any_sci4\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b2d34005ae31__git-eb1140cefc4a\\checkpoints\\step_000004.pt",
+      "bytes": 18607117
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_extension_rejects_any_sci5\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-1442d4fff375__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "bytes": 18761601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_extension_rejects_any_sci5\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-1442d4fff375__git-eb1140cefc4a\\checkpoints\\step_000004.pt",
+      "bytes": 18607117
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_final_evaluation_is_froze0\\final.pt",
+      "bytes": 19484393
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_final_extension_matches_u0\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-8596a7100123__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "bytes": 18761601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_final_extension_matches_u0\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-8596a7100123__git-eb1140cefc4a\\checkpoints\\step_000004.pt",
+      "bytes": 18607117
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_final_extension_matches_u0\\b\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-efece65b5864__git-unknown\\checkpoints\\final.pt",
+      "bytes": 19084393
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_final_extension_matches_u0\\b\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-efece65b5864__git-unknown\\checkpoints\\step_000012.pt",
+      "bytes": 18929909
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_final_requires_explicit_e0\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b86f81ae9db9__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "bytes": 18761601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_final_requires_explicit_e0\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b86f81ae9db9__git-eb1140cefc4a\\checkpoints\\step_000004.pt",
+      "bytes": 18607117
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_frozen_diagnostic_exactly0\\final.pt",
+      "bytes": 18968321
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_full_state_resume_with_ev0\\periodic.pt",
+      "bytes": 18674715
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_hidden_probe_uses_actual_0\\final.pt",
+      "bytes": 18968321
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_invalid_qmix_values_are_r0\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_invalid_qmix_values_are_r1\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_invalid_qmix_values_are_r10\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_invalid_qmix_values_are_r11\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_invalid_qmix_values_are_r12\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_invalid_qmix_values_are_r13\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_invalid_qmix_values_are_r2\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_invalid_qmix_values_are_r3\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_invalid_qmix_values_are_r4\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_invalid_qmix_values_are_r5\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_invalid_qmix_values_are_r6\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_invalid_qmix_values_are_r7\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_invalid_qmix_values_are_r8\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_invalid_qmix_values_are_r9\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_linear_schedule_boundarie0\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_linear_schedule_boundarie1\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_linear_schedule_boundarie2\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_linear_schedule_boundarie3\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_context_identity_0\\bad.pt",
+      "bytes": 19254669
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_context_identity_1\\bad.pt",
+      "bytes": 19254669
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_learning_target_i0\\missing.pt",
+      "bytes": 9227811
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_learning_target_i1\\missing.pt",
+      "bytes": 9227811
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_middle_checkpoint0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-97824f6b0c2a__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "bytes": 19997864
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_middle_checkpoint0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-97824f6b0c2a__git-eb1140cefc4a\\checkpoints\\step_000004.pt",
+      "bytes": 18607117
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_middle_checkpoint0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-97824f6b0c2a__git-eb1140cefc4a\\checkpoints\\step_000008.pt",
+      "bytes": 18761601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_middle_checkpoint0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-97824f6b0c2a__git-eb1140cefc4a\\checkpoints\\step_000012.pt",
+      "bytes": 18916085
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_middle_checkpoint0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-97824f6b0c2a__git-eb1140cefc4a\\checkpoints\\step_000016.pt",
+      "bytes": 19070505
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_middle_checkpoint0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-97824f6b0c2a__git-eb1140cefc4a\\checkpoints\\step_000020.pt",
+      "bytes": 19225053
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_middle_checkpoint0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-97824f6b0c2a__git-eb1140cefc4a\\checkpoints\\step_000024.pt",
+      "bytes": 19379601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_middle_checkpoint0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-97824f6b0c2a__git-eb1140cefc4a\\checkpoints\\step_000028.pt",
+      "bytes": 19534149
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_middle_checkpoint0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-97824f6b0c2a__git-eb1140cefc4a\\checkpoints\\step_000032.pt",
+      "bytes": 19688633
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_middle_checkpoint0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-97824f6b0c2a__git-eb1140cefc4a\\checkpoints\\step_000036.pt",
+      "bytes": 19843246
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_middle_checkpoint0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-97824f6b0c2a__git-eb1140cefc4a\\incomplete\\final.pt",
+      "bytes": 19997864
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_middle_checkpoint0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-97824f6b0c2a__git-eb1140cefc4a\\incomplete\\step_000004.pt",
+      "bytes": 18607117
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_middle_checkpoint0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-97824f6b0c2a__git-eb1140cefc4a\\incomplete\\step_000008.pt",
+      "bytes": 18761601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_middle_checkpoint0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-97824f6b0c2a__git-eb1140cefc4a\\incomplete\\step_000012.pt",
+      "bytes": 18916085
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_middle_checkpoint0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-97824f6b0c2a__git-eb1140cefc4a\\incomplete\\step_000016.pt",
+      "bytes": 19070505
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_middle_checkpoint0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-97824f6b0c2a__git-eb1140cefc4a\\incomplete\\step_000024.pt",
+      "bytes": 19379601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_middle_checkpoint0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-97824f6b0c2a__git-eb1140cefc4a\\incomplete\\step_000028.pt",
+      "bytes": 19534149
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_middle_checkpoint0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-97824f6b0c2a__git-eb1140cefc4a\\incomplete\\step_000032.pt",
+      "bytes": 19688633
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_middle_checkpoint0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-97824f6b0c2a__git-eb1140cefc4a\\incomplete\\step_000036.pt",
+      "bytes": 19843246
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_old_evaluation_an0\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b4ce1a8cbc1a__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "bytes": 18761601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_old_evaluation_an0\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-b4ce1a8cbc1a__git-eb1140cefc4a\\checkpoints\\step_000004.pt",
+      "bytes": 18607117
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_old_evaluation_an0\\b\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-680272cc7d33__git-unknown\\checkpoints\\final.pt",
+      "bytes": 19084393
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_old_evaluation_an0\\b\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-680272cc7d33__git-unknown\\checkpoints\\step_000012.pt",
+      "bytes": 18929909
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_missing_old_evaluation_an0\\b\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-680272cc7d33__git-unknown\\checkpoints\\tampered.pt",
+      "bytes": 19084393
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_new_milestones_reuse_old_0\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-942c048b9960__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "bytes": 18761601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_new_milestones_reuse_old_0\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-942c048b9960__git-eb1140cefc4a\\checkpoints\\step_000004.pt",
+      "bytes": 18607117
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_new_milestones_reuse_old_0\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-942c048b9960__git-eb1140cefc4a\\checkpoint_progress\\series_manifest.json",
+      "bytes": 2554
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_new_milestones_reuse_old_0\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-942c048b9960__git-eb1140cefc4a\\checkpoint_progress\\summary.json",
+      "bytes": 4287
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_new_milestones_reuse_old_0\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-942c048b9960__git-eb1140cefc4a\\checkpoint_progress\\step_000004\\qmix-eval__6df2f615a7ff73b7\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_new_milestones_reuse_old_0\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-942c048b9960__git-eb1140cefc4a\\checkpoint_progress\\step_000004\\qmix-eval__6df2f615a7ff73b7\\episode_metrics.jsonl",
+      "bytes": 6359
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_new_milestones_reuse_old_0\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-942c048b9960__git-eb1140cefc4a\\checkpoint_progress\\step_000004\\qmix-eval__6df2f615a7ff73b7\\evaluation_manifest.json",
+      "bytes": 2304
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_new_milestones_reuse_old_0\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-942c048b9960__git-eb1140cefc4a\\checkpoint_progress\\step_000008\\qmix-eval__b6951412b8a15f46\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_new_milestones_reuse_old_0\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-942c048b9960__git-eb1140cefc4a\\checkpoint_progress\\step_000008\\qmix-eval__b6951412b8a15f46\\episode_metrics.jsonl",
+      "bytes": 6359
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_new_milestones_reuse_old_0\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-942c048b9960__git-eb1140cefc4a\\checkpoint_progress\\step_000008\\qmix-eval__b6951412b8a15f46\\evaluation_manifest.json",
+      "bytes": 2301
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_new_milestones_reuse_old_0\\b\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-a951b4e9548b__git-unknown\\checkpoints\\final.pt",
+      "bytes": 19084393
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_new_milestones_reuse_old_0\\b\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-a951b4e9548b__git-unknown\\checkpoints\\step_000012.pt",
+      "bytes": 18929909
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_new_milestones_reuse_old_0\\b\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-a951b4e9548b__git-unknown\\checkpoint_progress\\series_manifest.json",
+      "bytes": 4357
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_new_milestones_reuse_old_0\\b\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-a951b4e9548b__git-unknown\\checkpoint_progress\\summary.json",
+      "bytes": 8424
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_new_milestones_reuse_old_0\\b\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-a951b4e9548b__git-unknown\\checkpoint_progress\\step_000012\\qmix-eval__6686cea13e0f7d14\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_new_milestones_reuse_old_0\\b\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-a951b4e9548b__git-unknown\\checkpoint_progress\\step_000012\\qmix-eval__6686cea13e0f7d14\\episode_metrics.jsonl",
+      "bytes": 6359
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_new_milestones_reuse_old_0\\b\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-a951b4e9548b__git-unknown\\checkpoint_progress\\step_000012\\qmix-eval__6686cea13e0f7d14\\evaluation_manifest.json",
+      "bytes": 2306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_new_milestones_reuse_old_0\\b\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-a951b4e9548b__git-unknown\\checkpoint_progress\\step_000016\\qmix-eval__6815083ab471e324\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_new_milestones_reuse_old_0\\b\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-a951b4e9548b__git-unknown\\checkpoint_progress\\step_000016\\qmix-eval__6815083ab471e324\\episode_metrics.jsonl",
+      "bytes": 6359
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_new_milestones_reuse_old_0\\b\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-a951b4e9548b__git-unknown\\checkpoint_progress\\step_000016\\qmix-eval__6815083ab471e324\\evaluation_manifest.json",
+      "bytes": 2303
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_new_milestones_reuse_old_0\\da\\qmix-checkpoints__seed-42__f3d76880908cf3b4_metrics.csv",
+      "bytes": 1513
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_new_milestones_reuse_old_0\\da\\qmix-checkpoints__seed-42__f3d76880908cf3b4_per_scene.csv",
+      "bytes": 3548
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_new_milestones_reuse_old_0\\db\\qmix-checkpoints__seed-42__f4dbf5a5ffaf0385_metrics.csv",
+      "bytes": 2841
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_new_milestones_reuse_old_0\\db\\qmix-checkpoints__seed-42__f4dbf5a5ffaf0385_per_scene.csv",
+      "bytes": 6576
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_no_handlers_environment_o0\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_obsolete_checkpoint_schem0\\obsolete.pt",
+      "bytes": 9227683
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_obsolete_checkpoint_schem1\\obsolete.pt",
+      "bytes": 9227683
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_obsolete_checkpoint_schem2\\obsolete.pt",
+      "bytes": 9227683
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_obsolete_checkpoint_schem3\\obsolete.pt",
+      "bytes": 9227683
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_obsolete_checkpoint_schem4\\obsolete.pt",
+      "bytes": 9227683
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_obsolete_checkpoint_schem5\\obsolete.pt",
+      "bytes": 9227683
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_old_chunk_return_training0\\old.pt",
+      "bytes": 19254733
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_old_chunk_return_training1\\old.pt",
+      "bytes": 19254733
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_old_chunk_return_training2\\old.pt",
+      "bytes": 19254733
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_old_chunk_return_training3\\old.pt",
+      "bytes": 19254733
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_output_alias_and_escape_r0\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_output_alias_and_escape_r1\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_output_alias_and_escape_r2\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\dashboard_logs\\qmix-checkpoints__seed-42__972f9ffe471a2ae2_metrics.csv",
+      "bytes": 6723
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\dashboard_logs\\qmix-checkpoints__seed-42__972f9ffe471a2ae2_per_scene.csv",
+      "bytes": 15501
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "bytes": 19997864
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoints\\step_000004.pt",
+      "bytes": 18607117
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoints\\step_000008.pt",
+      "bytes": 18761601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoints\\step_000012.pt",
+      "bytes": 18916085
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoints\\step_000016.pt",
+      "bytes": 19070505
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoints\\step_000020.pt",
+      "bytes": 19225053
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoints\\step_000024.pt",
+      "bytes": 19379601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoints\\step_000028.pt",
+      "bytes": 19534149
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoints\\step_000032.pt",
+      "bytes": 19688633
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoints\\step_000036.pt",
+      "bytes": 19843246
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\series_manifest.json",
+      "bytes": 6067
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\summary.json",
+      "bytes": 20730
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000004\\qmix-eval__10f6ccb8abb90f99\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000004\\qmix-eval__10f6ccb8abb90f99\\episode_metrics.jsonl",
+      "bytes": 6359
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000004\\qmix-eval__10f6ccb8abb90f99\\evaluation_manifest.json",
+      "bytes": 2305
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000008\\qmix-eval__d35a8d6aae452f24\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000008\\qmix-eval__d35a8d6aae452f24\\episode_metrics.jsonl",
+      "bytes": 6359
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000008\\qmix-eval__d35a8d6aae452f24\\evaluation_manifest.json",
+      "bytes": 2305
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000012\\qmix-eval__a4cd0f3804a82ad7\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000012\\qmix-eval__a4cd0f3804a82ad7\\episode_metrics.jsonl",
+      "bytes": 6359
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000012\\qmix-eval__a4cd0f3804a82ad7\\evaluation_manifest.json",
+      "bytes": 2306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000016\\qmix-eval__b8edb519587ed56d\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000016\\qmix-eval__b8edb519587ed56d\\episode_metrics.jsonl",
+      "bytes": 6359
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000016\\qmix-eval__b8edb519587ed56d\\evaluation_manifest.json",
+      "bytes": 2306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000020\\qmix-eval__f90d9b4b2fdedac9\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000020\\qmix-eval__f90d9b4b2fdedac9\\episode_metrics.jsonl",
+      "bytes": 6359
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000020\\qmix-eval__f90d9b4b2fdedac9\\evaluation_manifest.json",
+      "bytes": 2306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000024\\qmix-eval__b0349b1ec3ab3642\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000024\\qmix-eval__b0349b1ec3ab3642\\episode_metrics.jsonl",
+      "bytes": 6359
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000024\\qmix-eval__b0349b1ec3ab3642\\evaluation_manifest.json",
+      "bytes": 2306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000028\\qmix-eval__dff5f8ab48018028\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000028\\qmix-eval__dff5f8ab48018028\\episode_metrics.jsonl",
+      "bytes": 6359
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000028\\qmix-eval__dff5f8ab48018028\\evaluation_manifest.json",
+      "bytes": 2306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000032\\qmix-eval__26fab715f77745db\\aggregate_metrics.json",
+      "bytes": 14224
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000032\\qmix-eval__26fab715f77745db\\episode_metrics.jsonl",
+      "bytes": 6306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000032\\qmix-eval__26fab715f77745db\\evaluation_manifest.json",
+      "bytes": 2306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000036\\qmix-eval__0a1a4d2ceaf7243a\\aggregate_metrics.json",
+      "bytes": 14224
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000036\\qmix-eval__0a1a4d2ceaf7243a\\episode_metrics.jsonl",
+      "bytes": 6306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000036\\qmix-eval__0a1a4d2ceaf7243a\\evaluation_manifest.json",
+      "bytes": 2306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000040\\qmix-eval__6f28993d5b436208\\aggregate_metrics.json",
+      "bytes": 14224
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000040\\qmix-eval__6f28993d5b436208\\episode_metrics.jsonl",
+      "bytes": 6306
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_partial_completed_series_0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f3b4e9a0014c__git-eb1140cefc4a\\checkpoint_progress\\step_000040\\qmix-eval__6f28993d5b436208\\evaluation_manifest.json",
+      "bytes": 2303
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_periodic_requires_explici0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f38a5ba925c2__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "bytes": 19997864
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_periodic_requires_explici0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f38a5ba925c2__git-eb1140cefc4a\\checkpoints\\step_000004.pt",
+      "bytes": 18607117
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_periodic_requires_explici0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f38a5ba925c2__git-eb1140cefc4a\\checkpoints\\step_000008.pt",
+      "bytes": 18761601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_periodic_requires_explici0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f38a5ba925c2__git-eb1140cefc4a\\checkpoints\\step_000012.pt",
+      "bytes": 18916085
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_periodic_requires_explici0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f38a5ba925c2__git-eb1140cefc4a\\checkpoints\\step_000016.pt",
+      "bytes": 19070505
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_periodic_requires_explici0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f38a5ba925c2__git-eb1140cefc4a\\checkpoints\\step_000020.pt",
+      "bytes": 19225053
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_periodic_requires_explici0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f38a5ba925c2__git-eb1140cefc4a\\checkpoints\\step_000024.pt",
+      "bytes": 19379601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_periodic_requires_explici0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f38a5ba925c2__git-eb1140cefc4a\\checkpoints\\step_000028.pt",
+      "bytes": 19534149
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_periodic_requires_explici0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f38a5ba925c2__git-eb1140cefc4a\\checkpoints\\step_000032.pt",
+      "bytes": 19688633
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_periodic_requires_explici0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f38a5ba925c2__git-eb1140cefc4a\\checkpoints\\step_000036.pt",
+      "bytes": 19843246
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_previous_v8_trial_schema_0\\old.pt",
+      "bytes": 9228003
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_previous_v8_trial_schema_1\\old.pt",
+      "bytes": 9228003
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_real_main_and_no_argument0\\extension.json",
+      "bytes": 8341
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_real_main_and_no_argument0\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-c68dd0bc1827__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "bytes": 18761601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_real_main_and_no_argument0\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-c68dd0bc1827__git-eb1140cefc4a\\checkpoints\\step_000004.pt",
+      "bytes": 18607117
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_real_main_check_resume_ha0\\extension.json",
+      "bytes": 8341
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_real_main_check_resume_ha0\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f8f59ce82ffb__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "bytes": 18761601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_real_main_check_resume_ha0\\a\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-f8f59ce82ffb__git-eb1140cefc4a\\checkpoints\\step_000004.pt",
+      "bytes": 18607117
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_reconstructed_zero_prefix0\\final.pt",
+      "bytes": 18968321
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_registered_handler_does_n0\\qmix42.json",
+      "bytes": 8254
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_renamed_checkpoint_and_fo0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-8b108273218c__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "bytes": 19997864
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_renamed_checkpoint_and_fo0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-8b108273218c__git-eb1140cefc4a\\checkpoints\\step_000004.pt",
+      "bytes": 18607117
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_renamed_checkpoint_and_fo0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-8b108273218c__git-eb1140cefc4a\\checkpoints\\step_000008_alias.pt",
+      "bytes": 18607117
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_renamed_checkpoint_and_fo0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-8b108273218c__git-eb1140cefc4a\\checkpoints\\step_000008.pt",
+      "bytes": 18761601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_renamed_checkpoint_and_fo0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-8b108273218c__git-eb1140cefc4a\\checkpoints\\step_000012.pt",
+      "bytes": 18916085
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_renamed_checkpoint_and_fo0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-8b108273218c__git-eb1140cefc4a\\checkpoints\\step_000016.pt",
+      "bytes": 19070505
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_renamed_checkpoint_and_fo0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-8b108273218c__git-eb1140cefc4a\\checkpoints\\step_000020.pt",
+      "bytes": 19225053
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_renamed_checkpoint_and_fo0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-8b108273218c__git-eb1140cefc4a\\checkpoints\\step_000024.pt",
+      "bytes": 19379601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_renamed_checkpoint_and_fo0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-8b108273218c__git-eb1140cefc4a\\checkpoints\\step_000028.pt",
+      "bytes": 19534149
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_renamed_checkpoint_and_fo0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-8b108273218c__git-eb1140cefc4a\\checkpoints\\step_000032.pt",
+      "bytes": 19688633
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_renamed_checkpoint_and_fo0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-8b108273218c__git-eb1140cefc4a\\checkpoints\\step_000036.pt",
+      "bytes": 19843246
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_reuse_rejects_tampered_me0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-a19a83c7fb90__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "bytes": 19997864
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_reuse_rejects_tampered_me0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-a19a83c7fb90__git-eb1140cefc4a\\checkpoints\\step_000004.pt",
+      "bytes": 18607117
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_reuse_rejects_tampered_me0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-a19a83c7fb90__git-eb1140cefc4a\\checkpoints\\step_000008.pt",
+      "bytes": 18761601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_reuse_rejects_tampered_me0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-a19a83c7fb90__git-eb1140cefc4a\\checkpoints\\step_000012.pt",
+      "bytes": 18916085
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_reuse_rejects_tampered_me0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-a19a83c7fb90__git-eb1140cefc4a\\checkpoints\\step_000016.pt",
+      "bytes": 19070505
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_reuse_rejects_tampered_me0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-a19a83c7fb90__git-eb1140cefc4a\\checkpoints\\step_000020.pt",
+      "bytes": 19225053
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_reuse_rejects_tampered_me0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-a19a83c7fb90__git-eb1140cefc4a\\checkpoints\\step_000024.pt",
+      "bytes": 19379601
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_reuse_rejects_tampered_me0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-a19a83c7fb90__git-eb1140cefc4a\\checkpoints\\step_000028.pt",
+      "bytes": 19534149
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_reuse_rejects_tampered_me0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-a19a83c7fb90__git-eb1140cefc4a\\checkpoints\\step_000032.pt",
+      "bytes": 19688633
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_reuse_rejects_tampered_me0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-a19a83c7fb90__git-eb1140cefc4a\\checkpoints\\step_000036.pt",
+      "bytes": 19843246
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_reuse_rejects_tampered_me0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-a19a83c7fb90__git-eb1140cefc4a\\checkpoint_progress\\step_000004\\qmix-eval__e8a85afdb00e7d26\\aggregate_metrics.json",
+      "bytes": 14277
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_reuse_rejects_tampered_me0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-a19a83c7fb90__git-eb1140cefc4a\\checkpoint_progress\\step_000004\\qmix-eval__e8a85afdb00e7d26\\episode_metrics.jsonl",
+      "bytes": 6363
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_reuse_rejects_tampered_me0\\logs\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-a19a83c7fb90__git-eb1140cefc4a\\checkpoint_progress\\step_000004\\qmix-eval__e8a85afdb00e7d26\\evaluation_manifest.json",
+      "bytes": 2305
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_saved_metric_tampering_is0\\final.pt",
+      "bytes": 18968321
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_target_lag_probe_is_zero_0\\final.pt",
+      "bytes": 18968321
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_v3_weights_are_rejected_b0\\obsolete.pt",
+      "bytes": 9227683
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_v3_weights_are_rejected_b1\\obsolete.pt",
+      "bytes": 9227683
+    },
+    {
+      "target": "D:\\My_project_li\\logs\\q10_regression_tmp",
+      "path": "D:\\My_project_li\\logs\\q10_regression_tmp\\fixtures\\test_v6_backward_probe_ignores0\\final.pt",
+      "bytes": 18968321
+    }
+  ],
+  "file_count": 367,
+  "bytes": 3392546325,
+  "targets": [
+    "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9",
+    "D:\\My_project_li\\plots\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9",
+    "D:\\My_project_li\\dashboard_logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\cpu_pair_q_v9",
+    "D:\\My_project_li\\experiments\\strong-baselines\\configs\\fa-gat-qmix-seed42-8k-cpu-pair-development.json",
+    "D:\\My_project_li\\experiments\\strong-baselines\\configs\\fa-gat-qmix-seed42-16k-cpu-pair-development.json",
+    "D:\\My_project_li\\experiments\\strong-baselines\\configs\\fa-gat-qmix-cpu-pair-engineering.json",
+    "D:\\My_project_li\\logs\\strong_baselines\\engineering\\episode_return_v10",
+    "D:\\My_project_li\\plots\\strong_baselines\\engineering\\episode_return_v10",
+    "D:\\My_project_li\\dashboard_logs\\strong_baselines\\engineering\\episode_return_v10",
+    "D:\\My_project_li\\logs\\q10_unit_tmp",
+    "D:\\My_project_li\\logs\\q10_regression_tmp"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "started_at_utc": "2026-10-20T03:57:27.4632742Z",
+  "source_checkpoint": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\8k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-505599d604ea__git-eb1140cefc4a\\checkpoints\\step_004000.pt",
+  "source_sha256": "f88827fc618f25a799401543bf60f19f058f7d3b7eb99c058f3c9d64c956d001",
+  "original_process_27304_now_absent": true,
+  "source_steps": 4000,
+  "source_updates": 97,
+  "purpose": "Recover the interrupted handoff; no learning-source/config/reward modification",
+  "failure_evidence": "initial_attempt_state.json"
+}

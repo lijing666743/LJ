@@ -1,0 +1,23 @@
+{
+  "scope": "Workspace only, excluding protected and personal/system directories",
+  "A_B_activity_roots_remaining": [],
+  "retired_qmix_output_roots_remaining": [],
+  "empty_directories_outside_owned_test_root": [],
+  "pytest_and_python_caches_outside_owned_test_root": [],
+  "valid_C_D_plot_files_retained": 34,
+  "byte_identical_duplicate_plot_groups": [],
+  "images_removed_this_round": 0,
+  "proposal_material_or_IDE_modified": false,
+  "historical_AB_summary_audits_retained": true,
+  "old_shared_method_identifiers_in_source_removed": false,
+  "reason_shared_identifiers_retained": "Existing C/D model source fingerprints and shared feature/credit regression dependencies; file names alone do not make a file unrelated",
+  "scope_exclusions": [
+    ".agents/",
+    "knowledge/",
+    ".git/",
+    ".codex/",
+    ".aws/",
+    ".idea/",
+    "docs/presentations/"
+  ]
+}

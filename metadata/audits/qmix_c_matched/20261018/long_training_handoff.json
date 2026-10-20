@@ -1,0 +1,32 @@
+{
+  "schema": "C_QMIX_long_training_handoff.v1",
+  "status": "training_in_progress_not_completed",
+  "observed_progress": {
+    "elapsed_seconds": 1193.5574964999996,
+    "status": "training",
+    "environment_steps": 1192,
+    "optimizer_updates": 7,
+    "loss": 1.9102133841514584,
+    "team_td_loss": 1.170859564304352,
+    "responsibility_loss": 0.3660048997402191,
+    "route_event_loss": 0.21804645638354123,
+    "task_value_loss": 0.2627094107270241,
+    "tx_pair_loss": 0.04789549579471349,
+    "paired_labels": 10,
+    "shadow_steps": 7350
+  },
+  "exec_session_id": 5083,
+  "same_chat_followup_automation": {
+    "id": "13-11-qmix",
+    "status": "ACTIVE",
+    "kind": "heartbeat",
+    "interval_minutes": 30,
+    "target_thread_id": "01a13e9a-deca-7702-b079-5234f9c7a55c"
+  },
+  "development_evaluation_pending": true,
+  "no_16k_or_40k_authorized_in_this_followup": true,
+  "claim_boundary": "Implementation validated; actual 8k training and performance evaluation remain pending.",
+  "resolved_at_utc": "2026-10-18T06:03:27.947194+00:00",
+  "resolution_receipt": "receipt.json",
+  "resolution": "8k training and 4k/8k evaluation validated; automatic followup paused; later training remains human-local."
+}

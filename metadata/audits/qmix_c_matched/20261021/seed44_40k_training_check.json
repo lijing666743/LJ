@@ -1,0 +1,100 @@
+{
+  "schema": "c_feature_credit_qmix_seed44_40k_saved_training_validation.v1",
+  "checked_at_utc": "2026-10-20T17:17:01.624193+00:00",
+  "status": "PASS",
+  "training_seed": 44,
+  "config_hash": "9355ac0590f8c1e027d038a1aee5673b78ad11196fdda79db7caf018468e44e3",
+  "environment_steps": 40000,
+  "episodes": 80,
+  "optimizer_updates": 1249,
+  "checkpoint_schema": "factorized_gat_qmix.checkpoint.v10",
+  "checkpoint_kind": "final",
+  "checkpoint_sha256": "7200a3210bff4b205f244a21b979c8c2dd13bed58e2f246c02053176942eaea7",
+  "checkpoint_path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\40k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-9355ac0590f8__git-eb1140cefc4a\\checkpoints\\final.pt",
+  "restored_source_steps": 32000,
+  "restored_source_updates": 993,
+  "new_environment_steps": 8000,
+  "new_optimizer_updates": 256,
+  "replayed_environment_steps": 0,
+  "ancestors": [
+    {
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\8k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-505599d604ea__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "sha256": "9542bdb37dd581db546af418e2bb9e02b40506cd481c8f5bcdf4040017721188",
+      "steps": 8000,
+      "config_hash": "505599d604ea1d61d863184ec896f72c280ad1c2fa4978da441141c7151d994c"
+    },
+    {
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\16k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-6a276b46fb09__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "sha256": "dc3f28e2a3cc8bb9893246ef169e4088a56a71e49fc75b7589e87ce3fc997edf",
+      "steps": 16000,
+      "config_hash": "6a276b46fb09b627ef43d33707f37b48cc82a4899f19f0aa8bc4fccfd00c531d"
+    },
+    {
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\24k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-550ef31861fc__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "sha256": "b9b2ea77f06850f7790180f66b91e7b089850a746aea32a4745ea491ca2194b0",
+      "steps": 24000,
+      "config_hash": "550ef31861fcf7ddc931faddf78321ed55f008cb395189feb4273f88f75ebf5b"
+    },
+    {
+      "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\32k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-28d708fc2cfa__git-eb1140cefc4a\\checkpoints\\final.pt",
+      "sha256": "c0befc6e4a5d1deeceb64e7f223ea01caccb52ced5bb2ebcf20f58fb0f544dcf",
+      "steps": 32000,
+      "config_hash": "28d708fc2cfaacd72fa717bb2dcc41837600695a4c576b15541cdf13b9c30337"
+    }
+  ],
+  "replay_sequences": 1280,
+  "model_target_optimizer_finite": true,
+  "raw_json_csv_checkpoint_exact": true,
+  "prior_stage_history_prefixes_preserved": [
+    {
+      "budget": 8000,
+      "episodes": 16,
+      "updates": 225
+    },
+    {
+      "budget": 16000,
+      "episodes": 32,
+      "updates": 481
+    },
+    {
+      "budget": 24000,
+      "episodes": 48,
+      "updates": 737
+    },
+    {
+      "budget": 32000,
+      "episodes": 64,
+      "updates": 993
+    }
+  ],
+  "target_update_interval_updates": 200,
+  "loss_components_consistent_with_float32_tolerance": true,
+  "source_python_files_unchanged": 138,
+  "original_4k_and_8k_checkpoint_hashes_unchanged": true,
+  "interrupted_unsaved_suffix_execution_cost": "Unknown; not counted in saved factual/shadow counters and not claimed as zero",
+  "saved_total_shadow_steps": 133238,
+  "saved_paired_labels": 251,
+  "real_plus_shadow_environment_steps": 173238,
+  "new_shadow_steps": 22050,
+  "new_paired_labels": 40,
+  "saved_final_epsilon": 0.050000000000000044,
+  "dashboard_png_decodes": true,
+  "dashboard_png_dimensions": [
+    1400,
+    980
+  ],
+  "training_wall_time_measured": false,
+  "analysis_environment_steps": 0,
+  "analysis_optimizer_updates": 0,
+  "analysis_inference_calls": 0,
+  "checkpoint_load_count": 1,
+  "scope": "Strict read-only final v10 checkpoint loading validates source/contract/ancestor hashes/counters/replay geometry; finite online/target/Adam and exact saved histories. Other checkpoint tensors/replay not reloaded. PNG visual review recorded separately after viewing.",
+  "validation_wall_time_seconds": 127.79168369999388,
+  "training_artifact_sha256": {
+    "config_snapshot": "974ada64790fb20bbdfa6dc161adba9072ed9729271c750d725d1e87c5f4ef96",
+    "raw_metrics": "141fce0193999e55c34fb2055584b41eab2fffa2abdf2acdc689f5412a7cc708",
+    "aggregate_metrics": "c04d25cda951df5b86753224b2f4f770114d2147b9e808744efffdbdfb87f4a5",
+    "dashboard_csv": "f38dc25d9dbbd34af43cd3c92dcacfe39567cd378f45e287573eb7894f25b761",
+    "dashboard_png": "0cdae311e50ee0ae4ac0542ef0a8fc531a696ba162a0d8440727f308b2da4ce3"
+  }
+}

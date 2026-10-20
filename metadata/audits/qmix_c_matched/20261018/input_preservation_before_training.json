@@ -1,0 +1,19 @@
+{
+  "checked": 888,
+  "unchanged": 877,
+  "intentional_modified_existing": [
+    "src/config.py",
+    "src/evaluation/qmix_checkpoint_progress.py",
+    "src/evaluation/qmix_runner.py",
+    "src/execution.py",
+    "src/models/factorized_gat_qmix.py",
+    "src/models/qmix_continuation.py",
+    "src/models/qmix_replay.py",
+    "src/models/qmix_trainer.py",
+    "src/registry.py",
+    "src/training/qmix_handlers.py",
+    "tests/test_qmix_input_scale.py"
+  ],
+  "missing": [],
+  "unlisted_changes": []
+}

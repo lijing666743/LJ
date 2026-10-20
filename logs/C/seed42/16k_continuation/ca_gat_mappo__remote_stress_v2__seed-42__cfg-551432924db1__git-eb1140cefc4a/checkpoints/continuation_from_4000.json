@@ -1,0 +1,18 @@
+{
+  "diagnostic_sidecars_start_at": 4000,
+  "previous": null,
+  "replay_reference": {
+    "environment_steps": 8000,
+    "path": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\final.pt",
+    "sha256": "58da11c49bde4a517471e1386842b90568fdb1ffe51d9c290caa7e3d442ff1b5",
+    "status": "pending"
+  },
+  "restored_environment_steps": 4000,
+  "restored_pending_transitions": 160,
+  "schema_version": 1,
+  "source_checkpoint": "D:\\My_project_li\\logs\\C\\seed42\\8k\\training\\checkpoints\\step_4000.pt",
+  "source_config_hash": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15",
+  "source_sha256": "2a92745919ef42316131ab70dd67c6cbb9fa91cfb1cb08ebd2931e5913b50325",
+  "target_config_hash": "551432924db1a4bee212d387a261587fa885fd3a447000368992f2aeba559ebb",
+  "target_environment_steps": 16000
+}

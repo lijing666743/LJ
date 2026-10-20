@@ -1,0 +1,153 @@
+{
+  "schema": "qmix_cpu_diagnostic_summary.v1",
+  "checked_at": "2026-10-17T15:56:12.593065+08:00",
+  "status": "diagnosis_completed_cpu_value_modeling_priority",
+  "tests_passed": 40,
+  "frozen_reproduction_episodes": 10,
+  "frozen_intervention_episodes": 15,
+  "replay_chunk_model_pairs": 32,
+  "optimizer_updates": 0,
+  "new_development_training_started": false,
+  "existing_learning_environment_reward_sources_unchanged": true,
+  "current_v8_experiment_preserved": true,
+  "preserved_files_verified": 856,
+  "capacity_8k": {
+    "counts": {
+      "backlogged_decisions": 7500,
+      "idle": 1813,
+      "selected_queue_zero_frequency": 2110,
+      "energy_positive_available": 7500,
+      "capacity_feasible_head_available": 4239,
+      "energy_positive_but_no_capacity_feasible_head": 3261,
+      "feasible_available_but_idle_or_zero": 2121,
+      "no_feasible_head_idle_or_zero": 1802,
+      "positive_service_choice": 3577,
+      "frequency_1.0": 1188,
+      "positive_chosen_pair_capacity_feasible": 1362,
+      "positive_chosen_head_feasible_but_frequency_insufficient": 683,
+      "positive_impossible_head_when_other_head_feasible": 73,
+      "last_chance_head_available": 281,
+      "last_chance_available_but_idle_or_zero": 146,
+      "feasible_strictly_outranked_by_selected": 2877,
+      "feasible_tied_with_selected": 1362,
+      "frequency_0.25": 569,
+      "frequency_0.0": 3923,
+      "frequency_0.5": 1820,
+      "expired_local": 242,
+      "cpu_energy_to_expired_j": 16.745503053033236,
+      "cpu_energy_to_done_j": 33.1550767751294,
+      "cpu_energy_to_truncated_j": 0.8579879815025787,
+      "expired_cpu": 244
+    },
+    "capacity_feasible_but_idle_or_zero_pct": 50.03538570417551,
+    "last_chance_but_idle_or_zero_pct": 51.95729537366548,
+    "capacity_feasible_strictly_outranked_pct": 67.86978060863412
+  },
+  "replay": [
+    {
+      "training_steps": 4000,
+      "stratum": "first_4k",
+      "sample_chunks": 8,
+      "mean_loss": 0.18345039803534746,
+      "mean_absolute_td": 0.4759126082062721,
+      "mixer_sensitivity_min": 0.20714782178401947,
+      "cpu_queue_gradient_min": 0.13712988793849945,
+      "cpu_frequency_gradient_min": 0.09140592068433762,
+      "mean_target_lag_td_change": 0.39030133560299873
+    },
+    {
+      "training_steps": 4000,
+      "stratum": "last_4k",
+      "sample_chunks": 8,
+      "mean_loss": 0.26454852521419525,
+      "mean_absolute_td": 0.5521838515996933,
+      "mixer_sensitivity_min": 0.2542321979999542,
+      "cpu_queue_gradient_min": 0.10658913105726242,
+      "cpu_frequency_gradient_min": 0.11142142862081528,
+      "mean_target_lag_td_change": 0.3570307344198227
+    },
+    {
+      "training_steps": 8000,
+      "stratum": "first_4k",
+      "sample_chunks": 8,
+      "mean_loss": 0.10672725178301334,
+      "mean_absolute_td": 0.372245691716671,
+      "mixer_sensitivity_min": 0.4944264590740204,
+      "cpu_queue_gradient_min": 0.5669205784797668,
+      "cpu_frequency_gradient_min": 0.4389904737472534,
+      "mean_target_lag_td_change": 0.1914945049211383
+    },
+    {
+      "training_steps": 8000,
+      "stratum": "last_4k",
+      "sample_chunks": 8,
+      "mean_loss": 0.12278650468215346,
+      "mean_absolute_td": 0.3975175507366657,
+      "mixer_sensitivity_min": 0.43005937337875366,
+      "cpu_queue_gradient_min": 0.3083321452140808,
+      "cpu_frequency_gradient_min": 0.16483861207962036,
+      "mean_target_lag_td_change": 0.278977794572711
+    }
+  ],
+  "interventions": [
+    {
+      "groups": [
+        "cpu"
+      ],
+      "generated": 605,
+      "completed": 292,
+      "expired": 265,
+      "truncated": 48,
+      "total_energy_j": 84.80430598575596,
+      "cpu_energy_j": 81.70663440878705,
+      "tx_energy_j": 3.0976715769689047,
+      "energy_per_completed_task_j": 0.2904257054306711,
+      "completion_rate_pct": 48.264462809917354,
+      "completed_difference_vs_unmodified": 223
+    },
+    {
+      "groups": [
+        "route"
+      ],
+      "generated": 605,
+      "completed": 70,
+      "expired": 486,
+      "truncated": 49,
+      "total_energy_j": 45.13758176800642,
+      "cpu_energy_j": 44.667547247785976,
+      "tx_energy_j": 0.4700345202204488,
+      "energy_per_completed_task_j": 0.644822596685806,
+      "completion_rate_pct": 11.570247933884298,
+      "completed_difference_vs_unmodified": 1
+    },
+    {
+      "groups": [
+        "route",
+        "cpu"
+      ],
+      "generated": 605,
+      "completed": 365,
+      "expired": 194,
+      "truncated": 46,
+      "total_energy_j": 106.52456401594378,
+      "cpu_energy_j": 106.07619962076714,
+      "tx_energy_j": 0.44836439517664484,
+      "energy_per_completed_task_j": 0.2918481205916268,
+      "completion_rate_pct": 60.33057851239669,
+      "completed_difference_vs_unmodified": 296
+    }
+  ],
+  "next_candidate": {
+    "name": "cpu_pair_q_v9",
+    "status": "scientific_plan_only_not_implemented_or_trained",
+    "change": "Replace independent additive CPU queue/frequency utilities with a learned joint CPU pair utility; preserve original actions including Idle and zero, masks, reward, epsilon, targets and budget.",
+    "primary_reference": "v8 seed42 8k with the same agent-level exploration and target200",
+    "historical_reference": "v6 seed42 8k, 166/605 and 0.4324177329207706 J/completed",
+    "training_budget_steps_after_validation": 8000,
+    "evaluation_steps": [
+      4000,
+      8000
+    ]
+  },
+  "claim_boundary": "Diagnostic replacements are hybrid policies, not trained QMIX improvement, direct causal decomposition or proof that a joint CPU Q head will learn better."
+}

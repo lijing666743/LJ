@@ -1,0 +1,5925 @@
+{
+  "schema": "qmix_cpu_deadline_diagnostic.v1",
+  "optimizer_updates": 0,
+  "episodes": 10,
+  "checkpoint_parameters_unchanged": true,
+  "original_metrics_actions_hidden_external_invariants_exact": true,
+  "capacity_definition": "Exact float64 service on a slot-start head at a current legal positive frequency, repeated through inclusive deadline; optimistic, without future energy/competition/policy guarantees.",
+  "claim_boundary": "Read-only single-seed development diagnosis; capacity availability does not prove that immediate service is optimal or that a new policy improves performance.",
+  "behavior": [
+    {
+      "training_steps": 4000,
+      "checkpoint_sha256": "85cd0426ff4cf1f723ce9af4df080d0869c06efc3885d66ea361dc2b79490843",
+      "scenes": [
+        {
+          "seed": 1042,
+          "metrics": {
+            "generated": 135,
+            "completed": 0,
+            "expired": 121,
+            "truncated": 14,
+            "completion_ratio": 0.0,
+            "expiration_ratio": 0.8962962962962963,
+            "truncation_ratio": 0.1037037037037037,
+            "completed_task_e2e_delay_s": null,
+            "tx_energy_j": 0.05307265352823187,
+            "cpu_energy_j": 0.5082985258322725,
+            "total_energy_j": 0.5613711793605044,
+            "energy_per_completed_task_j": null,
+            "backlog_mean_tasks": 9.642,
+            "backlog_max_tasks": 16,
+            "backlog_final_tasks": 14,
+            "outage_numerator": 0,
+            "outage_denominator": 18,
+            "outage_rate": 0.0,
+            "executor_rejection": 0,
+            "executor_downgrade": 0,
+            "completion_component": 0.0,
+            "expiration_penalty": 121.0,
+            "workload_penalty": 26.36109071191801,
+            "energy_penalty": 0.0002680898265732956,
+            "total_reward": -147.3613588017446
+          },
+          "counts": {
+            "backlogged_decisions": 289,
+            "idle": 215,
+            "selected_queue_zero_frequency": 0,
+            "energy_positive_available": 289,
+            "capacity_feasible_head_available": 146,
+            "energy_positive_but_no_capacity_feasible_head": 143,
+            "feasible_available_but_idle_or_zero": 114,
+            "no_feasible_head_idle_or_zero": 101,
+            "positive_service_choice": 74,
+            "frequency_0.0": 215,
+            "positive_chosen_pair_capacity_feasible": 25,
+            "positive_chosen_head_feasible_but_frequency_insufficient": 0,
+            "positive_impossible_head_when_other_head_feasible": 7,
+            "last_chance_head_available": 9,
+            "last_chance_available_but_idle_or_zero": 9,
+            "feasible_strictly_outranked_by_selected": 121,
+            "feasible_tied_with_selected": 25,
+            "frequency_1.0": 74,
+            "expired_unbound": 106,
+            "expired_cpu": 10,
+            "cpu_energy_to_expired_j": 0.47395403084360604,
+            "expired_local": 5,
+            "cpu_energy_to_truncated_j": 0.034344494988667096
+          },
+          "by_uav": [
+            {
+              "backlog_task_slots": 0,
+              "backlog_cycle_slots": 0.0,
+              "max_backlog_tasks": 0,
+              "max_cpu_frequency_hz": 1972371380.024
+            },
+            {
+              "backlog_task_slots": 426,
+              "backlog_cycle_slots": 289566843339.84796,
+              "max_backlog_tasks": 4,
+              "max_cpu_frequency_hz": 1434027346.2676,
+              "backlogged_decisions": 289,
+              "idle": 215,
+              "selected_queue_zero_frequency": 0,
+              "energy_positive_available": 289,
+              "capacity_feasible_head_available": 146,
+              "energy_positive_but_no_capacity_feasible_head": 143,
+              "feasible_available_but_idle_or_zero": 114,
+              "no_feasible_head_idle_or_zero": 101,
+              "positive_service_choice": 74,
+              "frequency_0.0": 215,
+              "positive_chosen_pair_capacity_feasible": 25,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 0,
+              "positive_impossible_head_when_other_head_feasible": 7,
+              "last_chance_head_available": 9,
+              "last_chance_available_but_idle_or_zero": 9,
+              "feasible_strictly_outranked_by_selected": 121,
+              "feasible_tied_with_selected": 25,
+              "frequency_1.0": 74,
+              "actual_service_cycles": 2122360472.4760509,
+              "actual_cpu_energy_j": 0.5082985258322725,
+              "actual_positive_service_slots": 74,
+              "assigned_tasks": 16,
+              "assigned_initial_cycles": 9189309737.22216,
+              "assigned_expired": 15,
+              "assigned_from_2": 11,
+              "assigned_from_1": 5,
+              "assigned_truncated": 1
+            },
+            {
+              "backlog_task_slots": 0,
+              "backlog_cycle_slots": 0.0,
+              "max_backlog_tasks": 0,
+              "max_cpu_frequency_hz": 3997595437.468
+            },
+            {
+              "backlog_task_slots": 0,
+              "backlog_cycle_slots": 0.0,
+              "max_backlog_tasks": 0,
+              "max_cpu_frequency_hz": 1998951144.562
+            }
+          ],
+          "q_margins": {
+            "best_capacity_feasible_minus_chosen": {
+              "count": 146,
+              "sum": -5.458230775780976,
+              "mean": -0.037385142299869695,
+              "min": -0.15803668648004532,
+              "max": 0.0
+            },
+            "best_capacity_feasible_minus_idle": {
+              "count": 146,
+              "sum": -4.881102042272687,
+              "mean": -0.03343220576899101,
+              "min": -0.15803668648004532,
+              "max": 0.03632337227463722
+            },
+            "best_feasible_minus_chosen_when_idle_or_zero": {
+              "count": 114,
+              "sum": -4.8464612271636724,
+              "mean": -0.042512817782137474,
+              "min": -0.15803668648004532,
+              "max": -0.0002150014042854309
+            }
+          },
+          "examples": [
+            {
+              "slot": 58,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.11725547909736633,
+              "best_feasible_q": 0.0617715809494257,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  490349973.0942014,
+                  30,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 59,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.10454689711332321,
+              "best_feasible_q": 0.0740143470466137,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  490349973.0942014,
+                  29,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 60,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.10093380510807037,
+              "best_feasible_q": 0.08002675324678421,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  490349973.0942014,
+                  28,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 61,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.1044851765036583,
+              "best_feasible_q": 0.08169659227132797,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  239327582.08403087,
+                  17,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 62,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.10464376211166382,
+              "best_feasible_q": 0.08285075426101685,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  239327582.08403087,
+                  16,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 63,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.10377638041973114,
+              "best_feasible_q": 0.08352180570363998,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  239327582.08403087,
+                  15,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 64,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.10272876918315887,
+              "best_feasible_q": 0.08372901380062103,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  239327582.08403087,
+                  14,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 65,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.10173483192920685,
+              "best_feasible_q": 0.08360671997070312,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  239327582.08403087,
+                  13,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 66,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.1009000688791275,
+              "best_feasible_q": 0.08303989470005035,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  239327582.08403087,
+                  12,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 67,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.10010044276714325,
+              "best_feasible_q": 0.08242225646972656,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  239327582.08403087,
+                  11,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 68,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.0993337482213974,
+              "best_feasible_q": 0.08177987486124039,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  239327582.08403087,
+                  10,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 69,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.09859298914670944,
+              "best_feasible_q": 0.08112218230962753,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  239327582.08403087,
+                  9,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            }
+          ],
+          "task_outcomes": {
+            "expired": 121,
+            "truncated": 14
+          },
+          "actual_completion_cycle_energy_accounting_verified": true
+        },
+        {
+          "seed": 1043,
+          "metrics": {
+            "generated": 122,
+            "completed": 23,
+            "expired": 87,
+            "truncated": 12,
+            "completion_ratio": 0.1885245901639344,
+            "expiration_ratio": 0.7131147540983607,
+            "truncation_ratio": 0.09836065573770492,
+            "completed_task_e2e_delay_s": 0.43478260869565216,
+            "tx_energy_j": 0.5755858199888441,
+            "cpu_energy_j": 7.100987138650176,
+            "total_energy_j": 7.67657295863902,
+            "energy_per_completed_task_j": 0.3337640416799574,
+            "backlog_mean_tasks": 8.834,
+            "backlog_max_tasks": 16,
+            "backlog_final_tasks": 11,
+            "outage_numerator": 0,
+            "outage_denominator": 114,
+            "outage_rate": 0.0,
+            "executor_rejection": 4,
+            "executor_downgrade": 0,
+            "completion_component": 23.0,
+            "expiration_penalty": 87.0,
+            "workload_penalty": 20.49263817641422,
+            "energy_penalty": 0.0036660434108911843,
+            "total_reward": -84.49630421982512
+          },
+          "counts": {
+            "backlogged_decisions": 842,
+            "idle": 369,
+            "selected_queue_zero_frequency": 7,
+            "energy_positive_available": 842,
+            "capacity_feasible_head_available": 370,
+            "energy_positive_but_no_capacity_feasible_head": 472,
+            "feasible_available_but_idle_or_zero": 107,
+            "no_feasible_head_idle_or_zero": 269,
+            "positive_service_choice": 466,
+            "frequency_0.0": 376,
+            "positive_chosen_pair_capacity_feasible": 262,
+            "positive_chosen_head_feasible_but_frequency_insufficient": 1,
+            "positive_impossible_head_when_other_head_feasible": 0,
+            "last_chance_head_available": 13,
+            "last_chance_available_but_idle_or_zero": 10,
+            "feasible_strictly_outranked_by_selected": 108,
+            "feasible_tied_with_selected": 262,
+            "frequency_0.5": 6,
+            "frequency_1.0": 460,
+            "cpu_energy_to_done_j": 3.541257010096964,
+            "expired_cpu": 60,
+            "expired_unbound": 27,
+            "cpu_energy_to_expired_j": 3.385201067497085,
+            "cpu_energy_to_truncated_j": 0.1745290610561509
+          },
+          "by_uav": [
+            {
+              "backlog_task_slots": 2355,
+              "backlog_cycle_slots": 1842363308269.3513,
+              "max_backlog_tasks": 12,
+              "max_cpu_frequency_hz": 1972371380.024,
+              "backlogged_decisions": 495,
+              "idle": 24,
+              "selected_queue_zero_frequency": 7,
+              "energy_positive_available": 495,
+              "capacity_feasible_head_available": 283,
+              "energy_positive_but_no_capacity_feasible_head": 212,
+              "feasible_available_but_idle_or_zero": 21,
+              "no_feasible_head_idle_or_zero": 10,
+              "positive_service_choice": 464,
+              "frequency_0.0": 31,
+              "positive_chosen_pair_capacity_feasible": 262,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 0,
+              "positive_impossible_head_when_other_head_feasible": 0,
+              "last_chance_head_available": 3,
+              "last_chance_available_but_idle_or_zero": 0,
+              "feasible_strictly_outranked_by_selected": 21,
+              "feasible_tied_with_selected": 262,
+              "frequency_0.5": 4,
+              "actual_service_cycles": 17709683192.24139,
+              "actual_cpu_energy_j": 7.099269913900742,
+              "actual_positive_service_slots": 464,
+              "frequency_1.0": 460,
+              "actual_completions": 23,
+              "assigned_tasks": 68,
+              "assigned_initial_cycles": 43270801833.302765,
+              "assigned_done": 23,
+              "assigned_from_1": 68,
+              "assigned_expired": 37,
+              "assigned_truncated": 8
+            },
+            {
+              "backlog_task_slots": 690,
+              "backlog_cycle_slots": 445748983954.4689,
+              "max_backlog_tasks": 5,
+              "max_cpu_frequency_hz": 1434027346.2676,
+              "backlogged_decisions": 347,
+              "idle": 345,
+              "selected_queue_zero_frequency": 0,
+              "energy_positive_available": 347,
+              "capacity_feasible_head_available": 87,
+              "energy_positive_but_no_capacity_feasible_head": 260,
+              "feasible_available_but_idle_or_zero": 86,
+              "no_feasible_head_idle_or_zero": 259,
+              "positive_service_choice": 2,
+              "frequency_0.0": 345,
+              "positive_chosen_pair_capacity_feasible": 0,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 1,
+              "positive_impossible_head_when_other_head_feasible": 0,
+              "last_chance_head_available": 10,
+              "last_chance_available_but_idle_or_zero": 10,
+              "feasible_strictly_outranked_by_selected": 87,
+              "feasible_tied_with_selected": 0,
+              "frequency_0.5": 2,
+              "actual_service_cycles": 28680546.925352003,
+              "actual_cpu_energy_j": 0.0017172247494333546,
+              "actual_positive_service_slots": 2,
+              "assigned_tasks": 23,
+              "assigned_initial_cycles": 11304029424.81996,
+              "assigned_expired": 23,
+              "assigned_from_0": 23
+            },
+            {
+              "backlog_task_slots": 0,
+              "backlog_cycle_slots": 0.0,
+              "max_backlog_tasks": 0,
+              "max_cpu_frequency_hz": 3997595437.468
+            },
+            {
+              "backlog_task_slots": 0,
+              "backlog_cycle_slots": 0.0,
+              "max_backlog_tasks": 0,
+              "max_cpu_frequency_hz": 1998951144.562
+            }
+          ],
+          "q_margins": {
+            "best_capacity_feasible_minus_chosen": {
+              "count": 370,
+              "sum": -20.094071893952787,
+              "mean": -0.05430830241608861,
+              "min": -0.3521905243396759,
+              "max": 0.0
+            },
+            "best_capacity_feasible_minus_idle": {
+              "count": 370,
+              "sum": -2.965738591738045,
+              "mean": -0.008015509707400122,
+              "min": -0.3521905243396759,
+              "max": 0.17933638766407967
+            },
+            "best_feasible_minus_chosen_when_idle_or_zero": {
+              "count": 107,
+              "sum": -19.868505503050983,
+              "mean": -0.18568696731823348,
+              "min": -0.3521905243396759,
+              "max": -1.566857099533081e-05
+            }
+          },
+          "examples": [
+            {
+              "slot": 5,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.07621948421001434,
+              "best_feasible_q": 0.07343197241425514,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  558336100.4590039,
+                  33,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 19,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.15175196528434753,
+              "best_feasible_q": -0.06921923160552979,
+              "heads": [
+                [
+                  272299001.3013758,
+                  17,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 20,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.14859439432621002,
+              "best_feasible_q": -0.07109221071004868,
+              "heads": [
+                [
+                  272299001.3013758,
+                  16,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 21,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.15085230767726898,
+              "best_feasible_q": -0.056207120418548584,
+              "heads": [
+                [
+                  272299001.3013758,
+                  15,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 22,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.15704728662967682,
+              "best_feasible_q": -0.04805796593427658,
+              "heads": [
+                [
+                  272299001.3013758,
+                  14,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 23,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.1613626927137375,
+              "best_feasible_q": -0.04015155881643295,
+              "heads": [
+                [
+                  272299001.3013758,
+                  13,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 24,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.16464518010616302,
+              "best_feasible_q": -0.029924042522907257,
+              "heads": [
+                [
+                  272299001.3013758,
+                  12,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 25,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.16475431621074677,
+              "best_feasible_q": -0.012600354850292206,
+              "heads": [
+                [
+                  272299001.3013758,
+                  11,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 26,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.16663305461406708,
+              "best_feasible_q": -0.006054319441318512,
+              "heads": [
+                [
+                  272299001.3013758,
+                  10,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 51,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.021672643721103668,
+              "best_feasible_q": 0.010259625501930714,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  66412613.17923873,
+                  16,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 52,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.008170586079359055,
+              "best_feasible_q": -0.014739766716957092,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  66412613.17923873,
+                  15,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 53,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.17188774049282074,
+              "best_feasible_q": 0.020404860377311707,
+              "heads": [
+                [
+                  338706144.09949183,
+                  27,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            }
+          ],
+          "task_outcomes": {
+            "done": 23,
+            "expired": 87,
+            "truncated": 12
+          },
+          "actual_completion_cycle_energy_accounting_verified": true
+        },
+        {
+          "seed": 1044,
+          "metrics": {
+            "generated": 117,
+            "completed": 7,
+            "expired": 103,
+            "truncated": 7,
+            "completion_ratio": 0.05982905982905983,
+            "expiration_ratio": 0.8803418803418803,
+            "truncation_ratio": 0.05982905982905983,
+            "completed_task_e2e_delay_s": 0.5314285714285715,
+            "tx_energy_j": 0.5769642611993157,
+            "cpu_energy_j": 2.9443512893855024,
+            "total_energy_j": 3.521315550584818,
+            "energy_per_completed_task_j": 0.503045078654974,
+            "backlog_mean_tasks": 8.342,
+            "backlog_max_tasks": 20,
+            "backlog_final_tasks": 7,
+            "outage_numerator": 0,
+            "outage_denominator": 113,
+            "outage_rate": 0.0,
+            "executor_rejection": 8,
+            "executor_downgrade": 0,
+            "completion_component": 7.0,
+            "expiration_penalty": 103.0,
+            "workload_penalty": 20.645499468065974,
+            "energy_penalty": 0.001681648274750301,
+            "total_reward": -116.64718111634073
+          },
+          "counts": {
+            "backlogged_decisions": 823,
+            "idle": 604,
+            "selected_queue_zero_frequency": 14,
+            "energy_positive_available": 823,
+            "capacity_feasible_head_available": 386,
+            "energy_positive_but_no_capacity_feasible_head": 437,
+            "feasible_available_but_idle_or_zero": 239,
+            "no_feasible_head_idle_or_zero": 379,
+            "positive_service_choice": 205,
+            "frequency_0.0": 618,
+            "positive_chosen_pair_capacity_feasible": 93,
+            "positive_chosen_head_feasible_but_frequency_insufficient": 1,
+            "positive_impossible_head_when_other_head_feasible": 53,
+            "last_chance_head_available": 51,
+            "last_chance_available_but_idle_or_zero": 22,
+            "feasible_strictly_outranked_by_selected": 293,
+            "feasible_tied_with_selected": 93,
+            "frequency_1.0": 189,
+            "frequency_0.5": 7,
+            "frequency_0.25": 9,
+            "expired_local": 8,
+            "expired_cpu": 65,
+            "cpu_energy_to_expired_j": 1.6324912884300475,
+            "cpu_energy_to_done_j": 1.1353476551145831,
+            "expired_unbound": 30,
+            "cpu_energy_to_truncated_j": 0.17651234584087985
+          },
+          "by_uav": [
+            {
+              "backlog_task_slots": 1622,
+              "backlog_cycle_slots": 1201194900055.6692,
+              "max_backlog_tasks": 8,
+              "max_cpu_frequency_hz": 1972371380.024,
+              "backlogged_decisions": 458,
+              "idle": 239,
+              "selected_queue_zero_frequency": 14,
+              "energy_positive_available": 458,
+              "capacity_feasible_head_available": 243,
+              "energy_positive_but_no_capacity_feasible_head": 215,
+              "feasible_available_but_idle_or_zero": 96,
+              "no_feasible_head_idle_or_zero": 157,
+              "positive_service_choice": 205,
+              "frequency_0.0": 253,
+              "positive_chosen_pair_capacity_feasible": 93,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 1,
+              "positive_impossible_head_when_other_head_feasible": 53,
+              "last_chance_head_available": 36,
+              "last_chance_available_but_idle_or_zero": 7,
+              "feasible_strictly_outranked_by_selected": 150,
+              "feasible_tied_with_selected": 93,
+              "frequency_1.0": 189,
+              "actual_service_cycles": 7507132495.074161,
+              "actual_cpu_energy_j": 2.9443512893855024,
+              "actual_positive_service_slots": 205,
+              "actual_completions": 7,
+              "frequency_0.5": 7,
+              "frequency_0.25": 9,
+              "assigned_tasks": 54,
+              "assigned_initial_cycles": 32613246230.27954,
+              "assigned_expired": 41,
+              "assigned_from_1": 45,
+              "assigned_done": 7,
+              "assigned_from_2": 9,
+              "assigned_truncated": 6
+            },
+            {
+              "backlog_task_slots": 740,
+              "backlog_cycle_slots": 472607421551.00604,
+              "max_backlog_tasks": 8,
+              "max_cpu_frequency_hz": 1434027346.2676,
+              "backlogged_decisions": 365,
+              "idle": 365,
+              "selected_queue_zero_frequency": 0,
+              "energy_positive_available": 365,
+              "capacity_feasible_head_available": 143,
+              "energy_positive_but_no_capacity_feasible_head": 222,
+              "feasible_available_but_idle_or_zero": 143,
+              "no_feasible_head_idle_or_zero": 222,
+              "positive_service_choice": 0,
+              "frequency_0.0": 365,
+              "positive_chosen_pair_capacity_feasible": 0,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 0,
+              "positive_impossible_head_when_other_head_feasible": 0,
+              "last_chance_head_available": 15,
+              "last_chance_available_but_idle_or_zero": 15,
+              "feasible_strictly_outranked_by_selected": 143,
+              "feasible_tied_with_selected": 0,
+              "assigned_tasks": 33,
+              "assigned_initial_cycles": 17600229345.75888,
+              "assigned_expired": 32,
+              "assigned_from_1": 8,
+              "assigned_from_0": 25,
+              "assigned_truncated": 1
+            },
+            {
+              "backlog_task_slots": 0,
+              "backlog_cycle_slots": 0.0,
+              "max_backlog_tasks": 0,
+              "max_cpu_frequency_hz": 3997595437.468
+            },
+            {
+              "backlog_task_slots": 0,
+              "backlog_cycle_slots": 0.0,
+              "max_backlog_tasks": 0,
+              "max_cpu_frequency_hz": 1998951144.562
+            }
+          ],
+          "q_margins": {
+            "best_capacity_feasible_minus_chosen": {
+              "count": 386,
+              "sum": -47.910500107333064,
+              "mean": -0.12412046659930846,
+              "min": -0.36713891476392746,
+              "max": 0.0
+            },
+            "best_capacity_feasible_minus_idle": {
+              "count": 386,
+              "sum": -34.59031619876623,
+              "mean": -0.08961221813151873,
+              "min": -0.36713891476392746,
+              "max": 0.15981996804475784
+            },
+            "best_feasible_minus_chosen_when_idle_or_zero": {
+              "count": 239,
+              "sum": -41.42811615113169,
+              "mean": -0.17333939812188992,
+              "min": -0.36713891476392746,
+              "max": -0.0004826672375202179
+            }
+          },
+          "examples": [
+            {
+              "slot": 3,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.21359312534332275,
+              "best_feasible_q": 0.13440536987036467,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  470476940.83810174,
+                  28,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 4,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.2503378391265869,
+              "best_feasible_q": 0.05987622868269682,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  470476940.83810174,
+                  27,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 5,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.23993878066539764,
+              "best_feasible_q": 0.1036752387881279,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  470476940.83810174,
+                  26,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 6,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.24141915142536163,
+              "best_feasible_q": 0.11006023734807968,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  470476940.83810174,
+                  25,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 7,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.24392743408679962,
+              "best_feasible_q": 0.1079041138291359,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  470476940.83810174,
+                  24,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 8,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.24596452713012695,
+              "best_feasible_q": 0.10409373044967651,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  470476940.83810174,
+                  23,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 9,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.24802233278751373,
+              "best_feasible_q": 0.09970276057720184,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  470476940.83810174,
+                  22,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 10,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.24987369775772095,
+              "best_feasible_q": 0.09514832496643066,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  470476940.83810174,
+                  21,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 11,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.251341849565506,
+              "best_feasible_q": 0.09088047593832016,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  470476940.83810174,
+                  20,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 12,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.25242510437965393,
+              "best_feasible_q": 0.08708275854587555,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  470476940.83810174,
+                  19,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 13,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.2531944513320923,
+              "best_feasible_q": 0.08373638987541199,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  470476940.83810174,
+                  18,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 14,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.2535017132759094,
+              "best_feasible_q": 0.05432513728737831,
+              "heads": [
+                [
+                  190253650.8475007,
+                  8,
+                  1434027346.2676
+                ],
+                [
+                  470476940.83810174,
+                  17,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            }
+          ],
+          "task_outcomes": {
+            "expired": 103,
+            "done": 7,
+            "truncated": 7
+          },
+          "actual_completion_cycle_energy_accounting_verified": true
+        },
+        {
+          "seed": 1045,
+          "metrics": {
+            "generated": 102,
+            "completed": 5,
+            "expired": 91,
+            "truncated": 6,
+            "completion_ratio": 0.049019607843137254,
+            "expiration_ratio": 0.8921568627450981,
+            "truncation_ratio": 0.058823529411764705,
+            "completed_task_e2e_delay_s": 0.372,
+            "tx_energy_j": 0.24549860150404082,
+            "cpu_energy_j": 1.4819918063041047,
+            "total_energy_j": 1.7274904078081454,
+            "energy_per_completed_task_j": 0.3454980815616291,
+            "backlog_mean_tasks": 7.824,
+            "backlog_max_tasks": 18,
+            "backlog_final_tasks": 6,
+            "outage_numerator": 0,
+            "outage_denominator": 56,
+            "outage_rate": 0.0,
+            "executor_rejection": 0,
+            "executor_downgrade": 0,
+            "completion_component": 5.0,
+            "expiration_penalty": 91.0,
+            "workload_penalty": 20.036167691274315,
+            "energy_penalty": 0.0008249846462796529,
+            "total_reward": -106.03699267592059
+          },
+          "counts": {
+            "backlogged_decisions": 665,
+            "idle": 362,
+            "selected_queue_zero_frequency": 41,
+            "energy_positive_available": 665,
+            "capacity_feasible_head_available": 321,
+            "energy_positive_but_no_capacity_feasible_head": 344,
+            "feasible_available_but_idle_or_zero": 175,
+            "no_feasible_head_idle_or_zero": 228,
+            "positive_service_choice": 262,
+            "frequency_0.0": 403,
+            "positive_chosen_pair_capacity_feasible": 102,
+            "positive_chosen_head_feasible_but_frequency_insufficient": 36,
+            "positive_impossible_head_when_other_head_feasible": 8,
+            "last_chance_head_available": 24,
+            "last_chance_available_but_idle_or_zero": 18,
+            "feasible_strictly_outranked_by_selected": 219,
+            "feasible_tied_with_selected": 102,
+            "frequency_0.5": 144,
+            "frequency_1.0": 115,
+            "frequency_0.25": 3,
+            "expired_cpu": 32,
+            "cpu_energy_to_expired_j": 1.1037275956913706,
+            "expired_local": 22,
+            "expired_unbound": 37,
+            "cpu_energy_to_done_j": 0.36452641261726854,
+            "cpu_energy_to_truncated_j": 0.013737797995466837
+          },
+          "by_uav": [
+            {
+              "backlog_task_slots": 589,
+              "backlog_cycle_slots": 373927546466.6957,
+              "max_backlog_tasks": 5,
+              "max_cpu_frequency_hz": 1972371380.024,
+              "backlogged_decisions": 248,
+              "idle": 31,
+              "selected_queue_zero_frequency": 41,
+              "energy_positive_available": 248,
+              "capacity_feasible_head_available": 140,
+              "energy_positive_but_no_capacity_feasible_head": 108,
+              "feasible_available_but_idle_or_zero": 36,
+              "no_feasible_head_idle_or_zero": 36,
+              "positive_service_choice": 176,
+              "frequency_0.5": 126,
+              "positive_chosen_pair_capacity_feasible": 75,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 29,
+              "positive_impossible_head_when_other_head_feasible": 0,
+              "last_chance_head_available": 9,
+              "last_chance_available_but_idle_or_zero": 5,
+              "feasible_strictly_outranked_by_selected": 65,
+              "feasible_tied_with_selected": 75,
+              "actual_service_cycles": 4378650799.816175,
+              "actual_cpu_energy_j": 1.0238875214174044,
+              "actual_positive_service_slots": 176,
+              "frequency_1.0": 50,
+              "frequency_0.0": 72,
+              "actual_completions": 4,
+              "assigned_tasks": 18,
+              "assigned_initial_cycles": 11043168580.146984,
+              "assigned_done": 4,
+              "assigned_from_1": 18,
+              "assigned_expired": 14
+            },
+            {
+              "backlog_task_slots": 1633,
+              "backlog_cycle_slots": 1196449329236.0935,
+              "max_backlog_tasks": 9,
+              "max_cpu_frequency_hz": 1434027346.2676,
+              "backlogged_decisions": 417,
+              "idle": 331,
+              "selected_queue_zero_frequency": 0,
+              "energy_positive_available": 417,
+              "capacity_feasible_head_available": 181,
+              "energy_positive_but_no_capacity_feasible_head": 236,
+              "feasible_available_but_idle_or_zero": 139,
+              "no_feasible_head_idle_or_zero": 192,
+              "positive_service_choice": 86,
+              "frequency_0.0": 331,
+              "positive_chosen_pair_capacity_feasible": 27,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 7,
+              "positive_impossible_head_when_other_head_feasible": 8,
+              "last_chance_head_available": 15,
+              "last_chance_available_but_idle_or_zero": 13,
+              "feasible_strictly_outranked_by_selected": 154,
+              "feasible_tied_with_selected": 27,
+              "frequency_0.5": 18,
+              "actual_service_cycles": 2126538072.878046,
+              "actual_cpu_energy_j": 0.45810428488670146,
+              "actual_positive_service_slots": 86,
+              "frequency_1.0": 65,
+              "actual_completions": 1,
+              "frequency_0.25": 3,
+              "assigned_tasks": 45,
+              "assigned_initial_cycles": 28767623566.160088,
+              "assigned_expired": 40,
+              "assigned_from_0": 20,
+              "assigned_from_1": 25,
+              "assigned_done": 1,
+              "assigned_truncated": 4
+            },
+            {
+              "backlog_task_slots": 0,
+              "backlog_cycle_slots": 0.0,
+              "max_backlog_tasks": 0,
+              "max_cpu_frequency_hz": 3997595437.468
+            },
+            {
+              "backlog_task_slots": 0,
+              "backlog_cycle_slots": 0.0,
+              "max_backlog_tasks": 0,
+              "max_cpu_frequency_hz": 1998951144.562
+            }
+          ],
+          "q_margins": {
+            "best_capacity_feasible_minus_chosen": {
+              "count": 321,
+              "sum": -16.55446622427553,
+              "mean": -0.05157154587001723,
+              "min": -0.3442208841443062,
+              "max": 0.0
+            },
+            "best_capacity_feasible_minus_idle": {
+              "count": 321,
+              "sum": -3.7532927552238107,
+              "mean": -0.011692500795089752,
+              "min": -0.3442208841443062,
+              "max": 0.20496705174446106
+            },
+            "best_feasible_minus_chosen_when_idle_or_zero": {
+              "count": 175,
+              "sum": -13.93349349219352,
+              "mean": -0.0796199628125344,
+              "min": -0.3442208841443062,
+              "max": -0.0008147470653057098
+            }
+          },
+          "examples": [
+            {
+              "slot": 7,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.1522884964942932,
+              "best_feasible_q": 0.05977889150381088,
+              "heads": [
+                [
+                  895306520.728461,
+                  55,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 8,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.15938353538513184,
+              "best_feasible_q": 0.053626157343387604,
+              "heads": [
+                [
+                  895306520.728461,
+                  54,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 9,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.1593834012746811,
+              "best_feasible_q": 0.05127052217721939,
+              "heads": [
+                [
+                  895306520.728461,
+                  53,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 10,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.15800084173679352,
+              "best_feasible_q": 0.05013562738895416,
+              "heads": [
+                [
+                  895306520.728461,
+                  52,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 11,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.1563788503408432,
+              "best_feasible_q": 0.04930528998374939,
+              "heads": [
+                [
+                  895306520.728461,
+                  51,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 12,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.15478768944740295,
+              "best_feasible_q": 0.0483374297618866,
+              "heads": [
+                [
+                  895306520.728461,
+                  50,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 13,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.1532478779554367,
+              "best_feasible_q": 0.047366656363010406,
+              "heads": [
+                [
+                  895306520.728461,
+                  49,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 22,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.05050688982009888,
+              "best_feasible_q": 0.03321487456560135,
+              "heads": [
+                [
+                  809264879.9524049,
+                  40,
+                  1434027346.2676
+                ],
+                [
+                  607587442.40562,
+                  45,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 23,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.08661069720983505,
+              "best_feasible_q": 0.08579595014452934,
+              "heads": [
+                [
+                  809264879.9524049,
+                  39,
+                  1434027346.2676
+                ],
+                [
+                  607587442.40562,
+                  44,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 27,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.04249342530965805,
+              "best_feasible_q": -0.004189713858067989,
+              "heads": [
+                [
+                  780584333.0270529,
+                  35,
+                  1434027346.2676
+                ],
+                [
+                  564566622.017592,
+                  40,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 28,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.08561275899410248,
+              "best_feasible_q": -0.00406249612569809,
+              "heads": [
+                [
+                  780584333.0270529,
+                  34,
+                  1434027346.2676
+                ],
+                [
+                  564566622.017592,
+                  39,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 29,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.09699191153049469,
+              "best_feasible_q": 0.00020172446966171265,
+              "heads": [
+                [
+                  780584333.0270529,
+                  33,
+                  1434027346.2676
+                ],
+                [
+                  564566622.017592,
+                  38,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            }
+          ],
+          "task_outcomes": {
+            "expired": 91,
+            "done": 5,
+            "truncated": 6
+          },
+          "actual_completion_cycle_energy_accounting_verified": true
+        },
+        {
+          "seed": 1046,
+          "metrics": {
+            "generated": 129,
+            "completed": 23,
+            "expired": 93,
+            "truncated": 13,
+            "completion_ratio": 0.17829457364341086,
+            "expiration_ratio": 0.7209302325581395,
+            "truncation_ratio": 0.10077519379844961,
+            "completed_task_e2e_delay_s": 0.4791304347826087,
+            "tx_energy_j": 0.6114130140791205,
+            "cpu_energy_j": 6.882892695031418,
+            "total_energy_j": 7.494305709110539,
+            "energy_per_completed_task_j": 0.3258393786569799,
+            "backlog_mean_tasks": 9.482,
+            "backlog_max_tasks": 17,
+            "backlog_final_tasks": 14,
+            "outage_numerator": 0,
+            "outage_denominator": 126,
+            "outage_rate": 0.0,
+            "executor_rejection": 5,
+            "executor_downgrade": 0,
+            "completion_component": 23.0,
+            "expiration_penalty": 93.0,
+            "workload_penalty": 21.664400016983798,
+            "energy_penalty": 0.0035789994066518747,
+            "total_reward": -91.66797901639046
+          },
+          "counts": {
+            "backlogged_decisions": 912,
+            "idle": 441,
+            "selected_queue_zero_frequency": 16,
+            "energy_positive_available": 912,
+            "capacity_feasible_head_available": 432,
+            "energy_positive_but_no_capacity_feasible_head": 480,
+            "feasible_available_but_idle_or_zero": 162,
+            "no_feasible_head_idle_or_zero": 295,
+            "positive_service_choice": 455,
+            "frequency_1.0": 448,
+            "positive_chosen_pair_capacity_feasible": 267,
+            "positive_chosen_head_feasible_but_frequency_insufficient": 3,
+            "positive_impossible_head_when_other_head_feasible": 0,
+            "last_chance_head_available": 26,
+            "last_chance_available_but_idle_or_zero": 14,
+            "feasible_strictly_outranked_by_selected": 165,
+            "feasible_tied_with_selected": 267,
+            "frequency_0.0": 457,
+            "frequency_0.5": 6,
+            "frequency_0.25": 1,
+            "expired_cpu": 58,
+            "cpu_energy_to_expired_j": 3.268717617626723,
+            "expired_local": 1,
+            "expired_unbound": 34,
+            "cpu_energy_to_done_j": 3.61417507740472
+          },
+          "by_uav": [
+            {
+              "backlog_task_slots": 1809,
+              "backlog_cycle_slots": 1268059099608.571,
+              "max_backlog_tasks": 8,
+              "max_cpu_frequency_hz": 1972371380.024,
+              "backlogged_decisions": 487,
+              "idle": 26,
+              "selected_queue_zero_frequency": 16,
+              "energy_positive_available": 487,
+              "capacity_feasible_head_available": 273,
+              "energy_positive_but_no_capacity_feasible_head": 214,
+              "feasible_available_but_idle_or_zero": 13,
+              "no_feasible_head_idle_or_zero": 29,
+              "positive_service_choice": 445,
+              "frequency_0.0": 42,
+              "positive_chosen_pair_capacity_feasible": 259,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 1,
+              "positive_impossible_head_when_other_head_feasible": 0,
+              "last_chance_head_available": 13,
+              "last_chance_available_but_idle_or_zero": 1,
+              "feasible_strictly_outranked_by_selected": 14,
+              "feasible_tied_with_selected": 259,
+              "frequency_0.5": 3,
+              "actual_service_cycles": 17047786481.442863,
+              "actual_cpu_energy_j": 6.838996137374028,
+              "actual_positive_service_slots": 445,
+              "frequency_1.0": 442,
+              "actual_completions": 23,
+              "assigned_tasks": 61,
+              "assigned_initial_cycles": 34801775470.519226,
+              "assigned_expired": 30,
+              "assigned_from_1": 61,
+              "assigned_done": 23,
+              "assigned_truncated": 8
+            },
+            {
+              "backlog_task_slots": 1033,
+              "backlog_cycle_slots": 759308055778.1693,
+              "max_backlog_tasks": 5,
+              "max_cpu_frequency_hz": 1434027346.2676,
+              "backlogged_decisions": 425,
+              "idle": 415,
+              "selected_queue_zero_frequency": 0,
+              "energy_positive_available": 425,
+              "capacity_feasible_head_available": 159,
+              "energy_positive_but_no_capacity_feasible_head": 266,
+              "feasible_available_but_idle_or_zero": 149,
+              "no_feasible_head_idle_or_zero": 266,
+              "positive_service_choice": 10,
+              "frequency_1.0": 6,
+              "positive_chosen_pair_capacity_feasible": 8,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 2,
+              "positive_impossible_head_when_other_head_feasible": 0,
+              "last_chance_head_available": 13,
+              "last_chance_available_but_idle_or_zero": 13,
+              "feasible_strictly_outranked_by_selected": 151,
+              "feasible_tied_with_selected": 8,
+              "actual_service_cycles": 222274238.671478,
+              "actual_cpu_energy_j": 0.04389655765739012,
+              "actual_positive_service_slots": 10,
+              "frequency_0.0": 415,
+              "frequency_0.5": 3,
+              "frequency_0.25": 1,
+              "assigned_tasks": 29,
+              "assigned_initial_cycles": 16854120289.395252,
+              "assigned_expired": 29,
+              "assigned_from_0": 28,
+              "assigned_from_1": 1
+            },
+            {
+              "backlog_task_slots": 0,
+              "backlog_cycle_slots": 0.0,
+              "max_backlog_tasks": 0,
+              "max_cpu_frequency_hz": 3997595437.468
+            },
+            {
+              "backlog_task_slots": 0,
+              "backlog_cycle_slots": 0.0,
+              "max_backlog_tasks": 0,
+              "max_cpu_frequency_hz": 1998951144.562
+            }
+          ],
+          "q_margins": {
+            "best_capacity_feasible_minus_chosen": {
+              "count": 432,
+              "sum": -22.834377210587263,
+              "mean": -0.052857354654137184,
+              "min": -0.34965311363339424,
+              "max": 0.0
+            },
+            "best_capacity_feasible_minus_idle": {
+              "count": 432,
+              "sum": -0.1747718369588256,
+              "mean": -0.00040456443740468886,
+              "min": -0.34965311363339424,
+              "max": 0.1509837293997407
+            },
+            "best_feasible_minus_chosen_when_idle_or_zero": {
+              "count": 162,
+              "sum": -22.422664522193372,
+              "mean": -0.13841150939625538,
+              "min": -0.34965311363339424,
+              "max": -0.0003764219582080841
+            }
+          },
+          "examples": [
+            {
+              "slot": 7,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.06138116121292114,
+              "best_feasible_q": 0.018692979589104652,
+              "heads": [
+                [
+                  287396871.988577,
+                  22,
+                  1434027346.2676
+                ],
+                [
+                  836875651.6208423,
+                  72,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 8,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.08601972460746765,
+              "best_feasible_q": 0.07045966386795044,
+              "heads": [
+                [
+                  287396871.988577,
+                  21,
+                  1434027346.2676
+                ],
+                [
+                  836875651.6208423,
+                  71,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 11,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.07047189772129059,
+              "best_feasible_q": 0.048369862139225006,
+              "heads": [
+                [
+                  287396871.988577,
+                  18,
+                  1434027346.2676
+                ],
+                [
+                  793854831.2328143,
+                  68,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 12,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.08883757889270782,
+              "best_feasible_q": 0.06880583614110947,
+              "heads": [
+                [
+                  287396871.988577,
+                  17,
+                  1434027346.2676
+                ],
+                [
+                  793854831.2328143,
+                  67,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 13,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.11868809163570404,
+              "best_feasible_q": 0.10267056152224541,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  116210572.16363509,
+                  8,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 14,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.11046290397644043,
+              "best_feasible_q": 0.10862650722265244,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  116210572.16363509,
+                  7,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 15,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.09828163683414459,
+              "best_feasible_q": 0.09444912895560265,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  116210572.16363509,
+                  6,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 15,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.021648358553647995,
+              "best_feasible_q": -0.008488609455525875,
+              "heads": [
+                [
+                  287396871.988577,
+                  14,
+                  1434027346.2676
+                ],
+                [
+                  750834010.8447863,
+                  64,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 16,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.10192827135324478,
+              "best_feasible_q": 0.07703296467661858,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  116210572.16363509,
+                  5,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 16,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.05992209166288376,
+              "best_feasible_q": 0.01077079027891159,
+              "heads": [
+                [
+                  287396871.988577,
+                  13,
+                  1434027346.2676
+                ],
+                [
+                  750834010.8447863,
+                  63,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 17,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.10265818238258362,
+              "best_feasible_q": 0.08358947187662125,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  116210572.16363509,
+                  4,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 17,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.052311841398477554,
+              "best_feasible_q": -0.0011335304006934166,
+              "heads": [
+                [
+                  287396871.988577,
+                  12,
+                  1434027346.2676
+                ],
+                [
+                  750834010.8447863,
+                  62,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            }
+          ],
+          "task_outcomes": {
+            "expired": 93,
+            "done": 23,
+            "truncated": 13
+          },
+          "actual_completion_cycle_energy_accounting_verified": true
+        }
+      ],
+      "counts": {
+        "backlogged_decisions": 3531,
+        "idle": 1991,
+        "selected_queue_zero_frequency": 78,
+        "energy_positive_available": 3531,
+        "capacity_feasible_head_available": 1655,
+        "energy_positive_but_no_capacity_feasible_head": 1876,
+        "feasible_available_but_idle_or_zero": 797,
+        "no_feasible_head_idle_or_zero": 1272,
+        "positive_service_choice": 1462,
+        "frequency_0.0": 2069,
+        "positive_chosen_pair_capacity_feasible": 749,
+        "positive_chosen_head_feasible_but_frequency_insufficient": 41,
+        "positive_impossible_head_when_other_head_feasible": 68,
+        "last_chance_head_available": 123,
+        "last_chance_available_but_idle_or_zero": 73,
+        "feasible_strictly_outranked_by_selected": 906,
+        "feasible_tied_with_selected": 749,
+        "frequency_1.0": 1286,
+        "expired_unbound": 234,
+        "expired_cpu": 225,
+        "cpu_energy_to_expired_j": 9.864091600088832,
+        "expired_local": 36,
+        "cpu_energy_to_truncated_j": 0.3991236998811647,
+        "frequency_0.5": 163,
+        "cpu_energy_to_done_j": 8.655306155233536,
+        "frequency_0.25": 13
+      },
+      "by_uav": [
+        {
+          "backlog_task_slots": 6375,
+          "backlog_cycle_slots": 4685544854400.287,
+          "max_backlog_tasks": 12,
+          "max_cpu_frequency_hz": 1972371380.024,
+          "backlogged_decisions": 1688,
+          "idle": 320,
+          "selected_queue_zero_frequency": 78,
+          "energy_positive_available": 1688,
+          "capacity_feasible_head_available": 939,
+          "energy_positive_but_no_capacity_feasible_head": 749,
+          "feasible_available_but_idle_or_zero": 166,
+          "no_feasible_head_idle_or_zero": 232,
+          "positive_service_choice": 1290,
+          "frequency_0.0": 398,
+          "positive_chosen_pair_capacity_feasible": 689,
+          "positive_chosen_head_feasible_but_frequency_insufficient": 31,
+          "positive_impossible_head_when_other_head_feasible": 53,
+          "last_chance_head_available": 61,
+          "last_chance_available_but_idle_or_zero": 13,
+          "feasible_strictly_outranked_by_selected": 250,
+          "feasible_tied_with_selected": 689,
+          "frequency_0.5": 140,
+          "actual_service_cycles": 46643252968.57459,
+          "actual_cpu_energy_j": 17.906504862077675,
+          "actual_positive_service_slots": 1290,
+          "frequency_1.0": 1141,
+          "actual_completions": 57,
+          "assigned_tasks": 201,
+          "assigned_initial_cycles": 121728992114.24852,
+          "assigned_done": 57,
+          "assigned_from_1": 192,
+          "assigned_expired": 122,
+          "assigned_truncated": 22,
+          "frequency_0.25": 9,
+          "assigned_from_2": 9
+        },
+        {
+          "backlog_task_slots": 4522,
+          "backlog_cycle_slots": 3163680633859.586,
+          "max_backlog_tasks": 9,
+          "max_cpu_frequency_hz": 1434027346.2676,
+          "backlogged_decisions": 1843,
+          "idle": 1671,
+          "selected_queue_zero_frequency": 0,
+          "energy_positive_available": 1843,
+          "capacity_feasible_head_available": 716,
+          "energy_positive_but_no_capacity_feasible_head": 1127,
+          "feasible_available_but_idle_or_zero": 631,
+          "no_feasible_head_idle_or_zero": 1040,
+          "positive_service_choice": 172,
+          "frequency_0.0": 1671,
+          "positive_chosen_pair_capacity_feasible": 60,
+          "positive_chosen_head_feasible_but_frequency_insufficient": 10,
+          "positive_impossible_head_when_other_head_feasible": 15,
+          "last_chance_head_available": 62,
+          "last_chance_available_but_idle_or_zero": 60,
+          "feasible_strictly_outranked_by_selected": 656,
+          "feasible_tied_with_selected": 60,
+          "frequency_1.0": 145,
+          "actual_service_cycles": 4499853330.950927,
+          "actual_cpu_energy_j": 1.0120165931257976,
+          "actual_positive_service_slots": 172,
+          "assigned_tasks": 146,
+          "assigned_initial_cycles": 83715312363.35634,
+          "assigned_expired": 139,
+          "assigned_from_2": 11,
+          "assigned_from_1": 39,
+          "assigned_truncated": 6,
+          "frequency_0.5": 23,
+          "assigned_from_0": 96,
+          "actual_completions": 1,
+          "frequency_0.25": 4,
+          "assigned_done": 1
+        },
+        {
+          "backlog_task_slots": 0,
+          "backlog_cycle_slots": 0.0,
+          "max_backlog_tasks": 0,
+          "max_cpu_frequency_hz": 3997595437.468
+        },
+        {
+          "backlog_task_slots": 0,
+          "backlog_cycle_slots": 0.0,
+          "max_backlog_tasks": 0,
+          "max_cpu_frequency_hz": 1998951144.562
+        }
+      ],
+      "q_margins": {
+        "best_capacity_feasible_minus_chosen": {
+          "count": 1655,
+          "mean": -0.06818830586823542
+        },
+        "best_capacity_feasible_minus_idle": {
+          "count": 1655,
+          "mean": -0.028015239531697645
+        },
+        "best_feasible_minus_chosen_when_idle_or_zero": {
+          "count": 797,
+          "mean": -0.12860632483780832
+        }
+      }
+    },
+    {
+      "training_steps": 8000,
+      "checkpoint_sha256": "a6958dc0ed282b1856dcfd45f03059173b5436aa5c20e16cbc5903ab51a15007",
+      "scenes": [
+        {
+          "seed": 1042,
+          "metrics": {
+            "generated": 135,
+            "completed": 5,
+            "expired": 116,
+            "truncated": 14,
+            "completion_ratio": 0.037037037037037035,
+            "expiration_ratio": 0.8592592592592593,
+            "truncation_ratio": 0.1037037037037037,
+            "completed_task_e2e_delay_s": 0.544,
+            "tx_energy_j": 0.0,
+            "cpu_energy_j": 3.394929390764528,
+            "total_energy_j": 3.394929390764528,
+            "energy_per_completed_task_j": 0.6789858781529057,
+            "backlog_mean_tasks": 9.622,
+            "backlog_max_tasks": 16,
+            "backlog_final_tasks": 14,
+            "outage_numerator": 0,
+            "outage_denominator": 0,
+            "outage_rate": null,
+            "executor_rejection": 0,
+            "executor_downgrade": 0,
+            "completion_component": 5.0,
+            "expiration_penalty": 116.0,
+            "workload_penalty": 20.813862137340656,
+            "energy_penalty": 0.001621290983686505,
+            "total_reward": -131.81548342832434
+          },
+          "counts": {
+            "backlogged_decisions": 1728,
+            "idle": 462,
+            "selected_queue_zero_frequency": 618,
+            "energy_positive_available": 1728,
+            "capacity_feasible_head_available": 853,
+            "energy_positive_but_no_capacity_feasible_head": 875,
+            "feasible_available_but_idle_or_zero": 495,
+            "no_feasible_head_idle_or_zero": 585,
+            "positive_service_choice": 648,
+            "frequency_1.0": 99,
+            "positive_chosen_pair_capacity_feasible": 235,
+            "positive_chosen_head_feasible_but_frequency_insufficient": 123,
+            "positive_impossible_head_when_other_head_feasible": 0,
+            "last_chance_head_available": 54,
+            "last_chance_available_but_idle_or_zero": 32,
+            "feasible_strictly_outranked_by_selected": 618,
+            "feasible_tied_with_selected": 235,
+            "frequency_0.25": 57,
+            "frequency_0.0": 1080,
+            "frequency_0.5": 492,
+            "expired_local": 116,
+            "cpu_energy_to_expired_j": 2.237403945674072,
+            "cpu_energy_to_done_j": 1.0843174930055248,
+            "cpu_energy_to_truncated_j": 0.07320795208493024
+          },
+          "by_uav": [
+            {
+              "backlog_task_slots": 940,
+              "backlog_cycle_slots": 649447405599.2006,
+              "max_backlog_tasks": 4,
+              "max_cpu_frequency_hz": 1972371380.024,
+              "backlogged_decisions": 481,
+              "idle": 25,
+              "selected_queue_zero_frequency": 388,
+              "energy_positive_available": 481,
+              "capacity_feasible_head_available": 223,
+              "energy_positive_but_no_capacity_feasible_head": 258,
+              "feasible_available_but_idle_or_zero": 174,
+              "no_feasible_head_idle_or_zero": 239,
+              "positive_service_choice": 68,
+              "frequency_1.0": 44,
+              "positive_chosen_pair_capacity_feasible": 45,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 4,
+              "positive_impossible_head_when_other_head_feasible": 0,
+              "last_chance_head_available": 17,
+              "last_chance_available_but_idle_or_zero": 15,
+              "feasible_strictly_outranked_by_selected": 178,
+              "feasible_tied_with_selected": 45,
+              "actual_service_cycles": 2199194088.726762,
+              "actual_cpu_energy_j": 0.7439797048714614,
+              "actual_positive_service_slots": 68,
+              "frequency_0.25": 1,
+              "frequency_0.0": 413,
+              "frequency_0.5": 23,
+              "assigned_tasks": 23,
+              "assigned_initial_cycles": 14749510963.54957,
+              "assigned_expired": 22,
+              "assigned_from_0": 23,
+              "assigned_truncated": 1
+            },
+            {
+              "backlog_task_slots": 2150,
+              "backlog_cycle_slots": 1417058331117.1538,
+              "max_backlog_tasks": 8,
+              "max_cpu_frequency_hz": 1434027346.2676,
+              "backlogged_decisions": 497,
+              "idle": 254,
+              "selected_queue_zero_frequency": 58,
+              "energy_positive_available": 497,
+              "capacity_feasible_head_available": 75,
+              "energy_positive_but_no_capacity_feasible_head": 422,
+              "feasible_available_but_idle_or_zero": 45,
+              "no_feasible_head_idle_or_zero": 267,
+              "positive_service_choice": 185,
+              "frequency_0.0": 312,
+              "positive_chosen_pair_capacity_feasible": 4,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 26,
+              "positive_impossible_head_when_other_head_feasible": 0,
+              "last_chance_head_available": 9,
+              "last_chance_available_but_idle_or_zero": 6,
+              "feasible_strictly_outranked_by_selected": 71,
+              "feasible_tied_with_selected": 4,
+              "frequency_0.25": 14,
+              "actual_service_cycles": 2552568676.356334,
+              "actual_cpu_energy_j": 0.14832528773230652,
+              "actual_positive_service_slots": 185,
+              "frequency_0.5": 171,
+              "assigned_tasks": 69,
+              "assigned_initial_cycles": 36411697698.662285,
+              "assigned_expired": 63,
+              "assigned_from_1": 69,
+              "assigned_truncated": 6
+            },
+            {
+              "backlog_task_slots": 412,
+              "backlog_cycle_slots": 336242116357.6416,
+              "max_backlog_tasks": 3,
+              "max_cpu_frequency_hz": 3997595437.468,
+              "backlogged_decisions": 296,
+              "idle": 98,
+              "selected_queue_zero_frequency": 147,
+              "energy_positive_available": 296,
+              "capacity_feasible_head_available": 241,
+              "energy_positive_but_no_capacity_feasible_head": 55,
+              "feasible_available_but_idle_or_zero": 197,
+              "no_feasible_head_idle_or_zero": 48,
+              "positive_service_choice": 51,
+              "frequency_0.0": 245,
+              "positive_chosen_pair_capacity_feasible": 17,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 27,
+              "positive_impossible_head_when_other_head_feasible": 0,
+              "last_chance_head_available": 9,
+              "last_chance_available_but_idle_or_zero": 7,
+              "feasible_strictly_outranked_by_selected": 224,
+              "feasible_tied_with_selected": 17,
+              "actual_service_cycles": 1495651443.3749433,
+              "actual_cpu_energy_j": 1.0543356989361656,
+              "actual_positive_service_slots": 51,
+              "frequency_0.25": 42,
+              "frequency_1.0": 9,
+              "actual_completions": 2,
+              "assigned_tasks": 11,
+              "assigned_initial_cycles": 6855900175.613668,
+              "assigned_expired": 8,
+              "assigned_from_2": 11,
+              "assigned_done": 2,
+              "assigned_truncated": 1
+            },
+            {
+              "backlog_task_slots": 1064,
+              "backlog_cycle_slots": 708279114616.9253,
+              "max_backlog_tasks": 6,
+              "max_cpu_frequency_hz": 1998951144.562,
+              "backlogged_decisions": 454,
+              "idle": 85,
+              "selected_queue_zero_frequency": 25,
+              "energy_positive_available": 454,
+              "capacity_feasible_head_available": 314,
+              "energy_positive_but_no_capacity_feasible_head": 140,
+              "feasible_available_but_idle_or_zero": 79,
+              "no_feasible_head_idle_or_zero": 31,
+              "positive_service_choice": 344,
+              "frequency_0.0": 110,
+              "positive_chosen_pair_capacity_feasible": 169,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 66,
+              "positive_impossible_head_when_other_head_feasible": 0,
+              "last_chance_head_available": 19,
+              "last_chance_available_but_idle_or_zero": 4,
+              "feasible_strictly_outranked_by_selected": 145,
+              "feasible_tied_with_selected": 169,
+              "frequency_0.5": 298,
+              "actual_service_cycles": 7762907983.797199,
+              "actual_cpu_energy_j": 1.4482886992245925,
+              "actual_positive_service_slots": 344,
+              "frequency_1.0": 46,
+              "actual_completions": 3,
+              "assigned_tasks": 32,
+              "assigned_initial_cycles": 19701014470.350693,
+              "assigned_expired": 23,
+              "assigned_from_3": 32,
+              "assigned_done": 3,
+              "assigned_truncated": 6
+            }
+          ],
+          "q_margins": {
+            "best_capacity_feasible_minus_chosen": {
+              "count": 853,
+              "sum": -45.732407241594046,
+              "mean": -0.0536136075516929,
+              "min": -0.3544036000967026,
+              "max": 0.0
+            },
+            "best_capacity_feasible_minus_idle": {
+              "count": 853,
+              "sum": 1.1686981366947293,
+              "mean": 0.0013701033255506792,
+              "min": -0.3544036000967026,
+              "max": 0.1981956996023655
+            },
+            "best_feasible_minus_chosen_when_idle_or_zero": {
+              "count": 495,
+              "sum": -29.138255515601486,
+              "mean": -0.05886516265778078,
+              "min": -0.3544036000967026,
+              "max": -0.00020628422498703003
+            }
+          },
+          "examples": [
+            {
+              "slot": 3,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.0025349222123622894,
+              "best_feasible_q": -0.026105940341949463,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  630743983.5286063,
+                  45,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 4,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.10694564878940582,
+              "best_feasible_q": -0.02619006484746933,
+              "heads": [
+                [
+                  314118654.7998795,
+                  18,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 5,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.04259878769516945,
+              "best_feasible_q": -0.06831946317106485,
+              "heads": [
+                [
+                  314118654.7998795,
+                  17,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 6,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.029218271374702454,
+              "best_feasible_q": -0.10818136390298605,
+              "heads": [
+                [
+                  314118654.7998795,
+                  16,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 6,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.08809969574213028,
+              "best_feasible_q": -0.21211224794387817,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  616403710.0659302,
+                  42,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 7,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.019109077751636505,
+              "best_feasible_q": -0.11087449640035629,
+              "heads": [
+                [
+                  314118654.7998795,
+                  15,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 8,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.005552917718887329,
+              "best_feasible_q": -0.09784453827887774,
+              "heads": [
+                [
+                  314118654.7998795,
+                  14,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 8,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.1068219393491745,
+              "best_feasible_q": -0.20405221730470657,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  609233573.3345922,
+                  40,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 9,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": -0.004311855882406235,
+              "best_feasible_q": -0.08700903877615929,
+              "heads": [
+                [
+                  314118654.7998795,
+                  13,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 10,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": -0.013108082115650177,
+              "best_feasible_q": -0.07903719134628773,
+              "heads": [
+                [
+                  314118654.7998795,
+                  12,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 10,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.11069220304489136,
+              "best_feasible_q": -0.21476000174880028,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  602063436.6032542,
+                  38,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 11,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": -0.02093327045440674,
+              "best_feasible_q": -0.07344065699726343,
+              "heads": [
+                [
+                  314118654.7998795,
+                  11,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            }
+          ],
+          "task_outcomes": {
+            "expired": 116,
+            "done": 5,
+            "truncated": 14
+          },
+          "actual_completion_cycle_energy_accounting_verified": true
+        },
+        {
+          "seed": 1043,
+          "metrics": {
+            "generated": 122,
+            "completed": 6,
+            "expired": 104,
+            "truncated": 12,
+            "completion_ratio": 0.04918032786885246,
+            "expiration_ratio": 0.8524590163934426,
+            "truncation_ratio": 0.09836065573770492,
+            "completed_task_e2e_delay_s": 0.45,
+            "tx_energy_j": 0.7104212588779023,
+            "cpu_energy_j": 4.3269590323388005,
+            "total_energy_j": 5.037380291216703,
+            "energy_per_completed_task_j": 0.8395633818694505,
+            "backlog_mean_tasks": 8.934,
+            "backlog_max_tasks": 15,
+            "backlog_final_tasks": 11,
+            "outage_numerator": 0,
+            "outage_denominator": 142,
+            "outage_rate": 0.0,
+            "executor_rejection": 9,
+            "executor_downgrade": 0,
+            "completion_component": 6.0,
+            "expiration_penalty": 104.0,
+            "workload_penalty": 20.14447019290416,
+            "energy_penalty": 0.0024056639498209243,
+            "total_reward": -118.14687585685398
+          },
+          "counts": {
+            "backlogged_decisions": 1338,
+            "idle": 514,
+            "selected_queue_zero_frequency": 289,
+            "energy_positive_available": 1338,
+            "capacity_feasible_head_available": 767,
+            "energy_positive_but_no_capacity_feasible_head": 571,
+            "feasible_available_but_idle_or_zero": 457,
+            "no_feasible_head_idle_or_zero": 346,
+            "positive_service_choice": 535,
+            "frequency_0.0": 803,
+            "positive_chosen_pair_capacity_feasible": 193,
+            "positive_chosen_head_feasible_but_frequency_insufficient": 94,
+            "positive_impossible_head_when_other_head_feasible": 23,
+            "last_chance_head_available": 61,
+            "last_chance_available_but_idle_or_zero": 39,
+            "feasible_strictly_outranked_by_selected": 574,
+            "feasible_tied_with_selected": 193,
+            "frequency_1.0": 181,
+            "frequency_0.25": 188,
+            "frequency_0.5": 166,
+            "expired_local": 13,
+            "cpu_energy_to_expired_j": 2.9342873929385433,
+            "expired_cpu": 91,
+            "cpu_energy_to_done_j": 1.1438303158741299,
+            "cpu_energy_to_truncated_j": 0.2488413235261253
+          },
+          "by_uav": [
+            {
+              "backlog_task_slots": 2094,
+              "backlog_cycle_slots": 1672296728163.057,
+              "max_backlog_tasks": 10,
+              "max_cpu_frequency_hz": 1972371380.024,
+              "backlogged_decisions": 474,
+              "idle": 207,
+              "selected_queue_zero_frequency": 93,
+              "energy_positive_available": 474,
+              "capacity_feasible_head_available": 222,
+              "energy_positive_but_no_capacity_feasible_head": 252,
+              "feasible_available_but_idle_or_zero": 138,
+              "no_feasible_head_idle_or_zero": 162,
+              "positive_service_choice": 174,
+              "frequency_0.0": 300,
+              "positive_chosen_pair_capacity_feasible": 67,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 17,
+              "positive_impossible_head_when_other_head_feasible": 0,
+              "last_chance_head_available": 26,
+              "last_chance_available_but_idle_or_zero": 16,
+              "feasible_strictly_outranked_by_selected": 155,
+              "feasible_tied_with_selected": 67,
+              "actual_service_cycles": 5581811005.46792,
+              "actual_cpu_energy_j": 1.868750088410885,
+              "actual_positive_service_slots": 174,
+              "frequency_1.0": 110,
+              "frequency_0.5": 62,
+              "frequency_0.25": 2,
+              "assigned_tasks": 61,
+              "assigned_initial_cycles": 38805994059.51447,
+              "assigned_expired": 54,
+              "assigned_from_0": 1,
+              "assigned_from_1": 60,
+              "assigned_truncated": 7
+            },
+            {
+              "backlog_task_slots": 1338,
+              "backlog_cycle_slots": 894214163051.7839,
+              "max_backlog_tasks": 8,
+              "max_cpu_frequency_hz": 1434027346.2676,
+              "backlogged_decisions": 459,
+              "idle": 60,
+              "selected_queue_zero_frequency": 189,
+              "energy_positive_available": 459,
+              "capacity_feasible_head_available": 199,
+              "energy_positive_but_no_capacity_feasible_head": 260,
+              "feasible_available_but_idle_or_zero": 113,
+              "no_feasible_head_idle_or_zero": 136,
+              "positive_service_choice": 210,
+              "frequency_0.0": 249,
+              "positive_chosen_pair_capacity_feasible": 11,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 56,
+              "positive_impossible_head_when_other_head_feasible": 19,
+              "last_chance_head_available": 23,
+              "last_chance_available_but_idle_or_zero": 14,
+              "feasible_strictly_outranked_by_selected": 188,
+              "feasible_tied_with_selected": 11,
+              "actual_service_cycles": 3004287290.4306293,
+              "actual_cpu_energy_j": 0.4680510707674285,
+              "actual_positive_service_slots": 210,
+              "frequency_0.25": 129,
+              "frequency_0.5": 17,
+              "frequency_1.0": 64,
+              "assigned_tasks": 39,
+              "assigned_initial_cycles": 21867753823.991867,
+              "assigned_expired": 39,
+              "assigned_from_1": 5,
+              "assigned_from_3": 12,
+              "assigned_from_0": 22
+            },
+            {
+              "backlog_task_slots": 479,
+              "backlog_cycle_slots": 322240534421.995,
+              "max_backlog_tasks": 2,
+              "max_cpu_frequency_hz": 3997595437.468,
+              "backlogged_decisions": 369,
+              "idle": 233,
+              "selected_queue_zero_frequency": 4,
+              "energy_positive_available": 369,
+              "capacity_feasible_head_available": 322,
+              "energy_positive_but_no_capacity_feasible_head": 47,
+              "feasible_available_but_idle_or_zero": 192,
+              "no_feasible_head_idle_or_zero": 45,
+              "positive_service_choice": 132,
+              "frequency_0.5": 71,
+              "positive_chosen_pair_capacity_feasible": 115,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 12,
+              "positive_impossible_head_when_other_head_feasible": 3,
+              "last_chance_head_available": 9,
+              "last_chance_available_but_idle_or_zero": 7,
+              "feasible_strictly_outranked_by_selected": 207,
+              "feasible_tied_with_selected": 115,
+              "actual_service_cycles": 4371347733.686969,
+              "actual_cpu_energy_j": 1.9542274385724163,
+              "actual_positive_service_slots": 132,
+              "frequency_0.25": 54,
+              "frequency_1.0": 7,
+              "frequency_0.0": 237,
+              "actual_completions": 6,
+              "assigned_tasks": 17,
+              "assigned_initial_cycles": 9687050055.480545,
+              "assigned_expired": 9,
+              "assigned_from_2": 7,
+              "assigned_from_3": 10,
+              "assigned_done": 6,
+              "assigned_truncated": 2
+            },
+            {
+              "backlog_task_slots": 60,
+              "backlog_cycle_slots": 41266299837.46415,
+              "max_backlog_tasks": 3,
+              "max_cpu_frequency_hz": 1998951144.562,
+              "backlogged_decisions": 36,
+              "idle": 14,
+              "selected_queue_zero_frequency": 3,
+              "energy_positive_available": 36,
+              "capacity_feasible_head_available": 24,
+              "energy_positive_but_no_capacity_feasible_head": 12,
+              "feasible_available_but_idle_or_zero": 14,
+              "no_feasible_head_idle_or_zero": 3,
+              "positive_service_choice": 19,
+              "frequency_0.0": 17,
+              "positive_chosen_pair_capacity_feasible": 0,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 9,
+              "positive_impossible_head_when_other_head_feasible": 1,
+              "last_chance_head_available": 3,
+              "last_chance_available_but_idle_or_zero": 2,
+              "feasible_strictly_outranked_by_selected": 24,
+              "feasible_tied_with_selected": 0,
+              "frequency_0.5": 16,
+              "actual_service_cycles": 349816450.29835,
+              "actual_cpu_energy_j": 0.03593043458806488,
+              "actual_positive_service_slots": 19,
+              "frequency_0.25": 3,
+              "assigned_tasks": 4,
+              "assigned_initial_cycles": 2262709706.35601,
+              "assigned_truncated": 2,
+              "assigned_from_1": 3,
+              "assigned_expired": 2,
+              "assigned_from_2": 1
+            }
+          ],
+          "q_margins": {
+            "best_capacity_feasible_minus_chosen": {
+              "count": 767,
+              "sum": -73.58432138571516,
+              "mean": -0.09593783753026748,
+              "min": -0.7670196481049061,
+              "max": 0.0
+            },
+            "best_capacity_feasible_minus_idle": {
+              "count": 767,
+              "sum": -10.348344677127898,
+              "mean": -0.013491974807207168,
+              "min": -0.5093267261981964,
+              "max": 0.28379974514245987
+            },
+            "best_feasible_minus_chosen_when_idle_or_zero": {
+              "count": 457,
+              "sum": -45.97137941792607,
+              "mean": -0.10059382804797828,
+              "min": -0.6472312211990356,
+              "max": -0.0003219693899154663
+            }
+          },
+          "examples": [
+            {
+              "slot": 4,
+              "uav": 1,
+              "proposal_queue": 1,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.10702019929885864,
+              "best_feasible_q": 0.07087036967277527,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  558336100.4590039,
+                  34,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 5,
+              "uav": 1,
+              "proposal_queue": 1,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.17978886514902115,
+              "best_feasible_q": 0.08614259213209152,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  558336100.4590039,
+                  33,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 6,
+              "uav": 1,
+              "proposal_queue": 1,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.19065000489354134,
+              "best_feasible_q": 0.08403122425079346,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  558336100.4590039,
+                  32,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 7,
+              "uav": 1,
+              "proposal_queue": 1,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.22665610443800688,
+              "best_feasible_q": 0.09517401736229658,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  558336100.4590039,
+                  31,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 8,
+              "uav": 1,
+              "proposal_queue": 1,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.20199372991919518,
+              "best_feasible_q": 0.12248997017741203,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  558336100.4590039,
+                  30,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 9,
+              "uav": 1,
+              "proposal_queue": 1,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.18801020830869675,
+              "best_feasible_q": 0.06243371590971947,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  558336100.4590039,
+                  29,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 10,
+              "uav": 1,
+              "proposal_queue": 1,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.17157515231519938,
+              "best_feasible_q": 0.052181159146130085,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  558336100.4590039,
+                  28,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 11,
+              "uav": 1,
+              "proposal_queue": 1,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.16137608233839273,
+              "best_feasible_q": 0.044430372305214405,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  558336100.4590039,
+                  27,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 12,
+              "uav": 1,
+              "proposal_queue": 1,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.15404132474213839,
+              "best_feasible_q": 0.0377613315358758,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  558336100.4590039,
+                  26,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 13,
+              "uav": 1,
+              "proposal_queue": 1,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.14748165849596262,
+              "best_feasible_q": 0.03160081896930933,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  558336100.4590039,
+                  25,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 14,
+              "uav": 1,
+              "proposal_queue": 1,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.14095015544444323,
+              "best_feasible_q": 0.02557556051760912,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  558336100.4590039,
+                  24,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 15,
+              "uav": 1,
+              "proposal_queue": 1,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.13432374689728022,
+              "best_feasible_q": 0.019565069116652012,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  558336100.4590039,
+                  23,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            }
+          ],
+          "task_outcomes": {
+            "expired": 104,
+            "done": 6,
+            "truncated": 12
+          },
+          "actual_completion_cycle_energy_accounting_verified": true
+        },
+        {
+          "seed": 1044,
+          "metrics": {
+            "generated": 117,
+            "completed": 23,
+            "expired": 87,
+            "truncated": 7,
+            "completion_ratio": 0.19658119658119658,
+            "expiration_ratio": 0.7435897435897436,
+            "truncation_ratio": 0.05982905982905983,
+            "completed_task_e2e_delay_s": 0.3939130434782609,
+            "tx_energy_j": 1.108936233892097,
+            "cpu_energy_j": 19.149560814161973,
+            "total_energy_j": 20.25849704805407,
+            "energy_per_completed_task_j": 0.8808042194806118,
+            "backlog_mean_tasks": 7.844,
+            "backlog_max_tasks": 20,
+            "backlog_final_tasks": 8,
+            "outage_numerator": 1,
+            "outage_denominator": 179,
+            "outage_rate": 0.00558659217877095,
+            "executor_rejection": 31,
+            "executor_downgrade": 0,
+            "completion_component": 23.0,
+            "expiration_penalty": 87.0,
+            "workload_penalty": 15.426490796350546,
+            "energy_penalty": 0.009674698595028277,
+            "total_reward": -79.43616549494557
+          },
+          "counts": {
+            "backlogged_decisions": 1492,
+            "idle": 452,
+            "selected_queue_zero_frequency": 265,
+            "energy_positive_available": 1492,
+            "capacity_feasible_head_available": 1061,
+            "energy_positive_but_no_capacity_feasible_head": 431,
+            "feasible_available_but_idle_or_zero": 494,
+            "no_feasible_head_idle_or_zero": 223,
+            "positive_service_choice": 775,
+            "frequency_0.25": 192,
+            "positive_chosen_pair_capacity_feasible": 355,
+            "positive_chosen_head_feasible_but_frequency_insufficient": 185,
+            "positive_impossible_head_when_other_head_feasible": 27,
+            "last_chance_head_available": 60,
+            "last_chance_available_but_idle_or_zero": 30,
+            "feasible_strictly_outranked_by_selected": 706,
+            "feasible_tied_with_selected": 355,
+            "frequency_0.0": 717,
+            "frequency_0.5": 224,
+            "frequency_1.0": 359,
+            "expired_local": 14,
+            "cpu_energy_to_expired_j": 6.1491830692920555,
+            "expired_cpu": 73,
+            "cpu_energy_to_done_j": 12.564992074972707,
+            "cpu_energy_to_truncated_j": 0.4353856698972321
+          },
+          "by_uav": [
+            {
+              "backlog_task_slots": 1033,
+              "backlog_cycle_slots": 676121110583.3153,
+              "max_backlog_tasks": 8,
+              "max_cpu_frequency_hz": 1972371380.024,
+              "backlogged_decisions": 367,
+              "idle": 138,
+              "selected_queue_zero_frequency": 64,
+              "energy_positive_available": 367,
+              "capacity_feasible_head_available": 201,
+              "energy_positive_but_no_capacity_feasible_head": 166,
+              "feasible_available_but_idle_or_zero": 112,
+              "no_feasible_head_idle_or_zero": 90,
+              "positive_service_choice": 165,
+              "frequency_0.5": 66,
+              "positive_chosen_pair_capacity_feasible": 29,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 58,
+              "positive_impossible_head_when_other_head_feasible": 2,
+              "last_chance_head_available": 17,
+              "last_chance_available_but_idle_or_zero": 10,
+              "feasible_strictly_outranked_by_selected": 172,
+              "feasible_tied_with_selected": 29,
+              "actual_service_cycles": 3136070494.2381525,
+              "actual_cpu_energy_j": 0.6083726077156179,
+              "actual_positive_service_slots": 165,
+              "frequency_0.0": 202,
+              "frequency_0.25": 70,
+              "frequency_1.0": 29,
+              "assigned_tasks": 34,
+              "assigned_initial_cycles": 18952466758.707256,
+              "assigned_expired": 30,
+              "assigned_from_0": 4,
+              "assigned_from_1": 25,
+              "assigned_from_2": 5,
+              "assigned_truncated": 4
+            },
+            {
+              "backlog_task_slots": 1222,
+              "backlog_cycle_slots": 746035683883.8937,
+              "max_backlog_tasks": 9,
+              "max_cpu_frequency_hz": 1434027346.2676,
+              "backlogged_decisions": 430,
+              "idle": 71,
+              "selected_queue_zero_frequency": 80,
+              "energy_positive_available": 430,
+              "capacity_feasible_head_available": 269,
+              "energy_positive_but_no_capacity_feasible_head": 161,
+              "feasible_available_but_idle_or_zero": 84,
+              "no_feasible_head_idle_or_zero": 67,
+              "positive_service_choice": 279,
+              "frequency_0.25": 62,
+              "positive_chosen_pair_capacity_feasible": 118,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 47,
+              "positive_impossible_head_when_other_head_feasible": 20,
+              "last_chance_head_available": 19,
+              "last_chance_available_but_idle_or_zero": 9,
+              "feasible_strictly_outranked_by_selected": 151,
+              "feasible_tied_with_selected": 118,
+              "actual_service_cycles": 5941277606.884398,
+              "actual_cpu_energy_j": 1.202038897212262,
+              "actual_positive_service_slots": 279,
+              "frequency_0.0": 151,
+              "frequency_0.5": 47,
+              "frequency_1.0": 170,
+              "actual_completions": 4,
+              "assigned_tasks": 39,
+              "assigned_initial_cycles": 21688436390.77038,
+              "assigned_expired": 34,
+              "assigned_from_1": 9,
+              "assigned_from_3": 10,
+              "assigned_from_0": 19,
+              "assigned_from_2": 1,
+              "assigned_done": 4,
+              "assigned_truncated": 1
+            },
+            {
+              "backlog_task_slots": 717,
+              "backlog_cycle_slots": 393175060458.5037,
+              "max_backlog_tasks": 5,
+              "max_cpu_frequency_hz": 3997595437.468,
+              "backlogged_decisions": 394,
+              "idle": 97,
+              "selected_queue_zero_frequency": 118,
+              "energy_positive_available": 394,
+              "capacity_feasible_head_available": 368,
+              "energy_positive_but_no_capacity_feasible_head": 26,
+              "feasible_available_but_idle_or_zero": 191,
+              "no_feasible_head_idle_or_zero": 24,
+              "positive_service_choice": 179,
+              "frequency_0.0": 215,
+              "positive_chosen_pair_capacity_feasible": 159,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 15,
+              "positive_impossible_head_when_other_head_feasible": 3,
+              "last_chance_head_available": 15,
+              "last_chance_available_but_idle_or_zero": 6,
+              "feasible_strictly_outranked_by_selected": 209,
+              "feasible_tied_with_selected": 159,
+              "frequency_1.0": 153,
+              "actual_service_cycles": 11900927460.872164,
+              "actual_cpu_energy_j": 16.96530822264229,
+              "actual_positive_service_slots": 179,
+              "actual_completions": 19,
+              "frequency_0.25": 25,
+              "frequency_0.5": 1,
+              "assigned_tasks": 32,
+              "assigned_initial_cycles": 16681886737.619122,
+              "assigned_expired": 12,
+              "assigned_from_2": 1,
+              "assigned_done": 19,
+              "assigned_from_3": 19,
+              "assigned_from_1": 9,
+              "assigned_from_0": 3,
+              "assigned_truncated": 1
+            },
+            {
+              "backlog_task_slots": 516,
+              "backlog_cycle_slots": 353653494469.2137,
+              "max_backlog_tasks": 4,
+              "max_cpu_frequency_hz": 1998951144.562,
+              "backlogged_decisions": 301,
+              "idle": 146,
+              "selected_queue_zero_frequency": 3,
+              "energy_positive_available": 301,
+              "capacity_feasible_head_available": 223,
+              "energy_positive_but_no_capacity_feasible_head": 78,
+              "feasible_available_but_idle_or_zero": 107,
+              "no_feasible_head_idle_or_zero": 42,
+              "positive_service_choice": 152,
+              "frequency_0.0": 149,
+              "positive_chosen_pair_capacity_feasible": 49,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 65,
+              "positive_impossible_head_when_other_head_feasible": 2,
+              "last_chance_head_available": 9,
+              "last_chance_available_but_idle_or_zero": 5,
+              "feasible_strictly_outranked_by_selected": 174,
+              "feasible_tied_with_selected": 49,
+              "frequency_0.5": 110,
+              "actual_service_cycles": 2828515869.5552363,
+              "actual_cpu_energy_j": 0.37384108659184995,
+              "actual_positive_service_slots": 152,
+              "frequency_0.25": 35,
+              "frequency_1.0": 7,
+              "assigned_tasks": 12,
+              "assigned_initial_cycles": 8484169882.556435,
+              "assigned_expired": 11,
+              "assigned_from_1": 10,
+              "assigned_from_2": 2,
+              "assigned_truncated": 1
+            }
+          ],
+          "q_margins": {
+            "best_capacity_feasible_minus_chosen": {
+              "count": 1061,
+              "sum": -103.60387372039258,
+              "mean": -0.09764738333684504,
+              "min": -0.6577483862638474,
+              "max": 0.0
+            },
+            "best_capacity_feasible_minus_idle": {
+              "count": 1061,
+              "sum": 16.93288730457425,
+              "mean": 0.01595936597980608,
+              "min": -0.4408643990755081,
+              "max": 0.45592779852449894
+            },
+            "best_feasible_minus_chosen_when_idle_or_zero": {
+              "count": 494,
+              "sum": -62.76093193376437,
+              "mean": -0.12704642091855134,
+              "min": -0.437516525387764,
+              "max": -0.0001886710524559021
+            }
+          },
+          "examples": [
+            {
+              "slot": 3,
+              "uav": 1,
+              "proposal_queue": 1,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.01946096122264862,
+              "best_feasible_q": -0.09621557593345642,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  463306804.1067637,
+                  28,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 4,
+              "uav": 1,
+              "proposal_queue": 1,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.14877321291714907,
+              "best_feasible_q": 0.0917968051508069,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  463306804.1067637,
+                  27,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 6,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.01603921502828598,
+              "best_feasible_q": -0.14122875779867172,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  456136667.3754257,
+                  25,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 8,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.013570994138717651,
+              "best_feasible_q": -0.20343775302171707,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  448966530.6440877,
+                  23,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 9,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.05686283856630325,
+              "best_feasible_q": -0.01513486634939909,
+              "heads": [
+                [
+                  170529937.0472607,
+                  13,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 10,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.05124888941645622,
+              "best_feasible_q": 0.014418110251426697,
+              "heads": [
+                [
+                  170529937.0472607,
+                  12,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 10,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.0054254792630672455,
+              "best_feasible_q": -0.22843895852565765,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  441796393.91274965,
+                  21,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 11,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.04790694639086723,
+              "best_feasible_q": 0.01978924125432968,
+              "heads": [
+                [
+                  170529937.0472607,
+                  11,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 12,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.0438089445233345,
+              "best_feasible_q": 0.020760048180818558,
+              "heads": [
+                [
+                  170529937.0472607,
+                  10,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 12,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": -0.001195814460515976,
+              "best_feasible_q": -0.24623360484838486,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  434626257.1814116,
+                  19,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 13,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.041524045169353485,
+              "best_feasible_q": 0.02015882357954979,
+              "heads": [
+                [
+                  170529937.0472607,
+                  9,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 14,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.04124827682971954,
+              "best_feasible_q": -0.06731874868273735,
+              "heads": [
+                [
+                  170529937.0472607,
+                  8,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            }
+          ],
+          "task_outcomes": {
+            "expired": 87,
+            "done": 23,
+            "truncated": 7
+          },
+          "actual_completion_cycle_energy_accounting_verified": true
+        },
+        {
+          "seed": 1045,
+          "metrics": {
+            "generated": 102,
+            "completed": 17,
+            "expired": 81,
+            "truncated": 4,
+            "completion_ratio": 0.16666666666666666,
+            "expiration_ratio": 0.7941176470588235,
+            "truncation_ratio": 0.0392156862745098,
+            "completed_task_e2e_delay_s": 0.38823529411764707,
+            "tx_energy_j": 0.18390786816644347,
+            "cpu_energy_j": 12.584944015518587,
+            "total_energy_j": 12.76885188368503,
+            "energy_per_completed_task_j": 0.7511089343344136,
+            "backlog_mean_tasks": 7.296,
+            "backlog_max_tasks": 18,
+            "backlog_final_tasks": 5,
+            "outage_numerator": 0,
+            "outage_denominator": 39,
+            "outage_rate": 0.0,
+            "executor_rejection": 0,
+            "executor_downgrade": 0,
+            "completion_component": 17.0,
+            "expiration_penalty": 81.0,
+            "workload_penalty": 15.450074055255321,
+            "energy_penalty": 0.006097924889797194,
+            "total_reward": -79.45617198014511
+          },
+          "counts": {
+            "backlogged_decisions": 1519,
+            "idle": 179,
+            "selected_queue_zero_frequency": 532,
+            "energy_positive_available": 1519,
+            "capacity_feasible_head_available": 822,
+            "energy_positive_but_no_capacity_feasible_head": 697,
+            "feasible_available_but_idle_or_zero": 369,
+            "no_feasible_head_idle_or_zero": 342,
+            "positive_service_choice": 808,
+            "frequency_0.5": 500,
+            "positive_chosen_pair_capacity_feasible": 292,
+            "positive_chosen_head_feasible_but_frequency_insufficient": 153,
+            "positive_impossible_head_when_other_head_feasible": 8,
+            "last_chance_head_available": 49,
+            "last_chance_available_but_idle_or_zero": 20,
+            "feasible_strictly_outranked_by_selected": 530,
+            "feasible_tied_with_selected": 292,
+            "frequency_0.0": 711,
+            "frequency_1.0": 240,
+            "frequency_0.25": 68,
+            "expired_local": 53,
+            "cpu_energy_to_expired_j": 2.5327606879356828,
+            "cpu_energy_to_done_j": 9.962887640612404,
+            "expired_cpu": 28,
+            "cpu_energy_to_truncated_j": 0.08929568697053447
+          },
+          "by_uav": [
+            {
+              "backlog_task_slots": 1289,
+              "backlog_cycle_slots": 917600682621.1392,
+              "max_backlog_tasks": 6,
+              "max_cpu_frequency_hz": 1972371380.024,
+              "backlogged_decisions": 496,
+              "idle": 62,
+              "selected_queue_zero_frequency": 178,
+              "energy_positive_available": 496,
+              "capacity_feasible_head_available": 216,
+              "energy_positive_but_no_capacity_feasible_head": 280,
+              "feasible_available_but_idle_or_zero": 117,
+              "no_feasible_head_idle_or_zero": 123,
+              "positive_service_choice": 256,
+              "frequency_0.5": 195,
+              "positive_chosen_pair_capacity_feasible": 66,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 29,
+              "positive_impossible_head_when_other_head_feasible": 4,
+              "last_chance_head_available": 18,
+              "last_chance_available_but_idle_or_zero": 7,
+              "feasible_strictly_outranked_by_selected": 150,
+              "feasible_tied_with_selected": 66,
+              "actual_service_cycles": 5945405841.338953,
+              "actual_cpu_energy_j": 1.197278085920863,
+              "actual_positive_service_slots": 256,
+              "frequency_0.0": 240,
+              "frequency_1.0": 51,
+              "frequency_0.25": 10,
+              "actual_completions": 2,
+              "assigned_tasks": 38,
+              "assigned_initial_cycles": 23844991350.279594,
+              "assigned_expired": 34,
+              "assigned_from_0": 12,
+              "assigned_from_1": 26,
+              "assigned_done": 2,
+              "assigned_truncated": 2
+            },
+            {
+              "backlog_task_slots": 946,
+              "backlog_cycle_slots": 643017107227.5408,
+              "max_backlog_tasks": 5,
+              "max_cpu_frequency_hz": 1434027346.2676,
+              "backlogged_decisions": 448,
+              "idle": 45,
+              "selected_queue_zero_frequency": 261,
+              "energy_positive_available": 448,
+              "capacity_feasible_head_available": 200,
+              "energy_positive_but_no_capacity_feasible_head": 248,
+              "feasible_available_but_idle_or_zero": 124,
+              "no_feasible_head_idle_or_zero": 182,
+              "positive_service_choice": 142,
+              "frequency_1.0": 71,
+              "positive_chosen_pair_capacity_feasible": 26,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 46,
+              "positive_impossible_head_when_other_head_feasible": 4,
+              "last_chance_head_available": 18,
+              "last_chance_available_but_idle_or_zero": 9,
+              "feasible_strictly_outranked_by_selected": 174,
+              "feasible_tied_with_selected": 26,
+              "actual_service_cycles": 2638610317.132389,
+              "actual_cpu_energy_j": 0.5050787294270852,
+              "actual_positive_service_slots": 142,
+              "frequency_0.0": 306,
+              "frequency_0.25": 58,
+              "frequency_0.5": 13,
+              "assigned_tasks": 25,
+              "assigned_initial_cycles": 15965800796.027464,
+              "assigned_expired": 23,
+              "assigned_from_1": 17,
+              "assigned_from_0": 8,
+              "assigned_truncated": 2
+            },
+            {
+              "backlog_task_slots": 201,
+              "backlog_cycle_slots": 94489228981.99908,
+              "max_backlog_tasks": 2,
+              "max_cpu_frequency_hz": 3997595437.468,
+              "backlogged_decisions": 176,
+              "idle": 1,
+              "selected_queue_zero_frequency": 74,
+              "energy_positive_available": 176,
+              "capacity_feasible_head_available": 176,
+              "energy_positive_but_no_capacity_feasible_head": 0,
+              "feasible_available_but_idle_or_zero": 75,
+              "no_feasible_head_idle_or_zero": 0,
+              "positive_service_choice": 101,
+              "frequency_0.5": 16,
+              "positive_chosen_pair_capacity_feasible": 101,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 0,
+              "positive_impossible_head_when_other_head_feasible": 0,
+              "last_chance_head_available": 0,
+              "last_chance_available_but_idle_or_zero": 0,
+              "feasible_strictly_outranked_by_selected": 75,
+              "feasible_tied_with_selected": 101,
+              "actual_service_cycles": 7000196583.822458,
+              "actual_cpu_energy_j": 9.701579516447573,
+              "actual_positive_service_slots": 101,
+              "frequency_0.0": 75,
+              "frequency_1.0": 85,
+              "actual_completions": 12,
+              "assigned_tasks": 12,
+              "assigned_initial_cycles": 7000196583.822454,
+              "assigned_done": 12,
+              "assigned_from_2": 12
+            },
+            {
+              "backlog_task_slots": 960,
+              "backlog_cycle_slots": 654627508511.7532,
+              "max_backlog_tasks": 7,
+              "max_cpu_frequency_hz": 1998951144.562,
+              "backlogged_decisions": 399,
+              "idle": 71,
+              "selected_queue_zero_frequency": 19,
+              "energy_positive_available": 399,
+              "capacity_feasible_head_available": 230,
+              "energy_positive_but_no_capacity_feasible_head": 169,
+              "feasible_available_but_idle_or_zero": 53,
+              "no_feasible_head_idle_or_zero": 37,
+              "positive_service_choice": 309,
+              "frequency_0.5": 276,
+              "positive_chosen_pair_capacity_feasible": 99,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 78,
+              "positive_impossible_head_when_other_head_feasible": 0,
+              "last_chance_head_available": 13,
+              "last_chance_available_but_idle_or_zero": 4,
+              "feasible_strictly_outranked_by_selected": 131,
+              "feasible_tied_with_selected": 99,
+              "actual_service_cycles": 6801122169.470274,
+              "actual_cpu_energy_j": 1.181007683723089,
+              "actual_positive_service_slots": 309,
+              "frequency_0.0": 90,
+              "frequency_1.0": 33,
+              "actual_completions": 3,
+              "assigned_tasks": 27,
+              "assigned_initial_cycles": 16116583275.352371,
+              "assigned_expired": 24,
+              "assigned_from_3": 27,
+              "assigned_done": 3
+            }
+          ],
+          "q_margins": {
+            "best_capacity_feasible_minus_chosen": {
+              "count": 822,
+              "sum": -51.68864296749234,
+              "mean": -0.06288156078770359,
+              "min": -0.6380641367286444,
+              "max": 0.0
+            },
+            "best_capacity_feasible_minus_idle": {
+              "count": 822,
+              "sum": 31.51506779436022,
+              "mean": 0.03833949853328494,
+              "min": -0.3580840229988098,
+              "max": 0.4528111591935158
+            },
+            "best_feasible_minus_chosen_when_idle_or_zero": {
+              "count": 369,
+              "sum": -23.878209199756384,
+              "mean": -0.06471059403728018,
+              "min": -0.3249918222427368,
+              "max": -0.0001881234347820282
+            }
+          },
+          "examples": [
+            {
+              "slot": 6,
+              "uav": 0,
+              "proposal_queue": 0,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.2215716764330864,
+              "best_feasible_q": 0.18854602053761482,
+              "heads": [
+                [
+                  855859093.127981,
+                  56,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 8,
+              "uav": 0,
+              "proposal_queue": 0,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.2248314768075943,
+              "best_feasible_q": 0.18265223875641823,
+              "heads": [
+                [
+                  836135379.3277409,
+                  54,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 10,
+              "uav": 0,
+              "proposal_queue": 0,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.22754062712192535,
+              "best_feasible_q": 0.18602079525589943,
+              "heads": [
+                [
+                  816411665.5275009,
+                  52,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 12,
+              "uav": 0,
+              "proposal_queue": 0,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.22815991938114166,
+              "best_feasible_q": 0.1890297867357731,
+              "heads": [
+                [
+                  796687951.7272608,
+                  50,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 14,
+              "uav": 0,
+              "proposal_queue": 0,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.2280220165848732,
+              "best_feasible_q": 0.18810753896832466,
+              "heads": [
+                [
+                  776964237.9270208,
+                  48,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 16,
+              "uav": 0,
+              "proposal_queue": 0,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.22672802209854126,
+              "best_feasible_q": 0.18474553897976875,
+              "heads": [
+                [
+                  757240524.1267807,
+                  46,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 17,
+              "uav": 1,
+              "proposal_queue": 1,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.08653245214372873,
+              "best_feasible_q": -0.005473648197948933,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  650608262.793648,
+                  50,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 18,
+              "uav": 0,
+              "proposal_queue": 0,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.22448883205652237,
+              "best_feasible_q": 0.1794511415064335,
+              "heads": [
+                [
+                  737516810.3265407,
+                  44,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 18,
+              "uav": 1,
+              "proposal_queue": 1,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.09424638282507658,
+              "best_feasible_q": -0.02520486433058977,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  650608262.793648,
+                  49,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 19,
+              "uav": 0,
+              "proposal_queue": 0,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.21043633669614792,
+              "best_feasible_q": 0.20864565297961235,
+              "heads": [
+                [
+                  737516810.3265407,
+                  43,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 19,
+              "uav": 1,
+              "proposal_queue": 1,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.07516737375408411,
+              "best_feasible_q": -0.03877574112266302,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  650608262.793648,
+                  48,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 20,
+              "uav": 1,
+              "proposal_queue": 1,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.06562318373471498,
+              "best_feasible_q": -0.04238554369658232,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  650608262.793648,
+                  47,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            }
+          ],
+          "task_outcomes": {
+            "expired": 81,
+            "done": 17,
+            "truncated": 4
+          },
+          "actual_completion_cycle_energy_accounting_verified": true
+        },
+        {
+          "seed": 1046,
+          "metrics": {
+            "generated": 129,
+            "completed": 18,
+            "expired": 98,
+            "truncated": 13,
+            "completion_ratio": 0.13953488372093023,
+            "expiration_ratio": 0.7596899224806202,
+            "truncation_ratio": 0.10077519379844961,
+            "completed_task_e2e_delay_s": 0.3288888888888889,
+            "tx_energy_j": 0.5010374393480221,
+            "cpu_energy_j": 11.302174556881273,
+            "total_energy_j": 11.803211996229294,
+            "energy_per_completed_task_j": 0.6557339997905163,
+            "backlog_mean_tasks": 9.216,
+            "backlog_max_tasks": 17,
+            "backlog_final_tasks": 14,
+            "outage_numerator": 0,
+            "outage_denominator": 88,
+            "outage_rate": 0.0,
+            "executor_rejection": 5,
+            "executor_downgrade": 0,
+            "completion_component": 18.0,
+            "expiration_penalty": 98.0,
+            "workload_penalty": 18.859283131672836,
+            "energy_penalty": 0.0056367714863482,
+            "total_reward": -98.86491990315918
+          },
+          "counts": {
+            "backlogged_decisions": 1423,
+            "idle": 206,
+            "selected_queue_zero_frequency": 406,
+            "energy_positive_available": 1423,
+            "capacity_feasible_head_available": 736,
+            "energy_positive_but_no_capacity_feasible_head": 687,
+            "feasible_available_but_idle_or_zero": 306,
+            "no_feasible_head_idle_or_zero": 306,
+            "positive_service_choice": 811,
+            "frequency_0.0": 612,
+            "positive_chosen_pair_capacity_feasible": 287,
+            "positive_chosen_head_feasible_but_frequency_insufficient": 128,
+            "positive_impossible_head_when_other_head_feasible": 15,
+            "last_chance_head_available": 57,
+            "last_chance_available_but_idle_or_zero": 25,
+            "feasible_strictly_outranked_by_selected": 449,
+            "feasible_tied_with_selected": 287,
+            "frequency_0.25": 64,
+            "frequency_0.5": 438,
+            "frequency_1.0": 309,
+            "expired_local": 46,
+            "cpu_energy_to_expired_j": 2.8918679571928823,
+            "cpu_energy_to_done_j": 8.399049250664637,
+            "expired_cpu": 52,
+            "cpu_energy_to_truncated_j": 0.011257349023756611
+          },
+          "by_uav": [
+            {
+              "backlog_task_slots": 1779,
+              "backlog_cycle_slots": 1313282859484.9822,
+              "max_backlog_tasks": 9,
+              "max_cpu_frequency_hz": 1972371380.024,
+              "backlogged_decisions": 461,
+              "idle": 112,
+              "selected_queue_zero_frequency": 112,
+              "energy_positive_available": 461,
+              "capacity_feasible_head_available": 209,
+              "energy_positive_but_no_capacity_feasible_head": 252,
+              "feasible_available_but_idle_or_zero": 128,
+              "no_feasible_head_idle_or_zero": 96,
+              "positive_service_choice": 237,
+              "frequency_0.0": 224,
+              "positive_chosen_pair_capacity_feasible": 32,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 38,
+              "positive_impossible_head_when_other_head_feasible": 11,
+              "last_chance_head_available": 26,
+              "last_chance_available_but_idle_or_zero": 13,
+              "feasible_strictly_outranked_by_selected": 177,
+              "feasible_tied_with_selected": 32,
+              "frequency_0.25": 27,
+              "actual_service_cycles": 5512778007.1670685,
+              "actual_cpu_energy_j": 1.2006310265553097,
+              "actual_positive_service_slots": 237,
+              "frequency_1.0": 56,
+              "frequency_0.5": 154,
+              "assigned_tasks": 53,
+              "assigned_initial_cycles": 31343472535.749237,
+              "assigned_expired": 45,
+              "assigned_from_0": 8,
+              "assigned_from_1": 45,
+              "assigned_truncated": 8
+            },
+            {
+              "backlog_task_slots": 1342,
+              "backlog_cycle_slots": 913170201910.254,
+              "max_backlog_tasks": 7,
+              "max_cpu_frequency_hz": 1434027346.2676,
+              "backlogged_decisions": 452,
+              "idle": 20,
+              "selected_queue_zero_frequency": 234,
+              "energy_positive_available": 452,
+              "capacity_feasible_head_available": 191,
+              "energy_positive_but_no_capacity_feasible_head": 261,
+              "feasible_available_but_idle_or_zero": 83,
+              "no_feasible_head_idle_or_zero": 171,
+              "positive_service_choice": 198,
+              "frequency_0.0": 254,
+              "positive_chosen_pair_capacity_feasible": 85,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 19,
+              "positive_impossible_head_when_other_head_feasible": 4,
+              "last_chance_head_available": 16,
+              "last_chance_available_but_idle_or_zero": 6,
+              "feasible_strictly_outranked_by_selected": 106,
+              "feasible_tied_with_selected": 85,
+              "actual_service_cycles": 4712961023.491192,
+              "actual_cpu_energy_j": 1.0485661181375328,
+              "actual_positive_service_slots": 198,
+              "frequency_0.25": 37,
+              "frequency_1.0": 153,
+              "frequency_0.5": 8,
+              "actual_completions": 5,
+              "assigned_tasks": 38,
+              "assigned_initial_cycles": 20897022997.768192,
+              "assigned_expired": 32,
+              "assigned_from_1": 18,
+              "assigned_from_0": 20,
+              "assigned_done": 5,
+              "assigned_truncated": 1
+            },
+            {
+              "backlog_task_slots": 145,
+              "backlog_cycle_slots": 56074613208.3978,
+              "max_backlog_tasks": 2,
+              "max_cpu_frequency_hz": 3997595437.468,
+              "backlogged_decisions": 132,
+              "idle": 0,
+              "selected_queue_zero_frequency": 45,
+              "energy_positive_available": 132,
+              "capacity_feasible_head_available": 132,
+              "energy_positive_but_no_capacity_feasible_head": 0,
+              "feasible_available_but_idle_or_zero": 45,
+              "no_feasible_head_idle_or_zero": 0,
+              "positive_service_choice": 87,
+              "frequency_0.5": 18,
+              "positive_chosen_pair_capacity_feasible": 87,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 0,
+              "positive_impossible_head_when_other_head_feasible": 0,
+              "last_chance_head_available": 0,
+              "last_chance_available_but_idle_or_zero": 0,
+              "feasible_strictly_outranked_by_selected": 45,
+              "feasible_tied_with_selected": 87,
+              "actual_service_cycles": 5886040234.033137,
+              "actual_cpu_energy_j": 7.954651022326935,
+              "actual_positive_service_slots": 87,
+              "frequency_0.0": 45,
+              "frequency_1.0": 69,
+              "actual_completions": 11,
+              "assigned_tasks": 11,
+              "assigned_initial_cycles": 5886040234.033134,
+              "assigned_done": 11,
+              "assigned_from_2": 11
+            },
+            {
+              "backlog_task_slots": 967,
+              "backlog_cycle_slots": 688190707628.7323,
+              "max_backlog_tasks": 6,
+              "max_cpu_frequency_hz": 1998951144.562,
+              "backlogged_decisions": 378,
+              "idle": 74,
+              "selected_queue_zero_frequency": 15,
+              "energy_positive_available": 378,
+              "capacity_feasible_head_available": 204,
+              "energy_positive_but_no_capacity_feasible_head": 174,
+              "feasible_available_but_idle_or_zero": 50,
+              "no_feasible_head_idle_or_zero": 39,
+              "positive_service_choice": 289,
+              "frequency_0.5": 258,
+              "positive_chosen_pair_capacity_feasible": 83,
+              "positive_chosen_head_feasible_but_frequency_insufficient": 71,
+              "positive_impossible_head_when_other_head_feasible": 0,
+              "last_chance_head_available": 15,
+              "last_chance_available_but_idle_or_zero": 6,
+              "feasible_strictly_outranked_by_selected": 121,
+              "feasible_tied_with_selected": 83,
+              "actual_service_cycles": 6369424031.587184,
+              "actual_cpu_energy_j": 1.0983263898614921,
+              "actual_positive_service_slots": 289,
+              "frequency_0.0": 89,
+              "frequency_1.0": 31,
+              "actual_completions": 2,
+              "assigned_tasks": 26,
+              "assigned_initial_cycles": 17022609545.702257,
+              "assigned_expired": 21,
+              "assigned_from_3": 26,
+              "assigned_done": 2,
+              "assigned_truncated": 3
+            }
+          ],
+          "q_margins": {
+            "best_capacity_feasible_minus_chosen": {
+              "count": 736,
+              "sum": -41.02490733610466,
+              "mean": -0.055740363228403075,
+              "min": -0.40730916522443295,
+              "max": 0.0
+            },
+            "best_capacity_feasible_minus_idle": {
+              "count": 736,
+              "sum": 43.26231526769698,
+              "mean": 0.05878031965719698,
+              "min": -0.25021974463015795,
+              "max": 0.44306306540966034
+            },
+            "best_feasible_minus_chosen_when_idle_or_zero": {
+              "count": 306,
+              "sum": -19.352829350158572,
+              "mean": -0.06324454035999533,
+              "min": -0.2980825752019882,
+              "max": -0.00048619508743286133
+            }
+          },
+          "examples": [
+            {
+              "slot": 2,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.10911613702774048,
+              "best_feasible_q": 0.09761688858270645,
+              "heads": [
+                [
+                  316077418.913929,
+                  27,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 3,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.10858677327632904,
+              "best_feasible_q": 0.10060366988182068,
+              "heads": [
+                [
+                  316077418.913929,
+                  26,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 3,
+              "uav": 1,
+              "proposal_queue": 1,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.10667742416262627,
+              "best_feasible_q": 0.09752139076590538,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  922917292.3968983,
+                  76,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 4,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.1134185716509819,
+              "best_feasible_q": 0.09169603139162064,
+              "heads": [
+                [
+                  316077418.913929,
+                  25,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 4,
+              "uav": 1,
+              "proposal_queue": 1,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.10879971459507942,
+              "best_feasible_q": 0.027402494102716446,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  922917292.3968983,
+                  75,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 5,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.11125382781028748,
+              "best_feasible_q": 0.08846983313560486,
+              "heads": [
+                [
+                  316077418.913929,
+                  24,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 5,
+              "uav": 1,
+              "proposal_queue": 1,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.10604856535792351,
+              "best_feasible_q": -0.0004656948149204254,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  922917292.3968983,
+                  74,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 6,
+              "uav": 1,
+              "proposal_queue": 1,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.098505943082273,
+              "best_feasible_q": -0.005856174044311047,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  922917292.3968983,
+                  73,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            },
+            {
+              "slot": 7,
+              "uav": 0,
+              "proposal_queue": 0,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.14711597841233015,
+              "best_feasible_q": 0.13580181822180748,
+              "heads": [
+                [
+                  306215562.01380897,
+                  22,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 8,
+              "uav": 0,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.11284971982240677,
+              "best_feasible_q": 0.08064329624176025,
+              "heads": [
+                [
+                  306215562.01380897,
+                  21,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 9,
+              "uav": 0,
+              "proposal_queue": 0,
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.11884909961372614,
+              "best_feasible_q": 0.09046012908220291,
+              "heads": [
+                [
+                  306215562.01380897,
+                  20,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ],
+                [
+                  0.0,
+                  0,
+                  1972371380.024
+                ]
+              ]
+            },
+            {
+              "slot": 10,
+              "uav": 1,
+              "proposal_queue": "idle",
+              "proposal_frequency": 0.0,
+              "chosen_q": 0.10812143236398697,
+              "best_feasible_q": -0.05650218203663826,
+              "heads": [
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  901406882.2028842,
+                  69,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ],
+                [
+                  0.0,
+                  0,
+                  1434027346.2676
+                ]
+              ]
+            }
+          ],
+          "task_outcomes": {
+            "expired": 98,
+            "done": 18,
+            "truncated": 13
+          },
+          "actual_completion_cycle_energy_accounting_verified": true
+        }
+      ],
+      "counts": {
+        "backlogged_decisions": 7500,
+        "idle": 1813,
+        "selected_queue_zero_frequency": 2110,
+        "energy_positive_available": 7500,
+        "capacity_feasible_head_available": 4239,
+        "energy_positive_but_no_capacity_feasible_head": 3261,
+        "feasible_available_but_idle_or_zero": 2121,
+        "no_feasible_head_idle_or_zero": 1802,
+        "positive_service_choice": 3577,
+        "frequency_1.0": 1188,
+        "positive_chosen_pair_capacity_feasible": 1362,
+        "positive_chosen_head_feasible_but_frequency_insufficient": 683,
+        "positive_impossible_head_when_other_head_feasible": 73,
+        "last_chance_head_available": 281,
+        "last_chance_available_but_idle_or_zero": 146,
+        "feasible_strictly_outranked_by_selected": 2877,
+        "feasible_tied_with_selected": 1362,
+        "frequency_0.25": 569,
+        "frequency_0.0": 3923,
+        "frequency_0.5": 1820,
+        "expired_local": 242,
+        "cpu_energy_to_expired_j": 16.745503053033236,
+        "cpu_energy_to_done_j": 33.1550767751294,
+        "cpu_energy_to_truncated_j": 0.8579879815025787,
+        "expired_cpu": 244
+      },
+      "by_uav": [
+        {
+          "backlog_task_slots": 7135,
+          "backlog_cycle_slots": 5228748786451.694,
+          "max_backlog_tasks": 10,
+          "max_cpu_frequency_hz": 1972371380.024,
+          "backlogged_decisions": 2279,
+          "idle": 544,
+          "selected_queue_zero_frequency": 835,
+          "energy_positive_available": 2279,
+          "capacity_feasible_head_available": 1071,
+          "energy_positive_but_no_capacity_feasible_head": 1208,
+          "feasible_available_but_idle_or_zero": 669,
+          "no_feasible_head_idle_or_zero": 710,
+          "positive_service_choice": 900,
+          "frequency_1.0": 290,
+          "positive_chosen_pair_capacity_feasible": 239,
+          "positive_chosen_head_feasible_but_frequency_insufficient": 146,
+          "positive_impossible_head_when_other_head_feasible": 17,
+          "last_chance_head_available": 104,
+          "last_chance_available_but_idle_or_zero": 61,
+          "feasible_strictly_outranked_by_selected": 832,
+          "feasible_tied_with_selected": 239,
+          "actual_service_cycles": 22375259436.938858,
+          "actual_cpu_energy_j": 5.6190115134741365,
+          "actual_positive_service_slots": 900,
+          "frequency_0.25": 110,
+          "frequency_0.0": 1379,
+          "frequency_0.5": 500,
+          "assigned_tasks": 209,
+          "assigned_initial_cycles": 127696435667.80014,
+          "assigned_expired": 185,
+          "assigned_from_0": 48,
+          "assigned_truncated": 22,
+          "assigned_from_1": 156,
+          "assigned_from_2": 5,
+          "actual_completions": 2,
+          "assigned_done": 2
+        },
+        {
+          "backlog_task_slots": 6998,
+          "backlog_cycle_slots": 4613495487190.626,
+          "max_backlog_tasks": 9,
+          "max_cpu_frequency_hz": 1434027346.2676,
+          "backlogged_decisions": 2286,
+          "idle": 450,
+          "selected_queue_zero_frequency": 822,
+          "energy_positive_available": 2286,
+          "capacity_feasible_head_available": 934,
+          "energy_positive_but_no_capacity_feasible_head": 1352,
+          "feasible_available_but_idle_or_zero": 449,
+          "no_feasible_head_idle_or_zero": 823,
+          "positive_service_choice": 1014,
+          "frequency_0.0": 1272,
+          "positive_chosen_pair_capacity_feasible": 244,
+          "positive_chosen_head_feasible_but_frequency_insufficient": 194,
+          "positive_impossible_head_when_other_head_feasible": 47,
+          "last_chance_head_available": 85,
+          "last_chance_available_but_idle_or_zero": 44,
+          "feasible_strictly_outranked_by_selected": 690,
+          "feasible_tied_with_selected": 244,
+          "frequency_0.25": 300,
+          "actual_service_cycles": 18849704914.294945,
+          "actual_cpu_energy_j": 3.372060103276615,
+          "actual_positive_service_slots": 1014,
+          "frequency_0.5": 256,
+          "assigned_tasks": 210,
+          "assigned_initial_cycles": 116830711707.22018,
+          "assigned_expired": 191,
+          "assigned_from_1": 118,
+          "assigned_truncated": 10,
+          "frequency_1.0": 458,
+          "assigned_from_3": 22,
+          "assigned_from_0": 69,
+          "actual_completions": 9,
+          "assigned_from_2": 1,
+          "assigned_done": 9
+        },
+        {
+          "backlog_task_slots": 1954,
+          "backlog_cycle_slots": 1202221553428.537,
+          "max_backlog_tasks": 5,
+          "max_cpu_frequency_hz": 3997595437.468,
+          "backlogged_decisions": 1367,
+          "idle": 429,
+          "selected_queue_zero_frequency": 388,
+          "energy_positive_available": 1367,
+          "capacity_feasible_head_available": 1239,
+          "energy_positive_but_no_capacity_feasible_head": 128,
+          "feasible_available_but_idle_or_zero": 700,
+          "no_feasible_head_idle_or_zero": 117,
+          "positive_service_choice": 550,
+          "frequency_0.0": 817,
+          "positive_chosen_pair_capacity_feasible": 479,
+          "positive_chosen_head_feasible_but_frequency_insufficient": 54,
+          "positive_impossible_head_when_other_head_feasible": 6,
+          "last_chance_head_available": 33,
+          "last_chance_available_but_idle_or_zero": 20,
+          "feasible_strictly_outranked_by_selected": 760,
+          "feasible_tied_with_selected": 479,
+          "actual_service_cycles": 30654163455.78967,
+          "actual_cpu_energy_j": 37.630101898925375,
+          "actual_positive_service_slots": 550,
+          "frequency_0.25": 121,
+          "frequency_1.0": 323,
+          "actual_completions": 50,
+          "assigned_tasks": 83,
+          "assigned_initial_cycles": 46111073786.568924,
+          "assigned_expired": 29,
+          "assigned_from_2": 42,
+          "assigned_done": 50,
+          "assigned_truncated": 4,
+          "frequency_0.5": 106,
+          "assigned_from_3": 29,
+          "assigned_from_1": 9,
+          "assigned_from_0": 3
+        },
+        {
+          "backlog_task_slots": 3567,
+          "backlog_cycle_slots": 2446017125064.0884,
+          "max_backlog_tasks": 7,
+          "max_cpu_frequency_hz": 1998951144.562,
+          "backlogged_decisions": 1568,
+          "idle": 390,
+          "selected_queue_zero_frequency": 65,
+          "energy_positive_available": 1568,
+          "capacity_feasible_head_available": 995,
+          "energy_positive_but_no_capacity_feasible_head": 573,
+          "feasible_available_but_idle_or_zero": 303,
+          "no_feasible_head_idle_or_zero": 152,
+          "positive_service_choice": 1113,
+          "frequency_0.0": 455,
+          "positive_chosen_pair_capacity_feasible": 400,
+          "positive_chosen_head_feasible_but_frequency_insufficient": 289,
+          "positive_impossible_head_when_other_head_feasible": 3,
+          "last_chance_head_available": 59,
+          "last_chance_available_but_idle_or_zero": 21,
+          "feasible_strictly_outranked_by_selected": 595,
+          "feasible_tied_with_selected": 400,
+          "frequency_0.5": 958,
+          "actual_service_cycles": 24111786504.708244,
+          "actual_cpu_energy_j": 4.137394293989088,
+          "actual_positive_service_slots": 1113,
+          "frequency_1.0": 117,
+          "actual_completions": 8,
+          "assigned_tasks": 101,
+          "assigned_initial_cycles": 63587086880.317764,
+          "assigned_expired": 81,
+          "assigned_from_3": 85,
+          "assigned_done": 8,
+          "assigned_truncated": 12,
+          "frequency_0.25": 38,
+          "assigned_from_1": 13,
+          "assigned_from_2": 3
+        }
+      ],
+      "q_margins": {
+        "best_capacity_feasible_minus_chosen": {
+          "count": 4239,
+          "mean": -0.07445957835605067
+        },
+        "best_capacity_feasible_minus_idle": {
+          "count": 4239,
+          "mean": 0.019469361600896032
+        },
+        "best_feasible_minus_chosen_when_idle_or_zero": {
+          "count": 2121,
+          "mean": -0.0853850096262173
+        }
+      }
+    }
+  ]
+}

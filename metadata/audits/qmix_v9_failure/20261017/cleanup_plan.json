@@ -1,0 +1,40 @@
+{
+  "schema": "qmix_v10_explicit_cleanup_plan.v1",
+  "allowed_changed_inputs": [
+    "src/models/qmix_targets.py",
+    "src/models/qmix_replay.py",
+    "src/models/qmix_trainer.py",
+    "src/evaluation/qmix_limited_diagnostic.py",
+    "tests/test_qmix_continuation.py",
+    "tests/test_qmix_cpu_deadline_diagnostic.py",
+    "tests/test_qmix_cpu_pair.py",
+    "tests/test_qmix_input_scale.py",
+    "tests/test_qmix_limited_diagnostic.py",
+    "tests/test_qmix_recurrent.py",
+    "tests/test_qmix_targets.py",
+    "experiments/strong-baselines/configs/fa-gat-qmix-seed42-40k.json",
+    "experiments/strong-baselines/configs/fa-gat-qmix-seed42-40k.draft.json",
+    "experiments/strong-baselines/configs/fa-gat-qmix-seed43-40k.draft.json",
+    "experiments/strong-baselines/configs/fa-gat-qmix-seed44-40k.draft.json"
+  ],
+  "retired_old_configs": [
+    "experiments/strong-baselines/configs/fa-gat-qmix-seed42-8k-cpu-pair-development.json",
+    "experiments/strong-baselines/configs/fa-gat-qmix-seed42-16k-cpu-pair-development.json",
+    "experiments/strong-baselines/configs/fa-gat-qmix-cpu-pair-engineering.json"
+  ],
+  "targets": [
+    "D:/My_project_li/logs/strong_baselines/development/fa_gat_qmix/seed42/cpu_pair_q_v9",
+    "D:/My_project_li/plots/strong_baselines/development/fa_gat_qmix/seed42/cpu_pair_q_v9",
+    "D:/My_project_li/dashboard_logs/strong_baselines/development/fa_gat_qmix/seed42/cpu_pair_q_v9",
+    "D:/My_project_li/experiments/strong-baselines/configs/fa-gat-qmix-seed42-8k-cpu-pair-development.json",
+    "D:/My_project_li/experiments/strong-baselines/configs/fa-gat-qmix-seed42-16k-cpu-pair-development.json",
+    "D:/My_project_li/experiments/strong-baselines/configs/fa-gat-qmix-cpu-pair-engineering.json",
+    "D:/My_project_li/logs/strong_baselines/engineering/episode_return_v10",
+    "D:/My_project_li/plots/strong_baselines/engineering/episode_return_v10",
+    "D:/My_project_li/dashboard_logs/strong_baselines/engineering/episode_return_v10",
+    "D:/My_project_li/logs/q10_unit_tmp",
+    "D:/My_project_li/logs/q10_regression_tmp"
+  ],
+  "protected_directories_not_enumerated": true,
+  "deletion_requires_completed_tests_and_cuda_receipt": true
+}

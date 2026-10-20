@@ -1,0 +1,27 @@
+[
+  {
+    "field": "training.mappo.max_training_episodes",
+    "before": 64,
+    "after": 80
+  },
+  {
+    "field": "training.mappo.max_training_environment_steps",
+    "before": 32000,
+    "after": 40000
+  },
+  {
+    "field": "output.logs_dir",
+    "before": "logs/C/seed42/32k_continuation",
+    "after": "logs/C/seed42/40k_continuation"
+  },
+  {
+    "field": "output.plots_dir",
+    "before": "plots/C/seed42/32k_continuation",
+    "after": "plots/C/seed42/40k_continuation"
+  },
+  {
+    "field": "output.dashboard_logs_dir",
+    "before": "dashboard_logs/C/seed42/32k_continuation",
+    "after": "dashboard_logs/C/seed42/40k_continuation"
+  }
+]

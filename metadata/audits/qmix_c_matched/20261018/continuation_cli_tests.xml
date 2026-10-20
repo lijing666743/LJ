@@ -1,0 +1,2026 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="7" failures="11" skipped="0" tests="47" time="15.601" timestamp="2026-10-18T14:10:03.908258+08:00" hostname="DESKTOP-4RBUISE"><testcase classname="tests.test_c_feature_qmix_continuation_cli" name="test_matched_16k_preserves_scientific_settings_and_checkpoint_spacing" time="0.322" /><testcase classname="tests.test_c_feature_qmix_continuation_cli" name="test_matched_resume_accepts_explicit_full_state_context[False]" time="0.031"><error message="failed on setup with &quot;OSError: could not create numbered dir with prefix pytest- in C:\Users\李静\AppData\Local\Packages\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\AC\Temp\pytest-of-李静 after 10 tries&quot;">cls = &lt;class '_pytest.runner.CallInfo'&gt;
+func = &lt;function call_and_report.&lt;locals&gt;.&lt;lambda&gt; at 0x000001E43FB479C0&gt;
+when = 'setup'
+reraise = (&lt;class '_pytest.outcomes.Exit'&gt;, &lt;class 'KeyboardInterrupt'&gt;)
+
+    @classmethod
+    def from_call(
+        cls,
+        func: Callable[[], TResult],
+        when: Literal["collect", "setup", "call", "teardown"],
+        reraise: type[BaseException] | tuple[type[BaseException], ...] | None = None,
+    ) -&gt; CallInfo[TResult]:
+        """Call func, wrapping the result in a CallInfo.
+    
+        :param func:
+            The function to call. Called without arguments.
+        :type func: Callable[[], _pytest.runner.TResult]
+        :param when:
+            The phase in which the function is called.
+        :param reraise:
+            Exception or exceptions that shall propagate if raised by the
+            function, instead of being wrapped in the CallInfo.
+        """
+        excinfo = None
+        instant = timing.Instant()
+        try:
+&gt;           result: TResult | None = func()
+                                     ^^^^^^
+
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:361: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:250: in &lt;lambda&gt;
+    lambda: runtest_hook(item=item, **kwds),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\pluggy\_hooks.py:513: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\logging.py:858: in pytest_runtest_setup
+    yield
+D:\Miniconda\Lib\site-packages\_pytest\capture.py:895: in pytest_runtest_setup
+    return (yield)
+            ^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:170: in pytest_runtest_setup
+    item.session._setupstate.setup(item)
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:536: in setup
+    col.setup()
+D:\Miniconda\Lib\site-packages\_pytest\python.py:1710: in setup
+    self._request._fillfixtures()
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:806: in _fillfixtures
+    item.funcargs[argname] = self.getfixturevalue(argname)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:630: in getfixturevalue
+    fixturedef = self._get_active_fixturedef(argname)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:726: in _get_active_fixturedef
+    fixturedef.execute(request=subrequest)
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:1232: in execute
+    result: FixtureValue = ihook.pytest_fixture_setup(
+D:\Miniconda\Lib\site-packages\pluggy\_hooks.py:513: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\setuponly.py:36: in pytest_fixture_setup
+    return (yield)
+            ^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:1328: in pytest_fixture_setup
+    result = call_fixture_func(fixturefunc, request, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:998: in call_fixture_func
+    fixture_result = next(generator)
+                     ^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:300: in tmp_path
+    path = _mk_tmp(request, tmp_path_factory)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:287: in _mk_tmp
+    return factory.mktemp(name, numbered=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:136: in mktemp
+    basename = self._ensure_relative_to_basetemp(basename)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:117: in _ensure_relative_to_basetemp
+    if (self.getbasetemp() / basename).resolve().parent != self.getbasetemp():
+        ^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:213: in getbasetemp
+    basetemp = make_numbered_dir_with_cleanup(
+D:\Miniconda\Lib\site-packages\_pytest\pathlib.py:420: in make_numbered_dir_with_cleanup
+    raise e
+D:\Miniconda\Lib\site-packages\_pytest\pathlib.py:401: in make_numbered_dir_with_cleanup
+    p = make_numbered_dir(root, prefix, mode)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+root = WindowsPath('C:/Users/李静/AppData/Local/Packages/sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}/AC/Temp/pytest-of-李静')
+prefix = 'pytest-', mode = 448
+
+    def make_numbered_dir(root: Path, prefix: str, mode: int = 0o700) -&gt; Path:
+        """Create a directory with an increased number as suffix for the given prefix."""
+        for i in range(10):
+            # try up to 10 times to create the directory
+            max_existing = max(map(parse_num, find_suffixes(root, prefix)), default=-1)
+            new_number = max_existing + 1
+            new_path = root.joinpath(f"{prefix}{new_number}")
+            try:
+                new_path.mkdir(mode=mode)
+            except Exception:
+                pass
+            else:
+                _force_symlink(root, prefix + "current", new_path)
+                return new_path
+        else:
+&gt;           raise OSError(
+                "could not create numbered dir with prefix "
+                f"{prefix} in {root} after 10 tries"
+            )
+E           OSError: could not create numbered dir with prefix pytest- in C:\Users\李静\AppData\Local\Packages\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\AC\Temp\pytest-of-李静 after 10 tries
+
+D:\Miniconda\Lib\site-packages\_pytest\pathlib.py:239: OSError</error></testcase><testcase classname="tests.test_c_feature_qmix_continuation_cli" name="test_matched_resume_accepts_explicit_full_state_context[True]" time="0.025"><error message="failed on setup with &quot;OSError: could not create numbered dir with prefix pytest- in C:\Users\李静\AppData\Local\Packages\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\AC\Temp\pytest-of-李静 after 10 tries&quot;">cls = &lt;class '_pytest.runner.CallInfo'&gt;
+func = &lt;function call_and_report.&lt;locals&gt;.&lt;lambda&gt; at 0x000001E43FB45BC0&gt;
+when = 'setup'
+reraise = (&lt;class '_pytest.outcomes.Exit'&gt;, &lt;class 'KeyboardInterrupt'&gt;)
+
+    @classmethod
+    def from_call(
+        cls,
+        func: Callable[[], TResult],
+        when: Literal["collect", "setup", "call", "teardown"],
+        reraise: type[BaseException] | tuple[type[BaseException], ...] | None = None,
+    ) -&gt; CallInfo[TResult]:
+        """Call func, wrapping the result in a CallInfo.
+    
+        :param func:
+            The function to call. Called without arguments.
+        :type func: Callable[[], _pytest.runner.TResult]
+        :param when:
+            The phase in which the function is called.
+        :param reraise:
+            Exception or exceptions that shall propagate if raised by the
+            function, instead of being wrapped in the CallInfo.
+        """
+        excinfo = None
+        instant = timing.Instant()
+        try:
+&gt;           result: TResult | None = func()
+                                     ^^^^^^
+
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:361: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:250: in &lt;lambda&gt;
+    lambda: runtest_hook(item=item, **kwds),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\pluggy\_hooks.py:513: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\logging.py:858: in pytest_runtest_setup
+    yield
+D:\Miniconda\Lib\site-packages\_pytest\capture.py:895: in pytest_runtest_setup
+    return (yield)
+            ^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:170: in pytest_runtest_setup
+    item.session._setupstate.setup(item)
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:536: in setup
+    col.setup()
+D:\Miniconda\Lib\site-packages\_pytest\python.py:1710: in setup
+    self._request._fillfixtures()
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:806: in _fillfixtures
+    item.funcargs[argname] = self.getfixturevalue(argname)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:630: in getfixturevalue
+    fixturedef = self._get_active_fixturedef(argname)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:726: in _get_active_fixturedef
+    fixturedef.execute(request=subrequest)
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:1232: in execute
+    result: FixtureValue = ihook.pytest_fixture_setup(
+D:\Miniconda\Lib\site-packages\pluggy\_hooks.py:513: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\setuponly.py:36: in pytest_fixture_setup
+    return (yield)
+            ^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:1328: in pytest_fixture_setup
+    result = call_fixture_func(fixturefunc, request, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:998: in call_fixture_func
+    fixture_result = next(generator)
+                     ^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:300: in tmp_path
+    path = _mk_tmp(request, tmp_path_factory)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:287: in _mk_tmp
+    return factory.mktemp(name, numbered=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:136: in mktemp
+    basename = self._ensure_relative_to_basetemp(basename)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:117: in _ensure_relative_to_basetemp
+    if (self.getbasetemp() / basename).resolve().parent != self.getbasetemp():
+        ^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:213: in getbasetemp
+    basetemp = make_numbered_dir_with_cleanup(
+D:\Miniconda\Lib\site-packages\_pytest\pathlib.py:420: in make_numbered_dir_with_cleanup
+    raise e
+D:\Miniconda\Lib\site-packages\_pytest\pathlib.py:401: in make_numbered_dir_with_cleanup
+    p = make_numbered_dir(root, prefix, mode)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+root = WindowsPath('C:/Users/李静/AppData/Local/Packages/sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}/AC/Temp/pytest-of-李静')
+prefix = 'pytest-', mode = 448
+
+    def make_numbered_dir(root: Path, prefix: str, mode: int = 0o700) -&gt; Path:
+        """Create a directory with an increased number as suffix for the given prefix."""
+        for i in range(10):
+            # try up to 10 times to create the directory
+            max_existing = max(map(parse_num, find_suffixes(root, prefix)), default=-1)
+            new_number = max_existing + 1
+            new_path = root.joinpath(f"{prefix}{new_number}")
+            try:
+                new_path.mkdir(mode=mode)
+            except Exception:
+                pass
+            else:
+                _force_symlink(root, prefix + "current", new_path)
+                return new_path
+        else:
+&gt;           raise OSError(
+                "could not create numbered dir with prefix "
+                f"{prefix} in {root} after 10 tries"
+            )
+E           OSError: could not create numbered dir with prefix pytest- in C:\Users\李静\AppData\Local\Packages\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\AC\Temp\pytest-of-李静 after 10 tries
+
+D:\Miniconda\Lib\site-packages\_pytest\pathlib.py:239: OSError</error></testcase><testcase classname="tests.test_c_feature_qmix_continuation_cli" name="test_matched_cli_check_dispatches_to_qmix_restore_without_training" time="0.030"><error message="failed on setup with &quot;OSError: could not create numbered dir with prefix pytest- in C:\Users\李静\AppData\Local\Packages\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\AC\Temp\pytest-of-李静 after 10 tries&quot;">cls = &lt;class '_pytest.runner.CallInfo'&gt;
+func = &lt;function call_and_report.&lt;locals&gt;.&lt;lambda&gt; at 0x000001E43FB47240&gt;
+when = 'setup'
+reraise = (&lt;class '_pytest.outcomes.Exit'&gt;, &lt;class 'KeyboardInterrupt'&gt;)
+
+    @classmethod
+    def from_call(
+        cls,
+        func: Callable[[], TResult],
+        when: Literal["collect", "setup", "call", "teardown"],
+        reraise: type[BaseException] | tuple[type[BaseException], ...] | None = None,
+    ) -&gt; CallInfo[TResult]:
+        """Call func, wrapping the result in a CallInfo.
+    
+        :param func:
+            The function to call. Called without arguments.
+        :type func: Callable[[], _pytest.runner.TResult]
+        :param when:
+            The phase in which the function is called.
+        :param reraise:
+            Exception or exceptions that shall propagate if raised by the
+            function, instead of being wrapped in the CallInfo.
+        """
+        excinfo = None
+        instant = timing.Instant()
+        try:
+&gt;           result: TResult | None = func()
+                                     ^^^^^^
+
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:361: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:250: in &lt;lambda&gt;
+    lambda: runtest_hook(item=item, **kwds),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\pluggy\_hooks.py:513: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\logging.py:858: in pytest_runtest_setup
+    yield
+D:\Miniconda\Lib\site-packages\_pytest\capture.py:895: in pytest_runtest_setup
+    return (yield)
+            ^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:170: in pytest_runtest_setup
+    item.session._setupstate.setup(item)
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:536: in setup
+    col.setup()
+D:\Miniconda\Lib\site-packages\_pytest\python.py:1710: in setup
+    self._request._fillfixtures()
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:806: in _fillfixtures
+    item.funcargs[argname] = self.getfixturevalue(argname)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:630: in getfixturevalue
+    fixturedef = self._get_active_fixturedef(argname)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:726: in _get_active_fixturedef
+    fixturedef.execute(request=subrequest)
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:1232: in execute
+    result: FixtureValue = ihook.pytest_fixture_setup(
+D:\Miniconda\Lib\site-packages\pluggy\_hooks.py:513: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\setuponly.py:36: in pytest_fixture_setup
+    return (yield)
+            ^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:1328: in pytest_fixture_setup
+    result = call_fixture_func(fixturefunc, request, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:998: in call_fixture_func
+    fixture_result = next(generator)
+                     ^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:300: in tmp_path
+    path = _mk_tmp(request, tmp_path_factory)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:287: in _mk_tmp
+    return factory.mktemp(name, numbered=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:136: in mktemp
+    basename = self._ensure_relative_to_basetemp(basename)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:117: in _ensure_relative_to_basetemp
+    if (self.getbasetemp() / basename).resolve().parent != self.getbasetemp():
+        ^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:213: in getbasetemp
+    basetemp = make_numbered_dir_with_cleanup(
+D:\Miniconda\Lib\site-packages\_pytest\pathlib.py:420: in make_numbered_dir_with_cleanup
+    raise e
+D:\Miniconda\Lib\site-packages\_pytest\pathlib.py:401: in make_numbered_dir_with_cleanup
+    p = make_numbered_dir(root, prefix, mode)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+root = WindowsPath('C:/Users/李静/AppData/Local/Packages/sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}/AC/Temp/pytest-of-李静')
+prefix = 'pytest-', mode = 448
+
+    def make_numbered_dir(root: Path, prefix: str, mode: int = 0o700) -&gt; Path:
+        """Create a directory with an increased number as suffix for the given prefix."""
+        for i in range(10):
+            # try up to 10 times to create the directory
+            max_existing = max(map(parse_num, find_suffixes(root, prefix)), default=-1)
+            new_number = max_existing + 1
+            new_path = root.joinpath(f"{prefix}{new_number}")
+            try:
+                new_path.mkdir(mode=mode)
+            except Exception:
+                pass
+            else:
+                _force_symlink(root, prefix + "current", new_path)
+                return new_path
+        else:
+&gt;           raise OSError(
+                "could not create numbered dir with prefix "
+                f"{prefix} in {root} after 10 tries"
+            )
+E           OSError: could not create numbered dir with prefix pytest- in C:\Users\李静\AppData\Local\Packages\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\AC\Temp\pytest-of-李静 after 10 tries
+
+D:\Miniconda\Lib\site-packages\_pytest\pathlib.py:239: OSError</error></testcase><testcase classname="tests.test_c_feature_qmix_continuation_cli" name="test_matched_resume_still_rejects_mappo_only_instructions[warm_start_from]" time="0.029"><error message="failed on setup with &quot;OSError: could not create numbered dir with prefix pytest- in C:\Users\李静\AppData\Local\Packages\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\AC\Temp\pytest-of-李静 after 10 tries&quot;">cls = &lt;class '_pytest.runner.CallInfo'&gt;
+func = &lt;function call_and_report.&lt;locals&gt;.&lt;lambda&gt; at 0x000001E43FB45440&gt;
+when = 'setup'
+reraise = (&lt;class '_pytest.outcomes.Exit'&gt;, &lt;class 'KeyboardInterrupt'&gt;)
+
+    @classmethod
+    def from_call(
+        cls,
+        func: Callable[[], TResult],
+        when: Literal["collect", "setup", "call", "teardown"],
+        reraise: type[BaseException] | tuple[type[BaseException], ...] | None = None,
+    ) -&gt; CallInfo[TResult]:
+        """Call func, wrapping the result in a CallInfo.
+    
+        :param func:
+            The function to call. Called without arguments.
+        :type func: Callable[[], _pytest.runner.TResult]
+        :param when:
+            The phase in which the function is called.
+        :param reraise:
+            Exception or exceptions that shall propagate if raised by the
+            function, instead of being wrapped in the CallInfo.
+        """
+        excinfo = None
+        instant = timing.Instant()
+        try:
+&gt;           result: TResult | None = func()
+                                     ^^^^^^
+
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:361: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:250: in &lt;lambda&gt;
+    lambda: runtest_hook(item=item, **kwds),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\pluggy\_hooks.py:513: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\logging.py:858: in pytest_runtest_setup
+    yield
+D:\Miniconda\Lib\site-packages\_pytest\capture.py:895: in pytest_runtest_setup
+    return (yield)
+            ^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:170: in pytest_runtest_setup
+    item.session._setupstate.setup(item)
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:536: in setup
+    col.setup()
+D:\Miniconda\Lib\site-packages\_pytest\python.py:1710: in setup
+    self._request._fillfixtures()
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:806: in _fillfixtures
+    item.funcargs[argname] = self.getfixturevalue(argname)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:630: in getfixturevalue
+    fixturedef = self._get_active_fixturedef(argname)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:726: in _get_active_fixturedef
+    fixturedef.execute(request=subrequest)
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:1232: in execute
+    result: FixtureValue = ihook.pytest_fixture_setup(
+D:\Miniconda\Lib\site-packages\pluggy\_hooks.py:513: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\setuponly.py:36: in pytest_fixture_setup
+    return (yield)
+            ^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:1328: in pytest_fixture_setup
+    result = call_fixture_func(fixturefunc, request, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:998: in call_fixture_func
+    fixture_result = next(generator)
+                     ^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:300: in tmp_path
+    path = _mk_tmp(request, tmp_path_factory)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:287: in _mk_tmp
+    return factory.mktemp(name, numbered=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:136: in mktemp
+    basename = self._ensure_relative_to_basetemp(basename)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:117: in _ensure_relative_to_basetemp
+    if (self.getbasetemp() / basename).resolve().parent != self.getbasetemp():
+        ^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:213: in getbasetemp
+    basetemp = make_numbered_dir_with_cleanup(
+D:\Miniconda\Lib\site-packages\_pytest\pathlib.py:420: in make_numbered_dir_with_cleanup
+    raise e
+D:\Miniconda\Lib\site-packages\_pytest\pathlib.py:401: in make_numbered_dir_with_cleanup
+    p = make_numbered_dir(root, prefix, mode)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+root = WindowsPath('C:/Users/李静/AppData/Local/Packages/sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}/AC/Temp/pytest-of-李静')
+prefix = 'pytest-', mode = 448
+
+    def make_numbered_dir(root: Path, prefix: str, mode: int = 0o700) -&gt; Path:
+        """Create a directory with an increased number as suffix for the given prefix."""
+        for i in range(10):
+            # try up to 10 times to create the directory
+            max_existing = max(map(parse_num, find_suffixes(root, prefix)), default=-1)
+            new_number = max_existing + 1
+            new_path = root.joinpath(f"{prefix}{new_number}")
+            try:
+                new_path.mkdir(mode=mode)
+            except Exception:
+                pass
+            else:
+                _force_symlink(root, prefix + "current", new_path)
+                return new_path
+        else:
+&gt;           raise OSError(
+                "could not create numbered dir with prefix "
+                f"{prefix} in {root} after 10 tries"
+            )
+E           OSError: could not create numbered dir with prefix pytest- in C:\Users\李静\AppData\Local\Packages\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\AC\Temp\pytest-of-李静 after 10 tries
+
+D:\Miniconda\Lib\site-packages\_pytest\pathlib.py:239: OSError</error></testcase><testcase classname="tests.test_c_feature_qmix_continuation_cli" name="test_matched_resume_still_rejects_mappo_only_instructions[verify_replay_against]" time="0.026"><error message="failed on setup with &quot;OSError: could not create numbered dir with prefix pytest- in C:\Users\李静\AppData\Local\Packages\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\AC\Temp\pytest-of-李静 after 10 tries&quot;">cls = &lt;class '_pytest.runner.CallInfo'&gt;
+func = &lt;function call_and_report.&lt;locals&gt;.&lt;lambda&gt; at 0x000001E43FB46CA0&gt;
+when = 'setup'
+reraise = (&lt;class '_pytest.outcomes.Exit'&gt;, &lt;class 'KeyboardInterrupt'&gt;)
+
+    @classmethod
+    def from_call(
+        cls,
+        func: Callable[[], TResult],
+        when: Literal["collect", "setup", "call", "teardown"],
+        reraise: type[BaseException] | tuple[type[BaseException], ...] | None = None,
+    ) -&gt; CallInfo[TResult]:
+        """Call func, wrapping the result in a CallInfo.
+    
+        :param func:
+            The function to call. Called without arguments.
+        :type func: Callable[[], _pytest.runner.TResult]
+        :param when:
+            The phase in which the function is called.
+        :param reraise:
+            Exception or exceptions that shall propagate if raised by the
+            function, instead of being wrapped in the CallInfo.
+        """
+        excinfo = None
+        instant = timing.Instant()
+        try:
+&gt;           result: TResult | None = func()
+                                     ^^^^^^
+
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:361: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:250: in &lt;lambda&gt;
+    lambda: runtest_hook(item=item, **kwds),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\pluggy\_hooks.py:513: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\logging.py:858: in pytest_runtest_setup
+    yield
+D:\Miniconda\Lib\site-packages\_pytest\capture.py:895: in pytest_runtest_setup
+    return (yield)
+            ^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:170: in pytest_runtest_setup
+    item.session._setupstate.setup(item)
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:536: in setup
+    col.setup()
+D:\Miniconda\Lib\site-packages\_pytest\python.py:1710: in setup
+    self._request._fillfixtures()
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:806: in _fillfixtures
+    item.funcargs[argname] = self.getfixturevalue(argname)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:630: in getfixturevalue
+    fixturedef = self._get_active_fixturedef(argname)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:726: in _get_active_fixturedef
+    fixturedef.execute(request=subrequest)
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:1232: in execute
+    result: FixtureValue = ihook.pytest_fixture_setup(
+D:\Miniconda\Lib\site-packages\pluggy\_hooks.py:513: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\setuponly.py:36: in pytest_fixture_setup
+    return (yield)
+            ^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:1328: in pytest_fixture_setup
+    result = call_fixture_func(fixturefunc, request, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:998: in call_fixture_func
+    fixture_result = next(generator)
+                     ^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:300: in tmp_path
+    path = _mk_tmp(request, tmp_path_factory)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:287: in _mk_tmp
+    return factory.mktemp(name, numbered=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:136: in mktemp
+    basename = self._ensure_relative_to_basetemp(basename)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:117: in _ensure_relative_to_basetemp
+    if (self.getbasetemp() / basename).resolve().parent != self.getbasetemp():
+        ^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:213: in getbasetemp
+    basetemp = make_numbered_dir_with_cleanup(
+D:\Miniconda\Lib\site-packages\_pytest\pathlib.py:420: in make_numbered_dir_with_cleanup
+    raise e
+D:\Miniconda\Lib\site-packages\_pytest\pathlib.py:401: in make_numbered_dir_with_cleanup
+    p = make_numbered_dir(root, prefix, mode)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+root = WindowsPath('C:/Users/李静/AppData/Local/Packages/sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}/AC/Temp/pytest-of-李静')
+prefix = 'pytest-', mode = 448
+
+    def make_numbered_dir(root: Path, prefix: str, mode: int = 0o700) -&gt; Path:
+        """Create a directory with an increased number as suffix for the given prefix."""
+        for i in range(10):
+            # try up to 10 times to create the directory
+            max_existing = max(map(parse_num, find_suffixes(root, prefix)), default=-1)
+            new_number = max_existing + 1
+            new_path = root.joinpath(f"{prefix}{new_number}")
+            try:
+                new_path.mkdir(mode=mode)
+            except Exception:
+                pass
+            else:
+                _force_symlink(root, prefix + "current", new_path)
+                return new_path
+        else:
+&gt;           raise OSError(
+                "could not create numbered dir with prefix "
+                f"{prefix} in {root} after 10 tries"
+            )
+E           OSError: could not create numbered dir with prefix pytest- in C:\Users\李静\AppData\Local\Packages\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\AC\Temp\pytest-of-李静 after 10 tries
+
+D:\Miniconda\Lib\site-packages\_pytest\pathlib.py:239: OSError</error></testcase><testcase classname="tests.test_c_feature_qmix_continuation_cli" name="test_matched_resume_still_rejects_mappo_only_instructions[pause_at_periodic]" time="0.030"><error message="failed on setup with &quot;OSError: could not create numbered dir with prefix pytest- in C:\Users\李静\AppData\Local\Packages\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\AC\Temp\pytest-of-李静 after 10 tries&quot;">cls = &lt;class '_pytest.runner.CallInfo'&gt;
+func = &lt;function call_and_report.&lt;locals&gt;.&lt;lambda&gt; at 0x000001E43FB46660&gt;
+when = 'setup'
+reraise = (&lt;class '_pytest.outcomes.Exit'&gt;, &lt;class 'KeyboardInterrupt'&gt;)
+
+    @classmethod
+    def from_call(
+        cls,
+        func: Callable[[], TResult],
+        when: Literal["collect", "setup", "call", "teardown"],
+        reraise: type[BaseException] | tuple[type[BaseException], ...] | None = None,
+    ) -&gt; CallInfo[TResult]:
+        """Call func, wrapping the result in a CallInfo.
+    
+        :param func:
+            The function to call. Called without arguments.
+        :type func: Callable[[], _pytest.runner.TResult]
+        :param when:
+            The phase in which the function is called.
+        :param reraise:
+            Exception or exceptions that shall propagate if raised by the
+            function, instead of being wrapped in the CallInfo.
+        """
+        excinfo = None
+        instant = timing.Instant()
+        try:
+&gt;           result: TResult | None = func()
+                                     ^^^^^^
+
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:361: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:250: in &lt;lambda&gt;
+    lambda: runtest_hook(item=item, **kwds),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\pluggy\_hooks.py:513: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\logging.py:858: in pytest_runtest_setup
+    yield
+D:\Miniconda\Lib\site-packages\_pytest\capture.py:895: in pytest_runtest_setup
+    return (yield)
+            ^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:170: in pytest_runtest_setup
+    item.session._setupstate.setup(item)
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:536: in setup
+    col.setup()
+D:\Miniconda\Lib\site-packages\_pytest\python.py:1710: in setup
+    self._request._fillfixtures()
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:806: in _fillfixtures
+    item.funcargs[argname] = self.getfixturevalue(argname)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:630: in getfixturevalue
+    fixturedef = self._get_active_fixturedef(argname)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:726: in _get_active_fixturedef
+    fixturedef.execute(request=subrequest)
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:1232: in execute
+    result: FixtureValue = ihook.pytest_fixture_setup(
+D:\Miniconda\Lib\site-packages\pluggy\_hooks.py:513: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\setuponly.py:36: in pytest_fixture_setup
+    return (yield)
+            ^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:1328: in pytest_fixture_setup
+    result = call_fixture_func(fixturefunc, request, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:998: in call_fixture_func
+    fixture_result = next(generator)
+                     ^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:300: in tmp_path
+    path = _mk_tmp(request, tmp_path_factory)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:287: in _mk_tmp
+    return factory.mktemp(name, numbered=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:136: in mktemp
+    basename = self._ensure_relative_to_basetemp(basename)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:117: in _ensure_relative_to_basetemp
+    if (self.getbasetemp() / basename).resolve().parent != self.getbasetemp():
+        ^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:213: in getbasetemp
+    basetemp = make_numbered_dir_with_cleanup(
+D:\Miniconda\Lib\site-packages\_pytest\pathlib.py:420: in make_numbered_dir_with_cleanup
+    raise e
+D:\Miniconda\Lib\site-packages\_pytest\pathlib.py:401: in make_numbered_dir_with_cleanup
+    p = make_numbered_dir(root, prefix, mode)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+root = WindowsPath('C:/Users/李静/AppData/Local/Packages/sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}/AC/Temp/pytest-of-李静')
+prefix = 'pytest-', mode = 448
+
+    def make_numbered_dir(root: Path, prefix: str, mode: int = 0o700) -&gt; Path:
+        """Create a directory with an increased number as suffix for the given prefix."""
+        for i in range(10):
+            # try up to 10 times to create the directory
+            max_existing = max(map(parse_num, find_suffixes(root, prefix)), default=-1)
+            new_number = max_existing + 1
+            new_path = root.joinpath(f"{prefix}{new_number}")
+            try:
+                new_path.mkdir(mode=mode)
+            except Exception:
+                pass
+            else:
+                _force_symlink(root, prefix + "current", new_path)
+                return new_path
+        else:
+&gt;           raise OSError(
+                "could not create numbered dir with prefix "
+                f"{prefix} in {root} after 10 tries"
+            )
+E           OSError: could not create numbered dir with prefix pytest- in C:\Users\李静\AppData\Local\Packages\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\AC\Temp\pytest-of-李静 after 10 tries
+
+D:\Miniconda\Lib\site-packages\_pytest\pathlib.py:239: OSError</error></testcase><testcase classname="tests.test_c_feature_qmix_continuation_cli" name="test_matched_resume_still_rejects_mappo_only_instructions[oracle_probe_states]" time="0.025"><error message="failed on setup with &quot;OSError: could not create numbered dir with prefix pytest- in C:\Users\李静\AppData\Local\Packages\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\AC\Temp\pytest-of-李静 after 10 tries&quot;">cls = &lt;class '_pytest.runner.CallInfo'&gt;
+func = &lt;function call_and_report.&lt;locals&gt;.&lt;lambda&gt; at 0x000001E43FB45E40&gt;
+when = 'setup'
+reraise = (&lt;class '_pytest.outcomes.Exit'&gt;, &lt;class 'KeyboardInterrupt'&gt;)
+
+    @classmethod
+    def from_call(
+        cls,
+        func: Callable[[], TResult],
+        when: Literal["collect", "setup", "call", "teardown"],
+        reraise: type[BaseException] | tuple[type[BaseException], ...] | None = None,
+    ) -&gt; CallInfo[TResult]:
+        """Call func, wrapping the result in a CallInfo.
+    
+        :param func:
+            The function to call. Called without arguments.
+        :type func: Callable[[], _pytest.runner.TResult]
+        :param when:
+            The phase in which the function is called.
+        :param reraise:
+            Exception or exceptions that shall propagate if raised by the
+            function, instead of being wrapped in the CallInfo.
+        """
+        excinfo = None
+        instant = timing.Instant()
+        try:
+&gt;           result: TResult | None = func()
+                                     ^^^^^^
+
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:361: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:250: in &lt;lambda&gt;
+    lambda: runtest_hook(item=item, **kwds),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\pluggy\_hooks.py:513: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\logging.py:858: in pytest_runtest_setup
+    yield
+D:\Miniconda\Lib\site-packages\_pytest\capture.py:895: in pytest_runtest_setup
+    return (yield)
+            ^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:170: in pytest_runtest_setup
+    item.session._setupstate.setup(item)
+D:\Miniconda\Lib\site-packages\_pytest\runner.py:536: in setup
+    col.setup()
+D:\Miniconda\Lib\site-packages\_pytest\python.py:1710: in setup
+    self._request._fillfixtures()
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:806: in _fillfixtures
+    item.funcargs[argname] = self.getfixturevalue(argname)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:630: in getfixturevalue
+    fixturedef = self._get_active_fixturedef(argname)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:726: in _get_active_fixturedef
+    fixturedef.execute(request=subrequest)
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:1232: in execute
+    result: FixtureValue = ihook.pytest_fixture_setup(
+D:\Miniconda\Lib\site-packages\pluggy\_hooks.py:513: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\setuponly.py:36: in pytest_fixture_setup
+    return (yield)
+            ^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:1328: in pytest_fixture_setup
+    result = call_fixture_func(fixturefunc, request, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\fixtures.py:998: in call_fixture_func
+    fixture_result = next(generator)
+                     ^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:300: in tmp_path
+    path = _mk_tmp(request, tmp_path_factory)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:287: in _mk_tmp
+    return factory.mktemp(name, numbered=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:136: in mktemp
+    basename = self._ensure_relative_to_basetemp(basename)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:117: in _ensure_relative_to_basetemp
+    if (self.getbasetemp() / basename).resolve().parent != self.getbasetemp():
+        ^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\site-packages\_pytest\tmpdir.py:213: in getbasetemp
+    basetemp = make_numbered_dir_with_cleanup(
+D:\Miniconda\Lib\site-packages\_pytest\pathlib.py:420: in make_numbered_dir_with_cleanup
+    raise e
+D:\Miniconda\Lib\site-packages\_pytest\pathlib.py:401: in make_numbered_dir_with_cleanup
+    p = make_numbered_dir(root, prefix, mode)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+root = WindowsPath('C:/Users/李静/AppData/Local/Packages/sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}/AC/Temp/pytest-of-李静')
+prefix = 'pytest-', mode = 448
+
+    def make_numbered_dir(root: Path, prefix: str, mode: int = 0o700) -&gt; Path:
+        """Create a directory with an increased number as suffix for the given prefix."""
+        for i in range(10):
+            # try up to 10 times to create the directory
+            max_existing = max(map(parse_num, find_suffixes(root, prefix)), default=-1)
+            new_number = max_existing + 1
+            new_path = root.joinpath(f"{prefix}{new_number}")
+            try:
+                new_path.mkdir(mode=mode)
+            except Exception:
+                pass
+            else:
+                _force_symlink(root, prefix + "current", new_path)
+                return new_path
+        else:
+&gt;           raise OSError(
+                "could not create numbered dir with prefix "
+                f"{prefix} in {root} after 10 tries"
+            )
+E           OSError: could not create numbered dir with prefix pytest- in C:\Users\李静\AppData\Local\Packages\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\AC\Temp\pytest-of-李静 after 10 tries
+
+D:\Miniconda\Lib\site-packages\_pytest\pathlib.py:239: OSError</error></testcase><testcase classname="tests.test_config_cli_runner.ConfigTests" name="test_channel_ablation_mode_loading_identity_snapshot_and_validation" time="0.474" /><testcase classname="tests.test_config_cli_runner.ConfigTests" name="test_cuda_provenance_parses_annotated_torch_version_assignments" time="0.003"><failure message="PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpp9pgpiwk'">self = &lt;test_config_cli_runner.ConfigTests testMethod=test_cuda_provenance_parses_annotated_torch_version_assignments&gt;
+
+    def test_cuda_provenance_parses_annotated_torch_version_assignments(self) -&gt; None:
+        with tempfile.TemporaryDirectory() as directory:
+            package_root = Path(directory) / "torch"
+&gt;           package_root.mkdir()
+
+tests\test_config_cli_runner.py:196: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/李静/AppData/Local/Packages/sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}/AC/Temp/tmpp9pgpiwk/torch')
+mode = 511, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpp9pgpiwk\\torch'
+
+D:\Miniconda\Lib\pathlib\_local.py:722: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+path = 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpp9pgpiwk'
+onexc = &lt;function TemporaryDirectory._rmtree.&lt;locals&gt;.onexc at 0x000001E43FB462A0&gt;
+
+    def _rmtree_unsafe(path, onexc):
+        def onerror(err):
+            if not isinstance(err, FileNotFoundError):
+                onexc(os.scandir, err.filename, err)
+        results = os.walk(path, topdown=False, onerror=onerror, followlinks=os._walk_symlinks_as_files)
+        for dirpath, dirnames, filenames in results:
+            for name in dirnames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.rmdir(fullname)
+                except FileNotFoundError:
+                    continue
+                except OSError as err:
+                    onexc(os.rmdir, fullname, err)
+            for name in filenames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.unlink(fullname)
+                except FileNotFoundError:
+                    continue
+                except OSError as err:
+                    onexc(os.unlink, fullname, err)
+        try:
+&gt;           os.rmdir(path)
+E           PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpp9pgpiwk'
+
+D:\Miniconda\Lib\shutil.py:631: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+self = &lt;test_config_cli_runner.ConfigTests testMethod=test_cuda_provenance_parses_annotated_torch_version_assignments&gt;
+
+    def test_cuda_provenance_parses_annotated_torch_version_assignments(self) -&gt; None:
+&gt;       with tempfile.TemporaryDirectory() as directory:
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_config_cli_runner.py:194: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\tempfile.py:951: in __exit__
+    self.cleanup()
+D:\Miniconda\Lib\tempfile.py:955: in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+D:\Miniconda\Lib\tempfile.py:935: in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+D:\Miniconda\Lib\shutil.py:790: in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\shutil.py:635: in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+D:\Miniconda\Lib\tempfile.py:907: in onexc
+    _resetperms(path)
+D:\Miniconda\Lib\tempfile.py:287: in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+func = &lt;built-in function chmod&gt;
+path = 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpp9pgpiwk'
+args = (448,)
+
+    def _dont_follow_symlinks(func, path, *args):
+        # Pass follow_symlinks=False, unless not supported on this platform.
+        if func in _os.supports_follow_symlinks:
+&gt;           func(path, *args, follow_symlinks=False)
+E           PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpp9pgpiwk'
+
+D:\Miniconda\Lib\tempfile.py:276: PermissionError</failure></testcase><testcase classname="tests.test_config_cli_runner.ConfigTests" name="test_defaults_and_scenario_derivation" time="0.309" /><testcase classname="tests.test_config_cli_runner.ConfigTests" name="test_file_cli_and_interactive_precedence" time="0.002"><failure message="PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpptzvdff4'">self = &lt;test_config_cli_runner.ConfigTests testMethod=test_file_cli_and_interactive_precedence&gt;
+
+    def test_file_cli_and_interactive_precedence(self) -&gt; None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "config.json"
+&gt;           path.write_text(
+                json.dumps({"mode": "random", "seed": 9, "scenario_id": "medium"}),
+                encoding="utf-8",
+            )
+
+tests\test_config_cli_runner.py:151: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\pathlib\_local.py:555: in write_text
+    return PathBase.write_text(self, data, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\pathlib\_abc.py:651: in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/李静/AppData/Local/Packages/sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}/AC/Temp/tmpptzvdff4/config.json')
+mode = 'w', buffering = -1, encoding = 'utf-8', errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+&gt;       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       PermissionError: [Errno 13] Permission denied: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpptzvdff4\\config.json'
+
+D:\Miniconda\Lib\pathlib\_local.py:537: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+path = 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpptzvdff4'
+onexc = &lt;function TemporaryDirectory._rmtree.&lt;locals&gt;.onexc at 0x000001E43FB46660&gt;
+
+    def _rmtree_unsafe(path, onexc):
+        def onerror(err):
+            if not isinstance(err, FileNotFoundError):
+                onexc(os.scandir, err.filename, err)
+        results = os.walk(path, topdown=False, onerror=onerror, followlinks=os._walk_symlinks_as_files)
+        for dirpath, dirnames, filenames in results:
+            for name in dirnames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.rmdir(fullname)
+                except FileNotFoundError:
+                    continue
+                except OSError as err:
+                    onexc(os.rmdir, fullname, err)
+            for name in filenames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.unlink(fullname)
+                except FileNotFoundError:
+                    continue
+                except OSError as err:
+                    onexc(os.unlink, fullname, err)
+        try:
+&gt;           os.rmdir(path)
+E           PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpptzvdff4'
+
+D:\Miniconda\Lib\shutil.py:631: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+self = &lt;test_config_cli_runner.ConfigTests testMethod=test_file_cli_and_interactive_precedence&gt;
+
+    def test_file_cli_and_interactive_precedence(self) -&gt; None:
+&gt;       with tempfile.TemporaryDirectory() as directory:
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_config_cli_runner.py:149: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\tempfile.py:951: in __exit__
+    self.cleanup()
+D:\Miniconda\Lib\tempfile.py:955: in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+D:\Miniconda\Lib\tempfile.py:935: in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+D:\Miniconda\Lib\shutil.py:790: in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\shutil.py:635: in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+D:\Miniconda\Lib\tempfile.py:907: in onexc
+    _resetperms(path)
+D:\Miniconda\Lib\tempfile.py:287: in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+func = &lt;built-in function chmod&gt;
+path = 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpptzvdff4'
+args = (448,)
+
+    def _dont_follow_symlinks(func, path, *args):
+        # Pass follow_symlinks=False, unless not supported on this platform.
+        if func in _os.supports_follow_symlinks:
+&gt;           func(path, *args, follow_symlinks=False)
+E           PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpptzvdff4'
+
+D:\Miniconda\Lib\tempfile.py:276: PermissionError</failure></testcase><testcase classname="tests.test_config_cli_runner.ConfigTests" name="test_launch_profile_is_validated_and_changes_canonical_identity" time="0.456" /><testcase classname="tests.test_config_cli_runner.ConfigTests" name="test_oracle_cli_override_accepts_boundary_rates" time="0.322" /><testcase classname="tests.test_config_cli_runner.ConfigTests" name="test_oracle_defaults_are_disabled_and_zero_rate" time="0.152" /><testcase classname="tests.test_config_cli_runner.ConfigTests" name="test_oracle_enabled_zero_rate_fails_validation" time="0.150" /><testcase classname="tests.test_config_cli_runner.ConfigTests" name="test_oracle_selection_rate_above_maximum_fails_validation" time="0.148" /><testcase classname="tests.test_config_cli_runner.ConfigTests" name="test_oracle_settings_have_scoped_config_identity" time="0.606" /><testcase classname="tests.test_config_cli_runner.ConfigTests" name="test_unknown_field_is_rejected_before_runner" time="0.002"><failure message="PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpuru9eryc'">self = &lt;test_config_cli_runner.ConfigTests testMethod=test_unknown_field_is_rejected_before_runner&gt;
+
+    def test_unknown_field_is_rejected_before_runner(self) -&gt; None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "bad.json"
+&gt;           path.write_text(json.dumps({"not_a_field": 1}), encoding="utf-8")
+
+tests\test_config_cli_runner.py:170: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\pathlib\_local.py:555: in write_text
+    return PathBase.write_text(self, data, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\pathlib\_abc.py:651: in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/李静/AppData/Local/Packages/sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}/AC/Temp/tmpuru9eryc/bad.json')
+mode = 'w', buffering = -1, encoding = 'utf-8', errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+&gt;       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       PermissionError: [Errno 13] Permission denied: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpuru9eryc\\bad.json'
+
+D:\Miniconda\Lib\pathlib\_local.py:537: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+path = 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpuru9eryc'
+onexc = &lt;function TemporaryDirectory._rmtree.&lt;locals&gt;.onexc at 0x000001E43FB34040&gt;
+
+    def _rmtree_unsafe(path, onexc):
+        def onerror(err):
+            if not isinstance(err, FileNotFoundError):
+                onexc(os.scandir, err.filename, err)
+        results = os.walk(path, topdown=False, onerror=onerror, followlinks=os._walk_symlinks_as_files)
+        for dirpath, dirnames, filenames in results:
+            for name in dirnames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.rmdir(fullname)
+                except FileNotFoundError:
+                    continue
+                except OSError as err:
+                    onexc(os.rmdir, fullname, err)
+            for name in filenames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.unlink(fullname)
+                except FileNotFoundError:
+                    continue
+                except OSError as err:
+                    onexc(os.unlink, fullname, err)
+        try:
+&gt;           os.rmdir(path)
+E           PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpuru9eryc'
+
+D:\Miniconda\Lib\shutil.py:631: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+self = &lt;test_config_cli_runner.ConfigTests testMethod=test_unknown_field_is_rejected_before_runner&gt;
+
+    def test_unknown_field_is_rejected_before_runner(self) -&gt; None:
+&gt;       with tempfile.TemporaryDirectory() as directory:
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_config_cli_runner.py:168: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\tempfile.py:951: in __exit__
+    self.cleanup()
+D:\Miniconda\Lib\tempfile.py:955: in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+D:\Miniconda\Lib\tempfile.py:935: in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+D:\Miniconda\Lib\shutil.py:790: in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\shutil.py:635: in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+D:\Miniconda\Lib\tempfile.py:907: in onexc
+    _resetperms(path)
+D:\Miniconda\Lib\tempfile.py:287: in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+func = &lt;built-in function chmod&gt;
+path = 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpuru9eryc'
+args = (448,)
+
+    def _dont_follow_symlinks(func, path, *args):
+        # Pass follow_symlinks=False, unless not supported on this platform.
+        if func in _os.supports_follow_symlinks:
+&gt;           func(path, *args, follow_symlinks=False)
+E           PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpuru9eryc'
+
+D:\Miniconda\Lib\tempfile.py:276: PermissionError</failure></testcase><testcase classname="tests.test_config_cli_runner.ConfigTests" name="test_unknown_oracle_config_path_remains_rejected" time="0.001" /><testcase classname="tests.test_config_cli_runner.RunnerAndCliTests" name="test_direct_and_menu_local_only_paths_use_common_runner" time="0.154"><failure message="PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmppi0h_icl'">self = &lt;test_config_cli_runner.RunnerAndCliTests testMethod=test_direct_and_menu_local_only_paths_use_common_runner&gt;
+
+    def test_direct_and_menu_local_only_paths_use_common_runner(self) -&gt; None:
+        direct_output: list[str] = []
+        direct_status = main([
+            "--mode", "baseline",
+            "--method-id", "local_only",
+            "--scenario-id", "small",
+            "--seed", "42",
+            "--show-config",
+        ], output_fn=direct_output.append)
+        self.assertEqual(direct_status, 0)
+        direct_config = json.loads(direct_output[-1])
+        self.assertEqual(direct_config["mode"], "baseline")
+        self.assertEqual(direct_config["method_id"], "local_only")
+    
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            path = root / "local_only.json"
+&gt;           path.write_text(json.dumps({
+                "environment": {
+                    "episode_horizon": 3,
+                    "arrival_probabilities": [1.0, 1.0, 1.0, 1.0],
+                },
+                "output": {
+                    "logs_dir": str(root / "logs"),
+                    "dashboard_logs_dir": str(root / "dashboard_logs"),
+                    "plots_dir": str(root / "plots"),
+                },
+            }), encoding="utf-8")
+
+tests\test_config_cli_runner.py:306: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\pathlib\_local.py:555: in write_text
+    return PathBase.write_text(self, data, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\pathlib\_abc.py:651: in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/李静/AppData/Local/Packages/sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}/AC/Temp/tmppi0h_icl/local_only.json')
+mode = 'w', buffering = -1, encoding = 'utf-8', errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+&gt;       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       PermissionError: [Errno 13] Permission denied: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmppi0h_icl\\local_only.json'
+
+D:\Miniconda\Lib\pathlib\_local.py:537: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+path = 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmppi0h_icl'
+onexc = &lt;function TemporaryDirectory._rmtree.&lt;locals&gt;.onexc at 0x000001E43FB34900&gt;
+
+    def _rmtree_unsafe(path, onexc):
+        def onerror(err):
+            if not isinstance(err, FileNotFoundError):
+                onexc(os.scandir, err.filename, err)
+        results = os.walk(path, topdown=False, onerror=onerror, followlinks=os._walk_symlinks_as_files)
+        for dirpath, dirnames, filenames in results:
+            for name in dirnames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.rmdir(fullname)
+                except FileNotFoundError:
+                    continue
+                except OSError as err:
+                    onexc(os.rmdir, fullname, err)
+            for name in filenames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.unlink(fullname)
+                except FileNotFoundError:
+                    continue
+                except OSError as err:
+                    onexc(os.unlink, fullname, err)
+        try:
+&gt;           os.rmdir(path)
+E           PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmppi0h_icl'
+
+D:\Miniconda\Lib\shutil.py:631: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+self = &lt;test_config_cli_runner.RunnerAndCliTests testMethod=test_direct_and_menu_local_only_paths_use_common_runner&gt;
+
+    def test_direct_and_menu_local_only_paths_use_common_runner(self) -&gt; None:
+        direct_output: list[str] = []
+        direct_status = main([
+            "--mode", "baseline",
+            "--method-id", "local_only",
+            "--scenario-id", "small",
+            "--seed", "42",
+            "--show-config",
+        ], output_fn=direct_output.append)
+        self.assertEqual(direct_status, 0)
+        direct_config = json.loads(direct_output[-1])
+        self.assertEqual(direct_config["mode"], "baseline")
+        self.assertEqual(direct_config["method_id"], "local_only")
+    
+&gt;       with tempfile.TemporaryDirectory() as directory:
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_config_cli_runner.py:303: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\tempfile.py:951: in __exit__
+    self.cleanup()
+D:\Miniconda\Lib\tempfile.py:955: in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+D:\Miniconda\Lib\tempfile.py:935: in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+D:\Miniconda\Lib\shutil.py:790: in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\shutil.py:635: in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+D:\Miniconda\Lib\tempfile.py:907: in onexc
+    _resetperms(path)
+D:\Miniconda\Lib\tempfile.py:287: in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+func = &lt;built-in function chmod&gt;
+path = 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmppi0h_icl'
+args = (448,)
+
+    def _dont_follow_symlinks(func, path, *args):
+        # Pass follow_symlinks=False, unless not supported on this platform.
+        if func in _os.supports_follow_symlinks:
+&gt;           func(path, *args, follow_symlinks=False)
+E           PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmppi0h_icl'
+
+D:\Miniconda\Lib\tempfile.py:276: PermissionError</failure></testcase><testcase classname="tests.test_config_cli_runner.RunnerAndCliTests" name="test_direct_cli_uses_common_runner" time="0.003"><failure message="PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpgkqr_l9v'">self = &lt;test_config_cli_runner.RunnerAndCliTests testMethod=test_direct_cli_uses_common_runner&gt;
+
+    def test_direct_cli_uses_common_runner(self) -&gt; None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            path = root / "random.json"
+&gt;           path.write_text(json.dumps({
+                "environment": {
+                    "episode_horizon": 3,
+                    "arrival_probabilities": [1.0, 1.0, 1.0, 1.0],
+                },
+                "output": {
+                    "logs_dir": str(root / "logs"),
+                    "dashboard_logs_dir": str(root / "dashboard_logs"),
+                    "plots_dir": str(root / "plots"),
+                },
+            }), encoding="utf-8")
+
+tests\test_config_cli_runner.py:716: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\pathlib\_local.py:555: in write_text
+    return PathBase.write_text(self, data, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\pathlib\_abc.py:651: in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/李静/AppData/Local/Packages/sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}/AC/Temp/tmpgkqr_l9v/random.json')
+mode = 'w', buffering = -1, encoding = 'utf-8', errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+&gt;       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       PermissionError: [Errno 13] Permission denied: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpgkqr_l9v\\random.json'
+
+D:\Miniconda\Lib\pathlib\_local.py:537: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+path = 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpgkqr_l9v'
+onexc = &lt;function TemporaryDirectory._rmtree.&lt;locals&gt;.onexc at 0x000001E43FB365C0&gt;
+
+    def _rmtree_unsafe(path, onexc):
+        def onerror(err):
+            if not isinstance(err, FileNotFoundError):
+                onexc(os.scandir, err.filename, err)
+        results = os.walk(path, topdown=False, onerror=onerror, followlinks=os._walk_symlinks_as_files)
+        for dirpath, dirnames, filenames in results:
+            for name in dirnames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.rmdir(fullname)
+                except FileNotFoundError:
+                    continue
+                except OSError as err:
+                    onexc(os.rmdir, fullname, err)
+            for name in filenames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.unlink(fullname)
+                except FileNotFoundError:
+                    continue
+                except OSError as err:
+                    onexc(os.unlink, fullname, err)
+        try:
+&gt;           os.rmdir(path)
+E           PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpgkqr_l9v'
+
+D:\Miniconda\Lib\shutil.py:631: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+self = &lt;test_config_cli_runner.RunnerAndCliTests testMethod=test_direct_cli_uses_common_runner&gt;
+
+    def test_direct_cli_uses_common_runner(self) -&gt; None:
+&gt;       with tempfile.TemporaryDirectory() as directory:
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_config_cli_runner.py:713: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\tempfile.py:951: in __exit__
+    self.cleanup()
+D:\Miniconda\Lib\tempfile.py:955: in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+D:\Miniconda\Lib\tempfile.py:935: in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+D:\Miniconda\Lib\shutil.py:790: in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\shutil.py:635: in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+D:\Miniconda\Lib\tempfile.py:907: in onexc
+    _resetperms(path)
+D:\Miniconda\Lib\tempfile.py:287: in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+func = &lt;built-in function chmod&gt;
+path = 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpgkqr_l9v'
+args = (448,)
+
+    def _dont_follow_symlinks(func, path, *args):
+        # Pass follow_symlinks=False, unless not supported on this platform.
+        if func in _os.supports_follow_symlinks:
+&gt;           func(path, *args, follow_symlinks=False)
+E           PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpgkqr_l9v'
+
+D:\Miniconda\Lib\tempfile.py:276: PermissionError</failure></testcase><testcase classname="tests.test_config_cli_runner.RunnerAndCliTests" name="test_disabled_qmix_runner_does_not_fabricate_artifacts" time="1.238" /><testcase classname="tests.test_config_cli_runner.RunnerAndCliTests" name="test_formal_handler_uses_checkpoint_training" time="0.166" /><testcase classname="tests.test_config_cli_runner.RunnerAndCliTests" name="test_local_only_baseline_config_registry_and_menu" time="0.438" /><testcase classname="tests.test_config_cli_runner.RunnerAndCliTests" name="test_non_formal_handlers_keep_non_checkpoint_training" time="0.450" /><testcase classname="tests.test_config_cli_runner.RunnerAndCliTests" name="test_real_no_argument_path_can_exit_from_menu" time="0.001" /><testcase classname="tests.test_config_cli_runner.RunnerAndCliTests" name="test_resume_is_allowed_for_formal_profile_aliases" time="0.239"><failure message="PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpl0krkzai'">self = &lt;test_config_cli_runner.RunnerAndCliTests testMethod=test_resume_is_allowed_for_formal_profile_aliases&gt;
+
+    def test_resume_is_allowed_for_formal_profile_aliases(self) -&gt; None:
+        for profile in ("formal", "rl-formal"):
+            with self.subTest(profile=profile), tempfile.TemporaryDirectory() as directory:
+                checkpoint = Path(directory) / "periodic.pt"
+&gt;               checkpoint.write_bytes(b"stub checkpoint")
+
+tests\test_config_cli_runner.py:493: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\pathlib\_abc.py:641: in write_bytes
+    with self.open(mode='wb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/李静/AppData/Local/Packages/sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}/AC/Temp/tmpl0krkzai/periodic.pt')
+mode = 'wb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+&gt;       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       PermissionError: [Errno 13] Permission denied: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpl0krkzai\\periodic.pt'
+
+D:\Miniconda\Lib\pathlib\_local.py:537: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+path = 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpl0krkzai'
+onexc = &lt;function TemporaryDirectory._rmtree.&lt;locals&gt;.onexc at 0x000001E43FB37420&gt;
+
+    def _rmtree_unsafe(path, onexc):
+        def onerror(err):
+            if not isinstance(err, FileNotFoundError):
+                onexc(os.scandir, err.filename, err)
+        results = os.walk(path, topdown=False, onerror=onerror, followlinks=os._walk_symlinks_as_files)
+        for dirpath, dirnames, filenames in results:
+            for name in dirnames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.rmdir(fullname)
+                except FileNotFoundError:
+                    continue
+                except OSError as err:
+                    onexc(os.rmdir, fullname, err)
+            for name in filenames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.unlink(fullname)
+                except FileNotFoundError:
+                    continue
+                except OSError as err:
+                    onexc(os.unlink, fullname, err)
+        try:
+&gt;           os.rmdir(path)
+E           PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpl0krkzai'
+
+D:\Miniconda\Lib\shutil.py:631: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+self = &lt;test_config_cli_runner.RunnerAndCliTests testMethod=test_resume_is_allowed_for_formal_profile_aliases&gt;
+
+    def test_resume_is_allowed_for_formal_profile_aliases(self) -&gt; None:
+        for profile in ("formal", "rl-formal"):
+&gt;           with self.subTest(profile=profile), tempfile.TemporaryDirectory() as directory:
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_config_cli_runner.py:491: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\tempfile.py:951: in __exit__
+    self.cleanup()
+D:\Miniconda\Lib\tempfile.py:955: in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+D:\Miniconda\Lib\tempfile.py:935: in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+D:\Miniconda\Lib\shutil.py:790: in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\shutil.py:635: in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+D:\Miniconda\Lib\tempfile.py:907: in onexc
+    _resetperms(path)
+D:\Miniconda\Lib\tempfile.py:287: in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+func = &lt;built-in function chmod&gt;
+path = 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpl0krkzai'
+args = (448,)
+
+    def _dont_follow_symlinks(func, path, *args):
+        # Pass follow_symlinks=False, unless not supported on this platform.
+        if func in _os.supports_follow_symlinks:
+&gt;           func(path, *args, follow_symlinks=False)
+E           PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpl0krkzai'
+
+D:\Miniconda\Lib\tempfile.py:276: PermissionError</failure><failure message="PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpysrnh6ny'">self = &lt;test_config_cli_runner.RunnerAndCliTests testMethod=test_resume_is_allowed_for_formal_profile_aliases&gt;
+
+    def test_resume_is_allowed_for_formal_profile_aliases(self) -&gt; None:
+        for profile in ("formal", "rl-formal"):
+            with self.subTest(profile=profile), tempfile.TemporaryDirectory() as directory:
+                checkpoint = Path(directory) / "periodic.pt"
+&gt;               checkpoint.write_bytes(b"stub checkpoint")
+
+tests\test_config_cli_runner.py:493: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\pathlib\_abc.py:641: in write_bytes
+    with self.open(mode='wb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/李静/AppData/Local/Packages/sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}/AC/Temp/tmpysrnh6ny/periodic.pt')
+mode = 'wb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+&gt;       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       PermissionError: [Errno 13] Permission denied: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpysrnh6ny\\periodic.pt'
+
+D:\Miniconda\Lib\pathlib\_local.py:537: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+path = 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpysrnh6ny'
+onexc = &lt;function TemporaryDirectory._rmtree.&lt;locals&gt;.onexc at 0x000001E43FB46200&gt;
+
+    def _rmtree_unsafe(path, onexc):
+        def onerror(err):
+            if not isinstance(err, FileNotFoundError):
+                onexc(os.scandir, err.filename, err)
+        results = os.walk(path, topdown=False, onerror=onerror, followlinks=os._walk_symlinks_as_files)
+        for dirpath, dirnames, filenames in results:
+            for name in dirnames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.rmdir(fullname)
+                except FileNotFoundError:
+                    continue
+                except OSError as err:
+                    onexc(os.rmdir, fullname, err)
+            for name in filenames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.unlink(fullname)
+                except FileNotFoundError:
+                    continue
+                except OSError as err:
+                    onexc(os.unlink, fullname, err)
+        try:
+&gt;           os.rmdir(path)
+E           PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpysrnh6ny'
+
+D:\Miniconda\Lib\shutil.py:631: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+self = &lt;test_config_cli_runner.RunnerAndCliTests testMethod=test_resume_is_allowed_for_formal_profile_aliases&gt;
+
+    def test_resume_is_allowed_for_formal_profile_aliases(self) -&gt; None:
+        for profile in ("formal", "rl-formal"):
+&gt;           with self.subTest(profile=profile), tempfile.TemporaryDirectory() as directory:
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_config_cli_runner.py:491: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\tempfile.py:951: in __exit__
+    self.cleanup()
+D:\Miniconda\Lib\tempfile.py:955: in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+D:\Miniconda\Lib\tempfile.py:935: in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+D:\Miniconda\Lib\shutil.py:790: in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\shutil.py:635: in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+D:\Miniconda\Lib\tempfile.py:907: in onexc
+    _resetperms(path)
+D:\Miniconda\Lib\tempfile.py:287: in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+func = &lt;built-in function chmod&gt;
+path = 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpysrnh6ny'
+args = (448,)
+
+    def _dont_follow_symlinks(func, path, *args):
+        # Pass follow_symlinks=False, unless not supported on this platform.
+        if func in _os.supports_follow_symlinks:
+&gt;           func(path, *args, follow_symlinks=False)
+E           PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpysrnh6ny'
+
+D:\Miniconda\Lib\tempfile.py:276: PermissionError</failure></testcase><testcase classname="tests.test_config_cli_runner.RunnerAndCliTests" name="test_resume_is_rejected_for_non_formal_profiles_and_methods" time="0.003"><failure message="PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpc179i3_c'">self = &lt;test_config_cli_runner.RunnerAndCliTests testMethod=test_resume_is_rejected_for_non_formal_profiles_and_methods&gt;
+
+    def test_resume_is_rejected_for_non_formal_profiles_and_methods(self) -&gt; None:
+        with tempfile.TemporaryDirectory() as directory:
+            checkpoint = Path(directory) / "periodic.pt"
+&gt;           checkpoint.write_bytes(b"stub checkpoint")
+
+tests\test_config_cli_runner.py:546: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\pathlib\_abc.py:641: in write_bytes
+    with self.open(mode='wb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/李静/AppData/Local/Packages/sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}/AC/Temp/tmpc179i3_c/periodic.pt')
+mode = 'wb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+&gt;       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       PermissionError: [Errno 13] Permission denied: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpc179i3_c\\periodic.pt'
+
+D:\Miniconda\Lib\pathlib\_local.py:537: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+path = 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpc179i3_c'
+onexc = &lt;function TemporaryDirectory._rmtree.&lt;locals&gt;.onexc at 0x000001E43FB37880&gt;
+
+    def _rmtree_unsafe(path, onexc):
+        def onerror(err):
+            if not isinstance(err, FileNotFoundError):
+                onexc(os.scandir, err.filename, err)
+        results = os.walk(path, topdown=False, onerror=onerror, followlinks=os._walk_symlinks_as_files)
+        for dirpath, dirnames, filenames in results:
+            for name in dirnames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.rmdir(fullname)
+                except FileNotFoundError:
+                    continue
+                except OSError as err:
+                    onexc(os.rmdir, fullname, err)
+            for name in filenames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.unlink(fullname)
+                except FileNotFoundError:
+                    continue
+                except OSError as err:
+                    onexc(os.unlink, fullname, err)
+        try:
+&gt;           os.rmdir(path)
+E           PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpc179i3_c'
+
+D:\Miniconda\Lib\shutil.py:631: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+self = &lt;test_config_cli_runner.RunnerAndCliTests testMethod=test_resume_is_rejected_for_non_formal_profiles_and_methods&gt;
+
+    def test_resume_is_rejected_for_non_formal_profiles_and_methods(self) -&gt; None:
+&gt;       with tempfile.TemporaryDirectory() as directory:
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_config_cli_runner.py:544: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\tempfile.py:951: in __exit__
+    self.cleanup()
+D:\Miniconda\Lib\tempfile.py:955: in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+D:\Miniconda\Lib\tempfile.py:935: in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+D:\Miniconda\Lib\shutil.py:790: in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\shutil.py:635: in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+D:\Miniconda\Lib\tempfile.py:907: in onexc
+    _resetperms(path)
+D:\Miniconda\Lib\tempfile.py:287: in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+func = &lt;built-in function chmod&gt;
+path = 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpc179i3_c'
+args = (448,)
+
+    def _dont_follow_symlinks(func, path, *args):
+        # Pass follow_symlinks=False, unless not supported on this platform.
+        if func in _os.supports_follow_symlinks:
+&gt;           func(path, *args, follow_symlinks=False)
+E           PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpc179i3_c'
+
+D:\Miniconda\Lib\tempfile.py:276: PermissionError</failure></testcase><testcase classname="tests.test_config_cli_runner.RunnerAndCliTests" name="test_resume_parser_and_config_identity_exclude_resume_path" time="0.003"><failure message="PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpp5bs9wsi'">self = &lt;test_config_cli_runner.RunnerAndCliTests testMethod=test_resume_parser_and_config_identity_exclude_resume_path&gt;
+
+    def test_resume_parser_and_config_identity_exclude_resume_path(self) -&gt; None:
+        with tempfile.TemporaryDirectory() as directory:
+            checkpoint = Path(directory) / "periodic.pt"
+&gt;           checkpoint.write_bytes(b"stub checkpoint")
+
+tests\test_config_cli_runner.py:469: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\pathlib\_abc.py:641: in write_bytes
+    with self.open(mode='wb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/李静/AppData/Local/Packages/sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}/AC/Temp/tmpp5bs9wsi/periodic.pt')
+mode = 'wb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+&gt;       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       PermissionError: [Errno 13] Permission denied: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpp5bs9wsi\\periodic.pt'
+
+D:\Miniconda\Lib\pathlib\_local.py:537: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+path = 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpp5bs9wsi'
+onexc = &lt;function TemporaryDirectory._rmtree.&lt;locals&gt;.onexc at 0x000001E43FB36840&gt;
+
+    def _rmtree_unsafe(path, onexc):
+        def onerror(err):
+            if not isinstance(err, FileNotFoundError):
+                onexc(os.scandir, err.filename, err)
+        results = os.walk(path, topdown=False, onerror=onerror, followlinks=os._walk_symlinks_as_files)
+        for dirpath, dirnames, filenames in results:
+            for name in dirnames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.rmdir(fullname)
+                except FileNotFoundError:
+                    continue
+                except OSError as err:
+                    onexc(os.rmdir, fullname, err)
+            for name in filenames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.unlink(fullname)
+                except FileNotFoundError:
+                    continue
+                except OSError as err:
+                    onexc(os.unlink, fullname, err)
+        try:
+&gt;           os.rmdir(path)
+E           PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpp5bs9wsi'
+
+D:\Miniconda\Lib\shutil.py:631: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+self = &lt;test_config_cli_runner.RunnerAndCliTests testMethod=test_resume_parser_and_config_identity_exclude_resume_path&gt;
+
+    def test_resume_parser_and_config_identity_exclude_resume_path(self) -&gt; None:
+&gt;       with tempfile.TemporaryDirectory() as directory:
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_config_cli_runner.py:467: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\tempfile.py:951: in __exit__
+    self.cleanup()
+D:\Miniconda\Lib\tempfile.py:955: in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+D:\Miniconda\Lib\tempfile.py:935: in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+D:\Miniconda\Lib\shutil.py:790: in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\shutil.py:635: in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+D:\Miniconda\Lib\tempfile.py:907: in onexc
+    _resetperms(path)
+D:\Miniconda\Lib\tempfile.py:287: in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+func = &lt;built-in function chmod&gt;
+path = 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpp5bs9wsi'
+args = (448,)
+
+    def _dont_follow_symlinks(func, path, *args):
+        # Pass follow_symlinks=False, unless not supported on this platform.
+        if func in _os.supports_follow_symlinks:
+&gt;           func(path, *args, follow_symlinks=False)
+E           PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpp5bs9wsi'
+
+D:\Miniconda\Lib\tempfile.py:276: PermissionError</failure></testcase><testcase classname="tests.test_config_cli_runner.RunnerAndCliTests" name="test_resume_path_must_be_an_existing_regular_file" time="0.002"><failure message="PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpxl5dz2c1'">self = &lt;test_config_cli_runner.RunnerAndCliTests testMethod=test_resume_path_must_be_an_existing_regular_file&gt;
+
+    def test_resume_path_must_be_an_existing_regular_file(self) -&gt; None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            cases = (
+                root / "missing.pt",
+                root / "checkpoint-directory",
+            )
+&gt;           cases[1].mkdir()
+
+tests\test_config_cli_runner.py:571: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/李静/AppData/Local/Packages/sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}/AC/Temp/tmpxl5dz2c1/checkpoint-directory')
+mode = 511, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpxl5dz2c1\\checkpoint-directory'
+
+D:\Miniconda\Lib\pathlib\_local.py:722: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+path = 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpxl5dz2c1'
+onexc = &lt;function TemporaryDirectory._rmtree.&lt;locals&gt;.onexc at 0x000001E43FB37CE0&gt;
+
+    def _rmtree_unsafe(path, onexc):
+        def onerror(err):
+            if not isinstance(err, FileNotFoundError):
+                onexc(os.scandir, err.filename, err)
+        results = os.walk(path, topdown=False, onerror=onerror, followlinks=os._walk_symlinks_as_files)
+        for dirpath, dirnames, filenames in results:
+            for name in dirnames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.rmdir(fullname)
+                except FileNotFoundError:
+                    continue
+                except OSError as err:
+                    onexc(os.rmdir, fullname, err)
+            for name in filenames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.unlink(fullname)
+                except FileNotFoundError:
+                    continue
+                except OSError as err:
+                    onexc(os.unlink, fullname, err)
+        try:
+&gt;           os.rmdir(path)
+E           PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpxl5dz2c1'
+
+D:\Miniconda\Lib\shutil.py:631: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+self = &lt;test_config_cli_runner.RunnerAndCliTests testMethod=test_resume_path_must_be_an_existing_regular_file&gt;
+
+    def test_resume_path_must_be_an_existing_regular_file(self) -&gt; None:
+&gt;       with tempfile.TemporaryDirectory() as directory:
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_config_cli_runner.py:565: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\tempfile.py:951: in __exit__
+    self.cleanup()
+D:\Miniconda\Lib\tempfile.py:955: in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+D:\Miniconda\Lib\tempfile.py:935: in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+D:\Miniconda\Lib\shutil.py:790: in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\shutil.py:635: in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+D:\Miniconda\Lib\tempfile.py:907: in onexc
+    _resetperms(path)
+D:\Miniconda\Lib\tempfile.py:287: in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+func = &lt;built-in function chmod&gt;
+path = 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpxl5dz2c1'
+args = (448,)
+
+    def _dont_follow_symlinks(func, path, *args):
+        # Pass follow_symlinks=False, unless not supported on this platform.
+        if func in _os.supports_follow_symlinks:
+&gt;           func(path, *args, follow_symlinks=False)
+E           PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmpxl5dz2c1'
+
+D:\Miniconda\Lib\tempfile.py:276: PermissionError</failure></testcase><testcase classname="tests.test_config_cli_runner.RunnerAndCliTests" name="test_rl_menu_reaches_real_trainer_train_without_starting_training_in_gate" time="0.290" /><testcase classname="tests.test_config_cli_runner.RunnerAndCliTests" name="test_rl_profile_aliases_normalize_to_canonical_config_and_hash" time="0.958" /><testcase classname="tests.test_config_cli_runner.RunnerAndCliTests" name="test_rl_smoke_and_formal_profiles_resolve_frozen_devices_and_budgets" time="0.475" /><testcase classname="tests.test_config_cli_runner.RunnerAndCliTests" name="test_rl_trainer_failure_returns_nonzero_exit_code" time="0.148" /><testcase classname="tests.test_config_cli_runner.RunnerAndCliTests" name="test_root_main_long_smoke_show_config_reports_cuda" time="0.465" /><testcase classname="tests.test_config_cli_runner.RunnerAndCliTests" name="test_runner_forwards_resume_context_without_changing_config" time="0.145"><failure message="PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmp95yvxkob'">self = &lt;test_config_cli_runner.RunnerAndCliTests testMethod=test_runner_forwards_resume_context_without_changing_config&gt;
+
+    def test_runner_forwards_resume_context_without_changing_config(self) -&gt; None:
+        config = load_run_config(cli_overrides={
+            "mode": "rl",
+            "method_id": "ca_gat_mappo",
+            "launch_profile": "rl-formal",
+            "training.formal_rl_enabled": True,
+        })
+        with tempfile.TemporaryDirectory() as directory:
+            checkpoint = Path(directory) / "periodic.pt"
+&gt;           checkpoint.write_bytes(b"stub checkpoint")
+
+tests\test_config_cli_runner.py:445: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\pathlib\_abc.py:641: in write_bytes
+    with self.open(mode='wb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/李静/AppData/Local/Packages/sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}/AC/Temp/tmp95yvxkob/periodic.pt')
+mode = 'wb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+&gt;       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       PermissionError: [Errno 13] Permission denied: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmp95yvxkob\\periodic.pt'
+
+D:\Miniconda\Lib\pathlib\_local.py:537: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+path = 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmp95yvxkob'
+onexc = &lt;function TemporaryDirectory._rmtree.&lt;locals&gt;.onexc at 0x000001E440050400&gt;
+
+    def _rmtree_unsafe(path, onexc):
+        def onerror(err):
+            if not isinstance(err, FileNotFoundError):
+                onexc(os.scandir, err.filename, err)
+        results = os.walk(path, topdown=False, onerror=onerror, followlinks=os._walk_symlinks_as_files)
+        for dirpath, dirnames, filenames in results:
+            for name in dirnames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.rmdir(fullname)
+                except FileNotFoundError:
+                    continue
+                except OSError as err:
+                    onexc(os.rmdir, fullname, err)
+            for name in filenames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.unlink(fullname)
+                except FileNotFoundError:
+                    continue
+                except OSError as err:
+                    onexc(os.unlink, fullname, err)
+        try:
+&gt;           os.rmdir(path)
+E           PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmp95yvxkob'
+
+D:\Miniconda\Lib\shutil.py:631: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+self = &lt;test_config_cli_runner.RunnerAndCliTests testMethod=test_runner_forwards_resume_context_without_changing_config&gt;
+
+    def test_runner_forwards_resume_context_without_changing_config(self) -&gt; None:
+        config = load_run_config(cli_overrides={
+            "mode": "rl",
+            "method_id": "ca_gat_mappo",
+            "launch_profile": "rl-formal",
+            "training.formal_rl_enabled": True,
+        })
+&gt;       with tempfile.TemporaryDirectory() as directory:
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_config_cli_runner.py:443: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\Miniconda\Lib\tempfile.py:951: in __exit__
+    self.cleanup()
+D:\Miniconda\Lib\tempfile.py:955: in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+D:\Miniconda\Lib\tempfile.py:935: in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+D:\Miniconda\Lib\shutil.py:790: in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Miniconda\Lib\shutil.py:635: in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+D:\Miniconda\Lib\tempfile.py:907: in onexc
+    _resetperms(path)
+D:\Miniconda\Lib\tempfile.py:287: in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+func = &lt;built-in function chmod&gt;
+path = 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmp95yvxkob'
+args = (448,)
+
+    def _dont_follow_symlinks(func, path, *args):
+        # Pass follow_symlinks=False, unless not supported on this platform.
+        if func in _os.supports_follow_symlinks:
+&gt;           func(path, *args, follow_symlinks=False)
+E           PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\李静\\AppData\\Local\\Packages\\sandbox.{b6e0f00f-fdc9-4f9c-bf8d-7f2867e04c33}\\AC\\Temp\\tmp95yvxkob'
+
+D:\Miniconda\Lib\tempfile.py:276: PermissionError</failure></testcase></testsuite></testsuites>

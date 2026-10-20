@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "slide_count_19": true,
+    "native_diagrams": true,
+    "speaker_notes_empty": true,
+    "editing_residue_removed": true,
+    "original_master_layout_theme_preserved": true
+  },
+  "artifacts": {
+    "D:\\My_project_li\\docs\\presentations\\proposal_revision_20261015\\exports\\李静_开题答辩_严谨修订可编辑版.pptx": {
+      "bytes": 2743766,
+      "sha256": "5b5d61c51b28288e973a393ac89051e168e74e2dd00463f9b5f0fd7db4e149d0"
+    },
+    "D:\\My_project_li\\sections\\defense_20261015\\李静_开题答辩逐页讲稿_8至10分钟.docx": {
+      "bytes": 43171,
+      "sha256": "e40847fe88586af97fa53cee0c61d757f9bbd7ba5f60786c64c7a27c4335d44d"
+    }
+  }
+}

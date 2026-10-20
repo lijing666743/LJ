@@ -1,0 +1,231 @@
+{
+  "schemaVersion": "presentation-finalization.v1",
+  "finalSha256": "21bd278f40daeca18597f6c968f33a6c051955a2e7e5666d3ff1f44b22f9f26f",
+  "byteCount": 6091974,
+  "packageIntegrity": {
+    "chart_count": 0,
+    "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
+    "finding_count": 0,
+    "findings": [],
+    "notes_parts_skipped": 19,
+    "relationship_part_count": 44,
+    "slide_count": 19,
+    "status": "pass",
+    "exitCode": 0,
+    "findingCount": 0,
+    "warnings": []
+  },
+  "presentationLayout": {
+    "finding_count": 0,
+    "findings": [],
+    "slide_count": 19,
+    "slide_size_in": [
+      13.3333,
+      7.5
+    ],
+    "warning_count": 23,
+    "warnings": [
+      {
+        "kind": "object_outside_slide_boundary",
+        "object_id": "35",
+        "object_kind": "sp",
+        "slide": 3
+      },
+      {
+        "kind": "object_outside_slide_boundary",
+        "object_id": "34",
+        "object_kind": "sp",
+        "slide": 4
+      },
+      {
+        "kind": "object_outside_slide_boundary",
+        "object_id": "47",
+        "object_kind": "sp",
+        "slide": 5
+      },
+      {
+        "kind": "object_outside_slide_boundary",
+        "object_id": "35",
+        "object_kind": "sp",
+        "slide": 6
+      },
+      {
+        "kind": "object_outside_slide_boundary",
+        "object_id": "16",
+        "object_kind": "sp",
+        "slide": 7
+      },
+      {
+        "kind": "object_outside_slide_boundary",
+        "object_id": "16",
+        "object_kind": "sp",
+        "slide": 8
+      },
+      {
+        "kind": "object_outside_slide_boundary",
+        "object_id": "35",
+        "object_kind": "sp",
+        "slide": 9
+      },
+      {
+        "kind": "object_outside_slide_boundary",
+        "object_id": "47",
+        "object_kind": "sp",
+        "slide": 10
+      },
+      {
+        "kind": "object_outside_slide_boundary",
+        "object_id": "60",
+        "object_kind": "cxnSp",
+        "slide": 10
+      },
+      {
+        "kind": "object_outside_slide_boundary",
+        "object_id": "47",
+        "object_kind": "sp",
+        "slide": 11
+      },
+      {
+        "kind": "object_outside_slide_boundary",
+        "object_id": "6",
+        "object_kind": "sp",
+        "slide": 11
+      },
+      {
+        "kind": "object_outside_slide_boundary",
+        "object_id": "47",
+        "object_kind": "sp",
+        "slide": 12
+      },
+      {
+        "kind": "object_outside_slide_boundary",
+        "object_id": "130",
+        "object_kind": "cxnSp",
+        "slide": 12
+      },
+      {
+        "kind": "object_outside_slide_boundary",
+        "object_id": "47",
+        "object_kind": "sp",
+        "slide": 13
+      },
+      {
+        "kind": "object_outside_slide_boundary",
+        "object_id": "102",
+        "object_kind": "cxnSp",
+        "slide": 13
+      },
+      {
+        "kind": "object_outside_slide_boundary",
+        "object_id": "35",
+        "object_kind": "sp",
+        "slide": 14
+      },
+      {
+        "kind": "object_outside_slide_boundary",
+        "object_id": "48",
+        "object_kind": "sp",
+        "slide": 15
+      },
+      {
+        "kind": "object_outside_slide_boundary",
+        "object_id": "8",
+        "object_kind": "sp",
+        "slide": 15
+      },
+      {
+        "kind": "object_outside_slide_boundary",
+        "object_id": "48",
+        "object_kind": "sp",
+        "slide": 16
+      },
+      {
+        "kind": "object_outside_slide_boundary",
+        "object_id": "6",
+        "object_kind": "sp",
+        "slide": 16
+      },
+      {
+        "kind": "object_outside_slide_boundary",
+        "object_id": "35",
+        "object_kind": "sp",
+        "slide": 17
+      },
+      {
+        "kind": "object_outside_slide_boundary",
+        "object_id": "28",
+        "object_kind": "sp",
+        "slide": 18
+      },
+      {
+        "kind": "object_outside_slide_boundary",
+        "object_id": "8",
+        "object_kind": "sp",
+        "slide": 18
+      }
+    ],
+    "exitCode": 0,
+    "findingCount": 0
+  },
+  "fontSelection": {
+    "basis": "unspecified",
+    "approvedFamilies": [],
+    "scriptFonts": {},
+    "referenceSha256": null,
+    "referenceFontsVerifiedInEncodedText": false
+  },
+  "firstPartyImport": {
+    "performed": true,
+    "passed": true,
+    "slideCount": 19,
+    "sha256": "21bd278f40daeca18597f6c968f33a6c051955a2e7e5666d3ff1f44b22f9f26f",
+    "runtimeNodeModules": "C:/Users/李静/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "nodeExecutable": "C:\\Users\\李静\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe"
+  },
+  "nativeTableArithmetic": {
+    "performed": true,
+    "checked_column_count": 0,
+    "checks": [],
+    "claim_boundary": "Displayed-value arithmetic with rounding tolerance; not source-data verification.",
+    "eligible_table_count": 0,
+    "finding_count": 0,
+    "findings": [],
+    "native_table_count": 0,
+    "passed": true,
+    "schema_version": "presentation-native-table-arithmetic.v1",
+    "skipped_tables": [],
+    "slide_count": 19,
+    "warning_count": 0,
+    "warnings": []
+  },
+  "nativeChartTitles": {
+    "performed": true,
+    "checks": [],
+    "finding_count": 0,
+    "findings": [],
+    "native_chart_count": 0,
+    "native_powerpoint_verified": false,
+    "passed": true,
+    "presentation_sha256": "21bd278f40daeca18597f6c968f33a6c051955a2e7e5666d3ff1f44b22f9f26f",
+    "schema_version": "presentation-native-chart-titles.v1",
+    "slide_count": 19,
+    "source_text_emitted": false,
+    "unresolved_linked_title_count": 0
+  },
+  "sourceDerivedPolicyFlags": [
+    "--expected-slide-size-emu",
+    "12192000,6858000",
+    "--expected-slide-count",
+    "19",
+    "--cover-role",
+    "none"
+  ],
+  "nativeChartValidation": {
+    "detectedOwnerSlides": [],
+    "detectedChartCount": 0,
+    "targetApplication": "portable",
+    "sourceChartOwnersExplicitlyDeclared": true,
+    "validatorRan": false,
+    "passed": true
+  }
+}

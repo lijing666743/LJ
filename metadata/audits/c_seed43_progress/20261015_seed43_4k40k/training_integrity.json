@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "final_state": {
+    "policy_version": 156,
+    "started_episodes": 80,
+    "completed_episodes": 80,
+    "next_episode_index": 80,
+    "collected_environment_transitions": 40000,
+    "optimized_transitions": 39936,
+    "ppo_update_count": 156,
+    "unused_final_tail_transitions": 64,
+    "training_complete": true,
+    "active_rollout_length": 0,
+    "active_rollout_policy_version": null
+  },
+  "fresh_training_lineage": true,
+  "all10_checkpoints_valid": true,
+  "episode_seed_sequence_matches43": true,
+  "aggregate_checks": {
+    "critic_loss_is_nonnegative": true,
+    "entropy_is_nonnegative": true,
+    "environment_budget_reached": true,
+    "ppo_epoch_count_matches": true,
+    "ppo_stability_telemetry_is_finite": true,
+    "ppo_update_accounting_matches": true,
+    "ppo_update_present": true,
+    "ppo_values_are_finite": true,
+    "ratio_is_positive": true,
+    "reward_count_matches_transitions": true,
+    "reward_formula_identity_holds": true,
+    "reward_values_are_finite": true,
+    "route_entropy_schedule_telemetry_identity_holds": true,
+    "route_telemetry_schema_is_valid": true
+  },
+  "training_started_by_this_audit": false
+}

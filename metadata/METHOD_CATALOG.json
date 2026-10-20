@@ -1,0 +1,53 @@
+{
+  "schema": "project_method_catalog.v1",
+  "named_on": "2026-10-18",
+  "timezone": "Asia/Shanghai",
+  "purpose": "Stable comparison names; no executable method IDs, scientific configurations or checkpoint identities are changed",
+  "methods": {
+    "C": {
+      "display_name": "C",
+      "description_zh": "采用35维物理关系特征的主方法",
+      "method_id": "ca_gat_mappo"
+    },
+    "D": {
+      "display_name": "D（CFC-QMIX）",
+      "short_name": "CFC-QMIX",
+      "full_name_en": "Common Feature and Credit Augmented QMIX",
+      "name_zh": "共同特征与信用增强QMIX",
+      "method_id": "c_feature_credit_qmix",
+      "role": "independent_learning_baseline_with_C_common_features_and_credit_sources",
+      "report": "sections/results/20261018_C_FEATURE_CREDIT_QMIX.md",
+      "protocol": "sections/planning/20261018_C_MATCHED_QMIX_PROTOCOL.md",
+      "claim_boundary": "Project implementation name; not vanilla QMIX reproduction and not a fourth single-factor A/B/C structural ablation",
+      "excluded_legacy_method_id": "factorized_action_gat_qmix",
+      "existing_paths_renamed": false
+    }
+  },
+  "method_id_is_not_sufficient_to_distinguish_A_B_C": true,
+  "source_checkpoint_config_hashes_preserved": true,
+  "future_plot_and_table_display_name": "D (CFC-QMIX)",
+  "retired_methods": {
+    "A": {
+      "display_name": "A",
+      "description_zh": "P1a分层Route的既有MAPPO结构对照",
+      "method_id": "ca_gat_mappo",
+      "status": "retired_by_user_scope_change",
+      "dedicated_outputs_deleted": true,
+      "receipt": "metadata/cleanup/20261020_retire_ab/receipt.json"
+    },
+    "B": {
+      "display_name": "B",
+      "description_zh": "统一候选叶评分的MAPPO结构对照",
+      "method_id": "ca_gat_mappo",
+      "status": "retired_by_user_scope_change",
+      "dedicated_outputs_deleted": true,
+      "receipt": "metadata/cleanup/20261020_retire_ab/receipt.json"
+    }
+  },
+  "active_comparison_labels": [
+    "C",
+    "D"
+  ],
+  "updated_on": "2026-10-21",
+  "retirement_boundary": "Shared code and old source fingerprints retained for C/D; retirement is not a failed-experiment claim."
+}

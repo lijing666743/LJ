@@ -1,0 +1,39 @@
+{
+  "schema": "method_d_naming_cleanup_preservation.v1",
+  "checked_at_utc": "2026-10-18T11:30:21.083812+00:00",
+  "status": "PASS",
+  "original_files": 1542,
+  "unchanged_original_files": 1506,
+  "unchanged_bytes": 18319182305,
+  "modified_navigation_and_naming_documents": [
+    "README.md",
+    "docs/DIRECTORY_GUIDE.md",
+    "docs/results/CURRENT_EXPERIMENT_STATUS.md",
+    "docs/results/README.md",
+    "experiments/README.md",
+    "experiments/strong-baselines/README.md",
+    "logs/README.md",
+    "metadata/CURRENT_WORKSPACE_INDEX.json",
+    "metadata/README.md",
+    "sections/README.md",
+    "sections/planning/20261018_C_MATCHED_QMIX_PROTOCOL.md",
+    "sections/results/20261018_C_FEATURE_CREDIT_QMIX.md"
+  ],
+  "deleted_whitelisted_engineering_or_redundant_files": 24,
+  "source_files_unchanged": 140,
+  "test_files_unchanged": 134,
+  "configuration_files_unchanged": 27,
+  "remaining_checkpoint_files_unchanged": 50,
+  "bundle_members_retained": 14,
+  "engineering_acceptance_record_preserved": true,
+  "D_8k_and_16k_checkpoint_identity_unchanged": true,
+  "A_B_C_and_D_development_data_unchanged": true,
+  "local_backups_and_presentations_unchanged": true,
+  "protected_directories_not_enumerated": [
+    ".agents",
+    "knowledge"
+  ],
+  "unexpected_changes": [],
+  "environment_steps_executed": 0,
+  "optimizer_updates_executed": 0
+}

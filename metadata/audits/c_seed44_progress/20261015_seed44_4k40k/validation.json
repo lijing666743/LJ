@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "network_updates": 0,
+  "training_started": false,
+  "new_evaluation_episodes": 200,
+  "baseline_episodes_exactly_matched": 150,
+  "external_traces_matched": 200,
+  "checkpoint_count": 10,
+  "source_inputs_checked": 568,
+  "source_inputs_changed": 0,
+  "evaluation_protocol_sha256": "d2463e1929ea867212edec4774f54b2c5a6dbc9ef957f00dd2978402aec4849a",
+  "workers": 2
+}

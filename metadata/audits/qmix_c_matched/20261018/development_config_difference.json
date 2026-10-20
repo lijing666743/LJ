@@ -1,0 +1,58 @@
+{
+  "_metadata.config_hash": {
+    "C": "9e76466588b68a6002d24d80f5e1424f370f26e97f8d4854c392f41da682ad15",
+    "Q": "1b3cae3cdac58f3000fa17685e3e4b5bbe60cdb26e84cf75b177c15bec5c4988"
+  },
+  "_metadata.run_id": {
+    "C": "ca_gat_mappo__remote_stress_v2__seed-42__cfg-9e76466588b6__git-eb1140cefc4a",
+    "Q": "c_feature_credit_qmix__remote_stress_v2__seed-42__cfg-1b3cae3cdac5__git-eb1140cefc4a"
+  },
+  "_metadata.source_config_path": {
+    "C": "experiments\\task-allocation\\configs\\c-seed42-8k.json",
+    "Q": "experiments\\strong-baselines\\configs\\c-feature-credit-qmix-seed42-8k.json"
+  },
+  "launch_profile": {
+    "C": "rl-formal",
+    "Q": null
+  },
+  "method_id": {
+    "C": "ca_gat_mappo",
+    "Q": "c_feature_credit_qmix"
+  },
+  "output.dashboard_logs_dir": {
+    "C": "dashboard_logs/development/task_allocation/experiments/C/seed42/8k",
+    "Q": "dashboard_logs/strong_baselines/development/c_feature_credit_qmix/seed42/8k"
+  },
+  "output.logs_dir": {
+    "C": "logs/development/task_allocation/experiments/C/seed42/8k",
+    "Q": "logs/strong_baselines/development/c_feature_credit_qmix/seed42/8k"
+  },
+  "output.plots_dir": {
+    "C": "plots/development/task_allocation/experiments/C/seed42/8k",
+    "Q": "plots/strong_baselines/development/c_feature_credit_qmix/seed42/8k"
+  },
+  "training.qmix.checkpoint_interval_steps": {
+    "C": 50000,
+    "Q": 4000
+  },
+  "training.qmix.epsilon_decay_steps": {
+    "C": 100000,
+    "Q": 32000
+  },
+  "training.qmix.learning_rate": {
+    "C": 0.0005,
+    "Q": 0.0003
+  },
+  "training.qmix.max_training_environment_steps": {
+    "C": 500000,
+    "Q": 8000
+  },
+  "training.qmix.max_training_episodes": {
+    "C": 1000,
+    "Q": 16
+  },
+  "training.qmix.target_update_interval_updates": {
+    "C": 2000,
+    "Q": 200
+  }
+}

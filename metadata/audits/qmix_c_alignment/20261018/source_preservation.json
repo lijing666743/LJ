@@ -1,0 +1,6 @@
+{
+  "checked_existing_source_config_test_files": 294,
+  "all_byte_identical_to_validated_manifest": true,
+  "scope": "Explicit source/config/tests only; no protected directory enumeration",
+  "no_training_started": true
+}

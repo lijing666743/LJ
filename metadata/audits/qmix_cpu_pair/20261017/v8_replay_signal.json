@@ -1,0 +1,3184 @@
+{
+  "schema": "qmix_current_prefix_signal_diagnostic.v1",
+  "probes": [
+    {
+      "training_steps": 4000,
+      "checkpoint_sha256": "85cd0426ff4cf1f723ce9af4df080d0869c06efc3885d66ea361dc2b79490843",
+      "stratum": "first_4k",
+      "indices": [
+        7,
+        62,
+        67,
+        98,
+        100,
+        107,
+        120,
+        121
+      ],
+      "probes": [
+        {
+          "episode": 0,
+          "first_slot": 224,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 224,
+          "length": 32,
+          "loss": 0.21285800635814667,
+          "q_taken": {
+            "count": 32,
+            "mean": -0.8611083272844553,
+            "min": -1.2541450262069702,
+            "max": -0.552417516708374
+          },
+          "td_target": {
+            "count": 32,
+            "mean": -0.7605257731047459,
+            "min": -2.5553457736968994,
+            "max": 0.09509145468473434
+          },
+          "mean_abs_td": 0.5110774040222168,
+          "utility": {
+            "count": 128,
+            "mean": -0.13689097299356945,
+            "min": -0.4817591905593872,
+            "max": 0.10975237190723419
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 0.42716662818565965,
+            "min": 0.3069504201412201,
+            "max": 0.5634045600891113
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.3828125,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 6,
+              "different": 6
+            },
+            "tx_select": {
+              "both_active": 5,
+              "different": 0
+            },
+            "resource_group": {
+              "both_active": 5,
+              "different": 3
+            },
+            "resource_width": {
+              "both_active": 5,
+              "different": 2
+            },
+            "power_level": {
+              "both_active": 5,
+              "different": 4
+            },
+            "cpu_queue": {
+              "both_active": 116,
+              "different": 42
+            },
+            "cpu_frequency": {
+              "both_active": 5,
+              "different": 5
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.5066849589347839,
+          "branch_gradient_norms": {
+            "route": 0.06974532455205917,
+            "tx_select": 0.033144596964120865,
+            "resource_group": 0.028424452990293503,
+            "resource_width": 0.0271102674305439,
+            "power_level": 0.02878640592098236,
+            "cpu_queue": 0.31164127588272095,
+            "cpu_frequency": 0.24259887635707855,
+            "gru": 0.31641414761543274,
+            "graph": 0.28278273344039917,
+            "self_encoder": 0.45373645424842834,
+            "mixer": 3.2365975379943848
+          },
+          "active_branch_counts": {
+            "route": 6,
+            "tx_select": 5,
+            "resource_group": 3,
+            "resource_width": 3,
+            "power_level": 3,
+            "cpu_queue": 116,
+            "cpu_frequency": 68
+          },
+          "mean_branch_q": {
+            "route": 0.05995360016822815,
+            "tx_select": 0.026178445667028427,
+            "resource_group": -0.022895103320479393,
+            "resource_width": -0.08296304941177368,
+            "power_level": 0.02365296334028244,
+            "cpu_queue": -0.06113371253013611,
+            "cpu_frequency": -0.14347904920578003
+          }
+        },
+        {
+          "episode": 3,
+          "first_slot": 448,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 448,
+          "length": 32,
+          "loss": 0.12341862916946411,
+          "q_taken": {
+            "count": 32,
+            "mean": -0.026445433497428894,
+            "min": -0.6026853322982788,
+            "max": 0.5426933765411377
+          },
+          "td_target": {
+            "count": 32,
+            "mean": -0.03249990288168192,
+            "min": -1.1608052253723145,
+            "max": 1.3461958169937134
+          },
+          "mean_abs_td": 0.39707091450691223,
+          "utility": {
+            "count": 128,
+            "mean": -0.019710548556759022,
+            "min": -0.5355346202850342,
+            "max": 0.4506162106990814
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 0.6982565578073263,
+            "min": 0.5032398700714111,
+            "max": 0.9191233515739441
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.375,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 14,
+              "different": 13
+            },
+            "tx_select": {
+              "both_active": 23,
+              "different": 0
+            },
+            "resource_group": {
+              "both_active": 23,
+              "different": 15
+            },
+            "resource_width": {
+              "both_active": 23,
+              "different": 3
+            },
+            "power_level": {
+              "both_active": 23,
+              "different": 13
+            },
+            "cpu_queue": {
+              "both_active": 98,
+              "different": 71
+            },
+            "cpu_frequency": {
+              "both_active": 4,
+              "different": 4
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.1670149862766266,
+          "branch_gradient_norms": {
+            "route": 0.09346142411231995,
+            "tx_select": 0.10174347460269928,
+            "resource_group": 0.08324630558490753,
+            "resource_width": 0.0915137529373169,
+            "power_level": 0.07975450158119202,
+            "cpu_queue": 0.21275115013122559,
+            "cpu_frequency": 0.2104445844888687,
+            "gru": 0.2934451997280121,
+            "graph": 0.2126283049583435,
+            "self_encoder": 0.48453518748283386,
+            "mixer": 2.310063123703003
+          },
+          "active_branch_counts": {
+            "route": 14,
+            "tx_select": 23,
+            "resource_group": 11,
+            "resource_width": 11,
+            "power_level": 11,
+            "cpu_queue": 98,
+            "cpu_frequency": 54
+          },
+          "mean_branch_q": {
+            "route": 0.07056335359811783,
+            "tx_select": 0.023159820586442947,
+            "resource_group": 0.0006289870361797512,
+            "resource_width": -0.07844594866037369,
+            "power_level": 0.00716269388794899,
+            "cpu_queue": -0.046126849949359894,
+            "cpu_frequency": -0.09363142400979996
+          }
+        },
+        {
+          "episode": 4,
+          "first_slot": 96,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 96,
+          "length": 32,
+          "loss": 0.10540663450956345,
+          "q_taken": {
+            "count": 32,
+            "mean": 0.02664127480238676,
+            "min": -0.40821975469589233,
+            "max": 0.4410504102706909
+          },
+          "td_target": {
+            "count": 32,
+            "mean": -0.11128094978630543,
+            "min": -1.5024311542510986,
+            "max": 0.6036502122879028
+          },
+          "mean_abs_td": 0.35076430439949036,
+          "utility": {
+            "count": 128,
+            "mean": -0.030867749475874007,
+            "min": -0.9973931312561035,
+            "max": 0.36238983273506165
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 0.7399307482410222,
+            "min": 0.4402531087398529,
+            "max": 0.9689000844955444
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.5546875,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 13,
+              "different": 10
+            },
+            "tx_select": {
+              "both_active": 8,
+              "different": 1
+            },
+            "resource_group": {
+              "both_active": 7,
+              "different": 7
+            },
+            "resource_width": {
+              "both_active": 7,
+              "different": 4
+            },
+            "power_level": {
+              "both_active": 7,
+              "different": 6
+            },
+            "cpu_queue": {
+              "both_active": 74,
+              "different": 35
+            },
+            "cpu_frequency": {
+              "both_active": 15,
+              "different": 12
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.14999152719974518,
+          "branch_gradient_norms": {
+            "route": 0.14729301631450653,
+            "tx_select": 0.08946965634822845,
+            "resource_group": 0.0764111578464508,
+            "resource_width": 0.06823769956827164,
+            "power_level": 0.06780915707349777,
+            "cpu_queue": 0.4401504099369049,
+            "cpu_frequency": 0.17921651899814606,
+            "gru": 0.32967352867126465,
+            "graph": 0.23411081731319427,
+            "self_encoder": 0.4759380519390106,
+            "mixer": 5.691684246063232
+          },
+          "active_branch_counts": {
+            "route": 13,
+            "tx_select": 8,
+            "resource_group": 2,
+            "resource_width": 2,
+            "power_level": 2,
+            "cpu_queue": 74,
+            "cpu_frequency": 40
+          },
+          "mean_branch_q": {
+            "route": 0.05103829503059387,
+            "tx_select": -0.030254434794187546,
+            "resource_group": -0.004750233609229326,
+            "resource_width": -0.13927783071994781,
+            "power_level": 0.00896264985203743,
+            "cpu_queue": -0.029959801584482193,
+            "cpu_frequency": -0.0548415444791317
+          }
+        },
+        {
+          "episode": 6,
+          "first_slot": 64,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 64,
+          "length": 32,
+          "loss": 0.24003927409648895,
+          "q_taken": {
+            "count": 32,
+            "mean": 0.3840240417048335,
+            "min": 0.16463035345077515,
+            "max": 0.6102179884910583
+          },
+          "td_target": {
+            "count": 32,
+            "mean": 0.4057194107444957,
+            "min": -1.325110912322998,
+            "max": 1.6461998224258423
+          },
+          "mean_abs_td": 0.578794538974762,
+          "utility": {
+            "count": 128,
+            "mean": -0.01389481665682979,
+            "min": -0.28905269503593445,
+            "max": 0.37259769439697266
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 0.34422368835657835,
+            "min": 0.2789360284805298,
+            "max": 0.4314576983451843
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.234375,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 4,
+              "different": 4
+            },
+            "tx_select": {
+              "both_active": 4,
+              "different": 0
+            },
+            "resource_group": {
+              "both_active": 4,
+              "different": 4
+            },
+            "resource_width": {
+              "both_active": 4,
+              "different": 0
+            },
+            "power_level": {
+              "both_active": 4,
+              "different": 3
+            },
+            "cpu_queue": {
+              "both_active": 119,
+              "different": 75
+            },
+            "cpu_frequency": {
+              "both_active": 27,
+              "different": 25
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.5045929551124573,
+          "branch_gradient_norms": {
+            "route": 0.04866408556699753,
+            "tx_select": 0.039330195635557175,
+            "resource_group": 0.014236909337341785,
+            "resource_width": 0.012706621550023556,
+            "power_level": 0.013522112742066383,
+            "cpu_queue": 0.2273312360048294,
+            "cpu_frequency": 0.2067076414823532,
+            "gru": 0.21086515486240387,
+            "graph": 0.1695006936788559,
+            "self_encoder": 0.24973294138908386,
+            "mixer": 1.7899940013885498
+          },
+          "active_branch_counts": {
+            "route": 4,
+            "tx_select": 4,
+            "resource_group": 1,
+            "resource_width": 1,
+            "power_level": 1,
+            "cpu_queue": 119,
+            "cpu_frequency": 67
+          },
+          "mean_branch_q": {
+            "route": 0.05199245736002922,
+            "tx_select": -0.028189750388264656,
+            "resource_group": -0.031193604692816734,
+            "resource_width": -0.17701104283332825,
+            "power_level": -0.01827888935804367,
+            "cpu_queue": -0.0451936200261116,
+            "cpu_frequency": -0.07833172380924225
+          }
+        },
+        {
+          "episode": 6,
+          "first_slot": 128,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 128,
+          "length": 32,
+          "loss": 0.08654095232486725,
+          "q_taken": {
+            "count": 32,
+            "mean": 0.2995517896488309,
+            "min": 0.10967296361923218,
+            "max": 0.46765628457069397
+          },
+          "td_target": {
+            "count": 32,
+            "mean": 0.21963548875646666,
+            "min": -0.5469151735305786,
+            "max": 0.9200208783149719
+          },
+          "mean_abs_td": 0.3282051980495453,
+          "utility": {
+            "count": 128,
+            "mean": -0.038857366613228805,
+            "min": -0.37105894088745117,
+            "max": 0.3546222448348999
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 0.29506514163222164,
+            "min": 0.2154497355222702,
+            "max": 0.40680497884750366
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.4765625,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 5,
+              "different": 5
+            },
+            "tx_select": {
+              "both_active": 0,
+              "different": 0
+            },
+            "resource_group": {
+              "both_active": 0,
+              "different": 0
+            },
+            "resource_width": {
+              "both_active": 0,
+              "different": 0
+            },
+            "power_level": {
+              "both_active": 0,
+              "different": 0
+            },
+            "cpu_queue": {
+              "both_active": 84,
+              "different": 45
+            },
+            "cpu_frequency": {
+              "both_active": 13,
+              "different": 13
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.31546562910079956,
+          "branch_gradient_norms": {
+            "route": 0.03897674009203911,
+            "tx_select": 0.0,
+            "resource_group": 0.0,
+            "resource_width": 0.0,
+            "power_level": 0.0,
+            "cpu_queue": 0.13712988793849945,
+            "cpu_frequency": 0.09140592068433762,
+            "gru": 0.10676278918981552,
+            "graph": 0.08072836697101593,
+            "self_encoder": 0.1195731833577156,
+            "mixer": 2.362943172454834
+          },
+          "active_branch_counts": {
+            "route": 5,
+            "tx_select": 0,
+            "resource_group": 0,
+            "resource_width": 0,
+            "power_level": 0,
+            "cpu_queue": 84,
+            "cpu_frequency": 53
+          },
+          "mean_branch_q": {
+            "route": 0.05047765001654625,
+            "tx_select": -0.03541019558906555,
+            "resource_group": -0.0574999637901783,
+            "resource_width": -0.19905130565166473,
+            "power_level": -0.01690947264432907,
+            "cpu_queue": -0.04582127183675766,
+            "cpu_frequency": -0.08945601433515549
+          }
+        },
+        {
+          "episode": 6,
+          "first_slot": 352,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 352,
+          "length": 32,
+          "loss": 0.24088817834854126,
+          "q_taken": {
+            "count": 32,
+            "mean": 0.25634597754105926,
+            "min": 0.08045652508735657,
+            "max": 0.47568991780281067
+          },
+          "td_target": {
+            "count": 32,
+            "mean": -0.15282660513184965,
+            "min": -1.4947447776794434,
+            "max": 0.6496395468711853
+          },
+          "mean_abs_td": 0.5219866633415222,
+          "utility": {
+            "count": 128,
+            "mean": -0.041376940615009516,
+            "min": -0.6917220950126648,
+            "max": 0.4249694049358368
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 0.28091088752262294,
+            "min": 0.20714782178401947,
+            "max": 0.3487177789211273
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.3828125,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 14,
+              "different": 12
+            },
+            "tx_select": {
+              "both_active": 6,
+              "different": 0
+            },
+            "resource_group": {
+              "both_active": 6,
+              "different": 6
+            },
+            "resource_width": {
+              "both_active": 6,
+              "different": 0
+            },
+            "power_level": {
+              "both_active": 6,
+              "different": 3
+            },
+            "cpu_queue": {
+              "both_active": 96,
+              "different": 78
+            },
+            "cpu_frequency": {
+              "both_active": 1,
+              "different": 1
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.13384465873241425,
+          "branch_gradient_norms": {
+            "route": 0.017250854521989822,
+            "tx_select": 0.03797127306461334,
+            "resource_group": 0.048006683588027954,
+            "resource_width": 0.0420621894299984,
+            "power_level": 0.03653790056705475,
+            "cpu_queue": 0.5079706907272339,
+            "cpu_frequency": 0.31490927934646606,
+            "gru": 0.3218958377838135,
+            "graph": 0.307400643825531,
+            "self_encoder": 0.38304468989372253,
+            "mixer": 10.838886260986328
+          },
+          "active_branch_counts": {
+            "route": 14,
+            "tx_select": 6,
+            "resource_group": 4,
+            "resource_width": 4,
+            "power_level": 4,
+            "cpu_queue": 96,
+            "cpu_frequency": 52
+          },
+          "mean_branch_q": {
+            "route": 0.05137457326054573,
+            "tx_select": -0.008776996284723282,
+            "resource_group": -0.03271840512752533,
+            "resource_width": -0.13790234923362732,
+            "power_level": 0.0017531216144561768,
+            "cpu_queue": -0.0655132606625557,
+            "cpu_frequency": -0.11621477454900742
+          }
+        },
+        {
+          "episode": 7,
+          "first_slot": 256,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 256,
+          "length": 32,
+          "loss": 0.27335014939308167,
+          "q_taken": {
+            "count": 32,
+            "mean": -0.025577447144314647,
+            "min": -0.34530460834503174,
+            "max": 0.30898743867874146
+          },
+          "td_target": {
+            "count": 32,
+            "mean": 0.33930766966659576,
+            "min": -1.0968985557556152,
+            "max": 1.2735337018966675
+          },
+          "mean_abs_td": 0.6377738118171692,
+          "utility": {
+            "count": 128,
+            "mean": -0.06594397922162898,
+            "min": -0.43799638748168945,
+            "max": 0.6108092069625854
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 0.46902252710424364,
+            "min": 0.3514852523803711,
+            "max": 0.6572095155715942
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.3125,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 22,
+              "different": 20
+            },
+            "tx_select": {
+              "both_active": 14,
+              "different": 0
+            },
+            "resource_group": {
+              "both_active": 14,
+              "different": 8
+            },
+            "resource_width": {
+              "both_active": 14,
+              "different": 1
+            },
+            "power_level": {
+              "both_active": 14,
+              "different": 10
+            },
+            "cpu_queue": {
+              "both_active": 122,
+              "different": 13
+            },
+            "cpu_frequency": {
+              "both_active": 28,
+              "different": 26
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.7317830324172974,
+          "branch_gradient_norms": {
+            "route": 0.30147820711135864,
+            "tx_select": 0.22006504237651825,
+            "resource_group": 0.13526111841201782,
+            "resource_width": 0.16246479749679565,
+            "power_level": 0.1241472139954567,
+            "cpu_queue": 0.9198957085609436,
+            "cpu_frequency": 0.48063239455223083,
+            "gru": 0.6415440440177917,
+            "graph": 0.7027432918548584,
+            "self_encoder": 0.9320210814476013,
+            "mixer": 10.953673362731934
+          },
+          "active_branch_counts": {
+            "route": 22,
+            "tx_select": 14,
+            "resource_group": 9,
+            "resource_width": 9,
+            "power_level": 9,
+            "cpu_queue": 122,
+            "cpu_frequency": 70
+          },
+          "mean_branch_q": {
+            "route": 0.07670120894908905,
+            "tx_select": 0.01721694879233837,
+            "resource_group": -0.023603850975632668,
+            "resource_width": -0.05989011749625206,
+            "power_level": 0.03399583697319031,
+            "cpu_queue": -0.04860833287239075,
+            "cpu_frequency": -0.12682406604290009
+          }
+        },
+        {
+          "episode": 7,
+          "first_slot": 288,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 288,
+          "length": 32,
+          "loss": 0.18510136008262634,
+          "q_taken": {
+            "count": 32,
+            "mean": -0.12243462563492358,
+            "min": -0.4355958104133606,
+            "max": 0.11827685683965683
+          },
+          "td_target": {
+            "count": 32,
+            "mean": -0.10087850398849696,
+            "min": -1.3951390981674194,
+            "max": 0.8819586634635925
+          },
+          "mean_abs_td": 0.48162803053855896,
+          "utility": {
+            "count": 128,
+            "mean": -0.11304466403089464,
+            "min": -0.5508968830108643,
+            "max": 0.39526453614234924
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 0.4600987487938255,
+            "min": 0.3349473476409912,
+            "max": 0.6173833012580872
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.265625,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 18,
+              "different": 18
+            },
+            "tx_select": {
+              "both_active": 3,
+              "different": 1
+            },
+            "resource_group": {
+              "both_active": 2,
+              "different": 2
+            },
+            "resource_width": {
+              "both_active": 2,
+              "different": 1
+            },
+            "power_level": {
+              "both_active": 2,
+              "different": 1
+            },
+            "cpu_queue": {
+              "both_active": 117,
+              "different": 13
+            },
+            "cpu_frequency": {
+              "both_active": 31,
+              "different": 30
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.6130329370498657,
+          "branch_gradient_norms": {
+            "route": 0.10000482946634293,
+            "tx_select": 0.015888595953583717,
+            "resource_group": 0.014730791561305523,
+            "resource_width": 0.024443145841360092,
+            "power_level": 0.025414515286684036,
+            "cpu_queue": 0.2278301864862442,
+            "cpu_frequency": 0.3312886655330658,
+            "gru": 0.28016701340675354,
+            "graph": 0.3312126696109772,
+            "self_encoder": 0.391973614692688,
+            "mixer": 1.8262639045715332
+          },
+          "active_branch_counts": {
+            "route": 18,
+            "tx_select": 3,
+            "resource_group": 2,
+            "resource_width": 2,
+            "power_level": 2,
+            "cpu_queue": 117,
+            "cpu_frequency": 80
+          },
+          "mean_branch_q": {
+            "route": 0.08876704424619675,
+            "tx_select": 0.024632513523101807,
+            "resource_group": -0.010781091637909412,
+            "resource_width": -0.03354940190911293,
+            "power_level": 0.033365070819854736,
+            "cpu_queue": -0.05611475184559822,
+            "cpu_frequency": -0.1301807165145874
+          }
+        }
+      ]
+    },
+    {
+      "training_steps": 4000,
+      "checkpoint_sha256": "85cd0426ff4cf1f723ce9af4df080d0869c06efc3885d66ea361dc2b79490843",
+      "stratum": "last_4k",
+      "indices": [
+        136,
+        161,
+        163,
+        174,
+        183,
+        191,
+        196,
+        217
+      ],
+      "probes": [
+        {
+          "episode": 8,
+          "first_slot": 256,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 256,
+          "length": 32,
+          "loss": 0.4106990396976471,
+          "q_taken": {
+            "count": 32,
+            "mean": -0.7583973188884556,
+            "min": -1.0919394493103027,
+            "max": -0.2044311910867691
+          },
+          "td_target": {
+            "count": 32,
+            "mean": -0.7391166646266356,
+            "min": -3.1335113048553467,
+            "max": 0.17035579681396484
+          },
+          "mean_abs_td": 0.6555715799331665,
+          "utility": {
+            "count": 128,
+            "mean": -0.08340703218709677,
+            "min": -0.8174412250518799,
+            "max": 1.0832579135894775
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 0.5023662415333092,
+            "min": 0.3217344284057617,
+            "max": 0.6587496399879456
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.2421875,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 9,
+              "different": 6
+            },
+            "tx_select": {
+              "both_active": 22,
+              "different": 0
+            },
+            "resource_group": {
+              "both_active": 22,
+              "different": 17
+            },
+            "resource_width": {
+              "both_active": 22,
+              "different": 2
+            },
+            "power_level": {
+              "both_active": 22,
+              "different": 15
+            },
+            "cpu_queue": {
+              "both_active": 108,
+              "different": 59
+            },
+            "cpu_frequency": {
+              "both_active": 31,
+              "different": 28
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.38246166706085205,
+          "branch_gradient_norms": {
+            "route": 0.2997995913028717,
+            "tx_select": 0.3002001643180847,
+            "resource_group": 0.26788416504859924,
+            "resource_width": 0.20336833596229553,
+            "power_level": 0.23759883642196655,
+            "cpu_queue": 0.5199258923530579,
+            "cpu_frequency": 0.4059561491012573,
+            "gru": 0.560250997543335,
+            "graph": 0.5816483497619629,
+            "self_encoder": 0.8504866361618042,
+            "mixer": 3.9452834129333496
+          },
+          "active_branch_counts": {
+            "route": 9,
+            "tx_select": 22,
+            "resource_group": 13,
+            "resource_width": 13,
+            "power_level": 13,
+            "cpu_queue": 108,
+            "cpu_frequency": 70
+          },
+          "mean_branch_q": {
+            "route": 0.07077468186616898,
+            "tx_select": 0.04093126580119133,
+            "resource_group": -0.01429759431630373,
+            "resource_width": -0.06348062306642532,
+            "power_level": 0.012826632708311081,
+            "cpu_queue": -0.06478852778673172,
+            "cpu_frequency": -0.1475749909877777
+          }
+        },
+        {
+          "episode": 10,
+          "first_slot": 32,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 32,
+          "length": 32,
+          "loss": 0.09133505821228027,
+          "q_taken": {
+            "count": 32,
+            "mean": -0.02542072907090187,
+            "min": -0.2514488101005554,
+            "max": 0.5847322940826416
+          },
+          "td_target": {
+            "count": 32,
+            "mean": 0.011866642511449754,
+            "min": -0.8234148025512695,
+            "max": 0.758050799369812
+          },
+          "mean_abs_td": 0.3606506288051605,
+          "utility": {
+            "count": 128,
+            "mean": -0.026320006465539336,
+            "min": -0.31568023562431335,
+            "max": 0.37892693281173706
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 0.32977367215789855,
+            "min": 0.2542321979999542,
+            "max": 0.4967227280139923
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.578125,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 7,
+              "different": 6
+            },
+            "tx_select": {
+              "both_active": 2,
+              "different": 2
+            },
+            "resource_group": {
+              "both_active": 0,
+              "different": 0
+            },
+            "resource_width": {
+              "both_active": 0,
+              "different": 0
+            },
+            "power_level": {
+              "both_active": 0,
+              "different": 0
+            },
+            "cpu_queue": {
+              "both_active": 72,
+              "different": 41
+            },
+            "cpu_frequency": {
+              "both_active": 0,
+              "different": 0
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.46042555570602417,
+          "branch_gradient_norms": {
+            "route": 0.01578647643327713,
+            "tx_select": 0.00823725014925003,
+            "resource_group": 0.008681916631758213,
+            "resource_width": 0.007797526195645332,
+            "power_level": 0.013459687121212482,
+            "cpu_queue": 0.10658913105726242,
+            "cpu_frequency": 0.11142142862081528,
+            "gru": 0.10797178745269775,
+            "graph": 0.06350219994783401,
+            "self_encoder": 0.1469796746969223,
+            "mixer": 1.2648988962173462
+          },
+          "active_branch_counts": {
+            "route": 7,
+            "tx_select": 2,
+            "resource_group": 2,
+            "resource_width": 2,
+            "power_level": 2,
+            "cpu_queue": 72,
+            "cpu_frequency": 46
+          },
+          "mean_branch_q": {
+            "route": 0.0657896026968956,
+            "tx_select": -0.048773184418678284,
+            "resource_group": -0.00021300185471773148,
+            "resource_width": -0.13739560544490814,
+            "power_level": -0.0034140031784772873,
+            "cpu_queue": -0.022496793419122696,
+            "cpu_frequency": -0.013008031994104385
+          }
+        },
+        {
+          "episode": 10,
+          "first_slot": 96,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 96,
+          "length": 32,
+          "loss": 0.280258446931839,
+          "q_taken": {
+            "count": 32,
+            "mean": -0.2990966869983822,
+            "min": -0.6267889738082886,
+            "max": 0.058384969830513
+          },
+          "td_target": {
+            "count": 32,
+            "mean": -0.3367978608002886,
+            "min": -2.1562395095825195,
+            "max": 0.7773954272270203
+          },
+          "mean_abs_td": 0.5782955288887024,
+          "utility": {
+            "count": 128,
+            "mean": -0.03179422556422651,
+            "min": -0.6870055198669434,
+            "max": 0.354458749294281
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 0.5373454152140766,
+            "min": 0.4045391082763672,
+            "max": 0.6816404461860657
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.3515625,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 31,
+              "different": 7
+            },
+            "tx_select": {
+              "both_active": 9,
+              "different": 0
+            },
+            "resource_group": {
+              "both_active": 9,
+              "different": 9
+            },
+            "resource_width": {
+              "both_active": 9,
+              "different": 2
+            },
+            "power_level": {
+              "both_active": 9,
+              "different": 8
+            },
+            "cpu_queue": {
+              "both_active": 101,
+              "different": 37
+            },
+            "cpu_frequency": {
+              "both_active": 32,
+              "different": 13
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.5054750442504883,
+          "branch_gradient_norms": {
+            "route": 0.3536919355392456,
+            "tx_select": 0.11450085788965225,
+            "resource_group": 0.07461345195770264,
+            "resource_width": 0.04208090528845787,
+            "power_level": 0.045729462057352066,
+            "cpu_queue": 0.47664016485214233,
+            "cpu_frequency": 0.3717220425605774,
+            "gru": 0.4728786051273346,
+            "graph": 0.31160157918930054,
+            "self_encoder": 0.6246386170387268,
+            "mixer": 2.008869171142578
+          },
+          "active_branch_counts": {
+            "route": 31,
+            "tx_select": 9,
+            "resource_group": 3,
+            "resource_width": 3,
+            "power_level": 3,
+            "cpu_queue": 101,
+            "cpu_frequency": 73
+          },
+          "mean_branch_q": {
+            "route": 0.06188558042049408,
+            "tx_select": -0.03742821887135506,
+            "resource_group": -0.01337833795696497,
+            "resource_width": -0.11054545640945435,
+            "power_level": -0.0017334148287773132,
+            "cpu_queue": -0.04250659421086311,
+            "cpu_frequency": -0.07161659002304077
+          }
+        },
+        {
+          "episode": 10,
+          "first_slot": 448,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 448,
+          "length": 32,
+          "loss": 0.244978129863739,
+          "q_taken": {
+            "count": 32,
+            "mean": -0.5122487763874233,
+            "min": -1.107290267944336,
+            "max": 0.32849299907684326
+          },
+          "td_target": {
+            "count": 32,
+            "mean": -0.6187124149873853,
+            "min": -2.552208423614502,
+            "max": 0.7889015078544617
+          },
+          "mean_abs_td": 0.5381853580474854,
+          "utility": {
+            "count": 128,
+            "mean": -0.04472615862323437,
+            "min": -0.8467766642570496,
+            "max": 0.5928219556808472
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 0.7015096107497811,
+            "min": 0.49174052476882935,
+            "max": 0.9296457767486572
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.21875,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 38,
+              "different": 27
+            },
+            "tx_select": {
+              "both_active": 15,
+              "different": 0
+            },
+            "resource_group": {
+              "both_active": 15,
+              "different": 15
+            },
+            "resource_width": {
+              "both_active": 15,
+              "different": 2
+            },
+            "power_level": {
+              "both_active": 15,
+              "different": 9
+            },
+            "cpu_queue": {
+              "both_active": 125,
+              "different": 52
+            },
+            "cpu_frequency": {
+              "both_active": 32,
+              "different": 19
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.284915030002594,
+          "branch_gradient_norms": {
+            "route": 0.2922058403491974,
+            "tx_select": 0.29150959849357605,
+            "resource_group": 0.12959681451320648,
+            "resource_width": 0.10593260079622269,
+            "power_level": 0.1475663185119629,
+            "cpu_queue": 0.7180959582328796,
+            "cpu_frequency": 0.352385550737381,
+            "gru": 0.6014178395271301,
+            "graph": 0.6719655394554138,
+            "self_encoder": 0.9095945358276367,
+            "mixer": 4.392016410827637
+          },
+          "active_branch_counts": {
+            "route": 38,
+            "tx_select": 15,
+            "resource_group": 8,
+            "resource_width": 8,
+            "power_level": 8,
+            "cpu_queue": 125,
+            "cpu_frequency": 73
+          },
+          "mean_branch_q": {
+            "route": 0.0666598454117775,
+            "tx_select": -0.038916412740945816,
+            "resource_group": -0.02290061116218567,
+            "resource_width": -0.09774799644947052,
+            "power_level": 0.005212796851992607,
+            "cpu_queue": -0.04556697979569435,
+            "cpu_frequency": -0.08210494369268417
+          }
+        },
+        {
+          "episode": 11,
+          "first_slot": 224,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 224,
+          "length": 32,
+          "loss": 0.1777796447277069,
+          "q_taken": {
+            "count": 32,
+            "mean": -0.14407180482521653,
+            "min": -0.6359819173812866,
+            "max": 0.26945924758911133
+          },
+          "td_target": {
+            "count": 32,
+            "mean": 0.2074327658629045,
+            "min": -1.1492502689361572,
+            "max": 0.8499335050582886
+          },
+          "mean_abs_td": 0.5212165117263794,
+          "utility": {
+            "count": 128,
+            "mean": -0.05445202746341238,
+            "min": -0.5952982902526855,
+            "max": 0.697331428527832
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 0.7083679381757975,
+            "min": 0.5188135504722595,
+            "max": 0.8785175085067749
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.5703125,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 9,
+              "different": 7
+            },
+            "tx_select": {
+              "both_active": 7,
+              "different": 0
+            },
+            "resource_group": {
+              "both_active": 7,
+              "different": 7
+            },
+            "resource_width": {
+              "both_active": 7,
+              "different": 0
+            },
+            "power_level": {
+              "both_active": 7,
+              "different": 7
+            },
+            "cpu_queue": {
+              "both_active": 69,
+              "different": 19
+            },
+            "cpu_frequency": {
+              "both_active": 1,
+              "different": 1
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.5798680186271667,
+          "branch_gradient_norms": {
+            "route": 0.18308794498443604,
+            "tx_select": 0.25866633653640747,
+            "resource_group": 0.19168834388256073,
+            "resource_width": 0.20706744492053986,
+            "power_level": 0.1798119843006134,
+            "cpu_queue": 0.7538779973983765,
+            "cpu_frequency": 0.4334019720554352,
+            "gru": 0.5933302044868469,
+            "graph": 0.6520441174507141,
+            "self_encoder": 0.8371649384498596,
+            "mixer": 14.845147132873535
+          },
+          "active_branch_counts": {
+            "route": 9,
+            "tx_select": 7,
+            "resource_group": 5,
+            "resource_width": 5,
+            "power_level": 5,
+            "cpu_queue": 69,
+            "cpu_frequency": 39
+          },
+          "mean_branch_q": {
+            "route": 0.058401044458150864,
+            "tx_select": 0.009897519834339619,
+            "resource_group": 0.0014211138477548957,
+            "resource_width": -0.08981044590473175,
+            "power_level": 0.00804172083735466,
+            "cpu_queue": -0.06079632043838501,
+            "cpu_frequency": -0.1177791953086853
+          }
+        },
+        {
+          "episode": 11,
+          "first_slot": 480,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 480,
+          "length": 20,
+          "loss": 0.4629004895687103,
+          "q_taken": {
+            "count": 20,
+            "mean": -0.5098408594727516,
+            "min": -1.2209609746932983,
+            "max": -0.16591906547546387
+          },
+          "td_target": {
+            "count": 20,
+            "mean": -0.965554537717253,
+            "min": -2.7468714714050293,
+            "max": -0.013656647875905037
+          },
+          "mean_abs_td": 0.7165476083755493,
+          "utility": {
+            "count": 80,
+            "mean": -0.17573026777245104,
+            "min": -1.2238504886627197,
+            "max": 0.14964526891708374
+          },
+          "mixer_sensitivity": {
+            "count": 80,
+            "mean": 0.6805030047893524,
+            "min": 0.4712187647819519,
+            "max": 0.9140823483467102
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.36250001192092896,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 10,
+              "different": 7
+            },
+            "tx_select": {
+              "both_active": 5,
+              "different": 2
+            },
+            "resource_group": {
+              "both_active": 3,
+              "different": 3
+            },
+            "resource_width": {
+              "both_active": 3,
+              "different": 1
+            },
+            "power_level": {
+              "both_active": 3,
+              "different": 3
+            },
+            "cpu_queue": {
+              "both_active": 60,
+              "different": 18
+            },
+            "cpu_frequency": {
+              "both_active": 25,
+              "different": 25
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.12287460267543793,
+          "branch_gradient_norms": {
+            "route": 0.37438589334487915,
+            "tx_select": 0.08881409466266632,
+            "resource_group": 0.09214533120393753,
+            "resource_width": 0.07767116278409958,
+            "power_level": 0.1103162094950676,
+            "cpu_queue": 1.546792984008789,
+            "cpu_frequency": 1.2006430625915527,
+            "gru": 1.0019632577896118,
+            "graph": 1.0391156673431396,
+            "self_encoder": 1.3438644409179688,
+            "mixer": 18.335987091064453
+          },
+          "active_branch_counts": {
+            "route": 10,
+            "tx_select": 5,
+            "resource_group": 4,
+            "resource_width": 4,
+            "power_level": 4,
+            "cpu_queue": 60,
+            "cpu_frequency": 46
+          },
+          "mean_branch_q": {
+            "route": 0.04292012006044388,
+            "tx_select": -0.00495930528268218,
+            "resource_group": -0.026162272319197655,
+            "resource_width": -0.12364035844802856,
+            "power_level": -0.012520601972937584,
+            "cpu_queue": -0.06971251219511032,
+            "cpu_frequency": -0.12082872539758682
+          }
+        },
+        {
+          "episode": 12,
+          "first_slot": 128,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 128,
+          "length": 32,
+          "loss": 0.3353680670261383,
+          "q_taken": {
+            "count": 32,
+            "mean": -0.4000730919651687,
+            "min": -1.0026642084121704,
+            "max": -0.005358487367630005
+          },
+          "td_target": {
+            "count": 32,
+            "mean": 0.23182535375235602,
+            "min": -0.8821841478347778,
+            "max": 0.703860878944397
+          },
+          "mean_abs_td": 0.7146214246749878,
+          "utility": {
+            "count": 128,
+            "mean": -0.05803141235082876,
+            "min": -0.8119160532951355,
+            "max": 0.3527580499649048
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 0.7593744706828147,
+            "min": 0.4477117359638214,
+            "max": 0.9659439921379089
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.359375,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 8,
+              "different": 7
+            },
+            "tx_select": {
+              "both_active": 9,
+              "different": 0
+            },
+            "resource_group": {
+              "both_active": 9,
+              "different": 9
+            },
+            "resource_width": {
+              "both_active": 9,
+              "different": 1
+            },
+            "power_level": {
+              "both_active": 9,
+              "different": 6
+            },
+            "cpu_queue": {
+              "both_active": 96,
+              "different": 32
+            },
+            "cpu_frequency": {
+              "both_active": 32,
+              "different": 4
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.35047146677970886,
+          "branch_gradient_norms": {
+            "route": 0.1422925740480423,
+            "tx_select": 0.2594705820083618,
+            "resource_group": 0.1636495292186737,
+            "resource_width": 0.19257591664791107,
+            "power_level": 0.1824115514755249,
+            "cpu_queue": 1.7775921821594238,
+            "cpu_frequency": 1.2967206239700317,
+            "gru": 1.2625830173492432,
+            "graph": 1.0822745561599731,
+            "self_encoder": 1.6844960451126099,
+            "mixer": 27.41815185546875
+          },
+          "active_branch_counts": {
+            "route": 8,
+            "tx_select": 9,
+            "resource_group": 4,
+            "resource_width": 4,
+            "power_level": 4,
+            "cpu_queue": 96,
+            "cpu_frequency": 67
+          },
+          "mean_branch_q": {
+            "route": 0.07540739327669144,
+            "tx_select": -0.027976561337709427,
+            "resource_group": 0.0016807516803964972,
+            "resource_width": -0.07991272211074829,
+            "power_level": 0.008297402411699295,
+            "cpu_queue": -0.04241345077753067,
+            "cpu_frequency": -0.053976818919181824
+          }
+        },
+        {
+          "episode": 13,
+          "first_slot": 288,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 288,
+          "length": 32,
+          "loss": 0.1130693256855011,
+          "q_taken": {
+            "count": 32,
+            "mean": -1.2295855265110731,
+            "min": -1.6048901081085205,
+            "max": -0.958806574344635
+          },
+          "td_target": {
+            "count": 32,
+            "mean": -1.4378330763429403,
+            "min": -2.6028599739074707,
+            "max": -0.27076995372772217
+          },
+          "mean_abs_td": 0.3323821723461151,
+          "utility": {
+            "count": 128,
+            "mean": -0.09156975738005713,
+            "min": -0.9356706738471985,
+            "max": 0.4846678674221039
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 0.4700583324301988,
+            "min": 0.2860691249370575,
+            "max": 0.6350511908531189
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.4296875,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 16,
+              "different": 16
+            },
+            "tx_select": {
+              "both_active": 9,
+              "different": 0
+            },
+            "resource_group": {
+              "both_active": 9,
+              "different": 9
+            },
+            "resource_width": {
+              "both_active": 9,
+              "different": 2
+            },
+            "power_level": {
+              "both_active": 9,
+              "different": 6
+            },
+            "cpu_queue": {
+              "both_active": 87,
+              "different": 37
+            },
+            "cpu_frequency": {
+              "both_active": 23,
+              "different": 11
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.1697544902563095,
+          "branch_gradient_norms": {
+            "route": 0.0964558944106102,
+            "tx_select": 0.06477547436952591,
+            "resource_group": 0.02656094916164875,
+            "resource_width": 0.02405044063925743,
+            "power_level": 0.023442309349775314,
+            "cpu_queue": 0.3509592115879059,
+            "cpu_frequency": 0.21499839425086975,
+            "gru": 0.22416605055332184,
+            "graph": 0.22453445196151733,
+            "self_encoder": 0.2816377878189087,
+            "mixer": 8.339957237243652
+          },
+          "active_branch_counts": {
+            "route": 16,
+            "tx_select": 9,
+            "resource_group": 4,
+            "resource_width": 4,
+            "power_level": 4,
+            "cpu_queue": 87,
+            "cpu_frequency": 61
+          },
+          "mean_branch_q": {
+            "route": 0.046877067536115646,
+            "tx_select": -0.033930957317352295,
+            "resource_group": -0.03920872136950493,
+            "resource_width": -0.11372675746679306,
+            "power_level": 0.012690350413322449,
+            "cpu_queue": -0.055596183985471725,
+            "cpu_frequency": -0.11044171452522278
+          }
+        }
+      ]
+    },
+    {
+      "training_steps": 8000,
+      "checkpoint_sha256": "a6958dc0ed282b1856dcfd45f03059173b5436aa5c20e16cbc5903ab51a15007",
+      "stratum": "first_4k",
+      "indices": [
+        7,
+        62,
+        67,
+        98,
+        100,
+        107,
+        120,
+        121
+      ],
+      "probes": [
+        {
+          "episode": 0,
+          "first_slot": 224,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 224,
+          "length": 32,
+          "loss": 0.11548586934804916,
+          "q_taken": {
+            "count": 32,
+            "mean": -1.613350037485361,
+            "min": -2.455573081970215,
+            "max": -0.9732319116592407
+          },
+          "td_target": {
+            "count": 32,
+            "mean": -1.3251611599698663,
+            "min": -3.1828925609588623,
+            "max": -0.4848329722881317
+          },
+          "mean_abs_td": 0.39922580122947693,
+          "utility": {
+            "count": 128,
+            "mean": -0.21510719117941335,
+            "min": -0.6689313054084778,
+            "max": 0.3004649877548218
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 1.2530009839683771,
+            "min": 0.6905767917633057,
+            "max": 1.9441368579864502
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.1640625,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 6,
+              "different": 4
+            },
+            "tx_select": {
+              "both_active": 5,
+              "different": 1
+            },
+            "resource_group": {
+              "both_active": 3,
+              "different": 1
+            },
+            "resource_width": {
+              "both_active": 3,
+              "different": 1
+            },
+            "power_level": {
+              "both_active": 3,
+              "different": 0
+            },
+            "cpu_queue": {
+              "both_active": 116,
+              "different": 10
+            },
+            "cpu_frequency": {
+              "both_active": 88,
+              "different": 31
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.12495863437652588,
+          "branch_gradient_norms": {
+            "route": 0.18231183290481567,
+            "tx_select": 0.07854021340608597,
+            "resource_group": 0.07521960884332657,
+            "resource_width": 0.0714544802904129,
+            "power_level": 0.09518963098526001,
+            "cpu_queue": 1.732325792312622,
+            "cpu_frequency": 1.0460137128829956,
+            "gru": 1.2512201070785522,
+            "graph": 0.9674733281135559,
+            "self_encoder": 4.06684684753418,
+            "mixer": 9.441102981567383
+          },
+          "active_branch_counts": {
+            "route": 6,
+            "tx_select": 5,
+            "resource_group": 3,
+            "resource_width": 3,
+            "power_level": 3,
+            "cpu_queue": 116,
+            "cpu_frequency": 68
+          },
+          "mean_branch_q": {
+            "route": 0.04516434669494629,
+            "tx_select": 0.003241339698433876,
+            "resource_group": -0.003910601604729891,
+            "resource_width": -0.05038789287209511,
+            "power_level": 0.016036897897720337,
+            "cpu_queue": -0.1116534024477005,
+            "cpu_frequency": -0.1350914090871811
+          }
+        },
+        {
+          "episode": 3,
+          "first_slot": 448,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 448,
+          "length": 32,
+          "loss": 0.07291029393672943,
+          "q_taken": {
+            "count": 32,
+            "mean": -0.39018082327675074,
+            "min": -1.5084728002548218,
+            "max": 0.7725249528884888
+          },
+          "td_target": {
+            "count": 32,
+            "mean": -0.17924464074894786,
+            "min": -1.5581761598587036,
+            "max": 1.2049334049224854
+          },
+          "mean_abs_td": 0.2834281623363495,
+          "utility": {
+            "count": 128,
+            "mean": -0.03269888341310434,
+            "min": -0.5794733166694641,
+            "max": 0.6067707538604736
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 1.482521301601082,
+            "min": 0.9684184193611145,
+            "max": 2.023261547088623
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.34375,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 14,
+              "different": 8
+            },
+            "tx_select": {
+              "both_active": 23,
+              "different": 4
+            },
+            "resource_group": {
+              "both_active": 19,
+              "different": 7
+            },
+            "resource_width": {
+              "both_active": 19,
+              "different": 5
+            },
+            "power_level": {
+              "both_active": 19,
+              "different": 3
+            },
+            "cpu_queue": {
+              "both_active": 98,
+              "different": 23
+            },
+            "cpu_frequency": {
+              "both_active": 80,
+              "different": 28
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.29802897572517395,
+          "branch_gradient_norms": {
+            "route": 0.17716264724731445,
+            "tx_select": 0.38448598980903625,
+            "resource_group": 0.19917307794094086,
+            "resource_width": 0.17087149620056152,
+            "power_level": 0.13283787667751312,
+            "cpu_queue": 1.1160635948181152,
+            "cpu_frequency": 0.813471257686615,
+            "gru": 0.8410529494285583,
+            "graph": 0.7653172016143799,
+            "self_encoder": 2.7722151279449463,
+            "mixer": 7.997028827667236
+          },
+          "active_branch_counts": {
+            "route": 14,
+            "tx_select": 23,
+            "resource_group": 11,
+            "resource_width": 11,
+            "power_level": 11,
+            "cpu_queue": 98,
+            "cpu_frequency": 54
+          },
+          "mean_branch_q": {
+            "route": 0.05326619744300842,
+            "tx_select": 0.018920782953500748,
+            "resource_group": 0.007651176303625107,
+            "resource_width": -0.033767346292734146,
+            "power_level": -0.010266140103340149,
+            "cpu_queue": -0.06485608965158463,
+            "cpu_frequency": -0.07863202691078186
+          }
+        },
+        {
+          "episode": 4,
+          "first_slot": 96,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 96,
+          "length": 32,
+          "loss": 0.10671252012252808,
+          "q_taken": {
+            "count": 32,
+            "mean": -0.5261228474555537,
+            "min": -1.8225462436676025,
+            "max": 0.205205500125885
+          },
+          "td_target": {
+            "count": 32,
+            "mean": -0.19634691899409518,
+            "min": -1.3309078216552734,
+            "max": 0.7125486731529236
+          },
+          "mean_abs_td": 0.3854864835739136,
+          "utility": {
+            "count": 128,
+            "mean": -0.0787656912143575,
+            "min": -1.2670159339904785,
+            "max": 0.2830483913421631
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 1.547429581405595,
+            "min": 0.4944264590740204,
+            "max": 2.203396797180176
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.453125,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 13,
+              "different": 6
+            },
+            "tx_select": {
+              "both_active": 8,
+              "different": 1
+            },
+            "resource_group": {
+              "both_active": 7,
+              "different": 1
+            },
+            "resource_width": {
+              "both_active": 7,
+              "different": 0
+            },
+            "power_level": {
+              "both_active": 7,
+              "different": 0
+            },
+            "cpu_queue": {
+              "both_active": 74,
+              "different": 12
+            },
+            "cpu_frequency": {
+              "both_active": 56,
+              "different": 10
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.12133809179067612,
+          "branch_gradient_norms": {
+            "route": 0.26284176111221313,
+            "tx_select": 0.39736518263816833,
+            "resource_group": 0.09667828679084778,
+            "resource_width": 0.088034987449646,
+            "power_level": 0.08709336817264557,
+            "cpu_queue": 1.5182063579559326,
+            "cpu_frequency": 0.9716607928276062,
+            "gru": 1.1810847520828247,
+            "graph": 1.1224231719970703,
+            "self_encoder": 3.7210564613342285,
+            "mixer": 10.957141876220703
+          },
+          "active_branch_counts": {
+            "route": 13,
+            "tx_select": 8,
+            "resource_group": 2,
+            "resource_width": 2,
+            "power_level": 2,
+            "cpu_queue": 74,
+            "cpu_frequency": 40
+          },
+          "mean_branch_q": {
+            "route": -0.003307988867163658,
+            "tx_select": -0.0419485904276371,
+            "resource_group": 0.0005569566856138408,
+            "resource_width": -0.1084253191947937,
+            "power_level": 0.006219454109668732,
+            "cpu_queue": -0.05276083946228027,
+            "cpu_frequency": -0.055302850902080536
+          }
+        },
+        {
+          "episode": 6,
+          "first_slot": 64,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 64,
+          "length": 32,
+          "loss": 0.1099032536149025,
+          "q_taken": {
+            "count": 32,
+            "mean": -0.1718288934789598,
+            "min": -0.904961109161377,
+            "max": 0.7362492084503174
+          },
+          "td_target": {
+            "count": 32,
+            "mean": -0.17738242482300848,
+            "min": -2.1168177127838135,
+            "max": 0.7695391178131104
+          },
+          "mean_abs_td": 0.36028218269348145,
+          "utility": {
+            "count": 128,
+            "mean": -0.13354623616396566,
+            "min": -0.751146137714386,
+            "max": 0.27737778425216675
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 1.3304526079446077,
+            "min": 1.1221257448196411,
+            "max": 1.637635350227356
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.234375,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 4,
+              "different": 3
+            },
+            "tx_select": {
+              "both_active": 4,
+              "different": 1
+            },
+            "resource_group": {
+              "both_active": 3,
+              "different": 1
+            },
+            "resource_width": {
+              "both_active": 3,
+              "different": 0
+            },
+            "power_level": {
+              "both_active": 3,
+              "different": 0
+            },
+            "cpu_queue": {
+              "both_active": 119,
+              "different": 2
+            },
+            "cpu_frequency": {
+              "both_active": 116,
+              "different": 28
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.2272862195968628,
+          "branch_gradient_norms": {
+            "route": 0.16027632355690002,
+            "tx_select": 0.2425122708082199,
+            "resource_group": 0.021742891520261765,
+            "resource_width": 0.017171794548630714,
+            "power_level": 0.01923908106982708,
+            "cpu_queue": 0.6192106604576111,
+            "cpu_frequency": 0.4389904737472534,
+            "gru": 0.6035224199295044,
+            "graph": 0.579730749130249,
+            "self_encoder": 1.2296525239944458,
+            "mixer": 1.912123680114746
+          },
+          "active_branch_counts": {
+            "route": 4,
+            "tx_select": 4,
+            "resource_group": 1,
+            "resource_width": 1,
+            "power_level": 1,
+            "cpu_queue": 119,
+            "cpu_frequency": 67
+          },
+          "mean_branch_q": {
+            "route": 0.010650239884853363,
+            "tx_select": -0.029030626639723778,
+            "resource_group": -0.012021359987556934,
+            "resource_width": -0.0967489555478096,
+            "power_level": -0.007417385466396809,
+            "cpu_queue": -0.08751596510410309,
+            "cpu_frequency": -0.12936916947364807
+          }
+        },
+        {
+          "episode": 6,
+          "first_slot": 128,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 128,
+          "length": 32,
+          "loss": 0.08963480591773987,
+          "q_taken": {
+            "count": 32,
+            "mean": -0.6185988737270236,
+            "min": -0.9802466630935669,
+            "max": -0.24913159012794495
+          },
+          "td_target": {
+            "count": 32,
+            "mean": -0.52292238001246,
+            "min": -1.2810938358306885,
+            "max": -0.03585662320256233
+          },
+          "mean_abs_td": 0.3675704896450043,
+          "utility": {
+            "count": 128,
+            "mean": -0.11166000290540978,
+            "min": -0.6301816701889038,
+            "max": 0.2167598307132721
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 1.2732495362870395,
+            "min": 0.9390032291412354,
+            "max": 1.5195951461791992
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.4765625,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 5,
+              "different": 3
+            },
+            "tx_select": {
+              "both_active": 0,
+              "different": 0
+            },
+            "resource_group": {
+              "both_active": 0,
+              "different": 0
+            },
+            "resource_width": {
+              "both_active": 0,
+              "different": 0
+            },
+            "power_level": {
+              "both_active": 0,
+              "different": 0
+            },
+            "cpu_queue": {
+              "both_active": 84,
+              "different": 20
+            },
+            "cpu_frequency": {
+              "both_active": 53,
+              "different": 13
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.16669252514839172,
+          "branch_gradient_norms": {
+            "route": 0.06553690880537033,
+            "tx_select": 0.0,
+            "resource_group": 0.0,
+            "resource_width": 0.0,
+            "power_level": 0.0,
+            "cpu_queue": 0.5669205784797668,
+            "cpu_frequency": 0.44477397203445435,
+            "gru": 0.5229618549346924,
+            "graph": 0.5694368481636047,
+            "self_encoder": 1.426791787147522,
+            "mixer": 3.726247549057007
+          },
+          "active_branch_counts": {
+            "route": 5,
+            "tx_select": 0,
+            "resource_group": 0,
+            "resource_width": 0,
+            "power_level": 0,
+            "cpu_queue": 84,
+            "cpu_frequency": 53
+          },
+          "mean_branch_q": {
+            "route": 0.01332595944404602,
+            "tx_select": -0.03664533793926239,
+            "resource_group": -0.00931797455996275,
+            "resource_width": -0.1259300708770752,
+            "power_level": 0.0038941316306591034,
+            "cpu_queue": -0.06478314101696014,
+            "cpu_frequency": -0.10272054374217987
+          }
+        },
+        {
+          "episode": 6,
+          "first_slot": 352,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 352,
+          "length": 32,
+          "loss": 0.09599283337593079,
+          "q_taken": {
+            "count": 32,
+            "mean": -0.5450131201359909,
+            "min": -1.4234731197357178,
+            "max": 0.4011731445789337
+          },
+          "td_target": {
+            "count": 32,
+            "mean": -0.4628359195194207,
+            "min": -1.671766757965088,
+            "max": 0.4565824270248413
+          },
+          "mean_abs_td": 0.3599582314491272,
+          "utility": {
+            "count": 128,
+            "mean": -0.09450230716902297,
+            "min": -0.5895832180976868,
+            "max": 0.38072022795677185
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 1.2653808826580644,
+            "min": 0.87632155418396,
+            "max": 1.4748269319534302
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.2734375,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 14,
+              "different": 4
+            },
+            "tx_select": {
+              "both_active": 6,
+              "different": 0
+            },
+            "resource_group": {
+              "both_active": 6,
+              "different": 2
+            },
+            "resource_width": {
+              "both_active": 6,
+              "different": 1
+            },
+            "power_level": {
+              "both_active": 6,
+              "different": 2
+            },
+            "cpu_queue": {
+              "both_active": 96,
+              "different": 27
+            },
+            "cpu_frequency": {
+              "both_active": 64,
+              "different": 17
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.16751277446746826,
+          "branch_gradient_norms": {
+            "route": 0.2660605311393738,
+            "tx_select": 0.07915117591619492,
+            "resource_group": 0.0736444965004921,
+            "resource_width": 0.06529103964567184,
+            "power_level": 0.09362080693244934,
+            "cpu_queue": 0.6216812133789062,
+            "cpu_frequency": 0.5035635828971863,
+            "gru": 0.5340819954872131,
+            "graph": 0.7595796585083008,
+            "self_encoder": 1.250801920890808,
+            "mixer": 2.6141891479492188
+          },
+          "active_branch_counts": {
+            "route": 14,
+            "tx_select": 6,
+            "resource_group": 4,
+            "resource_width": 4,
+            "power_level": 4,
+            "cpu_queue": 96,
+            "cpu_frequency": 52
+          },
+          "mean_branch_q": {
+            "route": 0.04144984111189842,
+            "tx_select": -0.029223881661891937,
+            "resource_group": -0.0015867861220613122,
+            "resource_width": -0.07514555007219315,
+            "power_level": -0.0011903336271643639,
+            "cpu_queue": -0.08386189490556717,
+            "cpu_frequency": -0.09279755502939224
+          }
+        },
+        {
+          "episode": 7,
+          "first_slot": 256,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 256,
+          "length": 32,
+          "loss": 0.10859008133411407,
+          "q_taken": {
+            "count": 32,
+            "mean": -0.7793901452096179,
+            "min": -1.7886778116226196,
+            "max": 0.4557795822620392
+          },
+          "td_target": {
+            "count": 32,
+            "mean": -0.693470953614451,
+            "min": -2.5702905654907227,
+            "max": 0.6787664890289307
+          },
+          "mean_abs_td": 0.3754894733428955,
+          "utility": {
+            "count": 128,
+            "mean": -0.1847130150272278,
+            "min": -0.6048575043678284,
+            "max": 0.3493831157684326
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 1.2966786553151906,
+            "min": 0.9307375550270081,
+            "max": 1.8340082168579102
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.1484375,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 22,
+              "different": 5
+            },
+            "tx_select": {
+              "both_active": 14,
+              "different": 2
+            },
+            "resource_group": {
+              "both_active": 11,
+              "different": 6
+            },
+            "resource_width": {
+              "both_active": 11,
+              "different": 1
+            },
+            "power_level": {
+              "both_active": 11,
+              "different": 2
+            },
+            "cpu_queue": {
+              "both_active": 122,
+              "different": 43
+            },
+            "cpu_frequency": {
+              "both_active": 75,
+              "different": 24
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.3167785108089447,
+          "branch_gradient_norms": {
+            "route": 0.3266269564628601,
+            "tx_select": 0.2877258360385895,
+            "resource_group": 0.1822192668914795,
+            "resource_width": 0.24543477594852448,
+            "power_level": 0.16611473262310028,
+            "cpu_queue": 0.8870205283164978,
+            "cpu_frequency": 0.5187713503837585,
+            "gru": 0.7368893027305603,
+            "graph": 0.6139065623283386,
+            "self_encoder": 1.996765375137329,
+            "mixer": 4.108896732330322
+          },
+          "active_branch_counts": {
+            "route": 22,
+            "tx_select": 14,
+            "resource_group": 9,
+            "resource_width": 9,
+            "power_level": 9,
+            "cpu_queue": 122,
+            "cpu_frequency": 70
+          },
+          "mean_branch_q": {
+            "route": 0.030449340119957924,
+            "tx_select": -0.0249561108648777,
+            "resource_group": -0.015509352087974548,
+            "resource_width": -0.06422118097543716,
+            "power_level": 0.005520632490515709,
+            "cpu_queue": -0.11004932969808578,
+            "cpu_frequency": -0.13085779547691345
+          }
+        },
+        {
+          "episode": 7,
+          "first_slot": 288,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 288,
+          "length": 32,
+          "loss": 0.15458835661411285,
+          "q_taken": {
+            "count": 32,
+            "mean": -1.1126322727650404,
+            "min": -1.8106718063354492,
+            "max": -0.6807808876037598
+          },
+          "td_target": {
+            "count": 32,
+            "mean": -1.0783525542356074,
+            "min": -2.328141212463379,
+            "max": -0.17137642204761505
+          },
+          "mean_abs_td": 0.4465247094631195,
+          "utility": {
+            "count": 128,
+            "mean": -0.2282927724008914,
+            "min": -0.5919182300567627,
+            "max": 0.07455898076295853
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 1.2189465733245015,
+            "min": 0.9245095252990723,
+            "max": 1.5686661005020142
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.140625,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 18,
+              "different": 1
+            },
+            "tx_select": {
+              "both_active": 3,
+              "different": 0
+            },
+            "resource_group": {
+              "both_active": 2,
+              "different": 1
+            },
+            "resource_width": {
+              "both_active": 2,
+              "different": 1
+            },
+            "power_level": {
+              "both_active": 2,
+              "different": 1
+            },
+            "cpu_queue": {
+              "both_active": 117,
+              "different": 41
+            },
+            "cpu_frequency": {
+              "both_active": 70,
+              "different": 16
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.10936030745506287,
+          "branch_gradient_norms": {
+            "route": 0.2242913842201233,
+            "tx_select": 0.07015226036310196,
+            "resource_group": 0.031247805804014206,
+            "resource_width": 0.027154412120580673,
+            "power_level": 0.02896987833082676,
+            "cpu_queue": 0.7803636193275452,
+            "cpu_frequency": 0.6326040625572205,
+            "gru": 0.7176649570465088,
+            "graph": 0.6929843425750732,
+            "self_encoder": 1.531003713607788,
+            "mixer": 1.5109838247299194
+          },
+          "active_branch_counts": {
+            "route": 18,
+            "tx_select": 3,
+            "resource_group": 2,
+            "resource_width": 2,
+            "power_level": 2,
+            "cpu_queue": 117,
+            "cpu_frequency": 80
+          },
+          "mean_branch_q": {
+            "route": 0.019587155431509018,
+            "tx_select": -0.04799990355968475,
+            "resource_group": -0.030714303255081177,
+            "resource_width": -0.07563846558332443,
+            "power_level": -0.009828712791204453,
+            "cpu_queue": -0.12729129195213318,
+            "cpu_frequency": -0.15048982203006744
+          }
+        }
+      ]
+    },
+    {
+      "training_steps": 8000,
+      "checkpoint_sha256": "a6958dc0ed282b1856dcfd45f03059173b5436aa5c20e16cbc5903ab51a15007",
+      "stratum": "last_4k",
+      "indices": [
+        136,
+        161,
+        163,
+        174,
+        183,
+        191,
+        196,
+        217
+      ],
+      "probes": [
+        {
+          "episode": 8,
+          "first_slot": 256,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 256,
+          "length": 32,
+          "loss": 0.12838201224803925,
+          "q_taken": {
+            "count": 32,
+            "mean": -1.0234990268945694,
+            "min": -2.5845255851745605,
+            "max": 0.05107644200325012
+          },
+          "td_target": {
+            "count": 32,
+            "mean": -0.7832440142519772,
+            "min": -3.0071277618408203,
+            "max": 0.30050474405288696
+          },
+          "mean_abs_td": 0.43911227583885193,
+          "utility": {
+            "count": 128,
+            "mean": -0.1419995008618571,
+            "min": -1.588431715965271,
+            "max": 0.55182284116745
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 1.302321850322187,
+            "min": 0.46534401178359985,
+            "max": 1.6886992454528809
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.1796875,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 9,
+              "different": 2
+            },
+            "tx_select": {
+              "both_active": 22,
+              "different": 2
+            },
+            "resource_group": {
+              "both_active": 19,
+              "different": 6
+            },
+            "resource_width": {
+              "both_active": 19,
+              "different": 5
+            },
+            "power_level": {
+              "both_active": 19,
+              "different": 6
+            },
+            "cpu_queue": {
+              "both_active": 108,
+              "different": 24
+            },
+            "cpu_frequency": {
+              "both_active": 92,
+              "different": 44
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.21156242489814758,
+          "branch_gradient_norms": {
+            "route": 0.15103518962860107,
+            "tx_select": 0.36699023842811584,
+            "resource_group": 0.17218650877475739,
+            "resource_width": 0.17776009440422058,
+            "power_level": 0.17790745198726654,
+            "cpu_queue": 1.489587664604187,
+            "cpu_frequency": 0.9506068825721741,
+            "gru": 1.2334914207458496,
+            "graph": 1.3631235361099243,
+            "self_encoder": 4.182589054107666,
+            "mixer": 8.129636764526367
+          },
+          "active_branch_counts": {
+            "route": 9,
+            "tx_select": 22,
+            "resource_group": 13,
+            "resource_width": 13,
+            "power_level": 13,
+            "cpu_queue": 108,
+            "cpu_frequency": 70
+          },
+          "mean_branch_q": {
+            "route": 0.06625460833311081,
+            "tx_select": 0.0254274420440197,
+            "resource_group": -0.0006009128992445767,
+            "resource_width": -0.009042223915457726,
+            "power_level": -0.003835882991552353,
+            "cpu_queue": -0.10103680938482285,
+            "cpu_frequency": -0.13024970889091492
+          }
+        },
+        {
+          "episode": 10,
+          "first_slot": 32,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 32,
+          "length": 32,
+          "loss": 0.08003018796443939,
+          "q_taken": {
+            "count": 32,
+            "mean": -0.5367406960576773,
+            "min": -0.8951290845870972,
+            "max": 0.4493398070335388
+          },
+          "td_target": {
+            "count": 32,
+            "mean": -0.6346614966169,
+            "min": -1.498430609703064,
+            "max": 0.08750029653310776
+          },
+          "mean_abs_td": 0.3230641782283783,
+          "utility": {
+            "count": 128,
+            "mean": -0.08830892926926026,
+            "min": -0.6445924043655396,
+            "max": 0.18350154161453247
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 0.6638976766262203,
+            "min": 0.43005937337875366,
+            "max": 1.1765180826187134
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.5546875,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 7,
+              "different": 4
+            },
+            "tx_select": {
+              "both_active": 2,
+              "different": 0
+            },
+            "resource_group": {
+              "both_active": 2,
+              "different": 0
+            },
+            "resource_width": {
+              "both_active": 2,
+              "different": 0
+            },
+            "power_level": {
+              "both_active": 2,
+              "different": 0
+            },
+            "cpu_queue": {
+              "both_active": 72,
+              "different": 28
+            },
+            "cpu_frequency": {
+              "both_active": 40,
+              "different": 14
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.2752438485622406,
+          "branch_gradient_norms": {
+            "route": 0.09834039956331253,
+            "tx_select": 0.05357044190168381,
+            "resource_group": 0.05037420243024826,
+            "resource_width": 0.04950665310025215,
+            "power_level": 0.07572092860937119,
+            "cpu_queue": 0.3525565564632416,
+            "cpu_frequency": 0.16483861207962036,
+            "gru": 0.2399933785200119,
+            "graph": 0.1915854513645172,
+            "self_encoder": 0.5698193907737732,
+            "mixer": 2.1733648777008057
+          },
+          "active_branch_counts": {
+            "route": 7,
+            "tx_select": 2,
+            "resource_group": 2,
+            "resource_width": 2,
+            "power_level": 2,
+            "cpu_queue": 72,
+            "cpu_frequency": 46
+          },
+          "mean_branch_q": {
+            "route": -0.013300755061209202,
+            "tx_select": -0.07607613503932953,
+            "resource_group": -0.0164115559309721,
+            "resource_width": -0.14801961183547974,
+            "power_level": -0.0214128028601408,
+            "cpu_queue": -0.07213183492422104,
+            "cpu_frequency": -0.05081653594970703
+          }
+        },
+        {
+          "episode": 10,
+          "first_slot": 96,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 96,
+          "length": 32,
+          "loss": 0.19387513399124146,
+          "q_taken": {
+            "count": 32,
+            "mean": -1.6700919717550278,
+            "min": -2.1703763008117676,
+            "max": -0.9650793075561523
+          },
+          "td_target": {
+            "count": 32,
+            "mean": -1.6300307270139456,
+            "min": -3.6079776287078857,
+            "max": -0.5815117955207825
+          },
+          "mean_abs_td": 0.4956604838371277,
+          "utility": {
+            "count": 128,
+            "mean": -0.19242946391750593,
+            "min": -0.8176447153091431,
+            "max": 0.19434577226638794
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 0.7854200722649693,
+            "min": 0.5390220284461975,
+            "max": 1.0651254653930664
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.234375,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 31,
+              "different": 14
+            },
+            "tx_select": {
+              "both_active": 9,
+              "different": 3
+            },
+            "resource_group": {
+              "both_active": 6,
+              "different": 3
+            },
+            "resource_width": {
+              "both_active": 6,
+              "different": 3
+            },
+            "power_level": {
+              "both_active": 6,
+              "different": 1
+            },
+            "cpu_queue": {
+              "both_active": 101,
+              "different": 27
+            },
+            "cpu_frequency": {
+              "both_active": 75,
+              "different": 36
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.4920978546142578,
+          "branch_gradient_norms": {
+            "route": 0.49148207902908325,
+            "tx_select": 0.21535281836986542,
+            "resource_group": 0.07204719632863998,
+            "resource_width": 0.08873074501752853,
+            "power_level": 0.0708514153957367,
+            "cpu_queue": 0.5968692302703857,
+            "cpu_frequency": 0.48286330699920654,
+            "gru": 0.6290376782417297,
+            "graph": 0.6535429954528809,
+            "self_encoder": 1.350663423538208,
+            "mixer": 1.9050811529159546
+          },
+          "active_branch_counts": {
+            "route": 31,
+            "tx_select": 9,
+            "resource_group": 3,
+            "resource_width": 3,
+            "power_level": 3,
+            "cpu_queue": 101,
+            "cpu_frequency": 73
+          },
+          "mean_branch_q": {
+            "route": 0.013243303634226322,
+            "tx_select": -0.05693511292338371,
+            "resource_group": -0.006731370929628611,
+            "resource_width": -0.08447287976741791,
+            "power_level": -0.014330845326185226,
+            "cpu_queue": -0.08380883187055588,
+            "cpu_frequency": -0.127553790807724
+          }
+        },
+        {
+          "episode": 10,
+          "first_slot": 448,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 448,
+          "length": 32,
+          "loss": 0.10187303274869919,
+          "q_taken": {
+            "count": 32,
+            "mean": -1.806259861215949,
+            "min": -2.7537577152252197,
+            "max": -0.5508659482002258
+          },
+          "td_target": {
+            "count": 32,
+            "mean": -1.8376763816922903,
+            "min": -3.7523488998413086,
+            "max": -0.7540507912635803
+          },
+          "mean_abs_td": 0.3142975866794586,
+          "utility": {
+            "count": 128,
+            "mean": -0.19627731323998887,
+            "min": -1.2072944641113281,
+            "max": 0.3226907551288605
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 0.9319284879602492,
+            "min": 0.5221650004386902,
+            "max": 1.375612735748291
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.125,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 38,
+              "different": 15
+            },
+            "tx_select": {
+              "both_active": 15,
+              "different": 0
+            },
+            "resource_group": {
+              "both_active": 15,
+              "different": 5
+            },
+            "resource_width": {
+              "both_active": 15,
+              "different": 4
+            },
+            "power_level": {
+              "both_active": 15,
+              "different": 3
+            },
+            "cpu_queue": {
+              "both_active": 125,
+              "different": 40
+            },
+            "cpu_frequency": {
+              "both_active": 88,
+              "different": 36
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.394662469625473,
+          "branch_gradient_norms": {
+            "route": 0.24404571950435638,
+            "tx_select": 0.12802737951278687,
+            "resource_group": 0.0784095823764801,
+            "resource_width": 0.09347444027662277,
+            "power_level": 0.10672055184841156,
+            "cpu_queue": 0.4691949784755707,
+            "cpu_frequency": 0.37592601776123047,
+            "gru": 0.3971613049507141,
+            "graph": 0.3342512845993042,
+            "self_encoder": 0.820038378238678,
+            "mixer": 1.8439017534255981
+          },
+          "active_branch_counts": {
+            "route": 38,
+            "tx_select": 15,
+            "resource_group": 8,
+            "resource_width": 8,
+            "power_level": 8,
+            "cpu_queue": 125,
+            "cpu_frequency": 73
+          },
+          "mean_branch_q": {
+            "route": 0.014492668211460114,
+            "tx_select": -0.07561039924621582,
+            "resource_group": -0.01982998289167881,
+            "resource_width": -0.10676732659339905,
+            "power_level": -0.00973472185432911,
+            "cpu_queue": -0.08566112816333771,
+            "cpu_frequency": -0.1427130550146103
+          }
+        },
+        {
+          "episode": 11,
+          "first_slot": 224,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 224,
+          "length": 32,
+          "loss": 0.05984028801321983,
+          "q_taken": {
+            "count": 32,
+            "mean": -0.43507314450107515,
+            "min": -1.1314324140548706,
+            "max": 0.4503893554210663
+          },
+          "td_target": {
+            "count": 32,
+            "mean": -0.4055357939796522,
+            "min": -1.654089331626892,
+            "max": 0.4467780292034149
+          },
+          "mean_abs_td": 0.2909046411514282,
+          "utility": {
+            "count": 128,
+            "mean": -0.046678058031830005,
+            "min": -0.5801823139190674,
+            "max": 0.7824766635894775
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 1.2088129380717874,
+            "min": 0.9064473509788513,
+            "max": 1.6038893461227417
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.515625,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 9,
+              "different": 4
+            },
+            "tx_select": {
+              "both_active": 7,
+              "different": 0
+            },
+            "resource_group": {
+              "both_active": 7,
+              "different": 4
+            },
+            "resource_width": {
+              "both_active": 7,
+              "different": 1
+            },
+            "power_level": {
+              "both_active": 7,
+              "different": 1
+            },
+            "cpu_queue": {
+              "both_active": 69,
+              "different": 15
+            },
+            "cpu_frequency": {
+              "both_active": 54,
+              "different": 35
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.3170570135116577,
+          "branch_gradient_norms": {
+            "route": 0.12519322335720062,
+            "tx_select": 0.11656474322080612,
+            "resource_group": 0.059389326721429825,
+            "resource_width": 0.03214961290359497,
+            "power_level": 0.03254111856222153,
+            "cpu_queue": 0.3083321452140808,
+            "cpu_frequency": 0.23001152276992798,
+            "gru": 0.29525282979011536,
+            "graph": 0.33670446276664734,
+            "self_encoder": 0.5977184772491455,
+            "mixer": 1.3489890098571777
+          },
+          "active_branch_counts": {
+            "route": 9,
+            "tx_select": 7,
+            "resource_group": 5,
+            "resource_width": 5,
+            "power_level": 5,
+            "cpu_queue": 69,
+            "cpu_frequency": 39
+          },
+          "mean_branch_q": {
+            "route": 0.04432929679751396,
+            "tx_select": -0.013976652175188065,
+            "resource_group": 0.020245807245373726,
+            "resource_width": -0.060141902416944504,
+            "power_level": -0.01627693884074688,
+            "cpu_queue": -0.05983133241534233,
+            "cpu_frequency": -0.0672513097524643
+          }
+        },
+        {
+          "episode": 11,
+          "first_slot": 480,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 480,
+          "length": 20,
+          "loss": 0.17329561710357666,
+          "q_taken": {
+            "count": 20,
+            "mean": -1.9630854070186614,
+            "min": -2.795984983444214,
+            "max": -1.281935214996338
+          },
+          "td_target": {
+            "count": 20,
+            "mean": -1.6899567008018495,
+            "min": -3.1353323459625244,
+            "max": -0.6769100427627563
+          },
+          "mean_abs_td": 0.5137029886245728,
+          "utility": {
+            "count": 80,
+            "mean": -0.2856810182565823,
+            "min": -1.0209506750106812,
+            "max": 0.30526894330978394
+          },
+          "mixer_sensitivity": {
+            "count": 80,
+            "mean": 1.1005182266235352,
+            "min": 0.7051354646682739,
+            "max": 1.572770118713379
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.375,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 10,
+              "different": 1
+            },
+            "tx_select": {
+              "both_active": 5,
+              "different": 0
+            },
+            "resource_group": {
+              "both_active": 3,
+              "different": 1
+            },
+            "resource_width": {
+              "both_active": 3,
+              "different": 3
+            },
+            "power_level": {
+              "both_active": 3,
+              "different": 2
+            },
+            "cpu_queue": {
+              "both_active": 60,
+              "different": 11
+            },
+            "cpu_frequency": {
+              "both_active": 45,
+              "different": 17
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.17301109433174133,
+          "branch_gradient_norms": {
+            "route": 0.44332554936408997,
+            "tx_select": 0.35054919123649597,
+            "resource_group": 0.40493279695510864,
+            "resource_width": 0.36258599162101746,
+            "power_level": 0.4391137659549713,
+            "cpu_queue": 1.483583927154541,
+            "cpu_frequency": 1.0188512802124023,
+            "gru": 1.2051823139190674,
+            "graph": 1.1411402225494385,
+            "self_encoder": 3.2492282390594482,
+            "mixer": 10.437193870544434
+          },
+          "active_branch_counts": {
+            "route": 10,
+            "tx_select": 5,
+            "resource_group": 4,
+            "resource_width": 4,
+            "power_level": 4,
+            "cpu_queue": 60,
+            "cpu_frequency": 46
+          },
+          "mean_branch_q": {
+            "route": 0.005675131920725107,
+            "tx_select": -0.014784636907279491,
+            "resource_group": -0.005438396707177162,
+            "resource_width": -0.08141050487756729,
+            "power_level": -0.037652503699064255,
+            "cpu_queue": -0.14144191145896912,
+            "cpu_frequency": -0.1601744145154953
+          }
+        },
+        {
+          "episode": 12,
+          "first_slot": 128,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 128,
+          "length": 32,
+          "loss": 0.14648887515068054,
+          "q_taken": {
+            "count": 32,
+            "mean": -0.9960042024031281,
+            "min": -1.5648674964904785,
+            "max": -0.4223853647708893
+          },
+          "td_target": {
+            "count": 32,
+            "mean": -0.5894961468875408,
+            "min": -1.260301113128662,
+            "max": -0.18085689842700958
+          },
+          "mean_abs_td": 0.4344308376312256,
+          "utility": {
+            "count": 128,
+            "mean": -0.08871412741427775,
+            "min": -0.485832542181015,
+            "max": 0.37224268913269043
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 1.2243635402992368,
+            "min": 0.9397331476211548,
+            "max": 1.7214655876159668
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.3828125,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 8,
+              "different": 2
+            },
+            "tx_select": {
+              "both_active": 9,
+              "different": 0
+            },
+            "resource_group": {
+              "both_active": 9,
+              "different": 3
+            },
+            "resource_width": {
+              "both_active": 9,
+              "different": 1
+            },
+            "power_level": {
+              "both_active": 9,
+              "different": 5
+            },
+            "cpu_queue": {
+              "both_active": 96,
+              "different": 42
+            },
+            "cpu_frequency": {
+              "both_active": 74,
+              "different": 35
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.21681024134159088,
+          "branch_gradient_norms": {
+            "route": 0.1073213517665863,
+            "tx_select": 0.3386886417865753,
+            "resource_group": 0.12930801510810852,
+            "resource_width": 0.15127135813236237,
+            "power_level": 0.13266049325466156,
+            "cpu_queue": 1.880149006843567,
+            "cpu_frequency": 1.2432371377944946,
+            "gru": 1.5084178447723389,
+            "graph": 1.317142367362976,
+            "self_encoder": 5.336975574493408,
+            "mixer": 14.449094772338867
+          },
+          "active_branch_counts": {
+            "route": 8,
+            "tx_select": 9,
+            "resource_group": 4,
+            "resource_width": 4,
+            "power_level": 4,
+            "cpu_queue": 96,
+            "cpu_frequency": 67
+          },
+          "mean_branch_q": {
+            "route": 0.024715622887015343,
+            "tx_select": -0.07014292478561401,
+            "resource_group": -0.014484071172773838,
+            "resource_width": -0.07800334692001343,
+            "power_level": -0.014644589275121689,
+            "cpu_queue": -0.05870819836854935,
+            "cpu_frequency": -0.07168227434158325
+          }
+        },
+        {
+          "episode": 13,
+          "first_slot": 288,
+          "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+          "recurrent_context_slots": 288,
+          "length": 32,
+          "loss": 0.09850689023733139,
+          "q_taken": {
+            "count": 32,
+            "mean": -2.1125097274780273,
+            "min": -2.5504374504089355,
+            "max": -1.5571467876434326
+          },
+          "td_target": {
+            "count": 32,
+            "mean": -2.061575476080179,
+            "min": -3.1858601570129395,
+            "max": -1.3475627899169922
+          },
+          "mean_abs_td": 0.3689674139022827,
+          "utility": {
+            "count": 128,
+            "mean": -0.15406528081803117,
+            "min": -0.9316145181655884,
+            "max": 0.27422910928726196
+          },
+          "mixer_sensitivity": {
+            "count": 128,
+            "mean": 1.163009884301573,
+            "min": 0.7530014514923096,
+            "max": 1.463926911354065
+          },
+          "mixer_sensitivity_below_1e_6_fraction": 0.0,
+          "saved_vs_greedy_agent_joint_match_fraction": 0.4296875,
+          "online_target_active_branch_disagreements": {
+            "route": {
+              "both_active": 16,
+              "different": 8
+            },
+            "tx_select": {
+              "both_active": 9,
+              "different": 0
+            },
+            "resource_group": {
+              "both_active": 9,
+              "different": 2
+            },
+            "resource_width": {
+              "both_active": 9,
+              "different": 3
+            },
+            "power_level": {
+              "both_active": 9,
+              "different": 3
+            },
+            "cpu_queue": {
+              "both_active": 87,
+              "different": 31
+            },
+            "cpu_frequency": {
+              "both_active": 45,
+              "different": 18
+            }
+          },
+          "target_lag_mean_abs_td_target_change": 0.15137740969657898,
+          "branch_gradient_norms": {
+            "route": 0.20005610585212708,
+            "tx_select": 0.08289647847414017,
+            "resource_group": 0.031648676842451096,
+            "resource_width": 0.038181599229574203,
+            "power_level": 0.02543286606669426,
+            "cpu_queue": 0.3631463944911957,
+            "cpu_frequency": 0.25215065479278564,
+            "gru": 0.3557232618331909,
+            "graph": 0.2978828549385071,
+            "self_encoder": 0.6497140526771545,
+            "mixer": 2.883742332458496
+          },
+          "active_branch_counts": {
+            "route": 16,
+            "tx_select": 9,
+            "resource_group": 4,
+            "resource_width": 4,
+            "power_level": 4,
+            "cpu_queue": 87,
+            "cpu_frequency": 61
+          },
+          "mean_branch_q": {
+            "route": 0.01827418804168701,
+            "tx_select": -0.050956688821315765,
+            "resource_group": -0.004482172895222902,
+            "resource_width": -0.07654666900634766,
+            "power_level": 0.004978585988283157,
+            "cpu_queue": -0.09435980021953583,
+            "cpu_frequency": -0.11218921095132828
+          }
+        }
+      ]
+    }
+  ],
+  "chunk_model_pairs": 32,
+  "sampled_chunks": 16,
+  "sampling_seed": 20261017,
+  "optimizer_created": false,
+  "optimizer_updates": 0,
+  "parameters_checkpoints_unchanged": true,
+  "claim_boundary": "Fixed sampled real chunks from the 8k replay, evaluated with both checkpoint models and their targets; current-weight full prefix reconstruction. Includes late off-policy data for the 4k model. Finite nonzero sampled gradients do not establish good credit assignment or optimal learning."
+}

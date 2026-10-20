@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "protected_files_byte_identical": 907,
+  "protected_inventory": "protected_before.json",
+  "source_and_learning_configuration_changed": false
+}

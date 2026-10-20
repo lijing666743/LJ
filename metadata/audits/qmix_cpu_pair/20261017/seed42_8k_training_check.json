@@ -1,0 +1,60 @@
+{
+  "schema": "qmix_cpu_pair_development_training_check.v1",
+  "checked_at": "2026-10-17T17:11:43.124870+08:00",
+  "status": "passed",
+  "training_steps": 8000,
+  "training_episodes": 16,
+  "optimizer_updates": 225,
+  "checkpoint_schema": "factorized_gat_qmix.checkpoint.v8",
+  "config_hash": "ce44bb693b2b3db39069ebbdb1ce098b8dc82b97a1da0a35291426eb46da3d77",
+  "runtime": {
+    "torch": "2.7.1+cu118",
+    "device": "cuda"
+  },
+  "checkpoints": [
+    {
+      "steps": 4000,
+      "sha256": "5be5122e7d21c290131dbffb7fe7b01dc8036937959c71b28ff14445c981b05a",
+      "updates": 97
+    },
+    {
+      "steps": 8000,
+      "sha256": "1c6b397e970fbb6abe57ff033267b0285d5f209ae5aceb52b052879a5e15e026",
+      "updates": 225
+    }
+  ],
+  "source_and_cpu_exploration_contracts_valid": true,
+  "independent_initialization": true,
+  "prefix_records_unchanged_4k_to_8k": true,
+  "changed_online_tensors_4k_to_8k": 87,
+  "changed_frequency_tensors": [
+    "agent.heads.cpu_frequency.0.weight",
+    "agent.heads.cpu_frequency.0.bias",
+    "agent.heads.cpu_frequency.2.weight",
+    "agent.heads.cpu_frequency.2.bias"
+  ],
+  "finite_updates_weights": true,
+  "current_prefix_used_in_all_updates": true,
+  "training_raw_aggregate_csv_match": true,
+  "dashboard_png_verified": true,
+  "reward_component_identity": true,
+  "decision_counts_verified": true,
+  "training_totals": {
+    "generated": 1943,
+    "completed": 79,
+    "exploration_agent_decisions": 28167,
+    "greedy_agent_decisions": 3833
+  },
+  "training_completion_rate_pct": 4.0658775090066905,
+  "target_copy_events": [
+    {
+      "environment_steps": 7224,
+      "update": 200
+    }
+  ],
+  "last_epsilon": 0.7625,
+  "signal_gate_status": "signal-watch",
+  "protected_files_verified": 872,
+  "new_training_started_by_agent": false,
+  "claim_boundary": "Training provenance and numeric checks only; evaluate frozen checkpoints before judging performance."
+}

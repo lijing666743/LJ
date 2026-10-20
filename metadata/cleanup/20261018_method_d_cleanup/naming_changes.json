@@ -1,0 +1,164 @@
+{
+  "schema": "method_d_naming_changes.v1",
+  "document_edits": [
+    {
+      "file": "README.md",
+      "before": "保留主方法 C，推进 C 共同表示与信用增强 QMIX 强基线。",
+      "after": "保留主方法 C，推进方法 D（CFC-QMIX，共同特征与信用增强 QMIX）强基线。",
+      "matches": 1
+    },
+    {
+      "file": "README.md",
+      "before": "| C 对齐 QMIX |",
+      "after": "| D（CFC-QMIX） |",
+      "matches": 1
+    },
+    {
+      "file": "README.md",
+      "before": "QMIX 当前单 seed 同预算表现接近 C",
+      "after": "D 当前单 seed 同预算表现接近 C",
+      "matches": 1
+    },
+    {
+      "file": "README.md",
+      "before": "## 阅读入口",
+      "after": "D 的英文全称为 Common Feature and Credit Augmented QMIX。D 是本项目的比较编号，内部方法标识仍为 `c_feature_credit_qmix`；现有配置、模型及恢复路径不改。\n\n## 阅读入口",
+      "matches": 1
+    },
+    {
+      "file": "docs/results/CURRENT_EXPERIMENT_STATUS.md",
+      "before": "保留 C，推进 `c_feature_credit_qmix`。",
+      "after": "保留 C，推进 D（CFC-QMIX，共同特征与信用增强 QMIX），内部标识为 `c_feature_credit_qmix`。",
+      "matches": 1
+    },
+    {
+      "file": "docs/results/CURRENT_EXPERIMENT_STATUS.md",
+      "before": "| 当前 QMIX seed42 |",
+      "after": "| D（CFC-QMIX）seed42 |",
+      "matches": 1
+    },
+    {
+      "file": "docs/results/CURRENT_EXPERIMENT_STATUS.md",
+      "before": "## QMIX 最新结果",
+      "after": "## D（CFC-QMIX）最新结果",
+      "matches": 1
+    },
+    {
+      "file": "docs/results/CURRENT_EXPERIMENT_STATUS.md",
+      "before": "| QMIX 8k |",
+      "after": "| D 8k |",
+      "matches": 1
+    },
+    {
+      "file": "docs/results/CURRENT_EXPERIMENT_STATUS.md",
+      "before": "| QMIX 12k |",
+      "after": "| D 12k |",
+      "matches": 1
+    },
+    {
+      "file": "docs/results/CURRENT_EXPERIMENT_STATUS.md",
+      "before": "| QMIX 16k |",
+      "after": "| D 16k |",
+      "matches": 1
+    },
+    {
+      "file": "docs/results/README.md",
+      "before": "[C 共同表示与信用增强 QMIX：4k—16k]",
+      "after": "[D（CFC-QMIX）：4k—16k]",
+      "matches": 1
+    },
+    {
+      "file": "docs/results/README.md",
+      "before": "[C 匹配 QMIX 协议]",
+      "after": "[D 的 C 匹配协议]",
+      "matches": 1
+    },
+    {
+      "file": "experiments/README.md",
+      "before": "当前方法为 `c_feature_credit_qmix`，seed42 累计 16k 完成",
+      "after": "当前为 D（CFC-QMIX），内部标识 `c_feature_credit_qmix`，seed42 累计 16k 完成",
+      "matches": 1
+    },
+    {
+      "file": "experiments/strong-baselines/README.md",
+      "before": "当前方法为 `c_feature_credit_qmix`（C 共同表示与信用增强 QMIX）",
+      "after": "当前方法固定命名为 **D（CFC-QMIX，共同特征与信用增强 QMIX）**；英文全称为 Common Feature and Credit Augmented QMIX，内部方法标识保留 `c_feature_credit_qmix`",
+      "matches": 1
+    },
+    {
+      "file": "experiments/strong-baselines/README.md",
+      "before": "## 当前配置",
+      "after": "D 是完整学习基线的比较编号，不是 A/B/C 结构消融中的第四个单因素分支。原版 QMIX 与旧 `fa-gat-qmix-*` 候选不统称为 D。\n\n## 当前配置",
+      "matches": 1
+    },
+    {
+      "file": "experiments/strong-baselines/README.md",
+      "before": "工程验证，不作为开发性能结果",
+      "after": "工程验证配置；旧试跑输出已清理，验收记录保留，不作为开发性能结果",
+      "matches": 1
+    },
+    {
+      "file": "sections/README.md",
+      "before": "[C 匹配 QMIX 协议]",
+      "after": "[D（CFC-QMIX）协议]",
+      "matches": 1
+    },
+    {
+      "file": "sections/README.md",
+      "before": "[4k—16k 结果]",
+      "after": "[D 的 4k—16k 结果]",
+      "matches": 1
+    },
+    {
+      "file": "sections/results/20261018_C_FEATURE_CREDIT_QMIX.md",
+      "before": "# C共同表示与信用来源的QMIX适配核验",
+      "after": "# D（CFC-QMIX）：共同特征与信用增强QMIX核验",
+      "matches": 1
+    },
+    {
+      "file": "sections/results/20261018_C_FEATURE_CREDIT_QMIX.md",
+      "before": "## C设置审查与比较边界",
+      "after": "## 固定名称与内部身份\n\n本项目从2026-10-18起统一将当前方法称为 **D（CFC-QMIX）**，英文全称为 **Common Feature and Credit Augmented QMIX**，中文为“共同特征与信用增强QMIX”。D是比较编号，CFC-QMIX是本项目适配实现的短名，不表示原版QMIX复现，也不把D作为A/B/C中的单因素结构消融。当前结果、后续表格和叙述使用此名称。\n\n内部method_id仍为`c_feature_credit_qmix`，既有配置hash、run_id、源码、模型、训练预算与恢复路径均不因命名改变。旧`fa-gat-qmix-*`候选不归入D。对应关系登记于`metadata/METHOD_CATALOG.json`。本次只确定名称，没有重新训练或改写原始指标。\n\n## C设置审查与比较边界",
+      "matches": 1
+    },
+    {
+      "file": "sections/planning/20261018_C_MATCHED_QMIX_PROTOCOL.md",
+      "before": "## 已核对的C设置",
+      "after": "命名补记（2026-10-18，训练完成后）：当前适配实现统一称 **D（CFC-QMIX，Common Feature and Credit Augmented QMIX）**，内部ID仍为`c_feature_credit_qmix`。此次补记只固定显示名称，不改变本协议的预先登记设置、科学边界或既有实验身份。\n\n## 已核对的C设置",
+      "matches": 1
+    },
+    {
+      "file": "logs/README.md",
+      "before": "当前 QMIX 原 8k 和 4k/8k 评估",
+      "after": "D（CFC-QMIX）原 8k 和 4k/8k 评估",
+      "matches": 1
+    },
+    {
+      "file": "logs/README.md",
+      "before": "QMIX 16k 的 4k/8k 评估复用原 8k 目录",
+      "after": "D 的内部标识仍为 `c_feature_credit_qmix`，模型与日志不重命名；16k 的 4k/8k 评估复用原 8k 目录",
+      "matches": 1
+    },
+    {
+      "file": "docs/DIRECTORY_GUIDE.md",
+      "before": "当前 QMIX、工程配置与旧候选索引",
+      "after": "D（CFC-QMIX）、工程配置与旧候选索引",
+      "matches": 1
+    },
+    {
+      "file": "docs/DIRECTORY_GUIDE.md",
+      "before": "当前 QMIX 8k/16k 训练与评估",
+      "after": "D（CFC-QMIX）8k/16k 训练与评估，目录沿用内部标识",
+      "matches": 1
+    },
+    {
+      "file": "metadata/README.md",
+      "before": "这里的审计不是额外实验结果。",
+      "after": "这里的审计不是额外实验结果。A/B/C/D 的显示名称与内部标识见 [METHOD_CATALOG.json](METHOD_CATALOG.json)。",
+      "matches": 1
+    }
+  ],
+  "catalog": "metadata/METHOD_CATALOG.json",
+  "runtime_code_or_config_changes": false,
+  "old_artifact_labels_preserved": true
+}

@@ -1,0 +1,74 @@
+{
+  "schema": "qmix_frozen_evaluation.v1",
+  "evaluation_run_id": "qmix-eval__a456202f584320b2",
+  "method_suite": [
+    "c_feature_credit_qmix",
+    "local_only",
+    "heuristic",
+    "random"
+  ],
+  "training_seed": 44,
+  "training_steps": 12000,
+  "evaluation_seeds": [
+    1042,
+    1043,
+    1044,
+    1045,
+    1046
+  ],
+  "checkpoint_sha256": "33b85dd3f286582e2d144694617a6cdd8103641277520eb279328987ceb9932a",
+  "config_hash": "feb5f1ec962e84bc009ddcd1fd7b914623a02c06b8c062013933af1bc0279117",
+  "device": "cpu",
+  "dtype": "float32",
+  "network_updates": 0,
+  "checkpoint_kind": "periodic",
+  "evaluation_purpose": "development_checkpoint",
+  "source_training_budget_steps": 16000,
+  "source_training_config_hash": "6a276b46fb09b627ef43d33707f37b48cc82a4899f19f0aa8bc4fccfd00c531d",
+  "evaluation_source_sha256": {
+    "src/evaluation/metrics.py": "0d52b4174f1983ca6f856b8bd152fa636ff3c6ef69479238644cd5f7d7c669b9",
+    "src/evaluation/qmix_checkpoint_progress.py": "fb881427f666b261c218c52afab5a90976b6496e24bab64f71886b09e3024603",
+    "src/evaluation/qmix_runner.py": "3fad5966a4ac2aa53925278710dae090a86a71ec9b7bd0b489bcad2948072ff3",
+    "src/evaluation/runner.py": "8ee3f99fb380c3e17fd34131c14fcf746afae5340304edf09a5d6769c670d54d",
+    "src/policies/__init__.py": "0c5aaac6c8db7166e2d60328f4c7e4e37527dcf882f0ab7cbf34282336a72ff0",
+    "src/policies/base.py": "679768c62a43f209141da545ae53a2cb4d7b1986fc0c56909fefb9c1e57f482d",
+    "src/policies/heuristic_policy.py": "9f909b19c8f2e3fd9e5f756caf56ff8c4651e40a03c5627c3d8064afb13fd9c5",
+    "src/policies/local_only_policy.py": "738d1d05d4c8f5d36a92b5d3bc586e9fdaf93f3b4107e162fb82ced7d841d713",
+    "src/policies/random_policy.py": "813627b0de07f2769e0bfd4a6cf1bd52a5515b60c178a06a20ee7e17e619364e"
+  },
+  "exploration": false,
+  "actor_inputs": "existing ActorObservation only",
+  "source_manifest": "Checkpoint config and independent QMIX architecture",
+  "shared_external_trace_by_seed": {
+    "1042": {
+      "c_feature_credit_qmix": "0b9f421b7672bbdddb2eba95fc9730106975ac1ea1d3eb714f537ba9cf2f0889",
+      "local_only": "0b9f421b7672bbdddb2eba95fc9730106975ac1ea1d3eb714f537ba9cf2f0889",
+      "heuristic": "0b9f421b7672bbdddb2eba95fc9730106975ac1ea1d3eb714f537ba9cf2f0889",
+      "random": "0b9f421b7672bbdddb2eba95fc9730106975ac1ea1d3eb714f537ba9cf2f0889"
+    },
+    "1043": {
+      "c_feature_credit_qmix": "3d52c983249ca048a4c05e262a9196d81aa67273835b373ad79c947dfe7d3a1c",
+      "local_only": "3d52c983249ca048a4c05e262a9196d81aa67273835b373ad79c947dfe7d3a1c",
+      "heuristic": "3d52c983249ca048a4c05e262a9196d81aa67273835b373ad79c947dfe7d3a1c",
+      "random": "3d52c983249ca048a4c05e262a9196d81aa67273835b373ad79c947dfe7d3a1c"
+    },
+    "1044": {
+      "c_feature_credit_qmix": "11423f92499e671a3e7da9126bbbff9e7030eb4af260b02c86ab07b5bf3da28c",
+      "local_only": "11423f92499e671a3e7da9126bbbff9e7030eb4af260b02c86ab07b5bf3da28c",
+      "heuristic": "11423f92499e671a3e7da9126bbbff9e7030eb4af260b02c86ab07b5bf3da28c",
+      "random": "11423f92499e671a3e7da9126bbbff9e7030eb4af260b02c86ab07b5bf3da28c"
+    },
+    "1045": {
+      "c_feature_credit_qmix": "9674fd1e3aad1926ae38adbbe09b3b7e0aff31d4332518f66e48f91faa55fe04",
+      "local_only": "9674fd1e3aad1926ae38adbbe09b3b7e0aff31d4332518f66e48f91faa55fe04",
+      "heuristic": "9674fd1e3aad1926ae38adbbe09b3b7e0aff31d4332518f66e48f91faa55fe04",
+      "random": "9674fd1e3aad1926ae38adbbe09b3b7e0aff31d4332518f66e48f91faa55fe04"
+    },
+    "1046": {
+      "c_feature_credit_qmix": "9e3663178ffc8b32878a066686043e622c8b8befa9267f31e993e6b43ec34800",
+      "local_only": "9e3663178ffc8b32878a066686043e622c8b8befa9267f31e993e6b43ec34800",
+      "heuristic": "9e3663178ffc8b32878a066686043e622c8b8befa9267f31e993e6b43ec34800",
+      "random": "9e3663178ffc8b32878a066686043e622c8b8befa9267f31e993e6b43ec34800"
+    }
+  }
+}

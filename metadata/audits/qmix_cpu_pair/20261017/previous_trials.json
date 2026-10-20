@@ -1,0 +1,1692 @@
+{
+  "schema": "qmix_target_sync_adjustment.v1",
+  "date": "2026-10-17T09:57:52.530551+08:00",
+  "status": "bounded_target_sync_trial_completed_not_accepted",
+  "user_authorization": "Diagnose first, consult GitHub, make bounded changes, then delete failed QMIX data/configuration that is no longer required for new experiments. Agent executes training/evaluation.",
+  "completed_v6_training": {
+    "steps": 16000,
+    "episodes": 32,
+    "updates": 481,
+    "new_steps": 8000,
+    "new_updates": 256,
+    "evaluation_records": 80,
+    "new_evaluation_records": 40,
+    "eval_network_updates": 0,
+    "checks": {
+      "training_raw_aggregate_match": true,
+      "training_csv_rows": 32,
+      "inherited_episode_and_update_records_unchanged": true,
+      "training_updates_finite": true,
+      "prefix_reconstruction_used_in_all_updates": true,
+      "full_state_continuation_provenance_verified": true,
+      "changed_online_parameter_tensors": 87,
+      "online_weights_finite": true,
+      "checkpoint_source_identities_verified": true,
+      "verified_evaluation_records": 80,
+      "new_evaluation_records": 40,
+      "reused_evaluation_records": 40,
+      "evaluation_network_updates": 0,
+      "fixed_baseline_repeat_matches": 45,
+      "task_energy_invariants_verified": true,
+      "shared_external_traces_verified": true,
+      "original_4k_8k_summary_unchanged": true,
+      "summary_csv_match": true,
+      "summary_csv_rows": 16,
+      "per_scene_csv_rows": 80,
+      "retained_input_hashes_unchanged": 151
+    },
+    "results": [
+      {
+        "training_steps": 4000,
+        "training_seed": 42,
+        "method_id": "factorized_action_gat_qmix",
+        "generated": 605,
+        "completed": 6,
+        "completion_ratio": 0.009917355371900827,
+        "expired": 547,
+        "truncated": 52,
+        "total_energy_j": 1.8018269209008757,
+        "cpu_energy_j": 1.5208752744944232,
+        "tx_energy_j": 0.28095164640645254,
+        "energy_per_completed_task_j": 0.3003044868168126,
+        "mean_reward": -132.56573055131284,
+        "checkpoint_sha256": "886ef3a595e6c798a2db7ae560787fce09b8851ab8542f9d2b635388366e8be1"
+      },
+      {
+        "training_steps": 8000,
+        "training_seed": 42,
+        "method_id": "factorized_action_gat_qmix",
+        "generated": 605,
+        "completed": 166,
+        "completion_ratio": 0.2743801652892562,
+        "expired": 394,
+        "truncated": 45,
+        "total_energy_j": 71.78134366484792,
+        "cpu_energy_j": 71.70504494736326,
+        "tx_energy_j": 0.07629871748466287,
+        "energy_per_completed_task_j": 0.4324177329207706,
+        "mean_reward": -63.123796768019346,
+        "checkpoint_sha256": "8d9473c067bef41c7a086530f63d91175ba249489b9e625503236ed4fbcab593"
+      },
+      {
+        "training_steps": 12000,
+        "training_seed": 42,
+        "method_id": "factorized_action_gat_qmix",
+        "generated": 605,
+        "completed": 116,
+        "completion_ratio": 0.19173553719008266,
+        "expired": 445,
+        "truncated": 44,
+        "total_energy_j": 63.04118745643204,
+        "cpu_energy_j": 63.04118745643204,
+        "tx_energy_j": 0.0,
+        "energy_per_completed_task_j": 0.5434585125554486,
+        "mean_reward": -84.1878694853144,
+        "checkpoint_sha256": "66314fbd22b3e65f045959e84173037974857eaf1bcfe470978daa7688b9d79b"
+      },
+      {
+        "training_steps": 16000,
+        "training_seed": 42,
+        "method_id": "factorized_action_gat_qmix",
+        "generated": 605,
+        "completed": 102,
+        "completion_ratio": 0.16859504132231404,
+        "expired": 455,
+        "truncated": 48,
+        "total_energy_j": 49.10588275913852,
+        "cpu_energy_j": 48.25742185245247,
+        "tx_energy_j": 0.8484609066860471,
+        "energy_per_completed_task_j": 0.481430223128809,
+        "mean_reward": -90.14713739721203,
+        "checkpoint_sha256": "bdc82835bc98cf476314bf42162c787fbd6266c7b84eb08f8d745b9d7094ad82"
+      }
+    ]
+  },
+  "diagnostic_summary": {
+    "behavior": [
+      {
+        "steps": 8000,
+        "counts": {
+          "route_decisions": 3390,
+          "cpu_backlogged_decisions": 4855,
+          "cpu_backlogged_idle": 182,
+          "cpu_selected_queue": 4673,
+          "cpu_selected_queue_zero_frequency": 1392,
+          "cpu_positive_feasible_decisions": 4855,
+          "cpu_positive_feasible_but_idle_or_zero": 1574
+        },
+        "route_choices": {
+          "local": 335,
+          "defer": 3047,
+          "remote": 8
+        },
+        "backlogged_frequency_choices": {
+          "0.0": 1574,
+          "1.0": 3153,
+          "0.25": 125,
+          "0.5": 3
+        },
+        "expired_by_stage": {
+          "unbound": 231,
+          "local": 163
+        },
+        "q_margins": {
+          "route_local_minus_defer": {
+            "count": 3390,
+            "weighted_mean": -0.4749495528462538
+          },
+          "cpu_best_positive_minus_idle": {
+            "count": 4855,
+            "weighted_mean": 0.39004358051634413
+          }
+        },
+        "cpu_positive_feasible_idle_or_zero_pct": 32.420185375901134
+      },
+      {
+        "steps": 12000,
+        "counts": {
+          "route_decisions": 3598,
+          "cpu_backlogged_decisions": 6027,
+          "cpu_backlogged_idle": 1359,
+          "cpu_selected_queue": 4668,
+          "cpu_selected_queue_zero_frequency": 798,
+          "cpu_positive_feasible_decisions": 6027,
+          "cpu_positive_feasible_but_idle_or_zero": 2157
+        },
+        "route_choices": {
+          "local": 427,
+          "defer": 3171
+        },
+        "backlogged_frequency_choices": {
+          "0.0": 2157,
+          "1.0": 2568,
+          "0.25": 1146,
+          "0.5": 156
+        },
+        "expired_by_stage": {
+          "local": 294,
+          "unbound": 151
+        },
+        "q_margins": {
+          "route_local_minus_defer": {
+            "count": 3598,
+            "weighted_mean": -0.24498049533610677
+          },
+          "cpu_best_positive_minus_idle": {
+            "count": 6027,
+            "weighted_mean": 0.1619537655321777
+          }
+        },
+        "cpu_positive_feasible_idle_or_zero_pct": 35.788949726231955
+      },
+      {
+        "steps": 16000,
+        "counts": {
+          "route_decisions": 3814,
+          "cpu_backlogged_decisions": 4661,
+          "cpu_backlogged_idle": 1323,
+          "cpu_selected_queue": 3338,
+          "cpu_selected_queue_zero_frequency": 649,
+          "cpu_positive_feasible_decisions": 4661,
+          "cpu_positive_feasible_but_idle_or_zero": 1972
+        },
+        "route_choices": {
+          "defer": 3479,
+          "local": 246,
+          "remote": 89
+        },
+        "backlogged_frequency_choices": {
+          "0.0": 1972,
+          "0.25": 489,
+          "1.0": 1883,
+          "0.5": 317
+        },
+        "expired_by_stage": {
+          "unbound": 244,
+          "local": 138,
+          "cpu": 71,
+          "tx": 2
+        },
+        "q_margins": {
+          "route_local_minus_defer": {
+            "count": 3814,
+            "weighted_mean": -0.32198603150611094
+          },
+          "cpu_best_positive_minus_idle": {
+            "count": 4661,
+            "weighted_mean": 0.0844636786309193
+          }
+        },
+        "cpu_positive_feasible_idle_or_zero_pct": 42.30851748551813
+      }
+    ],
+    "replay": [
+      {
+        "steps": 8000,
+        "stratum": "early",
+        "chunks": 16,
+        "loss": 0.1885478594340384,
+        "mean_abs_td": 0.4482821738347411,
+        "target_lag_mean_abs_td_target_change": 0.1658617309294641,
+        "online_target_active_branch_disagreements": {
+          "route": {
+            "both_active": 223,
+            "different": 104
+          },
+          "tx_select": {
+            "both_active": 225,
+            "different": 14
+          },
+          "resource_group": {
+            "both_active": 203,
+            "different": 55
+          },
+          "resource_width": {
+            "both_active": 203,
+            "different": 33
+          },
+          "power_level": {
+            "both_active": 203,
+            "different": 27
+          },
+          "cpu_queue": {
+            "both_active": 1682,
+            "different": 358
+          },
+          "cpu_frequency": {
+            "both_active": 1398,
+            "different": 285
+          }
+        },
+        "active_gradient_min": {
+          "route": 0.013876068405807018,
+          "cpu_queue": 0.06472060829401016,
+          "cpu_frequency": 0.05187046900391579,
+          "gru": 0.09114076942205429,
+          "mixer": 0.7290319204330444
+        },
+        "mixer_sensitivity_min": 0.10980436205863953
+      },
+      {
+        "steps": 8000,
+        "stratum": "late",
+        "chunks": 16,
+        "loss": 0.18085930421322333,
+        "mean_abs_td": 0.4420855463552876,
+        "target_lag_mean_abs_td_target_change": 0.15295735200350524,
+        "online_target_active_branch_disagreements": {
+          "route": {
+            "both_active": 188,
+            "different": 49
+          },
+          "tx_select": {
+            "both_active": 128,
+            "different": 1
+          },
+          "resource_group": {
+            "both_active": 111,
+            "different": 8
+          },
+          "resource_width": {
+            "both_active": 111,
+            "different": 14
+          },
+          "power_level": {
+            "both_active": 111,
+            "different": 15
+          },
+          "cpu_queue": {
+            "both_active": 1400,
+            "different": 200
+          },
+          "cpu_frequency": {
+            "both_active": 1174,
+            "different": 197
+          }
+        },
+        "active_gradient_min": {
+          "route": 0.005652253516018391,
+          "cpu_queue": 0.06901278346776962,
+          "cpu_frequency": 0.05607306584715843,
+          "gru": 0.07886392623186111,
+          "mixer": 1.2122385501861572
+        },
+        "mixer_sensitivity_min": 0.11137638986110687
+      },
+      {
+        "steps": 12000,
+        "stratum": "early",
+        "chunks": 16,
+        "loss": 0.11703621665947139,
+        "mean_abs_td": 0.38211335334926844,
+        "target_lag_mean_abs_td_target_change": 0.38320748694241047,
+        "online_target_active_branch_disagreements": {
+          "route": {
+            "both_active": 223,
+            "different": 97
+          },
+          "tx_select": {
+            "both_active": 225,
+            "different": 33
+          },
+          "resource_group": {
+            "both_active": 189,
+            "different": 77
+          },
+          "resource_width": {
+            "both_active": 189,
+            "different": 37
+          },
+          "power_level": {
+            "both_active": 189,
+            "different": 63
+          },
+          "cpu_queue": {
+            "both_active": 1682,
+            "different": 563
+          },
+          "cpu_frequency": {
+            "both_active": 1266,
+            "different": 396
+          }
+        },
+        "active_gradient_min": {
+          "route": 0.02215634100139141,
+          "cpu_queue": 0.09692700952291489,
+          "cpu_frequency": 0.0648409053683281,
+          "gru": 0.12652070820331573,
+          "mixer": 1.275844931602478
+        },
+        "mixer_sensitivity_min": 0.09692944586277008
+      },
+      {
+        "steps": 12000,
+        "stratum": "late",
+        "chunks": 16,
+        "loss": 0.1682727787674976,
+        "mean_abs_td": 0.46239836827045727,
+        "target_lag_mean_abs_td_target_change": 0.3881849386111027,
+        "online_target_active_branch_disagreements": {
+          "route": {
+            "both_active": 188,
+            "different": 39
+          },
+          "tx_select": {
+            "both_active": 128,
+            "different": 30
+          },
+          "resource_group": {
+            "both_active": 88,
+            "different": 37
+          },
+          "resource_width": {
+            "both_active": 88,
+            "different": 29
+          },
+          "power_level": {
+            "both_active": 88,
+            "different": 23
+          },
+          "cpu_queue": {
+            "both_active": 1400,
+            "different": 435
+          },
+          "cpu_frequency": {
+            "both_active": 992,
+            "different": 308
+          }
+        },
+        "active_gradient_min": {
+          "route": 0.0079826470464468,
+          "cpu_queue": 0.20524153113365173,
+          "cpu_frequency": 0.12310145050287247,
+          "gru": 0.19211776554584503,
+          "mixer": 1.3533107042312622
+        },
+        "mixer_sensitivity_min": 0.09784166514873505
+      },
+      {
+        "steps": 16000,
+        "stratum": "early",
+        "chunks": 16,
+        "loss": 0.0941169208381325,
+        "mean_abs_td": 0.33754783496260643,
+        "target_lag_mean_abs_td_target_change": 0.32239111233502626,
+        "online_target_active_branch_disagreements": {
+          "route": {
+            "both_active": 223,
+            "different": 67
+          },
+          "tx_select": {
+            "both_active": 225,
+            "different": 15
+          },
+          "resource_group": {
+            "both_active": 182,
+            "different": 54
+          },
+          "resource_width": {
+            "both_active": 182,
+            "different": 38
+          },
+          "power_level": {
+            "both_active": 182,
+            "different": 32
+          },
+          "cpu_queue": {
+            "both_active": 1682,
+            "different": 315
+          },
+          "cpu_frequency": {
+            "both_active": 1336,
+            "different": 437
+          }
+        },
+        "active_gradient_min": {
+          "route": 0.022614924237132072,
+          "cpu_queue": 0.14719368517398834,
+          "cpu_frequency": 0.08428347110748291,
+          "gru": 0.20512257516384125,
+          "mixer": 1.3682405948638916
+        },
+        "mixer_sensitivity_min": 0.1339557021856308
+      },
+      {
+        "steps": 16000,
+        "stratum": "late",
+        "chunks": 16,
+        "loss": 0.12853453903138137,
+        "mean_abs_td": 0.3843380460719101,
+        "target_lag_mean_abs_td_target_change": 0.3213541769430417,
+        "online_target_active_branch_disagreements": {
+          "route": {
+            "both_active": 188,
+            "different": 55
+          },
+          "tx_select": {
+            "both_active": 128,
+            "different": 20
+          },
+          "resource_group": {
+            "both_active": 84,
+            "different": 25
+          },
+          "resource_width": {
+            "both_active": 84,
+            "different": 21
+          },
+          "power_level": {
+            "both_active": 84,
+            "different": 25
+          },
+          "cpu_queue": {
+            "both_active": 1400,
+            "different": 367
+          },
+          "cpu_frequency": {
+            "both_active": 976,
+            "different": 287
+          }
+        },
+        "active_gradient_min": {
+          "route": 0.018415415659546852,
+          "cpu_queue": 0.1269253045320511,
+          "cpu_frequency": 0.07851951569318771,
+          "gru": 0.1716233342885971,
+          "mixer": 2.147033929824829
+        },
+        "mixer_sensitivity_min": 0.10857934504747391
+      }
+    ],
+    "paired": [
+      {
+        "first": 8000,
+        "last": 12000,
+        "lost": {
+          "expired:local": 53,
+          "expired:unbound": 6
+        },
+        "gained": 9,
+        "common_completed": 107
+      },
+      {
+        "first": 12000,
+        "last": 16000,
+        "lost": {
+          "expired:unbound": 20,
+          "expired:local": 7,
+          "expired:cpu": 16,
+          "truncated:cpu": 3,
+          "expired:tx": 2,
+          "truncated:unbound": 1
+        },
+        "gained": 35,
+        "common_completed": 67
+      },
+      {
+        "first": 8000,
+        "last": 16000,
+        "lost": {
+          "expired:unbound": 24,
+          "expired:local": 30,
+          "expired:cpu": 23,
+          "expired:tx": 2,
+          "truncated:cpu": 2,
+          "truncated:unbound": 1
+        },
+        "gained": 18,
+        "common_completed": 84
+      }
+    ],
+    "group_swaps": [
+      {
+        "groups": [
+          "route"
+        ],
+        "completed": 124
+      },
+      {
+        "groups": [
+          "cpu"
+        ],
+        "completed": 136
+      },
+      {
+        "groups": [
+          "route",
+          "cpu"
+        ],
+        "completed": 161
+      }
+    ],
+    "task_inputs_pair_exact": true,
+    "optimizer_updates": 0,
+    "parameters_unchanged": true,
+    "claim_boundary": "Frozen behavior/intervention and sampled current-weight replay diagnostics; not trained performance or a unique root-cause proof."
+  },
+  "diagnostic_execution": {
+    "passive_episodes": 15,
+    "sampled_backward_chunks": 96,
+    "frozen_intervention_episodes": 15,
+    "optimizer_updates": 0,
+    "original_episode_metrics_actions_hidden_external_exact": true,
+    "test_parents_passed": 16,
+    "initial_test_attempt": "Windows WinError 5 on pytest mode-0700 temporary directories; repeated unchanged assertions in task-local directories with inherited ACL.",
+    "evidence_before_cleanup": [
+      {
+        "path": "logs\\diagnostics\\qmix_v6_8k16k\\20261017\\diagnostic.json",
+        "bytes": 1680570,
+        "sha256": "3d613321b57c194996ce9e41ee7495283d4c398a336f48d767ab8d053baf39d1"
+      },
+      {
+        "path": "logs\\diagnostics\\qmix_v6_8k16k\\20261017\\group_swaps.json",
+        "bytes": 27049,
+        "sha256": "b3cee99b39fc1ac7667c27192769d09471bfc2b9267c42546a3e09b14937686a"
+      },
+      {
+        "path": "logs\\diagnostics\\qmix_v6_8k16k\\20261017\\diagnostic_tests_inherited.xml",
+        "bytes": 2501,
+        "sha256": "4732f235045fa51d4f52f3bd72f0702a05a6c75aeb26ab00ac53d5207a9d7175"
+      }
+    ]
+  },
+  "adjustment": {
+    "experiment_profile": "target_sync_v7",
+    "checkpoint_schema": "factorized_gat_qmix.checkpoint.v6",
+    "only_scientific_change": {
+      "field": "training.qmix.target_update_interval_updates",
+      "before": 200,
+      "after": 50,
+      "units": "optimizer_updates"
+    },
+    "expected_target_copies_at_8k": 4,
+    "old_target_copies_at_8k": 1,
+    "hypothesis": "Shorter target lag may improve value propagation and post-8k stability; no unique root cause or guaranteed performance improvement claimed.",
+    "new_config_8k": {
+      "path": "experiments/strong-baselines/configs/fa-gat-qmix-seed42-8k-target-sync-development.json",
+      "hash": "61581ed77d5365ade0cb563a29cbd3ea314ef1022b4c5f6bc4e7910aa5ad1eed"
+    },
+    "new_config_16k": {
+      "path": "experiments/strong-baselines/configs/fa-gat-qmix-seed42-16k-target-sync-development.json",
+      "hash": "e23d3ad99bdfb0af048b6c9ded001837b70189f84f6e5b64f85b3ef2dd566f15"
+    },
+    "new_training_started": true,
+    "independent_random_initialization_required": true,
+    "algorithm_core_unchanged": true
+  },
+  "github_review": [
+    {
+      "url": "https://github.com/oxwhirl/pymarl/blob/master/src/components/action_selectors.py",
+      "finding": "Original epsilon trigger is per agent complete discrete action; current branch-wise adaptation is unchanged in this single-variable trial."
+    },
+    {
+      "url": "https://github.com/oxwhirl/pymarl/blob/master/src/learners/q_learner.py",
+      "finding": "Original hard target interval counts episodes, not optimizer updates. Numbers are not directly transferable."
+    },
+    {
+      "url": "https://github.com/hijkzzz/pymarl2/blob/master/src/learners/nq_learner.py",
+      "finding": "Double-Q, TD-lambda and recurrent unroll were checked; current learning target/context is retained."
+    },
+    {
+      "url": "https://github.com/facebookresearch/BenchMARL/blob/main/benchmarl/conf/experiment/base_experiment.yaml",
+      "finding": "Framework hard-target frequency counts optimizer steps and supports soft target updates. Trial value 50 is a project choice, not a claimed official optimum."
+    }
+  ],
+  "cleanup": {
+    "status": "completed",
+    "preserve": [
+      "C",
+      "A/B",
+      ".agents",
+      "knowledge",
+      "current source and tests",
+      "new profiles",
+      "this compact receipt and new validation evidence"
+    ],
+    "scope": "Failed QMIX v5/v6 model/log/dashboard/plot outputs, obsolete QMIX configs/audits, and task-owned test/engineering temporary files.",
+    "target_count": 34,
+    "file_count": 417,
+    "bytes_deleted": 5157119504.0,
+    "completed_at": "2026-10-17T10:12:24.5056658+08:00",
+    "private_empty_fixture_removed": true,
+    "protected_files_verified": 854,
+    "protected_bytes_verified": 15800146555,
+    "preserved_profiles_validated": 7,
+    "additional_empty_legacy_directories_removed": [
+      {
+        "files": 0,
+        "path": "D:\\My_project_li\\logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\edge_log_v4",
+        "bytes": 0,
+        "directories": 1
+      },
+      {
+        "files": 0,
+        "path": "D:\\My_project_li\\dashboard_logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\edge_log_v4",
+        "bytes": 0,
+        "directories": 1
+      },
+      {
+        "files": 0,
+        "path": "D:\\My_project_li\\plots\\strong_baselines\\development\\fa_gat_qmix\\seed42\\edge_log_v4",
+        "bytes": 0,
+        "directories": 1
+      }
+    ]
+  },
+  "validation": {
+    "pytest_parent_tests": 143,
+    "pytest_subtests": 22,
+    "pytest_passed": true,
+    "cuda_validation_path": "metadata\\audits\\qmix_target_sync\\20261017\\cuda_validation.json",
+    "cuda_validation": {
+      "schema": "qmix_target_sync_cuda_validation.v1",
+      "engineering_only": true,
+      "runtime": {
+        "torch": "2.7.1+cu118",
+        "device": "cuda"
+      },
+      "environment_steps": 224,
+      "optimizer_updates": 55,
+      "target_copy_events": [
+        {
+          "environment_steps": 204,
+          "update": 50
+        }
+      ],
+      "parameters_changed": true,
+      "target_parameters_changed": true,
+      "updates_and_weights_finite": true,
+      "frozen_evaluation_episodes": 4,
+      "evaluation_updates": 0,
+      "shared_external_traces": true,
+      "future_8k16k_budget_extension_valid": true,
+      "scientific_diff": [
+        "training.qmix.target_update_interval_updates",
+        "output.logs_dir",
+        "output.plots_dir",
+        "output.dashboard_logs_dir"
+      ],
+      "new_8k_zero_step_initialization": {
+        "steps": 0,
+        "updates": 0,
+        "episodes": 0,
+        "optimizer_state_empty": true,
+        "replay_empty": true,
+        "source_checkpoint_loaded": false,
+        "online_target_equal": true,
+        "outputs_absent": true,
+        "device": "cuda"
+      },
+      "claim_boundary": "Engineering validation only; no development completion improvement claim."
+    }
+  },
+  "new_execution": {
+    "config": "experiments/strong-baselines/configs/fa-gat-qmix-seed42-8k-target-sync-development.json",
+    "run_id": "factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-61581ed77d53__git-eb1140cefc4a",
+    "started_observed_at": "2026-10-17T10:15:18.421166+08:00",
+    "exec_session_id": 19726,
+    "requested_device": "cuda",
+    "resolved_device": "cuda",
+    "training_budget": 8000,
+    "planned_frozen_checkpoint_steps": [
+      4000,
+      8000
+    ],
+    "status": "completed_and_verified",
+    "last_saved_checkpoint": {
+      "training_steps": 4000,
+      "episodes": 8,
+      "optimizer_updates": 97,
+      "target_copy_events": [
+        {
+          "environment_steps": 2532,
+          "update": 50
+        }
+      ],
+      "runtime": {
+        "torch": "2.7.1+cu118",
+        "device": "cuda"
+      },
+      "finite_weights": true,
+      "current_weight_prefix_used_in_all_updates": true,
+      "checkpoint_sha256": "a533fac405aedbdc3eca3d2cf7dd427a87fe0e9140fb0e8a6bc4172cc341fff8",
+      "performance_evaluation_pending": true
+    },
+    "training_completed_observed_at": "2026-10-17T10:53:57.578117+08:00",
+    "environment_steps": 8000,
+    "optimizer_updates": 225,
+    "episodes": 16,
+    "target_copy_events": [
+      {
+        "environment_steps": 2532,
+        "update": 50
+      },
+      {
+        "environment_steps": 4096,
+        "update": 100
+      },
+      {
+        "environment_steps": 5660,
+        "update": 150
+      },
+      {
+        "environment_steps": 7224,
+        "update": 200
+      }
+    ],
+    "completed_observed_at": "2026-10-17T11:00:03.723549+08:00"
+  },
+  "new_8k_results": {
+    "schema": "qmix_target_sync_development_check.v1",
+    "checked_at": "2026-10-17T11:00:03.723549+08:00",
+    "status": "passed",
+    "training_steps": 8000,
+    "episodes": 16,
+    "optimizer_updates": 225,
+    "target_copy_events": [
+      {
+        "environment_steps": 2532,
+        "update": 50
+      },
+      {
+        "environment_steps": 4096,
+        "update": 100
+      },
+      {
+        "environment_steps": 5660,
+        "update": 150
+      },
+      {
+        "environment_steps": 7224,
+        "update": 200
+      }
+    ],
+    "changed_online_tensors_4k_to_8k": 87,
+    "updates_and_weights_finite": true,
+    "current_weight_prefix_used_in_all_updates": true,
+    "independent_initialization": true,
+    "checkpoint_source_contract_valid": true,
+    "checkpoint_contract": {
+      "update_frequency": "one_per_completed_chunk_after_sequence_batch_warmup",
+      "no_burn_in": false,
+      "hidden": "current_weights_full_episode_prefix_detached",
+      "recurrent_context": "episode_prefix_current_weights_no_grad_v1",
+      "mixer_hidden": 32,
+      "hypernetwork_hidden": 128,
+      "loss": "real_transition_mean_half_MSE",
+      "gradient_clip_norm": 10.0,
+      "target_action": "online_exact_masked_greedy_evaluated_by_target",
+      "learning_target": "double_q_chunk_td_lambda_0p6_v1",
+      "td_lambda": 0.6,
+      "trace_boundary": "real_chunk_end_bootstrap_no_padding",
+      "agent_utility": "independent_branch_scores_active_sum_v1",
+      "decoder": "exact_route_tx_cpu_suffix_max_v1",
+      "target_update_units": "optimizer_updates",
+      "dtype": "float32",
+      "mixer_state_transform": "signed_log1p_then_stateless_layer_norm",
+      "actor_edge_transform": "signed_log1p_v1"
+    },
+    "training_raw_aggregate_csv_match": true,
+    "training_csv_rows": 16,
+    "frozen_evaluation_records": 40,
+    "evaluation_network_updates": 0,
+    "fixed_baseline_repeat_matches": 15,
+    "shared_external_traces_verified": true,
+    "task_energy_invariants_verified": true,
+    "summary_json_csv_match": true,
+    "summary_csv_rows": 8,
+    "per_scene_csv_rows": 40,
+    "protected_files_hash_verified": 854,
+    "old_cleanup_targets_absent": true,
+    "config_hash": "61581ed77d5365ade0cb563a29cbd3ea314ef1022b4c5f6bc4e7910aa5ad1eed",
+    "series_id": "qmix-checkpoints__seed-42__31f92eead8a8eb1e",
+    "results": [
+      {
+        "training_steps": 4000,
+        "training_seed": 42,
+        "method_id": "factorized_action_gat_qmix",
+        "generated": 605,
+        "completed": 12,
+        "completion_ratio": 0.019834710743801654,
+        "expired": 541,
+        "truncated": 52,
+        "total_energy_j": 2.480268930972152,
+        "cpu_energy_j": 2.229992496823217,
+        "tx_energy_j": 0.2502764341489351,
+        "energy_per_completed_task_j": 0.20668907758101265,
+        "mean_reward": -130.14423258846898,
+        "checkpoint_sha256": "a533fac405aedbdc3eca3d2cf7dd427a87fe0e9140fb0e8a6bc4172cc341fff8"
+      },
+      {
+        "training_steps": 8000,
+        "training_seed": 42,
+        "method_id": "factorized_action_gat_qmix",
+        "generated": 605,
+        "completed": 53,
+        "completion_ratio": 0.08760330578512397,
+        "expired": 505,
+        "truncated": 47,
+        "total_energy_j": 43.17270656116621,
+        "cpu_energy_j": 43.16524103806555,
+        "tx_energy_j": 0.00746552310065713,
+        "energy_per_completed_task_j": 0.8145793690786077,
+        "mean_reward": -110.29824759465423,
+        "checkpoint_sha256": "bace0e904ce18d8e2dfc1b433a52e173bd8bbeefe5ba14256a5e06e4f86ad67d"
+      }
+    ],
+    "per_scene_results": {
+      "4000": [
+        {
+          "evaluation_seed": 1042,
+          "generated": 135,
+          "completed": 4,
+          "expired": 117,
+          "truncated": 14,
+          "completion_ratio": 0.02962962962962963,
+          "expiration_ratio": 0.8666666666666667,
+          "truncation_ratio": 0.1037037037037037,
+          "completed_task_e2e_delay_s": 0.475,
+          "tx_energy_j": 0.04480807725686825,
+          "cpu_energy_j": 0.4828667288962561,
+          "total_energy_j": 0.5276748061531243,
+          "energy_per_completed_task_j": 0.13191870153828109,
+          "backlog_mean_tasks": 9.574,
+          "backlog_max_tasks": 16,
+          "backlog_final_tasks": 14,
+          "outage_numerator": 0,
+          "outage_denominator": 15,
+          "outage_rate": 0.0,
+          "executor_rejection": 0,
+          "executor_downgrade": 0,
+          "completion_component": 4.0,
+          "expiration_penalty": 117.0,
+          "workload_penalty": 25.670794399675312,
+          "energy_penalty": 0.00025199770217957995,
+          "total_reward": -138.6710463973775
+        },
+        {
+          "evaluation_seed": 1043,
+          "generated": 122,
+          "completed": 1,
+          "expired": 109,
+          "truncated": 12,
+          "completion_ratio": 0.00819672131147541,
+          "expiration_ratio": 0.8934426229508197,
+          "truncation_ratio": 0.09836065573770492,
+          "completed_task_e2e_delay_s": 0.56,
+          "tx_energy_j": 0.0691000337493016,
+          "cpu_energy_j": 0.3651317821699336,
+          "total_energy_j": 0.4342318159192352,
+          "energy_per_completed_task_j": 0.4342318159192352,
+          "backlog_mean_tasks": 9.118,
+          "backlog_max_tasks": 16,
+          "backlog_final_tasks": 11,
+          "outage_numerator": 0,
+          "outage_denominator": 27,
+          "outage_rate": 0.0,
+          "executor_rejection": 0,
+          "executor_downgrade": 0,
+          "completion_component": 1.0,
+          "expiration_penalty": 109.0,
+          "workload_penalty": 24.22459437140681,
+          "energy_penalty": 0.00020737283370159538,
+          "total_reward": -132.22480174424052
+        },
+        {
+          "evaluation_seed": 1044,
+          "generated": 117,
+          "completed": 7,
+          "expired": 103,
+          "truncated": 7,
+          "completion_ratio": 0.05982905982905983,
+          "expiration_ratio": 0.8803418803418803,
+          "truncation_ratio": 0.05982905982905983,
+          "completed_task_e2e_delay_s": 0.3828571428571429,
+          "tx_energy_j": 0.1363683231427652,
+          "cpu_energy_j": 1.3819939857570271,
+          "total_energy_j": 1.5183623088997924,
+          "energy_per_completed_task_j": 0.21690890127139892,
+          "backlog_mean_tasks": 8.242,
+          "backlog_max_tasks": 20,
+          "backlog_final_tasks": 8,
+          "outage_numerator": 1,
+          "outage_denominator": 46,
+          "outage_rate": 0.021739130434782608,
+          "executor_rejection": 0,
+          "executor_downgrade": 0,
+          "completion_component": 7.0,
+          "expiration_penalty": 103.0,
+          "workload_penalty": 21.604787888891817,
+          "energy_penalty": 0.0007251129075277415,
+          "total_reward": -117.60551300179935
+        },
+        {
+          "evaluation_seed": 1045,
+          "generated": 102,
+          "completed": 0,
+          "expired": 96,
+          "truncated": 6,
+          "completion_ratio": 0.0,
+          "expiration_ratio": 0.9411764705882353,
+          "truncation_ratio": 0.058823529411764705,
+          "completed_task_e2e_delay_s": null,
+          "tx_energy_j": 0.0,
+          "cpu_energy_j": 0.0,
+          "total_energy_j": 0.0,
+          "energy_per_completed_task_j": null,
+          "backlog_mean_tasks": 7.87,
+          "backlog_max_tasks": 18,
+          "backlog_final_tasks": 6,
+          "outage_numerator": 0,
+          "outage_denominator": 0,
+          "outage_rate": null,
+          "executor_rejection": 0,
+          "executor_downgrade": 0,
+          "completion_component": 0.0,
+          "expiration_penalty": 96.0,
+          "workload_penalty": 23.219838265443716,
+          "energy_penalty": 0.0,
+          "total_reward": -119.21983826544371
+        },
+        {
+          "evaluation_seed": 1046,
+          "generated": 129,
+          "completed": 0,
+          "expired": 116,
+          "truncated": 13,
+          "completion_ratio": 0.0,
+          "expiration_ratio": 0.8992248062015504,
+          "truncation_ratio": 0.10077519379844961,
+          "completed_task_e2e_delay_s": null,
+          "tx_energy_j": 0.0,
+          "cpu_energy_j": 0.0,
+          "total_energy_j": 0.0,
+          "energy_per_completed_task_j": null,
+          "backlog_mean_tasks": 9.704,
+          "backlog_max_tasks": 17,
+          "backlog_final_tasks": 14,
+          "outage_numerator": 0,
+          "outage_denominator": 0,
+          "outage_rate": null,
+          "executor_rejection": 0,
+          "executor_downgrade": 0,
+          "completion_component": 0.0,
+          "expiration_penalty": 116.0,
+          "workload_penalty": 26.999963533483815,
+          "energy_penalty": 0.0,
+          "total_reward": -142.99996353348382
+        }
+      ],
+      "8000": [
+        {
+          "evaluation_seed": 1042,
+          "generated": 135,
+          "completed": 10,
+          "expired": 112,
+          "truncated": 13,
+          "completion_ratio": 0.07407407407407407,
+          "expiration_ratio": 0.8296296296296296,
+          "truncation_ratio": 0.0962962962962963,
+          "completed_task_e2e_delay_s": 0.33399999999999996,
+          "tx_energy_j": 0.0,
+          "cpu_energy_j": 10.518750956415357,
+          "total_energy_j": 10.518750956415357,
+          "energy_per_completed_task_j": 1.0518750956415357,
+          "backlog_mean_tasks": 9.162,
+          "backlog_max_tasks": 16,
+          "backlog_final_tasks": 13,
+          "outage_numerator": 0,
+          "outage_denominator": 0,
+          "outage_rate": null,
+          "executor_rejection": 0,
+          "executor_downgrade": 0,
+          "completion_component": 10.0,
+          "expiration_penalty": 112.0,
+          "workload_penalty": 21.60854463020259,
+          "energy_penalty": 0.005023361054775728,
+          "total_reward": -123.61356799125737
+        },
+        {
+          "evaluation_seed": 1043,
+          "generated": 122,
+          "completed": 13,
+          "expired": 98,
+          "truncated": 11,
+          "completion_ratio": 0.10655737704918032,
+          "expiration_ratio": 0.8032786885245902,
+          "truncation_ratio": 0.09016393442622951,
+          "completed_task_e2e_delay_s": 0.42461538461538456,
+          "tx_energy_j": 0.0,
+          "cpu_energy_j": 8.48444532465534,
+          "total_energy_j": 8.48444532465534,
+          "energy_per_completed_task_j": 0.652649640358103,
+          "backlog_mean_tasks": 8.654,
+          "backlog_max_tasks": 16,
+          "backlog_final_tasks": 10,
+          "outage_numerator": 0,
+          "outage_denominator": 0,
+          "outage_rate": null,
+          "executor_rejection": 0,
+          "executor_downgrade": 0,
+          "completion_component": 13.0,
+          "expiration_penalty": 98.0,
+          "workload_penalty": 19.351370326115987,
+          "energy_penalty": 0.004051852961615507,
+          "total_reward": -104.3554221790776
+        },
+        {
+          "evaluation_seed": 1044,
+          "generated": 117,
+          "completed": 9,
+          "expired": 102,
+          "truncated": 6,
+          "completion_ratio": 0.07692307692307693,
+          "expiration_ratio": 0.8717948717948718,
+          "truncation_ratio": 0.05128205128205128,
+          "completed_task_e2e_delay_s": 0.2533333333333333,
+          "tx_energy_j": 0.0,
+          "cpu_energy_j": 8.75075702868074,
+          "total_energy_j": 8.75075702868074,
+          "energy_per_completed_task_j": 0.9723063365200821,
+          "backlog_mean_tasks": 7.99,
+          "backlog_max_tasks": 19,
+          "backlog_final_tasks": 7,
+          "outage_numerator": 0,
+          "outage_denominator": 0,
+          "outage_rate": null,
+          "executor_rejection": 0,
+          "executor_downgrade": 0,
+          "completion_component": 9.0,
+          "expiration_penalty": 102.0,
+          "workload_penalty": 17.58739304331713,
+          "energy_penalty": 0.004179033446064215,
+          "total_reward": -110.5915720767632
+        },
+        {
+          "evaluation_seed": 1045,
+          "generated": 102,
+          "completed": 13,
+          "expired": 85,
+          "truncated": 4,
+          "completion_ratio": 0.12745098039215685,
+          "expiration_ratio": 0.8333333333333334,
+          "truncation_ratio": 0.0392156862745098,
+          "completed_task_e2e_delay_s": 0.54,
+          "tx_energy_j": 0.00746552310065713,
+          "cpu_energy_j": 8.824667497967523,
+          "total_energy_j": 8.83213302106818,
+          "energy_per_completed_task_j": 0.6793948477744755,
+          "backlog_mean_tasks": 7.246,
+          "backlog_max_tasks": 17,
+          "backlog_final_tasks": 4,
+          "outage_numerator": 0,
+          "outage_denominator": 1,
+          "outage_rate": 0.0,
+          "executor_rejection": 0,
+          "executor_downgrade": 0,
+          "completion_component": 13.0,
+          "expiration_penalty": 85.0,
+          "workload_penalty": 19.31721290307443,
+          "energy_penalty": 0.0042178955688244694,
+          "total_reward": -91.32143079864326
+        },
+        {
+          "evaluation_seed": 1046,
+          "generated": 129,
+          "completed": 8,
+          "expired": 108,
+          "truncated": 13,
+          "completion_ratio": 0.06201550387596899,
+          "expiration_ratio": 0.8372093023255814,
+          "truncation_ratio": 0.10077519379844961,
+          "completed_task_e2e_delay_s": 0.5875,
+          "tx_energy_j": 0.0,
+          "cpu_energy_j": 6.586620230346594,
+          "total_energy_j": 6.586620230346594,
+          "energy_per_completed_task_j": 0.8233275287933243,
+          "backlog_mean_tasks": 9.354,
+          "backlog_max_tasks": 16,
+          "backlog_final_tasks": 14,
+          "outage_numerator": 0,
+          "outage_denominator": 0,
+          "outage_rate": null,
+          "executor_rejection": 0,
+          "executor_downgrade": 0,
+          "completion_component": 8.0,
+          "expiration_penalty": 108.0,
+          "workload_penalty": 21.60609940467396,
+          "energy_penalty": 0.0031455228557855995,
+          "total_reward": -121.60924492752974
+        }
+      ]
+    },
+    "summary_path": "logs\\strong_baselines\\development\\fa_gat_qmix\\seed42\\target_sync_v7\\8k\\factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-61581ed77d53__git-eb1140cefc4a\\checkpoint_progress\\summary.json",
+    "all_method_summary_rows": [
+      {
+        "training_steps": 4000,
+        "training_seed": 42,
+        "method_id": "factorized_action_gat_qmix",
+        "generated": 605,
+        "completed": 12,
+        "completion_ratio": 0.019834710743801654,
+        "expired": 541,
+        "truncated": 52,
+        "total_energy_j": 2.480268930972152,
+        "cpu_energy_j": 2.229992496823217,
+        "tx_energy_j": 0.2502764341489351,
+        "energy_per_completed_task_j": 0.20668907758101265,
+        "mean_reward": -130.14423258846898,
+        "checkpoint_sha256": "a533fac405aedbdc3eca3d2cf7dd427a87fe0e9140fb0e8a6bc4172cc341fff8"
+      },
+      {
+        "training_steps": 4000,
+        "training_seed": 42,
+        "method_id": "local_only",
+        "generated": 605,
+        "completed": 323,
+        "completion_ratio": 0.5338842975206611,
+        "expired": 243,
+        "truncated": 39,
+        "total_energy_j": 118.66321643549148,
+        "cpu_energy_j": 118.66321643549148,
+        "tx_energy_j": 0.0,
+        "energy_per_completed_task_j": 0.3673783790572492,
+        "mean_reward": 4.867831322473131,
+        "checkpoint_sha256": "a533fac405aedbdc3eca3d2cf7dd427a87fe0e9140fb0e8a6bc4172cc341fff8"
+      },
+      {
+        "training_steps": 4000,
+        "training_seed": 42,
+        "method_id": "heuristic",
+        "generated": 605,
+        "completed": 371,
+        "completion_ratio": 0.6132231404958678,
+        "expired": 190,
+        "truncated": 44,
+        "total_energy_j": 109.1668506307753,
+        "cpu_energy_j": 108.59256812073247,
+        "tx_energy_j": 0.5742825100428339,
+        "energy_per_completed_task_j": 0.29425027124198194,
+        "mean_reward": 26.022282434158512,
+        "checkpoint_sha256": "a533fac405aedbdc3eca3d2cf7dd427a87fe0e9140fb0e8a6bc4172cc341fff8"
+      },
+      {
+        "training_steps": 4000,
+        "training_seed": 42,
+        "method_id": "random",
+        "generated": 605,
+        "completed": 27,
+        "completion_ratio": 0.04462809917355372,
+        "expired": 527,
+        "truncated": 51,
+        "total_energy_j": 48.33501688358488,
+        "cpu_energy_j": 45.85769483506644,
+        "tx_energy_j": 2.4773220485184324,
+        "energy_per_completed_task_j": 1.7901858105031436,
+        "mean_reward": -118.51917230644008,
+        "checkpoint_sha256": "a533fac405aedbdc3eca3d2cf7dd427a87fe0e9140fb0e8a6bc4172cc341fff8"
+      },
+      {
+        "training_steps": 8000,
+        "training_seed": 42,
+        "method_id": "factorized_action_gat_qmix",
+        "generated": 605,
+        "completed": 53,
+        "completion_ratio": 0.08760330578512397,
+        "expired": 505,
+        "truncated": 47,
+        "total_energy_j": 43.17270656116621,
+        "cpu_energy_j": 43.16524103806555,
+        "tx_energy_j": 0.00746552310065713,
+        "energy_per_completed_task_j": 0.8145793690786077,
+        "mean_reward": -110.29824759465423,
+        "checkpoint_sha256": "bace0e904ce18d8e2dfc1b433a52e173bd8bbeefe5ba14256a5e06e4f86ad67d"
+      },
+      {
+        "training_steps": 8000,
+        "training_seed": 42,
+        "method_id": "local_only",
+        "generated": 605,
+        "completed": 323,
+        "completion_ratio": 0.5338842975206611,
+        "expired": 243,
+        "truncated": 39,
+        "total_energy_j": 118.66321643549148,
+        "cpu_energy_j": 118.66321643549148,
+        "tx_energy_j": 0.0,
+        "energy_per_completed_task_j": 0.3673783790572492,
+        "mean_reward": 4.867831322473131,
+        "checkpoint_sha256": "bace0e904ce18d8e2dfc1b433a52e173bd8bbeefe5ba14256a5e06e4f86ad67d"
+      },
+      {
+        "training_steps": 8000,
+        "training_seed": 42,
+        "method_id": "heuristic",
+        "generated": 605,
+        "completed": 371,
+        "completion_ratio": 0.6132231404958678,
+        "expired": 190,
+        "truncated": 44,
+        "total_energy_j": 109.1668506307753,
+        "cpu_energy_j": 108.59256812073247,
+        "tx_energy_j": 0.5742825100428339,
+        "energy_per_completed_task_j": 0.29425027124198194,
+        "mean_reward": 26.022282434158512,
+        "checkpoint_sha256": "bace0e904ce18d8e2dfc1b433a52e173bd8bbeefe5ba14256a5e06e4f86ad67d"
+      },
+      {
+        "training_steps": 8000,
+        "training_seed": 42,
+        "method_id": "random",
+        "generated": 605,
+        "completed": 27,
+        "completion_ratio": 0.04462809917355372,
+        "expired": 527,
+        "truncated": 51,
+        "total_energy_j": 48.33501688358488,
+        "cpu_energy_j": 45.85769483506644,
+        "tx_energy_j": 2.4773220485184324,
+        "energy_per_completed_task_j": 1.7901858105031436,
+        "mean_reward": -118.51917230644008,
+        "checkpoint_sha256": "bace0e904ce18d8e2dfc1b433a52e173bd8bbeefe5ba14256a5e06e4f86ad67d"
+      }
+    ],
+    "claim_boundary": "Single-seed 4k/8k development comparison only; post-8k stability and cross-seed robustness remain untested."
+  },
+  "new_8k_passive_probe": {
+    "schema": "qmix_target_sync_passive_probe.v1",
+    "checked_at": "2026-10-17T11:01:19.837388+08:00",
+    "steps": 8000,
+    "episodes": 5,
+    "optimizer_updates": 0,
+    "parameters_unchanged": true,
+    "checkpoint_unchanged": true,
+    "original_metrics_actions_hidden_external_invariants_exact": true,
+    "counts": {
+      "route_decisions": 3533,
+      "cpu_backlogged_decisions": 4731,
+      "cpu_backlogged_idle": 1428,
+      "cpu_selected_queue": 3303,
+      "cpu_selected_queue_zero_frequency": 273,
+      "cpu_positive_feasible_decisions": 4731,
+      "cpu_positive_feasible_but_idle_or_zero": 1701
+    },
+    "route_choices": {
+      "defer": 3135,
+      "local": 397,
+      "remote": 1
+    },
+    "backlogged_frequency_choices": {
+      "0.0": 1701,
+      "1.0": 1420,
+      "0.25": 1606,
+      "0.5": 4
+    },
+    "expired_by_stage": {
+      "unbound": 192,
+      "local": 313
+    },
+    "cpu_positive_feasible_idle_or_zero_pct": 35.95434369055168,
+    "q_margins": {
+      "route_local_minus_defer": {
+        "count": 3533,
+        "weighted_mean": -0.6722275193125862
+      },
+      "cpu_best_positive_minus_idle": {
+        "count": 4731,
+        "weighted_mean": 0.1978133301708522
+      }
+    },
+    "per_scene": [
+      {
+        "seed": 1042,
+        "metrics": {
+          "generated": 135,
+          "completed": 10,
+          "expired": 112,
+          "truncated": 13,
+          "completion_ratio": 0.07407407407407407,
+          "expiration_ratio": 0.8296296296296296,
+          "truncation_ratio": 0.0962962962962963,
+          "completed_task_e2e_delay_s": 0.33399999999999996,
+          "tx_energy_j": 0.0,
+          "cpu_energy_j": 10.518750956415357,
+          "total_energy_j": 10.518750956415357,
+          "energy_per_completed_task_j": 1.0518750956415357,
+          "backlog_mean_tasks": 9.162,
+          "backlog_max_tasks": 16,
+          "backlog_final_tasks": 13,
+          "outage_numerator": 0,
+          "outage_denominator": 0,
+          "outage_rate": null,
+          "executor_rejection": 0,
+          "executor_downgrade": 0,
+          "completion_component": 10.0,
+          "expiration_penalty": 112.0,
+          "workload_penalty": 21.60854463020259,
+          "energy_penalty": 0.005023361054775728,
+          "total_reward": -123.61356799125737
+        },
+        "counts": {
+          "route_decisions": 904,
+          "cpu_backlogged_decisions": 875,
+          "cpu_backlogged_idle": 409,
+          "cpu_selected_queue": 466,
+          "cpu_selected_queue_zero_frequency": 8,
+          "cpu_positive_feasible_decisions": 875,
+          "cpu_positive_feasible_but_idle_or_zero": 417
+        },
+        "route_choices": {
+          "defer": 818,
+          "local": 86
+        },
+        "backlogged_frequency_choices": {
+          "0.0": 417,
+          "1.0": 303,
+          "0.25": 155
+        },
+        "q_margins": {
+          "route_local_minus_defer": {
+            "count": 904,
+            "mean": -0.8281739489381424,
+            "min": -1.3358826637268066,
+            "max": 0.9604977369308472
+          },
+          "cpu_best_positive_minus_idle": {
+            "count": 875,
+            "mean": 0.0929917209382568,
+            "min": -0.38733647763729095,
+            "max": 0.9126003384590149
+          }
+        },
+        "expired_by_stage": {
+          "unbound": 42,
+          "local": 70
+        }
+      },
+      {
+        "seed": 1043,
+        "metrics": {
+          "generated": 122,
+          "completed": 13,
+          "expired": 98,
+          "truncated": 11,
+          "completion_ratio": 0.10655737704918032,
+          "expiration_ratio": 0.8032786885245902,
+          "truncation_ratio": 0.09016393442622951,
+          "completed_task_e2e_delay_s": 0.42461538461538456,
+          "tx_energy_j": 0.0,
+          "cpu_energy_j": 8.48444532465534,
+          "total_energy_j": 8.48444532465534,
+          "energy_per_completed_task_j": 0.652649640358103,
+          "backlog_mean_tasks": 8.654,
+          "backlog_max_tasks": 16,
+          "backlog_final_tasks": 10,
+          "outage_numerator": 0,
+          "outage_denominator": 0,
+          "outage_rate": null,
+          "executor_rejection": 0,
+          "executor_downgrade": 0,
+          "completion_component": 13.0,
+          "expiration_penalty": 98.0,
+          "workload_penalty": 19.351370326115987,
+          "energy_penalty": 0.004051852961615507,
+          "total_reward": -104.3554221790776
+        },
+        "counts": {
+          "route_decisions": 420,
+          "cpu_backlogged_decisions": 1160,
+          "cpu_backlogged_idle": 357,
+          "cpu_selected_queue": 803,
+          "cpu_selected_queue_zero_frequency": 26,
+          "cpu_positive_feasible_decisions": 1160,
+          "cpu_positive_feasible_but_idle_or_zero": 383
+        },
+        "route_choices": {
+          "local": 103,
+          "defer": 317
+        },
+        "backlogged_frequency_choices": {
+          "1.0": 312,
+          "0.0": 383,
+          "0.25": 465
+        },
+        "q_margins": {
+          "route_local_minus_defer": {
+            "count": 420,
+            "mean": -0.3513642559448878,
+            "min": -1.0079087018966675,
+            "max": 0.7635195851325989
+          },
+          "cpu_best_positive_minus_idle": {
+            "count": 1160,
+            "mean": 0.2309552582936233,
+            "min": -0.3333984464406967,
+            "max": 0.828558012843132
+          }
+        },
+        "expired_by_stage": {
+          "local": 80,
+          "unbound": 18
+        }
+      },
+      {
+        "seed": 1044,
+        "metrics": {
+          "generated": 117,
+          "completed": 9,
+          "expired": 102,
+          "truncated": 6,
+          "completion_ratio": 0.07692307692307693,
+          "expiration_ratio": 0.8717948717948718,
+          "truncation_ratio": 0.05128205128205128,
+          "completed_task_e2e_delay_s": 0.2533333333333333,
+          "tx_energy_j": 0.0,
+          "cpu_energy_j": 8.75075702868074,
+          "total_energy_j": 8.75075702868074,
+          "energy_per_completed_task_j": 0.9723063365200821,
+          "backlog_mean_tasks": 7.99,
+          "backlog_max_tasks": 19,
+          "backlog_final_tasks": 7,
+          "outage_numerator": 0,
+          "outage_denominator": 0,
+          "outage_rate": null,
+          "executor_rejection": 0,
+          "executor_downgrade": 0,
+          "completion_component": 9.0,
+          "expiration_penalty": 102.0,
+          "workload_penalty": 17.58739304331713,
+          "energy_penalty": 0.004179033446064215,
+          "total_reward": -110.5915720767632
+        },
+        "counts": {
+          "route_decisions": 209,
+          "cpu_backlogged_decisions": 1429,
+          "cpu_backlogged_idle": 208,
+          "cpu_selected_queue": 1221,
+          "cpu_selected_queue_zero_frequency": 234,
+          "cpu_positive_feasible_decisions": 1429,
+          "cpu_positive_feasible_but_idle_or_zero": 442
+        },
+        "route_choices": {
+          "local": 111,
+          "defer": 98
+        },
+        "backlogged_frequency_choices": {
+          "1.0": 182,
+          "0.25": 801,
+          "0.0": 442,
+          "0.5": 4
+        },
+        "q_margins": {
+          "route_local_minus_defer": {
+            "count": 209,
+            "mean": 0.02728393477828879,
+            "min": -0.6598837375640869,
+            "max": 0.799140214920044
+          },
+          "cpu_best_positive_minus_idle": {
+            "count": 1429,
+            "mean": 0.3184184922929267,
+            "min": -0.3281116634607315,
+            "max": 0.8357398808002472
+          }
+        },
+        "expired_by_stage": {
+          "local": 97,
+          "unbound": 5
+        }
+      },
+      {
+        "seed": 1045,
+        "metrics": {
+          "generated": 102,
+          "completed": 13,
+          "expired": 85,
+          "truncated": 4,
+          "completion_ratio": 0.12745098039215685,
+          "expiration_ratio": 0.8333333333333334,
+          "truncation_ratio": 0.0392156862745098,
+          "completed_task_e2e_delay_s": 0.54,
+          "tx_energy_j": 0.00746552310065713,
+          "cpu_energy_j": 8.824667497967523,
+          "total_energy_j": 8.83213302106818,
+          "energy_per_completed_task_j": 0.6793948477744755,
+          "backlog_mean_tasks": 7.246,
+          "backlog_max_tasks": 17,
+          "backlog_final_tasks": 4,
+          "outage_numerator": 0,
+          "outage_denominator": 1,
+          "outage_rate": 0.0,
+          "executor_rejection": 0,
+          "executor_downgrade": 0,
+          "completion_component": 13.0,
+          "expiration_penalty": 85.0,
+          "workload_penalty": 19.31721290307443,
+          "energy_penalty": 0.0042178955688244694,
+          "total_reward": -91.32143079864326
+        },
+        "counts": {
+          "route_decisions": 1073,
+          "cpu_backlogged_decisions": 480,
+          "cpu_backlogged_idle": 137,
+          "cpu_selected_queue": 343,
+          "cpu_selected_queue_zero_frequency": 3,
+          "cpu_positive_feasible_decisions": 480,
+          "cpu_positive_feasible_but_idle_or_zero": 140
+        },
+        "route_choices": {
+          "local": 24,
+          "defer": 1048,
+          "remote": 1
+        },
+        "backlogged_frequency_choices": {
+          "1.0": 226,
+          "0.0": 140,
+          "0.25": 114
+        },
+        "q_margins": {
+          "route_local_minus_defer": {
+            "count": 1073,
+            "mean": -0.7607866811209323,
+            "min": -1.396801471710205,
+            "max": 0.9561254978179932
+          },
+          "cpu_best_positive_minus_idle": {
+            "count": 480,
+            "mean": 0.1503499540151097,
+            "min": -0.3822348564863205,
+            "max": 0.8872889801859856
+          }
+        },
+        "expired_by_stage": {
+          "unbound": 74,
+          "local": 11
+        }
+      },
+      {
+        "seed": 1046,
+        "metrics": {
+          "generated": 129,
+          "completed": 8,
+          "expired": 108,
+          "truncated": 13,
+          "completion_ratio": 0.06201550387596899,
+          "expiration_ratio": 0.8372093023255814,
+          "truncation_ratio": 0.10077519379844961,
+          "completed_task_e2e_delay_s": 0.5875,
+          "tx_energy_j": 0.0,
+          "cpu_energy_j": 6.586620230346594,
+          "total_energy_j": 6.586620230346594,
+          "energy_per_completed_task_j": 0.8233275287933243,
+          "backlog_mean_tasks": 9.354,
+          "backlog_max_tasks": 16,
+          "backlog_final_tasks": 14,
+          "outage_numerator": 0,
+          "outage_denominator": 0,
+          "outage_rate": null,
+          "executor_rejection": 0,
+          "executor_downgrade": 0,
+          "completion_component": 8.0,
+          "expiration_penalty": 108.0,
+          "workload_penalty": 21.60609940467396,
+          "energy_penalty": 0.0031455228557855995,
+          "total_reward": -121.60924492752974
+        },
+        "counts": {
+          "route_decisions": 927,
+          "cpu_backlogged_decisions": 787,
+          "cpu_backlogged_idle": 317,
+          "cpu_selected_queue": 470,
+          "cpu_selected_queue_zero_frequency": 2,
+          "cpu_positive_feasible_decisions": 787,
+          "cpu_positive_feasible_but_idle_or_zero": 319
+        },
+        "route_choices": {
+          "defer": 854,
+          "local": 73
+        },
+        "backlogged_frequency_choices": {
+          "0.0": 319,
+          "1.0": 397,
+          "0.25": 71
+        },
+        "q_margins": {
+          "route_local_minus_defer": {
+            "count": 927,
+            "mean": -0.7207290419852592,
+            "min": -1.2989230155944824,
+            "max": 0.9281820058822632
+          },
+          "cpu_best_positive_minus_idle": {
+            "count": 787,
+            "mean": 0.07546506503542466,
+            "min": -0.3449234962463379,
+            "max": 0.8351634442806244
+          }
+        },
+        "expired_by_stage": {
+          "unbound": 53,
+          "local": 55
+        }
+      }
+    ],
+    "claim_boundary": "Passive frozen behavior evidence; no optimizer updates and no unique root-cause proof."
+  },
+  "decision": {
+    "target_interval_50_not_accepted_for_continuation": true,
+    "basis": "At fixed seed42 and 8k budget, completion and energy per completed task worsen relative to archived v6. This does not establish the unique mechanism.",
+    "comparison": {
+      "completed_difference": -113,
+      "completion_percentage_point_difference": -18.67768595041322,
+      "energy_per_completed_relative_change_pct": 88.37788255734145,
+      "old_local_expired": 163,
+      "new_local_expired": 313,
+      "old_backlogged_max_frequency_pct": 64.94335736354275,
+      "new_backlogged_max_frequency_pct": 30.014796026210103
+    },
+    "next_bounded_diagnostic": "Audit branch-wise exploration versus original PyMARL per-agent complete-action exploration, and replay coverage of executable CPU/route combinations; keep environment/reward/C fixed. No new scientific change implemented yet.",
+    "retain_new_8k_model_reason": "Required for the next frozen/replay diagnostic; old v5/v6 failed artifacts have been deleted.",
+    "no_16k_or_40k_continuation_started": true
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "qmix_v9_diagnosis_v10_return_trial.v1",
+  "finished_at": "2026-10-17T17:57:19.662401+08:00",
+  "status": "implementation_validated_ready_for_local_8k",
+  "profile": "episode_return_v10",
+  "scientific_changes": [
+    "TD context: available contiguous same-episode suffix instead of sampled chunk",
+    "trace lambda: 0.6 to 0.95"
+  ],
+  "not_a_single_variable_ablation": true,
+  "new_config_hash": "0f3441f8ff9554fecac9e055799fe041314a0ec180d7a00d1664a2e1dcc39634",
+  "new_run_id": "factorized_action_gat_qmix__remote_stress_v2__seed-42__cfg-0f3441f8ff95__git-eb1140cefc4a",
+  "checkpoint_schema": "factorized_gat_qmix.checkpoint.v9",
+  "same_settings_v9_reference": {
+    "completed": 58,
+    "generated": 605,
+    "energy_per_completed_task_j": 0.4349555965145253
+  },
+  "historical_v6_continuation_gate": {
+    "completed_strictly_above": 166,
+    "energy_per_completed_task_j_at_most": 0.4324177329207706
+  },
+  "actual_diagnostics": {
+    "frozen_episodes": 10,
+    "replay_draws_exactly_reconstructed": 225,
+    "completed_events_audited": 79,
+    "gradient_probes": 16,
+    "full_500_slot_target_probes": 4,
+    "optimizer_updates": 0
+  },
+  "tests": {
+    "passed_parent_tests": 255,
+    "passed_subtests": 22,
+    "focused_tests_already_included": 47
+  },
+  "engineering": {
+    "training_steps": 224,
+    "training_episodes": 7,
+    "optimizer_updates": 55,
+    "changed_online_tensors": 87,
+    "updates_with_extra_return_context": 53,
+    "frozen_episodes": 4,
+    "frozen_optimizer_updates": 0
+  },
+  "cleanup": {
+    "schema": "qmix_v10_post_cleanup_preservation.v1",
+    "checked_at": "2026-10-17T17:55:57.632467+08:00",
+    "status": "passed",
+    "retained_files_byte_identical": 888,
+    "deleted_targets_absent": 11,
+    "deleted_files_absent": 367,
+    "bytes_deleted": 3392546325,
+    "valid_remaining_profiles": 7,
+    "core_fingerprints_equal_cuda_validated": true,
+    "new_development_outputs_absent": true,
+    "protected_directories_not_processed": true,
+    "inventory_all_files_within_explicit_allowlist": true
+  },
+  "new_8k_development_training_started": false,
+  "next_execution_owner": "user_local_training_and_evaluation",
+  "expected_8k_training_updates": 225,
+  "expected_4k_8k_evaluation_episodes": 40,
+  "runtime_instructions_written_to_project": false,
+  "claim_boundary": "Implemented and engineering validated delayed-return candidate. No unique failure root cause or new trained performance improvement established.",
+  "reports": [
+    "sections/results/20261017_QMIX_V9_CREDIT_DIAGNOSIS_AND_V10.md",
+    "sections/planning/20261017_QMIX_EPISODE_RETURN_TRIAL.md"
+  ]
+}

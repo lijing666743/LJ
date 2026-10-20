@@ -1,139 +1,7 @@
 {
   "schema": "task_allocation.experiment_configs.v1",
-  "status": "RELEASED_ENGINEERING_GATE_PASSED",
+  "status": "current_C_configurations_AB_retired_20261020",
   "configs": [
-    {
-      "group": "A",
-      "seed": 42,
-      "path": "experiments/task-allocation/configs/a-seed42-8k.json",
-      "config_hash": "81cb1ad596cb6dcd6f212e2d08a7edc50e9b210b0a5cf226ba4a7a2cb1651ae5",
-      "sha256": "6e1b96dc204ffa8c42e79db9dba56fc5fcec674c25bc048677beea256893f5f6",
-      "run_id": "ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a",
-      "artifact_paths": {
-        "config_snapshot": "logs\\development\\task_allocation\\experiments\\A\\seed42\\8k\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a\\config_snapshot.yaml",
-        "raw_metrics": "logs\\development\\task_allocation\\experiments\\A\\seed42\\8k\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a\\raw_metrics.jsonl",
-        "aggregate_metrics": "logs\\development\\task_allocation\\experiments\\A\\seed42\\8k\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a\\aggregate_metrics.json",
-        "trajectory_credit_events": "logs\\development\\task_allocation\\experiments\\A\\seed42\\8k\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a\\trajectory_credit_events.jsonl",
-        "conditional_credit_trace": "logs\\development\\task_allocation\\experiments\\A\\seed42\\8k\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a\\conditional_credit_trace_v1.jsonl",
-        "route_diagnostic_samples": "logs\\development\\task_allocation\\experiments\\A\\seed42\\8k\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a\\route_diagnostic_samples_v1.jsonl",
-        "route_oracle_counterfactual": "logs\\development\\task_allocation\\experiments\\A\\seed42\\8k\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a\\route_oracle_counterfactual_v1.jsonl",
-        "dashboard_csv": "dashboard_logs\\development\\task_allocation\\experiments\\A\\seed42\\8k\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a_metrics.csv",
-        "figure_input": "plots\\development\\task_allocation\\experiments\\A\\seed42\\8k\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a_figure_input.csv",
-        "dashboard_png": "plots\\development\\task_allocation\\experiments\\A\\seed42\\8k\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a_dashboard.png",
-        "checkpoint_directory": "logs\\development\\task_allocation\\experiments\\A\\seed42\\8k\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a\\checkpoints",
-        "final_checkpoint": "logs\\development\\task_allocation\\experiments\\A\\seed42\\8k\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-81cb1ad596cb__git-eb1140cefc4a\\checkpoints\\final.pt"
-      }
-    },
-    {
-      "group": "A",
-      "seed": 43,
-      "path": "experiments/task-allocation/configs/a-seed43-8k.json",
-      "config_hash": "99959a2ccf1b58858e0ee00fab239540562ef593f21ccf9e8fe27dc3bfd9f91d",
-      "sha256": "13acb3fbc1670f7462b7bbbb29981b3e71b235aec81842284b2a5e8ab293b78d",
-      "run_id": "ca_gat_mappo__remote_stress_v2__seed-43__cfg-99959a2ccf1b__git-eb1140cefc4a",
-      "artifact_paths": {
-        "config_snapshot": "logs\\development\\task_allocation\\experiments\\A\\seed43\\8k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-99959a2ccf1b__git-eb1140cefc4a\\config_snapshot.yaml",
-        "raw_metrics": "logs\\development\\task_allocation\\experiments\\A\\seed43\\8k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-99959a2ccf1b__git-eb1140cefc4a\\raw_metrics.jsonl",
-        "aggregate_metrics": "logs\\development\\task_allocation\\experiments\\A\\seed43\\8k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-99959a2ccf1b__git-eb1140cefc4a\\aggregate_metrics.json",
-        "trajectory_credit_events": "logs\\development\\task_allocation\\experiments\\A\\seed43\\8k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-99959a2ccf1b__git-eb1140cefc4a\\trajectory_credit_events.jsonl",
-        "conditional_credit_trace": "logs\\development\\task_allocation\\experiments\\A\\seed43\\8k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-99959a2ccf1b__git-eb1140cefc4a\\conditional_credit_trace_v1.jsonl",
-        "route_diagnostic_samples": "logs\\development\\task_allocation\\experiments\\A\\seed43\\8k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-99959a2ccf1b__git-eb1140cefc4a\\route_diagnostic_samples_v1.jsonl",
-        "route_oracle_counterfactual": "logs\\development\\task_allocation\\experiments\\A\\seed43\\8k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-99959a2ccf1b__git-eb1140cefc4a\\route_oracle_counterfactual_v1.jsonl",
-        "dashboard_csv": "dashboard_logs\\development\\task_allocation\\experiments\\A\\seed43\\8k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-99959a2ccf1b__git-eb1140cefc4a_metrics.csv",
-        "figure_input": "plots\\development\\task_allocation\\experiments\\A\\seed43\\8k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-99959a2ccf1b__git-eb1140cefc4a_figure_input.csv",
-        "dashboard_png": "plots\\development\\task_allocation\\experiments\\A\\seed43\\8k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-99959a2ccf1b__git-eb1140cefc4a_dashboard.png",
-        "checkpoint_directory": "logs\\development\\task_allocation\\experiments\\A\\seed43\\8k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-99959a2ccf1b__git-eb1140cefc4a\\checkpoints",
-        "final_checkpoint": "logs\\development\\task_allocation\\experiments\\A\\seed43\\8k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-99959a2ccf1b__git-eb1140cefc4a\\checkpoints\\final.pt"
-      }
-    },
-    {
-      "group": "A",
-      "seed": 44,
-      "path": "experiments/task-allocation/configs/a-seed44-8k.json",
-      "config_hash": "5355c2bc052071ed7d32ab9af947976efff1a5bbf390433e77cdf41378775083",
-      "sha256": "f1383d7d611480e6f268b7c8de1238317b7e9de66032fda1438a0cb99b1313d1",
-      "run_id": "ca_gat_mappo__remote_stress_v2__seed-44__cfg-5355c2bc0520__git-eb1140cefc4a",
-      "artifact_paths": {
-        "config_snapshot": "logs\\development\\task_allocation\\experiments\\A\\seed44\\8k\\ca_gat_mappo__remote_stress_v2__seed-44__cfg-5355c2bc0520__git-eb1140cefc4a\\config_snapshot.yaml",
-        "raw_metrics": "logs\\development\\task_allocation\\experiments\\A\\seed44\\8k\\ca_gat_mappo__remote_stress_v2__seed-44__cfg-5355c2bc0520__git-eb1140cefc4a\\raw_metrics.jsonl",
-        "aggregate_metrics": "logs\\development\\task_allocation\\experiments\\A\\seed44\\8k\\ca_gat_mappo__remote_stress_v2__seed-44__cfg-5355c2bc0520__git-eb1140cefc4a\\aggregate_metrics.json",
-        "trajectory_credit_events": "logs\\development\\task_allocation\\experiments\\A\\seed44\\8k\\ca_gat_mappo__remote_stress_v2__seed-44__cfg-5355c2bc0520__git-eb1140cefc4a\\trajectory_credit_events.jsonl",
-        "conditional_credit_trace": "logs\\development\\task_allocation\\experiments\\A\\seed44\\8k\\ca_gat_mappo__remote_stress_v2__seed-44__cfg-5355c2bc0520__git-eb1140cefc4a\\conditional_credit_trace_v1.jsonl",
-        "route_diagnostic_samples": "logs\\development\\task_allocation\\experiments\\A\\seed44\\8k\\ca_gat_mappo__remote_stress_v2__seed-44__cfg-5355c2bc0520__git-eb1140cefc4a\\route_diagnostic_samples_v1.jsonl",
-        "route_oracle_counterfactual": "logs\\development\\task_allocation\\experiments\\A\\seed44\\8k\\ca_gat_mappo__remote_stress_v2__seed-44__cfg-5355c2bc0520__git-eb1140cefc4a\\route_oracle_counterfactual_v1.jsonl",
-        "dashboard_csv": "dashboard_logs\\development\\task_allocation\\experiments\\A\\seed44\\8k\\ca_gat_mappo__remote_stress_v2__seed-44__cfg-5355c2bc0520__git-eb1140cefc4a_metrics.csv",
-        "figure_input": "plots\\development\\task_allocation\\experiments\\A\\seed44\\8k\\ca_gat_mappo__remote_stress_v2__seed-44__cfg-5355c2bc0520__git-eb1140cefc4a_figure_input.csv",
-        "dashboard_png": "plots\\development\\task_allocation\\experiments\\A\\seed44\\8k\\ca_gat_mappo__remote_stress_v2__seed-44__cfg-5355c2bc0520__git-eb1140cefc4a_dashboard.png",
-        "checkpoint_directory": "logs\\development\\task_allocation\\experiments\\A\\seed44\\8k\\ca_gat_mappo__remote_stress_v2__seed-44__cfg-5355c2bc0520__git-eb1140cefc4a\\checkpoints",
-        "final_checkpoint": "logs\\development\\task_allocation\\experiments\\A\\seed44\\8k\\ca_gat_mappo__remote_stress_v2__seed-44__cfg-5355c2bc0520__git-eb1140cefc4a\\checkpoints\\final.pt"
-      }
-    },
-    {
-      "group": "B",
-      "seed": 42,
-      "path": "experiments/task-allocation/configs/b-seed42-8k.json",
-      "config_hash": "1bd1c1aa959695e150ef3734a625f5d87de87e4f4325d470f6ea3845e8cdfda4",
-      "sha256": "23379d3f9c6976055f15d9425d8aea4997c1f8aa52d8e770ae2ea93b1590c9ae",
-      "run_id": "ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a",
-      "artifact_paths": {
-        "config_snapshot": "logs\\development\\task_allocation\\experiments\\B\\seed42\\8k\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a\\config_snapshot.yaml",
-        "raw_metrics": "logs\\development\\task_allocation\\experiments\\B\\seed42\\8k\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a\\raw_metrics.jsonl",
-        "aggregate_metrics": "logs\\development\\task_allocation\\experiments\\B\\seed42\\8k\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a\\aggregate_metrics.json",
-        "trajectory_credit_events": "logs\\development\\task_allocation\\experiments\\B\\seed42\\8k\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a\\trajectory_credit_events.jsonl",
-        "conditional_credit_trace": "logs\\development\\task_allocation\\experiments\\B\\seed42\\8k\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a\\conditional_credit_trace_v1.jsonl",
-        "route_diagnostic_samples": "logs\\development\\task_allocation\\experiments\\B\\seed42\\8k\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a\\route_diagnostic_samples_v1.jsonl",
-        "route_oracle_counterfactual": "logs\\development\\task_allocation\\experiments\\B\\seed42\\8k\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a\\route_oracle_counterfactual_v1.jsonl",
-        "dashboard_csv": "dashboard_logs\\development\\task_allocation\\experiments\\B\\seed42\\8k\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a_metrics.csv",
-        "figure_input": "plots\\development\\task_allocation\\experiments\\B\\seed42\\8k\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a_figure_input.csv",
-        "dashboard_png": "plots\\development\\task_allocation\\experiments\\B\\seed42\\8k\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a_dashboard.png",
-        "checkpoint_directory": "logs\\development\\task_allocation\\experiments\\B\\seed42\\8k\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a\\checkpoints",
-        "final_checkpoint": "logs\\development\\task_allocation\\experiments\\B\\seed42\\8k\\ca_gat_mappo__remote_stress_v2__seed-42__cfg-1bd1c1aa9596__git-eb1140cefc4a\\checkpoints\\final.pt"
-      }
-    },
-    {
-      "group": "B",
-      "seed": 43,
-      "path": "experiments/task-allocation/configs/b-seed43-8k.json",
-      "config_hash": "73e98e7f163770aa8c1de1936878840fe649759a30e3be862a4a397fbf6393bf",
-      "sha256": "ae10238cda19fcf35c74ea7d74b2ccc6dc9f032b67ac70a9295bc0d0fdbbe5cb",
-      "run_id": "ca_gat_mappo__remote_stress_v2__seed-43__cfg-73e98e7f1637__git-eb1140cefc4a",
-      "artifact_paths": {
-        "config_snapshot": "logs\\development\\task_allocation\\experiments\\B\\seed43\\8k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-73e98e7f1637__git-eb1140cefc4a\\config_snapshot.yaml",
-        "raw_metrics": "logs\\development\\task_allocation\\experiments\\B\\seed43\\8k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-73e98e7f1637__git-eb1140cefc4a\\raw_metrics.jsonl",
-        "aggregate_metrics": "logs\\development\\task_allocation\\experiments\\B\\seed43\\8k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-73e98e7f1637__git-eb1140cefc4a\\aggregate_metrics.json",
-        "trajectory_credit_events": "logs\\development\\task_allocation\\experiments\\B\\seed43\\8k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-73e98e7f1637__git-eb1140cefc4a\\trajectory_credit_events.jsonl",
-        "conditional_credit_trace": "logs\\development\\task_allocation\\experiments\\B\\seed43\\8k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-73e98e7f1637__git-eb1140cefc4a\\conditional_credit_trace_v1.jsonl",
-        "route_diagnostic_samples": "logs\\development\\task_allocation\\experiments\\B\\seed43\\8k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-73e98e7f1637__git-eb1140cefc4a\\route_diagnostic_samples_v1.jsonl",
-        "route_oracle_counterfactual": "logs\\development\\task_allocation\\experiments\\B\\seed43\\8k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-73e98e7f1637__git-eb1140cefc4a\\route_oracle_counterfactual_v1.jsonl",
-        "dashboard_csv": "dashboard_logs\\development\\task_allocation\\experiments\\B\\seed43\\8k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-73e98e7f1637__git-eb1140cefc4a_metrics.csv",
-        "figure_input": "plots\\development\\task_allocation\\experiments\\B\\seed43\\8k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-73e98e7f1637__git-eb1140cefc4a_figure_input.csv",
-        "dashboard_png": "plots\\development\\task_allocation\\experiments\\B\\seed43\\8k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-73e98e7f1637__git-eb1140cefc4a_dashboard.png",
-        "checkpoint_directory": "logs\\development\\task_allocation\\experiments\\B\\seed43\\8k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-73e98e7f1637__git-eb1140cefc4a\\checkpoints",
-        "final_checkpoint": "logs\\development\\task_allocation\\experiments\\B\\seed43\\8k\\ca_gat_mappo__remote_stress_v2__seed-43__cfg-73e98e7f1637__git-eb1140cefc4a\\checkpoints\\final.pt"
-      }
-    },
-    {
-      "group": "B",
-      "seed": 44,
-      "path": "experiments/task-allocation/configs/b-seed44-8k.json",
-      "config_hash": "d77c196ba23690fb5e01d0bee72b60b44e2c21bbfd60f8147ecaea5fff882895",
-      "sha256": "ecc415191d83cb7c4ef3053c86d54166fadb8eee740b5afb25477d686e532aa3",
-      "run_id": "ca_gat_mappo__remote_stress_v2__seed-44__cfg-d77c196ba236__git-eb1140cefc4a",
-      "artifact_paths": {
-        "config_snapshot": "logs\\development\\task_allocation\\experiments\\B\\seed44\\8k\\ca_gat_mappo__remote_stress_v2__seed-44__cfg-d77c196ba236__git-eb1140cefc4a\\config_snapshot.yaml",
-        "raw_metrics": "logs\\development\\task_allocation\\experiments\\B\\seed44\\8k\\ca_gat_mappo__remote_stress_v2__seed-44__cfg-d77c196ba236__git-eb1140cefc4a\\raw_metrics.jsonl",
-        "aggregate_metrics": "logs\\development\\task_allocation\\experiments\\B\\seed44\\8k\\ca_gat_mappo__remote_stress_v2__seed-44__cfg-d77c196ba236__git-eb1140cefc4a\\aggregate_metrics.json",
-        "trajectory_credit_events": "logs\\development\\task_allocation\\experiments\\B\\seed44\\8k\\ca_gat_mappo__remote_stress_v2__seed-44__cfg-d77c196ba236__git-eb1140cefc4a\\trajectory_credit_events.jsonl",
-        "conditional_credit_trace": "logs\\development\\task_allocation\\experiments\\B\\seed44\\8k\\ca_gat_mappo__remote_stress_v2__seed-44__cfg-d77c196ba236__git-eb1140cefc4a\\conditional_credit_trace_v1.jsonl",
-        "route_diagnostic_samples": "logs\\development\\task_allocation\\experiments\\B\\seed44\\8k\\ca_gat_mappo__remote_stress_v2__seed-44__cfg-d77c196ba236__git-eb1140cefc4a\\route_diagnostic_samples_v1.jsonl",
-        "route_oracle_counterfactual": "logs\\development\\task_allocation\\experiments\\B\\seed44\\8k\\ca_gat_mappo__remote_stress_v2__seed-44__cfg-d77c196ba236__git-eb1140cefc4a\\route_oracle_counterfactual_v1.jsonl",
-        "dashboard_csv": "dashboard_logs\\development\\task_allocation\\experiments\\B\\seed44\\8k\\ca_gat_mappo__remote_stress_v2__seed-44__cfg-d77c196ba236__git-eb1140cefc4a_metrics.csv",
-        "figure_input": "plots\\development\\task_allocation\\experiments\\B\\seed44\\8k\\ca_gat_mappo__remote_stress_v2__seed-44__cfg-d77c196ba236__git-eb1140cefc4a_figure_input.csv",
-        "dashboard_png": "plots\\development\\task_allocation\\experiments\\B\\seed44\\8k\\ca_gat_mappo__remote_stress_v2__seed-44__cfg-d77c196ba236__git-eb1140cefc4a_dashboard.png",
-        "checkpoint_directory": "logs\\development\\task_allocation\\experiments\\B\\seed44\\8k\\ca_gat_mappo__remote_stress_v2__seed-44__cfg-d77c196ba236__git-eb1140cefc4a\\checkpoints",
-        "final_checkpoint": "logs\\development\\task_allocation\\experiments\\B\\seed44\\8k\\ca_gat_mappo__remote_stress_v2__seed-44__cfg-d77c196ba236__git-eb1140cefc4a\\checkpoints\\final.pt"
-      }
-    },
     {
       "group": "C",
       "seed": 42,
@@ -251,5 +119,19 @@
   "engineering_gate_validation": "logs\\development\\task_allocation\\step06_engineering_gate\\validation.json",
   "handoff_commands": "logs\\development\\task_allocation\\step06_engineering_gate\\handoff_commands.json",
   "source_identity_inventory": "logs\\development\\task_allocation\\step06_engineering_gate\\protected_files_after.json",
-  "release_scope": "Step06 only; Step07 formal training not started"
+  "release_scope": "Current runnable task-allocation configs retain C only; original ABC publication identity remains historical in metadata/ABC_RELEASE_MANIFEST.json.",
+  "active_groups": [
+    "C"
+  ],
+  "continuation_configuration_paths": [
+    "experiments/task-allocation/configs/c-seed42-16k-resume.json",
+    "experiments/task-allocation/configs/c-seed42-32k-resume.json",
+    "experiments/task-allocation/configs/c-seed42-40k-resume.json",
+    "experiments/task-allocation/configs/c-seed42-8k.json",
+    "experiments/task-allocation/configs/c-seed43-40k.json",
+    "experiments/task-allocation/configs/c-seed43-8k.json",
+    "experiments/task-allocation/configs/c-seed44-40k.json",
+    "experiments/task-allocation/configs/c-seed44-8k.json"
+  ],
+  "retirement_receipt": "metadata/cleanup/20261020_retire_ab/receipt.json"
 }

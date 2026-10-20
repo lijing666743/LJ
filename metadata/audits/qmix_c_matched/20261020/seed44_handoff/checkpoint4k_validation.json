@@ -1,0 +1,27 @@
+{
+  "status": "checkpoint_validated_before_handoff",
+  "checked_at_utc": "2026-10-20T03:53:30.844292+00:00",
+  "checkpoint": "D:\\My_project_li\\logs\\strong_baselines\\development\\c_feature_credit_qmix\\seed44\\8k\\c_feature_credit_qmix__remote_stress_v2__seed-44__cfg-505599d604ea__git-eb1140cefc4a\\checkpoints\\step_004000.pt",
+  "sha256": "f88827fc618f25a799401543bf60f19f058f7d3b7eb99c058f3c9d64c956d001",
+  "bytes": 148880495,
+  "schema": "factorized_gat_qmix.checkpoint.v10",
+  "config_hash": "505599d604ea1d61d863184ec896f72c280ad1c2fa4978da441141c7151d994c",
+  "seed": 44,
+  "saved_steps": 4000,
+  "saved_episodes": 8,
+  "saved_updates": 97,
+  "runtime": {
+    "torch": "2.7.1+cu118",
+    "device": "cuda"
+  },
+  "finite_parameters_target_and_optimizer": true,
+  "shadow_state": {
+    "window": 15,
+    "spent": 190,
+    "total_shadow_steps": 16570,
+    "pair_count": 29
+  },
+  "optimizer_constructed": false,
+  "environment_steps_executed": 0,
+  "source_and_reward_changed": false
+}
